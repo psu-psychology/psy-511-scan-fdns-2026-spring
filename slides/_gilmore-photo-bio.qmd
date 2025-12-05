@@ -1,0 +1,51 @@
+:::: {.columns}
+::: {.column width=50%}
+![](img_gilmore_bio/266px-DenverCP.JPG){height=150px}
+![](img_gilmore_bio/brown_large.png){height=150px}
+![](img_gilmore_bio/wash-monument.jpeg){height=150px}
+
+:::
+::: {.column width=50%}
+![](img_gilmore_bio/cmu-logo.jpg){height=150px}
+
+![](img_gilmore_bio/mt-nittany.png){height=150px}
+
+![](img_gilmore_bio/sleic.png){height=150px}
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width=50%}
+![https://databrary.org](../include/img/databrary-nav.png){height=150px fig-align="center"}
+![https://play-project.org](img_gilmore_bio/PLAY-logo.png){height=150px fig-align="center"}
+![https://penn-state-open-science.github.io](img_gilmore_bio/psu-osi.png){height=150px fig-align="center"}
+
+:::
+::: {.column width=50%}
+![@Qian2022-yp](img_gilmore_bio/qian-fig-01-boxplots-new.jpg){height=225 fig-align="center"}
+
+![@Gilmore2016-lq](img_gilmore_bio/gilmore-thomas-fesi.png){height=225 fig-align="center"}
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width=50%}
+![https://acousticbrew.org](https://acousticbrew.org/wp-content/uploads/2022/03/Acoustic-Brew-logo.jpg){height=150px fig-align="center"}
+
+![https://www.nextstagetheatre.org](img_gilmore_bio/next-stage-logo.jpg){height=150px fig-align="center"}
+
+![](https://w3tm.org/img/w3tm-qsl.png){height=150px fig-align="center"}
+:::
+::: {.column width=50%}
+![https://cpoclub.org](../include/img/cpo-logo.jpg){height=150px fig-align="center"}
+
+![](../include/img/2024-04-08-151856-Solar-timelapse_thn.jpeg){height=150px fig-align="center"}
+
+![](../include/img/lola.jpeg){height=150px fig-align="center"}
+
+:::
+::::

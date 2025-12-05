@@ -1,0 +1,323 @@
+## January 13-17 {- #week-01}
+
+### Thursday, January 16 {-}
+
+#### Topics
+
+- Structure of the course
+- Levels of analysis
+- Causality in brain and behavior
+- Does neuroscience need behavior? If so, what does psychology need?
+
+#### Readings
+
+- Required:
+  - @Krakauer2017-xl
+  - @Parada2018-rp
+- Optional:
+  - @Siddiqi2022-wl
+  - @Churchland1988-aj
+  - @Favela2020-uc
+  - @Ross2024-nr
+  
+#### Materials
+
+- [Slides](slides/wk01-2025-01-16.html)
+- [Exercise 01](exercises/ex01.html) [assigned]{.green_assigned} | [PDF](exercises/ex01.pdf) |
+
+## January 20-24 {- #week-02}
+
+### Wednesday, January 22
+
+- [Exercise 01](exercises/ex01.html) write-up [due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17010193) |
+
+### Thursday, January 23 {-}
+
+#### Topics
+
+- Neuroanatomy lab
+
+#### Readings
+
+- [Neuroanatomy notes](resources/anatomy.qmd)
+
+#### Materials
+
+- [Slides](slides/wk02-2025-01-23.qmd). [PDF](slides/wk02-2025-01-23.pdf)
+- [Allen Brain Atlas](http://atlas.brain-map.org/atlas?atlas=138322605#atlas=138322605&structure=10390&resolution=119.78&x=31680.307112068967&y=42751.00179211847&zoom=-6&plate=112360949).
+- [Exercise 02](exercises/ex02.html) [distributed]{.green_assigned} | [PDF](exercises/ex02.pdf) |
+
+## January 27-31 {- #week-03}
+
+### Wednesday, January 29 {-}
+
+- [Exercise 02](exercises/ex02.html) [due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17020749) |
+
+### Thursday, January 30 {-}
+
+#### Topics
+
+- Cellular neuroscience I
+  - Anatomy
+  - Physiology
+    - Resting potential
+
+#### Readings
+
+- [Cellular neuroscience notes](resources/cells.html) | [PDF](resources/cells.pdf) |
+- Optional:
+  - @Zeng2017-sg
+  - @Oliveira2015-ky
+  - @Distefano-Gagne2023-gt
+
+#### Materials
+
+- [Slides](slides/wk03-2025-01-30.qmd) | [PDF](slides/wk03-2025-01-30.pdf) |
+- [Exercise 03](exercises/ex03.html) [distributed]{.green_assigned}. | [PDF](exercises/ex03.pdf) |
+
+## February 3-7 {- #week-04}
+
+### Thursday, February 06 {-}
+
+#### Topics
+
+- Cellular neuroscience II
+  - Action potential
+  - Synaptic transmission
+- [Exercise 04](exercises/ex04.html) [assigned]{.green_assigned}. | [PDF](exercises/ex04.pdf) |
+
+#### Readings
+
+- [Cellular neuroscience notes](resources/cells.qmd)
+
+#### Materials
+
+- [Slides](slides/wk04-2025-02-06.qmd)
+
+## February 10-14 {- #week-05}
+
+### Wednesday, February 12
+
+- [Exercise 03](exercises/ex03.html) write-up [due]{.orange_due}. | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17038893) |
+
+### Thursday, February 13 {-}
+
+#### Topics
+
+- Neurochemistry
+  - Neurotransmitters
+  - Hormones
+- Neurocomputing
+
+#### Readings
+
+- [Neurochemistry notes](resources/neurochemistry.qmd)
+- Optional: @Sarkar2016-qf.
+
+#### Materials
+
+- [Slides](slides/wk05-2025-02-13.qmd)
+- [Exercise 05](exercises/ex05.html) [distributed]{.green_assigned} | [PDF](exercises/ex05.pdf) |
+
+## February 17-21 {- #week-06}
+
+### Wednesday, February 19
+
+- [Exercise 04](exercises/ex04.html) write-up [due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17059396) |
+
+### Thursday, February 20 {-}
+
+#### Topics
+
+- Methods in neuroscience
+
+#### Readings
+
+- Watch: @Mitcbmm2019-oj
+- Review: @noauthor_undated-wk
+- Recommended:
+  - @Cohen2017-og
+  - @Hillman2014-xv
+- Optional: 
+  - @Koch2022-wk
+
+#### Materials
+
+- [Methods notes](resources/methods.qmd)
+- [Exercise 06](exercises/ex06.html) [distributed]{.green_assigned} | [PDF](exercises/ex06.pdf) |
+
+## February 24-28 {- #week-07}
+
+### Wednesday, February 26
+
+- [Exercise 05](exercises/ex05.html) [write-up due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17065114) |
+
+### Thursday, February 27 {-}
+
+#### Topics
+
+- Evolution of the nervous system
+
+#### Readings
+
+<!-- - [evolution resources](resources/evolution.qmd) -->
+- Required:
+  - @Charvet2012-bg
+  - @hofman_evolution_2014
+- Optional: 
+  - @Castrillon2023-mt
+
+#### Materials
+
+- [Notes](resources/evolution.qmd)
+- [Exercise 07](exercises/ex07.html) [distributed]{.green_assigned} | [PDF](exercises/ex07.pdf) |
+
+## March 3-7 {- #week-08}
+
+### Wednesday, March 05
+
+- [Exercise 06](exercises/ex06.qmd) write-up [due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17065115) |
+- [Final project](exercises/final-project.qmd) proposal [due]{.orange_due}
+
+### Thursday, March 06 {-}
+
+#### Topics
+
+- Development of the nervous system
+
+#### Readings
+
+- Required:
+  - @Cao2017-bl
+  - @Blumberg2023-fs
+- Optional:
+  - @Larsen2023-wx
+  - @Rakic2009-jk
+
+#### Materials
+
+- [Notes](resources/development.qmd)
+- [Exercise 06](exercises/ex08.html) [distributed]{.green_assigned} | [PDF](exercises/ex08.pdf) |
+
+## March 10-14 *Spring Break* {- #spring-break}
+
+## March 17-21 {- #week-09}
+
+### Wednesday, March 19
+
+- [Exercise 07](exercises/ex07.qmd) write-up [due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17090042) |
+
+### Thursday, March 20 {-}
+
+**NO CLASS**
+
+## March 24-28 {- #week-10}
+
+### Wednesday, March 26
+
+- [Exercise 08](exercises/ex08.qmd) write-up [due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17090083) |
+
+### Thursday, March 27 {-}
+
+#### Topics
+
+- Perception & action
+
+#### Readings
+
+- @Khalsa2018-gf
+- @Shenoy2013-zi
+
+#### Materials
+
+- [Perception notes](resources/perception.qmd)
+- [Action notes](resources/action.qmd)
+
+## March 31 - April 4 {- #week-11}
+
+### Thursday, April 03 {-}
+
+#### Topics
+
+- Cognition & Language
+
+#### Readings
+
+- @Miller2001-qu
+- @Tuckute2024-gv
+
+#### Materials
+
+- [Notes](resources/cognition-language.qmd)
+
+## April 7-11 {- #week-12}
+
+### Thursday, April 10 {-}
+
+#### Topics
+
+- Neuroscience of emotion
+
+#### Readings
+
+- @Malezieux2023-as
+- @Watabe-Uchida2017-gi
+
+#### Materials
+
+- [Notes](resources/fear-stress-reward.qmd)
+
+## April 14-18 {- #week-13}
+
+### Thursday, April 17 {-}
+
+#### Topics
+
+- Disorder & disease I
+
+#### Readings
+
+- @Howes2023-vk
+- @Volk2015-ki
+
+#### Materials
+
+- [Notes](resources/schizophrenia.qmd)
+
+## April 21-25 {- #week-14}
+
+### Thursday, April 24 {-}
+
+#### Topics
+
+- Disorder & disease II
+
+#### Readings
+
+- @Moncrieff2022-os
+- @Namkung2017-gc
+
+#### Materials
+
+- [Notes](resources/affective-disorders.qmd)
+
+## April 28 - May 2 {- #week-15}
+
+### Thursday, May 01 {-}
+
+#### Topics
+
+- Student presentations
+  - Madison Miles: *A brief overview of psychotropic medications*
+  - Yifei Gong: *When meaning shifts and language switches: Investigating the role of domain-general inhibitory control in bilingual prediction errors*
+- Beethoven and the Cerebral Symphony
+
+#### Materials
+
+- [Slides](slides/wk15-2025-05-01.qmd)
+
+## May 4-9 {- #finals-week}
+
+### Thursday, May 08
+
+- [Final Project](exercises/final-project.qmd) write-up [due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17170786)

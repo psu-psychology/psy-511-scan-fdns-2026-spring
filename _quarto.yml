@@ -1,0 +1,89 @@
+project:
+  type: website
+  render:
+    - "./*.qmd"
+    # - "resources/*.qmd"
+    # - "slides/*.qmd"
+    # - "exercises/*.qmd"
+    # - "supplemental/*.qmd"
+  output-dir: "docs"
+  resources:
+    - "include/snd/*.m4a"
+    - "include/snd/*.wav"
+    - "include/img/*.png"
+    - "include/img/*.jpg"
+    - "include/img/*.gif"
+    - "include/img/*.mov"
+
+website:
+  # announcement: 
+  #   content: "Welcome to PSY 511.001!" 
+  #   position: below-navbar 
+  title: "PSY 511.001"
+  comments:
+    hypothesis:
+      theme: clean
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: schedule.qmd
+        text: Schedule
+      - href: evaluation.qmd
+        text: Evaluation
+      - href: policies.qmd
+        text: Policies
+      - text: Exercises
+        menu:
+          - href: "exercises/ex01.qmd"
+          - href: "exercises/ex02.qmd"
+          - href: "exercises/ex03.qmd"
+          - href: "exercises/ex04.qmd"
+          - href: "exercises/ex05.qmd"
+          - href: "exercises/ex06.qmd"
+          - href: "exercises/ex07.qmd"
+          - href: "exercises/ex08.qmd"
+          - href: "exercises/final-project.qmd"
+      - text: Resources
+        menu:
+          - href: "resources/anatomy.qmd"
+          - href: "resources/cells.qmd"
+          - href: "resources/neurochemistry.qmd"
+          - href: "resources/methods.qmd"
+          - href: "resources/evolution.qmd"
+      - text: Supplemental
+        menu:
+          - href: "supplemental/ex01-themes.qmd"
+  repo-url: https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring
+  repo-actions: [edit, issue]
+  repo-subdir: src
+  page-footer:
+    left: "Copyright © 2025- Rick Gilmore"
+    center: "Built with [Quarto](https://quarto.org/)"
+    right: 
+      - icon: github
+        href: https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring
+    background: light
+    border: true
+  page-navigation: true
+  bread-crumbs: false
+  reader-mode: true
+  
+format:
+  html:
+    theme: default
+    css: include/css/styles.css
+    toc: true
+    toc-depth: 4
+    fig-align: center
+    fontsize: 1.1em
+    number-sections: false
+    citations-hover: true
+    footnotes-hover: true
+    date-modified: last-modified
+    date: today
+    bibliography: [include/bib/packages.bib, include/bib/psu-repro.bib, include/bib/psy-511.bib]
+    csl: include/bib/apa.csl
+    html-math-method: mathjax
+editor: source
+    

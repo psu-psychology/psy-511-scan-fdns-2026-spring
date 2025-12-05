@@ -1,0 +1,87 @@
+---
+title: "Neurochemistry & Neurocomputing"
+subtitle: "PSY 511.003"
+date: 2025-02-13
+format: 
+  revealjs:
+    footer: "[PSY 511 Spr 2024](../index.html)"
+---
+
+# Prelude
+
+## Announcements
+
+- [[Exercise 03](../exercises/ex03.qmd) write-up due yesterday.]{.orange_due}
+- [[Exercise 04](../exercises/ex04.qmd) write-up due next Wednesday, February 19]{.green_assigned}
+
+## Last time...
+
+- How the action potential begins...
+- How it propagates down...
+  - Unmyelinated axons
+  - Myelinated axons
+- How it triggers synaptic transmission
+
+---
+
+### What event(s) (and where) initiate the action potential?
+
+---
+
+### How does the action potential propagate down unmyelinated axons?
+
+---
+
+### How does the action potential trigger synaptic transmission?
+
+## Today's topics
+
+- Neurochemistry
+  - Neurotransmitters
+  - Hormones
+
+# Neurochemistry
+
+---
+
+[Link to resources/neurochemistry](../resources/neurochemistry.qmd)
+
+## Monoamine Song 
+
+{{< video https://youtu.be/TbZ_hTEOKZc?si=3mTczBPJCJsWF8Yc width=100% height=70% >}}
+
+<https://en.wikipedia.org/wiki/Mah_Nà_Mah_Nà>
+
+## Monoamine Song
+
+Monoamines, do-do do do-do</br>
+Monoamines, do do do-do</br>
+Monoamines, do do do do-do do do-do do do-do do do do do-do do
+
+## Monoamine Song
+
+Monoamines, do-pa-mine is one</br>
+Monoamines, norepi, too</br>
+Monoamines, sero-tonin e-pinephrine, dop-a-mine, nor-epinephrine, melatonin, whoo!
+
+## Monoamine Song
+
+Monoamines, mod-u-late neurons </br>
+Monoamines, throughout the brain</br>
+Monoamines, keep people happy, brains snappy, not sleepy, not sappy, do-do do-do do-do do
+
+## Main points
+
+- What substance + 
+- Where released + 
+- What receptor =
+- Physiological effect
+- Chemical communication ancient
+
+## Next time...
+
+- Methods in neuroscience
+
+# Resources
+
+## References

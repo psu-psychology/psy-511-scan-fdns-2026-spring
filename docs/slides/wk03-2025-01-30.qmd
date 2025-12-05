@@ -1,0 +1,94 @@
+---
+title: "Cellular neuroscience I"
+subtitle: "PSY 511.003"
+date: 2025-01-30
+format: 
+  revealjs:
+    footer: "PSY 511 Spr 2025"
+---
+
+# Prelude
+
+<div class="centered">
+<iframe src="https://player.vimeo.com/video/210206930" width="800" height="450" frameborder="0" allowfullscreen></iframe>
+
+<http://www.gregadunn.com/>
+</div>
+
+---
+
+
+{{< video https://www.youtube.com/embed/nvXuq9jRWKE width=100% height=70% >}}
+<!-- <iframe width="800" height="450" src="https://www.youtube.com/embed/nvXuq9jRWKE" frameborder="0" allowfullscreen></iframe> -->
+
+@National_Geographic2014-gv
+
+## In the news...
+
+![@Eckert2024-hd](../include/img/eckert-etal-2024.png)
+
+---
+
+>Our results suggest that individual cells may exhibit habituation behavior as rich as that which has been codified in multi-cellular animals with central nervous systems and that the relative simplicity of the biomolecular level may enhance our understanding of the mechanisms of learning.
+
+@Eckert2024-hd
+
+---
+
+> I contain multitudes...
+
+@Whitman2019-kq
+
+## Announcements
+
+- Exercise 01
+  - Scores
+  - [Themes](../supplemental/ex01-themes.qmd)
+  - Implications
+- [[Exercise 03](../exercises/ex03.qmd) distributed.]{.green_assigned}
+  - due in two weeks [on Wednesday, February 7]{.orange_due}
+
+## Last time...
+
+- Neuroanatomy
+
+---
+
+### Where is the cerebellum found?
+
+---
+
+### In what lobe would one find primary somatosensory cortex?
+
+---
+
+### What structure in the diencephalon controls the endocrine system and both branches of the autonomic nervous sytem?
+
+## Today's topics
+
+- [Cellular neuroscience](../resources/cells.html)
+  - Neurons
+  - Glia
+- [Resting potential](../resources/cells.html#neurophysiology)
+
+# Break
+
+## Work on Exercise 03
+
+- Visit [Exercise 03](../exercises/ex03.qmd)
+
+## Main points
+
+- Cells of nervous system specialized
+- Convey, process, store information
+- Nervous systems enable complex external (behavior) and internal states
+- Complex behavior/internal states not reducible to, but inseparable from nervous system states
+- Electrical + chemical information flows
+
+## Next time...
+
+- [The action potential](../resources/cells.html#action-potential)
+
+# Resources
+
+## References
