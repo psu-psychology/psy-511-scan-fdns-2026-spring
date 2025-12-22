@@ -295,6 +295,5 @@ flowchart TD
   yx@{ animation: fast }
   xa@{ animation: fast }
   af@{ animation: fast }
-  
 ```
 
