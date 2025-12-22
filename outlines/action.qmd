@@ -1,0 +1,73 @@
+---
+title: "Action"
+format: html
+---
+
+## Motivation
+
+- Animals are *animate*
+- Nervous systems generate outputs
+- Our actions influence the external world, $W$, and our own bodies, $B$
+
+```{mermaid}
+flowchart TD
+  N[Nervous System] --> B[Body]
+  B --> W[World]
+```
+
+- Nervous system outputs come in three broad classes.
+
+```{mermaid}
+flowchart TD
+  N[Nervous System] -- autonomic --> B[Body];
+  N -- somatic --> B;
+  N -- endocrine --> B;
+```
+
+- Nervous system inputs fall into two broad classes.
+
+```{mermaid}
+flowchart TD
+  N[Nervous System] <---|interoception| B[Body]
+  N <---|exteroception| B
+```
+
+- Perceiving the consequences of nervous system outputs provides the basis of inferences about causality
+
+```{mermaid}
+flowchart TD
+  N[Nervous System] -- autonomic --> B[Body]
+  N -- somatic --> B
+  N -- endocrine --> B
+  B --->|interoception| N
+  B --->|action| W[World]
+  W --->|perception| B
+  B --->|exteroception| N
+```
+
+- Nervous system outputs are shaped by prior nervous system states. 
+- Body system outputs are shaped by prior body states.
+
+```{mermaid}
+flowchart TB
+  N[Nervous System] ---> N2[Nervous System]
+  B[Body] ---> B2
+  subgraph T1
+  N -- autonomic --> B[Body]
+  N -- somatic --> B
+  N -- endocrine --> B
+  B --->|interoception| N
+  B --->|action| W[World]
+  W --->|perception| B
+  B --->|exteroception| N
+  end
+  subgraph T2
+  N2 -- autonomic --> B2[Body]
+  N2 -- somatic --> B2
+  N2 -- endocrine --> B2
+  B2 --->|interoception| N2
+  B2 --->|action| W2[World]
+  W2 --->|perception| B2
+  B2 --->|exteroception| N2
+  end
+```

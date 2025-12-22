@@ -1,0 +1,300 @@
+---
+title: "Nervous System"
+format: html
+---
+
+## About
+
+This document depicts a diagram that students may use to study core anatomical terms.
+
+## Diagrams
+
+```{mermaid}
+%%| label: fig-nervous-system
+%%| fig-cap: "Nervous System"
+flowchart TD
+  A@{shape: rect, label: "Nervous System" }
+  B@{shape: rect, label: "Central Nervous System (CNS)" }
+  C@{shape: rect, label: "Peripheral Nervous System (PNS)" }
+  
+  A --- B
+  A --- C
+```
+
+![By Own work, CC BY 3.0, <https://commons.wikimedia.org/w/index.php?curid=10187018>](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/TE-Nervous_system_diagram.svg/1280px-TE-Nervous_system_diagram.svg.png)
+
+### Central Nervous System (CNS)
+
+```{mermaid}
+%%| label: fig-cns
+%%| fig-cap: "Central Nervous System (CNS)"
+flowchart TD
+  A@{ shape: rect, label: "Central Nervous System (CNS)" }
+  B@{ shape: rect, label: "Brain" }
+  C@{ shape: rect, label: "Spinal Cord" }
+  
+  A --- B
+  A --- C
+```
+
+### Peripheral Nervous System (PNS)
+
+```{mermaid}
+%%| label: fig-pns
+%%| fig-cap: "Peripheral Nervous System."
+flowchart TD
+  A@{ shape: rect, label: "Peripheral Nervous System (PNS)" }
+  B@{ shape: rect, label: "Somatic Nervous System" }
+  C@{ shape: rect, label: "Autonomic Nervous System (ANS)" }
+
+  
+  A --- B
+  A --- C
+```
+
+### Autonomic Nervous System (ANS)
+
+```{mermaid}
+%%| label: fig-ans
+%%| fig-cap: "Autonomic Nervous System (ANS)"
+flowchart TD
+  A@{ shape: rect, label: "Autonomic Nervous System (ANS)" }
+  B@{ shape: rect, label: "Sympathetic Nervous System" }
+  C@{ shape: rect, label: "Parasympathetic Nervous System" }
+  
+  A --- B
+  A --- C
+```
+
+### Brain
+
+```{mermaid}
+%%| label: fig-brain
+%%| fig-cap: "Components of the brain."
+flowchart TD
+  A[Brain] --- B[Forebrain]
+  A --- C[Midbrain]
+  A --- D[Hindbrain]
+```
+
+### Hindbrain
+
+```{mermaid}
+%%| label: fig-hindbrain
+%%| fig-cap: "Components of the hindbrain."
+flowchart TD
+  A[Hindbrain] --- B[Medulla Oblongata]
+  A --- C[Pons]
+  A --- D[Cerebellum]
+```
+
+### Midbrain
+
+```{mermaid}
+%%| label: fig-midbrain
+%%| fig-cap: "Components of the midbrain."
+flowchart TD
+  A[Midbrain] --- B[Tectum]
+  A --- C[Tegmentum]
+  B --- D[Superior Colliculus]
+  B --- E[Inferior Colliculus]
+```
+
+### Forebrain
+
+```{mermaid}
+%%| label: fig-forebrain
+%%| fig-cap: "Components of the forebrain."
+flowchart TD
+  A[Forebrain] --- B[Cerebral Cortex]
+  A --- H[Diencephalon]
+  H --- C[Thalamus]
+  H --- D[Hypothalamus]
+  A --- E[Basal Ganglia]
+  A --- F[Amygdala]
+  A --- G[Hippocampus]
+```
+
+### Cerebral cortex
+
+```{mermaid}
+%%| label: fig-cortex
+%%| fig-cap: "Components of the cerebral cortex."
+flowchart TD
+  A[Cerebral Cortex] --- B[Frontal Lobe]
+  A --- C[Temporal Lobe]
+  A --- D[Parietal Lobe]
+  A --- E[Occipital Lobe]
+  A --- F[Insula]
+```
+
+![By Sebastian023, CC BY-SA 3.0, <https://commons.wikimedia.org/w/index.php?curid=21020857>](https://upload.wikimedia.org/wikipedia/commons/4/46/LobesCaptsLateral.png)
+
+### Occipital lobe
+
+:::: {.columns}
+::: {.column width=80%}
+```{mermaid}
+%%| label: fig-occipital-lobe
+%%| fig-cap: "Components of the occipital lobe."
+flowchart TD
+  A@{ shape: rect, label: "Occipital Lobe" }
+  B@{ shape: rect, label: "V1" }
+  C@{ shape: rect, label: "V2" }
+  D@{ shape: rect, label: "BA 17"}
+  
+  A ab@--- B
+  A ac@--- C
+  B bd@-.- D
+```
+:::
+::: {.column width=20%}
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/8/8f/Occipital_lobe_animation_small.gif){width="200px" fig-align="right"}
+:::
+::::
+
+### Parietal lobe
+
+:::: {.columns}
+::: {.column width=80%}
+```{mermaid}
+%%| label: fig-parietal-lobe
+%%| fig-cap: "Components of the parietal lobe."
+flowchart TD
+  A@{ shape: rect, label: "Parietal Lobe"}
+  B@{ shape: rect, label: "Primary Somatosensory Cortex (S1)"}
+  C@{ shape: rect, label: "Precuneus"}
+  D@{ shape: rect, label: "BA 1, 2, 3"}
+  
+  A --- B
+  A --- C
+  B -.- D
+```
+:::
+::: {.column width=20%}
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/3/32/Parietal_lobe_animation_small.gif){width="200px" fig-align="right"}
+:::
+::::
+
+
+### Temporal Lobe
+
+:::: {.columns}
+::: {.column width=80%}
+```{mermaid}
+%%| label: fig-temporal-lobe
+%%| fig-cap: "Components of the temporal lobe."
+flowchart TD
+  A@{ shape: rect, label: "Temporal Lobe" }
+  B@{ shape: rect, label: "Primary Auditory Cortex (A1)"}
+  C@{ shape: rect, label: "Superior Temporal Sulcus"}
+  
+  A --- B
+  A --- C
+```
+:::
+::: {.column width=20%}
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/1/1c/Temporal_lobe_animation.gif){width="200px" fig-align="right"}
+:::
+::::
+
+### Frontal lobe
+
+:::: {.columns}
+::: {.column width=80%}
+```{mermaid}
+%%| label: fig-frontal-lobe
+%%| fig-cap: "Components of the frontal lobe."
+flowchart TD
+  A@{ shape: rect, label: "Frontal Lobe" }
+  B@{ shape: rect, label: "Motor Cortex" }
+  C@{ shape: rect, label: "Prefrontal Cortex (PFC)" }
+
+  A --- B
+  A --- C
+
+  click A "https://en.wikipedia.org/wiki/Frontal_lobe"
+  click B "https://en.wikipedia.org/wiki/Motor_cortex"
+  click C "https://en.wikipedia.org/wiki/Prefrontal_cortex"
+```
+:::
+::: {.column width=20%}
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/5/54/Frontal_lobe_animation.gif){width="200px" fig-align="right"}
+:::
+::::
+
+### Motor Cortex
+
+```{mermaid}
+%%| label: fig-frontal-lobe
+%%| fig-cap: "Components of the motor cortex."
+flowchart TD
+  B@{ shape: rect, label: "Motor Cortex" }
+  D@{ shape: rect, label: "Frontal Eye Fields (FEF)" }
+  E@{ shape: rect, label: "Premotor Cortex (PMC)" }
+  F@{ shape: rect, label: "Primary Motor Cortex (M1)" }
+  G@{ shape: rect, label: "Supplementary Motor Area (SMA)" }
+
+  B --- F
+  B --- D
+  B --- E
+  B --- G
+
+  click B "https://en.wikipedia.org/wiki/Motor_cortex"
+  click C "https://en.wikipedia.org/wiki/Prefrontal_cortex"
+  
+  style B fill:#eee,stroke:#333,stroke-width:4px;
+  classDef fancy fill: #f9f, stroke: #333, stroke-width: 4px;
+  class F fancy
+```
+
+## Sensory pathways
+
+### Vision
+
+```{mermaid}
+flowchart TD
+  Y@{ shape: circle, label: "Pupil" }
+  X@{ shape: circle, label: "Lens" }
+  W@{ shape: rect, label: "World", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Globe_icon.svg/960px-Globe_icon.svg.png?20180308223847", w: 60, h: 60, constraint: on }
+  Z@{ shape: circle, label: "Cornea" }
+  A@{ shape: circle, label: "Retina" }
+  B@{ shape: rect, label: "Lateral Geniculate Nucleus (LGN)" }
+  C@{ shape: rect, label: "Primary Visual Cortex (V1)" }
+  D@{ shape: rect, label: "Suprachiasmatic Nucleus (SCN)" }
+%%| E@{ shape: rect, label: "Edinger-Westphal Nucleus" }
+  F@{ shape: rect, label: "Pretectal Nucleus" }
+%%| G@{ shape: rect, label: "Superior Colliculus (SC)"}
+%%| H@{ shape: stadium, label: "Lateral Rectus" }
+%%| I@{ shape: stadium, label: "Superior Rectus" }
+%%| J@{ shape: stadium, label: "Inferior Rectus" }
+%%| K@{ shape: stadium, label: "Medial Rectus" }
+%%| L@{ shape: stadium, label: "Superior Oblique" }
+%%| M@{ shape: stadium, label: "Inferior Oblique" }
+  
+  W wz@-->|"Light"| Z
+  Z zy@-->|"Light"| Y
+  Y yx@-->|"Light"| X
+  X xa@-->|"Light"| A
+  A ab@-->|"CN I"| B
+  B bc@-->|"Optic Radiations"| C
+  A ad@-->|"Retinohypothalamic Tract"| D
+  A af@--> F
+  C cb@--o B
+%%|   E --o|"CN III (Pupillary Reflex)"| Y
+%%|   E --o|"CN III (Accomodation)"| X
+%%|   F --o E
+%%|   E --o G
+  
+  ab@{ animation: fast }
+  bc@{ animation: fast }
+  ad@{ animation: slow }
+  cb@{ animation: slow }
+  wz@{ animation: fast }
+  zy@{ animation: fast }
+  yx@{ animation: fast }
+  xa@{ animation: fast }
+  af@{ animation: fast }
+  
+```
+
