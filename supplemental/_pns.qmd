@@ -1,0 +1,13 @@
+
+```{mermaid}
+%%| label: fig-pns
+%%| fig-cap: "Peripheral Nervous System."
+flowchart TD
+  A@{ shape: rect, label: "Peripheral Nervous System (PNS)" }
+  B@{ shape: rect, label: "Somatic Nervous System" }
+  C@{ shape: rect, label: "Autonomic Nervous System (ANS)" }
+
+  
+  A --- B
+  A --- C
+```

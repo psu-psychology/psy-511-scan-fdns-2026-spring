@@ -1,0 +1,9 @@
+
+```{mermaid}
+%%| label: fig-brain
+%%| fig-cap: "Components of the brain."
+flowchart TD
+  A[Brain] --- B[Forebrain]
+  A --- C[Midbrain]
+  A --- D[Hindbrain]
+```

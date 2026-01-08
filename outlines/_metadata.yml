@@ -1,0 +1,4 @@
+format:
+  html:
+    bibliography: [../include/bib/packages.bib, ../include/bib/psu-repro.bib, ../include/bib/psy-511.bib]
+    csl: ../include/bib/apa.csl

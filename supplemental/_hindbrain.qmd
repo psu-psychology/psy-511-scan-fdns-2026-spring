@@ -1,0 +1,9 @@
+
+```{mermaid}
+%%| label: fig-hindbrain
+%%| fig-cap: "Components of the hindbrain."
+flowchart TD
+  A[Hindbrain] --- B[Medulla Oblongata]
+  A --- C[Pons]
+  A --- D[Cerebellum]
+```

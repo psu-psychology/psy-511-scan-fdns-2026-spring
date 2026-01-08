@@ -1,0 +1,24 @@
+
+```{mermaid}
+%%| label: fig-frontal-lobe
+%%| fig-cap: "Components of the motor cortex."
+flowchart TD
+  B@{ shape: rect, label: "Motor Cortex" }
+  D@{ shape: rect, label: "Frontal Eye Fields (FEF)" }
+  E@{ shape: rect, label: "Premotor Cortex (PMC)" }
+  F@{ shape: rect, label: "Primary Motor Cortex (M1)" }
+  G@{ shape: rect, label: "Supplementary Motor Area (SMA)" }
+
+  B --- F
+  B --- D
+  B --- E
+  B --- G
+
+  click B "https://en.wikipedia.org/wiki/Motor_cortex"
+  click C "https://en.wikipedia.org/wiki/Prefrontal_cortex"
+  
+  style B fill:#eee,stroke:#333,stroke-width:4px;
+  
+  classDef fancy fill: #f9f, stroke: #333, stroke-width: 4px;
+  class F fancy
+```

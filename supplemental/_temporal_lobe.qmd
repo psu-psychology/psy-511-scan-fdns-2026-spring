@@ -1,0 +1,19 @@
+
+:::: {.columns}
+::: {.column width=80%}
+```{mermaid}
+%%| label: fig-temporal-lobe
+%%| fig-cap: "Components of the temporal lobe."
+flowchart TD
+  A@{ shape: rect, label: "Temporal Lobe" }
+  B@{ shape: rect, label: "Primary Auditory Cortex (A1)"}
+  C@{ shape: rect, label: "Superior Temporal Sulcus"}
+  
+  A --- B
+  A --- C
+```
+:::
+::: {.column width=20%}
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/1/1c/Temporal_lobe_animation.gif){width="200px" fig-align="right"}
+:::
+::::

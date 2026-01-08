@@ -1,0 +1,28 @@
+
+```{mermaid}
+%%| label: fig-audition
+%%| fig-cap: "Auditory projection pathway."
+flowchart TD
+  A@{ shape: rect, label: "Cochlea" };
+  B@{ shape: rect, label: "Cochlear Nucleus" };
+  C@{ shape: rect, label: "Superior Olivary Nucleus" }
+  D@{ shape: rect, label: "Inferior Colliculus" }
+  E@{ shape: rect, label: "Medial Geniculate Nucleus" }
+  F@{ shape: rect, label: "Primary Auditory Cortex (A1)" }
+  
+  A ab@-->|"CN VIII"| B
+  B bc@--> C
+  C cd@--> D
+  D de@--> E
+  E ef@--> F
+  
+  ab@{ animation: fast }
+  bc@{ animation: fast }
+  cd@{ animation: fast }
+  de@{ animation: fast }
+  ef@{ animation: fast }
+```
+
+![<https://pressbooks.umn.edu/sensationandperception/chapter/auditory-pathways-to-the-brain-draft/>](https://pressbooks.umn.edu/app/uploads/sites/41/2020/05/auditoryPathway_final-828x1024.png)
+
+{{< video https://youtu.be/1mcbqJtuqRU >}}

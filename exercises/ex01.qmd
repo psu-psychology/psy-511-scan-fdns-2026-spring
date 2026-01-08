@@ -17,11 +17,11 @@ title: "Exercise 01 • Levels/Terms"
     - What terms or concepts did you choose and why did you choose them.
     - What spatial level or levels of analysis do the terms or concepts reflect?
     - What time frame (temporal level of analysis) applies to the terms in question?
-    - Do these concepts describe behaviors or internal states (physiological or psychological)?
+    - Do these concepts describe behaviors or internal states (physiological or psychological)? If so, what are the behaviors or internal states?
 
 ## Submission details
 
-- Give your paper a file name following this convention: `psy-511-spr-2025-LASTNAME-FIRSTNAME-ex01.docx`,
+- Give your paper a file name following this convention: `psy-511-spr-2026-LASTNAME-FIRSTNAME-ex01.docx`,
 - Provide full APA format citations with DOIs.
-- Your write-up is [due **Wednesday, January 22, 2025 at 11:59 pm**]{.orange_due}.
-- The Canvas dropbox is [here](https://psu.instructure.com/courses/2379931/assignments/17010193)
+- Your write-up is [due **Thursday, January 22, 2026 at 11:59 pm**]{.orange_due}.
+- The Canvas dropbox is [here]()

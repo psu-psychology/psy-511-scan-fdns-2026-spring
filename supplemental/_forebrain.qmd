@@ -1,0 +1,13 @@
+
+```{mermaid}
+%%| label: fig-forebrain
+%%| fig-cap: "Components of the forebrain."
+flowchart TD
+  A[Forebrain] --- B[Cerebral Cortex]
+  A --- H[Diencephalon]
+  H --- C[Thalamus]
+  H --- D[Hypothalamus]
+  A --- E[Basal Ganglia]
+  A --- F[Amygdala]
+  A --- G[Hippocampus]
+```

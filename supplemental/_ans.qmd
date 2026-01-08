@@ -1,0 +1,12 @@
+
+```{mermaid}
+%%| label: fig-ans
+%%| fig-cap: "Autonomic Nervous System (ANS)"
+flowchart TD
+  A@{ shape: rect, label: "Autonomic Nervous System (ANS)" }
+  B@{ shape: rect, label: "Sympathetic Nervous System" }
+  C@{ shape: rect, label: "Parasympathetic Nervous System" }
+  
+  A --- B
+  A --- C
+```

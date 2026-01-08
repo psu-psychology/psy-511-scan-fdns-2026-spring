@@ -1,0 +1,12 @@
+
+```{mermaid}
+%%| label: fig-cns
+%%| fig-cap: "Central Nervous System (CNS)"
+flowchart TD
+  A@{ shape: rect, label: "Central Nervous System (CNS)" }
+  B@{ shape: rect, label: "Brain" }
+  C@{ shape: rect, label: "Spinal Cord" }
+  
+  A --- B
+  A --- C
+```

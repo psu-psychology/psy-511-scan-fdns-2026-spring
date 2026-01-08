@@ -1,0 +1,45 @@
+
+```{mermaid}
+flowchart TD
+  Y@{ shape: circle, label: "Pupil" }
+  X@{ shape: circle, label: "Lens" }
+  W@{ shape: rect, label: "World", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Globe_icon.svg/960px-Globe_icon.svg.png?20180308223847", w: 60, h: 60, constraint: on }
+  Z@{ shape: circle, label: "Cornea" }
+  A@{ shape: circle, label: "Retina" }
+  B@{ shape: rect, label: "Lateral Geniculate Nucleus (LGN)" }
+  C@{ shape: rect, label: "Primary Visual Cortex (V1)" }
+  D@{ shape: rect, label: "Suprachiasmatic Nucleus (SCN)" }
+%%| E@{ shape: rect, label: "Edinger-Westphal Nucleus" }
+  F@{ shape: rect, label: "Pretectal Nucleus" }
+%%| G@{ shape: rect, label: "Superior Colliculus (SC)"}
+%%| H@{ shape: stadium, label: "Lateral Rectus" }
+%%| I@{ shape: stadium, label: "Superior Rectus" }
+%%| J@{ shape: stadium, label: "Inferior Rectus" }
+%%| K@{ shape: stadium, label: "Medial Rectus" }
+%%| L@{ shape: stadium, label: "Superior Oblique" }
+%%| M@{ shape: stadium, label: "Inferior Oblique" }
+  
+  W wz@-->|"Light"| Z
+  Z zy@-->|"Light"| Y
+  Y yx@-->|"Light"| X
+  X xa@-->|"Light"| A
+  A ab@-->|"CN I"| B
+  B bc@-->|"Optic Radiations"| C
+  A ad@-->|"Retinohypothalamic Tract"| D
+  A af@--> F
+  C cb@--o B
+%%|   E --o|"CN III (Pupillary Reflex)"| Y
+%%|   E --o|"CN III (Accomodation)"| X
+%%|   F --o E
+%%|   E --o G
+  
+  ab@{ animation: fast }
+  bc@{ animation: fast }
+  ad@{ animation: slow }
+  cb@{ animation: slow }
+  wz@{ animation: fast }
+  zy@{ animation: fast }
+  yx@{ animation: fast }
+  xa@{ animation: fast }
+  af@{ animation: fast }
+```

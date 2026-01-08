@@ -1,0 +1,23 @@
+
+:::: {.columns}
+::: {.column width=80%}
+```{mermaid}
+%%| label: fig-frontal-lobe
+%%| fig-cap: "Components of the frontal lobe."
+flowchart TD
+  A@{ shape: rect, label: "Frontal Lobe" }
+  B@{ shape: rect, label: "Motor Cortex" }
+  C@{ shape: rect, label: "Prefrontal Cortex (PFC)" }
+
+  A --- B
+  A --- C
+
+  click A "https://en.wikipedia.org/wiki/Frontal_lobe"
+  click B "https://en.wikipedia.org/wiki/Motor_cortex"
+  click C "https://en.wikipedia.org/wiki/Prefrontal_cortex"
+```
+:::
+::: {.column width=20%}
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/5/54/Frontal_lobe_animation.gif){width="200px" fig-align="right"}
+:::
+::::

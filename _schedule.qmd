@@ -1,8 +1,8 @@
-## January 12-16 {- #week-01}
+## Week 01: Jan 12-16
 
-### Thursday, January 15
+### Thu, Jan 15
 
-#### Topics
+#### Topic(s)
 
 - Structure of the course
 - Levels of analysis
@@ -23,12 +23,30 @@
   
 #### Materials
 
-- [Slides](slides/wk01-2025-01-16.html)
+- [Slides]()
 - [Exercise 01](exercises/ex01.html) [assigned]{.green_assigned} | [PDF](exercises/ex01.pdf) |
 
-## January 19-23 {- #week-02}
+## Week 02: Jan 19-23
 
-### Thursday, January 22
+### Thu, Jan 22
+
+#### Topics
+
+- Neuroanatomy
+
+#### Readings
+
+- [Neuroanatomy notes](resources/anatomy.qmd)
+
+#### Materials
+
+- [Slides](slides/wk02-2025-01-23.qmd). [PDF](slides/wk02-2025-01-23.pdf)
+- [Allen Brain Atlas](http://atlas.brain-map.org/atlas?atlas=138322605#atlas=138322605&structure=10390&resolution=119.78&x=31680.307112068967&y=42751.00179211847&zoom=-6&plate=112360949).
+- [Exercise 02](exercises/ex02.html) [distributed]{.green_assigned} | [PDF](exercises/ex02.pdf) |
+
+## Week 03: Jan 26-30
+
+### Thu, Jan 29
 
 #### Topic(s)
 
@@ -42,128 +60,67 @@
 
 - [Action notes](resources/action.qmd)
 
+## Week 04: Feb 2-6 }
 
-<!-- ### Wednesday, January 21 -->
-
-<!-- - [Exercise 01](exercises/ex01.html) write-up [due]{.orange_due} | [Canvas dropbox]() | -->
-
-<!-- ### Thursday, January 22 -->
-
-<!-- #### Topics -->
-
-<!-- - Neuroanatomy lab -->
-
-<!-- #### Readings -->
-
-<!-- - [Neuroanatomy notes](resources/anatomy.qmd) -->
-
-<!-- #### Materials -->
-
-<!-- - [Slides](slides/wk02-2025-01-23.qmd). [PDF](slides/wk02-2025-01-23.pdf) -->
-<!-- - [Allen Brain Atlas](http://atlas.brain-map.org/atlas?atlas=138322605#atlas=138322605&structure=10390&resolution=119.78&x=31680.307112068967&y=42751.00179211847&zoom=-6&plate=112360949). -->
-<!-- - [Exercise 02](exercises/ex02.html) [distributed]{.green_assigned} | [PDF](exercises/ex02.pdf) | -->
-
-## January 26-30 {- #week-03}
-
-### Thursday, January 29
+### Thu, Feb 05
 
 #### Topic(s)
 
 - Perception
 
+#### Readings
+
+- @Khalsa2018-gf
+- @Shenoy2013-zi
+
 #### Materials
 
 - [Perception notes](resources/perception.qmd)
 
-<!-- ### Wednesday, January 28 -->
+## Feb 9-13
 
-<!-- - [Exercise 02](exercises/ex02.html) [due]{.orange_due} | [Canvas dropbox]() | -->
-
-<!-- ### Thursday, January 29 -->
-
-<!-- #### Topics -->
-
-<!-- - Cellular neuroscience I -->
-<!--   - Anatomy -->
-<!--   - Physiology -->
-<!--     - Resting potential -->
-
-<!-- #### Readings -->
-
-<!-- - [Cellular neuroscience notes](resources/cells.html) | [PDF](resources/cells.pdf) | -->
-<!-- - Optional: -->
-<!--   - @Zeng2017-sg -->
-<!--   - @Oliveira2015-ky -->
-<!--   - @Distefano-Gagne2023-gt -->
-
-<!-- #### Materials -->
-
-<!-- - [Slides](slides/wk03-2025-01-30.qmd) | [PDF](slides/wk03-2025-01-30.pdf) | -->
-<!-- - [Exercise 03](exercises/ex03.html) [distributed]{.green_assigned}. | [PDF](exercises/ex03.pdf) | -->
-
-## February 2-6 {- #week-04}
-
-### Thursday, February 05
+### Thu, Feb 12
 
 #### Topic(s)
 
 - Learning & memory
 
-<!-- ### Thursday, February 05 -->
+#### Readings
 
-<!-- #### Topics -->
+#### Materials
 
-<!-- - Cellular neuroscience II -->
-<!--   - Action potential -->
-<!--   - Synaptic transmission -->
-<!-- - [Exercise 04](exercises/ex04.html) [assigned]{.green_assigned}. | [PDF](exercises/ex04.pdf) | -->
+## Week 06: Feb 16-20
 
-<!-- #### Readings -->
-
-<!-- - [Cellular neuroscience notes](resources/cells.qmd) -->
-
-<!-- #### Materials -->
-
-<!-- - [Slides](slides/wk04-2025-02-06.qmd) -->
-
-## February 9-13 {- #week-05}
-
-### Thursday, February 12
+### Thu, Feb 19
 
 #### Topic(s)
 
 - Emotion
 
-<!-- ### Wednesday, February 11 -->
+#### Readings
 
-<!-- - [Exercise 03](exercises/ex03.html) write-up [due]{.orange_due}. | [Canvas dropbox]() | -->
+- @Malezieux2023-as
+- @Watabe-Uchida2017-gi
 
-<!-- ### Thursday, February 12 -->
+#### Materials
 
-<!-- #### Topics -->
+- [Notes](resources/fear-stress-reward.qmd)
 
-<!-- - Neurochemistry -->
-<!--   - Neurotransmitters -->
-<!--   - Hormones -->
-<!-- - Neurocomputing -->
+## Week 07: Feb 23-27 
 
-<!-- #### Readings -->
+### Thu, Feb 26
 
-<!-- - [Neurochemistry notes](resources/neurochemistry.qmd) -->
-<!-- - Optional: @Sarkar2016-qf. -->
+#### Topic(s)
 
-<!-- #### Materials -->
+- Sleep & circadian rhythms
 
-<!-- - [Slides](slides/wk05-2025-02-13.qmd) -->
-<!-- - [Exercise 05](exercises/ex05.html) [distributed]{.green_assigned} | [PDF](exercises/ex05.pdf) | -->
+#### Readings
 
-## February 16-20 {- #week-06}
+#### Materials
 
-<!-- ### Wednesday, February 25 -->
+## Week 08: Mar 2-6 
 
-<!-- - [Exercise 05](exercises/ex05.html) [write-up due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17065114) | -->
-
-### Thursday, February 19
+### Thu, Mar 5
 
 #### Topic(s)
 
@@ -171,7 +128,6 @@
 
 #### Readings
 
-<!-- - [evolution resources](resources/evolution.qmd) -->
 - Required:
   - @Charvet2012-bg
   - @hofman_evolution_2014
@@ -183,39 +139,13 @@
 - [Notes](resources/evolution.qmd)
 - [Exercise 07](exercises/ex07.html) [distributed]{.green_assigned} | [PDF](exercises/ex07.pdf) |
 
-<!-- ### Wednesday, February 18 -->
+## Spring Break: Mar 9-13 
 
-<!-- - [Exercise 04](exercises/ex04.html) write-up [due]{.orange_due} | [Canvas dropbox]() | -->
+**NO CLASS**
 
-<!-- ### Thursday, February 19 -->
+## Week 09: Mar 16-20
 
-<!-- #### Topics -->
-
-<!-- - Methods in neuroscience -->
-
-<!-- #### Readings -->
-
-<!-- - Watch: @Mitcbmm2019-oj -->
-<!-- - Review: @noauthor_undated-wk -->
-<!-- - Recommended: -->
-<!--   - @Cohen2017-og -->
-<!--   - @Hillman2014-xv -->
-<!-- - Optional:  -->
-<!--   - @Koch2022-wk -->
-
-<!-- #### Materials -->
-
-<!-- - [Methods notes](resources/methods.qmd) -->
-<!-- - [Exercise 06](exercises/ex06.html) [distributed]{.green_assigned} | [PDF](exercises/ex06.pdf) | -->
-
-## February 23-27 {- #week-07}
-
-<!-- ### Wednesday, March 04 -->
-
-<!-- - [Exercise 06](exercises/ex06.qmd) write-up [due]{.orange_due} | [Canvas dropbox]() | -->
-<!-- - [Final project](exercises/final-project.qmd) proposal [due]{.orange_due} -->
-
-### Thursday, February 26
+### Thu, Mar 19
 
 #### Topic(s)
 
@@ -235,78 +165,72 @@
 - [Notes](resources/development.qmd)
 - [Exercise 06](exercises/ex08.html) [distributed]{.green_assigned} | [PDF](exercises/ex08.pdf) |
 
-## March 2-6 {- #week-08}
+## Week 10: Mar 23-27
 
-
-## March 9-13 *Spring Break* {- #spring-break}
-
-## March 16-20 {- #week-09}
-
-### Wednesday, March 18
-
-- [Exercise 07](exercises/ex07.qmd) write-up [due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17090042) |
-
-### Thursday, March 19
-
-## March 23-27 {- #week-10}
-
-### Wednesday, March 25
-
-- [Exercise 08](exercises/ex08.qmd) write-up [due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17090083) |
-
-### Thursday, March 26
+### Thu, Mar 26
 
 #### Topics
 
-- Perception & action
+- Cellular neuroscience I
+  - Anatomy
+  - Physiology
+    - Resting potential
 
 #### Readings
 
-- @Khalsa2018-gf
-- @Shenoy2013-zi
+- [Cellular neuroscience notes](resources/cells.html) | [PDF](resources/cells.pdf) |
+- Optional:
+  - @Zeng2017-sg
+  - @Oliveira2015-ky
+  - @Distefano-Gagne2023-gt
 
 #### Materials
 
-- [Perception notes](resources/perception.qmd)
-- [Action notes](resources/action.qmd)
+- [Slides](slides/wk03-2025-01-30.qmd) | [PDF](slides/wk03-2025-01-30.pdf) |
+- [Exercise 03](exercises/ex03.html) [distributed]{.green_assigned}. | [PDF](exercises/ex03.pdf) |
 
-## March 33 - April 3 {- #week-11}
+## Week 11: Mar 30 - Apr 3
 
-### Thursday, April 02
+### Thu, Apr 02
 
 #### Topics
 
-- Cognition & Language
-
+- Cellular neuroscience II
+  - Action potential
+  - Synaptic transmission
+- [Exercise 04](exercises/ex04.html) [assigned]{.green_assigned}. | [PDF](exercises/ex04.pdf) |
 #### Readings
 
-- @Miller2001-qu
-- @Tuckute2024-gv
+- [Cellular neuroscience notes](resources/cells.qmd)
 
 #### Materials
 
-- [Notes](resources/cognition-language.qmd)
+- [Slides](slides/wk04-2025-02-06.qmd)
 
-## April 6-10 {- #week-12}
+## Week 12: Apr 6-10
 
-### Thursday, April 09
+### Thu, Apr 09
 
 #### Topics
 
-- Neuroscience of emotion
+- Neurochemistry
+  - Neurotransmitters
+  - Hormones
+- Neurocomputing
 
 #### Readings
 
-- @Malezieux2023-as
-- @Watabe-Uchida2017-gi
+- [Neurochemistry notes](resources/neurochemistry.qmd)
+- Optional: @Sarkar2016-qf.
 
 #### Materials
 
-- [Notes](resources/fear-stress-reward.qmd)
+- [Slides](slides/wk05-2025-02-13.qmd)
+- [Exercise 05](exercises/ex05.html) [distributed]{.green_assigned} | [PDF](exercises/ex05.pdf) |
 
-## April 13-17 {- #week-13}
+## Week 13: Apr 13-17
 
-### Thursday, April 16
+### Thu, Apr 16
 
 #### Topics
 
@@ -321,9 +245,9 @@
 
 - [Notes](resources/schizophrenia.qmd)
 
-## April 20-24 {- #week-14}
+## Week 14: Apr 20-24
 
-### Thursday, April 23
+### Thu, Apr 23
 
 #### Topics
 
@@ -338,21 +262,21 @@
 
 - [Notes](resources/affective-disorders.qmd)
 
-## April 27 - May 1 {- #week-15}
+## Week 15: Apr 27 - May 1 
 
-### Thursday, April 30
+### Thu, Apr 30
 
 #### Topics
 
-- Student presentations
+- Frontiers in the biology of behavior
 - Beethoven and the Cerebral Symphony
 
 #### Materials
 
-- [Slides](slides/wk15-2025-05-01.qmd)
+- [Slides]()
 
-## May 4-8 {- #finals-week}
+## Finals: May 4-8
 
-### Thursday, May 07
+### Thu, May 07
 
 - [Final Project](exercises/final-project.qmd) write-up [due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17170786)

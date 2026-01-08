@@ -1,0 +1,21 @@
+
+:::: {.columns}
+::: {.column width=80%}
+```{mermaid}
+%%| label: fig-occipital-lobe
+%%| fig-cap: "Components of the occipital lobe."
+flowchart TD
+  A@{ shape: rect, label: "Occipital Lobe" }
+  B@{ shape: rect, label: "V1" }
+  C@{ shape: rect, label: "V2" }
+  D@{ shape: rect, label: "BA 17"}
+  
+  A ab@--- B
+  A ac@--- C
+  B bd@-.- D
+```
+:::
+::: {.column width=20%}
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/8/8f/Occipital_lobe_animation_small.gif){width="200px" fig-align="right"}
+:::
+::::

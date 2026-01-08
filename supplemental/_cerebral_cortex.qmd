@@ -1,0 +1,22 @@
+
+```{mermaid}
+%%| label: fig-cortex
+%%| fig-cap: "Components of the cerebral cortex."
+flowchart TD
+  A[Cerebral Cortex] --- B[Frontal Lobe]
+  A --- C[Temporal Lobe]
+  A --- D[Parietal Lobe]
+  A --- E[Occipital Lobe]
+  A --- F[Insula]
+```
+
+![By Sebastian023, CC BY-SA 3.0, <https://commons.wikimedia.org/w/index.php?curid=21020857>](https://upload.wikimedia.org/wikipedia/commons/4/46/LobesCaptsLateral.png)
+
+![By Dr. Johannes Sobotta - Sobotta's Textbook and Atlas of Human Anatomy 1908, Public Domain, <https://commons.wikimedia.org/w/index.php?curid=29190135>](https://upload.wikimedia.org/wikipedia/commons/b/b4/Sobo_1909_633.png)
+
+| Region | Gyrus & Sulcus Landmark(s) |
+|--------|-------------|
+| Temporal lobe | Lateral Fissure (Sulcus); Preoccipital notch |
+| Parietal lobe | Central Sulcus; Parieto-occipital sulcus; Lateral Fissure (sulcus) |
+| Occipital lobe | Parieto-occipital sulcus; Preoccipital notch |
+| Frontal lobe | Central Sulcus; Lateral Fissure |

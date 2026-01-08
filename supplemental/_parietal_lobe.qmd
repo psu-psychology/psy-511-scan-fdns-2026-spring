@@ -1,0 +1,22 @@
+
+:::: {.columns}
+::: {.column width=80%}
+```{mermaid}
+%%| label: fig-parietal-lobe
+%%| fig-cap: "Components of the parietal lobe."
+flowchart TD
+  A@{ shape: rect, label: "Parietal Lobe"}
+  B@{ shape: rect, label: "Primary Somatosensory Cortex (S1)"}
+  C@{ shape: rect, label: "Precuneus"}
+  D@{ shape: rect, label: "BA 1, 2, 3"}
+  
+  A --- B
+  A --- C
+  B -.- D
+```
+:::
+::: {.column width=20%}
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/3/32/Parietal_lobe_animation_small.gif){width="200px" fig-align="right"}
+:::
+::::
+

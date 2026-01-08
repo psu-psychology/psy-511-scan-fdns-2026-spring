@@ -1,0 +1,14 @@
+
+```{mermaid}
+%%| label: fig-nervous-system
+%%| fig-cap: "Nervous System"
+flowchart TD
+  A@{shape: rect, label: "Nervous System" }
+  B@{shape: rect, label: "Central Nervous System (CNS)" }
+  C@{shape: rect, label: "Peripheral Nervous System (PNS)" }
+  
+  A --- B
+  A --- C
+```
+
+![By Own work, CC BY 3.0, <https://commons.wikimedia.org/w/index.php?curid=10187018>](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/TE-Nervous_system_diagram.svg/1280px-TE-Nervous_system_diagram.svg.png)

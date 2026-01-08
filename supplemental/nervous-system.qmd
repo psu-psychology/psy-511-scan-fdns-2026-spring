@@ -9,6 +9,8 @@ This document depicts a diagram that students may use to study core anatomical t
 
 ## Diagrams
 
+### Nervous system
+
 ```{mermaid}
 %%| label: fig-nervous-system
 %%| fig-cap: "Nervous System"
@@ -295,5 +297,98 @@ flowchart TD
   yx@{ animation: fast }
   xa@{ animation: fast }
   af@{ animation: fast }
+```
+
+## Audition
+
+```{mermaid}
+%%| label: fig-audition
+%%| fig-cap: "Auditory projection pathway."
+flowchart TD
+  A@{ shape: rect, label: "Cochlea" };
+  B@{ shape: rect, label: "Cochlear Nucleus" };
+  C@{ shape: rect, label: "Superior Olivary Nucleus" }
+  D@{ shape: rect, label: "Inferior Colliculus" }
+  E@{ shape: rect, label: "Medial Geniculate Nucleus" }
+  F@{ shape: rect, label: "Primary Auditory Cortex (A1)" }
+  
+  A ab@-->|"CN VIII"| B
+  B bc@--> C
+  C cd@--> D
+  D de@--> E
+  E ef@--> F
+  
+  ab@{ animation: fast }
+  bc@{ animation: fast }
+  cd@{ animation: fast }
+  de@{ animation: fast }
+  ef@{ animation: fast }
+```
+
+![<https://pressbooks.umn.edu/sensationandperception/chapter/auditory-pathways-to-the-brain-draft/>](https://pressbooks.umn.edu/app/uploads/sites/41/2020/05/auditoryPathway_final-828x1024.png)
+{{< video https://youtu.be/1mcbqJtuqRU >}}
+
+## Somatosensation
+
+### Cutaneous receptors
+
+```{mermaid}
+%%| label: fig-cutaneous
+%%| fig-cap: "Cutaneous receptors, see <https://en.wikipedia.org/wiki/Cutaneous_receptor>"
+
+flowchart TD
+  Z@{ shape: circle, label: "Object" }
+  A@{ shape: stadium, label: "Skin" }
+  B@{ shape: stadium, label: "Touch" }
+  C@{ shape: stadium, label: "Touch & Pressure" }
+  D@{ shape: stadium, label: "Vibration" }
+  E@{ shape: stadium, label: "Temperature" }
+  F@{ shape: stadium, label: "Pain & Itch" }
+  G@{ shape: rect, label: "Spinal Cord" }
+  H@{ shape: rect, label: "Ventral Thalamus" }
+  I@{ shape: rect, label: "Primary Somatosensory Cortex (S1)" }
+  
+  Z -->|"Contact/Proximity"| A
+  A -.- B & C & D & E & F
+  B & C & D & E & F --> G
+  G --> H
+  H --> I
+```
+
+### Myotatic (stretch) reflex
+
+```{mermaid}
+%%| label: fig-skeletal-muscle
+%%| fig-cap: "Myotatic stretch reflex circuit."
+
+flowchart TD
+  A@{ shape: circle, label: "Spinal cord" }
+  B@{ shape: rect, label: "Extrafusal muscle fiber" }
+  C@{ shape: rect, label: "Intrafusal muscle fiber" }
+  D@{ shape: rect, label: "Primary Somatosensory Cortex (S1)" }
+  E@{ shape: rect, label: "Primary Motor Cortex (M1)" }
+  
+  style muscle fill: lightyellow
+  style cortex fill: lightyellow
+
+  subgraph muscle ["Skeletal muscle"]
+  B -.- C
+  end
+  
+  subgraph cortex ["Cortex"]
+  E -.- D
+  end
+  
+  A ab@--->|"Alpha motor neuron"| B
+  A ac@--->|"Gamma motor neuron"| C
+  C ca@==>|"Ia afferent"| A
+  A ad@==> D
+  E --> A
+  
+  
+  ca@{ animation: fast }
+  ab@{ animation: fast }
+  ac@{ animation: fast }
+  ad@{ animation: slow }
 ```
 

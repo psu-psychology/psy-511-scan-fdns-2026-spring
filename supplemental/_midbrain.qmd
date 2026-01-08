@@ -1,0 +1,10 @@
+
+```{mermaid}
+%%| label: fig-midbrain
+%%| fig-cap: "Components of the midbrain."
+flowchart TD
+  A[Midbrain] --- B[Tectum]
+  A --- C[Tegmentum]
+  B --- D[Superior Colliculus]
+  B --- E[Inferior Colliculus]
+```

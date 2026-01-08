@@ -562,6 +562,132 @@ Figure&nbsp;14: Components of the motor cortex.
 </div>
 </section>
 </section>
+<section id="audition" class="level2">
+<h2 class="anchored" data-anchor-id="audition">Audition</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-audition" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-audition-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-audition">flowchart TD
+  A@{ shape: rect, label: "Cochlea" };
+  B@{ shape: rect, label: "Cochlear Nucleus" };
+  C@{ shape: rect, label: "Superior Olivary Nucleus" }
+  D@{ shape: rect, label: "Inferior Colliculus" }
+  E@{ shape: rect, label: "Medial Geniculate Nucleus" }
+  F@{ shape: rect, label: "Primary Auditory Cortex (A1)" }
+  
+  A ab@--&gt;|"CN VIII"| B
+  B bc@--&gt; C
+  C cd@--&gt; D
+  D de@--&gt; E
+  E ef@--&gt; F
+  
+  ab@{ animation: fast }
+  bc@{ animation: fast }
+  cd@{ animation: fast }
+  de@{ animation: fast }
+  ef@{ animation: fast }
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-audition-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;15: Auditory projection pathway.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><img src="https://pressbooks.umn.edu/app/uploads/sites/41/2020/05/auditoryPathway_final-828x1024.png" class="img-fluid" alt="https://pressbooks.umn.edu/sensationandperception/chapter/auditory-pathways-to-the-brain-draft/"> </p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/1mcbqJtuqRU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+</section>
+<section id="somatosensation" class="level2">
+<h2 class="anchored" data-anchor-id="somatosensation">Somatosensation</h2>
+<section id="cutaneous-receptors" class="level3">
+<h3 class="anchored" data-anchor-id="cutaneous-receptors">Cutaneous receptors</h3>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-cutaneous" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-cutaneous-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-cutaneous">flowchart TD
+  Z@{ shape: circle, label: "Object" }
+  A@{ shape: stadium, label: "Skin" }
+  B@{ shape: stadium, label: "Touch" }
+  C@{ shape: stadium, label: "Touch &amp; Pressure" }
+  D@{ shape: stadium, label: "Vibration" }
+  E@{ shape: stadium, label: "Temperature" }
+  F@{ shape: stadium, label: "Pain &amp; Itch" }
+  G@{ shape: rect, label: "Spinal Cord" }
+  H@{ shape: rect, label: "Ventral Thalamus" }
+  I@{ shape: rect, label: "Primary Somatosensory Cortex (S1)" }
+  
+  Z --&gt;|"Contact/Proximity"| A
+  A -.- B &amp; C &amp; D &amp; E &amp; F
+  B &amp; C &amp; D &amp; E &amp; F --&gt; G
+  G --&gt; H
+  H --&gt; I
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cutaneous-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;16: Cutaneous receptors, see <a href="https://en.wikipedia.org/wiki/Cutaneous_receptor" class="uri">https://en.wikipedia.org/wiki/Cutaneous_receptor</a>
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="myotatic-stretch-reflex" class="level3">
+<h3 class="anchored" data-anchor-id="myotatic-stretch-reflex">Myotatic (stretch) reflex</h3>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-skeletal-muscle" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-skeletal-muscle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-skeletal-muscle">flowchart TD
+  A@{ shape: circle, label: "Spinal cord" }
+  B@{ shape: rect, label: "Extrafusal muscle fiber" }
+  C@{ shape: rect, label: "Intrafusal muscle fiber" }
+  D@{ shape: rect, label: "Primary Somatosensory Cortex (S1)" }
+  E@{ shape: rect, label: "Primary Motor Cortex (M1)" }
+  
+  style muscle fill: lightyellow
+  style cortex fill: lightyellow
+
+  subgraph muscle ["Skeletal muscle"]
+  B -.- C
+  end
+  
+  subgraph cortex ["Cortex"]
+  E -.- D
+  end
+  
+  A ab@---&gt;|"Alpha motor neuron"| B
+  A ac@---&gt;|"Gamma motor neuron"| C
+  C ca@==&gt;|"Ia afferent"| A
+  A ad@==&gt; D
+  E --&gt; A
+  
+  
+  ca@{ animation: fast }
+  ab@{ animation: fast }
+  ac@{ animation: fast }
+  ad@{ animation: slow }
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-skeletal-muscle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;17: Myotatic stretch reflex circuit.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
 
 </main>
 <!-- /main column -->

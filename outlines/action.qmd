@@ -71,3 +71,64 @@ flowchart TB
   B2 --->|exteroception| N2
   end
 ```
+
+
+## Behaviors
+
+### Orienting
+
+#### Eye movements
+
+- Saccades
+
+#### Head movements
+
+### Balance
+
+- @Cullen2022-ao; 
+
+### Reaching & grasping
+
+- @Kim2021-ph; @Di-Caro2025-tl
+
+### Locomotion
+
+- @Purves2001-ht; @UnknownUnknown-gb; @Xing2022-om
+
+### Ingestion & Elimination
+
+### Communication
+
+#### Speech
+
+- @Khanna2024-fe; @Griffin2024-zo
+- @Zada2025-jl
+
+#### Facial expression
+
+- @Bress2024-og
+
+#### Gesture
+
+## Output systems
+
+### Somatic
+
+### Autonomic
+
+#### Sympathetic
+
+#### Parasympathetic
+
+#### Enteric
+
+- @Linden2025-mx
+
+### Endocrine
+
+
+## How muscles work
+
+## How muscles get activated by the CNS
+
+## Disorders of the motor system

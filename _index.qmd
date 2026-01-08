@@ -16,7 +16,7 @@ rog1 AT-SYMBOL psu PERIOD edu</br>
 Lab site: [https://gilmore-lab.github.io](http://gilmore-lab.github.io)</br>
 Personal site: [https://rick-gilmore.com](https://rick-gilmore.com)
 
-## Meeting Location and Time
+## Where & When
 
 467 Moore</br>
 Thursdays, 1-4 PM
