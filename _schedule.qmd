@@ -42,7 +42,7 @@ ex_lvl_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Assigned*: [Exercise LVL](exercises/ex-LVL.html). *Due*: `{r} ex_lvl_due`. [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981371).
+- *Assigned*: [Exercise LVL • Levels/Terms](exercises/ex-LVL.html). *Due*: `{r} ex_lvl_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981371) |
 
 ## Week 02: Jan 19-23
 
@@ -72,8 +72,8 @@ ex_anat_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Due*: [Exercise LVL](exercises/ex-LVL.qmd). [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981371)
-- *Assigned*: [Exercise ANAT](exercises/ex-ANAT.qmd). *Due*: `{r} ex_anat_due`. [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981392)
+- *Due*: [Exercise LVL • Levels/Terms](exercises/ex-LVL.qmd). [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981371)
+- *Assigned*: [Exercise ANAT • Neuroanatomy](exercises/ex-ANAT.qmd). *Due*: `{r} ex_anat_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981392) |
 
 ## Week 03: Jan 26-30
 
@@ -93,7 +93,7 @@ ex_anat_due <- psy_511_vars |>
 
 #### Assignments
 
-- *Due*: [Exercise ANT](exercises/ex-ANAT.qmd). [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981392)
+- *Due*: [Exercise ANAT • Neuroanatomy](exercises/ex-ANAT.qmd). | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981392) |
 
 ## Week 04: Feb 2-6
 
@@ -132,8 +132,8 @@ final_proj_prop_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Assigned*: [Final project proposal](exercises/final-project.qmd). *Due*: `{r} final_proj_prop_due`. [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005251).
-- *Assigned*: [Exercise PA](exercises/ex-PA.qmd). *Due*: `{r} ex_pa_due`. [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005038)
+- *Assigned*: [Final project proposal](exercises/final-project.qmd). *Due*: `{r} final_proj_prop_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005251) |
+- *Assigned*: [Exercise PA • Perception & Action](exercises/ex-PA.qmd). *Due*: `{r} ex_pa_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005038) |
 
 ## Week 05: Feb 9-13
 
@@ -149,7 +149,7 @@ final_proj_prop_due <- psy_511_vars |>
 
 #### Assignment(s)
 
-- *Due*: [Exercise PA](exercises/ex-PA.qmd). [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005038)
+- *Due*: [Exercise PA • Perception & Action](exercises/ex-PA.qmd). | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005038) |
 
 ## Week 06: Feb 16-20
 
@@ -179,7 +179,7 @@ ex_emo_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Assigned*: [Exercise EMO](exercises/ex-EMO.qmd). *Due*: `{r} ex_emo_due`. [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005124)
+- *Assigned*: [Exercise EMO • Measuring emotion](exercises/ex-EMO.qmd). *Due*: `{r} ex_emo_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005124) |
 
 ## Week 07: Feb 23-27 
 
@@ -204,8 +204,8 @@ ex_zz_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Due*: [Exercise EMO](exercises/ex-EMO.qmd). [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005124)  
-- *Assigned*: [Exercise ZZ](exercises/ex-ZZ.qmd). *Due*: `{r} ex_zz_due`. [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005158)
+- *Due*: [Exercise EMO • Measuring emotion](exercises/ex-EMO.qmd). | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005124) |
+- *Assigned*: [Exercise ZZ • Sleep & Circadian Rhythms](exercises/ex-ZZ.qmd). *Due*: `{r} ex_zz_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005158) |
 
 #### Readings
 
@@ -242,9 +242,9 @@ ex_evo_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Assigned*: [Exercise EVO](exercises/ex-EVO.qmd). *Due*: `{r} ex_evo_due`. [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005262)
-- *Due*: [Final project proposal](exercises/final-project.qmd). [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005251)
-- *Due*: [Exercise ZZ](exercises/ex-ZZ.qmd). [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338)
+- *Due*: [Final project proposal](exercises/final-project.qmd). | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005251) |
+- *Due*: [Exercise ZZ • Sleep & Circadian Rhythms](exercises/ex-ZZ.qmd). | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338) |
+- *Assigned*: [Exercise EVO • Evolution](exercises/ex-EVO.qmd). *Due*: `{r} ex_evo_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005262) |
 
 ## Spring Break: Mar 9-13 
 
@@ -282,8 +282,8 @@ ex_dev_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Due*: [Exercise EVO](exercises/ex-EVO.qmd). [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005262). 
-- *Assigned*: [Exercise DEV](exercises/ex-DEV.qmd). *Due*: `{r} ex_dev_due`. [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338)
+- *Due*: [Exercise EVO • Evolution](exercises/ex-EVO.qmd). | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005262) | 
+- *Assigned*: [Exercise DEV • Development](exercises/ex-DEV.qmd). *Due*: `{r} ex_dev_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338) |
 
 ## Week 10: Mar 23-27
 
@@ -319,8 +319,8 @@ ex_phys_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Due*: [Exercise DEV](exercises/ex-DEV.qmd). [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338)
-- *Assigned*: [Exercise PHYS](exercises/ex-PHYS.qmd). *Due*: `{r} ex_phys_due`. [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005427)
+- *Due*: [Exercise DEV • Development](exercises/ex-DEV.qmd) | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338) |
+- *Assigned*: [Exercise PHYS • Neurophysiology I](exercises/ex-PHYS.qmd). *Due*: `{r} ex_phys_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005427) |
 
 ## Week 11: Mar 30 - Apr 3
 
@@ -351,8 +351,8 @@ ex_ap_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Due*: [Exercise PHYS](exercises/ex-PHYS.qmd). [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005427)
-- *Assigned*: [Exercise AP](exercises/ex-AP.qmd). *Due*: `{r} ex_ap_due`. [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005465)
+- *Due*: [Exercise PHYS • Neurophysiology I](exercises/ex-PHYS.qmd) | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005427) |
+- *Assigned*: [Exercise AP • Neurophysiology II](exercises/ex-AP.qmd). *Due*: `{r} ex_ap_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005465) |
 
 ## Week 12: Apr 6-10
 
@@ -385,8 +385,8 @@ ex_chem_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Due*:  [Exercise AP](exercises/ex-AP.qmd). [Canvas dropbox](404.qmd)
-- *Assigned*: [Exercise CHEM](exercises/ex-CHEM.qmd). *Due*: `{r} ex_chem_due`. [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005510)
+- *Due*:  [Exercise AP • Neurophysiology II](exercises/ex-AP.qmd). | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005465) |
+- *Assigned*: [Exercise CHEM • Neurochemistry](exercises/ex-CHEM.qmd). *Due*: `{r} ex_chem_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005510) |
 
 ## Week 13: Apr 13-17
 
@@ -407,7 +407,7 @@ ex_chem_due <- psy_511_vars |>
 
 #### Assignment(s)
 
-- *Due*: [Exercise CHEM](exercises/ex-CHEM.qmd). [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005510)
+- *Due*: [Exercise CHEM • Neurochemistry](exercises/ex-CHEM.qmd). | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005510) |
 
 ## Week 14: Apr 20-24
 
@@ -443,4 +443,4 @@ ex_chem_due <- psy_511_vars |>
 
 ### Thu, May 07
 
-- [Final Project](exercises/final-project.qmd) write-up due | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17170786)
+- [Final Project](exercises/final-project.qmd) write-up due. | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17170786) |

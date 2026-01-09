@@ -44,7 +44,8 @@ website:
 
 bibliography: [include/bib/packages.bib, include/bib/psu-repro.bib, include/bib/psy-511.bib]
 
-csl: include/bib/apa.csl  
+csl: include/bib/apa.csl
+
 format:
   html:
     theme: [cosmo, include/css/psu.scss]
@@ -57,5 +58,6 @@ format:
     footnotes-hover: true
     date-modified: last-modified
     date: today
+    link-external-icon: true
 editor: source
     

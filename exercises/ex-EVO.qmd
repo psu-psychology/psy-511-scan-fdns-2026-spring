@@ -3,6 +3,20 @@ title: "Exercise EVO • Evolution"
 subtitle: "**Name:**____________________________"
 ---
 
+```{r}
+#| echo: false
+psy_511_vars <- readr::read_csv("../data/csv/psy-511-vars.csv", show_col_types = FALSE)
+ex_evo_due <- psy_511_vars |>
+  dplyr::filter(name == "WK_09_DATE") |>
+  dplyr::select(value) |>
+  as.character()
+
+canvas_db <- psy_511_vars |>
+  dplyr::filter(name == "EX_EVO_CANVAS") |>
+  dplyr::select(value) |>
+  as.character()
+```
+
 ## Goals
 
 1. To practice thinking and reasoning critically about how evolutionary perspectives can inform understanding about psychological phenomena.
@@ -21,7 +35,7 @@ Answer the following question in a paragraph or two:
 
 ## Submission details
 
-- Submit your write-up by **Wednesday, March 19, 2025 at 11:59 pm**.
+- Submit your write-up by **`{r} ex_evo_due`** via this [Canvas dropbox](`{r} canvas_db`).
 - If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.
 - If you found any resources that were especially useful to you in answering these questions, please cite them.
 

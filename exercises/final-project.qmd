@@ -40,7 +40,13 @@ Prepare a complete 20-30 min lecture with slides for a 200-level course on biolo
 
 For this project format, you are strongly encouraged to schedule time to present your tutorial to class.
 
-**Do's**
+### Exercise
+
+Write an exercise for a future group of PSY 511 students. Your exercise can build upon the existing exercises, replace the content for an existing exercise, or address a topic not covered or covered thoroughly this semester.
+
+For this project, you are strongly encouraged to meet with me in advance.
+
+## Tips
 
 - Always put your last name and first name in the file name of all documents you submit. For example, `gilmore-rick-psy-511-2026-final-paper.docx` works fine.
 - Submit your paper as a MS Word document using Canvas.

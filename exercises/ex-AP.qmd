@@ -3,6 +3,20 @@ title: "Exercise AP • Neurophysiology II"
 subtitle: "**Name:**____________________________"
 ---
 
+```{r}
+#| echo: false
+psy_511_vars <- readr::read_csv("../data/csv/psy-511-vars.csv", show_col_types = FALSE)
+ex_due <- psy_511_vars |>
+  dplyr::filter(name == "WK_12_DATE") |>
+  dplyr::select(value) |>
+  as.character()
+
+canvas_db <- psy_511_vars |>
+  dplyr::filter(name == "EX_AP_CANVAS") |>
+  dplyr::select(value) |>
+  as.character()
+```
+
 ## Goals
 
 1. To understand what change(s) in the resting state of neurons cause the *action potential*.
@@ -25,6 +39,6 @@ Answer the following questions in no more than a few sentences:
 
 ## Submission details
 
-- Submit your write-up by **Wednesday, February 19, 2025 at 11:59 pm**.
+- Submit your write-up by **`{r} ex_due`** via the Canvas [dropbox](`{r} canvas_db`).
 - If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.
 - If you found any resources that were especially useful to you in answering these questions, please cite them.

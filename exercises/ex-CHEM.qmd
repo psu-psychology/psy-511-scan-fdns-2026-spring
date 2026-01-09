@@ -3,6 +3,20 @@ title: "Exercise CHEM • Neurochemistry"
 subtitle: "**Name:**____________________________"
 ---
 
+```{r}
+#| echo: false
+psy_511_vars <- readr::read_csv("../data/csv/psy-511-vars.csv", show_col_types = FALSE)
+ex_due <- psy_511_vars |>
+  dplyr::filter(name == "WK_13_DATE") |>
+  dplyr::select(value) |>
+  as.character()
+
+canvas_db <- psy_511_vars |>
+  dplyr::filter(name == "EX_CHEM_CANVAS") |>
+  dplyr::select(value) |>
+  as.character()
+```
+
 ## Goals
 
 1. To understand some basic facts about neurotransmitters and their functions in communication.
@@ -21,7 +35,6 @@ subtitle: "**Name:**____________________________"
 
 ## Submission details
 
-- Submit your write-up by **Wednesday, February 26, 2025 at 11:59 pm**.
+- Submit your write-up by **`{r} ex_due`** via the Canvas [dropbox](`{r} canvas_db`).
 - If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.
 - If you found any resources that were especially useful to you in answering these questions, please cite them.
-

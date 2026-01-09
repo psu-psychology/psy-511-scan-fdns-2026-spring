@@ -150,7 +150,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#popular-science-piece" id="toc-popular-science-piece" class="nav-link" data-scroll-target="#popular-science-piece">Popular science piece</a></li>
   <li><a href="#research-proposal" id="toc-research-proposal" class="nav-link" data-scroll-target="#research-proposal">Research proposal</a></li>
   <li><a href="#tutorial" id="toc-tutorial" class="nav-link" data-scroll-target="#tutorial">Tutorial</a></li>
+  <li><a href="#exercise" id="toc-exercise" class="nav-link" data-scroll-target="#exercise">Exercise</a></li>
   </ul></li>
+  <li><a href="#tips" id="toc-tips" class="nav-link" data-scroll-target="#tips">Tips</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/edit/main/exercises/final-project.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="final-project.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="final-project.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
@@ -177,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">January 8, 2026</p>
+      <p class="date-modified">January 9, 2026</p>
     </div>
   </div>
     
@@ -212,7 +214,15 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="tutorial">Tutorial</h3>
 <p>Prepare a complete 20-30 min lecture with slides for a 200-level course on biological or physiological psychology focusing on a topic you might choose to cover were you the instructor of record.</p>
 <p>For this project format, you are strongly encouraged to schedule time to present your tutorial to class.</p>
-<p><strong>Do’s</strong></p>
+</section>
+<section id="exercise" class="level3">
+<h3 class="anchored" data-anchor-id="exercise">Exercise</h3>
+<p>Write an exercise for a future group of PSY 511 students. Your exercise can build upon the existing exercises, replace the content for an existing exercise, or address a topic not covered or covered thoroughly this semester.</p>
+<p>For this project, you are strongly encouraged to meet with me in advance.</p>
+</section>
+</section>
+<section id="tips" class="level2">
+<h2 class="anchored" data-anchor-id="tips">Tips</h2>
 <ul>
 <li>Always put your last name and first name in the file name of all documents you submit. For example, <code>gilmore-rick-psy-511-2026-final-paper.docx</code> works fine.</li>
 <li>Submit your paper as a MS Word document using Canvas.</li>
@@ -228,7 +238,6 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -319,6 +328,8 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

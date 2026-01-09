@@ -18,7 +18,14 @@
     "href": "exercises/final-project.html#project-options",
     "title": "Final project",
     "section": "Project options",
-    "text": "Project options\n\nBBS-style critical review\nWrite a critical review in the style of a Behavioral and Brain Sciences (BBS) commentary. The target of your review could be a published article in BBS or an article published in another journal. Examine some existing BBS papers in your areas of interest to see how authors choose to structure their commentaries. Typically, a BBS commentary is restricted to 1,000 words, but you have latitude to write up to 2,500 words.\n\n\nPopular science piece\nChoose a method, a nervous system structure, neurotransmitter or hormone, or a psychological state, and write a “what do we know about” style of piece targeted at the general, science-literate public. Consult The New York Times, Scientific American, The New Scientist, or The Economist for illustrative examples of the structure and style of the piece. Your piece should be 1,500-2,500 words, and could include illustrations you create, or videos or figures you find (and cite sources for) on the internet. If you choose a psychological state or behavior, please incorporate a biological perspective in some meaningful way. If you want to create a website for your content using Quarto or a similar tool, that is also acceptable.\n\n\nResearch proposal\nPropose a research study that incorporates one or more biological measures and some well-defined behavior or set of behaviors or psychological states. Make sure to highlight how biological measures inform and enrich our understanding about the behaviors or psychological states. Your proposal can be 1,500-2,500 words in length.\n\n\nTutorial\nPrepare a complete 20-30 min lecture with slides for a 200-level course on biological or physiological psychology focusing on a topic you might choose to cover were you the instructor of record.\nFor this project format, you are strongly encouraged to schedule time to present your tutorial to class.\nDo’s\n\nAlways put your last name and first name in the file name of all documents you submit. For example, gilmore-rick-psy-511-2026-final-paper.docx works fine.\nSubmit your paper as a MS Word document using Canvas.\nInclude a cover page and title. Make sure to add page numbers.\n\nResearch proposals and BBS-style reviews should use APA format.\nBBS-style reviews, popular science pieces, and research proposals should include an introduction, body, and conclusion. Depending on the format, you may or may not need to label these sections.\nUnpack and define all acronyms when you first mention them. Define or explain technical terms and concepts.\nInclude all end-of-paper citations in a format that is convenient to you and easy to extract from your reference manager.\nInclude author-date citations in the text. Footnote-style in-text citations are also acceptable.\nUse double-spacing.\nRun spell-check on your paper before you submit. I also suggest reading your paper out loud as a way to catch run-on sentences, awkward phrasing, and odd word choices."
+    "text": "Project options\n\nBBS-style critical review\nWrite a critical review in the style of a Behavioral and Brain Sciences (BBS) commentary. The target of your review could be a published article in BBS or an article published in another journal. Examine some existing BBS papers in your areas of interest to see how authors choose to structure their commentaries. Typically, a BBS commentary is restricted to 1,000 words, but you have latitude to write up to 2,500 words.\n\n\nPopular science piece\nChoose a method, a nervous system structure, neurotransmitter or hormone, or a psychological state, and write a “what do we know about” style of piece targeted at the general, science-literate public. Consult The New York Times, Scientific American, The New Scientist, or The Economist for illustrative examples of the structure and style of the piece. Your piece should be 1,500-2,500 words, and could include illustrations you create, or videos or figures you find (and cite sources for) on the internet. If you choose a psychological state or behavior, please incorporate a biological perspective in some meaningful way. If you want to create a website for your content using Quarto or a similar tool, that is also acceptable.\n\n\nResearch proposal\nPropose a research study that incorporates one or more biological measures and some well-defined behavior or set of behaviors or psychological states. Make sure to highlight how biological measures inform and enrich our understanding about the behaviors or psychological states. Your proposal can be 1,500-2,500 words in length.\n\n\nTutorial\nPrepare a complete 20-30 min lecture with slides for a 200-level course on biological or physiological psychology focusing on a topic you might choose to cover were you the instructor of record.\nFor this project format, you are strongly encouraged to schedule time to present your tutorial to class.\n\n\nExercise\nWrite an exercise for a future group of PSY 511 students. Your exercise can build upon the existing exercises, replace the content for an existing exercise, or address a topic not covered or covered thoroughly this semester.\nFor this project, you are strongly encouraged to meet with me in advance."
+  },
+  {
+    "objectID": "exercises/final-project.html#tips",
+    "href": "exercises/final-project.html#tips",
+    "title": "Final project",
+    "section": "Tips",
+    "text": "Tips\n\nAlways put your last name and first name in the file name of all documents you submit. For example, gilmore-rick-psy-511-2026-final-paper.docx works fine.\nSubmit your paper as a MS Word document using Canvas.\nInclude a cover page and title. Make sure to add page numbers.\n\nResearch proposals and BBS-style reviews should use APA format.\nBBS-style reviews, popular science pieces, and research proposals should include an introduction, body, and conclusion. Depending on the format, you may or may not need to label these sections.\nUnpack and define all acronyms when you first mention them. Define or explain technical terms and concepts.\nInclude all end-of-paper citations in a format that is convenient to you and easy to extract from your reference manager.\nInclude author-date citations in the text. Footnote-style in-text citations are also acceptable.\nUse double-spacing.\nRun spell-check on your paper before you submit. I also suggest reading your paper out loud as a way to catch run-on sentences, awkward phrasing, and odd word choices."
   },
   {
     "objectID": "exercises/ex-PHYS.html",
@@ -46,7 +53,7 @@
     "href": "exercises/ex-PHYS.html#submission-details",
     "title": "Exercise PHYS • Neurophysiology I",
     "section": "Submission details",
-    "text": "Submission details\n\nSubmit your write-up by Wednesday, February 12, 2025 at 11:59 pm.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
+    "text": "Submission details\n\nSubmit your write-up by 2026-04-02 via the Canvas dropbox.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
   },
   {
     "objectID": "exercises/ex-PHYS.html#footnotes",
@@ -81,7 +88,7 @@
     "href": "exercises/ex-LVL.html#submission-details",
     "title": "Exercise LVL • Levels/Terms",
     "section": "Submission details",
-    "text": "Submission details\n\nGive your paper a file name following this convention: psy-511-spr-2026-LASTNAME-FIRSTNAME-ex01.docx,\nProvide full APA format citations with DOIs.\nYour write-up is due Thursday, January 22, 2026 at 11:59 pm.\nThe Canvas dropbox is here"
+    "text": "Submission details\n\nGive your paper a file name following this convention: psy-511-spr-2026-LASTNAME-FIRSTNAME-ex-LVL.docx,\nProvide full APA format citations with DOIs.\nYour write-up is due 2026-01-22.\nThe Canvas dropbox is here"
   },
   {
     "objectID": "exercises/ex-EMO.html",
@@ -109,7 +116,7 @@
     "href": "exercises/ex-EMO.html#submission-details",
     "title": "Exercise EMO • Measuring emotion",
     "section": "Submission details",
-    "text": "Submission details\n\nSubmit your write-up by Thursday, February 26, 2026 at 11:59 pm.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
+    "text": "Submission details\n\nSubmit your write-up by 2026-02-26 via the Canvas dropbox.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
   },
   {
     "objectID": "exercises/ex-CHEM.html",
@@ -137,7 +144,7 @@
     "href": "exercises/ex-CHEM.html#submission-details",
     "title": "Exercise CHEM • Neurochemistry",
     "section": "Submission details",
-    "text": "Submission details\n\nSubmit your write-up by Wednesday, February 26, 2025 at 11:59 pm.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
+    "text": "Submission details\n\nSubmit your write-up by 2026-04-16 via the Canvas dropbox.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
   },
   {
     "objectID": "exercises/ex-ANAT.html",
@@ -158,14 +165,14 @@
     "href": "exercises/ex-ANAT.html#activity",
     "title": "Exercise ANAT • Neuroanatomy",
     "section": "Activity",
-    "text": "Activity\nThere will be three stations, one with the brain models, one with brain specimens, and the third with paper atlases. At each station, do the following:\n\nWork through the list below.\nIf you can identify the structure or term, put a check mark.\nIf you are unsure, put a question mark.\nStructures or terms you cannot identify should be left blank.\n\n\n\n\n\n\n\nNote\n\n\n\nIf you have time, you might pick one or two of the anatomical structures that you highlighted in Exercise LVL and try to locate them.\nIf you cannot identify a structure or term in any of the stations or atlases, try to find an image on the internet that depicts the structure. If you If this fails, ask Dr. Gilmore for help.\n\n\nOnce you have completed the three stations, you may make a fourth pass through the outline using one (or more) of the electronic atlases:\n\nHarvard Brain Atlas http://www.med.harvard.edu/aanlib/cases/caseNA/pb9.htm\nAllen Brain Atlas\n\nHuman female adult (modified Brodmann\nHuman female adult (gyral)\n\n3D Brain from Brainfacts.org\n\nFollow the same procedure as before, adding checkmarks, or question marks where appropriate."
+    "text": "Activity\nThere will be three stations, one with the brain models, one with brain specimens, and the third with paper atlases. At each station, do the following:\n\nWork through the list below.\nIf you can identify the structure or term, put a check mark.\nIf you are unsure, put a question mark.\nStructures or terms you cannot identify should be left blank.\n\n\n\n\n\n\n\nNote\n\n\n\nIf you have time, you might pick one or two of the anatomical structures that you highlighted in Exercise LVL • Levels/Terms and try to locate them.\nIf you cannot identify a structure or term in any of the stations or atlases, try to find an image on the internet that depicts the structure. If you If this fails, ask Dr. Gilmore for help.\n\n\nOnce you have completed the three stations, you may make a fourth pass through the outline using one (or more) of the electronic atlases:\n\nHarvard Brain Atlas http://www.med.harvard.edu/aanlib/cases/caseNA/pb9.htm\nAllen Brain Atlas\n\nHuman female adult (modified Brodmann\nHuman female adult (gyral)\n\n3D Brain from Brainfacts.org\n\nFollow the same procedure as before, adding checkmarks, or question marks where appropriate."
   },
   {
     "objectID": "exercises/ex-ANAT.html#submission-details",
     "href": "exercises/ex-ANAT.html#submission-details",
     "title": "Exercise ANAT • Neuroanatomy",
     "section": "Submission details",
-    "text": "Submission details\n\nSubmit a photocopy or image of your outline by Thursday, January 29, 2024 at 11:59 pm.\nIf you found any additional resources that were especially useful to you, please share them."
+    "text": "Submission details\n\nSubmit a photocopy or image of your outline by 2026-01-29 using the Canvas dropbox\nIf you found any additional resources that were especially useful to you, please share them."
   },
   {
     "objectID": "exercises/ex-ANAT.html#directional-terms",
@@ -355,7 +362,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Structure of the course\nLevels of analysis\nCausality in brain and behavior\nDoes neuroscience need behavior? What does psychology need?\n\n\n\n\n\nRequired:\n\nKrakauer, Ghazanfar, Gomez-Marin, MacIver, & Poeppel (2017)\nParada & Rossi (2018)\nNewcombe (2017)\n\nOptional:\n\nSiddiqi, Kording, Parvizi, & Fox (2022)\nChurchland & Sejnowski (1988)\nFavela (2020)\nRoss & Bassett (2024)\n\n\n\n\n\n\nSlides\n\n\n\n\n\nAssigned: Exercise LVL. Due: 2026-01-22. Canvas dropbox.",
+    "text": "Structure of the course\nLevels of analysis\nCausality in brain and behavior\nDoes neuroscience need behavior? What does psychology need?\n\n\n\n\n\nRequired:\n\nKrakauer, Ghazanfar, Gomez-Marin, MacIver, & Poeppel (2017)\nParada & Rossi (2018)\nNewcombe (2017)\n\nOptional:\n\nSiddiqi, Kording, Parvizi, & Fox (2022)\nChurchland & Sejnowski (1988)\nFavela (2020)\nRoss & Bassett (2024)\n\n\n\n\n\n\nSlides\n\n\n\n\n\nAssigned: Exercise LVL • Levels/Terms. Due: 2026-01-22. | Canvas dropbox |",
     "crumbs": [
       "Schedule"
     ]
@@ -365,7 +372,7 @@
     "href": "schedule.html#week-01-jan-12-16",
     "title": "Schedule",
     "section": "",
-    "text": "Structure of the course\nLevels of analysis\nCausality in brain and behavior\nDoes neuroscience need behavior? What does psychology need?\n\n\n\n\n\nRequired:\n\nKrakauer, Ghazanfar, Gomez-Marin, MacIver, & Poeppel (2017)\nParada & Rossi (2018)\nNewcombe (2017)\n\nOptional:\n\nSiddiqi, Kording, Parvizi, & Fox (2022)\nChurchland & Sejnowski (1988)\nFavela (2020)\nRoss & Bassett (2024)\n\n\n\n\n\n\nSlides\n\n\n\n\n\nAssigned: Exercise LVL. Due: 2026-01-22. Canvas dropbox.",
+    "text": "Structure of the course\nLevels of analysis\nCausality in brain and behavior\nDoes neuroscience need behavior? What does psychology need?\n\n\n\n\n\nRequired:\n\nKrakauer, Ghazanfar, Gomez-Marin, MacIver, & Poeppel (2017)\nParada & Rossi (2018)\nNewcombe (2017)\n\nOptional:\n\nSiddiqi, Kording, Parvizi, & Fox (2022)\nChurchland & Sejnowski (1988)\nFavela (2020)\nRoss & Bassett (2024)\n\n\n\n\n\n\nSlides\n\n\n\n\n\nAssigned: Exercise LVL • Levels/Terms. Due: 2026-01-22. | Canvas dropbox |",
     "crumbs": [
       "Schedule"
     ]
@@ -375,7 +382,7 @@
     "href": "schedule.html#week-02-jan-19-23",
     "title": "Schedule",
     "section": "Week 02: Jan 19-23",
-    "text": "Week 02: Jan 19-23\n\nThu, Jan 22\n\nTopics\n\nNeuroanatomy\n\n\n\nReadings\n\nNeuroanatomy notes\n\n\n\nMaterials\n\nSlides. PDF\nAllen Brain Atlas.\n\n\n\nAssignments\n\nDue: Exercise LVL. Canvas dropbox\nAssigned: Exercise ANAT. Due: 2026-01-29. Canvas dropbox",
+    "text": "Week 02: Jan 19-23\n\nThu, Jan 22\n\nTopics\n\nNeuroanatomy\n\n\n\nReadings\n\nNeuroanatomy notes\n\n\n\nMaterials\n\nSlides. PDF\nAllen Brain Atlas.\n\n\n\nAssignments\n\nDue: Exercise LVL • Levels/Terms. Canvas dropbox\nAssigned: Exercise ANAT • Neuroanatomy. Due: 2026-01-29. | Canvas dropbox |",
     "crumbs": [
       "Schedule"
     ]
@@ -385,7 +392,7 @@
     "href": "schedule.html#week-03-jan-26-30",
     "title": "Schedule",
     "section": "Week 03: Jan 26-30",
-    "text": "Week 03: Jan 26-30\n\nThu, Jan 29\n\nTopic(s)\n\nAction\n\n\n\nReading(s)\n\nShenoy, Sahani, & Churchland (2013)\n\n\n\nMaterials\n\nAction notes\n\n\n\nAssignments\n\nDue: Exercise ANT. Canvas dropbox",
+    "text": "Week 03: Jan 26-30\n\nThu, Jan 29\n\nTopic(s)\n\nAction\n\n\n\nReading(s)\n\nShenoy, Sahani, & Churchland (2013)\n\n\n\nMaterials\n\nAction notes\n\n\n\nAssignments\n\nDue: Exercise ANAT • Neuroanatomy. | Canvas dropbox |",
     "crumbs": [
       "Schedule"
     ]
@@ -395,7 +402,7 @@
     "href": "schedule.html#week-04-feb-2-6",
     "title": "Schedule",
     "section": "Week 04: Feb 2-6",
-    "text": "Week 04: Feb 2-6\n\nThu, Feb 05\n\nTopic(s)\n\nPerception\n\n\n\nReadings\n\nKhalsa et al. (2018)\nShenoy et al. (2013)\n\n\n\nMaterials\n\nPerception notes\n\n\n\nAssignment(s)\n\nAssigned: Final project proposal. Due: 2026-03-05. Canvas dropbox.\nAssigned: Exercise PA. Due: 2026-02-12. Canvas dropbox",
+    "text": "Week 04: Feb 2-6\n\nThu, Feb 05\n\nTopic(s)\n\nPerception\n\n\n\nReadings\n\nKhalsa et al. (2018)\nShenoy et al. (2013)\n\n\n\nMaterials\n\nPerception notes\n\n\n\nAssignment(s)\n\nAssigned: Final project proposal. Due: 2026-03-05. | Canvas dropbox |\nAssigned: Exercise PA • Perception & Action. Due: 2026-02-12. | Canvas dropbox |",
     "crumbs": [
       "Schedule"
     ]
@@ -405,7 +412,7 @@
     "href": "schedule.html#week-05-feb-9-13",
     "title": "Schedule",
     "section": "Week 05: Feb 9-13",
-    "text": "Week 05: Feb 9-13\n\nThu, Feb 12\n\nTopic(s)\n\nLearning & memory\n\n\n\nReadings\n\n\nMaterials\n\n\nAssignment(s)\n\nDue: Exercise PA. Canvas dropbox",
+    "text": "Week 05: Feb 9-13\n\nThu, Feb 12\n\nTopic(s)\n\nLearning & memory\n\n\n\nReadings\n\n\nMaterials\n\n\nAssignment(s)\n\nDue: Exercise PA • Perception & Action. | Canvas dropbox |",
     "crumbs": [
       "Schedule"
     ]
@@ -415,7 +422,7 @@
     "href": "schedule.html#week-06-feb-16-20",
     "title": "Schedule",
     "section": "Week 06: Feb 16-20",
-    "text": "Week 06: Feb 16-20\n\nThu, Feb 19\n\nTopic(s)\n\nEmotion\n\n\n\nReadings\n\nMalezieux, Klein, & Gogolla (2023)\nWatabe-Uchida, Eshel, & Uchida (2017)\n\n\n\nMaterials\n\nNotes\n\n\n\nAssignment(s)\n\nAssigned: Exercise EMO. Due: 2026-02-26. Canvas dropbox",
+    "text": "Week 06: Feb 16-20\n\nThu, Feb 19\n\nTopic(s)\n\nEmotion\n\n\n\nReadings\n\nMalezieux, Klein, & Gogolla (2023)\nWatabe-Uchida, Eshel, & Uchida (2017)\n\n\n\nMaterials\n\nNotes\n\n\n\nAssignment(s)\n\nAssigned: Exercise EMO • Measuring emotion. Due: 2026-02-26. | Canvas dropbox |",
     "crumbs": [
       "Schedule"
     ]
@@ -425,7 +432,7 @@
     "href": "schedule.html#week-07-feb-23-27",
     "title": "Schedule",
     "section": "Week 07: Feb 23-27",
-    "text": "Week 07: Feb 23-27\n\nThu, Feb 26\n\nTopic(s)\n\nSleep & circadian rhythms\n\n\n\nReadings\n\n\nMaterials\n\n\nAssignment(s)\n\nDue: Exercise EMO. Canvas dropbox\n\nAssigned: Exercise ZZ. Due: 2026-03-05. Canvas dropbox\n\n\n\nReadings\n\n\nMaterials",
+    "text": "Week 07: Feb 23-27\n\nThu, Feb 26\n\nTopic(s)\n\nSleep & circadian rhythms\n\n\n\nReadings\n\n\nMaterials\n\n\nAssignment(s)\n\nDue: Exercise EMO • Measuring emotion. | Canvas dropbox |\nAssigned: Exercise ZZ • Sleep & Circadian Rhythms. Due: 2026-03-05. | Canvas dropbox |\n\n\n\nReadings\n\n\nMaterials",
     "crumbs": [
       "Schedule"
     ]
@@ -435,7 +442,7 @@
     "href": "schedule.html#week-08-mar-2-6",
     "title": "Schedule",
     "section": "Week 08: Mar 2-6",
-    "text": "Week 08: Mar 2-6\n\nThu, Mar 5\n\nTopic(s)\n\nEvolution of the nervous system\n\n\n\nReadings\n\nRequired:\n\nCharvet & Finlay (2012)\nHofman (2014)\n\nOptional:\n\nCastrillon et al. (2023)\n\n\n\n\nMaterials\n\nNotes\n\n\n\nAssignment(s)\n\nAssigned: Exercise EVO. Due: 2026-03-19. Canvas dropbox\nDue: Final project proposal. Canvas dropbox\nDue: Exercise ZZ. Canvas dropbox",
+    "text": "Week 08: Mar 2-6\n\nThu, Mar 5\n\nTopic(s)\n\nEvolution of the nervous system\n\n\n\nReadings\n\nRequired:\n\nCharvet & Finlay (2012)\nHofman (2014)\n\nOptional:\n\nCastrillon et al. (2023)\n\n\n\n\nMaterials\n\nNotes\n\n\n\nAssignment(s)\n\nDue: Final project proposal. | Canvas dropbox |\nDue: Exercise ZZ • Sleep & Circadian Rhythms. | Canvas dropbox |\nAssigned: Exercise EVO • Evolution. Due: 2026-03-19. | Canvas dropbox |",
     "crumbs": [
       "Schedule"
     ]
@@ -455,7 +462,7 @@
     "href": "schedule.html#week-09-mar-16-20",
     "title": "Schedule",
     "section": "Week 09: Mar 16-20",
-    "text": "Week 09: Mar 16-20\n\nThu, Mar 19\n\nTopic(s)\n\nDevelopment of the nervous system\n\n\n\nReadings\n\nRequired:\n\nCao, Huang, & He (2017)\nBlumberg & Adolph (2023)\n\nOptional:\n\nLarsen, Sydnor, Keller, Yeo, & Satterthwaite (2023)\nRakic (2009)\n\n\n\n\nMaterials\n\nNotes\n\n\n\nAssignment(s)\n\nDue: Exercise EVO. Canvas dropbox.\nAssigned: Exercise DEV. Due: 2026-03-26. Canvas dropbox",
+    "text": "Week 09: Mar 16-20\n\nThu, Mar 19\n\nTopic(s)\n\nDevelopment of the nervous system\n\n\n\nReadings\n\nRequired:\n\nCao, Huang, & He (2017)\nBlumberg & Adolph (2023)\n\nOptional:\n\nLarsen, Sydnor, Keller, Yeo, & Satterthwaite (2023)\nRakic (2009)\n\n\n\n\nMaterials\n\nNotes\n\n\n\nAssignment(s)\n\nDue: Exercise EVO • Evolution. | Canvas dropbox |\nAssigned: Exercise DEV • Development. Due: 2026-03-26. | Canvas dropbox |",
     "crumbs": [
       "Schedule"
     ]
@@ -465,7 +472,7 @@
     "href": "schedule.html#week-10-mar-23-27",
     "title": "Schedule",
     "section": "Week 10: Mar 23-27",
-    "text": "Week 10: Mar 23-27\n\nThu, Mar 26\n\nTopics\n\nCellular neuroscience I\n\nAnatomy\nPhysiology\n\nResting potential\n\n\n\n\n\nReadings\n\nCellular neuroscience notes | PDF |\nOptional:\n\nZeng & Sanes (2017)\nOliveira, Sardinha, Guerra-Gomes, Araque, & Sousa (2015)\nDistéfano-Gagné, Bitarafan, Lacroix, & Gosselin (2023)\n\n\n\n\nMaterials\n\nSlides | PDF |\n\n\n\nAssignment(s)\n\nDue: Exercise DEV. Canvas dropbox\nAssigned: Exercise PHYS. Due: 2026-04-02. Canvas dropbox",
+    "text": "Week 10: Mar 23-27\n\nThu, Mar 26\n\nTopics\n\nCellular neuroscience I\n\nAnatomy\nPhysiology\n\nResting potential\n\n\n\n\n\nReadings\n\nCellular neuroscience notes | PDF |\nOptional:\n\nZeng & Sanes (2017)\nOliveira, Sardinha, Guerra-Gomes, Araque, & Sousa (2015)\nDistéfano-Gagné, Bitarafan, Lacroix, & Gosselin (2023)\n\n\n\n\nMaterials\n\nSlides | PDF |\n\n\n\nAssignment(s)\n\nDue: Exercise DEV • Development | Canvas dropbox |\nAssigned: Exercise PHYS • Neurophysiology I. Due: 2026-04-02. | Canvas dropbox |",
     "crumbs": [
       "Schedule"
     ]
@@ -475,7 +482,7 @@
     "href": "schedule.html#week-11-mar-30---apr-3",
     "title": "Schedule",
     "section": "Week 11: Mar 30 - Apr 3",
-    "text": "Week 11: Mar 30 - Apr 3\n\nThu, Apr 02\n\nTopics\n\nCellular neuroscience II\n\nAction potential\nSynaptic transmission\n\n\n\n\nReadings\n\nCellular neuroscience notes\n\n\n\nMaterials\n\nSlides\n\n\n\nAssignment(s)\n\nDue: Exercise PHYS. Canvas dropbox\nAssigned: Exercise AP. Due: 2026-04-09. Canvas dropbox",
+    "text": "Week 11: Mar 30 - Apr 3\n\nThu, Apr 02\n\nTopics\n\nCellular neuroscience II\n\nAction potential\nSynaptic transmission\n\n\n\n\nReadings\n\nCellular neuroscience notes\n\n\n\nMaterials\n\nSlides\n\n\n\nAssignment(s)\n\nDue: Exercise PHYS • Neurophysiology I | Canvas dropbox |\nAssigned: Exercise AP • Neurophysiology II. Due: 2026-04-09. | Canvas dropbox |",
     "crumbs": [
       "Schedule"
     ]
@@ -485,7 +492,7 @@
     "href": "schedule.html#week-12-apr-6-10",
     "title": "Schedule",
     "section": "Week 12: Apr 6-10",
-    "text": "Week 12: Apr 6-10\n\nThu, Apr 09\n\nTopics\n\nNeurochemistry\n\nNeurotransmitters\nHormones\n\nNeurocomputing\n\n\n\nReadings\n\nNeurochemistry notes\nOptional: Sarkar et al. (2016).\n\n\n\nMaterials\n\nSlides\n\n\n\nAssignment(s)\n\nDue: Exercise AP. Canvas dropbox\nAssigned: Exercise CHEM. Due: 2026-04-16. Canvas dropbox",
+    "text": "Week 12: Apr 6-10\n\nThu, Apr 09\n\nTopics\n\nNeurochemistry\n\nNeurotransmitters\nHormones\n\nNeurocomputing\n\n\n\nReadings\n\nNeurochemistry notes\nOptional: Sarkar et al. (2016).\n\n\n\nMaterials\n\nSlides\n\n\n\nAssignment(s)\n\nDue: Exercise AP • Neurophysiology II. | Canvas dropbox |\nAssigned: Exercise CHEM • Neurochemistry. Due: 2026-04-16. | Canvas dropbox |",
     "crumbs": [
       "Schedule"
     ]
@@ -495,7 +502,7 @@
     "href": "schedule.html#week-13-apr-13-17",
     "title": "Schedule",
     "section": "Week 13: Apr 13-17",
-    "text": "Week 13: Apr 13-17\n\nThu, Apr 16\n\nTopics\n\nDisorder & disease I\n\n\n\nReadings\n\nHowes, Bukala, & Beck (2023)\nVolk, Chiu, Sharma, & Huganir (2015)\n\n\n\nMaterials\n\nNotes\n\n\n\nAssignment(s)\n\nDue: Exercise CHEM. Canvas dropbox",
+    "text": "Week 13: Apr 13-17\n\nThu, Apr 16\n\nTopics\n\nDisorder & disease I\n\n\n\nReadings\n\nHowes, Bukala, & Beck (2023)\nVolk, Chiu, Sharma, & Huganir (2015)\n\n\n\nMaterials\n\nNotes\n\n\n\nAssignment(s)\n\nDue: Exercise CHEM • Neurochemistry. | Canvas dropbox |",
     "crumbs": [
       "Schedule"
     ]
@@ -525,7 +532,7 @@
     "href": "schedule.html#finals-may-4-8",
     "title": "Schedule",
     "section": "Finals: May 4-8",
-    "text": "Finals: May 4-8\n\nThu, May 07\n\nFinal Project write-up due | Canvas dropbox",
+    "text": "Finals: May 4-8\n\nThu, May 07\n\nFinal Project write-up due. | Canvas dropbox |",
     "crumbs": [
       "Schedule"
     ]
@@ -556,7 +563,7 @@
     "href": "exercises/ex-AP.html#submission-details",
     "title": "Exercise AP • Neurophysiology II",
     "section": "Submission details",
-    "text": "Submission details\n\nSubmit your write-up by Wednesday, February 19, 2025 at 11:59 pm.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
+    "text": "Submission details\n\nSubmit your write-up by 2026-04-09 via the Canvas dropbox.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
   },
   {
     "objectID": "exercises/ex-DEV.html",
@@ -584,7 +591,7 @@
     "href": "exercises/ex-DEV.html#submission-details",
     "title": "Exercise DEV • Development",
     "section": "Submission details",
-    "text": "Submission details\n\nSubmit your write-up by Wednesday, March 26, 2025 at 11:59 pm.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
+    "text": "Submission details\n\nSubmit your write-up by 2026-03-26 via the Canvas dropbox.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
   },
   {
     "objectID": "exercises/ex-EVO.html",
@@ -612,7 +619,7 @@
     "href": "exercises/ex-EVO.html#submission-details",
     "title": "Exercise EVO • Evolution",
     "section": "Submission details",
-    "text": "Submission details\n\nSubmit your write-up by Wednesday, March 19, 2025 at 11:59 pm.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
+    "text": "Submission details\n\nSubmit your write-up by 2026-03-19 via this Canvas dropbox.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
   },
   {
     "objectID": "exercises/ex-PA.html",
@@ -640,7 +647,7 @@
     "href": "exercises/ex-PA.html#submission-details",
     "title": "Exercise PA • Perception & Action",
     "section": "Submission details",
-    "text": "Submission details\n\nSubmit your write-up by Thursday, February 12, 2026 at 11:59 pm.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
+    "text": "Submission details\n\nSubmit your write-up by 2026-02-12 via the Canvas dropbox.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
   },
   {
     "objectID": "exercises/ex-ZZ.html",
