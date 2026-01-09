@@ -1,5 +1,5 @@
 ---
-title: "Exercise 02 • Neuroanatomy"
+title: "Exercise ANAT • Neuroanatomy"
 subtitle: "**Name:**____________________________"
 ---
 
@@ -22,7 +22,7 @@ At each station, do the following:
 
 ::: {.callout-note}
 
-If you have time, you might pick one or two of the anatomical structures that you highlighted in [Exercise 01](ex01.qmd) and try to locate them.
+If you have time, you might pick one or two of the anatomical structures that you highlighted in [Exercise LVL](ex-LVL.qmd) and try to locate them.
 
 If you cannot identify a structure or term in *any* of the stations or atlases, try to find an image on the internet that depicts the structure.
 If you 
@@ -42,7 +42,7 @@ Follow the same procedure as before, adding checkmarks, or question marks where 
 
 ## Submission details
 
-- Submit a photocopy or image of your outline by [**Wednesday, January 24, 2024 at 11:59 pm**]{.orange_due}.
+- Submit a photocopy or image of your outline by **Thursday, January 29, 2024 at 11:59 pm**.
 - If you found any additional resources that were especially useful to you, please share them.
 
 ---

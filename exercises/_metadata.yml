@@ -1,0 +1,5 @@
+format:
+  html: default
+  pdf: default
+  docx:
+    reference-doc: custom-reference-doc.docx

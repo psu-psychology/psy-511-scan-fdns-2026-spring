@@ -9,7 +9,7 @@ Your proposal should describe the form of your project, the topic or topics to b
 
 Please submit the proposal as a Microsoft Word (.docx) formatted document.
 
-The proposal is due on [Wednesday, March 5, 2025]{.orange_due}
+The proposal is due on [Wednesday, March 5, 2026]{.orange_due}
 
 ## Project options
 
@@ -36,13 +36,13 @@ Your proposal can be 1,500-2,500 words in length.
 
 ### Tutorial
 
-Prepare a complete 30-45 min lecture with slides for a 200-level course on biological or physiological psychology focusing on a topic you might choose to cover were you the instructor of record.
+Prepare a complete 20-30 min lecture with slides for a 200-level course on biological or physiological psychology focusing on a topic you might choose to cover were you the instructor of record.
 
 For this project format, you are strongly encouraged to schedule time to present your tutorial to class.
 
 **Do's**
 
-- Always put your last name and first name in the file name of all documents you submit. For example, `gilmore-rick-psy-511-2025-final-paper.docx` works fine.
+- Always put your last name and first name in the file name of all documents you submit. For example, `gilmore-rick-psy-511-2026-final-paper.docx` works fine.
 - Submit your paper as a MS Word document using Canvas.
 - Include a cover page and title. Make sure to add page numbers.  
 - Research proposals and BBS-style reviews should use APA format.

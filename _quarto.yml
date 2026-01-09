@@ -4,7 +4,7 @@ project:
     - "./*.qmd"
     # - "resources/*.qmd"
     # - "slides/*.qmd"
-    # - "exercises/*.qmd"
+    - "exercises/*.qmd"
     # - "supplemental/*.qmd"
   output-dir: "docs"
   resources:
@@ -18,7 +18,7 @@ project:
 website:
   title: "PSY 511.001"
   announcement:
-    content: "Welcome to PSY 511.001!"
+    content: "Welcome to PSY 511.001! If you find a broken link or typo, I'll buy you a coffee."
     position: below-navbar
   sidebar:
     style: "docked"

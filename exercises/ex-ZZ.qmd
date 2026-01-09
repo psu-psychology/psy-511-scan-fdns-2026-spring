@@ -1,0 +1,21 @@
+---
+title: "Exercise ZZ • Sleep & Circadian Rhythms"
+subtitle: "**Name:**____________________________"
+---
+
+## Goals
+
+1. To more deeply understand the influence of sleep or circadian rhythms more generally on   some internal state or behavior that is of interest to you.
+
+## Activity
+
+Choose a behavior or an internal psychological state that interests you:
+
+- Concisely describe current understanding about how the behavior or state is affected by sleep duration or quality, or is altered under states of sleep deprivation.
+- Alternatively, describe how the behavior or psychological state varies across a day, or seasonally. What are some causes of the temporal variation? What are some important consequences?
+
+## Submission details
+
+- Submit your write-up by **Thursday, February 12, 2026 at 11:59 pm**.
+- If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.
+- If you found any resources that were especially useful to you in answering these questions, please cite them.
