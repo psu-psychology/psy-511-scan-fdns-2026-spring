@@ -2,7 +2,7 @@
 title: "SCAN Foundations"
 subtitle: "PSYCH 511.001 Spring 2026"
 date: last-modified
-format: pdf
+# format: pdf
 bibliography:
   - include/bib/psy-511.bib
   - include/bib/packages.bib

@@ -1,0 +1,1367 @@
+[
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html",
+    "href": "slides/wk-01-2026-01-15-intro.html",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "",
+    "text": "– melodysheep (2011)\n\n\n“If understanding everything we need to know about the brain is a mile, how far have we walked?”\n\n– National Geographic (2014)\n\n\n\n\nWhy neuroscience psychology is harder than physics\nCourse overview\nDoes neuroscience need behavior? Does behavioral science need the brain?"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#prelude",
+    "href": "slides/wk-01-2026-01-15-intro.html#prelude",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "",
+    "text": "– melodysheep (2011)\n\n\n“If understanding everything we need to know about the brain is a mile, how far have we walked?”\n\n– National Geographic (2014)"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#todays-topics",
+    "href": "slides/wk-01-2026-01-15-intro.html#todays-topics",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "",
+    "text": "Why neuroscience psychology is harder than physics\nCourse overview\nDoes neuroscience need behavior? Does behavioral science need the brain?"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#what-do-we-need-to-know",
+    "href": "slides/wk-01-2026-01-15-intro.html#what-do-we-need-to-know",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "What do we need to know?",
+    "text": "What do we need to know?\n\n\nWhat is the state…\n\nOf the world (\\(W\\))\nOf the organism\n\nBody (\\(B\\))\nNervous system (\\(N\\))\nMind (\\(M\\))\n\n\nHow do these states change over time?\nWhat causes the changes?"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#on-state-spaces",
+    "href": "slides/wk-01-2026-01-15-intro.html#on-state-spaces",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "On state spaces…",
+    "text": "On state spaces…\n\n\n\nState space is the set of all possible states of a dynamical system; each state of the system corresponds to a unique point in the state space. For example, the state of an idealized pendulum is uniquely defined by its angle and angular velocity…\n\n– Terman & Izhikevich (2008)\n\n\n\n\nFigure 1 from Terman & Izhikevich (2008)"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#state-spaces-in-brain-behavior",
+    "href": "slides/wk-01-2026-01-15-intro.html#state-spaces-in-brain-behavior",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "State spaces in brain & behavior",
+    "text": "State spaces in brain & behavior\n\n\n\nSwanson (2005) Figure 1"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#some-states-are-more-easily-measured-than-others",
+    "href": "slides/wk-01-2026-01-15-intro.html#some-states-are-more-easily-measured-than-others",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Some states are more easily measured than others",
+    "text": "Some states are more easily measured than others\n\n\\(W\\), \\(B\\), \\(N\\) (more or less) directly\n\n\n\n\n\nSejnowski, Churchland, & Movshon (2014)"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#mental-states-m",
+    "href": "slides/wk-01-2026-01-15-intro.html#mental-states-m",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Mental states (\\(M\\))",
+    "text": "Mental states (\\(M\\))\n\nMeasured indirectly\nVia \\(N\\), \\(B\\), \\(W\\)\nDo you agree?"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#what-are-essential-componentsdimensions-of-w",
+    "href": "slides/wk-01-2026-01-15-intro.html#what-are-essential-componentsdimensions-of-w",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "What are essential components/dimensions of \\(W\\)?",
+    "text": "What are essential components/dimensions of \\(W\\)?\n\nTo explain/understand \\(B\\) (and \\(M\\))"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#what-are-essential-componentsdimensions-of-b",
+    "href": "slides/wk-01-2026-01-15-intro.html#what-are-essential-componentsdimensions-of-b",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "What are essential components/dimensions of \\(B\\)?",
+    "text": "What are essential components/dimensions of \\(B\\)?\n\nTo explain/understand"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#brain-behavior-are-complex-dynamic-systems-with",
+    "href": "slides/wk-01-2026-01-15-intro.html#brain-behavior-are-complex-dynamic-systems-with",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Brain & behavior are complex, dynamic systems with",
+    "text": "Brain & behavior are complex, dynamic systems with\n\nComponents\nInteractions\nForces/influences\nBoundaries\nInputs/outputs/processes"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#systems",
+    "href": "slides/wk-01-2026-01-15-intro.html#systems",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Systems…",
+    "text": "Systems…\n\n“Behave” or change state across time\nReturn to starting state\nOften regulated, controlled, influenced by feedback loops\n\\(B(t+1) = f(W(t), B(t), N(t), M(t))\\)"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#may-be-analyzed-of-as-networks",
+    "href": "slides/wk-01-2026-01-15-intro.html#may-be-analyzed-of-as-networks",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "May be analyzed of as networks",
+    "text": "May be analyzed of as networks\n\n\n\nFrom https://source.wustl.edu/2013/08/brain-flexible-hub-network-helps-humans-adapt/"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#at-multiple-levels-of-organization",
+    "href": "slides/wk-01-2026-01-15-intro.html#at-multiple-levels-of-organization",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "At multiple levels of organization…",
+    "text": "At multiple levels of organization…\n\n\n\n\n\n\n\n\n\nSwanson & Lichtman (2016) Figure 1\n\n\n\n\n\n\nSwanson & Lichtman (2016) Figure 3"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#hard-to-simplify",
+    "href": "slides/wk-01-2026-01-15-intro.html#hard-to-simplify",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Hard to simplify",
+    "text": "Hard to simplify\n\n\n\nConsider a spherical cow\nComputation (and memory) often distributed\nSingle functions -&gt; multiple parts\n\n\n\nBy Keenan Crane; (The source material is licensed under CC0), CC BY-SA 4.0"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#single-parts---multiple-functions",
+    "href": "slides/wk-01-2026-01-15-intro.html#single-parts---multiple-functions",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Single parts -> multiple functions",
+    "text": "Single parts -&gt; multiple functions\n\n\n\n\n\nCalabrese (2018)\n\n\n\n\nMany circuit wiring patterns\nSimilar dynamics"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#biological-systems-not-designed",
+    "href": "slides/wk-01-2026-01-15-intro.html#biological-systems-not-designed",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Biological systems not “designed”",
+    "text": "Biological systems not “designed”\n\n…like human-engineered ones\n\n\n\n\nhttps://en.wikipedia.org/wiki/Computer_architecture"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#studying-such-systems-is-hard-because",
+    "href": "slides/wk-01-2026-01-15-intro.html#studying-such-systems-is-hard-because",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Studying such systems is hard because…",
+    "text": "Studying such systems is hard because…\n\nChange structure/function over time\nHard to measure what is being exchanged, what is being controlled\n\n\n\n\n\n(Cisek, 2019, fig. 3). Schematic behavioral control systems. (A) When the current nutrient state deviates from a desired state, locomotion is initiated, ultimately bringing the animal to a more desirable state. (B) Elaboration of nutrient state control into a high-level controller (ANS) and a lower-level controller (BNS) capable of two modes of locomotion, local exploitation, and long-range exploration. 5HT, serotonin; ANS/BNS, apical/blastoporal nervous system; DA, dopamine; NPY, neuropeptide Y"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#assumptions-are-problematic",
+    "href": "slides/wk-01-2026-01-15-intro.html#assumptions-are-problematic",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Assumptions are problematic",
+    "text": "Assumptions are problematic\n\n\n\nSegal et al. (2024)"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#goals",
+    "href": "slides/wk-01-2026-01-15-intro.html#goals",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Goals",
+    "text": "Goals\n\nMaster fundamentals of neuroscientific concepts and facts\nPrepare to read primary source literature in social, behavioral, cognitive, affective, and clinical neuroscience"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#structure",
+    "href": "slides/wk-01-2026-01-15-intro.html#structure",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Structure",
+    "text": "Structure\nhttps://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#questions",
+    "href": "slides/wk-01-2026-01-15-intro.html#questions",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Questions",
+    "text": "Questions\n\nWhat is the basic organizational plan of the nervous system?\nHow do neurons work?\nHow do neurons connected in networks achieve behavioral goals?\nHow does the nervous system develop? How has it evolved?\nHow do disorders of the mind reveal themselves in the nervous system?"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#approach",
+    "href": "slides/wk-01-2026-01-15-intro.html#approach",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Approach",
+    "text": "Approach\n\nBrain architecture (neuroanatomy)\nBrain function (neurophysiology)\nBrain communication (neurochemistry)\nChanges over evolutionary and developmental time"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#approach-1",
+    "href": "slides/wk-01-2026-01-15-intro.html#approach-1",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Approach",
+    "text": "Approach\n\nThe nervous system as an information processing system\n\n\n\n\nWikipedia"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#mindful-of-limitations-in-braincomputer-metaphors",
+    "href": "slides/wk-01-2026-01-15-intro.html#mindful-of-limitations-in-braincomputer-metaphors",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Mindful of limitations in brain/computer metaphors",
+    "text": "Mindful of limitations in brain/computer metaphors\n\n\n\nhttps://www.explainthatstuff.com/howcomputerswork.html"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#or-inspired-by-richer-metaphors",
+    "href": "slides/wk-01-2026-01-15-intro.html#or-inspired-by-richer-metaphors",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Or inspired by richer metaphors",
+    "text": "Or inspired by richer metaphors\n\n\n\nBecker (2021)"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#inputs",
+    "href": "slides/wk-01-2026-01-15-intro.html#inputs",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Inputs",
+    "text": "Inputs\n\nFrom environment, body, brain"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#processing",
+    "href": "slides/wk-01-2026-01-15-intro.html#processing",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Processing",
+    "text": "Processing\n\nCurrent inputs + brain state + body state + possible future states…\nStored information\nPhysiological & behavioral goals\n\n\n\n\n\n(Cisek, 2019, fig. 1)"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#outputs",
+    "href": "slides/wk-01-2026-01-15-intro.html#outputs",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Outputs",
+    "text": "Outputs\n\nTo brain, body, environment"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#mapping-structures-to-functions",
+    "href": "slides/wk-01-2026-01-15-intro.html#mapping-structures-to-functions",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Mapping structures to functions…",
+    "text": "Mapping structures to functions…\n\n\n\nCisek (2019) Figure 8"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#and-vice-versa",
+    "href": "slides/wk-01-2026-01-15-intro.html#and-vice-versa",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "And vice versa?",
+    "text": "And vice versa?\n\n\n\nCepelewicz (2021)\n\n\n\n\n“The brainwide representation of behavioral variables suggests that information encoded nearly anywhere in the forebrain is combined with behavioral state variables into a mixed representation…Our data indicate that it happens as early as primary sensory cortex.”\n\n\nStringer et al. (2019)"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#and-do-we-have-the-right-psychological-structures",
+    "href": "slides/wk-01-2026-01-15-intro.html#and-do-we-have-the-right-psychological-structures",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "And do we have the right “psychological” structures?",
+    "text": "And do we have the right “psychological” structures?\n\nPsychological sciences have identified a wealth of cognitive processes and behavioral phenomena, yet struggle to produce cumulative knowledge. Progress is hamstrung by siloed scientific traditions and a focus on explanation over prediction…\n\n– Eisenberg et al. (2019)\n\n\n…two issues that are particularly damaging for the study of multifaceted constructs like self-regulation…We conclude that self-regulation lacks coherence as a construct…\n\n– Eisenberg et al. (2019)"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#behavioural-biologists-dont-agree-on-what-constitutes-behaviour",
+    "href": "slides/wk-01-2026-01-15-intro.html#behavioural-biologists-dont-agree-on-what-constitutes-behaviour",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "“Behavioural biologists don’t agree on what constitutes behaviour”",
+    "text": "“Behavioural biologists don’t agree on what constitutes behaviour”\n\nBehavioural biology is a major discipline within biology, centred on the key concept of ‘behaviour’. But how is ‘behaviour’ defined, and how should it be defined? We outline what characteristics we believe a scientific definition should have, and why we think it is important…\n\n– Levitis, Lidicker, & Freund (2009)\n\n\n…that a definition have these traits. We then examine the range of available published definitions for behaviour.\n\n– Levitis et al. (2009)\n\n\nFinding no consensus, we present survey responses from 174 members of three behaviour-focused scientific societies as to their understanding of the term. Here again, we find surprisingly widespread disagreement as to what qualifies as behaviour. Respondents contradict themselves…\n\n– Levitis et al. (2009)\n\n\n…each other, and published definitions, indicating that they are using individually variable intuitive, rather than codified, meanings of `behaviour.’\n\n– Levitis et al. (2009)\n\n\nWe offer a new definition, based largely on survey responses: “Behaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes.”\n\n– Levitis et al. (2009)"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#sciences-of-complexity",
+    "href": "slides/wk-01-2026-01-15-intro.html#sciences-of-complexity",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Sciences of complexity",
+    "text": "Sciences of complexity\n\n\n\nFavela (2020) Figure 1"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#levels-of-analysis",
+    "href": "slides/wk-01-2026-01-15-intro.html#levels-of-analysis",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Levels of analysis",
+    "text": "Levels of analysis\n\n\n\nSejnowski et al. (2014) Figure 1"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#david-marr-1945-1980",
+    "href": "slides/wk-01-2026-01-15-intro.html#david-marr-1945-1980",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "David Marr (1945-1980)",
+    "text": "David Marr (1945-1980)\n\n\n\n\n\nDavid Marr\n\n\n\n\n\n\nMarr (1980)"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#marrs-three-levels",
+    "href": "slides/wk-01-2026-01-15-intro.html#marrs-three-levels",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Marr’s Three Levels",
+    "text": "Marr’s Three Levels\n\n\n\nFavela (2020) Figure 3\n\n\n\n\nWhat must be computed to carry out task X?\nWhat algorithm is used to carry out the computation?\nWhat hardware implements the algorithm?"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#computational-level",
+    "href": "slides/wk-01-2026-01-15-intro.html#computational-level",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Computational level",
+    "text": "Computational level\n\nWhat has to be computed?\n\nWhat is the shape/form of that unknown object?\nWhat did that person just say?\nIs that unknown object a threat to me?"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#algorithmic-level",
+    "href": "slides/wk-01-2026-01-15-intro.html#algorithmic-level",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Algorithmic level",
+    "text": "Algorithmic level\n\nWhat’s the ‘recipe’ for…\n\ncomputing shape\nperceiving speech\nrecognizing threats"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#implementation-level",
+    "href": "slides/wk-01-2026-01-15-intro.html#implementation-level",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Implementation level",
+    "text": "Implementation level\n\nHow do…\n\nneurons\nareas\nnetworks\n\nimplement the recipe?"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#causality-in-neuroscience",
+    "href": "slides/wk-01-2026-01-15-intro.html#causality-in-neuroscience",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Causality in neuroscience",
+    "text": "Causality in neuroscience\n\nSiddiqi, Kording, Parvizi, & Fox (2022)\nStimulation & lesion studies needed for inferring causation.\nBradford-Hill criteria (Hill, 2015)"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#varied-notions-of-mechanism",
+    "href": "slides/wk-01-2026-01-15-intro.html#varied-notions-of-mechanism",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Varied notions of mechanism",
+    "text": "Varied notions of mechanism\n\n\n\nFig. 1: The narrow and broad notions of mechanism from Ross & Bassett (2024)"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#toward-reverse-neuroethology",
+    "href": "slides/wk-01-2026-01-15-intro.html#toward-reverse-neuroethology",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Toward reverse neuroethology",
+    "text": "Toward reverse neuroethology"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#figure-1-from-asinof2024-iu",
+    "href": "slides/wk-01-2026-01-15-intro.html#figure-1-from-asinof2024-iu",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "",
+    "text": "https://giphy.com/clips/thefastsaga-fast-and-furious-saga-fate-of-the-DF34cUyak7TPs7D4GE\n\n\n\n\n…when faced with a difficult question, we often answer an easier one instead, usually without noticing the substitution.\n\n– Kahneman (2013), p. 12 quoted in Krakauer, Ghazanfar, Gomez-Marin, MacIver, & Poeppel (2017)"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#does-neuroscience-need-behavior",
+    "href": "slides/wk-01-2026-01-15-intro.html#does-neuroscience-need-behavior",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Does neuroscience need behavior?",
+    "text": "Does neuroscience need behavior?\nKrakauer, J. W., Ghazanfar, A. A., Gomez-Marin, A., MacIver, M. A., & Poeppel, D. (2017). Neuroscience needs behavior: Correcting a reductionist bias. Neuron, 93(3), 480–490. https://dx.doi.org/10.1016/j.neuron.2016.12.041.\nParada, F. J. & Rossi, A. (2018). If neuroscience needs behavior, what does psychology need? Frontiers in Psychology, 9, 433. https://doi.org/10.3389/fpsyg.2018.00433.\nNewcombe, N. (2017). If neuroscience needs behavior, what does behavioral science need? APS Observer, 31(1). https://www.psychologicalscience.org/observer/if-neuroscience-needs-behavior-what-does-behavioral-science-need"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#key-points",
+    "href": "slides/wk-01-2026-01-15-intro.html#key-points",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Key points",
+    "text": "Key points\n\nQuestions ‘often tacit…belief in the reductionist program for understanding the link between brain and behavior’\nBehavior -&gt; understanding; neural interventions -&gt; causality\nMarr’s 3 levels (computation; algorithm; implementation)"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#but-what-is-behavior",
+    "href": "slides/wk-01-2026-01-15-intro.html#but-what-is-behavior",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "But what is behavior?",
+    "text": "But what is behavior?"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#behavioural-biologists-dont-agree-on-what-constitutes-behaviour-1",
+    "href": "slides/wk-01-2026-01-15-intro.html#behavioural-biologists-dont-agree-on-what-constitutes-behaviour-1",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "“Behavioural biologists don’t agree on what constitutes behaviour”",
+    "text": "“Behavioural biologists don’t agree on what constitutes behaviour”\n\n…“Behaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes.”\n\n– Levitis et al. (2009)]\n\n\n\n\nKrakauer et al. (2017) Figure 1\n\n\n\n\n\n\nKrakauer et al. (2017) Figure 2\n\n\n\n\n\n\n(Krakauer et al., 2017, fig. 3)\n\n\n\n\n\n\n(Krakauer et al., 2017, fig. 4)\n\n\n\n\n\n\nParada & Rossi (2018) Figure 1"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#exercise-lvl",
+    "href": "slides/wk-01-2026-01-15-intro.html#exercise-lvl",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Exercise LVL",
+    "text": "Exercise LVL\n\nDue next Thursday"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#main-points",
+    "href": "slides/wk-01-2026-01-15-intro.html#main-points",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Main points",
+    "text": "Main points\n\nPsychology is harder than physics\nNeuroscience needs behavior\nPsychology needs behavior + mental states + measures of environment"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#next-time",
+    "href": "slides/wk-01-2026-01-15-intro.html#next-time",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Next time…",
+    "text": "Next time…\n\nNeuroanatomy lab\n\nRead/study\n\nNeuroanatomy notes\nBring to class a copy of Exercise 02"
+  },
+  {
+    "objectID": "exercises/final-project.html",
+    "href": "exercises/final-project.html",
+    "title": "Final project",
+    "section": "",
+    "text": "Please describe your plan for your final project in a concise, 1-2 page proposal. Your proposal should describe the form of your project, the topic or topics to be covered, how the project contributes to your scholarly or training goals, and highlight and cite no more than five (5) sources you intend to draw upon.\nPlease submit the proposal as a Microsoft Word (.docx) formatted document.\nThe proposal is due on Wednesday, March 5, 2026"
+  },
+  {
+    "objectID": "exercises/final-project.html#project-proposal",
+    "href": "exercises/final-project.html#project-proposal",
+    "title": "Final project",
+    "section": "",
+    "text": "Please describe your plan for your final project in a concise, 1-2 page proposal. Your proposal should describe the form of your project, the topic or topics to be covered, how the project contributes to your scholarly or training goals, and highlight and cite no more than five (5) sources you intend to draw upon.\nPlease submit the proposal as a Microsoft Word (.docx) formatted document.\nThe proposal is due on Wednesday, March 5, 2026"
+  },
+  {
+    "objectID": "exercises/final-project.html#project-options",
+    "href": "exercises/final-project.html#project-options",
+    "title": "Final project",
+    "section": "Project options",
+    "text": "Project options\n\nBBS-style critical review\nWrite a critical review in the style of a Behavioral and Brain Sciences (BBS) commentary. The target of your review could be a published article in BBS or an article published in another journal. Examine some existing BBS papers in your areas of interest to see how authors choose to structure their commentaries. Typically, a BBS commentary is restricted to 1,000 words, but you have latitude to write up to 2,500 words.\n\n\nPopular science piece\nChoose a method, a nervous system structure, neurotransmitter or hormone, or a psychological state, and write a “what do we know about” style of piece targeted at the general, science-literate public. Consult The New York Times, Scientific American, The New Scientist, or The Economist for illustrative examples of the structure and style of the piece. Your piece should be 1,500-2,500 words, and could include illustrations you create, or videos or figures you find (and cite sources for) on the internet. If you choose a psychological state or behavior, please incorporate a biological perspective in some meaningful way. If you want to create a website for your content using Quarto or a similar tool, that is also acceptable.\n\n\nResearch proposal\nPropose a research study that incorporates one or more biological measures and some well-defined behavior or set of behaviors or psychological states. Make sure to highlight how biological measures inform and enrich our understanding about the behaviors or psychological states. Your proposal can be 1,500-2,500 words in length.\n\n\nTutorial\nPrepare a complete 20-30 min lecture with slides for a 200-level course on biological or physiological psychology focusing on a topic you might choose to cover were you the instructor of record.\nFor this project format, you are strongly encouraged to schedule time to present your tutorial to class.\n\n\nExercise\nWrite an exercise for a future group of PSY 511 students. Your exercise can build upon the existing exercises, replace the content for an existing exercise, or address a topic not covered or covered thoroughly this semester.\nFor this project, you are strongly encouraged to meet with me in advance."
+  },
+  {
+    "objectID": "exercises/final-project.html#tips",
+    "href": "exercises/final-project.html#tips",
+    "title": "Final project",
+    "section": "Tips",
+    "text": "Tips\n\nAlways put your last name and first name in the file name of all documents you submit. For example, gilmore-rick-psy-511-2026-final-paper.docx works fine.\nSubmit your paper as a MS Word document using Canvas.\nInclude a cover page and title. Make sure to add page numbers.\n\nResearch proposals and BBS-style reviews should use APA format.\nBBS-style reviews, popular science pieces, and research proposals should include an introduction, body, and conclusion. Depending on the format, you may or may not need to label these sections.\nUnpack and define all acronyms when you first mention them. Define or explain technical terms and concepts.\nInclude all end-of-paper citations in a format that is convenient to you and easy to extract from your reference manager.\nInclude author-date citations in the text. Footnote-style in-text citations are also acceptable.\nUse double-spacing.\nRun spell-check on your paper before you submit. I also suggest reading your paper out loud as a way to catch run-on sentences, awkward phrasing, and odd word choices."
+  },
+  {
+    "objectID": "exercises/ex-PHYS.html",
+    "href": "exercises/ex-PHYS.html",
+    "title": "Exercise PHYS • Neurophysiology I",
+    "section": "",
+    "text": "To understand some basic facts about neurons and glia.\nTo understand the ionic components and balance of forces that give rise to the resting potential."
+  },
+  {
+    "objectID": "exercises/ex-PHYS.html#goals",
+    "href": "exercises/ex-PHYS.html#goals",
+    "title": "Exercise PHYS • Neurophysiology I",
+    "section": "",
+    "text": "To understand some basic facts about neurons and glia.\nTo understand the ionic components and balance of forces that give rise to the resting potential."
+  },
+  {
+    "objectID": "exercises/ex-PHYS.html#activity",
+    "href": "exercises/ex-PHYS.html#activity",
+    "title": "Exercise PHYS • Neurophysiology I",
+    "section": "Activity",
+    "text": "Activity\nYou may work by yourself or with up to two other people for this activity.\nAnswer the following questions in no more than a few sentences:\n\nDescribe at least two ways that neurons differ from other cells in the body.\nWhat are the two main types of myelin-producing glial cells, and where in the body are they found?\n\nDraw and annotate figure(s) to answer the following questions:\nMake sure to write a sentence or two to explain what’s going on in your figures.\n\nDraw a figure that shows the two principal ions that contribute to the neuron’s resting potential, and where (inside or outside the neuron) they are most heavily concentrated.\nAnnotate your figure to show the direction of ion flow along each ion’s concentration gradient1.\nAnnotate your figure to show the direction of ion movement caused by the \\(Na^+/K^+\\) (sodium/potassium) ATPase (pump).\nAnnotate your figure to show what spatial pattern of electrical charges (positive/negative voltage; inside the cell/outside the cell) would tend to keep the potassium (\\(K^+\\)) ions where they are most highly concentrated when the neuron is at rest. Explain your reasoning.\nAnnotate your figure to show what this same pattern of electrical charges would do to sodium (\\(Na^+\\)) ions.\n\nAnswer the following questions in no more than a few sentences:\n\nWhat change(s) in the neuron could cause potassium (\\(K^+\\)) ions to move? Which direction would the ions move under these circumstances?\nWhat change(s) in the neuron could cause sodium (\\(Na^+\\)) ions to move? Which direction would the ions move under these circumstances?\n\\(Na^+/K^+\\) (sodium/potassium) ATPase (pump) uses metabolic energy to function. It essentially keeps working constantly. What would happen to the neuron if this process was disrupted somehow?"
+  },
+  {
+    "objectID": "exercises/ex-PHYS.html#submission-details",
+    "href": "exercises/ex-PHYS.html#submission-details",
+    "title": "Exercise PHYS • Neurophysiology I",
+    "section": "Submission details",
+    "text": "Submission details\n\nSubmit your write-up by 2026-04-02 via the Canvas dropbox.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
+  },
+  {
+    "objectID": "exercises/ex-PHYS.html#footnotes",
+    "href": "exercises/ex-PHYS.html#footnotes",
+    "title": "Exercise PHYS • Neurophysiology I",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nRemember that ions flow down the concentration gradient, from regions of high concentration to regions of lower concentration↩︎"
+  },
+  {
+    "objectID": "exercises/ex-LVL.html",
+    "href": "exercises/ex-LVL.html",
+    "title": "Exercise LVL • Levels/Terms",
+    "section": "",
+    "text": "Begin reading the literature about biological approaches to psychology with a critical, analytic perspective.\nHighlight concepts and terms that you want to understand more thoroughly.\nApply the idea of levels of analysis to the relevant literature."
+  },
+  {
+    "objectID": "exercises/ex-LVL.html#goals",
+    "href": "exercises/ex-LVL.html#goals",
+    "title": "Exercise LVL • Levels/Terms",
+    "section": "",
+    "text": "Begin reading the literature about biological approaches to psychology with a critical, analytic perspective.\nHighlight concepts and terms that you want to understand more thoroughly.\nApply the idea of levels of analysis to the relevant literature."
+  },
+  {
+    "objectID": "exercises/ex-LVL.html#tasks",
+    "href": "exercises/ex-LVL.html#tasks",
+    "title": "Exercise LVL • Levels/Terms",
+    "section": "Tasks",
+    "text": "Tasks\n\nChoose two (2) papers relevant to your personal research interests that you want to understand more thoroughly.\nScan the papers and highlight 3-5 terms or concepts that you are especially interested in understanding better.\nSubmit a short (1-2 pp) write-up that includes the following:\n\nWhich articles did you choose and why did you choose them.\nWhat terms or concepts did you choose and why did you choose them.\nWhat spatial level or levels of analysis do the terms or concepts reflect?\nWhat time frame (temporal level of analysis) applies to the terms in question?\nDo these concepts describe behaviors or internal states (physiological or psychological)? If so, what are the behaviors or internal states?"
+  },
+  {
+    "objectID": "exercises/ex-LVL.html#submission-details",
+    "href": "exercises/ex-LVL.html#submission-details",
+    "title": "Exercise LVL • Levels/Terms",
+    "section": "Submission details",
+    "text": "Submission details\n\nGive your paper a file name following this convention: psy-511-spr-2026-LASTNAME-FIRSTNAME-ex-LVL.docx,\nProvide full APA format citations with DOIs.\nYour write-up is due 2026-01-22.\nThe Canvas dropbox is here"
+  },
+  {
+    "objectID": "exercises/ex-EMO.html",
+    "href": "exercises/ex-EMO.html",
+    "title": "Exercise EMO • Measuring emotion",
+    "section": "",
+    "text": "To more deeply understand how emotions are measured."
+  },
+  {
+    "objectID": "exercises/ex-EMO.html#goals",
+    "href": "exercises/ex-EMO.html#goals",
+    "title": "Exercise EMO • Measuring emotion",
+    "section": "",
+    "text": "To more deeply understand how emotions are measured."
+  },
+  {
+    "objectID": "exercises/ex-EMO.html#activity",
+    "href": "exercises/ex-EMO.html#activity",
+    "title": "Exercise EMO • Measuring emotion",
+    "section": "Activity",
+    "text": "Activity\nChoose a measure of an emotional or affective state. Write a short, 4-5 pp, essay where you address the following points:\n\nHow the measure is implemented, e.g., self-report survey, third party observation, physiological measurement, etc.\nWhat evidence links measure outcomes to affective state.\nWhat evidence links measure outcomes to related measures.\nWhat are the principal strengths and weaknesses of this particular measure.\nHow might any weaknesses be mitigated or overcome."
+  },
+  {
+    "objectID": "exercises/ex-EMO.html#submission-details",
+    "href": "exercises/ex-EMO.html#submission-details",
+    "title": "Exercise EMO • Measuring emotion",
+    "section": "Submission details",
+    "text": "Submission details\n\nSubmit your write-up by 2026-02-26 via the Canvas dropbox.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
+  },
+  {
+    "objectID": "exercises/ex-CHEM.html",
+    "href": "exercises/ex-CHEM.html",
+    "title": "Exercise CHEM • Neurochemistry",
+    "section": "",
+    "text": "To understand some basic facts about neurotransmitters and their functions in communication.\nTo understand some basic facts about hormones and their functions in communication.\nTo understand how chemical (via neurotransmitters and hormones) and electrical (via action potentials) compare with one another."
+  },
+  {
+    "objectID": "exercises/ex-CHEM.html#goals",
+    "href": "exercises/ex-CHEM.html#goals",
+    "title": "Exercise CHEM • Neurochemistry",
+    "section": "",
+    "text": "To understand some basic facts about neurotransmitters and their functions in communication.\nTo understand some basic facts about hormones and their functions in communication.\nTo understand how chemical (via neurotransmitters and hormones) and electrical (via action potentials) compare with one another."
+  },
+  {
+    "objectID": "exercises/ex-CHEM.html#activity",
+    "href": "exercises/ex-CHEM.html#activity",
+    "title": "Exercise CHEM • Neurochemistry",
+    "section": "Activity",
+    "text": "Activity\n\nStarting with the arrival of the action potential at the terminal button, describe the main steps that lead to the release of neurotransmitter from the presynaptic terminal.\nDescribe how the binding of neurotransmitter onto an ionotropic post-synaptic receptor influences the post-synaptic cell. What is an example of a neurotransmitter that has this effect?\nDescribe how the binding of neurotransmitter onto a metabotropic post-synaptic receptor influences the post-synaptic cell. What is an example of a neurotransmitter that has this sort of effect?\nDescribe at least two ways that neurotransmitters released at a synapse are inactivated, with an example for each.\nDescribe some of the key features and roles of glutamate and GABA in the CNS.\nDescribe at least two features that monoamine neurotransmitter systems have in common.\nIdentify a structure in the CNS that controls the endocrine and neural responses to situations that require behavioral activation or increased activity and arousal. Give an example of how this might work in practice."
+  },
+  {
+    "objectID": "exercises/ex-CHEM.html#submission-details",
+    "href": "exercises/ex-CHEM.html#submission-details",
+    "title": "Exercise CHEM • Neurochemistry",
+    "section": "Submission details",
+    "text": "Submission details\n\nSubmit your write-up by 2026-04-16 via the Canvas dropbox.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
+  },
+  {
+    "objectID": "exercises/ex-ANAT.html",
+    "href": "exercises/ex-ANAT.html",
+    "title": "Exercise ANAT • Neuroanatomy",
+    "section": "",
+    "text": "To use core neuroanatomical terms in multiple contexts.\nTo practice locating and identifying neuroanatomical structures.\nTo understand what structures are located near other structures.\nTo understand what structures can or cannot be seen from the surface."
+  },
+  {
+    "objectID": "exercises/ex-ANAT.html#goals",
+    "href": "exercises/ex-ANAT.html#goals",
+    "title": "Exercise ANAT • Neuroanatomy",
+    "section": "",
+    "text": "To use core neuroanatomical terms in multiple contexts.\nTo practice locating and identifying neuroanatomical structures.\nTo understand what structures are located near other structures.\nTo understand what structures can or cannot be seen from the surface."
+  },
+  {
+    "objectID": "exercises/ex-ANAT.html#activity",
+    "href": "exercises/ex-ANAT.html#activity",
+    "title": "Exercise ANAT • Neuroanatomy",
+    "section": "Activity",
+    "text": "Activity\nThere will be three stations, one with the brain models, one with brain specimens, and the third with paper atlases. At each station, do the following:\n\nWork through the list below.\nIf you can identify the structure or term, put a check mark.\nIf you are unsure, put a question mark.\nStructures or terms you cannot identify should be left blank.\n\n\n\n\n\n\n\nNote\n\n\n\nIf you have time, you might pick one or two of the anatomical structures that you highlighted in Exercise LVL • Levels/Terms and try to locate them.\nIf you cannot identify a structure or term in any of the stations or atlases, try to find an image on the internet that depicts the structure. If you If this fails, ask Dr. Gilmore for help.\n\n\nOnce you have completed the three stations, you may make a fourth pass through the outline using one (or more) of the electronic atlases:\n\nHarvard Brain Atlas http://www.med.harvard.edu/aanlib/cases/caseNA/pb9.htm\nAllen Brain Atlas\n\nHuman female adult (modified Brodmann\nHuman female adult (gyral)\n\n3D Brain from Brainfacts.org\n\nFollow the same procedure as before, adding checkmarks, or question marks where appropriate."
+  },
+  {
+    "objectID": "exercises/ex-ANAT.html#submission-details",
+    "href": "exercises/ex-ANAT.html#submission-details",
+    "title": "Exercise ANAT • Neuroanatomy",
+    "section": "Submission details",
+    "text": "Submission details\n\nSubmit a photocopy or image of your outline by 2026-01-29 using the Canvas dropbox\nIf you found any additional resources that were especially useful to you, please share them."
+  },
+  {
+    "objectID": "exercises/ex-ANAT.html#directional-terms",
+    "href": "exercises/ex-ANAT.html#directional-terms",
+    "title": "Exercise ANAT • Neuroanatomy",
+    "section": "Directional terms",
+    "text": "Directional terms\n\n\n\n\n\n\n\n\n\n\nDirection\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nRostral/caudal\n\n\n\n\n\n\nAnterior/posterior\n\n\n\n\n\n\nMedial/lateral\n\n\n\n\n\n\nDorsal/ventral\n\n\n\n\n\n\nSuperior/inferior"
+  },
+  {
+    "objectID": "exercises/ex-ANAT.html#planes-of-section",
+    "href": "exercises/ex-ANAT.html#planes-of-section",
+    "title": "Exercise ANAT • Neuroanatomy",
+    "section": "Planes of Section",
+    "text": "Planes of Section\n\n\n\nPlane\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nSagittal\n\n\n\n\n\n\nCoronal/frontal\n\n\n\n\n\n\nAxial/horizontal/transverse"
+  },
+  {
+    "objectID": "exercises/ex-ANAT.html#brain-structure",
+    "href": "exercises/ex-ANAT.html#brain-structure",
+    "title": "Exercise ANAT • Neuroanatomy",
+    "section": "Brain Structure",
+    "text": "Brain Structure\n\n\n\nStructure\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nForebrain\n\n\n\n\n\n\nMidbrain\n\n\n\n\n\n\nHindbrain"
+  },
+  {
+    "objectID": "exercises/ex-ANAT.html#surface-of-cerebral-cortex",
+    "href": "exercises/ex-ANAT.html#surface-of-cerebral-cortex",
+    "title": "Exercise ANAT • Neuroanatomy",
+    "section": "Surface of Cerebral Cortex",
+    "text": "Surface of Cerebral Cortex\n\n\n\nStructure\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nCentral sulcus\n\n\n\n\n\n\nLateral sulcus/fissure\n\n\n\n\n\n\nLongitudinal fissure\n\n\n\n\n\n\nCerebral hemispheres\n\n\n\n\n\n\nParietal lobe\n\n\n\n\n\n\nFrontal lobe\n\n\n\n\n\n\nInsular cortex\n\n\n\n\n\n\nTemporal lobe\n\n\n\n\n\n\nOccipital lobe\n\n\n\n\n\n\nPrecentral gyrus\n\n\n\n\n\n\nPostcentral gyrus\n\n\n\n\n\n\nSuperior temporal gyrus"
+  },
+  {
+    "objectID": "exercises/ex-ANAT.html#fiber-tracts",
+    "href": "exercises/ex-ANAT.html#fiber-tracts",
+    "title": "Exercise ANAT • Neuroanatomy",
+    "section": "Fiber tracts",
+    "text": "Fiber tracts\n\n\n\nStructure\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nCorpus callosum\n\n\n\n\n\n\nAnterior commissure\n\n\n\n\n\n\nPosterior commissure\n\n\n\n\n\n\nOlfactory nerve, Ist\n\n\n\n\n\n\nOptic nerve/tract, IInd\n\n\n\n\n\n\nOptic chiasm\n\n\n\n\n\n\nFornix"
+  },
+  {
+    "objectID": "exercises/ex-ANAT.html#subcortical-structures",
+    "href": "exercises/ex-ANAT.html#subcortical-structures",
+    "title": "Exercise ANAT • Neuroanatomy",
+    "section": "Subcortical structures",
+    "text": "Subcortical structures\n\n\n\nStructure\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nCaudate nucleus\n\n\n\n\n\n\nPutamen\n\n\n\n\n\n\nGlobus Pallidus\n\n\n\n\n\n\nThalamus\n\n\n\n\n\n\nHypothalamus\n\n\n\n\n\n\nPituitary gland\n\n\n\n\n\n\nHippocampus\n\n\n\n\n\n\nAmygdala"
+  },
+  {
+    "objectID": "exercises/ex-ANAT.html#midbrain",
+    "href": "exercises/ex-ANAT.html#midbrain",
+    "title": "Exercise ANAT • Neuroanatomy",
+    "section": "Midbrain",
+    "text": "Midbrain\n\n\n\nStructure\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nTectum\n\n\n\n\n\n\nSuperior colliculus\n\n\n\n\n\n\nInferior colliculus\n\n\n\n\n\n\nTegmentum\n\n\n\n\n\n\nSubstantia nigra\n\n\n\n\n\n\nVentral tegmental area\n\n\n\n\n\n\nLocus coeruleus"
+  },
+  {
+    "objectID": "exercises/ex-ANAT.html#hindbrain",
+    "href": "exercises/ex-ANAT.html#hindbrain",
+    "title": "Exercise ANAT • Neuroanatomy",
+    "section": "Hindbrain",
+    "text": "Hindbrain\n\n\n\nStructure\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nCerebellum\n\n\n\n\n\n\nPons\n\n\n\n\n\n\nMedulla Oblongata\n\n\n\n\n\n\nSpinal cord"
+  },
+  {
+    "objectID": "exercises/ex-ANAT.html#ventricles",
+    "href": "exercises/ex-ANAT.html#ventricles",
+    "title": "Exercise ANAT • Neuroanatomy",
+    "section": "Ventricles",
+    "text": "Ventricles\n\n\n\nStructure\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nLateral ventricles\n\n\n\n\n\n\n3rd ventricle\n\n\n\n\n\n\nCerebral aqueduct\n\n\n\n\n\n\n4th ventricle"
+  },
+  {
+    "objectID": "slides/wk05-2025-02-13.html",
+    "href": "slides/wk05-2025-02-13.html",
+    "title": "Neurochemistry & Neurocomputing",
+    "section": "",
+    "text": "Exercise 03 write-up due yesterday.\nExercise 04 write-up due next Wednesday, February 19\n\n\n\n\n\nHow the action potential begins…\nHow it propagates down…\n\nUnmyelinated axons\nMyelinated axons\n\nHow it triggers synaptic transmission\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeurochemistry\n\nNeurotransmitters\nHormones"
+  },
+  {
+    "objectID": "slides/wk05-2025-02-13.html#announcements",
+    "href": "slides/wk05-2025-02-13.html#announcements",
+    "title": "Neurochemistry & Neurocomputing",
+    "section": "",
+    "text": "Exercise 03 write-up due yesterday.\nExercise 04 write-up due next Wednesday, February 19"
+  },
+  {
+    "objectID": "slides/wk05-2025-02-13.html#last-time",
+    "href": "slides/wk05-2025-02-13.html#last-time",
+    "title": "Neurochemistry & Neurocomputing",
+    "section": "",
+    "text": "How the action potential begins…\nHow it propagates down…\n\nUnmyelinated axons\nMyelinated axons\n\nHow it triggers synaptic transmission"
+  },
+  {
+    "objectID": "slides/wk05-2025-02-13.html#todays-topics",
+    "href": "slides/wk05-2025-02-13.html#todays-topics",
+    "title": "Neurochemistry & Neurocomputing",
+    "section": "",
+    "text": "Neurochemistry\n\nNeurotransmitters\nHormones"
+  },
+  {
+    "objectID": "slides/wk05-2025-02-13.html#monoamine-song",
+    "href": "slides/wk05-2025-02-13.html#monoamine-song",
+    "title": "Neurochemistry & Neurocomputing",
+    "section": "Monoamine Song",
+    "text": "Monoamine Song\n\nhttps://en.wikipedia.org/wiki/Mah_Nà_Mah_Nà"
+  },
+  {
+    "objectID": "slides/wk05-2025-02-13.html#monoamine-song-1",
+    "href": "slides/wk05-2025-02-13.html#monoamine-song-1",
+    "title": "Neurochemistry & Neurocomputing",
+    "section": "Monoamine Song",
+    "text": "Monoamine Song\nMonoamines, do-do do do-do Monoamines, do do do-do Monoamines, do do do do-do do do-do do do-do do do do do-do do"
+  },
+  {
+    "objectID": "slides/wk05-2025-02-13.html#monoamine-song-2",
+    "href": "slides/wk05-2025-02-13.html#monoamine-song-2",
+    "title": "Neurochemistry & Neurocomputing",
+    "section": "Monoamine Song",
+    "text": "Monoamine Song\nMonoamines, do-pa-mine is one Monoamines, norepi, too Monoamines, sero-tonin e-pinephrine, dop-a-mine, nor-epinephrine, melatonin, whoo!"
+  },
+  {
+    "objectID": "slides/wk05-2025-02-13.html#monoamine-song-3",
+    "href": "slides/wk05-2025-02-13.html#monoamine-song-3",
+    "title": "Neurochemistry & Neurocomputing",
+    "section": "Monoamine Song",
+    "text": "Monoamine Song\nMonoamines, mod-u-late neurons  Monoamines, throughout the brain Monoamines, keep people happy, brains snappy, not sleepy, not sappy, do-do do-do do-do do"
+  },
+  {
+    "objectID": "slides/wk05-2025-02-13.html#main-points",
+    "href": "slides/wk05-2025-02-13.html#main-points",
+    "title": "Neurochemistry & Neurocomputing",
+    "section": "Main points",
+    "text": "Main points\n\nWhat substance +\nWhere released +\nWhat receptor =\nPhysiological effect\nChemical communication ancient"
+  },
+  {
+    "objectID": "slides/wk05-2025-02-13.html#next-time",
+    "href": "slides/wk05-2025-02-13.html#next-time",
+    "title": "Neurochemistry & Neurocomputing",
+    "section": "Next time…",
+    "text": "Next time…\n\nMethods in neuroscience"
+  },
+  {
+    "objectID": "slides/wk05-2025-02-13.html#references",
+    "href": "slides/wk05-2025-02-13.html#references",
+    "title": "Neurochemistry & Neurocomputing",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "slides/wk03-2025-01-30.html",
+    "href": "slides/wk03-2025-01-30.html",
+    "title": "Cellular neuroscience I",
+    "section": "",
+    "text": "http://www.gregadunn.com/\n\n\n \nNational Geographic (2014)\n\n\n\n\n\nEckert et al. (2024)\n\n\n\n\nOur results suggest that individual cells may exhibit habituation behavior as rich as that which has been codified in multi-cellular animals with central nervous systems and that the relative simplicity of the biomolecular level may enhance our understanding of the mechanisms of learning.\n\nEckert et al. (2024)\n\n\nI contain multitudes…\n\nWhitman (2019)\n\n\n\n\nExercise 01\n\nScores\nThemes\nImplications\n\nExercise 03 distributed.\n\ndue in two weeks on Wednesday, February 7\n\n\n\n\n\n\nNeuroanatomy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCellular neuroscience\n\nNeurons\nGlia\n\nResting potential"
+  },
+  {
+    "objectID": "slides/wk03-2025-01-30.html#in-the-news",
+    "href": "slides/wk03-2025-01-30.html#in-the-news",
+    "title": "Cellular neuroscience I",
+    "section": "",
+    "text": "Eckert et al. (2024)\n\n\n\n\nOur results suggest that individual cells may exhibit habituation behavior as rich as that which has been codified in multi-cellular animals with central nervous systems and that the relative simplicity of the biomolecular level may enhance our understanding of the mechanisms of learning.\n\nEckert et al. (2024)\n\n\nI contain multitudes…\n\nWhitman (2019)"
+  },
+  {
+    "objectID": "slides/wk03-2025-01-30.html#announcements",
+    "href": "slides/wk03-2025-01-30.html#announcements",
+    "title": "Cellular neuroscience I",
+    "section": "",
+    "text": "Exercise 01\n\nScores\nThemes\nImplications\n\nExercise 03 distributed.\n\ndue in two weeks on Wednesday, February 7"
+  },
+  {
+    "objectID": "slides/wk03-2025-01-30.html#last-time",
+    "href": "slides/wk03-2025-01-30.html#last-time",
+    "title": "Cellular neuroscience I",
+    "section": "",
+    "text": "Neuroanatomy"
+  },
+  {
+    "objectID": "slides/wk03-2025-01-30.html#todays-topics",
+    "href": "slides/wk03-2025-01-30.html#todays-topics",
+    "title": "Cellular neuroscience I",
+    "section": "",
+    "text": "Cellular neuroscience\n\nNeurons\nGlia\n\nResting potential"
+  },
+  {
+    "objectID": "slides/wk03-2025-01-30.html#work-on-exercise-03",
+    "href": "slides/wk03-2025-01-30.html#work-on-exercise-03",
+    "title": "Cellular neuroscience I",
+    "section": "Work on Exercise 03",
+    "text": "Work on Exercise 03\n\nVisit Exercise 03"
+  },
+  {
+    "objectID": "slides/wk03-2025-01-30.html#main-points",
+    "href": "slides/wk03-2025-01-30.html#main-points",
+    "title": "Cellular neuroscience I",
+    "section": "Main points",
+    "text": "Main points\n\nCells of nervous system specialized\nConvey, process, store information\nNervous systems enable complex external (behavior) and internal states\nComplex behavior/internal states not reducible to, but inseparable from nervous system states\nElectrical + chemical information flows"
+  },
+  {
+    "objectID": "slides/wk03-2025-01-30.html#next-time",
+    "href": "slides/wk03-2025-01-30.html#next-time",
+    "title": "Cellular neuroscience I",
+    "section": "Next time…",
+    "text": "Next time…\n\nThe action potential"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html",
+    "href": "slides/wk02-2025-01-23.html",
+    "title": "Neuroanatomy",
+    "section": "",
+    "text": "ctdalilah (2006)\n\n\nKids Learning Tube (2015) \n\n\n\nExercise 02 due next Wednesday, January 29, 2025.\n\n\n\n\n\nNeuroanatomy\n\nBrief overview\nIn-class lab\nExercise 02"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#announcements",
+    "href": "slides/wk02-2025-01-23.html#announcements",
+    "title": "Neuroanatomy",
+    "section": "",
+    "text": "Exercise 02 due next Wednesday, January 29, 2025."
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#todays-topics",
+    "href": "slides/wk02-2025-01-23.html#todays-topics",
+    "title": "Neuroanatomy",
+    "section": "",
+    "text": "Neuroanatomy\n\nBrief overview\nIn-class lab\nExercise 02"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#why-study",
+    "href": "slides/wk02-2025-01-23.html#why-study",
+    "title": "Neuroanatomy",
+    "section": "Why study?",
+    "text": "Why study?\n\nMaster basic vocabulary for reading literature"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#information-processing-perspective",
+    "href": "slides/wk02-2025-01-23.html#information-processing-perspective",
+    "title": "Neuroanatomy",
+    "section": "Information processing perspective",
+    "text": "Information processing perspective\n\nInputs from\n\nWorld\nBody\nBrain1\n\n\n\n\nOutputs to\n\nWorld\nBody\nBrain\n\nWhat computations occur where"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#functional-anatomy-perspective",
+    "href": "slides/wk02-2025-01-23.html#functional-anatomy-perspective",
+    "title": "Neuroanatomy",
+    "section": "Functional anatomy perspective",
+    "text": "Functional anatomy perspective\n\nLocated where\nConnected to\nInvolved in"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#brain-anatomy-through-dance",
+    "href": "slides/wk02-2025-01-23.html#brain-anatomy-through-dance",
+    "title": "Neuroanatomy",
+    "section": "Brain anatomy through dance",
+    "text": "Brain anatomy through dance\n\n\nYour browser does not support the audio tag."
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#directional-terms",
+    "href": "slides/wk02-2025-01-23.html#directional-terms",
+    "title": "Neuroanatomy",
+    "section": "Directional terms",
+    "text": "Directional terms\n\nAnterior/Posterior\nMedial/Lateral\nSuperior/Inferior\nDorsal/Ventral\nRostral/Caudal"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#central-vs.-peripheral-nervous-system",
+    "href": "slides/wk02-2025-01-23.html#central-vs.-peripheral-nervous-system",
+    "title": "Neuroanatomy",
+    "section": "Central vs. Peripheral Nervous System",
+    "text": "Central vs. Peripheral Nervous System\n\n\n\nNervous system of Harriet Cole, see McNaughton (2018)"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#organization-of-the-cns",
+    "href": "slides/wk02-2025-01-23.html#organization-of-the-cns",
+    "title": "Neuroanatomy",
+    "section": "Organization of the CNS",
+    "text": "Organization of the CNS\n\n\n\n\n\n\n\n\n\nMajor division\nVentricular Landmark\nEmbryonic Division\nStructure\n\n\n\n\nForebrain\nLateral\nTelencephalon\nCerebral cortex\n\n\n\n\n\nBasal ganglia\n\n\n\n\n\nHippocampus, amygdala\n\n\n\n\n\n\n\n\n\n\n\n\n\nMajor division\nVentricular Landmark\nEmbryonic Division\nStructure\n\n\n\n\n\nThird\nDiencephalon\nThalamus\n\n\n\n\n\nHypothalamus\n\n\n\n\n\n\n\n\n\n\n\n\n\nMajor division\nVentricular Landmark\nEmbryonic Division\nStructure\n\n\n\n\nMidbrain\nCerebral Aqueduct\nMesencephalon\nTectum, tegmentum\n\n\n\n\n\n\n\n\n\n\n\n\n\nMajor division\nVentricular Landmark\nEmbryonic Division\nStructure\n\n\n\n\nHindbrain\n4th\nMetencephalon\nCerebellum, pons\n\n\n\n–\nMylencephalon\nMedulla oblongata\n\n\n\n\nForebrain, midbrain, hindbrain terminology derives from embryonic stages in CNS development.\n\n\n\nEmbryonic human brain from Wikipedia"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#cerebrum",
+    "href": "slides/wk02-2025-01-23.html#cerebrum",
+    "title": "Neuroanatomy",
+    "section": "Cerebrum",
+    "text": "Cerebrum\n\n(Cerebral) cortex\nSubcortical (below the cortex) structures\n\n\n\n\nLabelled MRI including thalamus and hypothalamus"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#cerebral-cortex",
+    "href": "slides/wk02-2025-01-23.html#cerebral-cortex",
+    "title": "Neuroanatomy",
+    "section": "(Cerebral) cortex",
+    "text": "(Cerebral) cortex\n\nLobes, marked by sulci/fissures, adjacency to bones of skull\nFunctional areas marked by gyri & sulci\nBrodmann Areas\n\nMicrostructural (cellular composition) features\n\n\n\n\nMost lobes host primary sensory or motor area\n\nFrontal: Motor cortex\nTemporal: Auditory cortex\nParietal: Somatosensory cortex\nOccipital: Visual cortex\nInsula: Gustatory"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#inputoutput",
+    "href": "slides/wk02-2025-01-23.html#inputoutput",
+    "title": "Neuroanatomy",
+    "section": "Input/output",
+    "text": "Input/output\n\nVia cranial nerves (in CNS)\nVia spinal nerves (in PNS)\n\n\n\n\n\nCranial nerves from https://www.britannica.com/science/cranial-nerve#/media/1/141797/46720\n\n\n\n\n\n\nhttps://www.researchgate.net/profile/Saeede-Rahimi-Damirchi-Darasi/publication/324683974/figure/fig10/AS:753484697726976@1556656159277/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jp\n\n\n\nMultiple hierarchies\n\n\n\n(Swanson, 2005, fig. 1)"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#maps",
+    "href": "slides/wk02-2025-01-23.html#maps",
+    "title": "Neuroanatomy",
+    "section": "Maps",
+    "text": "Maps\n\nSensory & motor systems often use maps\n\n\n\n\n\nhttps://www.researchgate.net/profile/Brian-Wandell/publication/8988812/figure/fig1/AS:280067633631238@1443784735289/The-Retinotopy-paradigm-Two-stimuli-are-used-to-measure-the-retinotopic-maps-in-cortex.png\n\n\n\n\n\n\nFigure 1 from Saenz & Langers (2014)\n\n\n\n\n\n\nWikipedia\n\n\n\n\nGeometric issues central for perceptual/motor behavior\nDo other systems “map” function to structure?"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#overview",
+    "href": "slides/wk02-2025-01-23.html#overview",
+    "title": "Neuroanatomy",
+    "section": "Overview",
+    "text": "Overview\n\n3 groups\nRotate among stations every ~25 min\nIdentify as many structures as possible"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#main-points",
+    "href": "slides/wk02-2025-01-23.html#main-points",
+    "title": "Neuroanatomy",
+    "section": "Main points",
+    "text": "Main points\n\nDirectional terms\nWhat is it\nWhere is it\n\nRelative to other things\nCNS/PNS\nForebrain/midbrain/hindbrain\n\n\n\n\nCerebral cortex and its subparts\nGrey matter vs. white matter"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#next-time",
+    "href": "slides/wk02-2025-01-23.html#next-time",
+    "title": "Neuroanatomy",
+    "section": "Next time…",
+    "text": "Next time…\n\nCellular neuroscience I"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#footnotes",
+    "href": "slides/wk02-2025-01-23.html#footnotes",
+    "title": "Neuroanatomy",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nshorthand for nervous system↩︎"
+  },
+  {
+    "objectID": "slides/wk04-2025-02-06.html",
+    "href": "slides/wk04-2025-02-06.html",
+    "title": "Propagation and neurocomputing",
+    "section": "",
+    "text": "Musikladen (2020)\n\n\n\nExercise 03 write-up due next Wednesday, February 12.\nExercise 04 assigned.\n\n\n\n\n\nResting potential\nHow the action potential begins…\n\n\n\n\n\nHow the action potential propagates down…\n\nUnmyelinated axons\nMyelinated axons\n\nHow it triggers synaptic transmission"
+  },
+  {
+    "objectID": "slides/wk04-2025-02-06.html#announcements",
+    "href": "slides/wk04-2025-02-06.html#announcements",
+    "title": "Propagation and neurocomputing",
+    "section": "",
+    "text": "Exercise 03 write-up due next Wednesday, February 12.\nExercise 04 assigned."
+  },
+  {
+    "objectID": "slides/wk04-2025-02-06.html#last-time",
+    "href": "slides/wk04-2025-02-06.html#last-time",
+    "title": "Propagation and neurocomputing",
+    "section": "",
+    "text": "Resting potential\nHow the action potential begins…"
+  },
+  {
+    "objectID": "slides/wk04-2025-02-06.html#todays-topics",
+    "href": "slides/wk04-2025-02-06.html#todays-topics",
+    "title": "Propagation and neurocomputing",
+    "section": "",
+    "text": "How the action potential propagates down…\n\nUnmyelinated axons\nMyelinated axons\n\nHow it triggers synaptic transmission"
+  },
+  {
+    "objectID": "slides/wk04-2025-02-06.html#link-to-notes",
+    "href": "slides/wk04-2025-02-06.html#link-to-notes",
+    "title": "Propagation and neurocomputing",
+    "section": "Link to notes",
+    "text": "Link to notes\n\nAction potential propagation"
+  },
+  {
+    "objectID": "slides/wk04-2025-02-06.html#link-to-notes-1",
+    "href": "slides/wk04-2025-02-06.html#link-to-notes-1",
+    "title": "Propagation and neurocomputing",
+    "section": "Link to notes",
+    "text": "Link to notes\n\nSynaptic transmission"
+  },
+  {
+    "objectID": "slides/wk04-2025-02-06.html#next-time",
+    "href": "slides/wk04-2025-02-06.html#next-time",
+    "title": "Propagation and neurocomputing",
+    "section": "Next time…",
+    "text": "Next time…\n\nNeurochemistry"
+  },
+  {
+    "objectID": "slides/wk15-2025-05-01.html",
+    "href": "slides/wk15-2025-05-01.html",
+    "title": "Wrap-up",
+    "section": "",
+    "text": "Rlzee (2010)"
+  },
+  {
+    "objectID": "slides/wk15-2025-05-01.html#announcements",
+    "href": "slides/wk15-2025-05-01.html#announcements",
+    "title": "Wrap-up",
+    "section": "Announcements",
+    "text": "Announcements\n\nFinal project write-ups due next Thursday, May 8."
+  },
+  {
+    "objectID": "slides/wk15-2025-05-01.html#todays-topics",
+    "href": "slides/wk15-2025-05-01.html#todays-topics",
+    "title": "Wrap-up",
+    "section": "Today’s topics",
+    "text": "Today’s topics\n\nMadison Miles: A brief overview of psychotropic medications\nYifei Gong: When meaning shifts and language switches: Investigating the role of domain-general inhibitory control in bilingual prediction errors\nThe Cerebral Symphony\n\n\n\nsmalin (2011)"
+  },
+  {
+    "objectID": "exercises/ex-AP.html",
+    "href": "exercises/ex-AP.html",
+    "title": "Exercise AP • Neurophysiology II",
+    "section": "",
+    "text": "To understand what change(s) in the resting state of neurons cause the action potential.\nTo understand how the action potential results in the release of neurotransmitter from the axon terminal (terminal button)."
+  },
+  {
+    "objectID": "exercises/ex-AP.html#goals",
+    "href": "exercises/ex-AP.html#goals",
+    "title": "Exercise AP • Neurophysiology II",
+    "section": "",
+    "text": "To understand what change(s) in the resting state of neurons cause the action potential.\nTo understand how the action potential results in the release of neurotransmitter from the axon terminal (terminal button)."
+  },
+  {
+    "objectID": "exercises/ex-AP.html#activity",
+    "href": "exercises/ex-AP.html#activity",
+    "title": "Exercise AP • Neurophysiology II",
+    "section": "Activity",
+    "text": "Activity\nYou may work by yourself or with up to two other people for this activity. If it is easier, you may draw figures and annotate them.\nAnswer the following questions in no more than a few sentences:\n\nWhat event(s) trigger the rising phase of the action potential in the axon initial segment?\nWhat event(s) occur at the peak of the action potential?\nWhat event(s) occur during the falling phase of the action potential?\nWhy does the membrane potential overshoot (become more negative than) the typical resting potential?\nWhy can’t the neuron fire another action potential during the absolute refractory period? What do we need to do to generate an action potential during the relative refractory period?\nWhat makes “computing” with wires and action potentials “expensive” for the nervous system?\nHow do psychologists benefit from learning more about these details of neurophysiology?"
+  },
+  {
+    "objectID": "exercises/ex-AP.html#submission-details",
+    "href": "exercises/ex-AP.html#submission-details",
+    "title": "Exercise AP • Neurophysiology II",
+    "section": "Submission details",
+    "text": "Submission details\n\nSubmit your write-up by 2026-04-09 via the Canvas dropbox.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
+  },
+  {
+    "objectID": "exercises/ex-DEV.html",
+    "href": "exercises/ex-DEV.html",
+    "title": "Exercise DEV • Development",
+    "section": "",
+    "text": "Practice taking a developmental neuroscience perspective to psychological phenomena.\nIllustrate how taking such a perspective does or does not inform understanding about a particular phenomenon."
+  },
+  {
+    "objectID": "exercises/ex-DEV.html#goals",
+    "href": "exercises/ex-DEV.html#goals",
+    "title": "Exercise DEV • Development",
+    "section": "",
+    "text": "Practice taking a developmental neuroscience perspective to psychological phenomena.\nIllustrate how taking such a perspective does or does not inform understanding about a particular phenomenon."
+  },
+  {
+    "objectID": "exercises/ex-DEV.html#activity",
+    "href": "exercises/ex-DEV.html#activity",
+    "title": "Exercise DEV • Development",
+    "section": "Activity",
+    "text": "Activity\n\nChoose a psychological domain that interests you.\nIn the spirit of (Blumberg & Adolph, 2023), write a short essay (3-5 pp) where you apply a developmental neuroscience perspective to the domain. In doing so, concisely answer the following questions:\n\n\nHow does psychological functioning change over development?\nWhat brain system(s) are most directly implicated in the phenomenon?\nDoes our current understanding of developmental patterns in these systems provide useful information about the domain?\nWhat information about brain structure or function is needed to understand the phenomenon more thoroughly?"
+  },
+  {
+    "objectID": "exercises/ex-DEV.html#submission-details",
+    "href": "exercises/ex-DEV.html#submission-details",
+    "title": "Exercise DEV • Development",
+    "section": "Submission details",
+    "text": "Submission details\n\nSubmit your write-up by 2026-03-26 via the Canvas dropbox.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
+  },
+  {
+    "objectID": "exercises/ex-EVO.html",
+    "href": "exercises/ex-EVO.html",
+    "title": "Exercise EVO • Evolution",
+    "section": "",
+    "text": "To practice thinking and reasoning critically about how evolutionary perspectives can inform understanding about psychological phenomena."
+  },
+  {
+    "objectID": "exercises/ex-EVO.html#goals",
+    "href": "exercises/ex-EVO.html#goals",
+    "title": "Exercise EVO • Evolution",
+    "section": "",
+    "text": "To practice thinking and reasoning critically about how evolutionary perspectives can inform understanding about psychological phenomena."
+  },
+  {
+    "objectID": "exercises/ex-EVO.html#activity",
+    "href": "exercises/ex-EVO.html#activity",
+    "title": "Exercise EVO • Evolution",
+    "section": "Activity",
+    "text": "Activity\nAnswer the following questions in a few short sentences:\n\nWhat feature(s) of the human brain are similar to closely related animals (e.g., mammals and especially primates)?\nWhat feature(s) of the human brain distinguish it from these closely related animals?\nWhy is it especially hard to tie changes in human brain structure to particular human psychological characteristics?\n\nAnswer the following question in a paragraph or two:\n\nConsider a psychological domain that interests you, is an evolutionary perspective useful? Why or why not?"
+  },
+  {
+    "objectID": "exercises/ex-EVO.html#submission-details",
+    "href": "exercises/ex-EVO.html#submission-details",
+    "title": "Exercise EVO • Evolution",
+    "section": "Submission details",
+    "text": "Submission details\n\nSubmit your write-up by 2026-03-19 via this Canvas dropbox.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
+  },
+  {
+    "objectID": "exercises/ex-PA.html",
+    "href": "exercises/ex-PA.html",
+    "title": "Exercise PA • Perception & Action",
+    "section": "",
+    "text": "To more deeply understand the specific actions associated with some internal state or behavior and the perceptual information that influences that state or behavior."
+  },
+  {
+    "objectID": "exercises/ex-PA.html#goals",
+    "href": "exercises/ex-PA.html#goals",
+    "title": "Exercise PA • Perception & Action",
+    "section": "",
+    "text": "To more deeply understand the specific actions associated with some internal state or behavior and the perceptual information that influences that state or behavior."
+  },
+  {
+    "objectID": "exercises/ex-PA.html#activity",
+    "href": "exercises/ex-PA.html#activity",
+    "title": "Exercise PA • Perception & Action",
+    "section": "Activity",
+    "text": "Activity\nChoose a behavior that interests you or an internal psychological state. In a short 3-5 pp essay, describe the following:\n\nThe externally measurable or observable actions that characterize the behavior or state.\nThe main sources of perceptual information that influence or regulate the behavior or state.\n\n\n\n\n\n\n\nNote\n\n\n\nTry to describe more than one source of perceptual information, for example, vision plus auditory.\n\n\nDraw a flow diagram that shows how information might flow from perceptual input to action output. To the best of your ability, annotate your flow diagram with specific nervous system structures or pathways that are likely to map to the conceptual diagram.\nIs the behavior or internal state regulated in some way? In other words, does perceptual information alter the intensity or character of the behavior or state? If so how?"
+  },
+  {
+    "objectID": "exercises/ex-PA.html#submission-details",
+    "href": "exercises/ex-PA.html#submission-details",
+    "title": "Exercise PA • Perception & Action",
+    "section": "Submission details",
+    "text": "Submission details\n\nSubmit your write-up by 2026-02-12 via the Canvas dropbox.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
+  },
+  {
+    "objectID": "exercises/ex-ZZ.html",
+    "href": "exercises/ex-ZZ.html",
+    "title": "Exercise ZZ • Sleep & Circadian Rhythms",
+    "section": "",
+    "text": "To more deeply understand the influence of sleep or circadian rhythms more generally on some internal state or behavior that is of interest to you."
+  },
+  {
+    "objectID": "exercises/ex-ZZ.html#goals",
+    "href": "exercises/ex-ZZ.html#goals",
+    "title": "Exercise ZZ • Sleep & Circadian Rhythms",
+    "section": "",
+    "text": "To more deeply understand the influence of sleep or circadian rhythms more generally on some internal state or behavior that is of interest to you."
+  },
+  {
+    "objectID": "exercises/ex-ZZ.html#activity",
+    "href": "exercises/ex-ZZ.html#activity",
+    "title": "Exercise ZZ • Sleep & Circadian Rhythms",
+    "section": "Activity",
+    "text": "Activity\nChoose a behavior or an internal psychological state that interests you:\n\nConcisely describe current understanding about how the behavior or state is affected by sleep duration or quality, or is altered under states of sleep deprivation.\nAlternatively, describe how the behavior or psychological state varies across a day, or seasonally. What are some causes of the temporal variation? What are some important consequences?"
+  },
+  {
+    "objectID": "exercises/ex-ZZ.html#submission-details",
+    "href": "exercises/ex-ZZ.html#submission-details",
+    "title": "Exercise ZZ • Sleep & Circadian Rhythms",
+    "section": "Submission details",
+    "text": "Submission details\n\nSubmit your write-up by Thursday, February 12, 2026 at 11:59 pm.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html",
+    "href": "slides/wk-02-2026-01-22-anatomy.html",
+    "title": "Neuroanatomy",
+    "section": "",
+    "text": "ctdalilah (2006)\n\n\nKids Learning Tube (2015) \n\n\n\nExercise LVL due today.\n\nCanvas dropbox |\n\nExercise ANAT due next Thursday, January 29, 2026.\n\nCanvas dropbox |\n\n\n\n\n\n\nNeuroanatomy\n\nBrief overview\nIn-class lab\nExercise ANAT"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#announcements",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#announcements",
+    "title": "Neuroanatomy",
+    "section": "",
+    "text": "Exercise LVL due today.\n\nCanvas dropbox |\n\nExercise ANAT due next Thursday, January 29, 2026.\n\nCanvas dropbox |"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#todays-topics",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#todays-topics",
+    "title": "Neuroanatomy",
+    "section": "",
+    "text": "Neuroanatomy\n\nBrief overview\nIn-class lab\nExercise ANAT"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#why-study",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#why-study",
+    "title": "Neuroanatomy",
+    "section": "Why study?",
+    "text": "Why study?\n\nMaster basic vocabulary for reading literature"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#information-processing-perspective",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#information-processing-perspective",
+    "title": "Neuroanatomy",
+    "section": "Information processing perspective",
+    "text": "Information processing perspective\n\nInputs from\n\nWorld\nBody\nBrain1\n\n\n\n\nOutputs to\n\nWorld\nBody\nBrain\n\nWhat computations occur where?"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#functional-anatomy-perspective",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#functional-anatomy-perspective",
+    "title": "Neuroanatomy",
+    "section": "Functional anatomy perspective",
+    "text": "Functional anatomy perspective\n\nLocated where\nConnected to\nInvolved in"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#brain-anatomy-through-dance",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#brain-anatomy-through-dance",
+    "title": "Neuroanatomy",
+    "section": "Brain anatomy through dance",
+    "text": "Brain anatomy through dance\n\n\nYour browser does not support the audio tag. \nYour browser does not support the audio tag."
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#directional-terms",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#directional-terms",
+    "title": "Neuroanatomy",
+    "section": "Directional terms",
+    "text": "Directional terms\n\nAnterior/Posterior\nMedial/Lateral\nSuperior/Inferior\nDorsal/Ventral\nRostral/Caudal"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#central-vs.-peripheral-nervous-system",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#central-vs.-peripheral-nervous-system",
+    "title": "Neuroanatomy",
+    "section": "Central vs. Peripheral Nervous System",
+    "text": "Central vs. Peripheral Nervous System\n\n\n\nNervous system of Harriet Cole, see McNaughton (2018)"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#organization-of-the-cns",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#organization-of-the-cns",
+    "title": "Neuroanatomy",
+    "section": "Organization of the CNS",
+    "text": "Organization of the CNS\n\n\n\n\n\n\n\n\n\nMajor division\nVentricular Landmark\nEmbryonic Division\nStructure\n\n\n\n\nForebrain\nLateral\nTelencephalon\nCerebral cortex\n\n\n\n\n\nBasal ganglia\n\n\n\n\n\nHippocampus, amygdala\n\n\n\n\n\n\n\n\n\n\n\n\n\nMajor division\nVentricular Landmark\nEmbryonic Division\nStructure\n\n\n\n\n\nThird\nDiencephalon\nThalamus\n\n\n\n\n\nHypothalamus\n\n\n\n\n\n\n\n\n\n\n\n\n\nMajor division\nVentricular Landmark\nEmbryonic Division\nStructure\n\n\n\n\nMidbrain\nCerebral Aqueduct\nMesencephalon\nTectum, tegmentum\n\n\n\n\n\n\n\n\n\n\n\n\n\nMajor division\nVentricular Landmark\nEmbryonic Division\nStructure\n\n\n\n\nHindbrain\n4th\nMetencephalon\nCerebellum, pons\n\n\n\n–\nMylencephalon\nMedulla oblongata\n\n\n\n\nForebrain, midbrain, hindbrain terminology derives from embryonic stages in CNS development.\n\n\n\nEmbryonic human brain from Wikipedia"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#cerebrum",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#cerebrum",
+    "title": "Neuroanatomy",
+    "section": "Cerebrum",
+    "text": "Cerebrum\n\n(Cerebral) cortex\nSubcortical (below the cortex) structures\n\n\n\n\nLabelled MRI including thalamus and hypothalamus"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#cerebral-cortex",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#cerebral-cortex",
+    "title": "Neuroanatomy",
+    "section": "(Cerebral) cortex",
+    "text": "(Cerebral) cortex\n\nLobes, marked by sulci/fissures, adjacency to bones of skull\nFunctional areas marked by gyri & sulci\nBrodmann Areas\n\nMicrostructural (cellular composition) features\n\n\n\n\nMost lobes host primary sensory or motor area\n\nFrontal: Motor cortex\nTemporal: Auditory cortex\nParietal: Somatosensory cortex\nOccipital: Visual cortex\nInsula: Gustatory"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#inputoutput",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#inputoutput",
+    "title": "Neuroanatomy",
+    "section": "Input/output",
+    "text": "Input/output\n\nVia cranial nerves (in CNS)\nVia spinal nerves (in PNS)\n\n\n\n\n\nCranial nerves from https://www.britannica.com/science/cranial-nerve#/media/1/141797/46720\n\n\n\n\n\n\nhttps://www.researchgate.net/profile/Saeede-Rahimi-Damirchi-Darasi/publication/324683974/figure/fig10/AS:753484697726976@1556656159277/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jp\n\n\n\nMultiple hierarchies\n\n\n\nSwanson (2005) Figure 1"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#maps",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#maps",
+    "title": "Neuroanatomy",
+    "section": "Maps",
+    "text": "Maps\n\nSensory & motor systems often use maps\n\n\n\n\n\nhttps://www.researchgate.net/profile/Brian-Wandell/publication/8988812/figure/fig1/AS:280067633631238@1443784735289/The-Retinotopy-paradigm-Two-stimuli-are-used-to-measure-the-retinotopic-maps-in-cortex.png\n\n\n\n\n\n\nFigure 1 from Saenz & Langers (2014)\n\n\n\n\n\n\nWikipedia\n\n\n\n\nGeometric issues central for perceptual/motor behavior\nDo other systems “map” function to structure?"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#overview",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#overview",
+    "title": "Neuroanatomy",
+    "section": "Overview",
+    "text": "Overview\n\n3 groups\nRotate among stations every ~25 min\nIdentify as many structures as possible"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#main-points",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#main-points",
+    "title": "Neuroanatomy",
+    "section": "Main points",
+    "text": "Main points\n\nDirectional terms\nWhat is it\nWhere is it\n\nRelative to other things\nCNS/PNS\nForebrain/midbrain/hindbrain\n\n\n\n\nCerebral cortex and its subparts\nGrey matter vs. white matter"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#next-time",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#next-time",
+    "title": "Neuroanatomy",
+    "section": "Next time…",
+    "text": "Next time…\n\nAction"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#footnotes",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#footnotes",
+    "title": "Neuroanatomy",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nshorthand for nervous system↩︎"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html",
+    "href": "psy-511.001-scan-fdns-2026.html",
+    "title": "SCAN Foundations",
+    "section": "",
+    "text": "Source: BrainFacts.org"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#foundations-of-social-cognitive-and-affective-neuroscience-scan",
+    "href": "psy-511.001-scan-fdns-2026.html#foundations-of-social-cognitive-and-affective-neuroscience-scan",
+    "title": "SCAN Foundations",
+    "section": "",
+    "text": "Source: BrainFacts.org"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#instructor",
+    "href": "psy-511.001-scan-fdns-2026.html#instructor",
+    "title": "SCAN Foundations",
+    "section": "Instructor",
+    "text": "Instructor\nRick O. Gilmore, Ph.D. Professor of Psychology 114 Moore Building\n+1 (814) 865-3664 rog1 AT-SYMBOL psu PERIOD edu Schedule an appointment Lab site: https://gilmore-lab.github.io Personal site: https://rick-gilmore.com"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#where-when",
+    "href": "psy-511.001-scan-fdns-2026.html#where-when",
+    "title": "SCAN Foundations",
+    "section": "Where & When",
+    "text": "Where & When\n467 Moore Thursdays, 1-4 PM"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#about-the-course",
+    "href": "psy-511.001-scan-fdns-2026.html#about-the-course",
+    "title": "SCAN Foundations",
+    "section": "About the course",
+    "text": "About the course\nThe first scientific psychologists were physiologists fascinated by the possibility of understanding the mind by studying the brain. In this course, we will explore the historical roots and contemporary challenges associated with the study of biological approaches to complex adaptive behavior. In doing so, we will read and examine critically primary source readings that discuss basic patterns and processes of brain structure and function. The goal is to provide students with a basic foundation of knowledge about the structures and functions of the nervous system that can provide the basis for future study.\nThis course is one of two required courses for the Specialization in Cognitive and Affective Neuroscience (SCAN)."
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#prerequisites",
+    "href": "psy-511.001-scan-fdns-2026.html#prerequisites",
+    "title": "SCAN Foundations",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nUndergraduate coursework in neuroscience or physiological psychology such as the equivalents of PSYCH 260 or BIO 469/470."
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#week-01-jan-12-16",
+    "href": "psy-511.001-scan-fdns-2026.html#week-01-jan-12-16",
+    "title": "SCAN Foundations",
+    "section": "Week 01: Jan 12-16",
+    "text": "Week 01: Jan 12-16\n\nThu, Jan 15\n\nTopic(s)\n\nStructure of the course\nLevels of analysis\nCausality in brain and behavior\nDoes neuroscience need behavior? What does psychology need?\n\n\n\nReadings\n\nRequired:\n\nKrakauer, Ghazanfar, Gomez-Marin, MacIver, & Poeppel (2017)\nParada & Rossi (2018)\nNewcombe (2017)\n\nOptional:\n\nSiddiqi, Kording, Parvizi, & Fox (2022)\nChurchland & Sejnowski (1988)\nFavela (2020)\nRoss & Bassett (2024)\n\n\n\n\nMaterials\n\nSlides | [PDF]\n\n\n\nAssignments\n\nAssigned: Exercise LVL • Levels/Terms. Due: 2026-01-22. | Canvas dropbox |"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#week-02-jan-19-23",
+    "href": "psy-511.001-scan-fdns-2026.html#week-02-jan-19-23",
+    "title": "SCAN Foundations",
+    "section": "Week 02: Jan 19-23",
+    "text": "Week 02: Jan 19-23\n\nThu, Jan 22\n\nTopics\n\nNeuroanatomy\n\n\n\nReadings\n\nNeuroanatomy notes\n\n\n\nWatch\n\nLeicester Medical School Radiology (2021) (Through ~ 8:20)\n\n\n\nMaterials\n\nSlides. PDF\nAllen Brain Atlas.\n\n\n\nAssignments\n\nDue: Exercise LVL • Levels/Terms. Canvas dropbox\nAssigned: Exercise ANAT • Neuroanatomy. Due: 2026-01-29. | Canvas dropbox |"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#week-03-jan-26-30",
+    "href": "psy-511.001-scan-fdns-2026.html#week-03-jan-26-30",
+    "title": "SCAN Foundations",
+    "section": "Week 03: Jan 26-30",
+    "text": "Week 03: Jan 26-30\n\nThu, Jan 29\n\nTopic(s)\n\nAction\n\n\n\nReading(s)\n\nShenoy, Sahani, & Churchland (2013)\nGoulding, Bollu, & Büschges (2025)\nRecommended:\n\nHardwired for song and dance (2023)\n\n\n\n\nMaterials\n\nAction notes\n\n\n\nAssignments\n\nDue: Exercise ANAT • Neuroanatomy. | Canvas dropbox |"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#week-04-feb-2-6",
+    "href": "psy-511.001-scan-fdns-2026.html#week-04-feb-2-6",
+    "title": "SCAN Foundations",
+    "section": "Week 04: Feb 2-6",
+    "text": "Week 04: Feb 2-6\n\nThu, Feb 05\n\nTopic(s)\n\nPerception\n\n\n\nReadings\n\nKhalsa et al. (2018)\nShenoy et al. (2013)\n\n\n\nMaterials\n\nPerception notes\n\n\n\nAssignment(s)\n\nAssigned: Final project proposal. Due: 2026-03-05. | Canvas dropbox |\nAssigned: Exercise PA • Perception & Action. Due: 2026-02-12. | Canvas dropbox |"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#week-05-feb-9-13",
+    "href": "psy-511.001-scan-fdns-2026.html#week-05-feb-9-13",
+    "title": "SCAN Foundations",
+    "section": "Week 05: Feb 9-13",
+    "text": "Week 05: Feb 9-13\n\nThu, Feb 12\n\nTopic(s)\n\nLearning & memory\n\n\n\nReadings\n\n\nMaterials\n\n\nAssignment(s)\n\nDue: Exercise PA • Perception & Action. | Canvas dropbox |"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#week-06-feb-16-20",
+    "href": "psy-511.001-scan-fdns-2026.html#week-06-feb-16-20",
+    "title": "SCAN Foundations",
+    "section": "Week 06: Feb 16-20",
+    "text": "Week 06: Feb 16-20\n\nThu, Feb 19\n\nTopic(s)\n\nEmotion\n\n\n\nReadings\n\nMalezieux, Klein, & Gogolla (2023)\nWatabe-Uchida, Eshel, & Uchida (2017)\nSiegel et al. (2018)\nRecommended\n\nLeDoux (2000)\n\n\n\n\nMaterials\n\nNotes\n\n\n\nAssignment(s)\n\nAssigned: Exercise EMO • Measuring emotion. Due: 2026-02-26. | Canvas dropbox |"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#week-07-feb-23-27",
+    "href": "psy-511.001-scan-fdns-2026.html#week-07-feb-23-27",
+    "title": "SCAN Foundations",
+    "section": "Week 07: Feb 23-27",
+    "text": "Week 07: Feb 23-27\n\nThu, Feb 26\n\nTopic(s)\n\nSleep & circadian rhythms\n\n\n\nReadings\n\nNir & Tononi (2010)\nRasch & Born (2013)\n\n\n\nMaterials\n\n\nAssignment(s)\n\nDue: Exercise EMO • Measuring emotion. | Canvas dropbox |\nAssigned: Exercise ZZ • Sleep & Circadian Rhythms. Due: 2026-03-05. | Canvas dropbox |\n\n\n\nReadings\n\n\nMaterials"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#week-08-mar-2-6",
+    "href": "psy-511.001-scan-fdns-2026.html#week-08-mar-2-6",
+    "title": "SCAN Foundations",
+    "section": "Week 08: Mar 2-6",
+    "text": "Week 08: Mar 2-6\n\nThu, Mar 5\n\nTopic(s)\n\nEvolution of the nervous system\n\n\n\nReadings\n\nRequired:\n\nCharvet & Finlay (2012)\nHofman (2014)\nSachkova, Modepalli, & Kittelmann (2025)\n\nOptional:\n\nCastrillon et al. (2023)\n\n\n\n\nMaterials\n\nNotes\n\n\n\nAssignment(s)\n\nDue: Final project proposal. | Canvas dropbox |\nDue: Exercise ZZ • Sleep & Circadian Rhythms. | Canvas dropbox |\nAssigned: Exercise EVO • Evolution. Due: 2026-03-19. | Canvas dropbox |"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#spring-break-mar-9-13",
+    "href": "psy-511.001-scan-fdns-2026.html#spring-break-mar-9-13",
+    "title": "SCAN Foundations",
+    "section": "Spring Break: Mar 9-13",
+    "text": "Spring Break: Mar 9-13\nNO CLASS"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#week-09-mar-16-20",
+    "href": "psy-511.001-scan-fdns-2026.html#week-09-mar-16-20",
+    "title": "SCAN Foundations",
+    "section": "Week 09: Mar 16-20",
+    "text": "Week 09: Mar 16-20\n\nThu, Mar 19\n\nTopic(s)\n\nDevelopment of the nervous system\n\n\n\nReadings\n\nRequired:\n\nCao, Huang, & He (2017)\nBlumberg & Adolph (2023)\n\nOptional:\n\nLarsen, Sydnor, Keller, Yeo, & Satterthwaite (2023)\nRakic (2009)\n\n\n\n\nMaterials\n\nNotes\n\n\n\nAssignment(s)\n\nDue: Exercise EVO • Evolution. | Canvas dropbox |\nAssigned: Exercise DEV • Development. Due: 2026-03-26. | Canvas dropbox |"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#week-10-mar-23-27",
+    "href": "psy-511.001-scan-fdns-2026.html#week-10-mar-23-27",
+    "title": "SCAN Foundations",
+    "section": "Week 10: Mar 23-27",
+    "text": "Week 10: Mar 23-27\n\nThu, Mar 26\n\nTopics\n\nCellular neuroscience I\n\nAnatomy\nPhysiology\n\nResting potential\n\n\n\n\n\nReadings\n\nCellular neuroscience notes | PDF |\nOptional:\n\nWon, Bhalla, Lee, & Lee (2025)\nZeng & Sanes (2017)\nOliveira, Sardinha, Guerra-Gomes, Araque, & Sousa (2015)\nDistéfano-Gagné, Bitarafan, Lacroix, & Gosselin (2023)\n\n\n\n\nMaterials\n\nSlides | PDF |\n\n\n\nAssignment(s)\n\nDue: Exercise DEV • Development | Canvas dropbox |\nAssigned: Exercise PHYS • Neurophysiology I. Due: 2026-04-02. | Canvas dropbox |"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#week-11-mar-30---apr-3",
+    "href": "psy-511.001-scan-fdns-2026.html#week-11-mar-30---apr-3",
+    "title": "SCAN Foundations",
+    "section": "Week 11: Mar 30 - Apr 3",
+    "text": "Week 11: Mar 30 - Apr 3\n\nThu, Apr 02\n\nTopics\n\nCellular neuroscience II\n\nAction potential\nSynaptic transmission\n\n\n\n\nReadings\n\nCellular neuroscience notes\n\n\n\nMaterials\n\nSlides\n\n\n\nAssignment(s)\n\nDue: Exercise PHYS • Neurophysiology I | Canvas dropbox |\nAssigned: Exercise AP • Neurophysiology II. Due: 2026-04-09. | Canvas dropbox |"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#week-12-apr-6-10",
+    "href": "psy-511.001-scan-fdns-2026.html#week-12-apr-6-10",
+    "title": "SCAN Foundations",
+    "section": "Week 12: Apr 6-10",
+    "text": "Week 12: Apr 6-10\n\nThu, Apr 09\n\nTopics\n\nNeurochemistry\n\nNeurotransmitters\nHormones\n\nNeurocomputing\n\n\n\nReadings\n\nNeurochemistry notes\nOptional: Sarkar et al. (2016).\n\n\n\nMaterials\n\nSlides\n\n\n\nAssignment(s)\n\nDue: Exercise AP • Neurophysiology II. | Canvas dropbox |\nAssigned: Exercise CHEM • Neurochemistry. Due: 2026-04-16. | Canvas dropbox |"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#week-13-apr-13-17",
+    "href": "psy-511.001-scan-fdns-2026.html#week-13-apr-13-17",
+    "title": "SCAN Foundations",
+    "section": "Week 13: Apr 13-17",
+    "text": "Week 13: Apr 13-17\n\nThu, Apr 16\n\nTopics\n\nDisorder & disease I\n\n\n\nReadings\n\nHowes, Bukala, & Beck (2023)\nVolk, Chiu, Sharma, & Huganir (2015)\n\n\n\nMaterials\n\nNotes\n\n\n\nAssignment(s)\n\nDue: Exercise CHEM • Neurochemistry. | Canvas dropbox |"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#week-14-apr-20-24",
+    "href": "psy-511.001-scan-fdns-2026.html#week-14-apr-20-24",
+    "title": "SCAN Foundations",
+    "section": "Week 14: Apr 20-24",
+    "text": "Week 14: Apr 20-24\n\nThu, Apr 23\n\nTopics\n\nDisorder & disease II\n\n\n\nReadings\n\nMoncrieff et al. (2022)\nNamkung, Kim, & Sawa (2017)\n\n\n\nMaterials\n\nNotes"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#week-15-apr-27---may-1",
+    "href": "psy-511.001-scan-fdns-2026.html#week-15-apr-27---may-1",
+    "title": "SCAN Foundations",
+    "section": "Week 15: Apr 27 - May 1",
+    "text": "Week 15: Apr 27 - May 1\n\nThu, Apr 30\n\nTopics\n\nFrontiers in the biology of behavior\nBeethoven and the Cerebral Symphony\n\n\n\nMaterials\n\nSlides"
+  },
+  {
+    "objectID": "psy-511.001-scan-fdns-2026.html#finals-may-4-8",
+    "href": "psy-511.001-scan-fdns-2026.html#finals-may-4-8",
+    "title": "SCAN Foundations",
+    "section": "Finals: May 4-8",
+    "text": "Finals: May 4-8\n\nThu, May 07\n\nFinal Project write-up due. | Canvas dropbox |"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#references",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#references",
+    "title": "Neuroanatomy",
+    "section": "References",
+    "text": "References\n\n\n\n\nctdalilah. (2006, October). Pinky and the brain-brainstem. Youtube. Retrieved from https://www.youtube.com/watch?v=snO68aJTOpM\n\n\nKids Learning Tube. (2015, October). Human body for Kids/Brain Song/Human body systems. Youtube. Retrieved from https://www.youtube.com/watch?v=Qw8E9WnZTQk\n\n\nMcNaughton, A. (2018, November 20). Dissecting harriet cole: Uncovering women’s history in the archives. Retrieved January 8, 2025, from https://drexel.edu/legacy-center/blog/overview/2018/november/dissecting-harriet-cole-uncovering-womens-history-in-the-archives/\n\n\nSaenz, M., & Langers, D. R. M. (2014). Tonotopic mapping of human auditory cortex. Hearing Research, 307, 42–52. https://doi.org/10.1016/j.heares.2013.07.016\n\n\nSwanson, L. W. (2005). Anatomy of the soul as reflected in the cerebral hemispheres: Neural circuits underlying voluntary control of basic motivated behaviors. Journal of Comparative Neurology, 493(1), 122–131. https://doi.org/10.1002/cne.20733"
+  },
+  {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#references",
+    "href": "slides/wk-01-2026-01-15-intro.html#references",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "References",
+    "text": "References\n\n\n\n\nAsinof, S. K., & Card, G. M. (2024). Neural control of naturalistic behavior choices. Annual Review of Neuroscience, 47, 369–388. https://doi.org/10.1146/annurev-neuro-111020-094019\n\n\nBecker, C. R. (2021, August 31). A comprehensive list of human-computer interactions. Retrieved January 8, 2025, from https://uxdesign.cc/a-comprehensive-list-of-human-computer-interactions-d72eaca2c0df\n\n\nCalabrese, R. L. (2018). Inconvenient truth to principle of neuroscience. Trends in Neurosciences, 41(8), 488–491. https://doi.org/10.1016/j.tins.2018.05.006\n\n\nCepelewicz, J. (2021, August). Mental phenomena don’t map into the brain as expected. https://www.quantamagazine.org/mental-phenomena-dont-map-into-the-brain-as-expected-20210824/. Retrieved from https://www.quantamagazine.org/mental-phenomena-dont-map-into-the-brain-as-expected-20210824/\n\n\nCisek, P. (2019). Resynthesizing behavior through phylogenetic refinement. Attention, Perception & Psychophysics. https://doi.org/10.3758/s13414-019-01760-1\n\n\nEisenberg, I. W., Bissett, P. G., Zeynep Enkavi, A., Li, J., MacKinnon, D. P., Marsch, L. A., & Poldrack, R. A. (2019). Uncovering the structure of self-regulation through data-driven ontology discovery. Nature Communications, 10(1), 2319. https://doi.org/10.1038/s41467-019-10301-1\n\n\nFavela, L. H. (2020). Cognitive science as complexity science. Wiley Interdisciplinary Reviews. Cognitive Science, 11(4), e1525. https://doi.org/10.1002/wcs.1525\n\n\nHill, A. B. (2015). The environment and disease: Association or causation? 1965. Journal of the Royal Society of Medicine, 108(1), 32–37. https://doi.org/10.1177/0141076814562718\n\n\nKahneman, D. (2013). Thinking, fast and slow (1st edition). Farrar, Straus; Giroux. Retrieved from https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555\n\n\nKrakauer, J. W., Ghazanfar, A. A., Gomez-Marin, A., MacIver, M. A., & Poeppel, D. (2017). Neuroscience needs behavior: Correcting a reductionist bias. Neuron, 93(3), 480–490. https://doi.org/10.1016/j.neuron.2016.12.041\n\n\nLevitis, D. A., Lidicker, W. Z., & Freund, G. (2009). Behavioural biologists don’t agree on what constitutes behaviour. Animal Behaviour, 78(1), 103–110. https://doi.org/10.1016/j.anbehav.2009.03.018\n\n\nMarr, D. (1980). Vision. Retrieved from https://mitpress.mit.edu/books/vision\n\n\nmelodysheep. (2011, March). Ode to the brain! By symphony of science. Youtube. Retrieved from https://www.youtube.com/watch?v=JB7jSFeVz1U\n\n\nNational Geographic. (2014, January). Beautiful 3-D brain scans show every synapse | national geographic. YouTube. Retrieved from https://www.youtube.com/watch?v=nvXuq9jRWKE\n\n\nParada, F. J., & Rossi, A. (2018). If neuroscience needs behavior, what does psychology need? Frontiers in Psychology, 9, 433. https://doi.org/10.3389/fpsyg.2018.00433\n\n\nRoss, L. N., & Bassett, D. S. (2024). Causation in neuroscience: Keeping mechanism meaningful. Nature Reviews. Neuroscience. https://doi.org/10.1038/s41583-023-00778-7\n\n\nSegal, A., Tiego, J., Parkes, L., Holmes, A. J., Marquand, A. F., & Fornito, A. (2024). Embracing variability in the search for biological mechanisms of psychiatric illness. Trends in Cognitive Sciences, 29, 85–99. https://doi.org/10.1016/j.tics.2024.09.010\n\n\nSejnowski, T. J., Churchland, P. S., & Movshon, J. A. (2014). Putting big data to good use in neuroscience. Nat. Neurosci., 17(11), 1440–1441. https://doi.org/10.1038/nn.3839\n\n\nSiddiqi, S. H., Kording, K. P., Parvizi, J., & Fox, M. D. (2022). Causal mapping of human brain function. Nature Reviews Neuroscience, 23(6), 361–375. https://doi.org/10.1038/s41583-022-00583-8\n\n\nStringer, C., Pachitariu, M., Steinmetz, N., Reddy, C. B., Carandini, M., & Harris, K. D. (2019). Spontaneous behaviors drive multidimensional, brainwide activity. Science, 364(6437), 255. https://doi.org/10.1126/science.aav7893\n\n\nSwanson, L. W. (2005). Anatomy of the soul as reflected in the cerebral hemispheres: Neural circuits underlying voluntary control of basic motivated behaviors. Journal of Comparative Neurology, 493(1), 122–131. https://doi.org/10.1002/cne.20733\n\n\nSwanson, L. W., & Lichtman, J. W. (2016). From Cajal to connectome and beyond. Annual Review of Neuroscience, 39, 197–216. https://doi.org/10.1146/annurev-neuro-071714-033954\n\n\nTerman, D., & Izhikevich, E. (2008). State space. Scholarpedia Journal, 3, 1924. https://doi.org/10.4249/scholarpedia.1924"
+  }
+]

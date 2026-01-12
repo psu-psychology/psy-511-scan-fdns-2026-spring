@@ -53,13 +53,13 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 ## On state spaces...
 
 :::: {.columns}
-::: {.column width=75%}
->State space is the set of all possible states of a dynamical system; each state of the system corresponds to a unique point in the state space. For example, the state of an idealized pendulum is uniquely defined by its angle and angular velocity, so the state space is the set of all possible pairs "(angle, velocity)", which form the cylinder S1×ℝ , as in Figure 1.
+::: {.column width=80%}
+>State space is the set of all possible states of a dynamical system; each state of the system corresponds to a unique point in the state space. For example, the state of an idealized pendulum is uniquely defined by its angle and angular velocity...
 
 -- @Terman2008-nc
 :::
-::: {.column width=25%}
-![Figure 1 from @Terman2008-nc](http://www.scholarpedia.org/w/images/thumb/0/07/State_space_cylinder.gif/200px-State_space_cylinder.gif)
+::: {.column width=20%}
+![Figure 1 from @Terman2008-nc](http://www.scholarpedia.org/w/images/thumb/0/07/State_space_cylinder.gif/200px-State_space_cylinder.gif){fig-align="right"}
 :::
 ::::
 
@@ -79,9 +79,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 - Measured **indirectly**
 - Via $N$, $B$, $W$
-::: {.fragment}
 - Do you agree?
-:::
 
 ## What are essential components/dimensions of $W$?
 

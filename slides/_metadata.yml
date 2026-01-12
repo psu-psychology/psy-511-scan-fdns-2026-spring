@@ -20,7 +20,6 @@ format:
       citations-hover: true
       author: "Rick Gilmore"
       institute: "Department of Psychology"
-    pdf: default
     pptx: default
 knitr:
   opts_chunk:
