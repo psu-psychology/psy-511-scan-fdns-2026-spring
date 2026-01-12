@@ -10,22 +10,22 @@
     "objectID": "slides/wk-01-2026-01-15-intro.html#prelude",
     "href": "slides/wk-01-2026-01-15-intro.html#prelude",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
-    "section": "",
-    "text": "– melodysheep (2011)\n\n\n“If understanding everything we need to know about the brain is a mile, how far have we walked?”\n\n– National Geographic (2014)"
+    "section": "Prelude",
+    "text": "Prelude"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#todays-topics",
     "href": "slides/wk-01-2026-01-15-intro.html#todays-topics",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
-    "section": "",
-    "text": "Why neuroscience psychology is harder than physics\nCourse overview\nDoes neuroscience need behavior? Does behavioral science need the brain?"
+    "section": "Today’s topics",
+    "text": "Today’s topics\n\nWhy neuroscience psychology is harder than physics\nCourse overview\nDoes neuroscience need behavior? Does behavioral science need the brain?"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#what-do-we-need-to-know",
     "href": "slides/wk-01-2026-01-15-intro.html#what-do-we-need-to-know",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "What do we need to know?",
-    "text": "What do we need to know?\n\n\nWhat is the state…\n\nOf the world (\\(W\\))\nOf the organism\n\nBody (\\(B\\))\nNervous system (\\(N\\))\nMind (\\(M\\))\n\n\nHow do these states change over time?\nWhat causes the changes?"
+    "text": "What do we need to know?\n\nWhat is the state…\n\nOf the world (\\(W\\))\nOf the organism\n\nBody (\\(B\\))\nNervous system (\\(N\\))\nMind (\\(M\\))\n\n\nHow do these states change over time?\nWhat causes the changes?"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#on-state-spaces",
@@ -39,14 +39,14 @@
     "href": "slides/wk-01-2026-01-15-intro.html#state-spaces-in-brain-behavior",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "State spaces in brain & behavior",
-    "text": "State spaces in brain & behavior\n\n\n\nSwanson (2005) Figure 1"
+    "text": "State spaces in brain & behavior\n\nSwanson (2005) Figure 1"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#some-states-are-more-easily-measured-than-others",
     "href": "slides/wk-01-2026-01-15-intro.html#some-states-are-more-easily-measured-than-others",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "Some states are more easily measured than others",
-    "text": "Some states are more easily measured than others\n\n\\(W\\), \\(B\\), \\(N\\) (more or less) directly\n\n\n\n\n\nSejnowski, Churchland, & Movshon (2014)"
+    "text": "Some states are more easily measured than others\n\n\\(W\\), \\(B\\), \\(N\\) (more or less) directly"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#mental-states-m",
@@ -88,14 +88,14 @@
     "href": "slides/wk-01-2026-01-15-intro.html#may-be-analyzed-of-as-networks",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "May be analyzed of as networks",
-    "text": "May be analyzed of as networks\n\n\n\nFrom https://source.wustl.edu/2013/08/brain-flexible-hub-network-helps-humans-adapt/"
+    "text": "May be analyzed of as networks\n\nFrom https://source.wustl.edu/2013/08/brain-flexible-hub-network-helps-humans-adapt/"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#at-multiple-levels-of-organization",
     "href": "slides/wk-01-2026-01-15-intro.html#at-multiple-levels-of-organization",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "At multiple levels of organization…",
-    "text": "At multiple levels of organization…\n\n\n\n\n\n\n\n\n\nSwanson & Lichtman (2016) Figure 1\n\n\n\n\n\n\nSwanson & Lichtman (2016) Figure 3"
+    "text": "At multiple levels of organization…"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#hard-to-simplify",
@@ -116,21 +116,21 @@
     "href": "slides/wk-01-2026-01-15-intro.html#biological-systems-not-designed",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "Biological systems not “designed”",
-    "text": "Biological systems not “designed”\n\n…like human-engineered ones\n\n\n\n\nhttps://en.wikipedia.org/wiki/Computer_architecture"
+    "text": "Biological systems not “designed”\n\n…like human-engineered ones\n\n\nhttps://en.wikipedia.org/wiki/Computer_architecture"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#studying-such-systems-is-hard-because",
     "href": "slides/wk-01-2026-01-15-intro.html#studying-such-systems-is-hard-because",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "Studying such systems is hard because…",
-    "text": "Studying such systems is hard because…\n\nChange structure/function over time\nHard to measure what is being exchanged, what is being controlled\n\n\n\n\n\n(Cisek, 2019, fig. 3). Schematic behavioral control systems. (A) When the current nutrient state deviates from a desired state, locomotion is initiated, ultimately bringing the animal to a more desirable state. (B) Elaboration of nutrient state control into a high-level controller (ANS) and a lower-level controller (BNS) capable of two modes of locomotion, local exploitation, and long-range exploration. 5HT, serotonin; ANS/BNS, apical/blastoporal nervous system; DA, dopamine; NPY, neuropeptide Y"
+    "text": "Studying such systems is hard because…\n\nChange structure/function over time\nHard to measure what is being exchanged, what is being controlled"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#assumptions-are-problematic",
     "href": "slides/wk-01-2026-01-15-intro.html#assumptions-are-problematic",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "Assumptions are problematic",
-    "text": "Assumptions are problematic\n\n\n\nSegal et al. (2024)"
+    "text": "Assumptions are problematic\n\nSegal et al. (2024)"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#goals",
@@ -165,21 +165,21 @@
     "href": "slides/wk-01-2026-01-15-intro.html#approach-1",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "Approach",
-    "text": "Approach\n\nThe nervous system as an information processing system\n\n\n\n\nWikipedia"
+    "text": "Approach\n\nThe nervous system as an information processing system\n\n\nWikipedia"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#mindful-of-limitations-in-braincomputer-metaphors",
     "href": "slides/wk-01-2026-01-15-intro.html#mindful-of-limitations-in-braincomputer-metaphors",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "Mindful of limitations in brain/computer metaphors",
-    "text": "Mindful of limitations in brain/computer metaphors\n\n\n\nhttps://www.explainthatstuff.com/howcomputerswork.html"
+    "text": "Mindful of limitations in brain/computer metaphors\n\nhttps://www.explainthatstuff.com/howcomputerswork.html"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#or-inspired-by-richer-metaphors",
     "href": "slides/wk-01-2026-01-15-intro.html#or-inspired-by-richer-metaphors",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "Or inspired by richer metaphors",
-    "text": "Or inspired by richer metaphors\n\n\n\nBecker (2021)"
+    "text": "Or inspired by richer metaphors\n\nBecker (2021)"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#inputs",
@@ -193,7 +193,7 @@
     "href": "slides/wk-01-2026-01-15-intro.html#processing",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "Processing",
-    "text": "Processing\n\nCurrent inputs + brain state + body state + possible future states…\nStored information\nPhysiological & behavioral goals\n\n\n\n\n\n(Cisek, 2019, fig. 1)"
+    "text": "Processing\n\nCurrent inputs + brain state + body state + possible future states…\nStored information\nPhysiological & behavioral goals"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#outputs",
@@ -207,42 +207,42 @@
     "href": "slides/wk-01-2026-01-15-intro.html#mapping-structures-to-functions",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "Mapping structures to functions…",
-    "text": "Mapping structures to functions…\n\n\n\nCisek (2019) Figure 8"
+    "text": "Mapping structures to functions…\n\nCisek (2019) Figure 8"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#and-vice-versa",
     "href": "slides/wk-01-2026-01-15-intro.html#and-vice-versa",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "And vice versa?",
-    "text": "And vice versa?\n\n\n\nCepelewicz (2021)\n\n\n\n\n“The brainwide representation of behavioral variables suggests that information encoded nearly anywhere in the forebrain is combined with behavioral state variables into a mixed representation…Our data indicate that it happens as early as primary sensory cortex.”\n\n\nStringer et al. (2019)"
+    "text": "And vice versa?\n\nCepelewicz (2021)"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#and-do-we-have-the-right-psychological-structures",
     "href": "slides/wk-01-2026-01-15-intro.html#and-do-we-have-the-right-psychological-structures",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "And do we have the right “psychological” structures?",
-    "text": "And do we have the right “psychological” structures?\n\nPsychological sciences have identified a wealth of cognitive processes and behavioral phenomena, yet struggle to produce cumulative knowledge. Progress is hamstrung by siloed scientific traditions and a focus on explanation over prediction…\n\n– Eisenberg et al. (2019)\n\n\n…two issues that are particularly damaging for the study of multifaceted constructs like self-regulation…We conclude that self-regulation lacks coherence as a construct…\n\n– Eisenberg et al. (2019)"
+    "text": "And do we have the right “psychological” structures?\n\nPsychological sciences have identified a wealth of cognitive processes and behavioral phenomena, yet struggle to produce cumulative knowledge. Progress is hamstrung by siloed scientific traditions and a focus on explanation over prediction…\n\n– Eisenberg et al. (2019)"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#behavioural-biologists-dont-agree-on-what-constitutes-behaviour",
     "href": "slides/wk-01-2026-01-15-intro.html#behavioural-biologists-dont-agree-on-what-constitutes-behaviour",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "“Behavioural biologists don’t agree on what constitutes behaviour”",
-    "text": "“Behavioural biologists don’t agree on what constitutes behaviour”\n\nBehavioural biology is a major discipline within biology, centred on the key concept of ‘behaviour’. But how is ‘behaviour’ defined, and how should it be defined? We outline what characteristics we believe a scientific definition should have, and why we think it is important…\n\n– Levitis, Lidicker, & Freund (2009)\n\n\n…that a definition have these traits. We then examine the range of available published definitions for behaviour.\n\n– Levitis et al. (2009)\n\n\nFinding no consensus, we present survey responses from 174 members of three behaviour-focused scientific societies as to their understanding of the term. Here again, we find surprisingly widespread disagreement as to what qualifies as behaviour. Respondents contradict themselves…\n\n– Levitis et al. (2009)\n\n\n…each other, and published definitions, indicating that they are using individually variable intuitive, rather than codified, meanings of `behaviour.’\n\n– Levitis et al. (2009)\n\n\nWe offer a new definition, based largely on survey responses: “Behaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes.”\n\n– Levitis et al. (2009)"
+    "text": "“Behavioural biologists don’t agree on what constitutes behaviour”\n\nBehavioural biology is a major discipline within biology, centred on the key concept of ‘behaviour’. But how is ‘behaviour’ defined, and how should it be defined? We outline what characteristics we believe a scientific definition should have, and why we think it is important…\n\n– Levitis, Lidicker, & Freund (2009)"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#sciences-of-complexity",
     "href": "slides/wk-01-2026-01-15-intro.html#sciences-of-complexity",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "Sciences of complexity",
-    "text": "Sciences of complexity\n\n\n\nFavela (2020) Figure 1"
+    "text": "Sciences of complexity\n\nFavela (2020) Figure 1"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#levels-of-analysis",
     "href": "slides/wk-01-2026-01-15-intro.html#levels-of-analysis",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "Levels of analysis",
-    "text": "Levels of analysis\n\n\n\nSejnowski et al. (2014) Figure 1"
+    "text": "Levels of analysis\n\nSejnowski et al. (2014) Figure 1"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#david-marr-1945-1980",
@@ -256,7 +256,7 @@
     "href": "slides/wk-01-2026-01-15-intro.html#marrs-three-levels",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "Marr’s Three Levels",
-    "text": "Marr’s Three Levels\n\n\n\nFavela (2020) Figure 3\n\n\n\n\nWhat must be computed to carry out task X?\nWhat algorithm is used to carry out the computation?\nWhat hardware implements the algorithm?"
+    "text": "Marr’s Three Levels\n\nFavela (2020) Figure 3"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#computational-level",
@@ -291,7 +291,7 @@
     "href": "slides/wk-01-2026-01-15-intro.html#varied-notions-of-mechanism",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "Varied notions of mechanism",
-    "text": "Varied notions of mechanism\n\n\n\nFig. 1: The narrow and broad notions of mechanism from Ross & Bassett (2024)"
+    "text": "Varied notions of mechanism\n\nFig. 1: The narrow and broad notions of mechanism from Ross & Bassett (2024)"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#toward-reverse-neuroethology",
@@ -305,7 +305,7 @@
     "href": "slides/wk-01-2026-01-15-intro.html#figure-1-from-asinof2024-iu",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "",
-    "text": "https://giphy.com/clips/thefastsaga-fast-and-furious-saga-fate-of-the-DF34cUyak7TPs7D4GE\n\n\n\n\n…when faced with a difficult question, we often answer an easier one instead, usually without noticing the substitution.\n\n– Kahneman (2013), p. 12 quoted in Krakauer, Ghazanfar, Gomez-Marin, MacIver, & Poeppel (2017)"
+    "text": "https://giphy.com/clips/thefastsaga-fast-and-furious-saga-fate-of-the-DF34cUyak7TPs7D4GE"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#does-neuroscience-need-behavior",
@@ -333,7 +333,7 @@
     "href": "slides/wk-01-2026-01-15-intro.html#behavioural-biologists-dont-agree-on-what-constitutes-behaviour-1",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "“Behavioural biologists don’t agree on what constitutes behaviour”",
-    "text": "“Behavioural biologists don’t agree on what constitutes behaviour”\n\n…“Behaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes.”\n\n– Levitis et al. (2009)]\n\n\n\n\nKrakauer et al. (2017) Figure 1\n\n\n\n\n\n\nKrakauer et al. (2017) Figure 2\n\n\n\n\n\n\n(Krakauer et al., 2017, fig. 3)\n\n\n\n\n\n\n(Krakauer et al., 2017, fig. 4)\n\n\n\n\n\n\nParada & Rossi (2018) Figure 1"
+    "text": "“Behavioural biologists don’t agree on what constitutes behaviour”\n\n…“Behaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes.”\n\n– Levitis et al. (2009)]"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#exercise-lvl",
