@@ -1,0 +1,42 @@
+---
+title: "Exercise LVL • Levels/Terms"
+subtitle: "**Name:**____________________________"
+---
+
+```{r}
+#| echo: false
+psy_511_vars <- readr::read_csv("../data/csv/psy-511-vars.csv", show_col_types = FALSE)
+ex_lvl_due <- psy_511_vars |>
+  dplyr::filter(name == "WK_02_DATE") |>
+  dplyr::select(value) |>
+  as.character()
+
+canvas_db <- psy_511_vars |>
+  dplyr::filter(name == "EX_LVL_CANVAS") |>
+  dplyr::select(value) |>
+  as.character()
+```
+
+## Goals
+
+1. Begin reading the literature about biological approaches to psychology with a critical, analytic perspective.
+2. Highlight concepts and terms that you want to understand more thoroughly.
+3. Apply the idea of levels of analysis to the relevant literature.
+
+## Tasks
+
+1. Choose two (2) papers relevant to your personal research interests that you want to understand more thoroughly.
+2. Scan the papers and highlight 3-5 terms or concepts that you are especially interested in understanding better.
+3. Submit a short (1-2 pp) write-up that includes the following:
+    - Which articles did you choose and why did you choose them.
+    - What terms or concepts did you choose and why did you choose them.
+    - What spatial level or levels of analysis do the terms or concepts reflect?
+    - What time frame (temporal level of analysis) applies to the terms in question?
+    - Do these concepts describe behaviors or internal states (physiological or psychological)? If so, what are the behaviors or internal states?
+
+## Submission details
+
+- Give your paper a file name following this convention: `psy-511-spr-2026-LASTNAME-FIRSTNAME-ex-LVL.docx`,
+- Provide full APA format citations with DOIs.
+- Your write-up is **due `{r} ex_lvl_due`**.
+- The Canvas dropbox is [here](`{r} canvas_db`)

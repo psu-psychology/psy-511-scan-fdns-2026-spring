@@ -1,0 +1,47 @@
+---
+title: "Exercise PA • Perception & Action"
+subtitle: "**Name:**____________________________"
+---
+
+```{r}
+#| echo: false
+psy_511_vars <- readr::read_csv("../data/csv/psy-511-vars.csv", show_col_types = FALSE)
+ex_due <- psy_511_vars |>
+  dplyr::filter(name == "WK_05_DATE") |>
+  dplyr::select(value) |>
+  as.character()
+
+canvas_db <- psy_511_vars |>
+  dplyr::filter(name == "EX_PA_CANVAS") |>
+  dplyr::select(value) |>
+  as.character()
+```
+
+## Goals
+
+1. To more deeply understand the specific *actions* associated with some internal state or behavior and the *perceptual information* that influences that state or behavior.
+
+## Activity
+
+Choose a behavior that interests you or an internal psychological state.
+In a short 3-5 pp essay, describe the following:
+
+- The externally measurable or observable actions that characterize the behavior or state.
+- The main sources of perceptual information that influence or regulate the behavior or state. 
+
+::: {.callout-note}
+
+Try to describe more than one source of perceptual information, for example, vision plus auditory. 
+
+:::
+
+Draw a flow diagram that shows how information might flow from perceptual input to action output.
+To the best of your ability, annotate your flow diagram with specific nervous system structures or pathways that are likely to map to the conceptual diagram.
+
+Is the behavior or internal state regulated in some way? In other words, does perceptual information alter the intensity or character of the behavior or state? If so how?
+
+## Submission details
+
+- Submit your write-up by **`{r} ex_due`** via the Canvas [dropbox](`{r} canvas_db`).
+- If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.
+- If you found any resources that were especially useful to you in answering these questions, please cite them.
