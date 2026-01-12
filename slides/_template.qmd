@@ -1,0 +1,40 @@
+---
+title: "slide-template"
+---
+
+# Overview
+
+## Prelude
+
+## Announcements
+
+## Today's topics
+
+- Topic 1
+- Topic 2
+
+## Warm-up
+
+# Topic 1
+
+# Topic 2
+
+# Wrap-up
+
+## Main points
+
+## Next time
+
+# Resources
+
+## About
+
+This talk was produced using [Quarto](https://quarto.org), using the [RStudio](https://posit.co/products/open-source/rstudio/)
+Integrated Development Environment (IDE), version 2026.1.0.392.
+
+The source files are in R and R Markdown, then rendered to HTML using the
+[revealJS](https://revealjs.com) framework.
+The HTML slides are hosted in a [GitHub repo](https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring) and served by GitHub pages:
+<https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/>
+
+## References

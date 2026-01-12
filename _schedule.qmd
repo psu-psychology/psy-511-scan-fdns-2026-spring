@@ -30,7 +30,7 @@ psy_511_vars <- readr::read_csv("data/csv/psy-511-vars.csv", show_col_types = FA
   
 #### Materials
 
-- [Slides](slides/wk-01-2026-01-15-intro.qmd)
+- [Slides](slides/wk-01-2026-01-15-intro.qmd) | [pptx](slides/wk-01-2026-01-15-intro.pptx) |
 
 #### Assignments
 
@@ -59,11 +59,11 @@ ex_lvl_due <- psy_511_vars |>
 
 - Required
   - @Leicester-Medical-School-Radiology2021-ck (Through ~ 8:20)
-  - [Neuroanatomy notes](404.qmd)
+  - [Neuroanatomy notes](resources/anatomy.qmd)
 
 #### Materials
 
-- [Slides](slides/wk-02-2026-01-22-anatomy.qmd)
+- [Slides](slides/wk-02-2026-01-22-anatomy.qmd) | [pptx](slides/wk-02-2026-01-22-anatomy.pptx) |
 - [Allen Brain Atlas](http://atlas.brain-map.org/atlas?atlas=138322605#atlas=138322605&structure=10390&resolution=119.78&x=31680.307112068967&y=42751.00179211847&zoom=-6&plate=112360949).
 
 #### Assignments

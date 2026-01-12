@@ -1,0 +1,212 @@
+---
+title: "Action"
+format: revealjs
+---
+
+# Overview
+
+## Prelude
+
+{{< video https://www.youtube.com/watch?v=hdcTmpvDO0I width="100%" height="70%" >}}
+
+-- @MoveIt2012-fg
+
+## Announcements
+
+- Exercise ANAT due **today**.
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981392)
+
+## Today's topics
+
+- On action
+- How muscles work
+- Controlling muscles
+- Illustrative motor systems
+
+## Warm-up
+
+# On action
+
+---
+
+>The way to do is to be.
+
+-- Lao-tse, Chinese philosopher
+
+>The way to be is to do.
+
+-- Dale Carnegie
+
+::: {.fragment}
+>Do be, do be, do.
+
+-- Frank Sinatra
+:::
+
+@QuoteInvestigator-cl
+
+## Animals are *animate*
+
+:::: {.columns}
+::: {.column width=50%}
+- Animal actions influence 
+  - The external world, $W$
+  - Their own bodies, $B$
+
+:::
+::: {.column width=50%}
+```{mermaid}
+flowchart TD
+  N[Nervous System] --> B[Body]
+  B --> W[World]
+```
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width=50%}
+- Nervous system *outputs*
+  - Autonomic
+  - Endocrine
+  - Somatic
+:::
+::: {.column width=50%}
+
+```{mermaid}
+flowchart TD
+  N[Nervous System] -- autonomic --> B[Body];
+  N -- somatic --> B;
+  N -- endocrine --> B;
+```
+
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width=50%}
+- Nervous system *inputs* fall into two broad classes.
+
+:::
+::: {.column width=50%}
+```{mermaid}
+flowchart TD
+  N[Nervous System] <---|interoception| B[Body]
+  N <---|exteroception| B
+```
+:::
+::::
+
+---
+
+```{mermaid}
+flowchart TD
+  N[Nervous System] -- autonomic --> B[Body]
+  N -- somatic --> B
+  N -- endocrine --> B
+  B --->|interoception| N
+  B --->|action| W[World]
+  W --->|perception| B
+  B --->|exteroception| N
+```
+
+## What actions must animals perform?
+
+- Live long enough to reproduce
+
+---
+
+::: {.incremental}
+- Living long enough...
+  - Avoid injury & predation
+  - Secure sustenance
+  - Maintain health
+- Reproducing...
+  - Finde a mate
+  - Mate
+  - Ensure the well-being of offspring
+- In other words, *behaving*
+:::
+
+## Behaviors
+
+:::: {.columns}
+::: {.column width=50%}
+- Orienting
+- Maintaining balance
+- Reaching & grasping
+- Locomotion
+:::
+::: {.column width=50%}
+- Communication
+- Mating & caregiving
+- Ingestion & elimination
+:::
+::::
+
+## Orienting
+
+- Eye movements
+- Head movements
+- Active touch
+- Sniffing & tasting
+
+## Balance
+
+- @Cullen2022-ao; 
+
+## Reaching & grasping
+
+- @Kim2021-ph; @Di-Caro2025-tl
+
+## Locomotion
+
+- @Purves2001-ht; @UnknownUnknown-gb; @Xing2022-om
+
+## Communication
+
+- Speech
+  - @Khanna2024-fe; @Griffin2024-zo
+  - @Zada2025-jl
+- Facial expression
+  - @Bress2024-og
+- Gesture
+
+# How muscles work
+
+# Controlling muscles
+
+# Illustrative motor systems
+
+## Eye movements
+
+## Reaching
+
+## Locomotion
+
+## Speech
+
+# Wrap-up
+
+## Main points
+
+## Next time
+
+- Perception
+
+# Resources
+
+## About
+
+This talk was produced using [Quarto](https://quarto.org), using the [RStudio](https://posit.co/products/open-source/rstudio/)
+Integrated Development Environment (IDE), version 2026.1.0.392.
+
+The source files are in R and R Markdown, then rendered to HTML using the
+[revealJS](https://revealjs.com) framework.
+The HTML slides are hosted in a [GitHub repo](https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring) and served by GitHub pages:
+<https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/>
+
+## References

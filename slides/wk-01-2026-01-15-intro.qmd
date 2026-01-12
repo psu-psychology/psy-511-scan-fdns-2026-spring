@@ -1,20 +1,19 @@
 ---
 title: "Foundations of Social, Cognitive, and Affective Neuroscience"
+format: revealjs
 ---
 
 # Overview
 
 ## Prelude
 
----
-
-{{< video https://www.youtube.com/embed/JB7jSFeVz1U width="100%" height="80%" >}}
+{{< video https://www.youtube.com/embed/JB7jSFeVz1U width="100%" height="70%" >}}
 
 -- @Melodysheep2011-wg
 
 ---
 
-> "*If understanding everything we need to know about the brain is a mile, how far have we walked?*"
+>If understanding everything we need to know about the brain is a mile, how far have we walked?
 
 -- @National_Geographic2014-gv
 
@@ -36,12 +35,14 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 ![](../include/img/psych-harder-2.jpg)
 
 
-## What do we need to know?
+---
 
+:::: {.columns}
+::: {.column width=50%}
 ::: {.incremental}
 - What is the state...
-    - Of the world ($W$)
-    - Of the organism
+    - Of the world ($W$)?
+    - Of the organism?
         - Body ($B$)
         - Nervous system ($N$)
         - Mind ($M$)
@@ -49,6 +50,18 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 - What causes the changes?
 
 :::
+:::
+::: {.column width=50%}
+```{mermaid}
+flowchart TD
+  N[**N**ervous System] --> B[**B**ody]
+  B --> W[**W**orld]
+  W --> B
+  B --> N
+  M["**M**ind"] -.- N
+```
+:::
+::::
 
 ## On state spaces...
 
@@ -67,27 +80,26 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ![@swanson2005anatomy Figure 1](../include/img/swanson-2005-fig-1.jpg)
 
-## Some states are more easily measured than others
+## Some states are more readily measured than others
 
 - $W$, $B$, $N$ (more or less) **directly**
+- 600+ skeletal muscles; 300+ joints
+- ~86 billion neurons; ~100 trillion - 1 quadrillion synapses
 
 ---
 
-![@Sejnowski2014-aa](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg)
+![@Sejnowski2014-aa Figure 1](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg)
 
 ## Mental states ($M$)
 
 - Measured **indirectly**
 - Via $N$, $B$, $W$
+
+::: {.fragment}
+::: {.callout-warning}
 - Do you agree?
-
-## What are essential components/dimensions of $W$?
-
-- To explain/understand $B$ (and $M$)
-
-## What are essential components/dimensions of $B$?
-
-- To explain/understand 
+:::
+:::
 
 ## Brain & behavior are complex, dynamic *systems* with
 
@@ -183,12 +195,17 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
   - perception
   - emotion
   - learning & memory
+  
+## Questions
+
+- What happens to the brain during sleep?
 - How does the nervous system develop? How has it evolved?
 - How do neurons work? How do they communicate?
 - How do disorders of the mind reveal themselves in the nervous system?
 
 ## Approach
 
+- Biologically essential behaviors
 - Brain architecture (neuroanatomy)
 - Brain function (neurophysiology)
 - Brain communication (neurochemistry)
@@ -238,7 +255,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ---
 
->"The brainwide representation of behavioral variables suggests that information encoded nearly anywhere in the forebrain is combined with behavioral state variables into a mixed representation...Our data indicate that it happens as early as primary sensory cortex."
+>The brainwide representation of behavioral variables suggests that information encoded nearly anywhere in the forebrain is combined with behavioral state variables into a mixed representation...Our data indicate that it happens as early as primary sensory cortex.
 
 -- @Stringer2019-vf
 
@@ -259,7 +276,6 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 >Behavioural biology is a major discipline within biology, centred on the key concept of ‘behaviour’. But how is ‘behaviour’ defined, and how should it be defined? We outline what characteristics we believe a scientific definition should have, and why we think it is important... 
 
 -- @Levitis2009-br
-
 
 ---
 
@@ -365,6 +381,17 @@ the substitution.
 
 -- @Kahneman2013-zi, p. 12 quoted in @Krakauer2017-xl
 
+## There and back again
+
+:::: {.columns}
+::: {.column width=50%}
+- The perception action-cycle
+:::
+::: {.column width=50%}
+![@Fuster2004-pe Figure 2](https://www.cell.com/cms/10.1016/j.tics.2004.02.004/asset/c8c5d775-b01e-4ef4-8418-3087cf12b6aa/main.assets/gr2.gif)
+:::
+::::
+
 # Break
 
 # Your turn
@@ -401,11 +428,11 @@ Newcombe, N. (2017). If neuroscience needs behavior, what does behavioral scienc
 
 ---
 
-![[@Krakauer2017-xl Figure 3]](https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr3.jpg)
+![@Krakauer2017-xl Figure 3](https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr3.jpg)
 
 ---
 
-![[@Krakauer2017-xl Figure 4]](https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr4.jpg)
+![@Krakauer2017-xl Figure 4](https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr4.jpg)
 
 ---
 
@@ -426,7 +453,7 @@ Newcombe, N. (2017). If neuroscience needs behavior, what does behavioral scienc
 - Neuroanatomy lab
   - Read/study
     - Neuroanatomy [notes](../resources/anatomy.qmd)
-    - Bring to class a copy of [Exercise 02](exercises/ex02.pdf)
+    - Bring to class a copy of [Exercise ANAT](exercises/ex-ANAT.pdf)
 
 # Resources
 
