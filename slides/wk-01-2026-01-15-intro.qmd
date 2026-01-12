@@ -1,5 +1,6 @@
 ---
 title: "Foundations of Social, Cognitive, and Affective Neuroscience"
+format: revealjs
 ---
 
 # Overview
@@ -178,9 +179,13 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 ## Questions
 
 - What is the basic organizational plan of the nervous system?
-- How do neurons work?
-- How do neurons connected in networks achieve behavioral goals?
+- How does the nervous system undergird...
+  - action
+  - perception
+  - emotion
+  - learning & memory
 - How does the nervous system develop? How has it evolved?
+- How do neurons work? How do they communicate?
 - How do disorders of the mind reveal themselves in the nervous system?
 
 ## Approach
@@ -216,7 +221,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ---
 
-![[@Cisek2019-vq Figure 1]](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig1_HTML.png)
+![@Cisek2019-vq Figure 1](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig1_HTML.png)
 
 ---
 
@@ -236,9 +241,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 >"The brainwide representation of behavioral variables suggests that information encoded nearly anywhere in the forebrain is combined with behavioral state variables into a mixed representation...Our data indicate that it happens as early as primary sensory cortex."
 
-<p style="text-align:center;">
-@Stringer2019-vf
-</p>
+-- @Stringer2019-vf
 
 ## And do we have the right "psychological" structures?
 
@@ -282,7 +285,6 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 >We offer a new definition, based largely on survey responses: "Behaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes."
 
-
 -- @Levitis2009-br
 
 ## Sciences of complexity
@@ -298,11 +300,11 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 :::: {.columns}
 
 ::: {.column width="50%"}
-![David Marr](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGutDYqHcIazwkXdQtGfedIVfGG-DcrtMAK_j93DQgrMI8lsiH7WGttQlgdh0-jO_u4w&usqp=CAU)
+![David Marr](../include/img/david-marr.png){width="50%"}
 :::
 
 ::: {.column width="50%"}
-![@Marr1980-cu](https://mit-press-us.imgix.net/covers/9780262514620.jpg?auto=format&w=298&dpr=1&q=20)
+![@Marr1980-cu](https://mitp.silverchair-cdn.com/mitp/content_public/books/3299/book/2/m_9780262289610-cover.jpeg?Expires=1769881313&Signature=qyyId5hIEiVXP1yVE8wHb5IImOGdDxFqEUNUC6OsEcdzLWyYPaumk9XEfk947b4V0h5kWvpHsARoXmLfr17j1DdJrulDTMZs261tRZv-PP78WpzKcYx5vGcvfQvm49IW2f~57KJQLByoXkNOxEPfILi07sUkLiQSgf5sPJEm4LFNolYby1tnwxrftDBiMEzf5AgcHh~H6VRIQwkxQH6UzHEJcQnZrDei4MTnjISJLVOM3DpQXcWP3M2YdLuEZPnx~IApHy8LNlV147Xz01xpl2zxiHUOmI8F5KEdOiuy2sp25kH~cbJfR4PyFVaN6fp2zE5sScQv1WxtLr6Q2B~6Yw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
 :::
 
 ::::
@@ -351,7 +353,8 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ## Toward reverse neuroethology
 
-![Figure 1 from @Asinof2024-iu](https://www.annualreviews.org/docserver/fulltext/neuro/47/1/ne470369.f1.gif)
+![Figure 1 from @Asinof2024-iu](https://www.annualreviews.org/docserver/fulltext/neuro/47/1/ne470369.f1.gif){width="75%"}
+
 ---
 
 ![https://giphy.com/clips/thefastsaga-fast-and-furious-saga-fate-of-the-DF34cUyak7TPs7D4GE](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXh1NzNxdmlidTlxandjeGNtOHgzNWtodmNoN2Rja3duZWNiYm92ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dg/DF34cUyak7TPs7D4GE/giphy.gif)

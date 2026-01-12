@@ -15,21 +15,22 @@ psy_511_vars <- readr::read_csv("data/csv/psy-511-vars.csv", show_col_types = FA
 - Causality in brain and behavior
 - Does neuroscience need behavior? What does psychology need?
 
-#### Readings
+#### Read/Watch
 
-- Required:
+- Required
   - @Krakauer2017-xl
   - @Parada2018-rp
   - @Newcombe2017-wu
-- Optional:
+- Optional
   - @Siddiqi2022-wl
   - @Churchland1988-aj
   - @Favela2020-uc
   - @Ross2024-nr
+  - @National_Geographic2014-gv
   
 #### Materials
 
-- [Slides](slides/wk-01-2026-01-15-intro.qmd) | [PDF] 
+- [Slides](slides/wk-01-2026-01-15-intro.qmd)
 
 #### Assignments
 
@@ -42,7 +43,9 @@ ex_lvl_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Assigned*: [Exercise LVL • Levels/Terms](exercises/ex-LVL.html). *Due*: `{r} ex_lvl_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981371) |
+- *Assigned*: [Exercise LVL • Levels/Terms](exercises/ex-LVL.html)
+  - *Due*: `{r} ex_lvl_due`
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981371) 
 
 ## Week 02: Jan 19-23
 
@@ -52,17 +55,15 @@ ex_lvl_due <- psy_511_vars |>
 
 - Neuroanatomy
 
-#### Readings
+#### Read/Watch
 
-- [Neuroanatomy notes](404.qmd)
-
-#### Watch
-
-- @Leicester-Medical-School-Radiology2021-ck (Through ~ 8:20)
+- Required
+  - @Leicester-Medical-School-Radiology2021-ck (Through ~ 8:20)
+  - [Neuroanatomy notes](404.qmd)
 
 #### Materials
 
-- [Slides](404.qmd). [PDF]()
+- [Slides](slides/wk-02-2026-01-22-anatomy.qmd)
 - [Allen Brain Atlas](http://atlas.brain-map.org/atlas?atlas=138322605#atlas=138322605&structure=10390&resolution=119.78&x=31680.307112068967&y=42751.00179211847&zoom=-6&plate=112360949).
 
 #### Assignments
@@ -76,8 +77,11 @@ ex_anat_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Due*: [Exercise LVL • Levels/Terms](exercises/ex-LVL.qmd). [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981371)
-- *Assigned*: [Exercise ANAT • Neuroanatomy](exercises/ex-ANAT.qmd). *Due*: `{r} ex_anat_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981392) |
+- *Due*: [Exercise LVL • Levels/Terms](exercises/ex-LVL.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981371)
+- *Assigned*: [Exercise ANAT • Neuroanatomy](exercises/ex-ANAT.qmd) 
+  - *Due*: `{r} ex_anat_due`
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981392)
 
 ## Week 03: Jan 26-30
 
@@ -87,21 +91,22 @@ ex_anat_due <- psy_511_vars |>
 
 - Action
 
-#### Reading(s)
+#### Read/Watch
 
-- @Shenoy2013-zi
-- @Goulding2025-pu
-
-- Recommended:
+- Required
+  - @Shenoy2013-zi
+  - @Goulding2025-pu
+- Recommended
   - @Unknown2023-rt
 
-#### Materials
+<!-- #### Materials -->
 
-- [Action notes](404.qmd)
+<!-- - [Action notes](404.qmd) -->
 
 #### Assignments
 
-- *Due*: [Exercise ANAT • Neuroanatomy](exercises/ex-ANAT.qmd). | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981392) |
+- *Due*: [Exercise ANAT • Neuroanatomy](exercises/ex-ANAT.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/17981392)
 
 ## Week 04: Feb 2-6
 
@@ -111,14 +116,15 @@ ex_anat_due <- psy_511_vars |>
 
 - Perception
 
-#### Readings
+#### Read/Watch
 
-- @Khalsa2018-gf
-- @Shenoy2013-zi
+- Required
+  - @Khalsa2018-gf
+  - @Shenoy2013-zi
 
-#### Materials
+<!-- #### Materials -->
 
-- [Perception notes](404.qmd)
+<!-- - [Perception notes](404.qmd) -->
 
 #### Assignment(s)
 
@@ -140,8 +146,12 @@ final_proj_prop_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Assigned*: [Final project proposal](exercises/final-project.qmd). *Due*: `{r} final_proj_prop_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005251) |
-- *Assigned*: [Exercise PA • Perception & Action](exercises/ex-PA.qmd). *Due*: `{r} ex_pa_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005038) |
+- *Assigned*: [Final project proposal](exercises/final-project.qmd)
+  - *Due*: `{r} final_proj_prop_due`
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005251)
+- *Assigned*: [Exercise PA • Perception & Action](exercises/ex-PA.qmd)
+  - *Due*: `{r} ex_pa_due`. 
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005038) 
 
 ## Week 05: Feb 9-13
 
@@ -151,13 +161,14 @@ final_proj_prop_due <- psy_511_vars |>
 
 - Learning & memory
 
-#### Readings
+#### Read/Watch
 
-#### Materials
+<!-- #### Materials -->
 
 #### Assignment(s)
 
-- *Due*: [Exercise PA • Perception & Action](exercises/ex-PA.qmd). | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005038) |
+- *Due*: [Exercise PA • Perception & Action](exercises/ex-PA.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005038)
 
 ## Week 06: Feb 16-20
 
@@ -167,18 +178,18 @@ final_proj_prop_due <- psy_511_vars |>
 
 - Emotion
 
-#### Readings
+#### Read/Watch
 
-- @Malezieux2023-as
-- @Watabe-Uchida2017-gi
-- @Siegel2018-ab
-
+- Required
+  - @Malezieux2023-as
+  - @Watabe-Uchida2017-gi
+  - @Siegel2018-ab
 - Recommended
   - @LeDoux2000-qi
 
-#### Materials
+<!-- #### Materials -->
 
-- [Notes](resources/fear-stress-reward.qmd)
+<!-- - [Notes](resources/fear-stress-reward.qmd) -->
 
 #### Assignment(s)
 
@@ -191,7 +202,9 @@ ex_emo_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Assigned*: [Exercise EMO • Measuring emotion](exercises/ex-EMO.qmd). *Due*: `{r} ex_emo_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005124) |
+- *Assigned*: [Exercise EMO • Measuring emotion](exercises/ex-EMO.qmd)
+  - *Due*: `{r} ex_emo_due`
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005124)
 
 ## Week 07: Feb 23-27 
 
@@ -201,12 +214,13 @@ ex_emo_due <- psy_511_vars |>
 
 - Sleep & circadian rhythms
 
-#### Readings
+#### Read/Watch
 
-- @Nir2010-xd
-- @Rasch2013-yn
+- Required
+  - @Nir2010-xd
+  - @Rasch2013-yn
 
-#### Materials
+<!-- #### Materials -->
 
 #### Assignment(s)
 
@@ -219,8 +233,11 @@ ex_zz_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Due*: [Exercise EMO • Measuring emotion](exercises/ex-EMO.qmd). | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005124) |
-- *Assigned*: [Exercise ZZ • Sleep & Circadian Rhythms](exercises/ex-ZZ.qmd). *Due*: `{r} ex_zz_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005158) |
+- *Due*: [Exercise EMO • Measuring emotion](exercises/ex-EMO.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005124)
+- *Assigned*: [Exercise ZZ • Sleep & Circadian Rhythms](exercises/ex-ZZ.qmd)
+  - *Due*: `{r} ex_zz_due`
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005158)
 
 #### Readings
 
@@ -234,18 +251,18 @@ ex_zz_due <- psy_511_vars |>
 
 - Evolution of the nervous system
 
-#### Readings
+#### Read/Watch
 
-- Required:
+- Required
   - @Charvet2012-bg
   - @hofman_evolution_2014
   - @Sachkova2025-ma
-- Optional: 
+- Optional 
   - @Castrillon2023-mt
 
-#### Materials
+<!-- #### Materials -->
 
-- [Notes](resources/evolution.qmd)
+<!-- - [Notes](resources/evolution.qmd) -->
 
 #### Assignment(s)
 
@@ -258,9 +275,13 @@ ex_evo_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Due*: [Final project proposal](exercises/final-project.qmd). | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005251) |
-- *Due*: [Exercise ZZ • Sleep & Circadian Rhythms](exercises/ex-ZZ.qmd). | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338) |
-- *Assigned*: [Exercise EVO • Evolution](exercises/ex-EVO.qmd). *Due*: `{r} ex_evo_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005262) |
+- *Due*: [Final project proposal](exercises/final-project.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005251)
+- *Due*: [Exercise ZZ • Sleep & Circadian Rhythms](exercises/ex-ZZ.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338)
+- *Assigned*: [Exercise EVO • Evolution](exercises/ex-EVO.qmd)
+  - *Due*: `{r} ex_evo_due`.
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005262)
 
 ## Spring Break: Mar 9-13 
 
@@ -274,18 +295,18 @@ ex_evo_due <- psy_511_vars |>
 
 - Development of the nervous system
 
-#### Readings
+#### Read/Watch
 
-- Required:
+- Required
   - @Cao2017-bl
   - @Blumberg2023-fs
-- Optional:
+- Optional
   - @Larsen2023-wx
   - @Rakic2009-jk
 
-#### Materials
+<!-- #### Materials -->
 
-- [Notes](resources/development.qmd)
+<!-- - [Notes](resources/development.qmd) -->
 
 #### Assignment(s)
 
@@ -298,32 +319,35 @@ ex_dev_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Due*: [Exercise EVO • Evolution](exercises/ex-EVO.qmd). | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005262) | 
-- *Assigned*: [Exercise DEV • Development](exercises/ex-DEV.qmd). *Due*: `{r} ex_dev_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338) |
+- *Due*: [Exercise EVO • Evolution](exercises/ex-EVO.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005262)
+- *Assigned*: [Exercise DEV • Development](exercises/ex-DEV.qmd)
+  - *Due*: `{r} ex_dev_due`.
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338)
 
 ## Week 10: Mar 23-27
 
 ### Thu, Mar 26
 
-#### Topics
+#### Topic(s)
 
 - Cellular neuroscience I
   - Anatomy
   - Physiology
     - Resting potential
 
-#### Readings
+#### Read/Watch
 
 - [Cellular neuroscience notes](resources/cells.html) | [PDF](resources/cells.pdf) |
-- Optional:
+- Optional
   - @Won2025-aq
   - @Zeng2017-sg
   - @Oliveira2015-ky
   - @Distefano-Gagne2023-gt
 
-#### Materials
+<!-- #### Materials -->
 
-- [Slides](404.qmd) | [PDF](404.qmd) |
+<!-- - [Slides](404.qmd) | [PDF](404.qmd) | -->
 
 #### Assignment(s)
 
@@ -336,8 +360,11 @@ ex_phys_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Due*: [Exercise DEV • Development](exercises/ex-DEV.qmd) | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338) |
-- *Assigned*: [Exercise PHYS • Neurophysiology I](exercises/ex-PHYS.qmd). *Due*: `{r} ex_phys_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005427) |
+- *Due*: [Exercise DEV • Development](exercises/ex-DEV.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338)
+- *Assigned*: [Exercise PHYS • Neurophysiology I](exercises/ex-PHYS.qmd)
+  - *Due*: `{r} ex_phys_due`
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005427)
 
 ## Week 11: Mar 30 - Apr 3
 
@@ -349,13 +376,13 @@ ex_phys_due <- psy_511_vars |>
   - Action potential
   - Synaptic transmission
 
-#### Readings
+#### Read/Watch
 
 - [Cellular neuroscience notes](resources/cells.qmd)
 
-#### Materials
+<!-- #### Materials -->
 
-- [Slides]()
+<!-- - [Slides]() -->
 
 #### Assignment(s)
 
@@ -368,28 +395,31 @@ ex_ap_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Due*: [Exercise PHYS • Neurophysiology I](exercises/ex-PHYS.qmd) | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005427) |
-- *Assigned*: [Exercise AP • Neurophysiology II](exercises/ex-AP.qmd). *Due*: `{r} ex_ap_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005465) |
+- *Due*: [Exercise PHYS • Neurophysiology I](exercises/ex-PHYS.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005427)
+- *Assigned*: [Exercise AP • Neurophysiology II](exercises/ex-AP.qmd)
+  - *Due*: `{r} ex_ap_due`
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005465)
 
 ## Week 12: Apr 6-10
 
 ### Thu, Apr 09
 
-#### Topics
+#### Topic(s)
 
 - Neurochemistry
   - Neurotransmitters
   - Hormones
 - Neurocomputing
 
-#### Readings
+#### Read/Watch
 
 - [Neurochemistry notes](resources/neurochemistry.qmd)
 - Optional: @Sarkar2016-qf.
 
-#### Materials
+<!-- #### Materials -->
 
-- [Slides]()
+<!-- - [Slides]() -->
 
 #### Assignment(s)
 
@@ -402,46 +432,52 @@ ex_chem_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Due*:  [Exercise AP • Neurophysiology II](exercises/ex-AP.qmd). | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005465) |
-- *Assigned*: [Exercise CHEM • Neurochemistry](exercises/ex-CHEM.qmd). *Due*: `{r} ex_chem_due`. | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005510) |
+- *Due*:  [Exercise AP • Neurophysiology II](exercises/ex-AP.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005465)
+- *Assigned*: [Exercise CHEM • Neurochemistry](exercises/ex-CHEM.qmd)
+  - *Due*: `{r} ex_chem_due`.
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005510)
 
 ## Week 13: Apr 13-17
 
 ### Thu, Apr 16
 
-#### Topics
+#### Topic(s)
 
 - Disorder & disease I
 
-#### Readings
+#### Read/Watch
 
-- @Howes2023-vk
-- @Volk2015-ki
+- Required
+  - @Howes2023-vk
+  - @Volk2015-ki
 
-#### Materials
+<!-- #### Materials -->
 
-- [Notes](resources/schizophrenia.qmd)
+<!-- - [Notes](resources/schizophrenia.qmd) -->
 
 #### Assignment(s)
 
-- *Due*: [Exercise CHEM • Neurochemistry](exercises/ex-CHEM.qmd). | [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005510) |
+- *Due*: [Exercise CHEM • Neurochemistry](exercises/ex-CHEM.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005510)
 
 ## Week 14: Apr 20-24
 
 ### Thu, Apr 23
 
-#### Topics
+#### Topic(s)
 
 - Disorder & disease II
 
-#### Readings
+#### Read/Watch
 
-- @Moncrieff2022-os
-- @Namkung2017-gc
+- Required
+  - @Moncrieff2022-os
+  - @Namkung2017-gc
 
-#### Materials
+<!-- #### Materials -->
 
-- [Notes](resources/affective-disorders.qmd)
+<!-- - [Notes](resources/affective-disorders.qmd) -->
 
 ## Week 15: Apr 27 - May 1 
 
@@ -452,12 +488,13 @@ ex_chem_due <- psy_511_vars |>
 - Frontiers in the biology of behavior
 - Beethoven and the Cerebral Symphony
 
-#### Materials
+<!-- #### Materials -->
 
-- [Slides]()
+<!-- - [Slides]() -->
 
 ## Finals: May 4-8
 
 ### Thu, May 07
 
-- [Final Project](exercises/final-project.qmd) write-up due. | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17170786) |
+- [Final Project](exercises/final-project.qmd) write-up due
+  - [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17170786)
