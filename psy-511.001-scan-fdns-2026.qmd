@@ -1,6 +1,6 @@
 ---
 title: "SCAN Foundations"
-subtitle: "PSYCH 511.003 Spring 2025"
+subtitle: "PSYCH 511.001 Spring 2026"
 date: last-modified
 format: pdf
 bibliography:

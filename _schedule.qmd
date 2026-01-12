@@ -29,7 +29,7 @@ psy_511_vars <- readr::read_csv("data/csv/psy-511-vars.csv", show_col_types = FA
   
 #### Materials
 
-- [Slides](404.qmd)
+- [Slides](slides/wk-01-2026-01-15-intro.qmd) | [PDF] 
 
 #### Assignments
 
@@ -54,11 +54,15 @@ ex_lvl_due <- psy_511_vars |>
 
 #### Readings
 
-- [Neuroanatomy notes](resources/anatomy.qmd)
+- [Neuroanatomy notes](404.qmd)
+
+#### Watch
+
+- @Leicester-Medical-School-Radiology2021-ck (Through ~ 8:20)
 
 #### Materials
 
-- [Slides](). [PDF]()
+- [Slides](404.qmd). [PDF]()
 - [Allen Brain Atlas](http://atlas.brain-map.org/atlas?atlas=138322605#atlas=138322605&structure=10390&resolution=119.78&x=31680.307112068967&y=42751.00179211847&zoom=-6&plate=112360949).
 
 #### Assignments
@@ -86,10 +90,14 @@ ex_anat_due <- psy_511_vars |>
 #### Reading(s)
 
 - @Shenoy2013-zi
+- @Goulding2025-pu
+
+- Recommended:
+  - @Unknown2023-rt
 
 #### Materials
 
-- [Action notes](resources/action.qmd)
+- [Action notes](404.qmd)
 
 #### Assignments
 
@@ -110,7 +118,7 @@ ex_anat_due <- psy_511_vars |>
 
 #### Materials
 
-- [Perception notes](resources/perception.qmd)
+- [Perception notes](404.qmd)
 
 #### Assignment(s)
 
@@ -163,6 +171,10 @@ final_proj_prop_due <- psy_511_vars |>
 
 - @Malezieux2023-as
 - @Watabe-Uchida2017-gi
+- @Siegel2018-ab
+
+- Recommended
+  - @LeDoux2000-qi
 
 #### Materials
 
@@ -190,6 +202,9 @@ ex_emo_due <- psy_511_vars |>
 - Sleep & circadian rhythms
 
 #### Readings
+
+- @Nir2010-xd
+- @Rasch2013-yn
 
 #### Materials
 
@@ -224,6 +239,7 @@ ex_zz_due <- psy_511_vars |>
 - Required:
   - @Charvet2012-bg
   - @hofman_evolution_2014
+  - @Sachkova2025-ma
 - Optional: 
   - @Castrillon2023-mt
 
@@ -300,6 +316,7 @@ ex_dev_due <- psy_511_vars |>
 
 - [Cellular neuroscience notes](resources/cells.html) | [PDF](resources/cells.pdf) |
 - Optional:
+  - @Won2025-aq
   - @Zeng2017-sg
   - @Oliveira2015-ky
   - @Distefano-Gagne2023-gt
