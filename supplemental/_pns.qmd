@@ -7,7 +7,6 @@ flowchart TD
   B@{ shape: rect, label: "Somatic Nervous System" }
   C@{ shape: rect, label: "Autonomic Nervous System (ANS)" }
 
-  
   A --- B
   A --- C
 ```

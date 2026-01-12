@@ -6,7 +6,9 @@ flowchart TD
   A@{ shape: rect, label: "Autonomic Nervous System (ANS)" }
   B@{ shape: rect, label: "Sympathetic Nervous System" }
   C@{ shape: rect, label: "Parasympathetic Nervous System" }
+  D@{ shape: rect, label: "Enteric Nervous System" }
   
   A --- B
   A --- C
+  A --- D
 ```

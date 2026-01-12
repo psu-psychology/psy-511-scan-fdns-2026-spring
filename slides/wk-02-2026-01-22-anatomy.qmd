@@ -1,6 +1,5 @@
 ---
 title: "Neuroanatomy"
-format: revealjs
 ---
 
 # Prelude

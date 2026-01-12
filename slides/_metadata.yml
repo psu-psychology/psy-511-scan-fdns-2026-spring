@@ -20,7 +20,7 @@ format:
       citations-hover: true
       author: "Rick Gilmore"
       institute: "Department of Psychology"
-    # pptx: default
+    pptx: default
 knitr:
   opts_chunk:
     fig.path: ../include/fig

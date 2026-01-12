@@ -9,10 +9,23 @@ flowchart TD
   B@{ shape: rect, label: "V1" }
   C@{ shape: rect, label: "V2" }
   D@{ shape: rect, label: "BA 17"}
+  E@{ shape: rect, label: "V3" }
+  F@{ shape: rect, label: "V4" }
+  G@{ shape: stadium, label: "Calcarine Sulcus (fissure)"}
+  H@{ shape: rect, label: "Cuneus (superior) gyrus" }
+  I@{ shape: rect, label: "Lingual (inferior) gyrus" }
+  J@{ shape: rect, label: "V5" }
+  K@{ shape: rect, label: "BA 18, 19"}
   
   A ab@--- B
   A ac@--- C
   B bd@-.- D
+  A ae@--- E
+  A af@--- F
+  A ag@--- G
+  G gh@-.- H
+  G gi@-.- I
+  C & E & F & J ck@-.- K
 ```
 :::
 ::: {.column width=20%}
