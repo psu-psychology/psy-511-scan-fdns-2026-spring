@@ -60,6 +60,9 @@ ex_lvl_due <- psy_511_vars |>
 - Required
   - @Leicester-Medical-School-Radiology2021-ck (Through ~ 8:20)
   - [Neuroanatomy notes](resources/anatomy.qmd)
+- Recommended
+  - @Challenged2025-cc
+  - @Challenged2025-ff
 
 #### Materials
 

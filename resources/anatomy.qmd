@@ -114,12 +114,9 @@ format:
 
 ## Organization of the Nervous System
 
-![Nervous system of Harriet Cole from https://www.pastmedicalhistory.co.uk/the-nervous-system-of-harriet-cole/](https://www.pastmedicalhistory.co.uk/wp-content/uploads/2018/08/A-model-of-the-human-nervous-system-by-Rufus-Benjamin-Weaver..jpg)
-
 - Central Nervous System (CNS)
   - Brain
   - Spinal Cord
-  - (Everything encased in bone)
 - Peripheral Nervous System (PNS)
   - Somatic division
   - Autonomic division
@@ -127,7 +124,9 @@ format:
     - Parasympathetic
     - Enteric
 
-## Organization of the CNS
+![Nervous system of Harriet Cole from https://www.pastmedicalhistory.co.uk/the-nervous-system-of-harriet-cole/](https://www.pastmedicalhistory.co.uk/wp-content/uploads/2018/08/A-model-of-the-human-nervous-system-by-Rufus-Benjamin-Weaver..jpg)
+
+## Brain
 
 | Major division | Ventricular Landmark | Embryonic Division | Structure       |
 |----------------|----------------------|--------------------|-----------------|
@@ -140,9 +139,12 @@ format:
 | Hindbrain      | 4th                  | Metencephalon      | Cerebellum, pons  |
 |                | --                   | Mylencephalon      | Medulla oblongata |
 
+### Embryonic precursors
+
 - Forebrain, midbrain, hindbrain terminology derives from embryonic stages in CNS development.
 
 ![Embryonic human brain from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/c/c8/6_week_embryo_brain.jpg)
+
 ![Cross section of embryonic brain from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/EmbryonicBrain.svg/1200px-EmbryonicBrain.svg.png)
 
 ### Hindbrain
@@ -155,7 +157,7 @@ format:
 
 {{< video https://www.youtube.com/embed/Wq8EVQUc9a4 >}}
 
-[@Floris2012-bo]
+-- Source: @Floris2012-bo
 
 ![Lateral view of brainstem from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gray708.svg/500px-Gray708.svg.png)
 ![Mid-sagittal view of human brain via MRI from http://webspace.ship.edu/cgboer/medial-labelled.gif](http://webspace.ship.edu/cgboer/medial-labelled.gif)
@@ -181,7 +183,7 @@ format:
 
 {{< video https://www.youtube.com/embed/6szEeD0n-oU >}}
 
-Source: [@Floris2012-ro]
+-- Source: @Floris2012-ro
 
 #### Pons
 
@@ -230,8 +232,9 @@ Source: [@Floris2012-ro]
 
 ![Midsagittal illustration of diencephalon from anatomy.app](https://anatomy.net/uploads/4547e9c5-fb8f-4652-9cef-a0ebe2e18ae0.png?width=1200)
 
-#### Diencephalon ('between brain')
+#### Diencephalon
 
+- "Between brain"
 - Thalamus
 - Hypothalamus
 
@@ -284,7 +287,7 @@ Source: [@Floris2012-ro]
 
 {{< video https://www.youtube.com/embed/q7z-373pwuI >}}
 
-[@Floris2012-ye]
+-- Source: @Floris2012-ye
 
 ##### Hippocampus
 
@@ -301,7 +304,7 @@ Source: [@Floris2012-ro]
 
 {{< video https://www.youtube.com/embed/wjvDDH-uJ0s >}}
 
-[@Floris2012-hs]
+-- Source: @Floris2012-hs
 
 ##### Amygdala (“almond”)
 
@@ -313,7 +316,7 @@ Source: [@Floris2012-ro]
 
 {{< video https://www.youtube.com/embed/YB9rs4tEAaE >}}
 
-[@Floris2012-ik]
+-- Source: @Floris2012-ik
 
 ##### Cerebral Cortex
 
@@ -351,9 +354,18 @@ Source: [@Floris2012-ro]
 ![Bones of the skull from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Human_skull_side_simplified_%28bones%29.svg/1200px-Human_skull_side_simplified_%28bones%29.svg.png)
 ![Alternative view of the relationship between bones of the skull and lobes of the cerebral cortex](http://40.media.tumblr.com/tumblr_m1kpkr7Wsq1rn6pqko1_500.jpg)
 
+---
+
+{{< video https://www.youtube.com/watch?v=f9ZMChDGjRQ >}}
+
+-- @Challenged2025-ff
+
+---
+
 **Longitudinal fissure**
 
 - Also known as superior longitudinal fissure
+- Sometimes the medial longitudinal or interhemispheric fissure
 - Divides the cerebral hemispheres
 
 ![(Superior) Longitudinal Fissure from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/0/04/Human_brain_longitudinal_fissure.png)
@@ -397,7 +409,7 @@ Source: [@Floris2012-ro]
 - Basal forebrain
     + [Nucleus accumbens (NAcc)](https://en.wikipedia.org/wiki/Nucleus_accumbens), part of ventral striatum
 
-***Cingulate Gyrus***
+**Cingulate Gyrus**
 
 ![Cingulate Gyrus](http://cis.jhu.edu/data.sets/cortical_segmentation_validation/photos/cinggyrus75.jpg)
 
@@ -507,7 +519,7 @@ Source: [@Floris2012-ro]
 - Primary gustatory cortex
 - Self-awareness, interpersonal experiences, motor control, interoception
 
-![[@Namkung2017-gc]](https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr1.jpg)
+![@Namkung2017-gc Figure 1](https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr1.jpg)
 
 ##### Brodmann Areas
 
@@ -522,6 +534,8 @@ Source: [@Floris2012-ro]
 
 ### White matter pathways
 
+![Diffusion Tensor Imaging (DTI) of axon fiber tracts in the human CNS from https://teslamri.com/services/dti/. Color coding is used to indicate the orientation of fibers.](https://teslamri.com/wp-content/uploads/2025/04/DTI-side.webp)
+
 - Brainstem
 - Projection fibers
 - Association fibers
@@ -529,7 +543,7 @@ Source: [@Floris2012-ro]
 
 ![Schematic of brain stem white matter pathways from [@oishi2010mri Chapter 3, Figure 1.]](../include/img/brainstem-white-matter-schematic.jpg)
 
-### Brainstem projections
+#### Brainstem projections
 
 - Corticospinal tract (descending/efferent)
 - Dorsal column/medial lemniscus (ascending/afferent)
@@ -537,7 +551,7 @@ Source: [@Floris2012-ro]
 
 ![White matter projections from [@oishi2010mri Chapter 3, Figure 8.]](../include/img/projection-fiber-schematic.jpg)
 
-### Projection fiber tracts
+#### Projection fiber tracts
 
 - Internal capsule
     - Thalamic radiation
@@ -545,14 +559,14 @@ Source: [@Floris2012-ro]
 
 ![Schematic of brain stem white matter pathways from [@oishi2010mri Chapter 3, Figure 12.]](../include/img/cortical-white-matter.jpg)
 
-### Cortical white matter tracts
+#### Cortical white matter tracts
 
 - Superior/inferior longitudinal fasciculus
     - [Arcuate fasciculus](https://en.wikipedia.org/wiki/Arcuate_fasciculus) part of sup. long. f.
 - Superior/inferior fronto-occipital fasciculus
 - Cingulum, fornix (hyp-hip), stria terminalis (hyp-amyg)
 
-### Commissural fibers
+#### Commissural fibers
 
 - Corpus callosum
 - Anterior commissure (AC)
@@ -572,6 +586,7 @@ Source: [@Floris2012-ro]
 - Cervical (8), thoracic (12), lumbar (5), sacral (5), coccygeal (1)
 - Spinal segments & 31 nerve pairs
 - Cauda equina
+  - Nerves not shielded by pia, arachnoid or dura mater
 
 ![Divisions of the spinal cord](http://www.fauxpress.com/kimball/med/sensory/spinaldivisions.jpg)
 
@@ -599,6 +614,11 @@ Source: [@Floris2012-ro]
 
 ### Somatic division
 
+![SimplyPsychology](https://www.simplypsychology.org/wp-content/uploads/somatic-nervous-system.jpeg){width=35%}
+
+- Innervates skeletal muscles
+- Receives sensory information from skin, tendons, joints, muscles, and the viscera
+
 #### Cranial nerves
 
 - Afferents (input), efferents (output), or mixed
@@ -613,7 +633,7 @@ vagus (X), etc.
 
 ![Nervous system of Harriet Cole from https://www.pastmedicalhistory.co.uk/the-nervous-system-of-harriet-cole/](https://www.pastmedicalhistory.co.uk/wp-content/uploads/2018/08/A-model-of-the-human-nervous-system-by-Rufus-Benjamin-Weaver..jpg)
 
-### Autonomic nervous system
+### Autonomic
 
 - CNS & PNS components
 - Controls “vegetative functions”
@@ -646,18 +666,25 @@ vagus (X), etc.
 - “Rest & digest”
 - Spinal cord (or Vagus n. from Xth cranial n.) -> ganglia near end organs -> end organ
     + NT: ACh
+    
+#### Enteric division
+
+![@Furness2012-dy Figure 1](../include/img/enteric-nervous-system.png)
 
 #### Illustrative measures of ANS function
 
-- Heart rate variability
+##### Heart rate variability
 
 ![Influences on heart rate](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Neurovisceral_integration_model.png/330px-Neurovisceral_integration_model.png)
 
 - Galvanic skin response (GSR)
-- [Pupillary response](https://en.wikipedia.org/wiki/Pupillary_response)
+
+##### Pupillary response
+
+- See <https://en.wikipedia.org/wiki/Pupillary_response>
 
 ![Circuit controlling pupillary diameter](https://upload.wikimedia.org/wikipedia/commons/a/a5/Gray840.png)
 
-- electrogastrogram (EGG) for ENS [[@Al_Taee2020-no]](http://dx.doi.org/10.1007/978-3-030-14347-3_50)
+##### Electrogastrogram (EGG) [@Al_Taee2020-no]
 
-![Electrogastogram from [@Al_Taee2020-no]. Fig. 1. Gastric pacesetter potentials or slow waves originate from the pacemaker area on the greater curve. Pacesetter potentials travel in a circumferential and aboral direction at a rate of approximately 3 cycles per minute (cpm). The cutaneously recorded electrogastrogram shows 3-cpm wave pattern. The fundus has no rhythmic electrical activity.](https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-030-14347-3_50/MediaObjects/478658_1_En_50_Fig1_HTML.png)
+![Electrogastogram from @Al_Taee2020-no. Fig. 1. Gastric pacesetter potentials or slow waves originate from the pacemaker area on the greater curve. Pacesetter potentials travel in a circumferential and aboral direction at a rate of approximately 3 cycles per minute (cpm). The cutaneously recorded electrogastrogram shows 3-cpm wave pattern. The fundus has no rhythmic electrical activity.](https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-030-14347-3_50/MediaObjects/478658_1_En_50_Fig1_HTML.png)

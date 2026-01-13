@@ -4,6 +4,7 @@ project:
     - "./*.qmd"
     - "slides/*.qmd"
     - "exercises/*.qmd"
+    - "resources/*.qmd"
   output-dir: "docs"
   resources:
     - "include/snd/*.m4a"

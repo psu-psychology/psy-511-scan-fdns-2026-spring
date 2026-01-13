@@ -1,3 +1,4 @@
 csl: ../include/bib/apa.csl
 bibliography: [../include/bib/psu-repro.bib, ../include/bib/packages.bib, ../include/bib/psy-511.bib]
 bibliographystyle: apa
+lightbox: true
