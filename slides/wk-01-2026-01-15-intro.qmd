@@ -34,8 +34,27 @@ format: revealjs
 
 ![](../include/img/psych-harder-2.jpg)
 
+## Physics perspective
 
----
+- Simplifying assumptions
+- Universal laws
+- Macro phenomena
+- Low dimensional state space
+
+## On state spaces...
+
+:::: {.columns}
+::: {.column width=80%}
+>State space is the set of all possible states of a dynamical system; each state of the system corresponds to a unique point in the state space. For example, the state of an idealized pendulum is uniquely defined by its angle and angular velocity...
+
+-- @Terman2008-nc
+:::
+::: {.column width=20%}
+![Figure 1 from @Terman2008-nc](http://www.scholarpedia.org/w/images/thumb/0/07/State_space_cylinder.gif/200px-State_space_cylinder.gif){fig-align="right"}
+:::
+::::
+
+## Psychological perspective
 
 :::: {.columns}
 ::: {.column width=50%}
@@ -63,74 +82,64 @@ flowchart TD
 :::
 ::::
 
-## On state spaces...
-
-:::: {.columns}
-::: {.column width=80%}
->State space is the set of all possible states of a dynamical system; each state of the system corresponds to a unique point in the state space. For example, the state of an idealized pendulum is uniquely defined by its angle and angular velocity...
-
--- @Terman2008-nc
-:::
-::: {.column width=20%}
-![Figure 1 from @Terman2008-nc](http://www.scholarpedia.org/w/images/thumb/0/07/State_space_cylinder.gif/200px-State_space_cylinder.gif){fig-align="right"}
-:::
-::::
-
 ## State spaces in brain & behavior
 
 ![@swanson2005anatomy Figure 1](../include/img/swanson-2005-fig-1.jpg)
 
-## Some states are more readily measured than others
+## States high dimensional
 
-- $W$, $B$, $N$ (more or less) **directly**
+- ~86 billion neurons
+- ~100 trillion - 1 quadrillion synapses
+- ?? # of motor units
 - 600+ skeletal muscles; 300+ joints
-- ~86 billion neurons; ~100 trillion - 1 quadrillion synapses
 
 ---
 
 ![@Sejnowski2014-aa Figure 1](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg)
 
-## Mental states ($M$)
+## Direct vs. indirect measurement
 
-- Measured **indirectly**
+- $W$, $B$, $N$ (more or less) **directly**
+- vs. $M$, measured **indirectly**
 - Via $N$, $B$, $W$
 
 ::: {.fragment}
 ::: {.callout-warning}
+## Your turn
 - Do you agree?
 :::
 :::
 
-## Brain & behavior are complex, dynamic *systems* with
+<!-- ## Brain & behavior are complex, dynamic *systems* with -->
 
-- Components
-- Interactions
-- Forces/influences
-- Boundaries
-- Inputs/outputs/processes
+<!-- - Components -->
+<!-- - Interactions -->
+<!-- - Forces/influences -->
+<!-- - Boundaries -->
+<!-- - Inputs/outputs/processes -->
 
-## Systems...
+<!-- ## Systems... -->
 
-- "Behave" or change state across time
-- Return to starting state
-- Often regulated, controlled, influenced by feedback loops
-- $B(t+1) = f(W(t), B(t), N(t), M(t))$
+<!-- - "Behave" or change state across time -->
+<!-- - Return to starting state -->
+<!-- - Often regulated, controlled, influenced by feedback loops -->
+<!-- - $B(t+1) = f(W(t), B(t), N(t), M(t))$ -->
 
-## May be analyzed of as [networks](https://en.wikipedia.org/wiki/Network_science)
+<!-- ## May be analyzed of as [networks](https://en.wikipedia.org/wiki/Network_science) -->
 
-![From https://source.wustl.edu/2013/08/brain-flexible-hub-network-helps-humans-adapt/](https://source.wustl.edu/wp-content/uploads/2013/08/ColeCoverFlexHub470x340.jpg)
+<!-- ![From https://source.wustl.edu/2013/08/brain-flexible-hub-network-helps-humans-adapt/](https://source.wustl.edu/wp-content/uploads/2013/08/ColeCoverFlexHub470x340.jpg) -->
 
-## At multiple levels of organization...
+<!-- ## At multiple levels of organization... -->
 
-![](https://stats.idre.ucla.edu/wp-content/uploads/2016/02/sem_1.png){fig-align="center"}
+<!-- ![](https://stats.idre.ucla.edu/wp-content/uploads/2016/02/sem_1.png){fig-align="center"} -->
 
----
+<!-- --- -->
 
-![@Swanson2016-qr Figure 1](../include/img/ne390197.f1_thmb.png)
+<!-- ![@Swanson2016-qr Figure 1](../include/img/ne390197.f1_thmb.png) -->
 
----
+<!-- --- -->
 
-![@Swanson2016-qr Figure 3](../include/img/ne390197.f3.png)
+<!-- ![@Swanson2016-qr Figure 3](../include/img/ne390197.f3.png) -->
 
 ##  Hard to simplify
 
@@ -172,9 +181,9 @@ flowchart TD
 
 ![[@Cisek2019-vq Figure 3]. Schematic behavioral control systems. (A) When the current nutrient state deviates from a desired state, locomotion is initiated, ultimately bringing the animal to a more desirable state. (B) Elaboration of nutrient state control into a high-level controller (ANS) and a lower-level controller (BNS) capable of two modes of locomotion, local exploitation, and long-range exploration. 5HT, serotonin; ANS/BNS, apical/blastoporal nervous system; DA, dopamine; NPY, neuropeptide Y](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig3_HTML.png)
 
-## Assumptions are problematic
+<!-- ## Assumptions are problematic -->
 
-![@Segal2024-ht](../include/img/segal-2024-fig-01.jpg)
+<!-- ![@Segal2024-ht](../include/img/segal-2024-fig-01.jpg) -->
 
 # Course overview
 

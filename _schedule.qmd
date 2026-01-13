@@ -338,7 +338,7 @@ ex_dev_due <- psy_511_vars |>
 
 #### Read/Watch
 
-- [Cellular neuroscience notes](resources/cells.html) | [PDF](resources/cells.pdf) |
+- [Cellular neuroscience notes](404.qmd) | [PDF](404.qmd) |
 - Optional
   - @Won2025-aq
   - @Zeng2017-sg
@@ -378,7 +378,7 @@ ex_phys_due <- psy_511_vars |>
 
 #### Read/Watch
 
-- [Cellular neuroscience notes](resources/cells.qmd)
+- [Cellular neuroscience notes](404.qmd)
 
 <!-- #### Materials -->
 
@@ -414,7 +414,7 @@ ex_ap_due <- psy_511_vars |>
 
 #### Read/Watch
 
-- [Neurochemistry notes](resources/neurochemistry.qmd)
+- [Neurochemistry notes](404.qmd)
 - Optional: @Sarkar2016-qf.
 
 <!-- #### Materials -->

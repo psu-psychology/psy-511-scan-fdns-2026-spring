@@ -6,7 +6,10 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.24">
 
   <meta name="author" content="Rick Gilmore">
@@ -143,6 +146,9 @@
       margin-right: 0; 
     }
   </style>
+  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -195,10 +201,9 @@ Rick Gilmore
 <section id="todays-topics" class="slide level2">
 <h2>Today’s topics</h2>
 <ul>
-<li>Neuroanatomy
+<li>Neuroanatomy</li>
+<li>In-class lab
 <ul>
-<li>Brief overview</li>
-<li>In-class lab</li>
 <li><a href="../exercises/ex-ANAT.html">Exercise ANAT</a></li>
 </ul></li>
 </ul>
@@ -214,28 +219,54 @@ Rick Gilmore
 <li>Master basic vocabulary for reading literature</li>
 </ul>
 </section>
-<section id="information-processing-perspective" class="slide level2">
-<h2>Information processing perspective</h2>
+<section id="computational-perspective" class="slide level2">
+<h2>Computational perspective</h2>
+<div class="columns">
+<div class="column" style="width:33%;">
+<div class="fragment">
 <ul>
 <li>Inputs from
 <ul>
 <li>World</li>
 <li>Body</li>
-<li>Brain<sup>1</sup></li>
+<li>Nervous system</li>
 </ul></li>
 </ul>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>shorthand for nervous system</p></li></ol></aside></section>
-<section class="slide level2">
-
+</div>
+</div><div class="column" style="width:33%;">
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  N[Nervous System] --&gt; B[Body]
+  B --&gt; W[World]
+  W --&gt; B
+  B --&gt; N
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
 <ul>
 <li>Outputs to
 <ul>
 <li>World</li>
 <li>Body</li>
-<li>Brain</li>
+<li>Nervous system</li>
 </ul></li>
+</ul>
+</div>
+</div></div>
+<div class="fragment">
+<ul>
 <li>What computations occur where?</li>
 </ul>
+</div>
 </section>
 <section id="functional-anatomy-perspective" class="slide level2">
 <h2>Functional anatomy perspective</h2>
@@ -247,28 +278,53 @@ Rick Gilmore
 </section>
 <section id="brain-anatomy-through-dance" class="slide level2">
 <h2>Brain anatomy through dance</h2>
-<!-- <audio controls loop="loop"> -->
-<!-- <source src="../include/snd/brain_boxing.m4a" type="audio/mpeg"> -->
-<!-- Your browser does not support the audio tag. </audio> -->
+<audio controls="" loop="loop">
+<source src="../include/snd/brain_boxing.m4a" type="audio/mpeg">
+<p>Your browser does not support the audio tag. </p>
+</audio></section>
+<section id="terms" class="slide level2">
+<h2>Terms</h2>
+<ul>
+<li>Anterior/Posterior</li>
+<li>Medial/Lateral</li>
+<li>Superior/Inferior</li>
+<li>Dorsal/Ventral</li>
+<li>Rostral/Caudal</li>
+</ul>
+</section>
+<section id="nervous-system" class="slide level2">
+<h2>Nervous system</h2>
+<ul>
+<li>Central Nervous System (CNS)
+<ul>
+<li>Encased in bone</li>
+<li>Brain</li>
+<li>Spinal cord</li>
+</ul></li>
+<li>Peripheral Nervous System (PNS)</li>
+</ul>
+</section>
+<section class="slide level2">
+
 <div class="columns">
 <div class="column" style="width:50%;">
-<figure class=""><audio controls="" src="../include/snd/brain_boxing.m4a" type="audio/m4a">Your browser does not support the audio tag.</audio><figcaption></figcaption></figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/harriet-bw-237w.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Nervous system of Harriet Cole, see @McNaughton2018-fl"><img data-src="../include/img/harriet-bw-237w.jpg" style="width:70.0%" alt="Nervous system of Harriet Cole, see McNaughton (2018)"></a></p>
+<figcaption>Nervous system of Harriet Cole, see <span class="citation" data-cites="McNaughton2018-fl">McNaughton (<a href="#/references" role="doc-biblioref" onclick="">2018</a>)</span></figcaption>
+</figure>
+</div>
 </div><div class="column" style="width:50%;">
-<ul>
-<li class="fragment">Anterior/Posterior</li>
-<li class="fragment">Medial/Lateral</li>
-<li class="fragment">Superior/Inferior</li>
-<li class="fragment">Dorsal/Ventral</li>
-<li class="fragment">Rostral/Caudal</li>
-</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/TE-Nervous_system_diagram.svg/1280px-TE-Nervous_system_diagram.svg.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="By Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=10187018"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/TE-Nervous_system_diagram.svg/1280px-TE-Nervous_system_diagram.svg.png" style="width:70.0%" alt="By Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=10187018"></a></p>
+<figcaption>By Own work, CC BY 3.0, <a href="https://commons.wikimedia.org/w/index.php?curid=10187018" class="uri">https://commons.wikimedia.org/w/index.php?curid=10187018</a></figcaption>
+</figure>
+</div>
 </div></div>
 </section>
-<section id="central-vs.-peripheral-nervous-system" class="slide level2">
-<h2>Central vs.&nbsp;Peripheral Nervous System</h2>
-
-<img data-src="../include/img/harriet-bw-237w.jpg" style="width:60.0%" class="r-stretch quarto-figure-center"><p class="caption">Nervous system of Harriet Cole, see <span class="citation" data-cites="McNaughton2018-fl">McNaughton (<a href="#/references" role="doc-biblioref" onclick="">2018</a>)</span></p></section>
-<section id="organization-of-the-cns" class="slide level2">
-<h2>Organization of the CNS</h2>
+<section id="cns-organization" class="slide level2">
+<h2>CNS Organization</h2>
 <table class="caption-top">
 <colgroup>
 <col style="width: 24%">
@@ -401,85 +457,773 @@ Rick Gilmore
 </section>
 <section class="slide level2">
 
-<p>Forebrain, midbrain, hindbrain terminology derives from embryonic stages in CNS development.</p>
-
-<img data-src="../include/img/6_week_embryo_brain.jpg" style="width:60.0%" class="r-stretch quarto-figure-center"><p class="caption">Embryonic human brain from Wikipedia</p></section>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/6_week_embryo_brain.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Embryonic human brain from Wikipedia"><img data-src="../include/img/6_week_embryo_brain.jpg" alt="Embryonic human brain from Wikipedia"></a></p>
+<figcaption>Embryonic human brain from Wikipedia</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/EmbryonicBrain.svg/1200px-EmbryonicBrain.svg.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Cross section of embryonic brain from Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/EmbryonicBrain.svg/1200px-EmbryonicBrain.svg.png" alt="Cross section of embryonic brain from Wikipedia"></a></p>
+<figcaption>Cross section of embryonic brain from Wikipedia</figcaption>
+</figure>
+</div>
+</div></div>
+<ul>
+<li>Forebrain, midbrain, hindbrain terminology derives from embryonic stages in CNS development.</li>
+</ul>
+</section>
 <section id="cerebrum" class="slide level2">
 <h2>Cerebrum</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
 <li>(Cerebral) cortex</li>
 <li>Subcortical (below the cortex) structures</li>
 </ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/medial-labelled.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Labelled MRI including thalamus and hypothalamus"><img data-src="../include/img/medial-labelled.png" alt="Labelled MRI including thalamus and hypothalamus"></a></p>
+<figcaption>Labelled MRI including thalamus and hypothalamus</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="cerebral-cortex-landmarks" class="slide level2">
+<h2>Cerebral Cortex: Landmarks</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li class="fragment">Cerebral hemispheres</li>
+<li class="fragment">Bumps
+<ul>
+<li class="fragment">Gyrus or gyri</li>
+</ul></li>
+<li class="fragment">Grooves
+<ul>
+<li class="fragment">Sulcus or sulci: shallow</li>
+<li class="fragment">Fissure: deep</li>
+</ul></li>
+<li class="fragment">Medial longitudinal fissure</li>
+<li class="fragment">Corpus callosum</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://i0.wp.com/www.anatomyqa.com/wp-content/uploads/2017/07/Picture1-2.png?resize=599%2C312" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="From www.anatomyqa.com"><img data-src="https://i0.wp.com/www.anatomyqa.com/wp-content/uploads/2017/07/Picture1-2.png?resize=599%2C312" alt="From www.anatomyqa.com"></a></p>
+<figcaption>From www.anatomyqa.com</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="cerebral-cortex-lobes" class="slide level2">
+<h2>Cerebral cortex: Lobes</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Lateral (sagittal) view</li>
+<li>Lobes
+<ul>
+<li>Frontal</li>
+<li>Temporal</li>
+<li>Parietal</li>
+<li>Occipital</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/4/46/LobesCaptsLateral.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="By Sebastian023, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=21020857"><img data-src="https://upload.wikimedia.org/wikipedia/commons/4/46/LobesCaptsLateral.png" alt="By Sebastian023, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=21020857"></a></p>
+<figcaption>By Sebastian023, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=21020857</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="cerebral-cortex-lobes-1" class="slide level2">
+<h2>Cerebral cortex: Lobes</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Human_skull_side_simplified_%28bones%29.svg/1200px-Human_skull_side_simplified_%28bones%29.svg.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Bones of the skull from Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Human_skull_side_simplified_%28bones%29.svg/1200px-Human_skull_side_simplified_%28bones%29.svg.png" alt="Bones of the skull from Wikipedia"></a></p>
+<figcaption>Bones of the skull from Wikipedia</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><a href="http://40.media.tumblr.com/tumblr_m1kpkr7Wsq1rn6pqko1_500.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Alternative view of the relationship between bones of the skull and lobes of the cerebral cortex"><img data-src="http://40.media.tumblr.com/tumblr_m1kpkr7Wsq1rn6pqko1_500.jpg" class="quarto-figure quarto-figure-right" style="width:70.0%" alt="Alternative view of the relationship between bones of the skull and lobes of the cerebral cortex"></a></p>
+</figure>
+</div>
+<figcaption>Alternative view of the relationship between bones of the skull and lobes of the cerebral cortex</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="cerebral-cortex-lobes-2" class="slide level2">
+<h2>Cerebral cortex: Lobes</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Frontal: Motor cortex (M1)</li>
+<li>Temporal: Auditory cortex (A1)</li>
+<li>Parietal: Somatosensory cortex (S1)</li>
+<li>Occipital: Visual cortex (V1)</li>
+<li>Insula: Gustatory</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/4/46/LobesCaptsLateral.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="By Sebastian023, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=21020857"><img data-src="https://upload.wikimedia.org/wikipedia/commons/4/46/LobesCaptsLateral.png" alt="By Sebastian023, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=21020857"></a></p>
+<figcaption>By Sebastian023, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=21020857</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="cerebral-cortex-m1" class="slide level2">
+<h2>Cerebral cortex: M1</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/3/33/Human_motor_cortex.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="By Cortex sensorimoteur1.jpg: Pancratderivative work: Iamozy - Own work, This file was derived from: Cortex sensorimoteur1.jpg:, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=33981076"><img data-src="https://upload.wikimedia.org/wikipedia/commons/3/33/Human_motor_cortex.jpg" style="width:45.0%" alt="By Cortex sensorimoteur1.jpg: Pancratderivative work: Iamozy - Own work, This file was derived from: Cortex sensorimoteur1.jpg:, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=33981076"></a></p>
+<figcaption>By Cortex sensorimoteur1.jpg: Pancratderivative work: Iamozy - Own work, This file was derived from: Cortex sensorimoteur1.jpg:, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=33981076</figcaption>
+</figure>
+</div>
+</section>
+<section id="cerebral-cortex-a1" class="slide level2">
+<h2>Cerebral cortex: A1</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Auditory_Cortex_Frequency_Mapping.svg/2560px-Auditory_Cortex_Frequency_Mapping.svg.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="By Chittka L, Brockmann - Perception Space—The Final Frontier, A PLoS Biology Vol. 3, No.&nbsp;4, e137 doi:10.1371/journal.pbio.0030137 ([1]/[2]), vectorised by Inductiveload, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=5958918"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Auditory_Cortex_Frequency_Mapping.svg/2560px-Auditory_Cortex_Frequency_Mapping.svg.png" style="width:60.0%" alt="By Chittka L, Brockmann - Perception Space—The Final Frontier, A PLoS Biology Vol. 3, No.&nbsp;4, e137 doi:10.1371/journal.pbio.0030137 ([1]/[2]), vectorised by Inductiveload, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=5958918"></a></p>
+<figcaption>By Chittka L, Brockmann - Perception Space—The Final Frontier, A PLoS Biology Vol. 3, No.&nbsp;4, e137 doi:10.1371/journal.pbio.0030137 ([1]/[2]), vectorised by Inductiveload, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=5958918</figcaption>
+</figure>
+</div>
+</section>
+<section id="cerebral-cortex-s1" class="slide level2">
+<h2>Cerebral cortex: S1</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/6/66/Postcentral_gyrus.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="By Jimhutchins (talk) - The original image was uploaded on en.wikipedia as en:Image:Postcentral_gyrus.png, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4481990"><img data-src="https://upload.wikimedia.org/wikipedia/commons/6/66/Postcentral_gyrus.png" style="width:60.0%" alt="By Jimhutchins (talk) - The original image was uploaded on en.wikipedia as en:Image:Postcentral_gyrus.png, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4481990"></a></p>
+<figcaption>By Jimhutchins (talk) - The original image was uploaded on en.wikipedia as en:Image:Postcentral_gyrus.png, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4481990</figcaption>
+</figure>
+</div>
+</section>
+<section id="cerebral-cortex-v1" class="slide level2">
+<h2>Cerebral cortex: V1</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/3/33/Brodmann_Cytoarchitectonics_17.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="By Brodmann - File:Brodmann_Cytoarchitectonics.PNG, Public Domain, https://commons.wikimedia.org/w/index.php?curid=8221432"><img data-src="https://upload.wikimedia.org/wikipedia/commons/3/33/Brodmann_Cytoarchitectonics_17.png" style="width:30.0%" alt="By Brodmann - File:Brodmann_Cytoarchitectonics.PNG, Public Domain, https://commons.wikimedia.org/w/index.php?curid=8221432"></a></p>
+<figcaption>By Brodmann - File:Brodmann_Cytoarchitectonics.PNG, Public Domain, https://commons.wikimedia.org/w/index.php?curid=8221432</figcaption>
+</figure>
+</div>
+</section>
+<section id="cerebral-cortex-insula" class="slide level2 scrollable">
+<h2>Cerebral cortex: Insula</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Primary gustatory cortex</li>
+<li>Self-awareness, interpersonal experiences, motor control, interoception</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="@Namkung2017-gc Figure 1"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr1.jpg" alt="Namkung, Kim, &amp; Sawa (2017) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="Namkung2017-gc">Namkung et al. (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span> Figure 1</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="cerebral-cortex-brodmann-areas" class="slide level2">
+<h2>Cerebral cortex: Brodmann areas</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Korbinian_Brodmann">Korbinian Brodmann</a></li>
+<li>Cytoarchitecture</li>
+<li>Examples
+<ul>
+<li>BA 41 &amp; 42: audition; BA 44 &amp; 45: Broca’s area</li>
+<li>BA 17, 18: vision</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/0/09/Brodmann-areas.png" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="Brodmann areas"><img data-src="https://upload.wikimedia.org/wikipedia/commons/0/09/Brodmann-areas.png" class="quarto-figure quarto-figure-right" alt="Brodmann areas"></a></p>
+</figure>
+</div>
+<figcaption>Brodmann areas</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="cerebrum-subcortical" class="slide level2">
+<h2>Cerebrum: Subcortical</h2>
+<ul>
+<li>Basal ganglia</li>
+<li>Hippocampus</li>
+<li>Amygdala</li>
+</ul>
+</section>
+<section id="basal-ganglia" class="slide level2">
+<h2>Basal ganglia</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Striatum
+<ul>
+<li>Caudate nucleus</li>
+<li>Putamen</li>
+</ul></li>
+<li>Globus pallidus</li>
+<li>Subthalamic nucleus</li>
+<li>Substantia nigra (tegmentum)</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://fhs122anatomyelab.files.wordpress.com/2014/05/basal-ganglia.jpg?w=524&amp;h=393" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="MRI of the basal ganglia"><img data-src="https://fhs122anatomyelab.files.wordpress.com/2014/05/basal-ganglia.jpg?w=524&amp;h=393" alt="MRI of the basal ganglia"></a></p>
+<figcaption>MRI of the basal ganglia</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="basal-ganglia-1" class="slide level2">
+<h2>Basal ganglia</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/8/8c/Cortical_surface_with_an_overlay_of_the_basal_ganglia_and_thalamus.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="https://upload.wikimedia.org/wikipedia/commons/8/8c/Cortical_surface_with_an_overlay_of_the_basal_ganglia_and_thalamus.jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Cortical_surface_with_an_overlay_of_the_basal_ganglia_and_thalamus.jpg" style="width:80.0%" alt="https://upload.wikimedia.org/wikipedia/commons/8/8c/Cortical_surface_with_an_overlay_of_the_basal_ganglia_and_thalamus.jpg"></a></p>
+<figcaption>https://upload.wikimedia.org/wikipedia/commons/8/8c/Cortical_surface_with_an_overlay_of_the_basal_ganglia_and_thalamus.jpg</figcaption>
+</figure>
+</div>
+</section>
+<section id="hippocampus" class="slide level2">
+<h2>Hippocampus</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Hippocampus means “sea horse”</li>
+<li>Fornix (axon fiber bundle) projects to (mammillary bodies of) hypothalamus</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://images.theconversation.com/files/60945/original/qrtd9rv8-1412620559.JPG?ixlib=rb-1.1.0&amp;q=45&amp;auto=format&amp;w=1000&amp;fit=clip" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="Hippocampus and Sea Horse"><img data-src="https://images.theconversation.com/files/60945/original/qrtd9rv8-1412620559.JPG?ixlib=rb-1.1.0&amp;q=45&amp;auto=format&amp;w=1000&amp;fit=clip" alt="Hippocampus and Sea Horse"></a></p>
+<figcaption>Hippocampus and Sea Horse</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="hippocampus-1" class="slide level2">
+<h2>Hippocampus</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Initial storage of memories for specific facts (semantic memory) or events (episodic memory)</li>
+<li>Place memory in non-human animals (&amp; humans?)</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="http://www.neuro24.de/hip0006.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="MRI of hippocampus"><img data-src="http://www.neuro24.de/hip0006.jpg" alt="MRI of hippocampus"></a></p>
+<figcaption>MRI of hippocampus</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="amygdala" class="slide level2">
+<h2>Amygdala</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Physiological state, behavioral readiness, affect</li>
+<li>NOT the fear center! <span class="citation" data-cites="ledoux_amygdala_2015">(<a href="#/references" role="doc-biblioref" onclick="">LeDoux, 2015</a>)</span>.</li>
+<li>Projection to hypothalamus</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="http://www.frontiersin.org/files/Articles/31697/fpsyg-03-00319-HTML/image_m/fpsyg-03-00319-g002.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="Cassidy2012-ue Figure 2"><img data-src="http://www.frontiersin.org/files/Articles/31697/fpsyg-03-00319-HTML/image_m/fpsyg-03-00319-g002.jpg" alt="Cassidy2012-ue Figure 2"></a></p>
+<figcaption>Cassidy2012-ue Figure 2</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section class="slide level2">
 
-<img data-src="../include/img/medial-labelled.png" style="width:60.0%" class="r-stretch quarto-figure-center"><p class="caption">Labelled MRI including thalamus and hypothalamus</p></section>
-<section id="cerebral-cortex" class="slide level2">
-<h2>(Cerebral) cortex</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 30%">
+<col style="width: 27%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Major division</th>
+<th>Ventricular Landmark</th>
+<th>Embryonic Division</th>
+<th>Structure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>Third</td>
+<td>Diencephalon</td>
+<td>Thalamus</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td>Hypothalamus</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="diencephalon" class="slide level2">
+<h2>Diencephalon</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li>Lobes, marked by sulci/fissures, adjacency to bones of skull</li>
-<li>Functional areas marked by gyri &amp; sulci</li>
-<li><a href="../resources/anatomy.qmd#brodmann-areas">Brodmann Areas</a>
+<li>Thalamus</li>
+<li>Hypothalamus</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/a/a0/1310_Diencephalon.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="Diencephalon from Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/a/a0/1310_Diencephalon.jpg" alt="Diencephalon from Wikipedia"></a></p>
+<figcaption>Diencephalon from Wikipedia</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="thalamus" class="slide level2">
+<h2>Thalamus</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li>Microstructural (cellular composition) features</li>
+<li>Input to cortex</li>
+<li>Functionally distinct <em>nuclei</em>
+<ul>
+<li>Lateral geniculate nucleus (LGN), vision</li>
+<li>Medial geniculate nucleus (MGN), audition</li>
+<li>Pulvinar, attention?</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="http://neurobiologychapter3.weebly.com/uploads/1/4/1/8/1418733/5118342.jpg?401x231" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="Nuclei of the thalamus"><img data-src="http://neurobiologychapter3.weebly.com/uploads/1/4/1/8/1418733/5118342.jpg?401x231" alt="Nuclei of the thalamus"></a></p>
+<figcaption>Nuclei of the thalamus</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="hypothalamus" class="slide level2">
+<h2>Hypothalamus</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="http://higheredbcs.wiley.com/legacy/college/tortora/0470565101/hearthis_ill/pap13e_ch14_illustr_audio_mp3_am/simulations/figures/hypothalamus.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="Nuclei of the hypothalamus"><img data-src="http://higheredbcs.wiley.com/legacy/college/tortora/0470565101/hearthis_ill/pap13e_ch14_illustr_audio_mp3_am/simulations/figures/hypothalamus.jpg" alt="Nuclei of the hypothalamus"></a></p>
+<figcaption>Nuclei of the hypothalamus</figcaption>
+</figure>
+</div>
+</section>
+<section id="hypothalamus-1" class="slide level2">
+<h2>Hypothalamus</h2>
+<ul>
+<li>Five Fs:
+<ul>
+<li>Fighting/fleeing/freezing</li>
+<li>Feeding</li>
+<li>Reproduction</li>
+</ul></li>
+</ul>
+</section>
+<section id="hypothalamus-2" class="slide level2">
+<h2>Hypothalamus</h2>
+<ul>
+<li>Controls pituitary gland (“master” gland)
+<ul>
+<li>Anterior pituitary (indirect release of hormones)
+<ul>
+<li>e.g., Corticotropin Releasing Hormone (CRH) -&gt; release of cortisol from Adrenal Cortex (adjacent to kidney)</li>
+</ul></li>
+<li>Posterior pituitary (direct release of hormones)
+<ul>
+<li>Oxytocin</li>
+<li>Vasopressin (aka, Arginine Vasopressin – AVP; Anti-diuretic Hormone – ADH)</li>
+</ul></li>
 </ul></li>
 </ul>
 </section>
 <section class="slide level2">
 
+<table class="caption-top">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 26%">
+<col style="width: 24%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Major division</th>
+<th>Ventricular Landmark</th>
+<th>Embryonic Division</th>
+<th>Structure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Midbrain</td>
+<td>Cerebral Aqueduct</td>
+<td>Mesencephalon</td>
+<td>Tectum, tegmentum</td>
+</tr>
+<tr class="even">
+<td>Hindbrain</td>
+<td>4th</td>
+<td>Metencephalon</td>
+<td>Cerebellum, pons</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>–</td>
+<td>Mylencephalon</td>
+<td>Medulla oblongata</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="midbrain" class="slide level2">
+<h2>Midbrain</h2>
 <ul>
-<li>Most lobes host primary sensory or motor area
+<li>Tectum (roof), dorsal</li>
+<li>Tegmentum (floor), ventral</li>
+</ul>
+</section>
+<section id="tectum" class="slide level2">
+<h2>Tectum</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li>Frontal: Motor cortex</li>
-<li>Temporal: Auditory cortex</li>
-<li>Parietal: Somatosensory cortex</li>
-<li>Occipital: Visual cortex</li>
-<li>Insula: Gustatory</li>
+<li>“Roof” of the midbrain</li>
+<li>Superior and inferior colliculus (colliculi is plural for ‘little hill’)</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="http://www.radioanatomie.com/30_irm_sagittale_mediane/99_images/2_Tectum.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="Labeled MRI of Tectum"><img data-src="http://www.radioanatomie.com/30_irm_sagittale_mediane/99_images/2_Tectum.jpg" alt="Labeled MRI of Tectum"></a></p>
+<figcaption>Labeled MRI of Tectum</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="tectum-components" class="slide level2">
+<h2>Tectum: Components</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Superior colliculus (colliculi)
+<ul>
+<li>Reflexive orienting of eyes, head, ears (superior colliculi)</li>
+</ul></li>
+<li>Inferior colliculus
+<ul>
+<li>Auditory processing (from brainstem to auditory thalamus)</li>
 </ul></li>
 </ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/0/0b/Gray719.png" class="lightbox" data-gallery="quarto-lightbox-gallery-26" title="Labeled locations of Inferior and Superior Colliculi of the dorsal midbrain or Tectum from Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Gray719.png" alt="Labeled locations of Inferior and Superior Colliculi of the dorsal midbrain or Tectum from Wikipedia"></a></p>
+<figcaption>Labeled locations of Inferior and Superior Colliculi of the dorsal midbrain or Tectum from Wikipedia</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="tegmentum" class="slide level2">
+<h2>Tegmentum</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>“Floor” of the midbrain</li>
+<li>Species-typical movement sequences</li>
+<li>Neuromodulatory nuclei release NTs
+<ul>
+<li>Norepinephrine (NE)</li>
+<li>Serotonin (5-HT)</li>
+<li>Dopamine (DA) – from <em>ventral tegmental area (VTA)</em></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://i0.wp.com/neupsykey.com/wp-content/uploads/2019/05/00254.jpeg?w=960" class="lightbox" data-gallery="quarto-lightbox-gallery-27" title="https://neupsykey.com/the-midbrain/"><img data-src="https://i0.wp.com/neupsykey.com/wp-content/uploads/2019/05/00254.jpeg?w=960" style="width:70.0%" alt="https://neupsykey.com/the-midbrain/"></a></p>
+<figcaption>https://neupsykey.com/the-midbrain/</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="hindbrain" class="slide level2">
+<h2>Hindbrain</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Structures adjacent (or caudal to) 4th ventricle</li>
+<li>Components
+<ul>
+<li>Pons</li>
+<li>Cerebellum</li>
+<li>Medulla oblongata</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gray708.svg/500px-Gray708.svg.png" class="lightbox" data-gallery="quarto-lightbox-gallery-28" title="Lateral view of brainstem from Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gray708.svg/500px-Gray708.svg.png" alt="Lateral view of brainstem from Wikipedia"></a></p>
+<figcaption>Lateral view of brainstem from Wikipedia</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="pons" class="slide level2">
+<h2>Pons</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Bulge on ventral brain stem</li>
+<li>Relay to cerebellum</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/6/69/1311_Brain_Stem.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-29" title="Illustration of brainstem from Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/6/69/1311_Brain_Stem.jpg" alt="Illustration of brainstem from Wikipedia"></a></p>
+<figcaption>Illustration of brainstem from Wikipedia</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="cerebellum" class="slide level2">
+<h2>Cerebellum</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>“Little brain”, but most neurons in CNS</li>
+<li>Dorsal to pons</li>
+<li>Movement coordination, simple learning (classical conditioning)</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/1/14/Cerebellum_animation_small.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-30" title="Animated GIF of cerebellum from Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/1/14/Cerebellum_animation_small.gif" alt="Animated GIF of cerebellum from Wikipedia"></a></p>
+<figcaption>Animated GIF of cerebellum from Wikipedia</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="medulla-oblongata" class="slide level2">
+<h2>Medulla oblongata</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Cardiovascular regulation</li>
+<li>Muscle tone</li>
+<li>Fibers of passage
+<ul>
+<li><strong>A</strong>scending fibers (from body), a.k.a. <strong>a</strong>fferents</li>
+<li>Descending fibers (<strong>e</strong>xiting brain), a.k.a., <strong>e</strong>fferents</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/6/69/1311_Brain_Stem.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-31" title="Illustration of brainstem from Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/6/69/1311_Brain_Stem.jpg" alt="Illustration of brainstem from Wikipedia"></a></p>
+<figcaption>Illustration of brainstem from Wikipedia</figcaption>
+</figure>
+</div>
+</div></div>
 </section>
 <section id="inputoutput" class="slide level2">
 <h2>Input/output</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
 <li>Via cranial nerves (in CNS)</li>
 <li>Via spinal nerves (in PNS)</li>
+<li>Hierarchical organization
+<ul>
+<li>Substantial interconnection</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/swanson-2005-fig-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-32" title="@swanson2005anatomy Figure 1"><img data-src="../include/img/swanson-2005-fig-1.jpg" alt="Swanson (2005) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="swanson2005anatomy">Swanson (<a href="#/references" role="doc-biblioref" onclick="">2005</a>)</span> Figure 1</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="cranial-nerves" class="slide level2">
+<h2>Cranial nerves</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/nerves-pairs-muscles-region-head-sense-organs.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-33" title="Cranial nerves from https://www.britannica.com/science/cranial-nerve#/media/1/141797/46720"><img data-src="../include/img/nerves-pairs-muscles-region-head-sense-organs.jpg" style="width:70.0%" alt="Cranial nerves from https://www.britannica.com/science/cranial-nerve#/media/1/141797/46720"></a></p>
+<figcaption>Cranial nerves from https://www.britannica.com/science/cranial-nerve#/media/1/141797/46720</figcaption>
+</figure>
+</div>
+</section>
+<section id="spinal-nerves" class="slide level2">
+<h2>Spinal nerves</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-34" title="https://www.researchgate.net/profile/Saeede-Rahimi-Damirchi-Darasi/publication/324683974/figure/fig10/AS:753484697726976@1556656159277/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jp"><img data-src="../include/img/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jpg" style="width:50.0%" alt="https://www.researchgate.net/profile/Saeede-Rahimi-Damirchi-Darasi/publication/324683974/figure/fig10/AS:753484697726976@1556656159277/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jp"></a></p>
+<figcaption>https://www.researchgate.net/profile/Saeede-Rahimi-Damirchi-Darasi/publication/324683974/figure/fig10/AS:753484697726976@1556656159277/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jp</figcaption>
+</figure>
+</div>
+</section>
+<section id="spinal-cord" class="slide level2">
+<h2>Spinal cord</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Spinal column w/ vertebrae</li>
+<li>Segments
+<ul>
+<li>Cervical (8), thoracic (12), lumbar (5), sacral (5), coccygeal (1)</li>
+</ul></li>
+<li>31 (anterior &amp; posterior) nerve pairs</li>
+<li>Cauda equina</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.physio-pedia.com/images/6/68/Colored_Spine.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-35" title="https://www.physio-pedia.com/Cauda_Equina"><img data-src="https://www.physio-pedia.com/images/6/68/Colored_Spine.jpg" alt="https://www.physio-pedia.com/Cauda_Equina"></a></p>
+<figcaption>https://www.physio-pedia.com/Cauda_Equina</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="spinal-cord-axial" class="slide level2">
+<h2>Spinal cord: Axial</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/e/e6/Gray675.png" class="lightbox" data-gallery="quarto-lightbox-gallery-36" title="Anterior and posterior roots of spinal cord"><img data-src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Gray675.png" alt="Anterior and posterior roots of spinal cord"></a></p>
+<figcaption>Anterior and posterior roots of spinal cord</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Medulla_spinalis_-_Section_-_English.svg/1024px-Medulla_spinalis_-_Section_-_English.svg.png" class="lightbox" data-gallery="quarto-lightbox-gallery-37" title="Axial view of spinal cord anterior and posterior roots"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Medulla_spinalis_-_Section_-_English.svg/1024px-Medulla_spinalis_-_Section_-_English.svg.png" alt="Axial view of spinal cord anterior and posterior roots"></a></p>
+<figcaption>Axial view of spinal cord anterior and posterior roots</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="pns-organization" class="slide level2">
+<h2>PNS Organization</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li class="fragment">Somatic nervous system</li>
+<li class="fragment">Autonomic nervous system (ANS)
+<ul>
+<li class="fragment">Sympathetic</li>
+<li class="fragment">Parasympathetic</li>
+<li class="fragment">Enteric (gut, intestinal tract)</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/TE-Nervous_system_diagram.svg/1280px-TE-Nervous_system_diagram.svg.png" class="lightbox" data-gallery="quarto-lightbox-gallery-38" title="By Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=10187018"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/TE-Nervous_system_diagram.svg/1280px-TE-Nervous_system_diagram.svg.png" class="quarto-figure quarto-figure-right" style="width:70.0%" alt="By Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=10187018"></a></p>
+</figure>
+</div>
+<figcaption>By Own work, CC BY 3.0, <a href="https://commons.wikimedia.org/w/index.php?curid=10187018" class="uri">https://commons.wikimedia.org/w/index.php?curid=10187018</a></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="somatic-nervous-system" class="slide level2">
+<h2>Somatic nervous system</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.simplypsychology.org/wp-content/uploads/somatic-nervous-system.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-39" title="SimplyPsychology"><img data-src="https://www.simplypsychology.org/wp-content/uploads/somatic-nervous-system.jpeg" style="width:35.0%" alt="SimplyPsychology"></a></p>
+<figcaption>SimplyPsychology</figcaption>
+</figure>
+</div>
+</section>
+<section id="autonomic-nervous-system" class="slide level2">
+<h2>Autonomic nervous system</h2>
+<ul>
+<li>Controls “vegetative functions”
+<ul>
+<li>Limited voluntary control</li>
+</ul></li>
+<li>Sympathetic
+<ul>
+<li>Prepares body for action</li>
+<li>“Fight, flee, or fight”</li>
+</ul></li>
+<li>Parasympathetic (around the sympathetic)
+<ul>
+<li>Restorative function</li>
+<li>“Rest &amp; digest”</li>
+</ul></li>
 </ul>
 </section>
-<section class="slide level2">
-
-
-<img data-src="../include/img/nerves-pairs-muscles-region-head-sense-organs.jpg" style="width:60.0%" class="r-stretch quarto-figure-center"><p class="caption">Cranial nerves from https://www.britannica.com/science/cranial-nerve#/media/1/141797/46720</p></section>
-<section class="slide level2">
-
-
-<img data-src="../include/img/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jpg" style="width:60.0%" class="r-stretch quarto-figure-center"><p class="caption">https://www.researchgate.net/profile/Saeede-Rahimi-Damirchi-Darasi/publication/324683974/figure/fig10/AS:753484697726976@1556656159277/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jp</p></section>
-<section class="slide level2">
-
-<p>Multiple hierarchies</p>
-
-<img data-src="../include/img/swanson-2005-fig-1.jpg" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="swanson2005anatomy">Swanson (<a href="#/references" role="doc-biblioref" onclick="">2005</a>)</span> Figure 1</p></section>
-<section id="maps" class="slide level2">
-<h2>Maps</h2>
-<ul>
-<li>Sensory &amp; motor systems often use maps</li>
-</ul>
+<section id="autonomic-nervous-system-1" class="slide level2">
+<h2>Autonomic nervous system</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/1503_Connections_of_the_Parasympathetic_Nervous_System.jpg/1280px-1503_Connections_of_the_Parasympathetic_Nervous_System.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-40" title="By OpenStax College - Anatomy &amp; Physiology, Connexions Web site. http://cnx.org/content/col11496/1.6/, Jun 19, 2013., CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=30148020"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/1503_Connections_of_the_Parasympathetic_Nervous_System.jpg/1280px-1503_Connections_of_the_Parasympathetic_Nervous_System.jpg" class="quarto-figure quarto-figure-left" style="width:45.0%" alt="By OpenStax College - Anatomy &amp; Physiology, Connexions Web site. http://cnx.org/content/col11496/1.6/, Jun 19, 2013., CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=30148020"></a></p>
+</figure>
+</div>
+<figcaption>By OpenStax College - Anatomy &amp; Physiology, Connexions Web site. http://cnx.org/content/col11496/1.6/, Jun 19, 2013., CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=30148020</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/f/f7/Gray839.png" class="lightbox" data-gallery="quarto-lightbox-gallery-41" title="By Henry Vandyke Carter - Henry Gray (1918) Anatomy of the Human Body (See “Book” section below)Bartleby.com: Gray’s Anatomy, Plate 839, Public Domain, https://commons.wikimedia.org/w/index.php?curid=792179"><img data-src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Gray839.png" class="quarto-figure quarto-figure-right" style="width:45.0%" alt="By Henry Vandyke Carter - Henry Gray (1918) Anatomy of the Human Body (See “Book” section below)Bartleby.com: Gray’s Anatomy, Plate 839, Public Domain, https://commons.wikimedia.org/w/index.php?curid=792179"></a></p>
+</figure>
+</div>
+<figcaption>By Henry Vandyke Carter - Henry Gray (1918) Anatomy of the Human Body (See “Book” section below)Bartleby.com: Gray’s Anatomy, Plate 839, Public Domain, https://commons.wikimedia.org/w/index.php?curid=792179</figcaption>
+</figure>
+</div>
+</div></div>
 </section>
-<section class="slide level2">
-
-
-<img data-src="../include/img/The-Retinotopy-paradigm-Two-stimuli-are-used-to-measure-the-retinotopic-maps-in-cortex.png" style="width:60.0%" class="r-stretch quarto-figure-center"><p class="caption">https://www.researchgate.net/profile/Brian-Wandell/publication/8988812/figure/fig1/AS:280067633631238@1443784735289/The-Retinotopy-paradigm-Two-stimuli-are-used-to-measure-the-retinotopic-maps-in-cortex.png</p></section>
-<section class="slide level2">
-
-
-<img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S0378595513001871-gr1_lrg.jpg" style="width:60.0%" class="r-stretch quarto-figure-center"><p class="caption">Figure 1 from <span class="citation" data-cites="Saenz2014-ao">Saenz &amp; Langers (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span></p></section>
-<section class="slide level2">
-
-
-<img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Grant_1962_663.png/800px-Grant_1962_663.png" style="width:60.0%" class="r-stretch quarto-figure-center"><p class="caption">Wikipedia</p></section>
-<section class="slide level2">
-
-<ul>
-<li>Geometric issues central for perceptual/motor behavior</li>
-<li>Do other systems “map” function to structure?</li>
-</ul>
+<section id="autonomic-nervous-system-enteric" class="slide level2">
+<h2>Autonomic nervous system: Enteric</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/enteric-nervous-system.png" class="lightbox" data-gallery="quarto-lightbox-gallery-42" title="@Furness2012-dy Figure 1"><img data-src="../include/img/enteric-nervous-system.png" style="width:25.0%" alt="Furness (2012) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="Furness2012-dy">Furness (<a href="#/references" role="doc-biblioref" onclick="">2012</a>)</span> Figure 1</figcaption>
+</figure>
+</div>
 </section></section>
 <section>
 <section id="neuroanatomy-lab" class="title-slide slide level1 center">
@@ -522,7 +1266,11 @@ Rick Gilmore
 <section id="next-time" class="slide level2">
 <h2>Next time…</h2>
 <ul>
-<li><a href="../404.html">Action</a></li>
+<li><a href="../slides/wk-03-2026-01-29-action.html">Action</a></li>
+<li><em>Due</em>: <a href="../exercises/ex-ANAT.html">Exercise ANAT • Neuroanatomy</a>
+<ul>
+<li><a href="https://psu.instructure.com/courses/2441266/assignments/17981392">Canvas dropbox</a></li>
+</ul></li>
 </ul>
 </section></section>
 <section>
@@ -538,21 +1286,26 @@ Rick Gilmore
 <div id="ref-Ctdalilah2006-co" class="csl-entry" role="listitem">
 ctdalilah. (2006, October). Pinky and the brain-brainstem. Youtube. Retrieved from <a href="https://www.youtube.com/watch?v=snO68aJTOpM">https://www.youtube.com/watch?v=snO68aJTOpM</a>
 </div>
+<div id="ref-Furness2012-dy" class="csl-entry" role="listitem">
+Furness, J. B. (2012). The enteric nervous system and neurogastroenterology. <em>Nature Reviews. Gastroenterology &amp; Hepatology</em>, <em>9</em>(5), 286–294. <a href="https://doi.org/10.1038/nrgastro.2012.32">https://doi.org/10.1038/nrgastro.2012.32</a>
+</div>
 <div id="ref-Kids_Learning_Tube2015-pb" class="csl-entry" role="listitem">
 Kids Learning Tube. (2015, October). Human body for <span>Kids/Brain</span> <span>Song/Human</span> body systems. Youtube. Retrieved from <a href="https://www.youtube.com/watch?v=Qw8E9WnZTQk">https://www.youtube.com/watch?v=Qw8E9WnZTQk</a>
 </div>
-<div id="ref-McNaughton2018-fl" class="csl-entry" role="listitem">
-McNaughton, A. (2018, November 20). Dissecting harriet cole: Uncovering women’s history in the archives. Retrieved January 8, 2025, from <a href="https://drexel.edu/legacy-center/blog/overview/2018/november/dissecting-harriet-cole-uncovering-womens-history-in-the-archives/">https://drexel.edu/legacy-center/blog/overview/2018/november/dissecting-harriet-cole-uncovering-womens-history-in-the-archives/</a>
+<div id="ref-ledoux_amygdala_2015" class="csl-entry" role="listitem">
+LeDoux, J. (2015, August 10). The <span>Amygdala</span> <span>Is</span> <span>NOT</span> the <span>Brain</span>’s <span>Fear</span> <span>Center</span>. <em>Psychology Today</em>. Retrieved from <a href="https://www.psychologytoday.com/blog/i-got-mind-tell-you/201508/the-amygdala-is-not-the-brains-fear-center">https://www.psychologytoday.com/blog/i-got-mind-tell-you/201508/the-amygdala-is-not-the-brains-fear-center</a>
 </div>
-<div id="ref-Saenz2014-ao" class="csl-entry" role="listitem">
-Saenz, M., &amp; Langers, D. R. M. (2014). Tonotopic mapping of human auditory cortex. <em>Hearing Research</em>, <em>307</em>, 42–52. <a href="https://doi.org/10.1016/j.heares.2013.07.016">https://doi.org/10.1016/j.heares.2013.07.016</a>
+<div id="ref-McNaughton2018-fl" class="csl-entry" role="listitem">
+McNaughton, A. (2018, November 20). Dissecting <span>H</span>arriet <span>C</span>ole: <span>U</span>ncovering women’s history in the archives. Retrieved January 8, 2025, from <a href="https://drexel.edu/legacy-center/blog/overview/2018/november/dissecting-harriet-cole-uncovering-womens-history-in-the-archives/">https://drexel.edu/legacy-center/blog/overview/2018/november/dissecting-harriet-cole-uncovering-womens-history-in-the-archives/</a>
+</div>
+<div id="ref-Namkung2017-gc" class="csl-entry" role="listitem">
+Namkung, H., Kim, S.-H., &amp; Sawa, A. (2017). The insula: An underestimated brain area in clinical neuroscience, psychiatry, and neurology. <em>Trends in Neurosciences</em>, <em>40</em>(4), 200–207. <a href="https://doi.org/10.1016/j.tins.2017.02.002">https://doi.org/10.1016/j.tins.2017.02.002</a>
 </div>
 <div id="ref-swanson2005anatomy" class="csl-entry" role="listitem">
 Swanson, L. W. (2005). Anatomy of the soul as reflected in the cerebral hemispheres: Neural circuits underlying voluntary control of basic motivated behaviors. <em>Journal of Comparative Neurology</em>, <em>493</em>(1), 122–131. <a href="https://doi.org/10.1002/cne.20733">https://doi.org/10.1002/cne.20733</a>
 </div>
 </div>
 </section></section>
-
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg" class="slide-logo"></p>
@@ -941,6 +1694,38 @@ Swanson, L. W. (2005). Anatomy of the soul as reflected in the cerebral hemisphe
         }
       });
       </script>
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
     
 
 </body></html>

@@ -20,7 +20,7 @@ format:
 
 - OpenNeuro: <https://openneuro.org>
 - Neurosynth (fMRI meta-analysis): <http://neurosynth.org>
-- [Table 1 from [@Rahimzadeh2023-op]](https://www.cell.com/action/showFullTableHTML?isHtml=true&tableId=tbl1&pii=S0896-6273%2823%2900717-1)
+- [Table 1 from @Rahimzadeh2023-op](https://www.cell.com/action/showFullTableHTML?isHtml=true&tableId=tbl1&pii=S0896-6273%2823%2900717-1)
 
 ## Directional terms
 
@@ -90,7 +90,7 @@ format:
 
 ![Basal view of the brain from https://previews.123rf.com/images/hfsimaging/hfsimaging1208/hfsimaging120800005/14672522-drawing-of-the-blood-vessels-at-the-base-of-the-brain-called-the-circle-of-willis.jpg](https://previews.123rf.com/images/hfsimaging/hfsimaging1208/hfsimaging120800005/14672522-drawing-of-the-blood-vessels-at-the-base-of-the-brain-called-the-circle-of-willis.jpg)
 
-![Circle of Willis from https://teachmeanatomy.info/wp-content/uploads/Schematic-of-the-Circle-of-Willis.jpg](https://teachmeanatomy.info/wp-content/uploads/Schematic-of-the-Circle-of-Willis.jpg)
+![By Rhcastilhos - Gray519.png, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1597012](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Circle_of_Willis_en.svg/1280px-Circle_of_Willis_en.svg.png)
 
 ![Blood supply to the cerebrum from https://teachmeanatomy.info/wp-content/uploads/Regional-Blood-Supply-to-the-Cerebrum-1024x380.jpg](https://teachmeanatomy.info/wp-content/uploads/Regional-Blood-Supply-to-the-Cerebrum-1024x380.jpg)
 
@@ -101,16 +101,16 @@ format:
 - Cells forming blood vessel walls tightly packed
 - Active transport of molecules typically required
 
-![Blood brain barrier. Figure 2 from [@Abbott2006-jw]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn1824/MediaObjects/41583_2006_Article_BFnrn1824_Fig2_HTML.jpg?as=webp)
+![Blood brain barrier. Figure 2 from @Abbott2006-jw](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn1824/MediaObjects/41583_2006_Article_BFnrn1824_Fig2_HTML.jpg?as=webp)
 
-![Transport across the blood/brain barrier. Figure 3 from [@Abbott2006-jw]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn1824/MediaObjects/41583_2006_Article_BFnrn1824_Fig3_HTML.jpg?as=webp)
+![Transport across the blood/brain barrier. Figure 3 from @Abbott2006-jw](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn1824/MediaObjects/41583_2006_Article_BFnrn1824_Fig3_HTML.jpg?as=webp)
 
 ##### Area Postrema
 
 - In brainstem, blood-brain barrier thin
 - Chemoreceptors (chemical receptors) detect toxins, trigger emesis (vomiting) if necessary
 
-![Area Postrema (AP), Figure 2 from [@Begg2013-fb]](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnrendo.2013.136/MediaObjects/41574_2013_Article_BFnrendo2013136_Fig2_HTML.jpg?as=webp)
+![Area Postrema (AP), Figure 2 from @Begg2013-fb](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnrendo.2013.136/MediaObjects/41574_2013_Article_BFnrendo2013136_Fig2_HTML.jpg?as=webp)
 
 ## Organization of the Nervous System
 
@@ -125,6 +125,7 @@ format:
   - Autonomic division
     - Sympathetic
     - Parasympathetic
+    - Enteric
 
 ## Organization of the CNS
 
@@ -519,7 +520,7 @@ Source: [@Floris2012-ro]
 
 ![Brodmann maps in color](http://www.brain-maps.com/gehirn/brodmann_areale.jpg)
 
-## White matter pathways
+### White matter pathways
 
 - Brainstem
 - Projection fibers
