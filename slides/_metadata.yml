@@ -17,6 +17,8 @@ format:
     citations-hover: true
     author: "Rick Gilmore"
     institute: "Department of Psychology"
+    revealjs-plugins:
+      - embedio
   pptx: default
 knitr:
   opts_chunk:

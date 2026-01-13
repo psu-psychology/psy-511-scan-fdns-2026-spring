@@ -62,19 +62,28 @@ format: revealjs
 
 ## Brain anatomy through dance
 
-<audio controls loop="loop">
+<!-- <audio controls loop="loop"> -->
 
-<source src="../include/snd/brain_boxing.m4a" type="audio/mpeg">
+<!-- <source src="../include/snd/brain_boxing.m4a" type="audio/mpeg"> -->
 
-Your browser does not support the audio tag. </audio>
+<!-- Your browser does not support the audio tag. </audio> -->
 
-## Directional terms
 
+
+:::: {.columns}
+::: {.column width=50%}
+{{< audio "../include/snd/brain_boxing.m4a" >}}
+:::
+::: {.column width=50%}
+::: {.incremental}
 -   Anterior/Posterior
 -   Medial/Lateral
 -   Superior/Inferior
 -   Dorsal/Ventral
 -   Rostral/Caudal
+:::
+:::
+::::
 
 ## Central vs. Peripheral Nervous System
 
