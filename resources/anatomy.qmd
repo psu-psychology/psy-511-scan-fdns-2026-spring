@@ -11,7 +11,7 @@ format:
 ### Atlases
 
 - Harvard Brain Atlas <http://www.med.harvard.edu/aanlib/cases/caseNA/pb9.htm>
-
+- Neurotorium <https://neurotorium.org/tool/brain-atlas/>
 - Allen Brain Atlas
   - [Human female adult (modified Brodmann)](http://atlas.brain-map.org/atlas?atlas=265297126#atlas=265297126&plate=112360888&structure=10390&x=40320&y=46976&zoom=-7&resolution=124.49&z=3)
   - [Human female adult (gyral)](http://atlas.brain-map.org/atlas?atlas=138322605#atlas=138322605&plate=112360888&structure=10390&x=40320&y=46976&zoom=-7&resolution=124.49&z=3)
@@ -81,7 +81,7 @@ format:
 - Ventricles filled with cerebrospinal fluid (CSF)
   - CSF clears metabolites during sleep [@xie2013sleep]?
   - Blockage of CSF flow -> hydrocephalus
-- Ventricles are useful landmarks for brain regions, see [below](anatomy.qmd#organization-of-the-cns)
+- Ventricles are useful landmarks for brain regions
 
 ### Blood Supply
 
@@ -172,6 +172,8 @@ format:
 
 ![Illustration of brainstem from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/6/69/1311_Brain_Stem.jpg)
 
+{{< include ../_supplemental/_medulla_gif.qmd >}}
+
 #### Cerebellum
 
 - “Little brain”
@@ -179,7 +181,9 @@ format:
 - Movement coordination, simple learning (classical conditioning)
 - Largest number of neurons in the brain
 
-![Animated GIF of cerebellum from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/1/14/Cerebellum_animation_small.gif)
+{{< include ../_supplemental/_cerebellum_gif.qmd >}}
+
+---
 
 {{< video https://www.youtube.com/embed/6szEeD0n-oU >}}
 
@@ -221,9 +225,7 @@ format:
 - Neuromodulatory nuclei release NTs
     + Norepinephrine (NE)
     + Serotonin (5-HT)
-    + Dopamine (DA) -- from *ventral tegmental area (VTA)*
-
-![Connections of the ventral tegmentum (VTA)](https://vignette1.wikia.nocookie.net/addictionpathology/images/8/8b/The_reward_pathway_2.gif/revision/latest?cb=20091210025108)
+    + Dopamine (DA) -- from *ventral tegmental area (VTA)* and *substantia nigra*
 
 ### Forebrain
 
@@ -461,7 +463,6 @@ format:
 
 ![Coronal MRI views of inferior temporal gyrus](https://upload.wikimedia.org/wikipedia/commons/f/f6/Inferior_temporal_gyrus_coronal_sections.gif)
 
-
 **Entorhinal (ER) & Parahippocampal Cortex **
 
 ![Mid-saggital view human cortex](https://upload.wikimedia.org/wikipedia/commons/1/15/Medial_surface_of_cerebral_cortex_-_entorhinal_cortex.png)
@@ -633,7 +634,7 @@ vagus (X), etc.
 
 ![Nervous system of Harriet Cole from https://www.pastmedicalhistory.co.uk/the-nervous-system-of-harriet-cole/](https://www.pastmedicalhistory.co.uk/wp-content/uploads/2018/08/A-model-of-the-human-nervous-system-by-Rufus-Benjamin-Weaver..jpg)
 
-### Autonomic
+### Autonomic division (ANS)
 
 - CNS & PNS components
 - Controls “vegetative functions”

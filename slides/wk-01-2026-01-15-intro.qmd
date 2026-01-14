@@ -27,12 +27,12 @@ format: revealjs
 
 ---
 
-![](../include/img/psych-harder-1.jpg)
+![](../include/img/psych-harder-1.jpg){width=80% fig-align="center"}
 
 
 ---
 
-![](../include/img/psych-harder-2.jpg)
+![](../include/img/psych-harder-2.jpg){width=80% fig-align="center"}
 
 ## Physics perspective
 
@@ -82,7 +82,7 @@ flowchart TD
 :::
 ::::
 
-## State spaces in brain & behavior
+---
 
 ![@swanson2005anatomy Figure 1](../include/img/swanson-2005-fig-1.jpg)
 
@@ -101,45 +101,15 @@ flowchart TD
 
 - $W$, $B$, $N$ (more or less) **directly**
 - vs. $M$, measured **indirectly**
-- Via $N$, $B$, $W$
+  - Via $N$, $B$, $W$
 
 ::: {.fragment}
 ::: {.callout-warning}
 ## Your turn
-- Do you agree?
+- Do you agree or disagree?
+- Does it matter?
 :::
 :::
-
-<!-- ## Brain & behavior are complex, dynamic *systems* with -->
-
-<!-- - Components -->
-<!-- - Interactions -->
-<!-- - Forces/influences -->
-<!-- - Boundaries -->
-<!-- - Inputs/outputs/processes -->
-
-<!-- ## Systems... -->
-
-<!-- - "Behave" or change state across time -->
-<!-- - Return to starting state -->
-<!-- - Often regulated, controlled, influenced by feedback loops -->
-<!-- - $B(t+1) = f(W(t), B(t), N(t), M(t))$ -->
-
-<!-- ## May be analyzed of as [networks](https://en.wikipedia.org/wiki/Network_science) -->
-
-<!-- ![From https://source.wustl.edu/2013/08/brain-flexible-hub-network-helps-humans-adapt/](https://source.wustl.edu/wp-content/uploads/2013/08/ColeCoverFlexHub470x340.jpg) -->
-
-<!-- ## At multiple levels of organization... -->
-
-<!-- ![](https://stats.idre.ucla.edu/wp-content/uploads/2016/02/sem_1.png){fig-align="center"} -->
-
-<!-- --- -->
-
-<!-- ![@Swanson2016-qr Figure 1](../include/img/ne390197.f1_thmb.png) -->
-
-<!-- --- -->
-
-<!-- ![@Swanson2016-qr Figure 3](../include/img/ne390197.f3.png) -->
 
 ##  Hard to simplify
 
@@ -161,16 +131,21 @@ flowchart TD
 ![@Calabrese2018-ve](../include/img/calabrese-2018.jpg){.lightbox width=60%}
 :::
 ::: {.column width=40%}
-- Many circuit wiring patterns
-- Similar dynamics
+- Many circuit wiring patterns yield similar dynamics
+- Wiring diagram (i.e., connectome) important, but not definitive
 :::
 ::::
 
 ## Biological systems not "designed"
 
+:::: {.columns}
+::: {.column width=40%}
 - ...like human-engineered ones
-
-![https://en.wikipedia.org/wiki/Computer_architecture](../include/img/Computer_architecture_block_diagram.png)
+:::
+::: {.column width=60%}
+![https://en.wikipedia.org/wiki/Computer_architecture](../include/img/Computer_architecture_block_diagram.png){width=60%}
+:::
+::::
 
 ## Studying such systems is hard because...
 
@@ -222,17 +197,14 @@ flowchart TD
 
 ## Approach
 
-- The nervous system as an information processing system
+- The nervous system as a machine
+- Specifically, an information processing system
 
 ![Wikipedia](../include/img/Information_processing_system.PNG)
 
 ## Mindful of limitations in brain/computer metaphors
 
 ![https://www.explainthatstuff.com/howcomputerswork.html](https://cdn4.explainthatstuff.com/how-computer-works.png)
-
-## Or inspired by richer metaphors
-
-![@Becker2021-bd](../include/img/1*QvKZpHrmz1nWyK4VfY2VTg.png)
 
 ## Inputs
 
@@ -256,7 +228,7 @@ flowchart TD
 
 ## Mapping structures to functions...
 
-![@Cisek2019-vq Figure 8](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png)
+![@Cisek2019-vq Figure 8](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png){width=45%}
 
 ## And *vice versa*?
 
@@ -268,19 +240,19 @@ flowchart TD
 
 -- @Stringer2019-vf
 
-## And do we have the right "psychological" structures?
+## Do we have the right "psychological" structures?
 
->Psychological sciences have identified a wealth of cognitive processes and behavioral phenomena, yet struggle to produce cumulative knowledge. Progress is hamstrung by siloed scientific traditions and a focus on explanation over prediction...
+>Psychological sciences have identified a wealth of cognitive processes and behavioral phenomena, yet struggle to produce cumulative knowledge...
 
 -- @Eisenberg2019-iy
 
 ---
 
->...two issues that are particularly damaging for the study of **multifaceted constructs like self-regulation**...We conclude that self-regulation lacks coherence as a construct...
+>Progress is hamstrung by siloed scientific traditions and a focus on explanation over prediction...two issues that are particularly damaging for the study of **multifaceted constructs like self-regulation**...We conclude that self-regulation lacks coherence as a construct...
 
 -- @Eisenberg2019-iy
 
-## "Behavioural biologists don't agree on what constitutes behaviour"
+## What constitutes behavior?
 
 >Behavioural biology is a major discipline within biology, centred on the key concept of ‘behaviour’. But how is ‘behaviour’ defined, and how should it be defined? We outline what characteristics we believe a scientific definition should have, and why we think it is important... 
 
@@ -311,10 +283,6 @@ flowchart TD
 
 -- @Levitis2009-br
 
-## Sciences of complexity
-
-![@Favela2020-uc Figure 1](../include/img/wcs1525-fig-0001-m.jpg)
-
 ## Levels of analysis
 
 ![@Sejnowski2014-aa Figure 1](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg)
@@ -322,20 +290,17 @@ flowchart TD
 ## David Marr (1945-1980)
 
 :::: {.columns}
-
 ::: {.column width="50%"}
 ![David Marr](../include/img/david-marr.png){width="50%"}
 :::
-
 ::: {.column width="50%"}
 ![@Marr1980-cu](https://mitp.silverchair-cdn.com/mitp/content_public/books/3299/book/2/m_9780262289610-cover.jpeg?Expires=1769881313&Signature=qyyId5hIEiVXP1yVE8wHb5IImOGdDxFqEUNUC6OsEcdzLWyYPaumk9XEfk947b4V0h5kWvpHsARoXmLfr17j1DdJrulDTMZs261tRZv-PP78WpzKcYx5vGcvfQvm49IW2f~57KJQLByoXkNOxEPfILi07sUkLiQSgf5sPJEm4LFNolYby1tnwxrftDBiMEzf5AgcHh~H6VRIQwkxQH6UzHEJcQnZrDei4MTnjISJLVOM3DpQXcWP3M2YdLuEZPnx~IApHy8LNlV147Xz01xpl2zxiHUOmI8F5KEdOiuy2sp25kH~cbJfR4PyFVaN6fp2zE5sScQv1WxtLr6Q2B~6Yw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
 :::
-
 ::::
 
 ## Marr's Three Levels
 
-![@Favela2020-uc Figure 3](../include/img/wcs1525-fig-0003-m.jpg)
+![@Favela2020-uc Figure 3](../include/img/wcs1525-fig-0003-m.jpg){width=35%}
 
 ---
 
@@ -352,7 +317,7 @@ flowchart TD
   
 ## Algorithmic level
 
-- What's the 'recipe' for...
+- What's the 'recipe' or sequence of operations for...
   - computing shape
   - perceiving speech
   - recognizing threats
@@ -377,11 +342,7 @@ flowchart TD
 
 ## Toward reverse neuroethology
 
-![Figure 1 from @Asinof2024-iu](https://www.annualreviews.org/docserver/fulltext/neuro/47/1/ne470369.f1.gif){width="75%"}
-
----
-
-![https://giphy.com/clips/thefastsaga-fast-and-furious-saga-fate-of-the-DF34cUyak7TPs7D4GE](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXh1NzNxdmlidTlxandjeGNtOHgzNWtodmNoN2Rja3duZWNiYm92ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dg/DF34cUyak7TPs7D4GE/giphy.gif)
+![Figure 1 from @Asinof2024-iu](https://www.annualreviews.org/docserver/fulltext/neuro/47/1/ne470369.f1.gif){width="55%"}
 
 ---
 
@@ -397,9 +358,71 @@ the substitution.
 - The perception action-cycle
 :::
 ::: {.column width=50%}
-![@Fuster2004-pe Figure 2](https://www.cell.com/cms/10.1016/j.tics.2004.02.004/asset/c8c5d775-b01e-4ef4-8418-3087cf12b6aa/main.assets/gr2.gif)
+![@Fuster2004-pe Figure 2](../include/img/fuster-2004.gif)
 :::
 ::::
+
+## Another example...
+
+```{mermaid}
+%%| label: fig-screen-to-cortex
+%%| fig-cap: "From computer screen to cortex."
+flowchart LR
+  A["Screen"] --> B(("Retina"))
+  B --> C["Thalamus"]
+  C --> D["Primary visual cortex"]
+  D --> E["?"]
+```
+
+::: {.fragment}
+```{mermaid}
+%%| label: fig-from-cortex-to-finger
+%%| fig-cap: "Pathways to move the finger."
+flowchart LR
+  E["?"] --> F["Primary motor cortex"]
+  F --> G("Motor neuron")
+  G -->|"Alpha motor fiber"|H(["Extrafusal muscle fiber"])
+  G --> I("Spinal interneuron")
+  I -->|"Gamma motor fiber"|J(["Intrafusal fiber"])
+  H & J --> K(["Finger muscle"])
+```
+:::
+
+::: {.fragment}
+```{mermaid}
+%%| label: fig-feedback-from-muscle
+%%| fig-cap: "Feedback from finger muscle."
+flowchart LR
+  A(["Finger muscle"]) --> C(["Intrafusal muscle fiber"])
+  C --> D["Stretch receptor"]
+  D -->|"Ia afferent"| E("Spinal cord interneuron")
+  E --> F["Somatosensory cortex"]
+```
+:::
+
+---
+
+```{mermaid}
+%%| label: fig-other-sensory-input-from-finger
+%%| fig-cap: "Other sources of sensory information from the finger."
+flowchart LR
+  A["Finger skin"] --> B("Spinal cord neuron")
+  B --> C["Somatosensory cortex"]
+  D["Finger joints"] --> B
+```
+
+---
+
+```{mermaid}
+%%| label: fig-s1-inputs
+%%| fig-cap: "Inputs to primary somatosensory cortex."
+flowchart LR
+  A["Finger skin"] --> B["Somatosensory cortex"]
+  C["Finger joints"] --> B
+  D["Stretch receptor"] --> B
+  E["Motor cortex"] --> B
+  F["?"] --> B
+```
 
 # Break
 
@@ -410,6 +433,8 @@ the substitution.
 Krakauer, J. W., Ghazanfar, A. A., Gomez-Marin, A., MacIver, M. A., & Poeppel, D. (2017). Neuroscience needs behavior: Correcting a reductionist bias. *Neuron*, *93*(3), 480–490. <https://dx.doi.org/10.1016/j.neuron.2016.12.041>.
 
 Parada, F. J. & Rossi, A. (2018). If neuroscience needs behavior, what does psychology need? *Frontiers in Psychology*, *9*, 433. <https://doi.org/10.3389/fpsyg.2018.00433>.
+
+---
 
 Newcombe, N. (2017). If neuroscience needs behavior, what does behavioral science need? APS Observer, 31(1). <https://www.psychologicalscience.org/observer/if-neuroscience-needs-behavior-what-does-behavioral-science-need>
 
@@ -423,9 +448,9 @@ Newcombe, N. (2017). If neuroscience needs behavior, what does behavioral scienc
 
 ## "Behavioural biologists don't agree on what constitutes behaviour"
 
->..."Behaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes."
+>Behaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes.
 
--- @Levitis2009-br]
+-- @Levitis2009-br
 
 ---
 

@@ -202,11 +202,19 @@ Rick Gilmore
 </section>
 <section class="slide level2">
 
-<p><a href="../include/img/psych-harder-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="../include/img/psych-harder-1.jpg"></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/psych-harder-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="../include/img/psych-harder-1.jpg" class="quarto-figure quarto-figure-center" style="width:80.0%"></a></p>
+</figure>
+</div>
 </section>
 <section class="slide level2">
 
-<p><a href="../include/img/psych-harder-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="../include/img/psych-harder-2.jpg"></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/psych-harder-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="../include/img/psych-harder-2.jpg" class="quarto-figure quarto-figure-center" style="width:80.0%"></a></p>
+</figure>
+</div>
 </section>
 <section id="physics-perspective" class="slide level2">
 <h2>Physics perspective</h2>
@@ -276,8 +284,8 @@ Rick Gilmore
 </div>
 </div></div>
 </section>
-<section id="state-spaces-in-brain-behavior" class="slide level2">
-<h2>State spaces in brain &amp; behavior</h2>
+<section class="slide level2">
+
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><a href="../include/img/swanson-2005-fig-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="@swanson2005anatomy Figure 1"><img data-src="../include/img/swanson-2005-fig-1.jpg" alt="Swanson (2005) Figure 1"></a></p>
@@ -307,8 +315,10 @@ Rick Gilmore
 <h2>Direct vs.&nbsp;indirect measurement</h2>
 <ul>
 <li><span class="math inline">\(W\)</span>, <span class="math inline">\(B\)</span>, <span class="math inline">\(N\)</span> (more or less) <strong>directly</strong></li>
-<li>vs.&nbsp;<span class="math inline">\(M\)</span>, measured <strong>indirectly</strong></li>
+<li>vs.&nbsp;<span class="math inline">\(M\)</span>, measured <strong>indirectly</strong>
+<ul>
 <li>Via <span class="math inline">\(N\)</span>, <span class="math inline">\(B\)</span>, <span class="math inline">\(W\)</span></li>
+</ul></li>
 </ul>
 <div class="fragment">
 <div class="callout callout-warning callout-titled callout-style-default">
@@ -321,31 +331,13 @@ Rick Gilmore
 </div>
 <div class="callout-content">
 <ul>
-<li>Do you agree?</li>
+<li>Do you agree or disagree?</li>
+<li>Does it matter?</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
-<!-- ## Brain & behavior are complex, dynamic *systems* with -->
-<!-- - Components -->
-<!-- - Interactions -->
-<!-- - Forces/influences -->
-<!-- - Boundaries -->
-<!-- - Inputs/outputs/processes -->
-<!-- ## Systems... -->
-<!-- - "Behave" or change state across time -->
-<!-- - Return to starting state -->
-<!-- - Often regulated, controlled, influenced by feedback loops -->
-<!-- - $B(t+1) = f(W(t), B(t), N(t), M(t))$ -->
-<!-- ## May be analyzed of as [networks](https://en.wikipedia.org/wiki/Network_science) -->
-<!-- ![From https://source.wustl.edu/2013/08/brain-flexible-hub-network-helps-humans-adapt/](https://source.wustl.edu/wp-content/uploads/2013/08/ColeCoverFlexHub470x340.jpg) -->
-<!-- ## At multiple levels of organization... -->
-<!-- ![](https://stats.idre.ucla.edu/wp-content/uploads/2016/02/sem_1.png){fig-align="center"} -->
-<!-- --- -->
-<!-- ![@Swanson2016-qr Figure 1](../include/img/ne390197.f1_thmb.png) -->
-<!-- --- -->
-<!-- ![@Swanson2016-qr Figure 3](../include/img/ne390197.f3.png) -->
 </section>
 <section id="hard-to-simplify" class="slide level2">
 <h2>Hard to simplify</h2>
@@ -374,22 +366,26 @@ Rick Gilmore
 </div>
 </div><div class="column" style="width:40%;">
 <ul>
-<li>Many circuit wiring patterns</li>
-<li>Similar dynamics</li>
+<li>Many circuit wiring patterns yield similar dynamics</li>
+<li>Wiring diagram (i.e., connectome) important, but not definitive</li>
 </ul>
 </div></div>
 </section>
 <section id="biological-systems-not-designed" class="slide level2">
 <h2>Biological systems not “designed”</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
 <ul>
 <li>…like human-engineered ones</li>
 </ul>
+</div><div class="column" style="width:60%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/Computer_architecture_block_diagram.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="https://en.wikipedia.org/wiki/Computer_architecture"><img data-src="../include/img/Computer_architecture_block_diagram.png" alt="https://en.wikipedia.org/wiki/Computer_architecture"></a></p>
+<p><a href="../include/img/Computer_architecture_block_diagram.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="https://en.wikipedia.org/wiki/Computer_architecture"><img data-src="../include/img/Computer_architecture_block_diagram.png" style="width:60.0%" alt="https://en.wikipedia.org/wiki/Computer_architecture"></a></p>
 <figcaption>https://en.wikipedia.org/wiki/Computer_architecture</figcaption>
 </figure>
 </div>
+</div></div>
 </section>
 <section id="studying-such-systems-is-hard-because" class="slide level2">
 <h2>Studying such systems is hard because…</h2>
@@ -460,7 +456,8 @@ Rick Gilmore
 <section id="approach-1" class="slide level2">
 <h2>Approach</h2>
 <ul>
-<li>The nervous system as an information processing system</li>
+<li>The nervous system as a machine</li>
+<li>Specifically, an information processing system</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -475,15 +472,6 @@ Rick Gilmore
 <figure>
 <p><a href="https://cdn4.explainthatstuff.com/how-computer-works.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="https://www.explainthatstuff.com/howcomputerswork.html"><img data-src="https://cdn4.explainthatstuff.com/how-computer-works.png" alt="https://www.explainthatstuff.com/howcomputerswork.html"></a></p>
 <figcaption>https://www.explainthatstuff.com/howcomputerswork.html</figcaption>
-</figure>
-</div>
-</section>
-<section id="or-inspired-by-richer-metaphors" class="slide level2">
-<h2>Or inspired by richer metaphors</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="../include/img/1*QvKZpHrmz1nWyK4VfY2VTg.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="@Becker2021-bd"><img data-src="../include/img/1*QvKZpHrmz1nWyK4VfY2VTg.png" alt="Becker (2021)"></a></p>
-<figcaption><span class="citation" data-cites="Becker2021-bd">Becker (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span></figcaption>
 </figure>
 </div>
 </section>
@@ -505,7 +493,7 @@ Rick Gilmore
 
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig1_HTML.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="@Cisek2019-vq Figure 1"><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig1_HTML.png" alt="Cisek (2019) Figure 1"></a></p>
+<p><a href="https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig1_HTML.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="@Cisek2019-vq Figure 1"><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig1_HTML.png" alt="Cisek (2019) Figure 1"></a></p>
 <figcaption><span class="citation" data-cites="Cisek2019-vq">Cisek (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span> Figure 1</figcaption>
 </figure>
 </div>
@@ -520,7 +508,7 @@ Rick Gilmore
 <h2>Mapping structures to functions…</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="@Cisek2019-vq Figure 8"><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png" alt="Cisek (2019) Figure 8"></a></p>
+<p><a href="https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="@Cisek2019-vq Figure 8"><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png" style="width:45.0%" alt="Cisek (2019) Figure 8"></a></p>
 <figcaption><span class="citation" data-cites="Cisek2019-vq">Cisek (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span> Figure 8</figcaption>
 </figure>
 </div>
@@ -529,7 +517,7 @@ Rick Gilmore
 <h2>And <em>vice versa</em>?</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/quanta-2021.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="@Cepelewicz2021-hq"><img data-src="../include/img/quanta-2021.png" alt="Cepelewicz (2021)"></a></p>
+<p><a href="../include/img/quanta-2021.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="@Cepelewicz2021-hq"><img data-src="../include/img/quanta-2021.png" alt="Cepelewicz (2021)"></a></p>
 <figcaption><span class="citation" data-cites="Cepelewicz2021-hq">Cepelewicz (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span></figcaption>
 </figure>
 </div>
@@ -541,22 +529,22 @@ Rick Gilmore
 </blockquote>
 <p>– <span class="citation" data-cites="Stringer2019-vf">Stringer et al. (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span></p>
 </section>
-<section id="and-do-we-have-the-right-psychological-structures" class="slide level2">
-<h2>And do we have the right “psychological” structures?</h2>
+<section id="do-we-have-the-right-psychological-structures" class="slide level2">
+<h2>Do we have the right “psychological” structures?</h2>
 <blockquote>
-<p>Psychological sciences have identified a wealth of cognitive processes and behavioral phenomena, yet struggle to produce cumulative knowledge. Progress is hamstrung by siloed scientific traditions and a focus on explanation over prediction…</p>
+<p>Psychological sciences have identified a wealth of cognitive processes and behavioral phenomena, yet struggle to produce cumulative knowledge…</p>
 </blockquote>
 <p>– <span class="citation" data-cites="Eisenberg2019-iy">Eisenberg et al. (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span></p>
 </section>
 <section class="slide level2">
 
 <blockquote>
-<p>…two issues that are particularly damaging for the study of <strong>multifaceted constructs like self-regulation</strong>…We conclude that self-regulation lacks coherence as a construct…</p>
+<p>Progress is hamstrung by siloed scientific traditions and a focus on explanation over prediction…two issues that are particularly damaging for the study of <strong>multifaceted constructs like self-regulation</strong>…We conclude that self-regulation lacks coherence as a construct…</p>
 </blockquote>
 <p>– <span class="citation" data-cites="Eisenberg2019-iy">Eisenberg et al. (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span></p>
 </section>
-<section id="behavioural-biologists-dont-agree-on-what-constitutes-behaviour" class="slide level2">
-<h2>“Behavioural biologists don’t agree on what constitutes behaviour”</h2>
+<section id="what-constitutes-behavior" class="slide level2">
+<h2>What constitutes behavior?</h2>
 <blockquote>
 <p>Behavioural biology is a major discipline within biology, centred on the key concept of ‘behaviour’. But how is ‘behaviour’ defined, and how should it be defined? We outline what characteristics we believe a scientific definition should have, and why we think it is important…</p>
 </blockquote>
@@ -590,20 +578,11 @@ Rick Gilmore
 </blockquote>
 <p>– <span class="citation" data-cites="Levitis2009-br">Levitis et al. (<a href="#/references" role="doc-biblioref" onclick="">2009</a>)</span></p>
 </section>
-<section id="sciences-of-complexity" class="slide level2">
-<h2>Sciences of complexity</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="../include/img/wcs1525-fig-0001-m.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="@Favela2020-uc Figure 1"><img data-src="../include/img/wcs1525-fig-0001-m.jpg" alt="Favela (2020) Figure 1"></a></p>
-<figcaption><span class="citation" data-cites="Favela2020-uc">Favela (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span> Figure 1</figcaption>
-</figure>
-</div>
-</section>
 <section id="levels-of-analysis" class="slide level2">
 <h2>Levels of analysis</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="@Sejnowski2014-aa Figure 1"><img data-src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg" alt="Sejnowski et al. (2014) Figure 1"></a></p>
+<p><a href="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="@Sejnowski2014-aa Figure 1"><img data-src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg" alt="Sejnowski et al. (2014) Figure 1"></a></p>
 <figcaption><span class="citation" data-cites="Sejnowski2014-aa">Sejnowski et al. (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span> Figure 1</figcaption>
 </figure>
 </div>
@@ -614,14 +593,14 @@ Rick Gilmore
 <div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/david-marr.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="David Marr"><img data-src="../include/img/david-marr.png" style="width:50.0%" alt="David Marr"></a></p>
+<p><a href="../include/img/david-marr.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="David Marr"><img data-src="../include/img/david-marr.png" style="width:50.0%" alt="David Marr"></a></p>
 <figcaption>David Marr</figcaption>
 </figure>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://mitp.silverchair-cdn.com/mitp/content_public/books/3299/book/2/m_9780262289610-cover.jpeg?Expires=1769881313&amp;Signature=qyyId5hIEiVXP1yVE8wHb5IImOGdDxFqEUNUC6OsEcdzLWyYPaumk9XEfk947b4V0h5kWvpHsARoXmLfr17j1DdJrulDTMZs261tRZv-PP78WpzKcYx5vGcvfQvm49IW2f~57KJQLByoXkNOxEPfILi07sUkLiQSgf5sPJEm4LFNolYby1tnwxrftDBiMEzf5AgcHh~H6VRIQwkxQH6UzHEJcQnZrDei4MTnjISJLVOM3DpQXcWP3M2YdLuEZPnx~IApHy8LNlV147Xz01xpl2zxiHUOmI8F5KEdOiuy2sp25kH~cbJfR4PyFVaN6fp2zE5sScQv1WxtLr6Q2B~6Yw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="@Marr1980-cu"><img data-src="https://mitp.silverchair-cdn.com/mitp/content_public/books/3299/book/2/m_9780262289610-cover.jpeg?Expires=1769881313&amp;Signature=qyyId5hIEiVXP1yVE8wHb5IImOGdDxFqEUNUC6OsEcdzLWyYPaumk9XEfk947b4V0h5kWvpHsARoXmLfr17j1DdJrulDTMZs261tRZv-PP78WpzKcYx5vGcvfQvm49IW2f~57KJQLByoXkNOxEPfILi07sUkLiQSgf5sPJEm4LFNolYby1tnwxrftDBiMEzf5AgcHh~H6VRIQwkxQH6UzHEJcQnZrDei4MTnjISJLVOM3DpQXcWP3M2YdLuEZPnx~IApHy8LNlV147Xz01xpl2zxiHUOmI8F5KEdOiuy2sp25kH~cbJfR4PyFVaN6fp2zE5sScQv1WxtLr6Q2B~6Yw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Marr (1980)"></a></p>
+<p><a href="https://mitp.silverchair-cdn.com/mitp/content_public/books/3299/book/2/m_9780262289610-cover.jpeg?Expires=1769881313&amp;Signature=qyyId5hIEiVXP1yVE8wHb5IImOGdDxFqEUNUC6OsEcdzLWyYPaumk9XEfk947b4V0h5kWvpHsARoXmLfr17j1DdJrulDTMZs261tRZv-PP78WpzKcYx5vGcvfQvm49IW2f~57KJQLByoXkNOxEPfILi07sUkLiQSgf5sPJEm4LFNolYby1tnwxrftDBiMEzf5AgcHh~H6VRIQwkxQH6UzHEJcQnZrDei4MTnjISJLVOM3DpQXcWP3M2YdLuEZPnx~IApHy8LNlV147Xz01xpl2zxiHUOmI8F5KEdOiuy2sp25kH~cbJfR4PyFVaN6fp2zE5sScQv1WxtLr6Q2B~6Yw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="@Marr1980-cu"><img data-src="https://mitp.silverchair-cdn.com/mitp/content_public/books/3299/book/2/m_9780262289610-cover.jpeg?Expires=1769881313&amp;Signature=qyyId5hIEiVXP1yVE8wHb5IImOGdDxFqEUNUC6OsEcdzLWyYPaumk9XEfk947b4V0h5kWvpHsARoXmLfr17j1DdJrulDTMZs261tRZv-PP78WpzKcYx5vGcvfQvm49IW2f~57KJQLByoXkNOxEPfILi07sUkLiQSgf5sPJEm4LFNolYby1tnwxrftDBiMEzf5AgcHh~H6VRIQwkxQH6UzHEJcQnZrDei4MTnjISJLVOM3DpQXcWP3M2YdLuEZPnx~IApHy8LNlV147Xz01xpl2zxiHUOmI8F5KEdOiuy2sp25kH~cbJfR4PyFVaN6fp2zE5sScQv1WxtLr6Q2B~6Yw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Marr (1980)"></a></p>
 <figcaption><span class="citation" data-cites="Marr1980-cu">Marr (<a href="#/references" role="doc-biblioref" onclick="">1980</a>)</span></figcaption>
 </figure>
 </div>
@@ -631,7 +610,7 @@ Rick Gilmore
 <h2>Marr’s Three Levels</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/wcs1525-fig-0003-m.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="@Favela2020-uc Figure 3"><img data-src="../include/img/wcs1525-fig-0003-m.jpg" alt="Favela (2020) Figure 3"></a></p>
+<p><a href="../include/img/wcs1525-fig-0003-m.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="@Favela2020-uc Figure 3"><img data-src="../include/img/wcs1525-fig-0003-m.jpg" style="width:35.0%" alt="Favela (2020) Figure 3"></a></p>
 <figcaption><span class="citation" data-cites="Favela2020-uc">Favela (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span> Figure 3</figcaption>
 </figure>
 </div>
@@ -658,7 +637,7 @@ Rick Gilmore
 <section id="algorithmic-level" class="slide level2">
 <h2>Algorithmic level</h2>
 <ul>
-<li>What’s the ‘recipe’ for…
+<li>What’s the ‘recipe’ or sequence of operations for…
 <ul>
 <li>computing shape</li>
 <li>perceiving speech</li>
@@ -690,7 +669,7 @@ Rick Gilmore
 <h2>Varied notions of mechanism</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/41583_2023_778_Fig1_HTML.png.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="Fig. 1: The narrow and broad notions of mechanism from @Ross2024-nr"><img data-src="../include/img/41583_2023_778_Fig1_HTML.png.webp" alt="Fig. 1: The narrow and broad notions of mechanism from Ross &amp; Bassett (2024)"></a></p>
+<p><a href="../include/img/41583_2023_778_Fig1_HTML.png.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="Fig. 1: The narrow and broad notions of mechanism from @Ross2024-nr"><img data-src="../include/img/41583_2023_778_Fig1_HTML.png.webp" alt="Fig. 1: The narrow and broad notions of mechanism from Ross &amp; Bassett (2024)"></a></p>
 <figcaption>Fig. 1: The narrow and broad notions of mechanism from <span class="citation" data-cites="Ross2024-nr">Ross &amp; Bassett (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></figcaption>
 </figure>
 </div>
@@ -699,17 +678,8 @@ Rick Gilmore
 <h2>Toward reverse neuroethology</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://www.annualreviews.org/docserver/fulltext/neuro/47/1/ne470369.f1.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="Figure 1 from @Asinof2024-iu"><img data-src="https://www.annualreviews.org/docserver/fulltext/neuro/47/1/ne470369.f1.gif" style="width:75.0%" alt="Figure 1 from Asinof &amp; Card (2024)"></a></p>
+<p><a href="https://www.annualreviews.org/docserver/fulltext/neuro/47/1/ne470369.f1.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="Figure 1 from @Asinof2024-iu"><img data-src="https://www.annualreviews.org/docserver/fulltext/neuro/47/1/ne470369.f1.gif" style="width:55.0%" alt="Figure 1 from Asinof &amp; Card (2024)"></a></p>
 <figcaption>Figure 1 from <span class="citation" data-cites="Asinof2024-iu">Asinof &amp; Card (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></figcaption>
-</figure>
-</div>
-</section>
-<section class="slide level2">
-
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXh1NzNxdmlidTlxandjeGNtOHgzNWtodmNoN2Rja3duZWNiYm92ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dg/DF34cUyak7TPs7D4GE/giphy.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="https://giphy.com/clips/thefastsaga-fast-and-furious-saga-fate-of-the-DF34cUyak7TPs7D4GE"><img data-src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXh1NzNxdmlidTlxandjeGNtOHgzNWtodmNoN2Rja3duZWNiYm92ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dg/DF34cUyak7TPs7D4GE/giphy.gif" alt="https://giphy.com/clips/thefastsaga-fast-and-furious-saga-fate-of-the-DF34cUyak7TPs7D4GE"></a></p>
-<figcaption>https://giphy.com/clips/thefastsaga-fast-and-furious-saga-fate-of-the-DF34cUyak7TPs7D4GE</figcaption>
 </figure>
 </div>
 </section>
@@ -730,11 +700,131 @@ Rick Gilmore
 </div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://www.cell.com/cms/10.1016/j.tics.2004.02.004/asset/c8c5d775-b01e-4ef4-8418-3087cf12b6aa/main.assets/gr2.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="@Fuster2004-pe Figure 2"><img data-src="https://www.cell.com/cms/10.1016/j.tics.2004.02.004/asset/c8c5d775-b01e-4ef4-8418-3087cf12b6aa/main.assets/gr2.gif" alt="Fuster (2004) Figure 2"></a></p>
+<p><a href="../include/img/fuster-2004.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="@Fuster2004-pe Figure 2"><img data-src="../include/img/fuster-2004.gif" alt="Fuster (2004) Figure 2"></a></p>
 <figcaption><span class="citation" data-cites="Fuster2004-pe">Fuster (<a href="#/references" role="doc-biblioref" onclick="">2004</a>)</span> Figure 2</figcaption>
 </figure>
 </div>
 </div></div>
+</section>
+<section id="another-example" class="slide level2">
+<h2>Another example…</h2>
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-screen-to-cortex" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-screen-to-cortex-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-screen-to-cortex">flowchart LR
+  A["Screen"] --&gt; B(("Retina"))
+  B --&gt; C["Thalamus"]
+  C --&gt; D["Primary visual cortex"]
+  D --&gt; E["?"]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-screen-to-cortex-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: From computer screen to cortex.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-from-cortex-to-finger" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-from-cortex-to-finger-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-from-cortex-to-finger">flowchart LR
+  E["?"] --&gt; F["Primary motor cortex"]
+  F --&gt; G("Motor neuron")
+  G --&gt;|"Alpha motor fiber"|H(["Extrafusal muscle fiber"])
+  G --&gt; I("Spinal interneuron")
+  I --&gt;|"Gamma motor fiber"|J(["Intrafusal fiber"])
+  H &amp; J --&gt; K(["Finger muscle"])
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-from-cortex-to-finger-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Pathways to move the finger.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-feedback-from-muscle" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-feedback-from-muscle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-feedback-from-muscle">flowchart LR
+  A(["Finger muscle"]) --&gt; C(["Intrafusal muscle fiber"])
+  C --&gt; D["Stretch receptor"]
+  D --&gt;|"Ia afferent"| E("Spinal cord interneuron")
+  E --&gt; F["Somatosensory cortex"]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-feedback-from-muscle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Feedback from finger muscle.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-other-sensory-input-from-finger" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-other-sensory-input-from-finger-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-other-sensory-input-from-finger">flowchart LR
+  A["Finger skin"] --&gt; B("Spinal cord neuron")
+  B --&gt; C["Somatosensory cortex"]
+  D["Finger joints"] --&gt; B
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-other-sensory-input-from-finger-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Other sources of sensory information from the finger.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-s1-inputs" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-s1-inputs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-s1-inputs">flowchart LR
+  A["Finger skin"] --&gt; B["Somatosensory cortex"]
+  C["Finger joints"] --&gt; B
+  D["Stretch receptor"] --&gt; B
+  E["Motor cortex"] --&gt; B
+  F["?"] --&gt; B
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-s1-inputs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Inputs to primary somatosensory cortex.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 </section></section>
 <section id="break" class="title-slide slide level1 center">
 <h1>Break</h1>
@@ -750,6 +840,9 @@ Rick Gilmore
 <h2>Does neuroscience need behavior?</h2>
 <p>Krakauer, J. W., Ghazanfar, A. A., Gomez-Marin, A., MacIver, M. A., &amp; Poeppel, D. (2017). Neuroscience needs behavior: Correcting a reductionist bias. <em>Neuron</em>, <em>93</em>(3), 480–490. <a href="https://dx.doi.org/10.1016/j.neuron.2016.12.041" class="uri">https://dx.doi.org/10.1016/j.neuron.2016.12.041</a>.</p>
 <p>Parada, F. J. &amp; Rossi, A. (2018). If neuroscience needs behavior, what does psychology need? <em>Frontiers in Psychology</em>, <em>9</em>, 433. <a href="https://doi.org/10.3389/fpsyg.2018.00433" class="uri">https://doi.org/10.3389/fpsyg.2018.00433</a>.</p>
+</section>
+<section class="slide level2">
+
 <p>Newcombe, N. (2017). If neuroscience needs behavior, what does behavioral science need? APS Observer, 31(1). <a href="https://www.psychologicalscience.org/observer/if-neuroscience-needs-behavior-what-does-behavioral-science-need" class="uri">https://www.psychologicalscience.org/observer/if-neuroscience-needs-behavior-what-does-behavioral-science-need</a></p>
 </section>
 <section id="key-points" class="slide level2">
@@ -763,18 +856,18 @@ Rick Gilmore
 <section id="but-what-is-behavior" class="slide level2">
 <h2>But what is behavior?</h2>
 </section>
-<section id="behavioural-biologists-dont-agree-on-what-constitutes-behaviour-1" class="slide level2">
+<section id="behavioural-biologists-dont-agree-on-what-constitutes-behaviour" class="slide level2">
 <h2>“Behavioural biologists don’t agree on what constitutes behaviour”</h2>
 <blockquote>
-<p>…“Behaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes.”</p>
+<p>Behaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes.</p>
 </blockquote>
-<p>– <span class="citation" data-cites="Levitis2009-br">Levitis et al. (<a href="#/references" role="doc-biblioref" onclick="">2009</a>)</span>]</p>
+<p>– <span class="citation" data-cites="Levitis2009-br">Levitis et al. (<a href="#/references" role="doc-biblioref" onclick="">2009</a>)</span></p>
 </section>
 <section class="slide level2">
 
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="@Krakauer2017-xl Figure 1"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr1.jpg" alt="Krakauer et al. (2017) Figure 1"></a></p>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="@Krakauer2017-xl Figure 1"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr1.jpg" alt="Krakauer et al. (2017) Figure 1"></a></p>
 <figcaption><span class="citation" data-cites="Krakauer2017-xl">Krakauer et al. (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span> Figure 1</figcaption>
 </figure>
 </div>
@@ -783,7 +876,7 @@ Rick Gilmore
 
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="@Krakauer2017-xl Figure 2"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr2.jpg" alt="Krakauer et al. (2017) Figure 2"></a></p>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="@Krakauer2017-xl Figure 2"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr2.jpg" alt="Krakauer et al. (2017) Figure 2"></a></p>
 <figcaption><span class="citation" data-cites="Krakauer2017-xl">Krakauer et al. (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span> Figure 2</figcaption>
 </figure>
 </div>
@@ -792,7 +885,7 @@ Rick Gilmore
 
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-26" title="@Krakauer2017-xl Figure 3"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr3.jpg" alt="Krakauer et al. (2017) Figure 3"></a></p>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="@Krakauer2017-xl Figure 3"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr3.jpg" alt="Krakauer et al. (2017) Figure 3"></a></p>
 <figcaption><span class="citation" data-cites="Krakauer2017-xl">Krakauer et al. (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span> Figure 3</figcaption>
 </figure>
 </div>
@@ -801,7 +894,7 @@ Rick Gilmore
 
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-27" title="@Krakauer2017-xl Figure 4"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr4.jpg" alt="Krakauer et al. (2017) Figure 4"></a></p>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="@Krakauer2017-xl Figure 4"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr4.jpg" alt="Krakauer et al. (2017) Figure 4"></a></p>
 <figcaption><span class="citation" data-cites="Krakauer2017-xl">Krakauer et al. (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span> Figure 4</figcaption>
 </figure>
 </div>
@@ -810,7 +903,7 @@ Rick Gilmore
 
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://www.frontiersin.org/files/Articles/362280/fpsyg-09-00433-HTML/image_m/fpsyg-09-00433-g001.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-28" title="@Parada2018-rp Figure 1"><img data-src="https://www.frontiersin.org/files/Articles/362280/fpsyg-09-00433-HTML/image_m/fpsyg-09-00433-g001.jpg" alt="Parada &amp; Rossi (2018) Figure 1"></a></p>
+<p><a href="https://www.frontiersin.org/files/Articles/362280/fpsyg-09-00433-HTML/image_m/fpsyg-09-00433-g001.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="@Parada2018-rp Figure 1"><img data-src="https://www.frontiersin.org/files/Articles/362280/fpsyg-09-00433-HTML/image_m/fpsyg-09-00433-g001.jpg" alt="Parada &amp; Rossi (2018) Figure 1"></a></p>
 <figcaption><span class="citation" data-cites="Parada2018-rp">Parada &amp; Rossi (<a href="#/references" role="doc-biblioref" onclick="">2018</a>)</span> Figure 1</figcaption>
 </figure>
 </div>
@@ -854,9 +947,6 @@ Rick Gilmore
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-Asinof2024-iu" class="csl-entry" role="listitem">
 Asinof, S. K., &amp; Card, G. M. (2024). Neural control of naturalistic behavior choices. <em>Annual Review of Neuroscience</em>, <em>47</em>, 369–388. <a href="https://doi.org/10.1146/annurev-neuro-111020-094019">https://doi.org/10.1146/annurev-neuro-111020-094019</a>
-</div>
-<div id="ref-Becker2021-bd" class="csl-entry" role="listitem">
-Becker, C. R. (2021, August 31). A comprehensive list of human-computer interactions. Retrieved January 8, 2025, from <a href="https://uxdesign.cc/a-comprehensive-list-of-human-computer-interactions-d72eaca2c0df">https://uxdesign.cc/a-comprehensive-list-of-human-computer-interactions-d72eaca2c0df</a>
 </div>
 <div id="ref-Calabrese2018-ve" class="csl-entry" role="listitem">
 Calabrese, R. L. (2018). Inconvenient truth to principle of neuroscience. <em>Trends in Neurosciences</em>, <em>41</em>(8), 488–491. <a href="https://doi.org/10.1016/j.tins.2018.05.006">https://doi.org/10.1016/j.tins.2018.05.006</a>
