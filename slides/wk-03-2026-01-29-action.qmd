@@ -125,7 +125,7 @@ flowchart TD
   - Secure sustenance
   - Maintain health
 - Reproducing...
-  - Finde a mate
+  - Find a mate
   - Mate
   - Ensure the well-being of offspring
 - In other words, *behaving*
@@ -182,6 +182,126 @@ flowchart TD
 # Illustrative motor systems
 
 ## Eye movements
+
+::: {.incremental}
+- Voluntary
+  - Saccades
+  - Smooth pursuit
+  - Vergence
+- Involuntary
+  - Vestibulo-occular reflex (VOR)
+  - Optokinetic nystagmus
+  - Accommodation
+:::
+
+## Saccades
+
+:::: {.columns}
+::: {.column width=50%}
+- Rapid, ballistic
+- ~2-3/s
+- ~200 ms to initiate
+- Amplitudes >20 deg $\rightarrow$ saccade + head movement
+:::
+::: {.column width=50%}
+{{< video https://upload.wikimedia.org/wikipedia/commons/e/e9/This_shows_a_recording_of_the_eye_movements_of_a_participant_looking_freely_at_a_picture.webm >}}
+:::
+::::
+
+-- @Wikipedia-contributors2025-mr
+
+## Vergence
+
+:::: {.columns}
+::: {.column width=50%}
+- Eyes move disjointly
+- Fixate on comparable locations
+:::
+::: {.column width=50%}
+![CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=74230](https://upload.wikimedia.org/wikipedia/commons/0/0e/Stereogram_Tut_Eye_Convergence.png){width=70%}
+:::
+::::
+
+## Vestibulo-occular reflex (VOR)
+
+:::: {.columns}
+::: {.column width=50%}
+- Steady eyes when head moves
+- Fast: response < 10 ms
+- Disturbed in vertigo
+:::
+::: {.column width=50%}
+![By .Koen - Own work based on: Simple vestibulo-ocular reflex.PNG and Image:ThreeNeuronArc.png, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=4130081](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Vestibulo-ocular_reflex_EN.svg/1280px-Vestibulo-ocular_reflex_EN.svg.png){width=50% fig-align="center"}
+:::
+::::
+
+## Optokinetic nystagmus (OKN)
+
+:::: {.columns}
+::: {.column width=50%}
+- Also called optokinetic response
+- Fast tracking of whole field visual motion, then reset 
+:::
+::: {.column width=50%}
+{{< video https://www.youtube.com/watch?v=CG5n516PCXM >}}
+
+-- @Stanton2015-qh
+
+![By Student BSMU, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3004633](https://upload.wikimedia.org/wikipedia/commons/b/b6/Optokinetic_nystagmus.gif)
+:::
+::::
+
+## Pupil constriction/dilation
+
+:::: {.columns}
+::: {.column width=50%}
+- Bright light $\rightarrow$ constriction
+  - Also by parasympathetic activation
+- Dim light $\rightarrow$ dilation
+  - Also by sympathetic NS activation
+:::
+::: {.column width=50%}
+![By Greyson Orlando - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1451923](https://upload.wikimedia.org/wikipedia/commons/a/a3/Eye_dilate.gif)
+:::
+::::
+
+## Eye muscles
+
+![](https://pressbooks.library.torontomu.ca/assessmentnursingmain/wp-content/uploads/sites/421/2024/08/Extraocular-movement-via-cranial-nerves.jpg){width=90%}
+
+## Control of
+
+|  Nerve |  Eye Muscle|
+|------------|---------------|
+|  CN III Oculomotor | Superior rectus |
+|   | Inferior rectus |
+|  | Medial rectus |
+|  | Inferior oblique |
+|  | Iris (pupillary) sphincter |
+| CN IV Trochlear | Superior oblique | 
+| CN VI Abducens | Lateral rectus | 
+| ANS sympathetic | Iris (pupillary) dilator |
+
+## Inputs to CN III
+
+```{mermaid}
+flowchart TD
+  A["Frontal Eye Fields"] -->|"Voluntary saccades"| B(("CN III"))
+  C["Superior Colliculus"] -->|"Reflexive saccades"| B
+  D["Vestibular (CN VIII) n."] -->|"VOR"|B
+  B --> E["Superior rectus"]
+  B --> F["Inferior rectus"]
+  B --> G["Medial rectus"]
+  B --> H["Inferior oblique"]
+  I["Parasympathetic NS"] -.-> B
+  B -.-> J["Iris (pupillary) sphincter"]
+```
+
+## Feedback and eye movements
+
+- Move eyes $\rightarrow$ shift visual field
+- Change vergence or lens thickness $\rightarrow$ change image focus
+- Eye muscles (probably) have proprioceptors analogous to spindles in skeletal muscles
 
 ## Reaching
 
