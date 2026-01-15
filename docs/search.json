@@ -280,11 +280,81 @@
     "text": "Communication\n\nSpeech\n\nKhanna et al. (2024); Griffin (2024)\nZada et al. (2025)\n\nFacial expression\n\nBress & Cascio (2024)\n\nGesture"
   },
   {
+    "objectID": "slides/wk-03-2026-01-29-action.html#looking",
+    "href": "slides/wk-03-2026-01-29-action.html#looking",
+    "title": "Action",
+    "section": "Looking",
+    "text": "Looking\n\nBehavioral goals\n\nDirect gaze (eyes + head + body) toward goal-relevant targets\nDirect gaze toward emergent targets\nTrack/pursue targets across observer/target motion\nMaximize quality of visual information about targets"
+  },
+  {
     "objectID": "slides/wk-03-2026-01-29-action.html#eye-movements",
     "href": "slides/wk-03-2026-01-29-action.html#eye-movements",
     "title": "Action",
     "section": "Eye movements",
     "text": "Eye movements\n\nVoluntary\n\nSaccades\nSmooth pursuit\nVergence\n\nInvoluntary\n\nVestibulo-occular reflex (VOR)\nOptokinetic nystagmus\nAccommodation"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#saccades",
+    "href": "slides/wk-03-2026-01-29-action.html#saccades",
+    "title": "Action",
+    "section": "Saccades",
+    "text": "Saccades\n\n\n\nRapid, ballistic (no online feedback)\n~2-3/s\n~200 ms to initiate\nAmplitudes &gt;20 deg \\(\\rightarrow\\) saccade + head movement\n\n\n\n\n– Wikipedia contributors (2025)"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#vergence",
+    "href": "slides/wk-03-2026-01-29-action.html#vergence",
+    "title": "Action",
+    "section": "Vergence",
+    "text": "Vergence\n\n\n\nEyes move disjointly\nFixate on comparable locations\n\n\n\n\n\nCC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=74230"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#vestibulo-occular-reflex-vor",
+    "href": "slides/wk-03-2026-01-29-action.html#vestibulo-occular-reflex-vor",
+    "title": "Action",
+    "section": "Vestibulo-occular reflex (VOR)",
+    "text": "Vestibulo-occular reflex (VOR)\n\n\n\nSteady eyes when head moves\nFast: response &lt; 10 ms\nDisturbed in vertigo\n\n\n\n\n\n\n\n\n\nBy .Koen - Own work based on: Simple vestibulo-ocular reflex.PNG and Image:ThreeNeuronArc.png, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=4130081"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#optokinetic-nystagmus-okn",
+    "href": "slides/wk-03-2026-01-29-action.html#optokinetic-nystagmus-okn",
+    "title": "Action",
+    "section": "Optokinetic nystagmus (OKN)",
+    "text": "Optokinetic nystagmus (OKN)\n\nAlso called optokinetic response\nFast tracking of whole field visual motion, then reset\n\n\n\n\n\n– Stanton (2015)\n\n\n\n\nBy Student BSMU, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3004633"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#pupil-constrictiondilation",
+    "href": "slides/wk-03-2026-01-29-action.html#pupil-constrictiondilation",
+    "title": "Action",
+    "section": "Pupil constriction/dilation",
+    "text": "Pupil constriction/dilation\n\n\n\nBright light \\(\\rightarrow\\) constriction\n\nAlso by parasympathetic activation\n\nDim light \\(\\rightarrow\\) dilation\n\nAlso by sympathetic activation\n\n\n\n\n\n\nBy Greyson Orlando - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1451923"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#eye-muscles",
+    "href": "slides/wk-03-2026-01-29-action.html#eye-muscles",
+    "title": "Action",
+    "section": "Eye muscles",
+    "text": "Eye muscles"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#inputs-to-cn-iii",
+    "href": "slides/wk-03-2026-01-29-action.html#inputs-to-cn-iii",
+    "title": "Action",
+    "section": "Inputs to CN III",
+    "text": "Inputs to CN III\n\n\n\n\n\nflowchart TD\n  A[\"Frontal Eye Fields\"] --&gt;|\"Voluntary saccades\"| B((\"CN III\"))\n  C[\"Superior Colliculus\"] --&gt;|\"Reflexive saccades\"| B\n  D[\"Vestibular (CN VIII) n.\"] --&gt;|\"VOR\"|B\n  B --&gt; E[\"Superior rectus\"]\n  B --&gt; F[\"Inferior rectus\"]\n  B --&gt; G[\"Medial rectus\"]\n  B --&gt; H[\"Inferior oblique\"]\n  I[\"Parasympathetic NS\"] -.-&gt; B\n  B -.-&gt; J[\"Iris (pupillary) sphincter\"]"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#considerations",
+    "href": "slides/wk-03-2026-01-29-action.html#considerations",
+    "title": "Action",
+    "section": "Considerations",
+    "text": "Considerations\n\nAct to perceive; perceive to act\nProvide sensory feedback\n\nMove eyes \\(\\rightarrow\\) shift visual field\nChange vergence or lens thickness \\(\\rightarrow\\) change image focus\nEye muscles (probably) have proprioceptors analogous to spindles in skeletal muscles"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#considerations-1",
+    "href": "slides/wk-03-2026-01-29-action.html#considerations-1",
+    "title": "Action",
+    "section": "Considerations",
+    "text": "Considerations\n\nRelatively simple physics:\n\nLimited influence of gravity, friction\n\nSmall # of muscles \\(\\rightarrow\\) “model” motor system?\nDEMO: Illustrates “forward” model?\n\nPredicting future sensory states"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#reaching",
@@ -369,13 +439,6 @@
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "Psychological perspective",
     "text": "Psychological perspective\n\n\n\nWhat is the state…\n\nOf the world (\\(W\\))?\nOf the organism?\n\nBody (\\(B\\))\nNervous system (\\(N\\))\nMind (\\(M\\))\n\n\nHow do these states change over time?\nWhat causes the changes?\n\n\n\n\n\n\n\nflowchart TD\n  N[**N**ervous System] --&gt; B[**B**ody]\n  B --&gt; W[**W**orld]\n  W --&gt; B\n  B --&gt; N\n  M[\"**M**ind\"] -.- N"
-  },
-  {
-    "objectID": "slides/wk-01-2026-01-15-intro.html#state-spaces-in-brain-behavior",
-    "href": "slides/wk-01-2026-01-15-intro.html#state-spaces-in-brain-behavior",
-    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
-    "section": "State spaces in brain & behavior",
-    "text": "State spaces in brain & behavior\n\n\n\nSwanson (2005) Figure 1"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#states-high-dimensional",
@@ -469,13 +532,6 @@
     "text": "Mindful of limitations in brain/computer metaphors\n\n\n\nhttps://www.explainthatstuff.com/howcomputerswork.html"
   },
   {
-    "objectID": "slides/wk-01-2026-01-15-intro.html#or-inspired-by-richer-metaphors",
-    "href": "slides/wk-01-2026-01-15-intro.html#or-inspired-by-richer-metaphors",
-    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
-    "section": "Or inspired by richer metaphors",
-    "text": "Or inspired by richer metaphors\n\n\n\nBecker (2021)"
-  },
-  {
     "objectID": "slides/wk-01-2026-01-15-intro.html#inputs",
     "href": "slides/wk-01-2026-01-15-intro.html#inputs",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
@@ -511,25 +567,25 @@
     "text": "And vice versa?\n\n\n\nCepelewicz (2021)"
   },
   {
-    "objectID": "slides/wk-01-2026-01-15-intro.html#and-do-we-have-the-right-psychological-structures",
-    "href": "slides/wk-01-2026-01-15-intro.html#and-do-we-have-the-right-psychological-structures",
+    "objectID": "slides/wk-01-2026-01-15-intro.html#do-we-have-the-right-psychological-structures",
+    "href": "slides/wk-01-2026-01-15-intro.html#do-we-have-the-right-psychological-structures",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
-    "section": "And do we have the right “psychological” structures?",
-    "text": "And do we have the right “psychological” structures?\n\nPsychological sciences have identified a wealth of cognitive processes and behavioral phenomena, yet struggle to produce cumulative knowledge. Progress is hamstrung by siloed scientific traditions and a focus on explanation over prediction…\n\n– Eisenberg et al. (2019)"
+    "section": "Do we have the right “psychological” structures?",
+    "text": "Do we have the right “psychological” structures?\n\nPsychological sciences have identified a wealth of cognitive processes and behavioral phenomena, yet struggle to produce cumulative knowledge…\n\n– Eisenberg et al. (2019)"
   },
   {
-    "objectID": "slides/wk-01-2026-01-15-intro.html#behavioural-biologists-dont-agree-on-what-constitutes-behaviour",
-    "href": "slides/wk-01-2026-01-15-intro.html#behavioural-biologists-dont-agree-on-what-constitutes-behaviour",
+    "objectID": "slides/wk-01-2026-01-15-intro.html#how-should-behavior-be-defined",
+    "href": "slides/wk-01-2026-01-15-intro.html#how-should-behavior-be-defined",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
-    "section": "“Behavioural biologists don’t agree on what constitutes behaviour”",
-    "text": "“Behavioural biologists don’t agree on what constitutes behaviour”\n\nBehaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes.\n\n– Levitis et al. (2009)"
+    "section": "How should behavior be defined?",
+    "text": "How should behavior be defined?"
   },
   {
-    "objectID": "slides/wk-01-2026-01-15-intro.html#sciences-of-complexity",
-    "href": "slides/wk-01-2026-01-15-intro.html#sciences-of-complexity",
+    "objectID": "slides/wk-01-2026-01-15-intro.html#how-is-behaviour-defined",
+    "href": "slides/wk-01-2026-01-15-intro.html#how-is-behaviour-defined",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
-    "section": "Sciences of complexity",
-    "text": "Sciences of complexity\n\n\n\nFavela (2020) Figure 1"
+    "section": "How is behaviour defined?",
+    "text": "How is behaviour defined?\n\nBehavioural biology is a major discipline within biology, centred on the key concept of ‘behaviour’. But how is ‘behaviour’ defined, and how should it be defined? …\n\n– Levitis, Lidicker, & Freund (2009)"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#levels-of-analysis",
@@ -602,6 +658,13 @@
     "text": "There and back again\n\n\n\nThe perception action-cycle\n\n\n\n\n\nFuster (2004) Figure 2"
   },
   {
+    "objectID": "slides/wk-01-2026-01-15-intro.html#another-example",
+    "href": "slides/wk-01-2026-01-15-intro.html#another-example",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Another example…",
+    "text": "Another example…\n\n\n\n\n\n\nflowchart LR\n  A[\"Screen\"] --&gt; B((\"Retina\"))\n  B --&gt; C[\"Thalamus\"]\n  C --&gt; D[\"Primary visual cortex\"]\n  D --&gt; E[\"?\"]\n\n\n\n\nFigure 1: From computer screen to cortex.\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  E[\"?\"] --&gt; F[\"Primary motor cortex\"]\n  F --&gt; G(\"Motor neuron\")\n  G --&gt;|\"Alpha motor fiber\"|H([\"Extrafusal muscle fiber\"])\n  G --&gt; I(\"Spinal interneuron\")\n  I --&gt;|\"Gamma motor fiber\"|J([\"Intrafusal fiber\"])\n  H & J --&gt; K([\"Finger muscle\"])\n\n\n\n\nFigure 2: Pathways to move the finger.\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A([\"Finger muscle\"]) --&gt; C([\"Intrafusal muscle fiber\"])\n  C --&gt; D[\"Stretch receptor\"]\n  D --&gt;|\"Ia afferent\"| E(\"Spinal cord interneuron\")\n  E --&gt; F[\"Somatosensory cortex\"]\n\n\n\n\nFigure 3: Feedback from finger muscle."
+  },
+  {
     "objectID": "slides/wk-01-2026-01-15-intro.html#does-neuroscience-need-behavior",
     "href": "slides/wk-01-2026-01-15-intro.html#does-neuroscience-need-behavior",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
@@ -623,11 +686,11 @@
     "text": "But what is behavior?"
   },
   {
-    "objectID": "slides/wk-01-2026-01-15-intro.html#behavioural-biologists-dont-agree-on-what-constitutes-behaviour-1",
-    "href": "slides/wk-01-2026-01-15-intro.html#behavioural-biologists-dont-agree-on-what-constitutes-behaviour-1",
+    "objectID": "slides/wk-01-2026-01-15-intro.html#behavioural-biologists-dont-agree-on-what-constitutes-behaviour",
+    "href": "slides/wk-01-2026-01-15-intro.html#behavioural-biologists-dont-agree-on-what-constitutes-behaviour",
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "“Behavioural biologists don’t agree on what constitutes behaviour”",
-    "text": "“Behavioural biologists don’t agree on what constitutes behaviour”\n\n…“Behaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes.”\n\n– Levitis et al. (2009)]"
+    "text": "“Behavioural biologists don’t agree on what constitutes behaviour”\n\nBehaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes.\n\n– Levitis et al. (2009)"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#exercise-lvl",
@@ -1565,187 +1628,5 @@
     "title": "Final project",
     "section": "Tips",
     "text": "Tips\n\nAlways put your last name and first name in the file name of all documents you submit. For example, gilmore-rick-psy-511-2026-final-paper.docx works fine.\nSubmit your paper as a MS Word document using Canvas.\nInclude a cover page and title. Make sure to add page numbers.\n\nResearch proposals and BBS-style reviews should use APA format.\nBBS-style reviews, popular science pieces, and research proposals should include an introduction, body, and conclusion. Depending on the format, you may or may not need to label these sections.\nUnpack and define all acronyms when you first mention them. Define or explain technical terms and concepts.\nInclude all end-of-paper citations in a format that is convenient to you and easy to extract from your reference manager.\nInclude author-date citations in the text. Footnote-style in-text citations are also acceptable.\nUse double-spacing.\nRun spell-check on your paper before you submit. I also suggest reading your paper out loud as a way to catch run-on sentences, awkward phrasing, and odd word choices."
-  },
-  {
-    "objectID": "slides/wk-01-2026-01-15-intro.html#what-would-a-complete-account-look-like",
-    "href": "slides/wk-01-2026-01-15-intro.html#what-would-a-complete-account-look-like",
-    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
-    "section": "What would a complete account look like?",
-    "text": "What would a complete account look like?\n\n\n\n\n\nflowchart TD\n  A[screen] ---&gt; B[Retina]\n  B ---&gt; C[Thalamus]\n  C ---&gt; D[Visual cortex]\n  D ---&gt; E[?]\n  E ---&gt; F[Motor cortex]\n  F ---&gt; G[Alpha motor neuron]\n  G ---&gt; H[Finger muscle]\n  H -- \"Ia afferent\" -&gt; I[Spinal cord]"
-  },
-  {
-    "objectID": "slides/wk-01-2026-01-15-intro.html#do-we-have-the-right-psychological-structures",
-    "href": "slides/wk-01-2026-01-15-intro.html#do-we-have-the-right-psychological-structures",
-    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
-    "section": "Do we have the right “psychological” structures?",
-    "text": "Do we have the right “psychological” structures?\n\nPsychological sciences have identified a wealth of cognitive processes and behavioral phenomena, yet struggle to produce cumulative knowledge…\n\n– Eisenberg et al. (2019)"
-  },
-  {
-    "objectID": "slides/wk-01-2026-01-15-intro.html#what-constitutes-behavior",
-    "href": "slides/wk-01-2026-01-15-intro.html#what-constitutes-behavior",
-    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
-    "section": "What constitutes behavior?",
-    "text": "What constitutes behavior?\n\nBehavioural biology is a major discipline within biology, centred on the key concept of ‘behaviour’. But how is ‘behaviour’ defined, and how should it be defined? We outline what characteristics we believe a scientific definition should have, and why we think it is important…\n\n– Levitis, Lidicker, & Freund (2009)"
-  },
-  {
-    "objectID": "slides/wk-01-2026-01-15-intro.html#another-example",
-    "href": "slides/wk-01-2026-01-15-intro.html#another-example",
-    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
-    "section": "Another example…",
-    "text": "Another example…\n\n\n\n\n\n\nflowchart LR\n  A[\"Screen\"] --&gt; B((\"Retina\"))\n  B --&gt; C[\"Thalamus\"]\n  C --&gt; D[\"Primary visual cortex\"]\n  D --&gt; E[\"?\"]\n\n\n\n\nFigure 1: From computer screen to cortex.\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  E[\"?\"] --&gt; F[\"Primary motor cortex\"]\n  F --&gt; G(\"Motor neuron\")\n  G --&gt;|\"Alpha motor fiber\"|H([\"Extrafusal muscle fiber\"])\n  G --&gt; I(\"Spinal interneuron\")\n  I --&gt;|\"Gamma motor fiber\"|J([\"Intrafusal fiber\"])\n  H & J --&gt; K([\"Finger muscle\"])\n\n\n\n\nFigure 2: Pathways to move the finger.\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A([\"Finger muscle\"]) --&gt; C([\"Intrafusal muscle fiber\"])\n  C --&gt; D[\"Stretch receptor\"]\n  D --&gt;|\"Ia afferent\"| E(\"Spinal cord interneuron\")\n  E --&gt; F[\"Somatosensory cortex\"]\n\n\n\n\nFigure 3: Feedback from finger muscle."
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#eye-muscles",
-    "href": "slides/wk-03-2026-01-29-action.html#eye-muscles",
-    "title": "Action",
-    "section": "Eye muscles",
-    "text": "Eye muscles"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#control-of",
-    "href": "slides/wk-03-2026-01-29-action.html#control-of",
-    "title": "Action",
-    "section": "Control of",
-    "text": "Control of\n\n\n\nNerve\nEye Muscle\n\n\n\n\nCN III Oculomotor\nSuperior rectus\n\n\n\nInferior rectus\n\n\n\nMedial rectus\n\n\n\nInferior oblique\n\n\n\nIris (pupillary) sphincter\n\n\nCN IV Trochlear\nSuperior oblique\n\n\nCN VI Abducens\nLateral rectus\n\n\nANS sympathetic\nIris (pupillary) dilator"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#inputs-to-cranial-nerves",
-    "href": "slides/wk-03-2026-01-29-action.html#inputs-to-cranial-nerves",
-    "title": "Action",
-    "section": "Inputs to cranial nerves",
-    "text": "Inputs to cranial nerves\n\n\n\n\n\nflowchart TD\n  A[\"Frontal Eye Fields\"] --&gt;|\"Voluntary saccades\"| B((\"CN III\"))\n  C[\"Superior Colliculus\"] --&gt;|\"Reflex saccades\"| B\n  D[\"Vestibular n.\"] --&gt;|\"VOR\"|B\n  B --&gt; E[\"Superior rectus\"]\n  B --&gt; F[\"Inferior rectus\"]\n  B --&gt; G[\"Medial rectus\"]\n  B --&gt; H[\"Inferior oblique\"]"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#saccades",
-    "href": "slides/wk-03-2026-01-29-action.html#saccades",
-    "title": "Action",
-    "section": "Saccades",
-    "text": "Saccades\n\n\n\nRapid, ballistic (no online feedback)\n~2-3/s\n~200 ms to initiate\nAmplitudes &gt;20 deg \\(\\rightarrow\\) saccade + head movement\n\n\n\n\n– Wikipedia contributors (2025)"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#smooth-pursuit",
-    "href": "slides/wk-03-2026-01-29-action.html#smooth-pursuit",
-    "title": "Action",
-    "section": "Smooth pursuit",
-    "text": "Smooth pursuit"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#vergence",
-    "href": "slides/wk-03-2026-01-29-action.html#vergence",
-    "title": "Action",
-    "section": "Vergence",
-    "text": "Vergence\n\n\n\nEyes move disjointly\nFixate on comparable locations\n\n\n\n\n\nCC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=74230"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#gaze-stabilization",
-    "href": "slides/wk-03-2026-01-29-action.html#gaze-stabilization",
-    "title": "Action",
-    "section": "Gaze stabilization",
-    "text": "Gaze stabilization\n\n\n\nOptokinetic nystagmus (OKN)\nVestibulo-occular reflex (VOR)\n\nSteady eyes when head moves\nFast: response &lt; 10 ms\nDisturbed in vertigo\n\n\n\n\n\n\n\n\n\n\nBy .Koen - Own work based on: Simple vestibulo-ocular reflex.PNG and Image:ThreeNeuronArc.png, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=4130081"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#saccades-1",
-    "href": "slides/wk-03-2026-01-29-action.html#saccades-1",
-    "title": "Action",
-    "section": "Saccades",
-    "text": "Saccades\n\n\n\nRapid, ballistic\n~2-3/s\n~200 ms to initiate\nAmplitudes &gt;20 deg \\(\\rightarrow\\) saccade + head movement\n\n\n\n– https://en.wikipedia.org/wiki/Saccade"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#inputs-to-cn-iii",
-    "href": "slides/wk-03-2026-01-29-action.html#inputs-to-cn-iii",
-    "title": "Action",
-    "section": "Inputs to CN III",
-    "text": "Inputs to CN III\n\n\n\n\n\nflowchart TD\n  A[\"Frontal Eye Fields\"] --&gt;|\"Voluntary saccades\"| B((\"CN III\"))\n  C[\"Superior Colliculus\"] --&gt;|\"Reflexive saccades\"| B\n  D[\"Vestibular (CN VIII) n.\"] --&gt;|\"VOR\"|B\n  B --&gt; E[\"Superior rectus\"]\n  B --&gt; F[\"Inferior rectus\"]\n  B --&gt; G[\"Medial rectus\"]\n  B --&gt; H[\"Inferior oblique\"]\n  I[\"Parasympathetic NS\"] -.-&gt; B\n  B -.-&gt; J[\"Iris (pupillary) sphincter\"]"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#feedback-and-eye-movements",
-    "href": "slides/wk-03-2026-01-29-action.html#feedback-and-eye-movements",
-    "title": "Action",
-    "section": "Feedback and eye movements",
-    "text": "Feedback and eye movements\n\nMove eyes \\(\\rightarrow\\) shift visual field\nChange vergence or lens thickness \\(\\rightarrow\\) change image focus\nEye muscles (probably) have proprioceptors analogous to spindles in skeletal muscles"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#vestibular-ocular-reflex-vor",
-    "href": "slides/wk-03-2026-01-29-action.html#vestibular-ocular-reflex-vor",
-    "title": "Action",
-    "section": "Vestibular-ocular reflex (VOR)",
-    "text": "Vestibular-ocular reflex (VOR)"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#vestibulo-occular-reflex-vor",
-    "href": "slides/wk-03-2026-01-29-action.html#vestibulo-occular-reflex-vor",
-    "title": "Action",
-    "section": "Vestibulo-occular reflex (VOR)",
-    "text": "Vestibulo-occular reflex (VOR)\n\n\n\nSteady eyes when head moves\nFast: response &lt; 10 ms\nDisturbed in vertigo\n\n\n\n\n\n\n\n\n\nBy .Koen - Own work based on: Simple vestibulo-ocular reflex.PNG and Image:ThreeNeuronArc.png, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=4130081"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#optokinetic-nystagmus-okn",
-    "href": "slides/wk-03-2026-01-29-action.html#optokinetic-nystagmus-okn",
-    "title": "Action",
-    "section": "Optokinetic nystagmus (OKN)",
-    "text": "Optokinetic nystagmus (OKN)\n\nAlso called optokinetic response\nFast tracking of whole field visual motion, then reset\n\n\n\n\n\n– Stanton (2015)\n\n\n\n\nBy Student BSMU, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3004633"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#pupil-constrictiondilation",
-    "href": "slides/wk-03-2026-01-29-action.html#pupil-constrictiondilation",
-    "title": "Action",
-    "section": "Pupil constriction/dilation",
-    "text": "Pupil constriction/dilation\n\n\n\nBright light \\(\\rightarrow\\) constriction\n\nAlso by parasympathetic activation\n\nDim light \\(\\rightarrow\\) dilation\n\nAlso by sympathetic activation\n\n\n\n\n\n\nBy Greyson Orlando - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1451923"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#considerations",
-    "href": "slides/wk-03-2026-01-29-action.html#considerations",
-    "title": "Action",
-    "section": "Considerations",
-    "text": "Considerations\n\nAct to perceive; perceive to act\nProvide sensory feedback\n\nMove eyes \\(\\rightarrow\\) shift visual field\nChange vergence or lens thickness \\(\\rightarrow\\) change image focus\nEye muscles (probably) have proprioceptors analogous to spindles in skeletal muscles"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#considerations-1",
-    "href": "slides/wk-03-2026-01-29-action.html#considerations-1",
-    "title": "Action",
-    "section": "Considerations",
-    "text": "Considerations\n\nRelatively simple physics:\n\nLimited influence of gravity, friction\n\nSmall # of muscles \\(\\rightarrow\\) “model” motor system?\nDEMO: Illustrates “forward” model?\n\nPredicting future sensory states"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#looking",
-    "href": "slides/wk-03-2026-01-29-action.html#looking",
-    "title": "Action",
-    "section": "Looking",
-    "text": "Looking\n\nBehavioral goals\n\nDirect gaze (eyes + head + body) toward goal-relevant targets\nDirect gaze toward emergent targets\nTrack/pursue targets across observer/target motion\nMaximize quality of visual information about targets"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#looking-1",
-    "href": "slides/wk-03-2026-01-29-action.html#looking-1",
-    "title": "Action",
-    "section": "Looking",
-    "text": "Looking\n\n\n\n\n\nBy Rhcastilhos. And Jmarchn. - Schematic_diagram_of_the_human_eye_with_English_annotations.svg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1597930\n\n\n\n\n\n\nBy Vanessa Ezekowitz - Hand-drawn based on File:AcuityHumanEye.jpg by Hans-Werner Hunziker, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=7327065"
-  },
-  {
-    "objectID": "slides/wk-03-2026-01-29-action.html#constraint",
-    "href": "slides/wk-03-2026-01-29-action.html#constraint",
-    "title": "Action",
-    "section": "Constraint",
-    "text": "Constraint\n:::"
-  },
-  {
-    "objectID": "slides/wk-01-2026-01-15-intro.html",
-    "href": "slides/wk-01-2026-01-15-intro.html",
-    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
-    "section": "",
-    "text": "– melodysheep (2011)\n\n\nIf understanding everything we need to know about the brain is a mile, how far have we walked?\n\n– National Geographic (2014)\n\n\n\n\nWhy neuroscience psychology is harder than physics\nCourse overview\nDoes neuroscience need behavior? Does behavioral science need the brain?"
-  },
-  {
-    "objectID": "slides/wk-01-2026-01-15-intro.html#how-should-behavior-be-defined",
-    "href": "slides/wk-01-2026-01-15-intro.html#how-should-behavior-be-defined",
-    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
-    "section": "How should behavior be defined?",
-    "text": "How should behavior be defined?"
-  },
-  {
-    "objectID": "slides/wk-01-2026-01-15-intro.html#how-is-behaviour-defined",
-    "href": "slides/wk-01-2026-01-15-intro.html#how-is-behaviour-defined",
-    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
-    "section": "How is behaviour defined?",
-    "text": "How is behaviour defined?\n\nBehavioural biology is a major discipline within biology, centred on the key concept of ‘behaviour’. But how is ‘behaviour’ defined, and how should it be defined? …\n\n– Levitis, Lidicker, & Freund (2009)"
   }
 ]
