@@ -1,0 +1,20 @@
+@Bennett2023-tn
+
+### 1. Steering
+
+- Move forward or
+- Turn
+  - Toward
+  - Away
+
+### 2. Learning from reinforcement
+
+- What event(s) caused what kind of outcome?
+  - Credit assignment problem
+- Where
+
+### 3. Simulation
+
+### 4. Mentalizing
+
+### 5. Speaking
