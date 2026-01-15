@@ -1,6 +1,8 @@
 ---
 title: "Action"
-format: revealjs
+format: 
+  revealjs:
+    auto-play-media: true
 ---
 
 # Overview
@@ -33,9 +35,11 @@ format: revealjs
 
 -- Lao-tse, Chinese philosopher
 
+::: {.fragment}
 >The way to be is to do.
 
 -- Dale Carnegie
+:::
 
 ::: {.fragment}
 >Do be, do be, do.
@@ -52,7 +56,6 @@ format: revealjs
 - Animal actions influence 
   - The external world, $W$
   - Their own bodies, $B$
-
 :::
 ::: {.column width=50%}
 ```{mermaid}
@@ -181,6 +184,22 @@ flowchart TD
 
 # Illustrative motor systems
 
+## Looking
+
+- Behavioral goals
+  - Direct gaze (eyes + head + body) toward goal-relevant targets
+  - Direct gaze toward emergent targets
+  - Track/pursue targets across observer/target motion
+  - Maximize quality of visual information about targets
+
+---
+
+![By Rhcastilhos. And Jmarchn. - Schematic_diagram_of_the_human_eye_with_English_annotations.svg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1597930](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Schematic_diagram_of_the_human_eye_en.svg/960px-Schematic_diagram_of_the_human_eye_en.svg.png){width=50%}
+
+---
+
+![By Vanessa Ezekowitz - Hand-drawn based on File:AcuityHumanEye.jpg by Hans-Werner Hunziker, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=7327065](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/AcuityHumanEye.svg/1280px-AcuityHumanEye.svg.png){width=70%}
+
 ## Eye movements
 
 ::: {.incremental}
@@ -198,7 +217,7 @@ flowchart TD
 
 :::: {.columns}
 ::: {.column width=50%}
-- Rapid, ballistic
+- Rapid, ballistic (no online feedback)
 - ~2-3/s
 - ~200 ms to initiate
 - Amplitudes >20 deg $\rightarrow$ saccade + head movement
@@ -237,19 +256,22 @@ flowchart TD
 
 ## Optokinetic nystagmus (OKN)
 
-:::: {.columns}
-::: {.column width=50%}
 - Also called optokinetic response
 - Fast tracking of whole field visual motion, then reset 
-:::
+
+::: {.fragment}
+:::: {.columns}
 ::: {.column width=50%}
-{{< video https://www.youtube.com/watch?v=CG5n516PCXM >}}
+{{< video https://www.youtube.com/watch?v=CG5n516PCXM  >}}
 
 -- @Stanton2015-qh
+:::
+::: {.column width=50%}
 
-![By Student BSMU, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3004633](https://upload.wikimedia.org/wikipedia/commons/b/b6/Optokinetic_nystagmus.gif)
+![By Student BSMU, CC BY-SA 3.0, <https://commons.wikimedia.org/w/index.php?curid=3004633>](https://upload.wikimedia.org/wikipedia/commons/b/b6/Optokinetic_nystagmus.gif)
 :::
 ::::
+:::
 
 ## Pupil constriction/dilation
 
@@ -258,7 +280,7 @@ flowchart TD
 - Bright light $\rightarrow$ constriction
   - Also by parasympathetic activation
 - Dim light $\rightarrow$ dilation
-  - Also by sympathetic NS activation
+  - Also by sympathetic activation
 :::
 ::: {.column width=50%}
 ![By Greyson Orlando - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1451923](https://upload.wikimedia.org/wikipedia/commons/a/a3/Eye_dilate.gif)
@@ -269,7 +291,7 @@ flowchart TD
 
 ![](https://pressbooks.library.torontomu.ca/assessmentnursingmain/wp-content/uploads/sites/421/2024/08/Extraocular-movement-via-cranial-nerves.jpg){width=90%}
 
-## Control of
+---
 
 |  Nerve |  Eye Muscle|
 |------------|---------------|
@@ -297,11 +319,21 @@ flowchart TD
   B -.-> J["Iris (pupillary) sphincter"]
 ```
 
-## Feedback and eye movements
+## Considerations
 
-- Move eyes $\rightarrow$ shift visual field
-- Change vergence or lens thickness $\rightarrow$ change image focus
-- Eye muscles (probably) have proprioceptors analogous to spindles in skeletal muscles
+- Act to perceive; perceive to act
+- Provide sensory feedback
+  - Move eyes $\rightarrow$ shift visual field
+  - Change vergence or lens thickness $\rightarrow$ change image focus
+  - Eye muscles (probably) have proprioceptors analogous to spindles in skeletal muscles
+
+## Considerations
+
+- Relatively simple physics: 
+  - Limited influence of gravity, friction
+- Small # of muscles $\rightarrow$ "model" motor system?
+- **DEMO**: Illustrates "forward" model?
+  - Predicting future sensory states
 
 ## Reaching
 

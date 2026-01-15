@@ -197,7 +197,7 @@ flowchart TD
 
 ## Approach
 
-- The nervous system as a machine
+- The nervous system as a mechanism
 - Specifically, an information processing system
 
 ![Wikipedia](../include/img/Information_processing_system.PNG)
@@ -248,32 +248,34 @@ flowchart TD
 
 ---
 
->Progress is hamstrung by siloed scientific traditions and a focus on explanation over prediction...two issues that are particularly damaging for the study of **multifaceted constructs like self-regulation**...We conclude that self-regulation lacks coherence as a construct...
+>Progress is hamstrung by siloed scientific traditions and a focus on explanation over prediction...two issues that are particularly damaging for the study of **multifaceted constructs like self-regulation**...We conclude that **self-regulation lacks coherence as a construct**...
 
 -- @Eisenberg2019-iy
 
-## What constitutes behavior?
+## How should behavior be defined?
 
->Behavioural biology is a major discipline within biology, centred on the key concept of ‘behaviour’. But how is ‘behaviour’ defined, and how should it be defined? We outline what characteristics we believe a scientific definition should have, and why we think it is important... 
+## How is behaviour defined?
 
--- @Levitis2009-br
-
----
-
->...that a definition have these traits. We then examine the range of available published definitions for behaviour. 
-
--- @Levitis2009-br
-
-
----
-
->Finding no consensus, we present survey responses from 174 members of three behaviour-focused scientific societies as to their understanding of the term. Here again, we find surprisingly widespread disagreement as to what qualifies as behaviour. Respondents contradict themselves...
+>Behavioural biology is a major discipline within biology, centred on the key concept of ‘behaviour’. But how is ‘behaviour’ defined, and how should it be defined? ... 
 
 -- @Levitis2009-br
 
 ---
 
->...each other, and published definitions, indicating that they are using individually variable intuitive, rather than codified, meanings of `behaviour.'
+>We outline what characteristics we believe a scientific definition should have, and why we think it is important that a definition have these traits. We then examine the range of available published definitions for behaviour. 
+
+-- @Levitis2009-br
+
+
+---
+
+>Finding no consensus, we present survey responses from 174 members of three behaviour-focused scientific societies as to their understanding of the term. Here again, **we find surprisingly widespread disagreement as to what qualifies as behaviour**...
+
+-- @Levitis2009-br
+
+---
+
+>Respondents contradict themselves, each other, and published definitions, indicating that they are using individually variable intuitive, rather than codified, meanings of `behaviour.'
 
 -- @Levitis2009-br
 

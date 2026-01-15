@@ -21,7 +21,7 @@ psy_511_vars <- readr::read_csv("data/csv/psy-511-vars.csv", show_col_types = FA
   - @Krakauer2017-xl
   - @Parada2018-rp
   - @Newcombe2017-wu
-- Optional
+- Recomended
   - @Siddiqi2022-wl
   - @Churchland1988-aj
   - @Favela2020-uc
@@ -122,8 +122,11 @@ ex_anat_due <- psy_511_vars |>
 #### Read/Watch
 
 - Required
+  - @Rosenberg2023-km
   - @Khalsa2018-gf
-  - @Shenoy2013-zi
+- Recommended
+  - @Neuroscience2025-ou
+  - @CrashCourse2015-fn
 
 <!-- #### Materials -->
 
@@ -166,7 +169,9 @@ final_proj_prop_due <- psy_511_vars |>
 
 #### Read/Watch
 
-<!-- #### Materials -->
+- Required
+  - @Squire2011-zg
+  - @DEsposito2015-zm
 
 #### Assignment(s)
 
@@ -176,6 +181,25 @@ final_proj_prop_due <- psy_511_vars |>
 ## Week 06: Feb 16-20
 
 ### Thu, Feb 19
+
+#### Topic(s)
+
+- Language
+
+#### Read/Watch
+
+- Required
+  - @Hickok2007-rc
+  - @Bourguignon2025-sy
+  - @Hagoort2014-au
+
+<!-- #### Materials -->
+
+<!-- #### Assignment(s) -->
+
+## Week 07: Feb 23-27 
+
+### Thu, Feb 26
 
 #### Topic(s)
 
@@ -200,7 +224,7 @@ final_proj_prop_due <- psy_511_vars |>
 #| echo: false
 #| label: calc-ex_emo_due
 ex_emo_due <- psy_511_vars |>
-  dplyr::filter(name == "WK_07_DATE") |>
+  dplyr::filter(name == "WK_08_DATE") |>
   dplyr::select(value) |>
   as.character()
 ```
@@ -209,9 +233,9 @@ ex_emo_due <- psy_511_vars |>
   - *Due*: `{r} ex_emo_due`
   - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005124)
 
-## Week 07: Feb 23-27 
+## Week 08: Mar 2-6 
 
-### Thu, Feb 26
+### Thu, Mar 5
 
 #### Topic(s)
 
@@ -231,61 +255,19 @@ ex_emo_due <- psy_511_vars |>
 #| echo: false
 #| label: calc-ex_zz_due
 ex_zz_due <- psy_511_vars |>
-  dplyr::filter(name == "WK_08_DATE") |>
+  dplyr::filter(name == "WK_09_DATE") |>
   dplyr::select(value) |>
   as.character()
 ```
 
 - *Due*: [Exercise EMO • Measuring emotion](exercises/ex-EMO.qmd)
   - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005124)
+- *Due*: [Final project proposal](exercises/final-project.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005251)
 - *Assigned*: [Exercise ZZ • Sleep & Circadian Rhythms](exercises/ex-ZZ.qmd)
   - *Due*: `{r} ex_zz_due`
   - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005158)
-
-#### Readings
-
-#### Materials
-
-## Week 08: Mar 2-6 
-
-### Thu, Mar 5
-
-#### Topic(s)
-
-- Evolution of the nervous system
-
-#### Read/Watch
-
-- Required
-  - @Charvet2012-bg
-  - @hofman_evolution_2014
-  - @Sachkova2025-ma
-- Optional 
-  - @Castrillon2023-mt
-
-<!-- #### Materials -->
-
-<!-- - [Notes](resources/evolution.qmd) -->
-
-#### Assignment(s)
-
-```{r}
-#| echo: false
-#| label: calc-ex_evo_due
-ex_evo_due <- psy_511_vars |>
-  dplyr::filter(name == "WK_09_DATE") |>
-  dplyr::select(value) |>
-  as.character()
-```
-
-- *Due*: [Final project proposal](exercises/final-project.qmd)
-  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005251)
-- *Due*: [Exercise ZZ • Sleep & Circadian Rhythms](exercises/ex-ZZ.qmd)
-  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338)
-- *Assigned*: [Exercise EVO • Evolution](exercises/ex-EVO.qmd)
-  - *Due*: `{r} ex_evo_due`.
-  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005262)
-
+  
 ## Spring Break: Mar 9-13 
 
 **NO CLASS**
@@ -296,38 +278,55 @@ ex_evo_due <- psy_511_vars |>
 
 #### Topic(s)
 
-- Development of the nervous system
+- Evolution & development of the nervous system
 
 #### Read/Watch
 
 - Required
-  - @Cao2017-bl
-  - @Blumberg2023-fs
-- Optional
+  - @Sachkova2025-ma
+  - @Stiles2010-cm
+- Optional 
+  - @Castrillon2023-mt
   - @Larsen2023-wx
   - @Rakic2009-jk
-
+  - @Cao2017-bl
+  - @Charvet2012-bg
+  - @hofman_evolution_2014
+  - @Blumberg2023-fs
+  
 <!-- #### Materials -->
 
-<!-- - [Notes](resources/development.qmd) -->
+<!-- - [Notes](resources/evolution.qmd) -->
 
-#### Assignment(s)
+#### Assignments
 
 ```{r}
 #| echo: false
-#| label: calc-ex_dev_due
-ex_dev_due <- psy_511_vars |>
+#| label: calc-ex_evo_due
+ex_evo_due <- psy_511_vars |>
   dplyr::filter(name == "WK_10_DATE") |>
   dplyr::select(value) |>
   as.character()
 ```
 
-- *Due*: [Exercise EVO • Evolution](exercises/ex-EVO.qmd)
+```{r}
+#| echo: false
+#| label: calc-ex_dev_due
+ex_dev_due <- psy_511_vars |>
+  dplyr::filter(name == "WK_11_DATE") |>
+  dplyr::select(value) |>
+  as.character()
+```
+
+- *Due*: [Exercise ZZ • Sleep & Circadian Rhythms](exercises/ex-ZZ.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338)
+- *Assigned*: [Exercise EVO • Evolution](exercises/ex-EVO.qmd)
+  - *Due*: `{r} ex_evo_due`.
   - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005262)
 - *Assigned*: [Exercise DEV • Development](exercises/ex-DEV.qmd)
   - *Due*: `{r} ex_dev_due`.
   - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338)
-
+  
 ## Week 10: Mar 23-27
 
 ### Thu, Mar 26
@@ -363,8 +362,6 @@ ex_phys_due <- psy_511_vars |>
   as.character()
 ```
 
-- *Due*: [Exercise DEV • Development](exercises/ex-DEV.qmd)
-  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338)
 - *Assigned*: [Exercise PHYS • Neurophysiology I](exercises/ex-PHYS.qmd)
   - *Due*: `{r} ex_phys_due`
   - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005427)
@@ -398,6 +395,8 @@ ex_ap_due <- psy_511_vars |>
   as.character()
 ```
 
+- *Due*: [Exercise DEV • Development](exercises/ex-DEV.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338)
 - *Due*: [Exercise PHYS • Neurophysiology I](exercises/ex-PHYS.qmd)
   - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005427)
 - *Assigned*: [Exercise AP • Neurophysiology II](exercises/ex-AP.qmd)

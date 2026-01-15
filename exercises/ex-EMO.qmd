@@ -7,7 +7,7 @@ subtitle: "**Name:**____________________________"
 #| echo: false
 psy_511_vars <- readr::read_csv("../data/csv/psy-511-vars.csv", show_col_types = FALSE)
 ex_due <- psy_511_vars |>
-  dplyr::filter(name == "WK_07_DATE") |>
+  dplyr::filter(name == "WK_08_DATE") |>
   dplyr::select(value) |>
   as.character()
 
