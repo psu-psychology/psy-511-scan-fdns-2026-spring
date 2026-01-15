@@ -488,7 +488,7 @@ Newcombe, N. (2017). If neuroscience needs behavior, what does behavioral scienc
 - Neuroanatomy lab
   - Read/study
     - Neuroanatomy [notes](../resources/anatomy.qmd)
-    - Bring to class a copy of [Exercise ANAT](exercises/ex-ANAT.pdf)
+    - Bring to class a copy of [Exercise ANAT](../exercises/ex-ANAT.qmd) | [docx](../exercises/ex-ANAT.docx) | [pdf](../exercises/ex-ANAT.pdf) |
 
 # Resources
 
