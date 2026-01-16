@@ -410,12 +410,97 @@ That is, higher levels of the nervous system learn the relationship between moto
 
 - Voluntary movements involve contracting agonist or antagonist pairs of skeletal muscles
 - Skeletal muscles have embedded sensors that detect length/tension
-- CNS gets rapid feedback about muscle status
+- CNS gets rapid feedback about muscle status (proprioception)
 - Monosynaptic stretch (myotatic) reflexes maintain position stability
 
 # Controlling muscles
 
+---
+
+![*Biological Psychology 4th ed*](../include/img/motor-controllers-biopsych.jpg)
+
+## Key nodes
+
+- Primary motor cortex (M1)
+  - Anterior to central sulcus
+  - Frontal lobe
+
+## {.scrollable}
+
+![M1. Wikipedia: <https://en.wikipedia.org/wiki/Primary_motor_cortex>](https://upload.wikimedia.org/wikipedia/commons/c/c5/Blausen_0103_Brain_Sensory%26Motor.png)
+
+## Topgraphic organization {.scrollable}
+
+![Motor homunculus. Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Motor_homunculus.svg/1920px-Motor_homunculus.svg.png)
+
+## Key nodes
+
+- Non-primary motor cortex
+  - Supplemental motor area (SMA)
+  - Premotor cortex (PMC)
+  - Frontal eye fields (FEF)
+- Basal ganglia
+- Brain stem
+- Cerebellum
+- Spinal cord
+
+## Projection pathways
+
+- Pyramidal tracts/system
+- Extrapyramidal system
+
+## Pyramidal tracts/system {.scrollable}
+
+![Source: Wikipedia](../include/img/gray-corticospinal-tract.png)
+
+## Pyramidal tracts/system
+    
++ Pyramidal cells 
+  - Cerebral Cortex Layer 5 in primary motor cortex (M1)
++ Corticobulbar (cortex -> brainstem) tract
++ Corticospinal (cortex -> spinal cord) tract
+- Crossover (decussate) in medulla
+    + L side of brain ennervates R side of body
+
+
+
+---
+
+::: {.callout-note}
+- Anatomically separate ascending (afferent) and descending (efferent) pathways in the spinal cord.
+- Ascending (generally) more dorsal; descending more ventral.
+- White matter on exterior (unlike cerebral cortex).
+:::
+
+![Source: Wikipedia](https://upload.wikimedia.org/wikipedia/commons/b/be/Gray672.png)
+
+## Extrapyramidal system
+
++ [Tectospinal tract](https://en.wikipedia.org/wiki/Tectospinal_tract)
++ [Lateral Vestibulospinal tract](https://en.wikipedia.org/wiki/Lateral_vestibulospinal_tract)
++ [Reticulospinal tract](https://en.wikipedia.org/wiki/Reticular_formation#Descending_reticulospinal_tracts)
+- Rubrospinal tract
+- [Involuntary movements](https://en.wikipedia.org/wiki/Extrapyramidal_symptoms)
+    + Posture, balance, arousal
+    
+## Direct cortical control
+
+- Over *some* motor neurons
+- In humans; prevalence uncertain in other animals
+- For individuated ("fractionated") movements of fingers, toes, lips, but other muscles, too.
+
+## {.scrollable}
+
+![@Nielsen2016-hs Figure 1. Evidence of corticomotoneuronal connections in human subjects. Indirect, noninvasive evidence of the existence of monosynaptic connections between corticospinal neurons and spinal motoneurons may be obtained in awake human subjects by transcranial magnetic stimulation (TMS) (b,c) and coherence analysis of either cortical [electroencephalogram (EEG)] and muscular activity [electromyogram (EMG)] (d,e) or two separate recordings of muscular activity (f). (b,c) Corticospinal neurons can be excited by a brief magnetic pulse applied by a magnetic coil placed over the appropriate part of the motor cortex in awake human subjects. If the intensity of the magnetic pulse is adjusted appropriately, the evoked descending volley in the corticospinal tract may elicit a subthreshold excitatory postsynaptic potential (EPSP) in the relevant spinal motoneurons. This EPSP may be demonstrated as a change in the discharge probability of a single motor unit recorded from the muscle (b). In the illustrated example, the subject was asked to voluntarily activate the tibialis anterior (TA) muscle, and the discharges of a single motor unit were recorded by a needle electrode inserted into the muscle. TMS elicited a short-lasting (2-ms) increase of discharge probability at a latency of 45 ms (b). The short duration of this peak is consistent with the short rise time of a monosynaptic EPSP. This interpretation is further supported by the observation that stimulation of Ia afferents with known monosynaptic connections to the motoneurons elicits a peak with a similar short duration (c). Data in panels b and c modified with permission from Nielsen & Petersen (1994). (d,e) EEG recorded from the motor cortex and EMG recorded from a voluntarily activated muscle (TA in the illustrated example) show rhythmic modulation of the recorded activity at a frequency of 15–35 Hz. As shown from a coherence analysis of the two signals in panel d, some of this activity is common for the two sites, suggesting a close link between cortical and muscular activity. Panel e shows the EEG and EMG activities are not always synchronous but may show a time lag, which is in the range expected for a fast-conducting direct pathway to the motoneurons. Data in panels d and e modified with permission from Hansen et al. (2002). (f) A monosynaptic origin of corticomuscular coherence is further supported by the observation of short-term synchrony between the discharges of pairs of TA motor units, which may be related to the coherence in the 15–35-Hz frequency band. The subject was asked to voluntarily activate the TA muscle, and the discharges of two different TA motor units were recorded with needle electrodes. The short duration of the central peak of synchronization suggests that the motor unit activities are modulated by a common (monosynaptic) input from collaterals of last-order neurons, which are in all likelihood identical to corticomotoneuronal cells. The secondary peaks at lags of approximately 50–60 ms on either side of the central peak suggest that this last-order input modulates the discharge of the motor units at a frequency of about 20–30 Hz, i.e., corresponding to the coherence observed in the paired EEG-EMG recordings in panels b and c. Data in panel f modified with permission from Nielsen & Kagamihara (1994).](https://www.annualreviews.org/docserver/fulltext/neuro/39/1/ne390081.f1.gif)
+
 # Illustrative motor systems
+
+## Behavioral repertoires
+  
+- Looking
+- Locomotion
+- Reaching & grasping
+- Speaking
 
 ## Looking
 
@@ -592,19 +677,6 @@ flowchart TD
 
 :::
 
-## Reaching: Goals
-
-:::: {.columns}
-::: {.column width=50%}
-- Move hand (foot/mouth) to contact target
-- Avoid obstacles
-
-:::
-::: {.column width=50%}
-Content
-:::
-::::
-
 ## Locomotion: Goals
 
 :::: {.columns}
@@ -660,6 +732,19 @@ Content
 ## Or "rotational" patterns...{.scrollable}
 
 ![@Bagnall2022-vn](https://media.nature.com/lw767/magazine-assets/d41586-022-02238-1/d41586-022-02238-1_23580834.png?as=webp){width=70%}
+
+## Reaching: Goals
+
+:::: {.columns}
+::: {.column width=50%}
+- Move hand (foot/mouth) to contact target
+- Avoid obstacles
+
+:::
+::: {.column width=50%}
+Content
+:::
+::::
 
 ## Speech: Goals
 
