@@ -21,3 +21,6 @@ format:
       - embedio
   pptx: default
 lightbox: true
+knitr:
+  opts_chunk:
+    fig.path: include/fig/

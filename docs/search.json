@@ -228,7 +228,7 @@
     "href": "slides/wk-03-2026-01-29-action.html#animals-are-animate",
     "title": "Action",
     "section": "Animals are animate",
-    "text": "Animals are animate\n\n\n\nAnimal actions influence\n\nThe external world, \\(W\\)\nTheir own bodies, \\(B\\)\n\n\n\n\n\n\n\n\nflowchart TD\n  N[Nervous System] --&gt; B[Body]\n  B --&gt; W[World]"
+    "text": "Animals are animate\n\n\n\nActions influence\n\nThe external world, \\(W\\)\nTheir own bodies, \\(B\\)\n\n\n\n\n\n\n\n\nflowchart TD\n  N[Nervous System] --&gt; B[Body]\n  B --&gt; W[World]"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#what-actions-must-animals-perform",
@@ -242,7 +242,7 @@
     "href": "slides/wk-03-2026-01-29-action.html#behaviors",
     "title": "Action",
     "section": "Behaviors",
-    "text": "Behaviors\n\n\n\nOrienting\nMaintaining balance\nReaching & grasping\nLocomotion\n\n\n\nCommunication\nMating & caregiving\nIngestion & elimination"
+    "text": "Behaviors\n\n\n\nOrienting, info gathering\nMaintaining balance\nReaching & grasping\nLocomotion\n\n\n\nCommunication\nMating & caregiving\nIngestion & elimination"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#orienting",
@@ -291,21 +291,21 @@
     "href": "slides/wk-03-2026-01-29-action.html#eye-movements",
     "title": "Action",
     "section": "Eye movements",
-    "text": "Eye movements\n\nVoluntary\n\nSaccades\nSmooth pursuit\nVergence\n\nInvoluntary\n\nVestibulo-occular reflex (VOR)\nOptokinetic nystagmus\nAccommodation"
+    "text": "Eye movements\n\n\n\nVoluntary\n\nSaccades\nSmooth pursuit\nVergence\n\n\n\n\nInvoluntary\n\nVestibulo-occular reflex (VOR)\nOptokinetic nystagmus\nAccommodation"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#saccades",
     "href": "slides/wk-03-2026-01-29-action.html#saccades",
     "title": "Action",
     "section": "Saccades",
-    "text": "Saccades\n\n\n\nRapid, ballistic (no online feedback)\n~2-3/s\n~200 ms to initiate\nAmplitudes &gt;20 deg \\(\\rightarrow\\) saccade + head movement\n\n\n\n\n– Wikipedia contributors (2025)"
+    "text": "Saccades\n\n\n\nRapid, ballistic (no online feedback)\n~2-3/s\n~200 ms to initiate\nAmplitudes &gt;20 deg \\(\\rightarrow\\) saccade + head movement\n\n\n\n\n– Wikipedia contributors (2025b)"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#vergence",
     "href": "slides/wk-03-2026-01-29-action.html#vergence",
     "title": "Action",
     "section": "Vergence",
-    "text": "Vergence\n\n\n\nEyes move disjointly\nFixate on comparable locations\n\n\n\n\n\nCC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=74230"
+    "text": "Vergence\n\n\n\nEyes move disjointly\nFixate on comparable locations\nBinocular vision \\(\\rightarrow\\) 3D depth\n\n\n\n\n\nFarnsworth (2019)"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#vestibulo-occular-reflex-vor",
@@ -340,21 +340,21 @@
     "href": "slides/wk-03-2026-01-29-action.html#inputs-to-cn-iii",
     "title": "Action",
     "section": "Inputs to CN III",
-    "text": "Inputs to CN III\n\n\n\n\n\nflowchart TD\n  A[\"Frontal Eye Fields\"] --&gt;|\"Voluntary saccades\"| B((\"CN III\"))\n  C[\"Superior Colliculus\"] --&gt;|\"Reflexive saccades\"| B\n  D[\"Vestibular (CN VIII) n.\"] --&gt;|\"VOR\"|B\n  B --&gt; E[\"Superior rectus\"]\n  B --&gt; F[\"Inferior rectus\"]\n  B --&gt; G[\"Medial rectus\"]\n  B --&gt; H[\"Inferior oblique\"]\n  I[\"Parasympathetic NS\"] -.-&gt; B\n  B -.-&gt; J[\"Iris (pupillary) sphincter\"]"
+    "text": "Inputs to CN III\n\n\n\n\n\n\nflowchart TD\n  A[\"Frontal Eye Fields\"] --&gt;|\"Voluntary saccades\"| B((\"CN III\"))\n  C[\"Superior Colliculus\"] --&gt;|\"Reflexive saccades\"| B\n  D[\"Vestibular (CN VIII) n.\"] --&gt;|\"VOR\"|B\n  B --&gt; E[\"Superior rectus\"]\n  B --&gt; F[\"Inferior rectus\"]\n  B --&gt; G[\"Medial rectus\"]\n  B --&gt; H[\"Inferior oblique\"]\n  I[\"Parasympathetic NS\"] -.-&gt; B\n  B -.-&gt; J[\"Iris (pupillary) sphincter\"]\n\n\n\n\nFigure 4: Inputs to CN III."
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#considerations",
     "href": "slides/wk-03-2026-01-29-action.html#considerations",
     "title": "Action",
     "section": "Considerations",
-    "text": "Considerations\n\nAct to perceive; perceive to act\nProvide sensory feedback\n\nMove eyes \\(\\rightarrow\\) shift visual field\nChange vergence or lens thickness \\(\\rightarrow\\) change image focus\nEye muscles (probably) have proprioceptors analogous to spindles in skeletal muscles"
+    "text": "Considerations\n\nSensory feedback\n\nMove eyes \\(\\rightarrow\\) shift visual field\nChange vergence or lens thickness \\(\\rightarrow\\) change image focus\nEye muscles (probably) have proprioceptors analogous to spindles in skeletal muscles"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#considerations-1",
     "href": "slides/wk-03-2026-01-29-action.html#considerations-1",
     "title": "Action",
     "section": "Considerations",
-    "text": "Considerations\n\nRelatively simple physics:\n\nLimited influence of gravity, friction\n\nSmall # of muscles \\(\\rightarrow\\) “model” motor system?\nDEMO: Illustrates “forward” model?\n\nPredicting future sensory states"
+    "text": "Considerations\n\nRelatively simple physics:\n\nLimited influence of gravity, friction\n\nSmall # of muscles \\(\\rightarrow\\) “model” motor system?\nDEMO: Illustration of “forward”/generative model/unconscious inference?\n\nPredicting future/interpreting current sensory states\n\nConverging inputs: voluntary and involuntary control"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#reaching",
@@ -368,7 +368,7 @@
     "href": "slides/wk-03-2026-01-29-action.html#locomotion-1",
     "title": "Action",
     "section": "Locomotion",
-    "text": "Locomotion"
+    "text": "Locomotion\n\nBehavioral goals\n\nKeep balance\nSteer"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#speech",
@@ -403,7 +403,7 @@
     "href": "slides/wk-03-2026-01-29-action.html#references",
     "title": "Action",
     "section": "References",
-    "text": "References\n\n\n\n\nBress, K. S., & Cascio, C. J. (2024). Sensorimotor regulation of facial expression - an untouched frontier. Neuroscience and Biobehavioral Reviews, 162, 105684. https://doi.org/10.1016/j.neubiorev.2024.105684\n\n\nCullen, K. E. (2022, May 31). The neuroscience of balance. Retrieved January 5, 2026, from https://www.physoc.org/magazine-articles/the-neuroscience-of-balance/\n\n\nDi Caro, V., Cesari, P., Sala, F., & Cattaneo, L. (2025). The neural bases of the reach-grasp movement in humans: Quantitative evidence from brain lesions. Proceedings of the National Academy of Sciences of the United States of America, 122, e2419801122. https://doi.org/10.1073/pnas.2419801122\n\n\nGriffin, Z. M. (2024). Language production. In Open encyclopedia of cognitive science. MIT Press. https://doi.org/10.21428/e2759450.b076f599\n\n\nKhanna, A. R., Muñoz, W., Kim, Y. J., Kfir, Y., Paulk, A. C., Jamali, M., … Williams, Z. M. (2024). Single-neuronal elements of speech production in humans. Nature, 626, 603–610. https://doi.org/10.1038/s41586-023-06982-w\n\n\nKim, H. E., Avraham, G., & Ivry, R. B. (2021). The psychology of reaching: Action selection, movement implementation, and sensorimotor learning. Annual Review of Psychology, 72, 61–95. https://doi.org/10.1146/annurev-psych-010419-051053\n\n\nLocomotion. (n.d.). Retrieved January 5, 2026, from https://www.sciencedirect.com/topics/neuroscience/locomotion\n\n\nPurves, D., Augustine, G. J., Fitzpatrick, D., Katz, L. C., LaMantia, A.-S., McNamara, J. O., & Mark Williams, S. (2001). Spinal cord circuitry and locomotion. In Neuroscience. 2nd edition. Sinauer Associates. Retrieved from https://www.ncbi.nlm.nih.gov/books/NBK11015/\n\n\nQuote origin: “To be is to do” “to do is to be” “do be do be do.” (n.d.). Retrieved January 12, 2026, from https://quoteinvestigator.com/2013/09/16/do-be-do/\n\n\nReviews, B. &. T. (2012). I like to move it (original video) madagascar HD. YouTube. Retrieved from https://www.youtube.com/watch?v=hdcTmpvDO0I\n\n\nStanton, J. (2015). Optokinetic to the right for projection. YouTube. Retrieved from https://www.youtube.com/watch?v=CG5n516PCXM\n\n\nWikipedia contributors. (2025, December 19). Saccade. Retrieved from https://en.wikipedia.org/wiki/Saccade\n\n\nXing, D., Truccolo, W., & Borton, D. A. (2022). Emergence of distinct neural subspaces in motor cortical dynamics during volitional adjustments of ongoing locomotion. The Journal of Neuroscience: The Official Journal of the Society for Neuroscience, 42, 9142–9157. https://doi.org/10.1523/JNEUROSCI.0746-22.2022\n\n\nZada, Z., Nastase, S. A., Speer, S., Mwilambwe-Tshilobo, L., Tsoi, L., Burns, S. M., … Tamir, D. I. (2025). Linguistic coupling between neural systems for speech production and comprehension during real-time dyadic conversations. Neuron, 0. https://doi.org/10.1016/j.neuron.2025.11.004"
+    "text": "References\n\n\n\n\nBagnall, M. W. (2022). Neurons that control walking go round in circles. Nature, 610, 453–454. https://doi.org/10.1038/d41586-022-02238-1\n\n\nBlumberg, M. S., & Adolph, K. E. (2023). Infant action and cognition: What’s at stake? Trends in Cognitive Sciences, 27(8), 696–698. https://doi.org/10.1016/j.tics.2023.05.008\n\n\nBress, K. S., & Cascio, C. J. (2024). Sensorimotor regulation of facial expression - an untouched frontier. Neuroscience and Biobehavioral Reviews, 162, 105684. https://doi.org/10.1016/j.neubiorev.2024.105684\n\n\nCantú, H., Nantel, J., Millán, M., Paquette, C., & Côté, J. N. (2019). Abnormal muscle activity and variability before, during, and after the occurrence of freezing in parkinson’s disease. Frontiers in Neurology, 10, 951. https://doi.org/10.3389/fneur.2019.00951\n\n\nCullen, K. E. (2022, May 31). The neuroscience of balance. Retrieved January 5, 2026, from https://www.physoc.org/magazine-articles/the-neuroscience-of-balance/\n\n\nDi Caro, V., Cesari, P., Sala, F., & Cattaneo, L. (2025). The neural bases of the reach-grasp movement in humans: Quantitative evidence from brain lesions. Proceedings of the National Academy of Sciences of the United States of America, 122, e2419801122. https://doi.org/10.1073/pnas.2419801122\n\n\nFarnsworth, B. (2019, January 8). Eye movements explained: Understanding saccades, smooth pursuits, and fixations. Retrieved January 16, 2026, from https://imotions.com/blog/learning/best-practice/types-of-eye-movements/\n\n\nGriffin, Z. M. (2024). Language production. In Open encyclopedia of cognitive science. MIT Press. https://doi.org/10.21428/e2759450.b076f599\n\n\nKhanna, A. R., Muñoz, W., Kim, Y. J., Kfir, Y., Paulk, A. C., Jamali, M., … Williams, Z. M. (2024). Single-neuronal elements of speech production in humans. Nature, 626, 603–610. https://doi.org/10.1038/s41586-023-06982-w\n\n\nKim, H. E., Avraham, G., & Ivry, R. B. (2021). The psychology of reaching: Action selection, movement implementation, and sensorimotor learning. Annual Review of Psychology, 72, 61–95. https://doi.org/10.1146/annurev-psych-010419-051053\n\n\nLab., E. C. (2022). Triple inverted pendulum (transition control). YouTube. Retrieved from https://www.youtube.com/watch?v=Rh7JuL3PRSY\n\n\nLocomotion. (n.d.). Retrieved January 5, 2026, from https://www.sciencedirect.com/topics/neuroscience/locomotion\n\n\nMotion, M. A. (2024). Mastering balance: The science of center of gravity and base of support. Youtube. Retrieved from https://www.youtube.com/watch?v=5s1gEi5wfLg&t=11s\n\n\nPurves, D., Augustine, G. J., Fitzpatrick, D., Katz, L. C., LaMantia, A.-S., McNamara, J. O., & Mark Williams, S. (2001). Spinal cord circuitry and locomotion. In Neuroscience. 2nd edition. Sinauer Associates. Retrieved from https://www.ncbi.nlm.nih.gov/books/NBK11015/\n\n\nQuote origin: “To be is to do” “to do is to be” “do be do be do.” (n.d.). Retrieved January 12, 2026, from https://quoteinvestigator.com/2013/09/16/do-be-do/\n\n\nReviews, B. &. T. (2012). I like to move it (original video) madagascar HD. YouTube. Retrieved from https://www.youtube.com/watch?v=hdcTmpvDO0I\n\n\nSimonyan, K., Ackermann, H., Chang, E. F., & Greenlee, J. D. (2016). New developments in understanding the complexity of human speech production. The Journal of Neuroscience: The Official Journal of the Society for Neuroscience, 36, 11440–11448. https://doi.org/10.1523/JNEUROSCI.2424-16.2016\n\n\nStanton, J. (2015). Optokinetic to the right for projection. YouTube. Retrieved from https://www.youtube.com/watch?v=CG5n516PCXM\n\n\nWikipedia contributors. (2025a, August 30). Nerve conduction velocity. Retrieved from https://en.wikipedia.org/wiki/Nerve_conduction_velocity\n\n\nWikipedia contributors. (2025b, December 19). Saccade. Retrieved from https://en.wikipedia.org/wiki/Saccade\n\n\nWikipedia contributors. (2026, January 11). Articulatory phonetics. Retrieved from https://en.wikipedia.org/wiki/Articulatory_phonetics\n\n\nXing, D., Truccolo, W., & Borton, D. A. (2022). Emergence of distinct neural subspaces in motor cortical dynamics during volitional adjustments of ongoing locomotion. The Journal of Neuroscience: The Official Journal of the Society for Neuroscience, 42, 9142–9157. https://doi.org/10.1523/JNEUROSCI.0746-22.2022\n\n\nZada, Z., Nastase, S. A., Speer, S., Mwilambwe-Tshilobo, L., Tsoi, L., Burns, S. M., … Tamir, D. I. (2025). Linguistic coupling between neural systems for speech production and comprehension during real-time dyadic conversations. Neuron, 0. https://doi.org/10.1016/j.neuron.2025.11.004"
   },
   {
     "objectID": "slides/wk-01-2026-01-15-intro.html#prelude",
@@ -1635,5 +1635,278 @@
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "",
     "text": "– melodysheep (2011)\n\n\nIf understanding everything we need to know about the brain is a mile, how far have we walked?\n\n– National Geographic (2014)\n\n\n\n\nWhy neuroscience psychology is harder than physics\nCourse overview\nDoes neuroscience need behavior? Does behavioral science need the brain?"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#physics-of-balance",
+    "href": "slides/wk-03-2026-01-29-action.html#physics-of-balance",
+    "title": "Action",
+    "section": "Physics of balance",
+    "text": "Physics of balance\n\n\n\nBody ~ inverted pendulum\n\nInherently unstable\nRequires control\n\n\n\n\n– Lab. (2022)"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#physics-of-balance-1",
+    "href": "slides/wk-03-2026-01-29-action.html#physics-of-balance-1",
+    "title": "Action",
+    "section": "Physics of balance",
+    "text": "Physics of balance\n\n\n\nKeep Center of Mass (COM) within base of support\n\n\n\n– Motion (2024)"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#locomotion-goals",
+    "href": "slides/wk-03-2026-01-29-action.html#locomotion-goals",
+    "title": "Action",
+    "section": "Locomotion: Goals",
+    "text": "Locomotion: Goals\n\n\n\nKeep balance\nControl speed\nSteer\n\nToward\nAway"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#eye-movement-types",
+    "href": "slides/wk-03-2026-01-29-action.html#eye-movement-types",
+    "title": "Action",
+    "section": "Eye movement types",
+    "text": "Eye movement types\n\n\n\nVoluntary\n\nSaccades\nSmooth pursuit\nVergence\n\n\n\n\nInvoluntary\n\nVestibulo-occular reflex (VOR)\nOptokinetic nystagmus\nAccommodation"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#smooth-pursuit",
+    "href": "slides/wk-03-2026-01-29-action.html#smooth-pursuit",
+    "title": "Action",
+    "section": "Smooth pursuit",
+    "text": "Smooth pursuit\n\n\n\nFarnsworth (2019)"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#reaching-goals",
+    "href": "slides/wk-03-2026-01-29-action.html#reaching-goals",
+    "title": "Action",
+    "section": "Reaching: Goals",
+    "text": "Reaching: Goals\n\n\n\nMove hand (foot/mouth) to contact target\nAvoid obstacles\n\n\nContent"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#forward-locomotion",
+    "href": "slides/wk-03-2026-01-29-action.html#forward-locomotion",
+    "title": "Action",
+    "section": "Forward locomotion",
+    "text": "Forward locomotion\n\nRhythmic/periodic movement of limbs\n\nSequence of left/right leg flexions/extensions\n\narm swing\n\n\nhips/trunk/neck movements\n\n\nCentral pattern generators (CPG) in spinal cord?"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#speech-goals",
+    "href": "slides/wk-03-2026-01-29-action.html#speech-goals",
+    "title": "Action",
+    "section": "Speech: Goals",
+    "text": "Speech: Goals\n\nInvoluntary vs. voluntary\nVocalizations types\n\nLinguistic\nParalinguistic\n\nPitch, tone, rhythm, tempo, etc.\n\nNon-linguistic"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#components",
+    "href": "slides/wk-03-2026-01-29-action.html#components",
+    "title": "Action",
+    "section": "Components",
+    "text": "Components\n\nLips, tongue, mouth\nPharynx\nLarynx\nLungs"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#consonants",
+    "href": "slides/wk-03-2026-01-29-action.html#consonants",
+    "title": "Action",
+    "section": "Consonants",
+    "text": "Consonants\n\nPlace and manner of articulation\nVoicing\n\n“B” vs. “P”\n“D” vs. “T”\n“G” vs. “K”\n“Z” vs. “S”"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#or-rotational-patterns",
+    "href": "slides/wk-03-2026-01-29-action.html#or-rotational-patterns",
+    "title": "Action",
+    "section": "Or “rotational” patterns…",
+    "text": "Or “rotational” patterns…\n\n\n\nBagnall (2022)"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#interim-summary",
+    "href": "slides/wk-03-2026-01-29-action.html#interim-summary",
+    "title": "Action",
+    "section": "Interim summary",
+    "text": "Interim summary\n\nVoluntary movements involve contracting agonist or antagonist pairs of skeletal muscles\nSkeletal muscles have embedded sensors that detect length/tension\nCNS gets rapid feedback about muscle status\nMonosynaptic stretch (myotatic) reflexes maintain position stability"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#considerations-2",
+    "href": "slides/wk-03-2026-01-29-action.html#considerations-2",
+    "title": "Action",
+    "section": "Considerations",
+    "text": "Considerations\n\nHierarchical, parallel control\nSensory feedback\n\nVocal muscle stretch receptors\nAuditory\n\nVocal muscles like fingers\n\nLarge area of M1\nIndividuated control over"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#section",
+    "href": "slides/wk-03-2026-01-29-action.html#section",
+    "title": "Action",
+    "section": "",
+    "text": "(Cantú et al., 2019)"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#section-1",
+    "href": "slides/wk-03-2026-01-29-action.html#section-1",
+    "title": "Action",
+    "section": "",
+    "text": "Biological Psychology 4th ed."
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#section-2",
+    "href": "slides/wk-03-2026-01-29-action.html#section-2",
+    "title": "Action",
+    "section": "",
+    "text": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/pharynx"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#section-3",
+    "href": "slides/wk-03-2026-01-29-action.html#section-3",
+    "title": "Action",
+    "section": "",
+    "text": "By created by User:ish shwar (original .png deleted), .svg by Rohieb - sagittal section image based on Minifie et al. (1973:); articulation places are from Catford (1977), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1771968"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#section-4",
+    "href": "slides/wk-03-2026-01-29-action.html#section-4",
+    "title": "Action",
+    "section": "",
+    "text": "Simonyan et al. (2016) Figure 1"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#orienting-info-gathering",
+    "href": "slides/wk-03-2026-01-29-action.html#orienting-info-gathering",
+    "title": "Action",
+    "section": "Orienting, info gathering",
+    "text": "Orienting, info gathering\n\nEye movements\nHead movements\nActive touch\nSniffing & tasting"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#muscles-are-machines-that",
+    "href": "slides/wk-03-2026-01-29-action.html#muscles-are-machines-that",
+    "title": "Action",
+    "section": "Muscles are machines that",
+    "text": "Muscles are machines that\n\n\n\nGenerate forces in one direction\nInvoluntary\n\nCardiac & smooth\n\nVoluntary\n\nStriated\nSkeletal"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#anatomical-types",
+    "href": "slides/wk-03-2026-01-29-action.html#anatomical-types",
+    "title": "Action",
+    "section": "Anatomical types",
+    "text": "Anatomical types\n\nCardiac\nStriated (striped)\n\nSkeletal muscles\nVoluntary control, mostly connected to tendons and bones\n\nSmooth\n\nArteries, hair follicles, uterus, intestines\nRegulated by ANS (involuntary)"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#functional-classes",
+    "href": "slides/wk-03-2026-01-29-action.html#functional-classes",
+    "title": "Action",
+    "section": "Functional classes",
+    "text": "Functional classes\n\nAxial\n\nTrunk, neck, hips\n\nProximal\n\nShoulder/elbow, pelvis/knee\n\nDistal\n\nHands/fingers, feet/toes"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#agonistantagonist-pairs",
+    "href": "slides/wk-03-2026-01-29-action.html#agonistantagonist-pairs",
+    "title": "Action",
+    "section": "Agonist/antagonist pairs",
+    "text": "Agonist/antagonist pairs"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#skeletal-muscle-fiber-types",
+    "href": "slides/wk-03-2026-01-29-action.html#skeletal-muscle-fiber-types",
+    "title": "Action",
+    "section": "Skeletal muscle fiber types",
+    "text": "Skeletal muscle fiber types\n\n\n\nFast twitch/fatiguing\n\nType II\nWhite meat\n\nSlow twitch/fatiguing\n\nType I\nRed meat"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#muscles-are-sensory-organs",
+    "href": "slides/wk-03-2026-01-29-action.html#muscles-are-sensory-organs",
+    "title": "Action",
+    "section": "Muscles are sensory organs",
+    "text": "Muscles are sensory organs"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#two-skeletal-muscle-fiber-types",
+    "href": "slides/wk-03-2026-01-29-action.html#two-skeletal-muscle-fiber-types",
+    "title": "Action",
+    "section": "Two skeletal muscle fiber types",
+    "text": "Two skeletal muscle fiber types"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#intrafusal-fibers",
+    "href": "slides/wk-03-2026-01-29-action.html#intrafusal-fibers",
+    "title": "Action",
+    "section": "Intrafusal fibers",
+    "text": "Intrafusal fibers\n\nSense muscle length and change in length, e.g. “stretch”\nAlso called muscle spindles\nProvide muscle proprioception (perception about the self, a form of interoception)"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#extrafusal-fibers",
+    "href": "slides/wk-03-2026-01-29-action.html#extrafusal-fibers",
+    "title": "Action",
+    "section": "Extrafusal fibers",
+    "text": "Extrafusal fibers\n\nGenerate force\nEnnervated by alpha (\\(\\alpha\\)) motor neurons"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#monosynaptic-stretch-myotatic-reflex",
+    "href": "slides/wk-03-2026-01-29-action.html#monosynaptic-stretch-myotatic-reflex",
+    "title": "Action",
+    "section": "Monosynaptic stretch (myotatic) reflex",
+    "text": "Monosynaptic stretch (myotatic) reflex\n\nMuscle stretched (length increases)\nMuscle spindle in intrafusal fiber activates\nIa afferent \\(\\rightarrow\\) spinal cord\n\nActivates alpha (\\(\\alpha\\)) motor neuron\n\n\\(\\alpha\\) motor neuron activates extrafusal fiber\nMuscle contracts, shortens length"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#why-doesnt-antagonist-muscle-respond",
+    "href": "slides/wk-03-2026-01-29-action.html#why-doesnt-antagonist-muscle-respond",
+    "title": "Action",
+    "section": "Why doesn’t antagonist muscle respond?",
+    "text": "Why doesn’t antagonist muscle respond?\n\nContract bicep \\(\\rightarrow\\) stretch tricep\n\n\n\nPolysynaptic inhibition of antagonist muscle\nPrevents/dampens tremor"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#section-5",
+    "href": "slides/wk-03-2026-01-29-action.html#section-5",
+    "title": "Action",
+    "section": "",
+    "text": "flowchart TD\n  Z[\"Motor cortex\"] & Y[\"Periaqueductal gray\"] --&gt; A & C & E & G\n  A[\"CN XII Hypoglossal\"] --&gt; B[\"Tongue\"]\n  C[\"CN X Vagus\"] --&gt; D[\"Larynx\"]\n  E[\"CN VII Facial\"] --&gt; F[\"Lips & face\"]\n  G[\"CN IX Glossopharygeal\"] --&gt; H[\"Pharynx\"]\n\n\n\n\nFigure 5: Inputs to cranial nerve nuclei involved in speech from cortex and midbrain."
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#how-skeletal-muscles-contract",
+    "href": "slides/wk-03-2026-01-29-action.html#how-skeletal-muscles-contract",
+    "title": "Action",
+    "section": "How skeletal muscles contract",
+    "text": "How skeletal muscles contract\n\nMotor neurons (cell bodies located in ventral horn of spinal cord)\nProject to muscle fiber(s)\n\nMotor neuron + muscle fibers = motor unit\n\nForm neuromuscular junction\n\nSynapse between motor neuron and muscle fiber\nRelease acetylcholine (ACh)"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#section-6",
+    "href": "slides/wk-03-2026-01-29-action.html#section-6",
+    "title": "Action",
+    "section": "",
+    "text": "Simonyan et al. (2016) Figure 2"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#section-7",
+    "href": "slides/wk-03-2026-01-29-action.html#section-7",
+    "title": "Action",
+    "section": "",
+    "text": "Simonyan et al. (2016) Figure 2"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#muscles-are-sensory-organs-too",
+    "href": "slides/wk-03-2026-01-29-action.html#muscles-are-sensory-organs-too",
+    "title": "Action",
+    "section": "Muscles are sensory organs, too!",
+    "text": "Muscles are sensory organs, too!\n\n\n\nExtrafusal fibers generate force\nIntrafusal fibers contain stretch receptors\n\nSense muscle length/tension"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#intrafusal-fibers-1",
+    "href": "slides/wk-03-2026-01-29-action.html#intrafusal-fibers-1",
+    "title": "Action",
+    "section": "Intrafusal fibers",
+    "text": "Intrafusal fibers\n\nMuscle spindles are stretch receptors\n\nEnnervated by by primary Ia afferents (sensory output from muscle)\nSecondary Type II fibers\n\nMotor fiber\n\nEnnervated by gamma (\\(\\gamma\\)) motor neurons (motor input)"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#tuning-proprioceptive-feedback",
+    "href": "slides/wk-03-2026-01-29-action.html#tuning-proprioceptive-feedback",
+    "title": "Action",
+    "section": "“Tuning” proprioceptive feedback",
+    "text": "“Tuning” proprioceptive feedback\n\n\n\n\n\n\nDevelopmental orgins\n\n\nHow does the motor system “learn” the sensory consequences of muscle fiber contraction? Could spontaneous “twitches” be involved (Blumberg & Adolph, 2023)?\nThat is, higher levels of the nervous system learn the relationship between motor neuron output and spindle feedback."
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#speed",
+    "href": "slides/wk-03-2026-01-29-action.html#speed",
+    "title": "Action",
+    "section": "Speed",
+    "text": "Speed\n\n\n\n\\(\\alpha\\) motor neuron ~ 50-60 m/s\nIa afferents ~ 80-120 m/s\nBrain to toe or toe to brain: 15-30 ms\nWikipedia contributors (2025a)\n\n\n\n\n\nWikipedia contributors (2025a)"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#interim-summary-1",
+    "href": "slides/wk-03-2026-01-29-action.html#interim-summary-1",
+    "title": "Action",
+    "section": "Interim summary",
+    "text": "Interim summary\n\nMany (most?) behaviors involve multiple components\nParallel, coordinated outputs to multiple motor systems\nDirect cortical control over eyes, fingers, vocal apparatus\nFeedback critical, often multisensory\n\n\n\n\n\nBy The original uploader was Davigoli at English Wikipedia. - Transferred from en.wikipedia to Commons., https://at.or.at/hans/solitude/, GPLv2, https://commons.wikimedia.org/w/index.php?curid=3939703"
   }
 ]
