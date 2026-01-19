@@ -27,6 +27,80 @@ format:
 
 ## Warm-up
 
+---
+
+### The amygadala is found deep within which lobe of the cerebral cortex?
+
+- A. The occipital lobe
+- B. The frontal lobe
+- C. The insula
+- D. The temporal lobe
+
+---
+
+### The amygadala is found deep within which lobe of the cerebral cortex?
+
+- ~~A. The occipital lobe~~
+- ~~B. The frontal lobe~~
+- ~~C. The insula~~
+- **D. The temporal lobe**
+
+---
+
+![Cassidy2012-ue Figure 2](http://www.frontiersin.org/files/Articles/31697/fpsyg-03-00319-HTML/image_m/fpsyg-03-00319-g002.jpg)
+
+---
+
+:::: {.columns}
+::: {.column width=50%}
+### The middle image in A. depicts what plane of section?
+- A. Sagittal
+- B. Dorsal
+- C. Coronal
+- D. Horizontal
+:::
+::: {.column width=50%}
+![Cassidy2012-ue Figure 2](http://www.frontiersin.org/files/Articles/31697/fpsyg-03-00319-HTML/image_m/fpsyg-03-00319-g002.jpg)
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width=50%}
+### The middle image in A. depicts what plane of section?
+- ~~A. Sagittal~~
+- ~~B. Dorsal~~
+- C. Coronal
+- ~~D. Horizontal~~
+:::
+::: {.column width=50%}
+![Cassidy2012-ue Figure 2](http://www.frontiersin.org/files/Articles/31697/fpsyg-03-00319-HTML/image_m/fpsyg-03-00319-g002.jpg)
+:::
+::::
+
+---
+
+![Planes of section from http://www.scienceteacherprogram.org/](http://www.scienceteacherprogram.org/biology/chillemistudentguide1-06/brain_directions_planes_sections__directions_-_small.gif)
+
+---
+
+### Which division of the peripheral nervous system (PNS) ennervates the gastrointestinal tract?
+
+- A. Enteric
+- B. Cerebellum
+- C. Sympathetic
+- D. Parasympathetic
+
+---
+
+### Which division of the peripheral nervous system (PNS) ennervates the gastrointestinal tract?
+
+- **A. Enteric**
+- ~~B. Cerebellum~~
+- ~~C. Sympathetic~~
+- ~~D. Parasympathetic~~
+
 # On action
 
 ---
@@ -117,7 +191,9 @@ flowchart TD
 
 :::: {.columns}
 ::: {.column width=50%}
-- Nervous system *inputs* fall into two broad classes.
+- Nervous system *inputs* fall into two broad classes
+  - Exteroceptive (outside the body)
+  - Interoceptive
 
 :::
 ::: {.column width=50%}
@@ -133,6 +209,8 @@ flowchart TD
 
 ---
 
+### Schematic of input and output flows
+
 ```{mermaid}
 flowchart TD
   N[Nervous System] -- autonomic --> B[Body]
@@ -144,9 +222,15 @@ flowchart TD
   B --->|exteroception| N
 ```
 
-## What actions must animals perform?
 
-- Live long enough to reproduce
+---
+
+![@Favela2020-uc Figure 3](../include/img/wcs1525-fig-0003-m.jpg){width=35%}
+
+## Evolutionary perspective
+
+- What actions must animals perform?
+  - Live long enough to reproduce
 
 ---
 
@@ -162,13 +246,13 @@ flowchart TD
 - In other words...*behave*
 :::
 
-## Behaviors
+## Classes of behavior
 
 :::: {.columns}
 ::: {.column width=50%}
 - Orienting, info gathering
 - Maintaining balance
-- Reaching & grasping
+- Reaching, grasping, & manipulation
 - Locomotion
 :::
 ::: {.column width=50%}
@@ -462,8 +546,6 @@ That is, higher levels of the nervous system learn the relationship between moto
 - Crossover (decussate) in medulla
     + L side of brain ennervates R side of body
 
-
-
 ---
 
 ::: {.callout-note}
@@ -501,6 +583,20 @@ That is, higher levels of the nervous system learn the relationship between moto
 - Locomotion
 - Reaching & grasping
 - Speaking
+
+## Approach
+
+:::: {.columns}
+::: {.column width=50%}
+- Computation
+- Algorithm
+- Hardware
+- **Physics**
+:::
+::: {.column width=50%}
+![](../include/img/eyeball-physics.png)
+:::
+::::
 
 ## Looking
 
@@ -557,6 +653,10 @@ That is, higher levels of the nervous system learn the relationship between moto
 ::::
 
 -- @Wikipedia-contributors2025-mr
+
+---
+
+![https://www.tobii.com/resource-center/learn-articles/types-of-eye-movements](https://a.storyblok.com/f/149538/01b3d43e55/tobii-eye-movement-fovea.jpg/m/0x0:1500x1000/1200x0/filters:format(webp):quality(80))
 
 ## Smooth pursuit
 
@@ -620,6 +720,10 @@ That is, higher levels of the nervous system learn the relationship between moto
 ![By Greyson Orlando - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1451923](https://upload.wikimedia.org/wikipedia/commons/a/a3/Eye_dilate.gif)
 :::
 ::::
+
+## Eye muscles
+
+![By OpenStax College - Anatomy & Physiology, Connexions Web site. http://cnx.org/content/col11496/1.6/, Jun 19, 2013., CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=30147999](https://upload.wikimedia.org/wikipedia/commons/3/3b/1412_Extraocular_Muscles.jpg)
 
 ## Eye muscles
 
@@ -719,12 +823,23 @@ flowchart TD
 
 -- @Motion2024-rf
 
-## Forward locomotion
+## Locomotion: Physics
 
+:::: {.columns}
+::: {.column width=50%}
 - Rhythmic/periodic movement of limbs
   - Sequence of left/right leg flexions/extensions
   - + arm swing
   - + hips/trunk/neck movements
+- Legs, hips can be modeled as generalized spring-loaded inverted pendulum (G-SLIP)
+:::
+::: {.column width=50%}
+![@Lu2024-si](https://content.cld.iop.org/journals/1748-3190/19/2/026017/revision2/bbad2869f1_lr.jpg)
+:::
+::::
+
+## Locomotion: Neural signalling
+
 - Central pattern generators (CPG) in spinal cord?
 
 {{< video https://www.youtube.com/shorts/pxWIauT1WaM >}}
@@ -819,8 +934,8 @@ flowchart TD
 ## Interim summary
 
 - Many (most?) behaviors involve multiple components
-- Parallel, coordinated outputs to multiple motor systems
-- Direct cortical control over eyes, fingers, vocal apparatus
+- Parallel, coordinated, sequential outputs to multiple motor systems
+- Direct (cerebral) cortical control over muscles of eyes, fingers, vocal apparatus
 - Feedback critical, often multisensory
 
 ::: {.fragment}

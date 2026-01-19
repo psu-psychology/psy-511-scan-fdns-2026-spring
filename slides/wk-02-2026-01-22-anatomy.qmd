@@ -33,7 +33,7 @@ title: "Neuroanatomy"
 
 ## Why study?
 
--   Master basic vocabulary for reading literature
+- Master basic vocabulary for reading literature
 
 ## Computational perspective
 
@@ -71,9 +71,9 @@ flowchart TD
 
 ## Functional anatomy perspective
 
--   Located where
--   Connected to
--   Involved in
+- Located where
+- Connected to
+- Involved in
 
 ## Brain anatomy through dance
 
@@ -89,6 +89,10 @@ Your browser does not support the audio tag.
 - Superior/Inferior
 - Dorsal/Ventral
 - Rostral/Caudal
+
+## Planes of section
+
+![Planes of section from http://www.scienceteacherprogram.org/](http://www.scienceteacherprogram.org/biology/chillemistudentguide1-06/brain_directions_planes_sections__directions_-_small.gif)
 
 ## Nervous system
 
