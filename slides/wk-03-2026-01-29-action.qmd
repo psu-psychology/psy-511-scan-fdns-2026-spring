@@ -103,7 +103,7 @@ format:
 
 # On action
 
----
+## Why start with action?
 
 :::: {.columns}
 ::: {.column width=80%}
@@ -164,7 +164,13 @@ flowchart TD
 :::
 ::::
 
----
+## Animal movement a function of
+
+- Physics
+- Biology
+- Psychology
+
+## Movement one result of nervous system output
 
 :::: {.columns}
 ::: {.column width=50%}
@@ -212,6 +218,8 @@ flowchart TD
 ### Schematic of input and output flows
 
 ```{mermaid}
+%%| label: fig-input-output-flows
+%%| fig-cap: "Schematic of information flows into and out of the nervous system."
 flowchart TD
   N[Nervous System] -- autonomic --> B[Body]
   N -- somatic --> B
@@ -221,7 +229,6 @@ flowchart TD
   W --->|perception| B
   B --->|exteroception| N
 ```
-
 
 ---
 
@@ -245,6 +252,12 @@ flowchart TD
   - Ensure the well-being of offspring
 - In other words...*behave*
 :::
+
+## Movement is the real reason for brains
+
+{{< video https://www.youtube.com/watch?v=7s0CpRfyYp8 width=100% height=70% >}}
+
+-- @TED2011-oz
 
 ## Classes of behavior
 
@@ -466,6 +479,12 @@ C ==>|Secondary afferents|N
 - Prevents/dampens tremor
 :::
 
+## Example: Patellar reflex
+
+{{< video https://www.youtube.com/watch?v=DJLmVSeZ5-c width=100% height=70% >}}
+
+-- @Niu-Jin-Ji-Chu-Sheng-Wu-Xue-2021-mv
+
 ## "Tuning" proprioceptive feedback
 
 :::{.callout-important}
@@ -473,10 +492,10 @@ C ==>|Secondary afferents|N
 How does the motor system "learn" the sensory consequences of muscle fiber contraction?
 Could spontaneous "twitches" be involved [@Blumberg2023-ce]?
 
-That is, higher levels of the nervous system learn the relationship between motor neuron output and spindle feedback.
+That is, higher levels of the nervous system might learn the relationship between motor neuron output and spindle feedback from "random" activity.
 :::
 
-## Speed
+## Conduction speed
 
 :::: {.columns}
 ::: {.column width=50%}
@@ -490,11 +509,11 @@ That is, higher levels of the nervous system learn the relationship between moto
 :::
 ::::
 
-## Interim summary
+## How muscles work: Interim summary
 
-- Voluntary movements involve contracting agonist or antagonist pairs of skeletal muscles
+- Voluntary movements involve motor units causing contraction of agonist or antagonist pairs of skeletal muscles
 - Skeletal muscles have embedded sensors that detect length/tension
-- CNS gets rapid feedback about muscle status (proprioception)
+- CNS gets rapid feedback about muscle length/tension (proprioception)
 - Monosynaptic stretch (myotatic) reflexes maintain position stability
 
 # Controlling muscles
@@ -917,6 +936,12 @@ flowchart TD
   G["CN IX Glossopharygeal"] --> H["Pharynx"]
 ```
 
+## Example
+
+{{< video https://www.youtube.com/watch?v=4X4Fy8YqysY width=100% height=70% >}}
+
+-- @VideoCollectables2014-bw
+
 ## Considerations
 
 - Hierarchical, parallel control
@@ -931,12 +956,14 @@ flowchart TD
 
 ![@Simonyan2016-xr Figure 2](https://www.jneurosci.org/content/jneuro/36/45/11440/F2.large.jpg)
 
-## Interim summary
+## Illustrative motor systems: Interim summary
 
-- Many (most?) behaviors involve multiple components
+- Many (most?) behaviors involve sequences of
+  - looking/orienting + locomotion + reaching/manipulation + vocalization
 - Parallel, coordinated, sequential outputs to multiple motor systems
 - Direct (cerebral) cortical control over muscles of eyes, fingers, vocal apparatus
 - Feedback critical, often multisensory
+- NS exploits physics of body
 
 ::: {.fragment}
 

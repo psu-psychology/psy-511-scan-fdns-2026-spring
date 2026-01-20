@@ -1,0 +1,1885 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.24">
+
+  <meta name="author" content="Rick Gilmore">
+  <title>PSY 511.001 – Perception</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-a1e6b9f9a4c2299ae8b39f6a9fa80401.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Perception</h1>
+  <p class="subtitle">PSY 511.001 Spr 2026</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Rick Gilmore 
+</div>
+        <p class="quarto-title-affiliation">
+            Department of Psychology
+          </p>
+    </div>
+</div>
+
+</section>
+<section>
+<section id="overview" class="title-slide slide level1 center">
+<h1>Overview</h1>
+
+</section>
+<section id="prelude" class="slide level2">
+<h2>Prelude</h2>
+</section>
+<section id="announcements" class="slide level2">
+<h2>Announcements</h2>
+</section>
+<section id="todays-topics" class="slide level2">
+<h2>Today’s topics</h2>
+<ul>
+<li>The big picture</li>
+<li>Sensory processing</li>
+<li>Vision</li>
+<li>Somatosensation</li>
+</ul>
+</section>
+<section id="warm-up" class="slide level2">
+<h2>Warm-up</h2>
+</section></section>
+<section>
+<section id="the-big-picture" class="title-slide slide level1 center">
+<h1>The big picture</h1>
+
+</section>
+<section id="perceptionaction-systems" class="slide level2">
+<h2>Perception/action systems</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><a href="../include/fig/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="../include/fig/unnamed-chunk-1-1.png" width="960"></a></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://images-na.ssl-images-amazon.com/images/I/31fzXc46omL._SX312_BO1,204,203,200_.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="@Gibson1966-qo"><img data-src="https://images-na.ssl-images-amazon.com/images/I/31fzXc46omL._SX312_BO1,204,203,200_.jpg" alt="Gibson (1966)"></a></p>
+<figcaption><span class="citation" data-cites="Gibson1966-qo">Gibson (<a href="#/references" role="doc-biblioref" onclick="">1966</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="section" class="slide level2 scrollable">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/perception-action-cycle.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="../include/img/perception-action-cycle.jpg" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/swanson-book-fig-10.12.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="@swanson2012brain Figure 10.2"><img data-src="../include/img/swanson-book-fig-10.12.jpg" alt="Swanson (2012) Figure 10.2"></a></p>
+<figcaption><span class="citation" data-cites="swanson2012brain">Swanson (<a href="#/references" role="doc-biblioref" onclick="">2012</a>)</span> Figure 10.2</figcaption>
+</figure>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/swanson-2005-fig-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="@swanson2005anatomy Figure 1"><img data-src="../include/img/swanson-2005-fig-1.jpg" alt="Swanson (2005) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="swanson2005anatomy">Swanson (<a href="#/references" role="doc-biblioref" onclick="">2005</a>)</span> Figure 1</figcaption>
+</figure>
+</div>
+</section>
+<section id="multisensory-smartphones" class="slide level2">
+<h2>Multisensory smartphones</h2>
+<div class="columns">
+<div class="column" style="width:33%;">
+<ul>
+<li>Accelerometer</li>
+<li>Gyroscope</li>
+<li>Magnetometer</li>
+<li>Proximity sensor</li>
+<li>Ambient light sensor</li>
+</ul>
+</div><div class="column" style="width:33%;">
+<p><a href="https://www.mintmobile.com/wp-content/uploads/2025/08/CR17290_Mint-Google-Pixel-10-Image-Optimization_Pixel-10-INDIGO.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="https://www.mintmobile.com/wp-content/uploads/2025/08/CR17290_Mint-Google-Pixel-10-Image-Optimization_Pixel-10-INDIGO.png"></a></p>
+</div><div class="column" style="width:33%;">
+<ul>
+<li>Barometer</li>
+<li>Thermometer</li>
+<li>Mic</li>
+<li>Camera</li>
+<li>Radios (Bluetooth, wifi, cellular, GPS)</li>
+</ul>
+</div></div>
+</section>
+<section id="dimensions" class="slide level2">
+<h2>Dimensions</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Interoceptive
+<ul>
+<li>Body position, movement, posture</li>
+<li>Internal status</li>
+</ul></li>
+<li>Exteroceptive
+<ul>
+<li>Layout of environment, contents</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-input-output-flows" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-input-output-flows-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-input-output-flows">flowchart TD
+  N[Nervous System] -- autonomic --&gt; B[Body]
+  N -- somatic --&gt; B
+  N -- endocrine --&gt; B
+  B ---&gt;|interoception| N
+  B ---&gt;|action| W[World]
+  W ---&gt;|perception| B
+  B ---&gt;|exteroception| N
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-input-output-flows-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Schematic of information flows into and out of the nervous system.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="questions-for-interoception" class="slide level2">
+<h2>Questions for interoception</h2>
+<ul>
+<li>Tired or rested?</li>
+<li>Well or ill?</li>
+<li>Hungry or thirsty or sated?</li>
+<li>Stressed vs.&nbsp;coping?</li>
+<li>Emotional state?</li>
+</ul>
+</section>
+<section id="questions-for-exteroception" class="slide level2">
+<h2>Questions for exteroception</h2>
+<ul>
+<li>Who/What is out there?</li>
+<li>Animate/inanimate?
+<ul>
+<li>Conspecific (same species)/non?</li>
+<li>Threat/non?</li>
+<li>Familiar/un?</li>
+<li>Mate/non? or Friend/not?</li>
+<li>Food source/non</li>
+</ul></li>
+</ul>
+</section>
+<section id="questions-for-exteroception-1" class="slide level2">
+<h2>Questions for exteroception</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Where is it?
+<ul>
+<li>Distance
+<ul>
+<li>Proximal</li>
+<li>Distal</li>
+</ul></li>
+<li>Elevation, azimuth</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Coordinate frames
+<ul>
+<li>Self/ego (left of me)</li>
+<li>Object (top of object)</li>
+<li>Allo/world (North of College)</li>
+</ul></li>
+<li>Where moving?</li>
+</ul>
+</div></div>
+</section>
+<section id="causal-chains" class="slide level2">
+<h2>Causal chains</h2>
+<ul>
+<li class="fragment">Behaviorally relevant conditions, events, and entities…</li>
+<li class="fragment">Generate patterns…
+<ul>
+<li class="fragment">Chemical</li>
+<li class="fragment">Photic/electromagnetic</li>
+<li class="fragment">Mechanical/acoustic</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ul>
+<li>That specialized sensors detect, and</li>
+</ul>
+<ul>
+<li class="fragment">Neural circuitry responds to</li>
+<li class="fragment">That yield internal states (short- and long-term)</li>
+<li class="fragment">That cause actions</li>
+<li class="fragment">That cause perceptions…</li>
+</ul>
+</section></section>
+<section>
+<section id="sensory-processing" class="title-slide slide level1 center">
+<h1>Sensory Processing</h1>
+
+</section>
+<section id="physics-of-sensation" class="slide level2">
+<h2>Physics of sensation</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Informal name</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Vision</td>
+<td>Electromagnetic radiation</td>
+</tr>
+<tr class="even">
+<td>Audition</td>
+<td>Mechanical vibration in air/water</td>
+</tr>
+<tr class="odd">
+<td>Touch</td>
+<td>Mechanical vibration of skin on surface</td>
+</tr>
+<tr class="even">
+<td>Vestibular</td>
+<td>Rotation &amp; linear acceleration of head</td>
+</tr>
+<tr class="odd">
+<td>Olfaction</td>
+<td>Chemical patterns in air/water</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="physics-of-sensation-1" class="slide level2">
+<h2>Physics of sensation</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Informal name</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gustation</td>
+<td>Chemical patterns in mouth</td>
+</tr>
+<tr class="even">
+<td>Electroception</td>
+<td>Electromagnetic radiation</td>
+</tr>
+<tr class="odd">
+<td>Magnetoreception</td>
+<td>Electromagnetic radiation patterns</td>
+</tr>
+<tr class="even">
+<td>Kinesthesia</td>
+<td>Position, velocity, acceleration of limbs, body</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="from-phi-to-psi" class="slide level2">
+<h2>From <span class="math inline">\(\Phi\)</span> to <span class="math inline">\(\Psi\)</span></h2>
+<ul>
+<li>What is the energy/chemical channel?</li>
+<li>Channels carry different types of information about
+<ul>
+<li><em>What</em> is out there?</li>
+<li><em>Where</em> is it located or moving?</li>
+</ul></li>
+<li>Convey information at different rates, with varied precision</li>
+<li>Information often signaled by multiple sources</li>
+</ul>
+</section>
+<section id="example-vision" class="slide level2">
+<h2>Example: Vision</h2>
+<ul>
+<li>Source: Electromagnetic radiation
+<ul>
+<li>Reflected from surfaces</li>
+</ul></li>
+<li>What is it?
+<ul>
+<li>Shape, size, surface properties (color, texture, reflectance, etc.)</li>
+<li>Wavelength/frequency, intensity</li>
+</ul></li>
+</ul>
+</section>
+<section id="example-vision-1" class="slide level2">
+<h2>Example: Vision</h2>
+<ul>
+<li>Where is it?
+<ul>
+<li>Position: Left/right; up/down on retina</li>
+<li>Near/far: retinal disparity, interposition, height above horizon…</li>
+<li>Orientation, motion</li>
+</ul></li>
+</ul>
+</section>
+<section id="example-audition" class="slide level2">
+<h2>Example: Audition</h2>
+<ul>
+<li>Source: Mechanical vibrations in air or water</li>
+<li>What is it?
+<ul>
+<li>Pattern of frequencies, amplitudes, durations</li>
+</ul></li>
+<li>Where is it?
+<ul>
+<li>Left/right or up/down: Interaural time/phase, intensity differences, pinnae filtering</li>
+<li>Motion: Frequency shifts via Doppler effect</li>
+</ul></li>
+</ul>
+</section>
+<section id="example-chemosensation" class="slide level2">
+<h2>Example: Chemosensation</h2>
+<ul>
+<li>Source: Chemicals in mouth, nasal cavity</li>
+<li>What is it?
+<ul>
+<li>Mixtures of chemicals</li>
+</ul></li>
+<li>Where is it?
+<ul>
+<li>Left/right; up/down; near/far via intensity gradients</li>
+</ul></li>
+</ul>
+</section>
+<section id="somatosensation" class="slide level2">
+<h2>Somatosensation</h2>
+<ul>
+<li>Source: Thermal or mechanical stimulation (vibration/pressure) of skin</li>
+<li>What is it?
+<ul>
+<li>Shape, size, smoothness, mass, temperature, deformability: Pattern of stimulation</li>
+</ul></li>
+<li>Where it it?
+<ul>
+<li>Pattern of cutaneous receptors on skin</li>
+</ul></li>
+</ul>
+</section>
+<section id="interoception" class="slide level2">
+<h2>Interoception</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Hunger/thirst
+<ul>
+<li>Receptors for nutrient, fluid levels</li>
+</ul></li>
+<li>Energy levels
+<ul>
+<li>Receptors for hormones, NTs</li>
+<li>ANS responses</li>
+</ul></li>
+<li>Temperature
+<ul>
+<li>Receptors in skin, viscera</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="@Namkung2017-gc Figure 2"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr2.jpg" alt="Namkung, Kim, &amp; Sawa (2017) Figure 2"></a></p>
+<figcaption><span class="citation" data-cites="Namkung2017-gc">Namkung et al. (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span> Figure 2</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="interoception-1" class="slide level2">
+<h2>Interoception</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Mating interest
+<ul>
+<li>Receptors for hormones, NTs</li>
+<li>ANS responses</li>
+</ul></li>
+<li>Body position &amp; movement (proprioception)
+<ul>
+<li>Receptors in muscles, joints, skin</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="@Namkung2017-gc Figure 2"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr2.jpg" alt="Namkung et al. (2017) Figure 2"></a></p>
+<figcaption><span class="citation" data-cites="Namkung2017-gc">Namkung et al. (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span> Figure 2</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="section-1" class="slide level2 scrollable">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="@Namkung2017-gc Figure 2. Interoceptive Information and Its Integration with Emotional, Cognitive, and Motivational Signals from an Array of Cortical and Subcortical Regions. Interoceptive information of constantly changing body states arrives in the posterior insula by ascending sensory inputs from dedicated spinal and brainstem pathways via specific thalamic relays. This information is projected rostrally onto the anterior insula, where it is integrated with emotional, cognitive, and motivational signals from an array of cortical and subcortical regions. As a result, the anterior insula supports unique subjective feeling states. The anterior insula regulates the introduction of subjective feelings into cognitive and motivational processes by virtue of its cortical location at the cross-roads of numerous pathways involved in higher cognition and motivation. Abbreviations: AI, anterior insula; AMG, amygdala; dACC, dorsal anterior cingulate cortex; DLPFC, dorsolateral prefrontal cortex; PI, posterior insula; THAL, thalamus; VMPFC, ventromedial prefrontal cortex; VS, ventral striatum."><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr2.jpg" alt="Namkung et al. (2017) Figure 2. Interoceptive Information and Its Integration with Emotional, Cognitive, and Motivational Signals from an Array of Cortical and Subcortical Regions. Interoceptive information of constantly changing body states arrives in the posterior insula by ascending sensory inputs from dedicated spinal and brainstem pathways via specific thalamic relays. This information is projected rostrally onto the anterior insula, where it is integrated with emotional, cognitive, and motivational signals from an array of cortical and subcortical regions. As a result, the anterior insula supports unique subjective feeling states. The anterior insula regulates the introduction of subjective feelings into cognitive and motivational processes by virtue of its cortical location at the cross-roads of numerous pathways involved in higher cognition and motivation. Abbreviations: AI, anterior insula; AMG, amygdala; dACC, dorsal anterior cingulate cortex; DLPFC, dorsolateral prefrontal cortex; PI, posterior insula; THAL, thalamus; VMPFC, ventromedial prefrontal cortex; VS, ventral striatum."></a></p>
+<figcaption><span class="citation" data-cites="Namkung2017-gc">Namkung et al. (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span> Figure 2. Interoceptive Information and Its Integration with Emotional, Cognitive, and Motivational Signals from an Array of Cortical and Subcortical Regions. Interoceptive information of constantly changing body states arrives in the posterior insula by ascending sensory inputs from dedicated spinal and brainstem pathways via specific thalamic relays. This information is projected rostrally onto the anterior insula, where it is integrated with emotional, cognitive, and motivational signals from an array of cortical and subcortical regions. As a result, the anterior insula supports unique subjective feeling states. The anterior insula regulates the introduction of subjective feelings into cognitive and motivational processes by virtue of its cortical location at the cross-roads of numerous pathways involved in higher cognition and motivation. Abbreviations: AI, anterior insula; AMG, amygdala; dACC, dorsal anterior cingulate cortex; DLPFC, dorsolateral prefrontal cortex; PI, posterior insula; THAL, thalamus; VMPFC, ventromedial prefrontal cortex; VS, ventral striatum.</figcaption>
+</figure>
+</div>
+</section>
+<section id="features-of-sensory-signals" class="slide level2">
+<h2>Features of sensory signals</h2>
+</section>
+<section id="change-across-time" class="slide level2">
+<h2>Change across time</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Tonic (sustained) vs.&nbsp;phasic (transient) responses</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.researchgate.net/publication/51231510/figure/fig1/AS:202984857313285@1425406769897/Two-types-of-receptions-differing-by-the-rate-of-adaptation-to-the-dynamical-stimulus-A.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="https://www.researchgate.net/figure/Two-types-of-receptions-differing-by-the-rate-of-adaptation-to-the-dynamical-stimulus-A_fig1_51231510"><img data-src="https://www.researchgate.net/publication/51231510/figure/fig1/AS:202984857313285@1425406769897/Two-types-of-receptions-differing-by-the-rate-of-adaptation-to-the-dynamical-stimulus-A.png" alt="https://www.researchgate.net/figure/Two-types-of-receptions-differing-by-the-rate-of-adaptation-to-the-dynamical-stimulus-A_fig1_51231510"></a></p>
+<figcaption>https://www.researchgate.net/figure/Two-types-of-receptions-differing-by-the-rate-of-adaptation-to-the-dynamical-stimulus-A_fig1_51231510</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="change-across-time-1" class="slide level2">
+<h2>Change across time</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Adaptation/habituation</li>
+<li>Sensitization</li>
+<li>Most sensory systems attuned to change</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://images-provider.frontiersin.org/api/ipx/w=290&amp;f=webp/https://www.frontiersin.org/files/Articles/48488/fnbeh-07-00061-HTML/image_m/fnbeh-07-00061-g003.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="@Herman2013-uf Figure 3"><img data-src="https://images-provider.frontiersin.org/api/ipx/w=290&amp;f=webp/https://www.frontiersin.org/files/Articles/48488/fnbeh-07-00061-HTML/image_m/fnbeh-07-00061-g003.jpg" alt="Herman (2013) Figure 3"></a></p>
+<figcaption><span class="citation" data-cites="Herman2013-uf">Herman (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span> Figure 3</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="perception-not-linear" class="slide level2">
+<h2>Perception not linear</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Just noticeable difference (JND)
+<ul>
+<li>How much of a change is noticeable?</li>
+<li>Slope of psychophysical function</li>
+<li>JND a nonlinear function of absolute intensity</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><a href="https://www.psywww.com/intropsych/ch04-senses/04stevenscurves.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img data-src="https://www.psywww.com/intropsych/ch04-senses/04stevenscurves.jpg"></a></p>
+</div></div>
+</section>
+<section class="slide level2">
+
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Beyond JNDs</strong></p>
+</div>
+<div class="callout-content">
+<p>Are other types of self-reported intensity or magnitude non-linear?</p>
+<div class="fragment">
+<p>For example, “How happy are you on a scale from 1 to 5?”</p>
+<p>If so, what are the implications?</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="project-to-cns-at-different-speeds" class="slide level2">
+<h2>Project to CNS at different speeds</h2>
+<ul>
+<li>Bigger diameter axon fiber: Faster</li>
+<li>Thicker myelin sheath around axon: Faster</li>
+</ul>
+</section>
+<section id="repeating-signals-e.g.-patterns" class="slide level2">
+<h2>Repeating signals (e.g.&nbsp;patterns)</h2>
+<ul>
+<li>In space (textures)</li>
+<li>In time</li>
+</ul>
+</section>
+<section id="vision" class="slide level2">
+<h2>Vision</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://onlinelibrary.wiley.com/cms/asset/b8b78ab1-4a85-4add-86cb-d389fb0988b1/mnfr3528-fig-0001-m.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="@Roark2019-fx Figure 1"><img data-src="https://onlinelibrary.wiley.com/cms/asset/b8b78ab1-4a85-4add-86cb-d389fb0988b1/mnfr3528-fig-0001-m.jpg" alt="Roark &amp; Stringham (2019) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="Roark2019-fx">Roark &amp; Stringham (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span> Figure 1</figcaption>
+</figure>
+</div>
+</section>
+<section id="audition" class="slide level2">
+<h2>Audition</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/image-2-ft_orig.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="https://www.mwmresearchgroup.org/blog/key-concepts-fourier-transforms-and-signal-processing"><img data-src="../include/img/image-2-ft_orig.png" style="width:70.0%" alt="https://www.mwmresearchgroup.org/blog/key-concepts-fourier-transforms-and-signal-processing"></a></p>
+<figcaption>https://www.mwmresearchgroup.org/blog/key-concepts-fourier-transforms-and-signal-processing</figcaption>
+</figure>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-lower-freq" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-lower-freq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../include/fig/fig-lower-freq-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="Figure&nbsp;2: Lower frequency (20 Hz)"><img data-src="../include/fig/fig-lower-freq-1.png" width="960"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-lower-freq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Lower frequency (20 Hz)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-higher-freq" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-higher-freq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../include/fig/fig-higher-freq-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="Figure&nbsp;3: Higher frequency (45 Hz) with phase shift and 1.5x amplitude."><img data-src="../include/fig/fig-higher-freq-1.png" width="960"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-higher-freq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Higher frequency (45 Hz) with phase shift and 1.5x amplitude.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section class="slide level2">
+
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-sum-lower-higher-freq" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-sum-lower-higher-freq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../include/fig/fig-sum-lower-higher-freq-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="Figure&nbsp;4: Sum of lower and higher frequencies."><img data-src="../include/fig/fig-sum-lower-higher-freq-1.png" width="960"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sum-lower-higher-freq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Sum of lower and higher frequencies.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/c/c5/Spectrogram-19thC.png" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="By Aquegg - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=5544473"><img data-src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Spectrogram-19thC.png" alt="By Aquegg - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=5544473"></a></p>
+<figcaption>By Aquegg - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=5544473</figcaption>
+</figure>
+</div>
+</section>
+<section id="somatosensation-1" class="slide level2">
+<h2>Somatosensation</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.frontiersin.org/files/Articles/862344/fnhum-16-862344-HTML/image_m/fnhum-16-862344-g001.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="Figure 1 from https://www.frontiersin.org/articles/10.3389/fnhum.2022.862344/full"><img data-src="https://www.frontiersin.org/files/Articles/862344/fnhum-16-862344-HTML/image_m/fnhum-16-862344-g001.jpg" style="width:70.0%" alt="Figure 1 from https://www.frontiersin.org/articles/10.3389/fnhum.2022.862344/full"></a></p>
+<figcaption>Figure 1 from https://www.frontiersin.org/articles/10.3389/fnhum.2022.862344/full</figcaption>
+</figure>
+</div>
+</section>
+<section id="compare-1-sensors-located-in-different-parts-of-the-body" class="slide level2">
+<h2>Compare (&gt;1) sensors located in different parts of the body</h2>
+<ul>
+<li>Eyes</li>
+<li>Ears</li>
+<li>Skin surface</li>
+<li>Nostrils</li>
+<li>Tongue</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<p><a href="https://images.unsplash.com/photo-1519699486208-1293e479cb98?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img data-src="https://images.unsplash.com/photo-1519699486208-1293e479cb98?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80"></a></p>
+</section>
+<section id="receptive-fields" class="slide level2">
+<h2><a href="https://en.wikipedia.org/wiki/Receptive_field">“Receptive fields”</a></h2>
+<ul>
+<li>Area on sensory surface (e.g., retina, skin) that when stimulated changes neuron’s firing</li>
+</ul>
+</section>
+<section id="tactile-receptive-fields" class="slide level2">
+<h2>Tactile receptive fields</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://i.stack.imgur.com/br9Zo.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="https://www.nursinghero.com/study-guides/austincc-ap1/pain"><img data-src="https://i.stack.imgur.com/br9Zo.jpg" alt="https://www.nursinghero.com/study-guides/austincc-ap1/pain"></a></p>
+<figcaption>https://www.nursinghero.com/study-guides/austincc-ap1/pain</figcaption>
+</figure>
+</div>
+</section>
+<section id="visual-receptive-fields" class="slide level2">
+<h2>Visual receptive fields</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://openbooks.lib.msu.edu/app/uploads/sites/6/2021/03/RetinalReceptiveField.png" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="https://openbooks.lib.msu.edu/neuroscience/chapter/vision-the-retina/"><img data-src="https://openbooks.lib.msu.edu/app/uploads/sites/6/2021/03/RetinalReceptiveField.png" alt="https://openbooks.lib.msu.edu/neuroscience/chapter/vision-the-retina/"></a></p>
+<figcaption>https://openbooks.lib.msu.edu/neuroscience/chapter/vision-the-retina/</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/orientedRF-1024x602.png" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="https://foundationsofvision.stanford.edu/chapter-6-the-cortical-representation/"><img data-src="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/orientedRF-1024x602.png" alt="https://foundationsofvision.stanford.edu/chapter-6-the-cortical-representation/"></a></p>
+<figcaption>https://foundationsofvision.stanford.edu/chapter-6-the-cortical-representation/</figcaption>
+</figure>
+</div>
+</section>
+<section id="topographic-maps" class="slide level2">
+<h2>Topographic maps</h2>
+</section>
+<section id="auditory-tonotopic-maps" class="slide level2">
+<h2>Auditory: Tonotopic maps</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2830355/bin/nihms172043f3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2830355/"><img data-src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2830355/bin/nihms172043f3.jpg" alt="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2830355/"></a></p>
+<figcaption>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2830355/</figcaption>
+</figure>
+</div>
+</section>
+<section id="visual-retinotopic-maps" class="slide level2">
+<h2>Visual: Retinotopic maps</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://arvo.silverchair-cdn.com/arvo/content_public/journal/jov/933499/m_jov-3-10-1-fig001.jpeg?Expires=1712666457&amp;Signature=XlOZhjDHS06YKBtQLQWg5mlbK9qEaZNgrqDF2UhAJCnpfm8O5LlSnNbBmjTJ1Sd9Ky8q6MfrknY7gbQgFtyK-BmAkRNb0WaAylDNNiZUbkAYjYQuKlkvXkZQX1sPByx5TyRdQfNmu4XCiMfFTeltgAztX5VE7IIFQIWojSJpSD475nwDflQIn7Td69K5UoYe5IqHWDM510pVwEuJibdqd6tXxbum6etzqbhZh7SJ1qJfMo8vjzRRNd56uRHMoSk~bVHNvQNain~hOde-XSI094TuQlVDeYl8GUyNnU8MWNxf50ZyPtgwuo-bo8PksqCH9ez3fz2ORrPHLSbntp8-7g__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="@dougherty_visual_2003"><img data-src="https://arvo.silverchair-cdn.com/arvo/content_public/journal/jov/933499/m_jov-3-10-1-fig001.jpeg?Expires=1712666457&amp;Signature=XlOZhjDHS06YKBtQLQWg5mlbK9qEaZNgrqDF2UhAJCnpfm8O5LlSnNbBmjTJ1Sd9Ky8q6MfrknY7gbQgFtyK-BmAkRNb0WaAylDNNiZUbkAYjYQuKlkvXkZQX1sPByx5TyRdQfNmu4XCiMfFTeltgAztX5VE7IIFQIWojSJpSD475nwDflQIn7Td69K5UoYe5IqHWDM510pVwEuJibdqd6tXxbum6etzqbhZh7SJ1qJfMo8vjzRRNd56uRHMoSk~bVHNvQNain~hOde-XSI094TuQlVDeYl8GUyNnU8MWNxf50ZyPtgwuo-bo8PksqCH9ez3fz2ORrPHLSbntp8-7g__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Dougherty et al. (2003)"></a></p>
+<figcaption><span class="citation" data-cites="dougherty_visual_2003">Dougherty et al. (<a href="#/references" role="doc-biblioref" onclick="">2003</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section class="slide level2">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f2JMbo4BZqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</section>
+<section class="slide level2">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rsykP-9-moA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</section>
+<section id="somatosensory-somatotopic-maps-in-s1-m1" class="slide level2">
+<h2>Somatosensory: Somatotopic maps in S1 &amp; M1</h2>
+<p><a href="http://bio1152.nicerweb.com/Locked/media/ch49/49_16-MotorSensoryCorts-L.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-26"><img data-src="http://bio1152.nicerweb.com/Locked/media/ch49/49_16-MotorSensoryCorts-L.jpg"></a></p>
+</section>
+<section id="sensivity-non-uniform" class="slide level2">
+<h2>Sensivity non-uniform</h2>
+</section>
+<section id="two-point-touch-thresholds" class="slide level2">
+<h2>Two-point touch thresholds</h2>
+<p><a href="../include/img/two-point-thresholds.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-27"><img data-src="../include/img/two-point-thresholds.jpg"></a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t97QiEiKjD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</section>
+<section id="somatosensory-homunculus" class="slide level2">
+<h2>Somatosensory homunculus</h2>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/51/Front_of_Sensory_Homunculus.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-28"><img data-src="https://upload.wikimedia.org/wikipedia/commons/5/51/Front_of_Sensory_Homunculus.gif"></a></p>
+</section>
+<section id="visual-acuity-non-uniform" class="slide level2">
+<h2>Visual acuity non-uniform</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/AcuityHumanEye.svg/270px-AcuityHumanEye.svg.png" class="lightbox" data-gallery="quarto-lightbox-gallery-29" title="Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/AcuityHumanEye.svg/270px-AcuityHumanEye.svg.png" alt="Wikipedia"></a></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+</section>
+<section id="hearing-thresholds-non-uniform" class="slide level2">
+<h2>Hearing thresholds non-uniform</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="http://auditoryneuroscience.com/sites/default/files/inline-images/HLdata_0.png" class="lightbox" data-gallery="quarto-lightbox-gallery-30" title="http://auditoryneuroscience.com/"><img data-src="http://auditoryneuroscience.com/sites/default/files/inline-images/HLdata_0.png" alt="http://auditoryneuroscience.com/"></a></p>
+<figcaption>http://auditoryneuroscience.com/</figcaption>
+</figure>
+</div>
+</section>
+<section id="hierarchicalsequential-and-parallel" class="slide level2">
+<h2>Hierarchical/sequential AND parallel</h2>
+<p><a href="../include/img/swanson-11.4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-31"><img data-src="../include/img/swanson-11.4.jpg"></a></p>
+<p><a href="../include/img/biopsych-fig-5.5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-32"><img data-src="../include/img/biopsych-fig-5.5.jpg"></a></p>
+<p><a href="../include/img/biospsych-labeled-lines.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-33"><img data-src="../include/img/biospsych-labeled-lines.jpg"></a></p>
+</section>
+<section id="feedforward-and-feedback" class="slide level2">
+<h2>Feedforward and feedback</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><a href="../include/fig/unnamed-chunk-2-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-34"><img data-src="../include/fig/unnamed-chunk-2-1.png" width="960"></a></p>
+</figure>
+</div>
+</div>
+</div>
+</section></section>
+<section id="break" class="title-slide slide level1 center">
+<h1>Break</h1>
+
+</section>
+
+<section>
+<section id="vision-1" class="title-slide slide level1 center">
+<h1>Vision</h1>
+
+</section>
+<section id="animals-respond-to-visual-illusions-too" class="slide level2">
+<h2>Animals respond to visual illusions, too</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.illusionsindex.org/images/illusions/Rotating-Snakes/42_rotsnakes_main.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-35" title="https://www.illusionsindex.org/i/rotating-snakes"><img data-src="https://www.illusionsindex.org/images/illusions/Rotating-Snakes/42_rotsnakes_main.jpg" alt="https://www.illusionsindex.org/i/rotating-snakes"></a></p>
+<figcaption>https://www.illusionsindex.org/i/rotating-snakes</figcaption>
+</figure>
+</div>
+</section>
+<section id="a-cat-responds" class="slide level2">
+<h2>A cat responds…</h2>
+<p><a href="https://www.reddit.com/r/youseeingthisshit/comments/p9y7v1/the_reaction_of_the_cat_on_the_optical_illusion/?ref=share&amp;ref_source=embed&amp;utm_content=title&amp;utm_medium=post_embed&amp;utm_name=85f1a01593f447e092c5b300e5561d6e&amp;utm_source=embedly&amp;utm_term=p9y7v1" class="uri">https://www.reddit.com/r/youseeingthisshit/comments/p9y7v1/the_reaction_of_the_cat_on_the_optical_illusion/?ref=share&amp;ref_source=embed&amp;utm_content=title&amp;utm_medium=post_embed&amp;utm_name=85f1a01593f447e092c5b300e5561d6e&amp;utm_source=embedly&amp;utm_term=p9y7v1</a></p>
+</section>
+<section id="application-in-vr" class="slide level2">
+<h2>Application in VR</h2>
+<iframe data-external="1" src="https://www.youtube.com/embed/NPK8eQ4o8Pk" width="100%" height="70%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p>– <span class="citation" data-cites="ewakili2021-vh">ewakili (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span></p>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0168159121001258-gr4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-36" title="@Smith2021-ho Figure 4"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S0168159121001258-gr4.jpg" alt="Smith, Chouinard, &amp; Byosiere (2021) Figure 4"></a></p>
+<figcaption><span class="citation" data-cites="Smith2021-ho">Smith et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span> Figure 4</figcaption>
+</figure>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0168159121001258-gr5_lrg.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-37" title="@Smith2021-ho Figure 5"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S0168159121001258-gr5_lrg.jpg" alt="Smith et al. (2021) Figure 5"></a></p>
+<figcaption><span class="citation" data-cites="Smith2021-ho">Smith et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span> Figure 5</figcaption>
+</figure>
+</div>
+</section>
+<section id="properties-of-electromagnetic-em-radiation" class="slide level2">
+<h2>Properties of Electromagnetic (EM) radiation</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Wavelength/frequency</li>
+<li>Intensity</li>
+<li>Location/position of source</li>
+<li>Reflects off some materials</li>
+<li>Refracted (bent) moving through other materials</li>
+<li>Information across space (and time)</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/em-spectrum.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-38" title="http://en.wikipedia.org/wiki/File:EM_Spectrum_Properties_edit.svg"><img data-src="../include/img/em-spectrum.jpg" alt="http://en.wikipedia.org/wiki/File:EM_Spectrum_Properties_edit.svg"></a></p>
+<figcaption>http://en.wikipedia.org/wiki/File:EM_Spectrum_Properties_edit.svg</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/hud2014_1000c.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-39" title="http://apod.nasa.gov/apod/ap140605.html"><img data-src="../include/img/hud2014_1000c.jpg" alt="http://apod.nasa.gov/apod/ap140605.html"></a></p>
+<figcaption>http://apod.nasa.gov/apod/ap140605.html</figcaption>
+</figure>
+</div>
+<ul>
+<li>Light provides fast (2.99 million m/s; 186 million mi/hr) information about surfaces at a distance</li>
+<li>vs.&nbsp;sound (340 m/s; 767 mi/hr)</li>
+<li>vs.&nbsp;chemical signals (min/mi)</li>
+</ul>
+</section>
+<section id="reflectance-spectra-differ-by-surface" class="slide level2">
+<h2>Reflectance spectra differ by surface</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.researchgate.net/profile/Lise-Lyngsnes-Randeberg/publication/265397843/figure/fig8/AS:667691706773516@1536201516532/Reflectance-spectra-from-different-skin-types-measured-using-the-Ocean-Optics-SD-2000.png" class="lightbox" data-gallery="quarto-lightbox-gallery-40" title="@Randeberg2005-xn Figure 8"><img data-src="https://www.researchgate.net/profile/Lise-Lyngsnes-Randeberg/publication/265397843/figure/fig8/AS:667691706773516@1536201516532/Reflectance-spectra-from-different-skin-types-measured-using-the-Ocean-Optics-SD-2000.png" alt="Randeberg (2005) Figure 8"></a></p>
+<figcaption><span class="citation" data-cites="Randeberg2005-xn">Randeberg (<a href="#/references" role="doc-biblioref" onclick="">2005</a>)</span> Figure 8</figcaption>
+</figure>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/reflectance-spectrum.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-41" title="http://http://www.vgt.vito.be/userguide/book_1/4/42/ie42bd.gif"><img data-src="../include/img/reflectance-spectrum.gif" alt="http://http://www.vgt.vito.be/userguide/book_1/4/42/ie42bd.gif"></a></p>
+<figcaption>http://http://www.vgt.vito.be/userguide/book_1/4/42/ie42bd.gif</figcaption>
+</figure>
+</div>
+</section>
+<section id="optic-array-specifies-geometry-of-environment" class="slide level2">
+<h2><a href="https://en.wikipedia.org/wiki/Ambient_optic_array">Optic array</a> specifies geometry of environment</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/OpticArray.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-42" title="Gibson"><img data-src="../include/img/OpticArray.jpg" alt="Gibson"></a></p>
+<figcaption>Gibson</figcaption>
+</figure>
+</div>
+</section>
+<section id="categories-of-wavelength-specify-perception-of-color" class="slide level2">
+<h2>Categories of wavelength specify perception of color</h2>
+<ul>
+<li>Eyes categorize wavelength into relative intensities within wavelength bands</li>
+<li>RGB ~ <span class="red"><strong>R</strong>ed</span>, <span class="green"><strong>G</strong>reen</span>, <span class="blue"><strong>B</strong>lue</span>
+<ul>
+<li>Long, medium, short wavelengths</li>
+</ul></li>
+<li><em>Color is a neural/psychological construct</em></li>
+</ul>
+<p><a href="../include/img/rgb-monitor.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-43"><img data-src="../include/img/rgb-monitor.jpg"></a></p>
+</section>
+<section id="the-biological-camera" class="slide level2">
+<h2>The biological camera</h2>
+<p><a href="../include/img/how-camera-works.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-44"><img data-src="../include/img/how-camera-works.jpg"></a></p>
+<p><a href="../include/img/the-eye-ksj.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-45"><img data-src="../include/img/the-eye-ksj.jpg"></a></p>
+<p><a href="../include/img/the-eye.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-46"><img data-src="../include/img/the-eye.jpg"></a></p>
+</section>
+<section id="part-of-a-self-stabilizing-system" class="slide level2">
+<h2>part of a self-stabilizing system…</h2>
+<!-- Kestrel showing image stabilization -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JGArTWOJtXs?start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+<p><a href="https://www.youtube.com/embed/JGArTWOJtXs" class="uri">https://www.youtube.com/embed/JGArTWOJtXs</a></p>
+</section>
+<section id="parts-of-the-eye" class="slide level2">
+<h2>Parts of the eye</h2>
+<ul>
+<li><em>Cornea</em> - refraction (2/3 of total)</li>
+<li><em>Pupil</em> - light intensity; diameter regulated by Iris.</li>
+<li><em>Lens</em> - refraction (remaining 1/3; focus)</li>
+<li><em>Retina</em> - light detection
+<ul>
+<li>~ skin or organ of Corti in inner ear</li>
+</ul></li>
+<li><em>Pigment epithelium</em> - regenerate photopigment</li>
+<li><em>Muscles</em> - move eye, reshape lens, change pupil diameter</li>
+</ul>
+</section>
+<section id="geometry-of-retinal-image" class="slide level2">
+<h2>Geometry of retinal image</h2>
+<ul>
+<li>Image inverted (up/down)</li>
+<li>Image reversed (left/right)</li>
+<li>Point-to-point map (<em>retinotopic</em>)</li>
+<li>Binocular and monocular zones</li>
+</ul>
+<p><a href="../include/img/retinal-image.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-47"><img data-src="../include/img/retinal-image.jpg"></a></p>
+<p><a href="../include/img/visual-fields.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-48"><img data-src="../include/img/visual-fields.jpg"></a></p>
+</section>
+<section id="the-fovea" class="slide level2">
+<h2>The <em>fovea</em></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/fovea.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-49" title="http://www.brainhq.com/sites/default/files/fovea.jpg"><img data-src="../include/img/fovea.jpg" alt="http://www.brainhq.com/sites/default/files/fovea.jpg"></a></p>
+<figcaption>http://www.brainhq.com/sites/default/files/fovea.jpg</figcaption>
+</figure>
+</div>
+<ul>
+<li>Central 1-2 deg of visual field</li>
+<li>Aligned with visual axis</li>
+<li><em>Retinal ganglion cells</em> pushed aside</li>
+<li>Highest <em>acuity</em> vision == best for details</li>
+<li>Acuity varies from center to periphery</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<p><a href="../include/img/acuity-across-visual-field.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-50"><img data-src="../include/img/acuity-across-visual-field.jpg"></a></p>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/acuity-across-visual-field-graph.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-51" title="http://michaeldmann.net/pix_7/blndspot.gif"><img data-src="../include/img/acuity-across-visual-field-graph.jpg" alt="http://michaeldmann.net/pix_7/blndspot.gif"></a></p>
+<figcaption>http://michaeldmann.net/pix_7/blndspot.gif</figcaption>
+</figure>
+</div>
+</section>
+<section id="what-part-of-the-skin-is-like-the-fovea" class="slide level2">
+<h2>What part of the skin is like the fovea?</h2>
+<p><a href="../include/img/two-point-thresholds.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-52"><img data-src="../include/img/two-point-thresholds.jpg"></a></p>
+</section>
+<section id="photoreceptors-in-retina-detect-light" class="slide level2">
+<h2><em>Photoreceptors</em> in retina detect light</h2>
+<p><a href="../include/img/photoreceptors.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-53"><img data-src="../include/img/photoreceptors.jpg"></a></p>
+</section>
+<section class="slide level2">
+
+<ul>
+<li><em>Rods</em>
+<ul>
+<li>~120 M/eye</li>
+<li>Mostly in periphery</li>
+<li>Active in low light conditions</li>
+<li>One wavelength range</li>
+</ul></li>
+<li><em>Cones</em>
+<ul>
+<li>~5 M/eye</li>
+<li>Mostly in center</li>
+<li>3 wavelength ranges</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/rod.cone_.distribution2-1024x467.png" class="lightbox" data-gallery="quarto-lightbox-gallery-54" title="https://foundationsofvision.stanford.edu/"><img data-src="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/rod.cone_.distribution2-1024x467.png" alt="https://foundationsofvision.stanford.edu/"></a></p>
+<figcaption>https://foundationsofvision.stanford.edu/</figcaption>
+</figure>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/1416_Color_Sensitivity.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-55" title="http://cnx.org/content/col11496/1.6/"><img data-src="../include/img/1416_Color_Sensitivity.jpg" alt="http://cnx.org/content/col11496/1.6/"></a></p>
+<figcaption>http://cnx.org/content/col11496/1.6/</figcaption>
+</figure>
+</div>
+</section>
+<section id="photoreceptor-physiology" class="slide level2">
+<h2>Photoreceptor physiology</h2>
+<ul>
+<li>Outer segment
+<ul>
+<li>Membrane disks</li>
+<li><em>Photopigments</em>
+<ul>
+<li>Sense light, trigger chemical cascade</li>
+</ul></li>
+</ul></li>
+<li>Inner segment
+<ul>
+<li>Synaptic terminal</li>
+</ul></li>
+<li>Light <em>hyperpolarizes</em> photoreceptor!
+<ul>
+<li>The <em>dark current</em></li>
+</ul></li>
+</ul>
+</section>
+<section id="retina" class="slide level2">
+<h2>Retina</h2>
+<ul>
+<li>Physiologically <em>backwards</em>
+<ul>
+<li><span class="red">Dark current</span></li>
+</ul></li>
+<li>Anatomically <em>inside-out</em>
+<ul>
+<li><span class="red">Photoreceptors at back of eye</span></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/retinal-layers.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-56" title="http://www.retinareference.com/anatomy/"><img data-src="../include/img/retinal-layers.jpg" alt="http://www.retinareference.com/anatomy/"></a></p>
+<figcaption>http://www.retinareference.com/anatomy/</figcaption>
+</figure>
+</div>
+</section>
+<section id="retina-1" class="slide level2">
+<h2>Retina</h2>
+<ul>
+<li>Information flows…
+<ul>
+<li>From photoreceptors…</li>
+<li>To <em>Bipolar cells</em>
+<ul>
+<li>&lt;-&gt; and <em>Horizontal cells</em></li>
+</ul></li>
+<li>To <em>Retinal ganglion cells</em>
+<ul>
+<li>&lt;-&gt; and <em>Amacrine cells</em></li>
+</ul></li>
+<li>To cerebral cortex</li>
+</ul></li>
+</ul>
+</section>
+<section id="center-surround-receptive-fields" class="slide level2">
+<h2>Center-surround receptive fields</h2>
+<p><a href="../include/img/on-center-off-center-receptive-fields.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-57"><img data-src="../include/img/on-center-off-center-receptive-fields.jpg"></a></p>
+<ul>
+<li>Center region
+<ul>
+<li>Excites (or inhibits)</li>
+</ul></li>
+<li>Surround region
+<ul>
+<li>Does the opposite</li>
+</ul></li>
+<li>Bipolar cells &amp; Retinal Ganglion cells -&gt;</li>
+<li>Most activated by “donuts” of light/dark
+<ul>
+<li>Local contrast (light/dark differences)</li>
+</ul></li>
+</ul>
+</section>
+<section id="opponent-processing" class="slide level2">
+<h2>Opponent processing</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/RGBOpponent.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-58" title="http://www.visualexpert.com/sbfaqimages/RGBOpponent.gif"><img data-src="../include/img/RGBOpponent.gif" alt="http://www.visualexpert.com/sbfaqimages/RGBOpponent.gif"></a></p>
+<figcaption>http://www.visualexpert.com/sbfaqimages/RGBOpponent.gif</figcaption>
+</figure>
+</div>
+<ul>
+<li>Black (darker) vs.&nbsp;white (lighter) (achromatic)</li>
+<li>Long (red) vs.&nbsp;Medium (green) wavelength cones</li>
+<li>(Long + Medium) vs.&nbsp;Short cones</li>
+<li>Can’t really see reddish-green or bluish-yellow
+<ul>
+<li>“Oppose” one another at cellular/circuit level</li>
+<li><a href="reddish-green.html">DEMO</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="from-eye-to-brain" class="slide level2">
+<h2>From eye to brain</h2>
+<p><a href="../include/img/eye-to-brain.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-59"><img data-src="../include/img/eye-to-brain.jpg"></a></p>
+<ul>
+<li>Retinal ganglion cells</li>
+<li>2nd/II cranial (optic) nerve
+<ul>
+<li>Optic chiasm (<span class="math inline">\(\chi\)</span> - asm): Partial crossing of fibers</li>
+<li>Nasal hemiretina (lateral/peripheral visual field) cross</li>
+<li>Left visual field (from L &amp; R retinae) -&gt; right hemisphere &amp; vice versa</li>
+</ul></li>
+<li><em>Lateral Geniculate Nucleus (LGN)</em> of thalamus (receives 90% of retinal projections)</li>
+<li>Hypothalamus
+<ul>
+<li><em>Suprachiasmatic nucleus</em> (superior to the optic chiasm): Synchronizes day/night cycle with circadian rhythms</li>
+</ul></li>
+<li>Superior colliculus &amp; brainstem</li>
+</ul>
+</section>
+<section id="lgn" class="slide level2">
+<h2>LGN</h2>
+<p><a href="../include/img/lgn.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-60"><img data-src="../include/img/lgn.jpg"></a></p>
+<ul>
+<li>6 layers + intralaminar zone
+<ul>
+<li>Parvocellular (small cells): chromatic</li>
+<li>Magnocellular (big cells): achromatic</li>
+<li>Koniocellular (chromatic - <span color="blue">short</span> wavelength?)</li>
+</ul></li>
+<li>Retinotopic map of opposite visual field</li>
+</ul>
+<h4 id="from-lgn-to-v1">From LGN to V1</h4>
+<p><a href="../include/img/eye-to-brain.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-61"><img data-src="../include/img/eye-to-brain.jpg"></a></p>
+<ul>
+<li>Via <em>optic radiations</em></li>
+<li><em><a href="http://www.scholarpedia.org/article/Area_V1">Primary visual cortex (V1)</a></em> in occipital lobe</li>
+<li>Create “stria of Gennari” (visible stripe in layer 4)</li>
+<li>Calcarine fissure (medial occiptal lobe) divides lower/upper visual field</li>
+</ul>
+</section>
+<section id="human-v1" class="slide level2">
+<h2>Human V1</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="http://www.scholarpedia.org/w/images/3/3a/03-Human-V1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-62" title="http://www.scholarpedia.org/w/images/3/3a/03-Human-V1.png"><img data-src="http://www.scholarpedia.org/w/images/3/3a/03-Human-V1.png" alt="http://www.scholarpedia.org/w/images/3/3a/03-Human-V1.png"></a></p>
+<figcaption>http://www.scholarpedia.org/w/images/3/3a/03-Human-V1.png</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/mri-v1-retinotopy.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-63" title="[@dougherty_visual_2003]"><img data-src="../include/img/mri-v1-retinotopy.jpg" alt="(Dougherty et al., 2003)"></a></p>
+<figcaption><span class="citation" data-cites="dougherty_visual_2003">(<a href="#/references" role="doc-biblioref" onclick="">Dougherty et al., 2003</a>)</span></figcaption>
+</figure>
+</div>
+<ul>
+<li>Fovea overrepresented
+<ul>
+<li>Analogous to somatosensation</li>
+<li>High acuity in fovea vs.&nbsp;lower outside it</li>
+</ul></li>
+<li>Upper visual field/lower (ventral) V1 and <em>vice versa</em></li>
+</ul>
+</section>
+<section id="laminar-columnar-organization" class="slide level2">
+<h2>Laminar, columnar organization</h2>
+<p><a href="../include/img/cortical-hypercolumn.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-64"><img data-src="../include/img/cortical-hypercolumn.jpg"></a></p>
+<ul>
+<li>6 laminae (layers)
+<ul>
+<li>Input: Layer 4 (remember stria of Gennari?)</li>
+<li>Output: Layers 2-3 (to cortex), 5 (to brainstem), 6 (to LGN)</li>
+</ul></li>
+<li>Columns
+<ul>
+<li>Orientation/angle</li>
+<li>Spatial frequency</li>
+<li>Color/wavelength</li>
+<li>Eye of origin, <em>ocular dominance</em></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IOHayh06LJ4" frameborder="0" allowfullscreen="">
+</iframe>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/dir.selective.png" class="lightbox" data-gallery="quarto-lightbox-gallery-65" title="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/dir.selective.png"><img data-src="../include/img/dir.selective.png" alt="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/dir.selective.png"></a></p>
+<figcaption>https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/dir.selective.png</figcaption>
+</figure>
+</div>
+</section>
+<section id="from-center-surround-receptive-fields-to-line-detection" class="slide level2">
+<h2>From center-surround receptive fields to line detection</h2>
+<p><a href="http://www.scholarpedia.org/w/images/9/99/11-Hubel-Wiesel-model.png" class="lightbox" data-gallery="quarto-lightbox-gallery-66"><img data-src="http://www.scholarpedia.org/w/images/9/99/11-Hubel-Wiesel-model.png"></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/spatial-freq-fpsyg-03-00620-g003.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-67" title="[@panichello_predictive_2013]"><img data-src="../include/img/spatial-freq-fpsyg-03-00620-g003.jpg" alt="(Panichello, Cheung, &amp; Bar, 2013)"></a></p>
+<figcaption><span class="citation" data-cites="panichello_predictive_2013">(<a href="#/references" role="doc-biblioref" onclick="">Panichello et al., 2013</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="ocular-dominance-columns" class="slide level2">
+<h2>Ocular dominance columns</h2>
+<p><a href="../include/img/cortical-hypercolumn.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-68"><img data-src="../include/img/cortical-hypercolumn.jpg"></a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KjAQdc29vF8" frameborder="0" allowfullscreen="">
+</iframe>
+</section>
+<section id="beyond-v1" class="slide level2">
+<h2>Beyond V1</h2>
+<p><a href="../include/img/beyond-v1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-69"><img data-src="../include/img/beyond-v1.jpg"></a></p>
+<ul>
+<li>Larger, more complex receptive fields</li>
+<li><em>Dorsal stream</em> (where/how)
+<ul>
+<li>Toward parietal lobe</li>
+</ul></li>
+<li><em>Ventral stream</em> (what)</li>
+</ul>
+</section>
+<section id="what-is-vision-for" class="slide level2">
+<h2>What is vision for?</h2>
+<ul>
+<li>What is it? (form perception)</li>
+<li>Where is it? (space perception)</li>
+<li>How do I get from here to there (action control)</li>
+<li>What time (or time of year) is it?</li>
+</ul>
+</section></section>
+<section id="somatosensation-2" class="title-slide slide level1 center">
+<h1>Somatosensation</h1>
+
+</section>
+
+<section>
+<section id="wrap-up" class="title-slide slide level1 center">
+<h1>Wrap-up</h1>
+
+</section>
+<section id="main-points" class="slide level2">
+<h2>Main points</h2>
+</section>
+<section id="next-time" class="slide level2">
+<h2>Next time</h2>
+</section></section>
+<section>
+<section id="resources" class="title-slide slide level1 center">
+<h1>Resources</h1>
+
+</section>
+<section id="about" class="slide level2">
+<h2>About</h2>
+<p>This talk was produced using <a href="https://quarto.org">Quarto</a>, using the <a href="https://posit.co/products/open-source/rstudio/">RStudio</a> Integrated Development Environment (IDE), version 2026.1.0.392.</p>
+<p>The source files are in R and R Markdown, then rendered to HTML using the <a href="https://revealjs.com">revealJS</a> framework. The HTML slides are hosted in a <a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring">GitHub repo</a> and served by GitHub pages: <a href="https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/" class="uri">https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/</a></p>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-dougherty_visual_2003" class="csl-entry" role="listitem">
+Dougherty, R. F., Koch, V. M., Brewer, A. A., Fischer, B., Modersitzki, J., &amp; Wandell, B. A. (2003). Visual field representations and locations of visual areas <span>V</span>1/2/3 in human visual cortex. <em>Journal of Vision</em>, <em>3</em>(10), 1–1. <a href="https://doi.org/10.1167/3.10.1">https://doi.org/10.1167/3.10.1</a>
+</div>
+<div id="ref-ewakili2021-vh" class="csl-entry" role="listitem">
+ewakili. (2021). <em>Foveated rendering shown by meta’s oculus, reducing compute load by 95%</em>. Youtube. Retrieved from <a href="https://www.youtube.com/watch?v=NPK8eQ4o8Pk">https://www.youtube.com/watch?v=NPK8eQ4o8Pk</a>
+</div>
+<div id="ref-Gibson1966-qo" class="csl-entry" role="listitem">
+Gibson, J. J. (1966). <em>The senses considered as perceptual systems</em>. doi.apa.org. Retrieved from <a href="http://doi.apa.org/psycinfo/1966-35026-000">http://doi.apa.org/psycinfo/1966-35026-000</a>
+</div>
+<div id="ref-Herman2013-uf" class="csl-entry" role="listitem">
+Herman, J. P. (2013). Neural control of chronic stress adaptation. <em>Frontiers in Behavioral Neuroscience</em>, <em>7</em>, 61. <a href="https://doi.org/10.3389/fnbeh.2013.00061">https://doi.org/10.3389/fnbeh.2013.00061</a>
+</div>
+<div id="ref-Namkung2017-gc" class="csl-entry" role="listitem">
+Namkung, H., Kim, S.-H., &amp; Sawa, A. (2017). The insula: An underestimated brain area in clinical neuroscience, psychiatry, and neurology. <em>Trends in Neurosciences</em>, <em>40</em>(4), 200–207. <a href="https://doi.org/10.1016/j.tins.2017.02.002">https://doi.org/10.1016/j.tins.2017.02.002</a>
+</div>
+<div id="ref-panichello_predictive_2013" class="csl-entry" role="listitem">
+Panichello, M. F., Cheung, O. S., &amp; Bar, M. (2013). Predictive feedback and conscious visual experience. <em>Perception Science</em>, <em>3</em>, 620. <a href="https://doi.org/10.3389/fpsyg.2012.00620">https://doi.org/10.3389/fpsyg.2012.00620</a>
+</div>
+<div id="ref-Randeberg2005-xn" class="csl-entry" role="listitem">
+Randeberg, L. (2005). Diagnostic applications of diffuse reflectance spectroscopy. Retrieved from <a href="https://www.semanticscholar.org/paper/ec9450b79923e2e2152b54ab9241b60bc5374944">https://www.semanticscholar.org/paper/ec9450b79923e2e2152b54ab9241b60bc5374944</a>
+</div>
+<div id="ref-Roark2019-fx" class="csl-entry" role="listitem">
+Roark, M. W., &amp; Stringham, J. M. (2019). Visual performance in the <span>“real world”</span>: Contrast sensitivity, visual acuity, and effects of macular carotenoids. <em>Molecular Nutrition &amp; Food Research</em>, <em>63</em>(15), e1801053. <a href="https://doi.org/10.1002/mnfr.201801053">https://doi.org/10.1002/mnfr.201801053</a>
+</div>
+<div id="ref-Smith2021-ho" class="csl-entry" role="listitem">
+Smith, G. E., Chouinard, P. A., &amp; Byosiere, S.-E. (2021). If <span>I</span> fits <span>I</span> sits: A citizen science investigation into illusory contour susceptibility in domestic cats (felis silvestris catus). <em>Applied Animal Behaviour Science</em>, <em>240</em>, 105338. <a href="https://doi.org/10.1016/j.applanim.2021.105338">https://doi.org/10.1016/j.applanim.2021.105338</a>
+</div>
+<div id="ref-swanson2005anatomy" class="csl-entry" role="listitem">
+Swanson, L. W. (2005). Anatomy of the soul as reflected in the cerebral hemispheres: Neural circuits underlying voluntary control of basic motivated behaviors. <em>Journal of Comparative Neurology</em>, <em>493</em>(1), 122–131. <a href="https://doi.org/10.1002/cne.20733">https://doi.org/10.1002/cne.20733</a>
+</div>
+<div id="ref-swanson2012brain" class="csl-entry" role="listitem">
+Swanson, L. W. (2012). <em>Brain architecture: <span>U</span>nderstanding the basic plan</em>. Oxford University Press.
+</div>
+</div>
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg" class="slide-logo"></p>
+<div class="footer footer-default">
+<p><a href="https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring">PSY 511.001</a> | © Rick Gilmore under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: true,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+                // default icon
+                link.classList.add("external");
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
+    
+
+</body></html>

@@ -1,0 +1,799 @@
+---
+title: "Perception"
+format: 
+  revealjs:
+    auto-play-media: true
+---
+
+# Overview
+
+## Prelude
+
+## Announcements
+
+## Today's topics
+
+- The big picture
+- Sensory processing
+- Vision
+- Somatosensation
+
+## Warm-up
+
+# The big picture
+
+## Perception/action systems
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(igraph)
+el <- rbind(c("World","Sensation"), c("Sensation","Mind"), c("Mind", "Act"), c("Act", "World"))
+g <- graph_from_edgelist(el)
+g$layout <- layout_in_circle
+plot(g, vertex.size=50, vertex.color="gray")
+```
+
+---
+
+![@Gibson1966-qo](https://images-na.ssl-images-amazon.com/images/I/31fzXc46omL._SX312_BO1,204,203,200_.jpg)
+
+## {.scrollable}
+
+![](../include/img/perception-action-cycle.jpg){fig-align="center"}
+
+---
+
+![@swanson2012brain Figure 10.2](../include/img/swanson-book-fig-10.12.jpg)
+
+---
+
+![@swanson2005anatomy Figure 1](../include/img/swanson-2005-fig-1.jpg)
+
+## Multisensory smartphones
+
+:::: {.columns}
+::: {.column width=33%}
+- Accelerometer
+- Gyroscope
+- Magnetometer
+- Proximity sensor
+- Ambient light sensor
+
+:::
+::: {.column width=33%}
+![](https://www.mintmobile.com/wp-content/uploads/2025/08/CR17290_Mint-Google-Pixel-10-Image-Optimization_Pixel-10-INDIGO.png)
+:::
+::: {.column width=33%}
+- Barometer
+- Thermometer
+- Mic
+- Camera
+- Radios (Bluetooth, wifi, cellular, GPS)
+:::
+::::
+
+## Dimensions
+
+:::: {.columns}
+::: {.column width=50%}
+- Interoceptive
+  - Body position, movement, posture
+  - Internal status
+- Exteroceptive
+  - Layout of environment, contents
+:::
+::: {.column width=50%}
+```{mermaid}
+%%| label: fig-input-output-flows
+%%| fig-cap: "Schematic of information flows into and out of the nervous system."
+flowchart TD
+  N[Nervous System] -- autonomic --> B[Body]
+  N -- somatic --> B
+  N -- endocrine --> B
+  B --->|interoception| N
+  B --->|action| W[World]
+  W --->|perception| B
+  B --->|exteroception| N
+```
+:::
+::::
+
+## Questions for interoception
+
+- Tired or rested?
+- Well or ill?
+- Hungry or thirsty or sated?
+- Stressed vs. coping?
+- Emotional state?
+
+## Questions for exteroception
+
+- Who/What is out there?
+- Animate/inanimate?
+    - Conspecific (same species)/non?
+    - Threat/non?
+    - Familiar/un?
+    - Mate/non? or Friend/not?
+    - Food source/non
+    
+## Questions for exteroception
+
+:::: {.columns}
+::: {.column width=50%}
+- Where is it?
+  - Distance
+    - Proximal
+    - Distal
+  - Elevation, azimuth
+:::
+::: {.column width=50%}
+- Coordinate frames
+  + Self/ego (left of me)
+  + Object (top of object)
+  + Allo/world (North of College)
+- Where moving?
+:::
+::::
+
+## Causal chains
+
+::: {.incremental}
+- Behaviorally relevant conditions, events, and entities...
+- Generate patterns...
+    - Chemical
+    - Photic/electromagnetic
+    - Mechanical/acoustic
+
+:::
+    
+---
+
+- That specialized sensors detect, and
+
+::: {.incremental}
+- Neural circuitry responds to
+- That yield internal states (short- and long-term)
+- That cause actions
+- That cause perceptions...
+:::
+
+# Sensory Processing
+
+## Physics of sensation
+
+| Informal name | Source                            |
+|---------------|-----------------------------------|
+| Vision        | Electromagnetic radiation               |
+| Audition      | Mechanical vibration in air/water       |
+| Touch         | Mechanical vibration of skin on surface |
+| Vestibular    | Rotation & linear acceleration of head  |
+| Olfaction     | Chemical patterns in air/water          |
+
+## Physics of sensation
+
+| Informal name | Source                            |
+|---------------|-----------------------------------|
+| Gustation     | Chemical patterns in mouth              |
+| Electroception | Electromagnetic radiation              |
+| Magnetoreception | Electromagnetic radiation patterns   |
+| Kinesthesia      | Position, velocity, acceleration of limbs, body |
+
+## From $\Phi$ to $\Psi$
+
+- What is the energy/chemical channel?
+- Channels carry different types of information about
+    + *What* is out there?
+    + *Where* is it located or moving?
+- Convey information at different rates, with varied precision
+- Information often signaled by multiple sources
+
+## Example: Vision
+
+- Source: Electromagnetic radiation
+    - Reflected from surfaces
+- What is it?
+    - Shape, size, surface properties (color, texture, reflectance, etc.)
+    - Wavelength/frequency, intensity
+    
+## Example: Vision
+
+- Where is it?
+    - Position: Left/right; up/down on retina
+    - Near/far: retinal disparity, interposition, height above horizon...
+    - Orientation, motion
+
+## Example: Audition
+
+- Source: Mechanical vibrations in air or water
+- What is it?
+    - Pattern of frequencies, amplitudes, durations
+- Where is it?
+    - Left/right or up/down: Interaural time/phase, intensity differences, pinnae filtering
+    - Motion: Frequency shifts via Doppler effect
+    
+## Example: Chemosensation
+
+- Source: Chemicals in mouth, nasal cavity 
+- What is it?
+    - Mixtures of chemicals
+- Where is it?
+    - Left/right; up/down; near/far via intensity gradients
+    
+## Somatosensation
+
+- Source: Thermal or mechanical stimulation (vibration/pressure) of skin
+- What is it?
+    - Shape, size, smoothness, mass, temperature, deformability: Pattern of stimulation
+- Where it it?
+    - Pattern of cutaneous receptors on skin
+    
+## Interoception
+
+
+    
+:::: {.columns}
+::: {.column width=50%}
+- Hunger/thirst
+    - Receptors for nutrient, fluid levels
+- Energy levels
+    - Receptors for hormones, NTs 
+    - ANS responses
+- Temperature
+    - Receptors in skin, viscera
+:::
+::: {.column width=50%}
+![@Namkung2017-gc Figure 2](https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr2.jpg)
+:::
+::::
+    
+## Interoception
+
+:::: {.columns}
+::: {.column width=50%}
+- Mating interest
+    - Receptors for hormones, NTs 
+    - ANS responses
+- Body position & movement (proprioception)
+    - Receptors in muscles, joints, skin
+:::
+::: {.column width=50%}
+![@Namkung2017-gc Figure 2](https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr2.jpg)
+:::
+::::
+
+## {.scrollable}
+
+![@Namkung2017-gc Figure 2. Interoceptive Information and Its Integration with Emotional, Cognitive, and Motivational Signals from an Array of Cortical and Subcortical Regions. Interoceptive information of constantly changing body states arrives in the posterior insula by ascending sensory inputs from dedicated spinal and brainstem pathways via specific thalamic relays. This information is projected rostrally onto the anterior insula, where it is integrated with emotional, cognitive, and motivational signals from an array of cortical and subcortical regions. As a result, the anterior insula supports unique subjective feeling states. The anterior insula regulates the introduction of subjective feelings into cognitive and motivational processes by virtue of its cortical location at the cross-roads of numerous pathways involved in higher cognition and motivation. Abbreviations: AI, anterior insula; AMG, amygdala; dACC, dorsal anterior cingulate cortex; DLPFC, dorsolateral prefrontal cortex; PI, posterior insula; THAL, thalamus; VMPFC, ventromedial prefrontal cortex; VS, ventral striatum.](https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr2.jpg)
+
+## Features of sensory signals
+
+## Change across time
+
+:::: {.columns}
+::: {.column width=40%}
+- Tonic (sustained) vs. phasic (transient) responses
+:::
+::: {.column width=60%}
+![https://www.researchgate.net/figure/Two-types-of-receptions-differing-by-the-rate-of-adaptation-to-the-dynamical-stimulus-A_fig1_51231510](https://www.researchgate.net/publication/51231510/figure/fig1/AS:202984857313285@1425406769897/Two-types-of-receptions-differing-by-the-rate-of-adaptation-to-the-dynamical-stimulus-A.png)
+:::
+::::
+
+## Change across time
+
+:::: {.columns}
+::: {.column width=50%}
+- Adaptation/habituation
+- Sensitization
+- Most sensory systems attuned to change
+:::
+::: {.column width=50%}
+![@Herman2013-uf Figure 3](https://images-provider.frontiersin.org/api/ipx/w=290&f=webp/https://www.frontiersin.org/files/Articles/48488/fnbeh-07-00061-HTML/image_m/fnbeh-07-00061-g003.jpg)
+:::
+::::
+
+## Perception not linear
+
+:::: {.columns}
+::: {.column width=50%}
+- Just noticeable difference (JND)
+  - How much of a change is noticeable?
+  - Slope of psychophysical function
+  - JND a nonlinear function of absolute intensity
+:::
+::: {.column width=50%}
+![](https://www.psywww.com/intropsych/ch04-senses/04stevenscurves.jpg)
+:::
+::::
+
+---
+
+::: {.callout-important}
+### Beyond JNDs
+Are other types of self-reported intensity or magnitude non-linear?
+
+::: {.fragment}
+For example, "How happy are you on a scale from 1 to 5?"
+
+If so, what are the implications?
+:::
+
+:::
+
+## Project to CNS at different speeds
+
+- Bigger diameter axon fiber: Faster
+- Thicker myelin sheath around axon: Faster
+
+## Repeating signals (e.g. patterns)
+  
++ In space (textures)
++ In time
+    
+## Vision
+
+![@Roark2019-fx Figure 1](https://onlinelibrary.wiley.com/cms/asset/b8b78ab1-4a85-4add-86cb-d389fb0988b1/mnfr3528-fig-0001-m.jpg)
+
+## Audition
+
+![https://www.mwmresearchgroup.org/blog/key-concepts-fourier-transforms-and-signal-processing](../include/img/image-2-ft_orig.png){width=70%}
+
+---
+
+:::: {.columns}
+::: {.column width=50%}
+```{r}
+#| label: fig-lower-freq
+#| fig-cap: "Lower frequency (20 Hz)"
+library(ggplot2)
+t = seq(from = 0, to = 1, by = .001)
+a1 = 1
+a2 = 1.5
+f1 = 20
+f2 = 45
+p1 = 0
+p2 = pi/4
+s1 = a1*sin(2*pi*f1*t+p1)
+s2 = a2*sin(2*pi*f2*t+p2)
+df <- data.frame(t = t, s1 = s1, s2 = s2, s12 = s1 + s2)
+df |>
+  ggplot() +
+  geom_line(aes(t, s1)) +
+  ylim(-2, 2)
+```
+:::
+::: {.column width=50%}
+```{r}
+#| label: fig-higher-freq
+#| fig-cap: "Higher frequency (45 Hz) with phase shift and 1.5x amplitude."
+df |>
+  ggplot() +
+  geom_line(aes(t, s2)) +
+  ylim(-2, 2)
+```
+:::
+::::
+
+---
+
+```{r}
+#| label: fig-sum-lower-higher-freq
+#| fig-cap: "Sum of lower and higher frequencies."
+df |>
+  ggplot() +
+  geom_line(aes(t, s12))
+```
+
+---
+
+![By Aquegg - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=5544473](https://upload.wikimedia.org/wikipedia/commons/c/c5/Spectrogram-19thC.png)
+
+## Somatosensation
+
+![Figure 1 from https://www.frontiersin.org/articles/10.3389/fnhum.2022.862344/full](https://www.frontiersin.org/files/Articles/862344/fnhum-16-862344-HTML/image_m/fnhum-16-862344-g001.jpg){width=70%}
+
+## Compare (>1) sensors located in different parts of the body
+    
++ Eyes
++ Ears
++ Skin surface
++ Nostrils
+- Tongue
+
+---
+
+![](https://images.unsplash.com/photo-1519699486208-1293e479cb98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80)
+
+## ["Receptive fields"](https://en.wikipedia.org/wiki/Receptive_field)
+
++ Area on sensory surface (e.g., retina, skin) that when stimulated changes neuron's firing
+    
+## Tactile receptive fields
+
+![https://www.nursinghero.com/study-guides/austincc-ap1/pain](https://i.stack.imgur.com/br9Zo.jpg)
+
+## Visual receptive fields
+
+![https://openbooks.lib.msu.edu/neuroscience/chapter/vision-the-retina/](https://openbooks.lib.msu.edu/app/uploads/sites/6/2021/03/RetinalReceptiveField.png)
+
+![https://foundationsofvision.stanford.edu/chapter-6-the-cortical-representation/](https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/orientedRF-1024x602.png)
+
+## Topographic maps
+
+## Auditory: Tonotopic maps
+
+![https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2830355/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2830355/bin/nihms172043f3.jpg)
+
+## Visual: Retinotopic maps
+
+![@dougherty_visual_2003](https://arvo.silverchair-cdn.com/arvo/content_public/journal/jov/933499/m_jov-3-10-1-fig001.jpeg?Expires=1712666457&Signature=XlOZhjDHS06YKBtQLQWg5mlbK9qEaZNgrqDF2UhAJCnpfm8O5LlSnNbBmjTJ1Sd9Ky8q6MfrknY7gbQgFtyK-BmAkRNb0WaAylDNNiZUbkAYjYQuKlkvXkZQX1sPByx5TyRdQfNmu4XCiMfFTeltgAztX5VE7IIFQIWojSJpSD475nwDflQIn7Td69K5UoYe5IqHWDM510pVwEuJibdqd6tXxbum6etzqbhZh7SJ1qJfMo8vjzRRNd56uRHMoSk~bVHNvQNain~hOde-XSI094TuQlVDeYl8GUyNnU8MWNxf50ZyPtgwuo-bo8PksqCH9ez3fz2ORrPHLSbntp8-7g__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f2JMbo4BZqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rsykP-9-moA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Somatosensory: Somatotopic maps in S1 & M1
+
+![](http://bio1152.nicerweb.com/Locked/media/ch49/49_16-MotorSensoryCorts-L.jpg)
+
+## Sensivity non-uniform
+
+## Two-point touch thresholds
+
+![](../include/img/two-point-thresholds.jpg)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t97QiEiKjD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Somatosensory homunculus
+
+![](https://upload.wikimedia.org/wikipedia/commons/5/51/Front_of_Sensory_Homunculus.gif)
+
+## Visual acuity non-uniform
+
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/AcuityHumanEye.svg/270px-AcuityHumanEye.svg.png)
+
+## Hearing thresholds non-uniform
+
+![http://auditoryneuroscience.com/](http://auditoryneuroscience.com/sites/default/files/inline-images/HLdata_0.png)
+
+## Hierarchical/sequential AND parallel
+
+![](../include/img/swanson-11.4.jpg)
+
+![](../include/img/biopsych-fig-5.5.jpg)
+
+![](../include/img/biospsych-labeled-lines.jpg)
+
+## Feedforward and feedback
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+el <- rbind(c("Wrld","Sens"), c("Sens","Mind"), c("Mind", "Act"), c("Mind","Sens"), c("Act", "Mind"), c("Act", "Wrld"))
+g <- graph_from_edgelist(el)
+g$layout <- layout_in_circle
+plot(g, vertex.size=50, vertex.color="gray")
+```
+
+
+# Break
+
+# Vision
+
+## Animals respond to visual illusions, too
+
+![https://www.illusionsindex.org/i/rotating-snakes](https://www.illusionsindex.org/images/illusions/Rotating-Snakes/42_rotsnakes_main.jpg)
+
+## A cat responds...
+
+<https://www.reddit.com/r/youseeingthisshit/comments/p9y7v1/the_reaction_of_the_cat_on_the_optical_illusion/?ref=share&ref_source=embed&utm_content=title&utm_medium=post_embed&utm_name=85f1a01593f447e092c5b300e5561d6e&utm_source=embedly&utm_term=p9y7v1>
+
+## Application in VR
+
+{{< video https://www.youtube.com/watch?v=NPK8eQ4o8Pk width=100% height=70% >}}
+
+-- @ewakili2021-vh
+
+---
+
+![@Smith2021-ho Figure 4](https://ars.els-cdn.com/content/image/1-s2.0-S0168159121001258-gr4.jpg)
+
+---
+
+![@Smith2021-ho Figure 5](https://ars.els-cdn.com/content/image/1-s2.0-S0168159121001258-gr5_lrg.jpg)
+
+## Properties of Electromagnetic (EM) radiation
+
+:::: {.columns}
+::: {.column width=50%}
+- Wavelength/frequency
+- Intensity
+- Location/position of source
+- Reflects off some materials
+- Refracted (bent) moving through other materials
+- Information across space (and time)
+:::
+::: {.column width=50%}
+![http://en.wikipedia.org/wiki/File:EM_Spectrum_Properties_edit.svg](../include/img/em-spectrum.jpg)
+
+:::
+::::
+
+---
+
+![http://apod.nasa.gov/apod/ap140605.html](../include/img/hud2014_1000c.jpg)
+
+- Light provides fast (2.99 million m/s; 186 million mi/hr) information about surfaces at a distance
+- vs. sound (340 m/s; 767 mi/hr)
+- vs. chemical signals (min/mi)
+
+## Reflectance spectra differ by surface
+
+![@Randeberg2005-xn Figure 8](https://www.researchgate.net/profile/Lise-Lyngsnes-Randeberg/publication/265397843/figure/fig8/AS:667691706773516@1536201516532/Reflectance-spectra-from-different-skin-types-measured-using-the-Ocean-Optics-SD-2000.png)
+
+---
+
+![http://http://www.vgt.vito.be/userguide/book_1/4/42/ie42bd.gif](../include/img/reflectance-spectrum.gif)
+
+## [Optic array](https://en.wikipedia.org/wiki/Ambient_optic_array) specifies geometry of environment
+
+![Gibson](../include/img/OpticArray.jpg)
+
+## Categories of wavelength specify perception of color
+
+- Eyes categorize wavelength into relative intensities within wavelength bands
+- RGB ~ <span class="red">**R**ed</span>, <span class="green">**G**reen</span>, <span class="blue">**B**lue</span>
+    + Long, medium, short wavelengths
+- *Color is a neural/psychological construct*
+
+![](../include/img/rgb-monitor.jpg)
+
+## The biological camera
+
+![](../include/img/how-camera-works.jpg)
+
+![](../include/img/the-eye-ksj.jpg)
+
+![](../include/img/the-eye.jpg)
+
+## part of a self-stabilizing system...
+
+<!-- Kestrel showing image stabilization -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JGArTWOJtXs?start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<https://www.youtube.com/embed/JGArTWOJtXs>
+
+## Parts of the eye
+
+- *Cornea* - refraction (2/3 of total)
+- *Pupil* - light intensity; diameter regulated by Iris.
+- *Lens* - refraction (remaining 1/3; focus)
+- *Retina* - light detection
+    + ~ skin or organ of Corti in inner ear
+- *Pigment epithelium* - regenerate photopigment
+- *Muscles* - move eye, reshape lens, change pupil diameter
+
+## Geometry of retinal image
+
+- Image inverted (up/down)
+- Image reversed (left/right)
+- Point-to-point map (*retinotopic*)
+- Binocular and monocular zones
+
+![](../include/img/retinal-image.jpg)
+
+![](../include/img/visual-fields.jpg)
+
+## The *fovea*
+
+![http://www.brainhq.com/sites/default/files/fovea.jpg](../include/img/fovea.jpg)
+
+- Central 1-2 deg of visual field
+- Aligned with visual axis
+- *Retinal ganglion cells* pushed aside
+- Highest *acuity* vision == best for details
+- Acuity varies from center to periphery
+
+---
+
+![](../include/img/acuity-across-visual-field.jpg)
+
+---
+
+![http://michaeldmann.net/pix_7/blndspot.gif](../include/img/acuity-across-visual-field-graph.jpg)
+
+## What part of the skin is like the fovea?
+
+![](../include/img/two-point-thresholds.jpg)
+
+## *Photoreceptors* in retina detect light
+
+![](../include/img/photoreceptors.jpg)
+
+---
+
+- *Rods*
+    + ~120 M/eye
+    + Mostly in periphery
+    + Active in low light conditions
+    + One wavelength range
+- *Cones*
+    + ~5 M/eye
+    + Mostly in center
+    + 3 wavelength ranges
+
+---
+
+![https://foundationsofvision.stanford.edu/](https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/rod.cone_.distribution2-1024x467.png)
+
+---
+
+![http://cnx.org/content/col11496/1.6/](../include/img/1416_Color_Sensitivity.jpg)
+
+## Photoreceptor physiology
+
+- Outer segment
+    + Membrane disks
+    + *Photopigments*
+        - Sense light, trigger chemical cascade
+- Inner segment
+    + Synaptic terminal
+- Light *hyperpolarizes* photoreceptor!
+    + The *dark current*
+  
+## Retina
+
+- Physiologically *backwards*
+    + <span class="red">Dark current</span>
+- Anatomically *inside-out*
+    + <span class="red">Photoreceptors at back of eye</span>
+
+---
+
+![http://www.retinareference.com/anatomy/](../include/img/retinal-layers.jpg)
+
+## Retina
+
+- Information flows...
+  - From photoreceptors...
+  - To *Bipolar cells*
+    + <-> and *Horizontal cells*
+  - To *Retinal ganglion cells*
+    + <-> and *Amacrine cells*
+  - To cerebral cortex
+
+## Center-surround receptive fields
+
+![](../include/img/on-center-off-center-receptive-fields.jpg)
+
+- Center region
+    + Excites (or inhibits)
+- Surround region
+    + Does the opposite
+- Bipolar cells & Retinal Ganglion cells ->
+- Most activated by "donuts" of light/dark
+    + Local contrast (light/dark differences)
+
+## Opponent processing
+
+![http://www.visualexpert.com/sbfaqimages/RGBOpponent.gif](../include/img/RGBOpponent.gif)
+
+- Black (darker) vs. white (lighter) (achromatic)
+- Long (red) vs. Medium (green) wavelength cones
+- (Long + Medium) vs. Short cones
+- Can't really see reddish-green or bluish-yellow
+    - "Oppose" one another at cellular/circuit level
+    - [DEMO](reddish-green.html)
+
+## From eye to brain
+
+![](../include/img/eye-to-brain.jpg)
+
+- Retinal ganglion cells
+- 2nd/II cranial (optic) nerve
+    + Optic chiasm ($\chi$ - asm): Partial crossing of fibers
+    + Nasal hemiretina (lateral/peripheral visual field) cross
+    + Left visual field (from L & R retinae) -> right hemisphere & vice versa
+- *Lateral Geniculate Nucleus (LGN)* of thalamus (receives 90% of retinal projections)
+- Hypothalamus
+    + *Suprachiasmatic nucleus* (superior to the optic chiasm): Synchronizes day/night cycle with circadian rhythms
+- Superior colliculus & brainstem
+
+## LGN
+
+![](../include/img/lgn.jpg)
+
+- 6 layers + intralaminar zone
+    + Parvocellular (small cells): chromatic
+    + Magnocellular (big cells): achromatic
+    + Koniocellular (chromatic - <span color="blue">short</span> wavelength?)
+- Retinotopic map of opposite visual field
+
+#### From LGN to V1
+
+![](../include/img/eye-to-brain.jpg)
+
+- Via *optic radiations*
+- *[Primary visual cortex (V1)](http://www.scholarpedia.org/article/Area_V1)* in occipital lobe
+- Create "stria of Gennari" (visible stripe in layer 4)
+- Calcarine fissure (medial occiptal lobe) divides lower/upper visual field
+
+## Human V1
+
+![http://www.scholarpedia.org/w/images/3/3a/03-Human-V1.png](http://www.scholarpedia.org/w/images/3/3a/03-Human-V1.png)
+
+![[@dougherty_visual_2003]](../include/img/mri-v1-retinotopy.jpg)
+
+- Fovea overrepresented
+    + Analogous to somatosensation
+    + High acuity in fovea vs. lower outside it
+- Upper visual field/lower (ventral) V1 and *vice versa*
+
+## Laminar, columnar organization
+
+![](../include/img/cortical-hypercolumn.jpg)
+
+- 6 laminae (layers)
+    + Input: Layer 4 (remember stria of Gennari?)
+    + Output: Layers 2-3 (to cortex), 5 (to brainstem), 6 (to LGN)
+- Columns
+    + Orientation/angle
+    + Spatial frequency
+    + Color/wavelength
+    + Eye of origin, *ocular dominance*
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IOHayh06LJ4" frameborder="0" allowfullscreen></iframe>
+
+![https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/dir.selective.png](../include/img/dir.selective.png)
+
+## From center-surround receptive fields to line detection
+
+![](http://www.scholarpedia.org/w/images/9/99/11-Hubel-Wiesel-model.png)
+
+![[@panichello_predictive_2013]](../include/img/spatial-freq-fpsyg-03-00620-g003.jpg)
+
+##  Ocular dominance columns
+
+![](../include/img/cortical-hypercolumn.jpg)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KjAQdc29vF8" frameborder="0" allowfullscreen></iframe>
+
+## Beyond V1
+
+![](../include/img/beyond-v1.jpg)
+
+- Larger, more complex receptive fields
+- *Dorsal stream* (where/how)
+    + Toward parietal lobe
+- *Ventral stream* (what)
+
+## What is vision for?
+
+- What is it? (form perception)
+- Where is it? (space perception)
+- How do I get from here to there (action control)
+- What time (or time of year) is it?
+
+# Somatosensation
+
+# Wrap-up
+
+## Main points
+
+## Next time
+
+# Resources
+
+## About
+
+This talk was produced using [Quarto](https://quarto.org), using the [RStudio](https://posit.co/products/open-source/rstudio/)
+Integrated Development Environment (IDE), version 2026.1.0.392.
+
+The source files are in R and R Markdown, then rendered to HTML using the
+[revealJS](https://revealjs.com) framework.
+The HTML slides are hosted in a [GitHub repo](https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring) and served by GitHub pages:
+<https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/>
+
+## References
