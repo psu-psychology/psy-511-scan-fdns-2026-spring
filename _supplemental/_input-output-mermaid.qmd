@@ -1,0 +1,16 @@
+
+```{mermaid}
+%%| label: fig-input-output-flows
+%%| fig-cap: "Schematic of information flows into and out of the nervous system. Note: This figure ignores flows specifically related to metabolism."
+flowchart TD
+  N[Nervous System] -- autonomic --> B[Body]
+  N -- somatic --> B
+  N ---|endocrine| B
+  B --->|interoception| N
+  B --->|action| W[World]
+  W --->|perception| B
+  B --->|exteroception| N
+```
+
+
+

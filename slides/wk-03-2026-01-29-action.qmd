@@ -45,7 +45,7 @@ format:
 - ~~C. The insula~~
 - **D. The temporal lobe**
 
----
+## {.scrollable}
 
 ![Cassidy2012-ue Figure 2](http://www.frontiersin.org/files/Articles/31697/fpsyg-03-00319-HTML/image_m/fpsyg-03-00319-g002.jpg)
 
@@ -53,14 +53,14 @@ format:
 
 :::: {.columns}
 ::: {.column width=50%}
-### The middle image in A. depicts what plane of section?
+### The middle image in A in the figure at right depicts what plane of section?
 - A. Sagittal
 - B. Dorsal
 - C. Coronal
 - D. Horizontal
 :::
 ::: {.column width=50%}
-![Cassidy2012-ue Figure 2](http://www.frontiersin.org/files/Articles/31697/fpsyg-03-00319-HTML/image_m/fpsyg-03-00319-g002.jpg)
+![@Cassidy2012-ue Figure 2](http://www.frontiersin.org/files/Articles/31697/fpsyg-03-00319-HTML/image_m/fpsyg-03-00319-g002.jpg)
 :::
 ::::
 
@@ -68,14 +68,14 @@ format:
 
 :::: {.columns}
 ::: {.column width=50%}
-### The middle image in A. depicts what plane of section?
+### The middle image in A in the figure at right depicts what plane of section?
 - ~~A. Sagittal~~
 - ~~B. Dorsal~~
 - C. Coronal
 - ~~D. Horizontal~~
 :::
 ::: {.column width=50%}
-![Cassidy2012-ue Figure 2](http://www.frontiersin.org/files/Articles/31697/fpsyg-03-00319-HTML/image_m/fpsyg-03-00319-g002.jpg)
+![@Cassidy2012-ue Figure 2](http://www.frontiersin.org/files/Articles/31697/fpsyg-03-00319-HTML/image_m/fpsyg-03-00319-g002.jpg)
 :::
 ::::
 
@@ -103,7 +103,7 @@ format:
 
 # On action
 
-## Why start with action?
+## Why action?
 
 :::: {.columns}
 ::: {.column width=80%}
@@ -152,8 +152,9 @@ format:
 :::: {.columns}
 ::: {.column width=50%}
 - Actions influence 
-  - The external world, $W$
   - Their own bodies, $B$
+    - The external world, $W$
+- The nervous system controls the body and its effects on the world
 :::
 ::: {.column width=50%}
 ```{mermaid}
@@ -164,13 +165,22 @@ flowchart TD
 :::
 ::::
 
-## Animal movement a function of
+## Animal movement lawful
 
 - Physics
 - Biology
 - Psychology
 
-## Movement one result of nervous system output
+::: {.fragment}
+::: {.callout-important}
+## Your turn
+Can you name a physical law that applies to movement? A biological law? A psychological law?
+:::
+:::
+
+## Movement one class of nervous system output
+
+::: {.fragment}
 
 :::: {.columns}
 ::: {.column width=50%}
@@ -193,6 +203,8 @@ flowchart TD
 :::
 ::::
 
+:::
+
 ---
 
 :::: {.columns}
@@ -205,10 +217,10 @@ flowchart TD
 ::: {.column width=50%}
 ```{mermaid}
 %%| label: fig-ns-inputs
-%%| fig-cap: "Two broad classes of inputs from the world and body to the nervous system."
+%%| fig-cap: "Two broad classes of inputs from the body (interoception) and the world (exteroception) to the nervous system."
 flowchart TD
-  N[Nervous System] <---|interoception| B[Body]
-  N <---|exteroception| B
+  B[Body] -->|interoception| N[Nervous System] 
+  B -->|exteroception| N
 ```
 :::
 ::::
@@ -219,18 +231,18 @@ flowchart TD
 
 ```{mermaid}
 %%| label: fig-input-output-flows
-%%| fig-cap: "Schematic of information flows into and out of the nervous system."
+%%| fig-cap: "Schematic of information flows into and out of the nervous system. Note: This figure ignores flows specifically related to metabolism."
 flowchart TD
   N[Nervous System] -- autonomic --> B[Body]
   N -- somatic --> B
-  N -- endocrine --> B
+  N ---|endocrine| B
   B --->|interoception| N
   B --->|action| W[World]
   W --->|perception| B
   B --->|exteroception| N
 ```
 
----
+## Computational perspective
 
 ![@Favela2020-uc Figure 3](../include/img/wcs1525-fig-0003-m.jpg){width=35%}
 
@@ -253,7 +265,7 @@ flowchart TD
 - In other words...*behave*
 :::
 
-## Movement is the real reason for brains
+## Movement is the *real* reason for brains
 
 {{< video https://www.youtube.com/watch?v=7s0CpRfyYp8 width=100% height=70% >}}
 
@@ -263,26 +275,38 @@ flowchart TD
 
 :::: {.columns}
 ::: {.column width=50%}
+::: {.incremental}
 - Orienting, info gathering
 - Maintaining balance
 - Reaching, grasping, & manipulation
 - Locomotion
 :::
+:::
 ::: {.column width=50%}
+::: {.incremental}
 - Communication
 - Mating & caregiving
 - Ingestion & elimination
 :::
+:::
 ::::
 
-## Orienting, info gathering
+::: {.fragment}
+::: {.callout-caution}
+## Your turn
+Does this miss any major classes of behavior?
+:::
+:::
+
+<!-- ## Orienting, info gathering
 
 - Eye movements
 - Head movements
+- Active listening
 - Active touch
-- Sniffing & tasting
+- Sniffing & tasting -->
 
-## Balance
+<!-- ## Balance
 
 - @Cullen2022-ao; 
 
@@ -301,7 +325,20 @@ flowchart TD
   - @Zada2025-jl
 - Facial expression
   - @Bress2024-og
-- Gesture
+- Gesture -->
+
+## Muscles: Engines of animal motion {.scrollable}
+
+:::: {.columns}
+::: {.column width=45%}
+![By CFCF - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=37700550](https://upload.wikimedia.org/wikipedia/commons/c/c4/Anterior_View_of_Muscles.jpg){width=80% fig-align="left"}
+:::
+::: {.column width=10%}
+:::
+::: {.column width=45%}
+![By CFCF - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=37700551](https://upload.wikimedia.org/wikipedia/commons/6/69/Posterior_View_of_Muscles.jpg){width=80% fig-align="right"}
+:::
+::::
 
 # How muscles work
 
@@ -309,12 +346,15 @@ flowchart TD
 
 :::: {.columns}
 ::: {.column width=50%}
-- Generate forces in one direction
+- Generate force...in one direction
+
+::: {.fragment}
 - Involuntary
   - Cardiac & smooth
 - Voluntary
   - Striated
   - Skeletal
+:::
 :::
 ::: {.column width=50%}
 ![](http://graphics8.nytimes.com/images/2007/08/01/health/adam/19917.jpg){fig-align="center"}
@@ -340,13 +380,15 @@ flowchart TD
 
 ## How skeletal muscles contract
 
+::: {.incremental}
 - Motor neurons (cell bodies located in ventral horn of spinal cord)
 - Project to muscle fiber(s)
-  - Motor neuron + muscle fibers = *motor unit*
+  - *Motor unit* == Motor neuron + muscle fibers
 - Form *neuromuscular junction*
     + Synapse between motor neuron and muscle fiber
     + Release acetylcholine (ACh)
-    
+:::
+
 ## {.scrollable}
 
 ![*Biological Psychology 4th ed.*](../include/img/from-spinal-cord-to-muscle.jpg){fig-align="center"}
@@ -395,13 +437,19 @@ flowchart TD
 ![](../include/img/turkey.jpg){fig-align="center"}
 :::
 ::::
+
+## Marionette analogy
+
+![Giphy: Bob Baker Marionette Theater](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGIxMzAxMzI2MXB2NXpvdTduOXF0ZWIzOG5zejMycGtmbzlkaXN6OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7b9mwnBioe3hcwvK/giphy.gif){fig-align="center"}
     
 ## Muscles are sensory organs, too!
 
 :::: {.columns}
 ::: {.column width=50%}
-- Extrafusal fibers generate force
-- Intrafusal fibers contain stretch receptors
+- *Extrafusal* fibers
+  - Generate force
+- *Intrafusal* fibers 
+  - Contain stretch receptors
   - Sense muscle length/tension
 :::
 ::: {.column width=50%}
@@ -411,89 +459,93 @@ flowchart TD
 
 ## Intrafusal fibers
 
-+ Sense muscle length and change in length, e.g. "stretch"
-+ Also called muscle spindles
-+ Provide muscle proprioception (perception about the self, a form of interoception)
++ Sense muscle length and $\Delta l$, e.g. "stretch"
++ Provide muscle *proprioception*
+- Proprioception == perception about the self
+  - A form of interoception
 
 ## Intrafusal fibers
 
-- Muscle spindles are stretch receptors
-  - Ennervated by by primary Ia afferents (sensory output from muscle)
+- Stretch receptors (also called muscle spindles)
+  - Ennervated by by primary Ia afferents (sensory output from muscle to CNS)
   - Secondary Type II fibers
-- Motor fiber
+- Force-producing motor fiber
   + Ennervated by gamma ($\gamma$) motor neurons (motor input)
 
 ## Extrafusal fibers
 
 + Generate force
 + Ennervated by alpha ($\alpha$) motor neurons
-  
+
+## Circuit
+
+```{mermaid}
+%%| label: fig-info-flow-skeletal-muscle
+%%| fig-cap: "CNS activation of skeletal muscle fibers."
+flowchart TD
+  N{Nervous System} ==>|Alpha motor neurons|B(Extrafusal muscle fibers)
+  N ==>|Gamma motor neurons|C(Intrafusal muscle fibers)
+  C ==>|Ia spindle afferents|N
+  C ==>|Secondary afferents|N
+```
+
 ## Monosynaptic stretch (myotatic) reflex
 
+::: {.incremental}
 - Muscle stretched (length increases)
 - Muscle spindle in intrafusal fiber activates
 - Ia afferent $\rightarrow$ spinal cord
     + Activates alpha ($\alpha$) motor neuron
+    - 1 synapse $\rightarrow$ monosynaptic
 - $\alpha$ motor neuron activates extrafusal fiber
 - Muscle contracts, shortens length
+:::
 
----
+## {.scrollable}
 
 ![Source: Wikipedia](https://upload.wikimedia.org/wikipedia/commons/c/cd/Fusimotor_action.jpg)
 
 - Gamma ($\gamma$) motor neuron fires to take up 'slack' in intrafusal fiber 
 
-![](../include/img/intrafusal-extrafusal-fibers.jpg)
+## {.scrollable}
 
----
+![](../include/img/intrafusal-extrafusal-fibers.jpg){fig-align="center"}
 
-![](../include/img/stretch-reflex.jpg)
+## {.scrollable}
+
+![](../include/img/stretch-reflex.jpg){fig-align="center"}
 
 ---
 
 ::: {.callout-note}
 This is a bit like the role of a belayer in rock climbing.
 
-![](https://www.thoughtco.com/thmb/_EukGM8OC9Rexe4KxtQxDQ3CsGs=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HowtoBelay_3-571117903df78c3fa293859d.jpg)
+![](https://www.thoughtco.com/thmb/_EukGM8OC9Rexe4KxtQxDQ3CsGs=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HowtoBelay_3-571117903df78c3fa293859d.jpg){fig-align="center"}
 :::
 
----
+## Avoiding tremor
 
-```{mermaid}
-%%| title: Nervous system output
-%%| label: fig-info-flow-skeletal-muscle
-%%| fig-cap: "CNS activation of skeletal muscle fibers."
-flowchart TD
-N{Nervous System} ==>|Alpha motor neurons|B(Extrafusal muscle fibers)
-N ==>|Gamma motor neurons|C(Intrafusal muscle fibers)
-C ==>|Ia spindle afferents|N
-C ==>|Secondary afferents|N
-```
-
-## Why doesn't antagonist muscle respond?
-
-- Contract bicep $\rightarrow$ stretch tricep
-
-::: {.fragment}
-- Polysynaptic inhibition of antagonist muscle
+:::: {.columns}
+::: {.column width=50%}
+- Polysynaptic *inhibition* of antagonist muscle
 - Prevents/dampens tremor
-:::
 
-## Example: Patellar reflex
+- Brain gets fast(est) sensory info from spindles
+:::
+::: {.column width=50%}
+![](../include/img/stretch-reflex.jpg){fig-align="right"}
+:::
+::::
+
+## Why this matters...
+
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXJjNXIxOGNzejhuaGNrcThxYzA1NGt5MG13YXY0eTJlNjM0NnlsbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VeZvq8yltmsUfq2sgX/giphy.gif){fig-align="center"}
+
+## Also: Patellar reflex
 
 {{< video https://www.youtube.com/watch?v=DJLmVSeZ5-c width=100% height=70% >}}
 
 -- @Niu-Jin-Ji-Chu-Sheng-Wu-Xue-2021-mv
-
-## "Tuning" proprioceptive feedback
-
-:::{.callout-important}
-## Developmental orgins
-How does the motor system "learn" the sensory consequences of muscle fiber contraction?
-Could spontaneous "twitches" be involved [@Blumberg2023-ce]?
-
-That is, higher levels of the nervous system might learn the relationship between motor neuron output and spindle feedback from "random" activity.
-:::
 
 ## Conduction speed
 
@@ -509,12 +561,20 @@ That is, higher levels of the nervous system might learn the relationship betwee
 :::
 ::::
 
+## Developmental implications? 
+
+- Does the motor system "learn" the sensory consequences of muscle fiber contraction?
+- "Tuning" proprioceptive feedback
+- Via random spontaneous "twitches" [@Blumberg2023-ce]?
+
 ## How muscles work: Interim summary
 
+::: {.incremental}
 - Voluntary movements involve motor units causing contraction of agonist or antagonist pairs of skeletal muscles
 - Skeletal muscles have embedded sensors that detect length/tension
 - CNS gets rapid feedback about muscle length/tension (proprioception)
 - Monosynaptic stretch (myotatic) reflexes maintain position stability
+:::
 
 # Controlling muscles
 
@@ -633,6 +693,7 @@ That is, higher levels of the nervous system might learn the relationship betwee
 
 ![By Vanessa Ezekowitz - Hand-drawn based on File:AcuityHumanEye.jpg by Hans-Werner Hunziker, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=7327065](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/AcuityHumanEye.svg/1280px-AcuityHumanEye.svg.png){width=70%}
 
+
 ## Eye movement types
 
 :::: {.columns}
@@ -673,9 +734,9 @@ That is, higher levels of the nervous system might learn the relationship betwee
 
 -- @Wikipedia-contributors2025-mr
 
----
+## {.scrollable}
 
-![https://www.tobii.com/resource-center/learn-articles/types-of-eye-movements](https://a.storyblok.com/f/149538/01b3d43e55/tobii-eye-movement-fovea.jpg/m/0x0:1500x1000/1200x0/filters:format(webp):quality(80))
+![https://www.tobii.com/resource-center/learn-articles/types-of-eye-movements](https://a.storyblok.com/f/149538/01b3d43e55/tobii-eye-movement-fovea.jpg)
 
 ## Smooth pursuit
 
@@ -693,6 +754,12 @@ That is, higher levels of the nervous system might learn the relationship betwee
 ![@Farnsworth2019-ux](https://imotions.com/wp-content/uploads/2022/10/Vergence-2-1.png)
 :::
 ::::
+
+## Head movements {.scrollable}
+
+{{< video https://www.youtube.com/embed/gT_pVkFE7jg height=70% >}}
+
+-- @AnatomyApp2024-cn
 
 ## Vestibulo-occular reflex (VOR)
 
@@ -752,7 +819,7 @@ That is, higher levels of the nervous system might learn the relationship betwee
 
 |  Nerve |  Eye Muscle|
 |------------|---------------|
-|  CN III Oculomotor | Superior rectus |
+|  CN^[Cranial nerve] III Oculomotor | Superior rectus |
 |   | Inferior rectus |
 |  | Medial rectus |
 |  | Inferior oblique |
@@ -781,7 +848,7 @@ flowchart TD
 ## Considerations
 
 ::: {.incremental}
-- Sensory feedback
+- (Multi)sensory feedback
   - Move eyes $\rightarrow$ shift visual field
   - Change vergence or lens thickness $\rightarrow$ change image focus
   - Eye muscles (probably) have proprioceptors analogous to spindles in skeletal muscles
@@ -850,6 +917,17 @@ flowchart TD
   - Sequence of left/right leg flexions/extensions
   - + arm swing
   - + hips/trunk/neck movements
+:::
+::: {.column width=50%}
+![@Lu2024-si](https://content.cld.iop.org/journals/1748-3190/19/2/026017/revision2/bbad2869f1_lr.jpg)
+:::
+::::
+
+
+## Locomotion: Physics
+
+:::: {.columns}
+::: {.column width=50%}
 - Legs, hips can be modeled as generalized spring-loaded inverted pendulum (G-SLIP)
 :::
 ::: {.column width=50%}
@@ -859,7 +937,8 @@ flowchart TD
 
 ## Locomotion: Neural signalling
 
-- Central pattern generators (CPG) in spinal cord?
+- Animals with brain input to the spinal cord can locomote on a treadmill
+- *Central pattern generators (CPG)* in spinal cord?
 
 {{< video https://www.youtube.com/shorts/pxWIauT1WaM >}}
 
@@ -961,16 +1040,16 @@ flowchart TD
 - Many (most?) behaviors involve sequences of
   - looking/orienting + locomotion + reaching/manipulation + vocalization
 - Parallel, coordinated, sequential outputs to multiple motor systems
+
+## Illustrative motor systems: Interim summary
+
 - Direct (cerebral) cortical control over muscles of eyes, fingers, vocal apparatus
 - Feedback critical, often multisensory
-- NS exploits physics of body
+- Exploiting physics of body
 
-::: {.fragment}
+## The cerebral symphony
 
 ![By The original uploader was Davigoli at English Wikipedia. - Transferred from en.wikipedia to Commons., https://at.or.at/hans/solitude/, GPLv2, https://commons.wikimedia.org/w/index.php?curid=3939703](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Solitude.png/2560px-Solitude.png)
-
-:::
-
 # Wrap-up
 
 ## Main points

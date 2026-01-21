@@ -2191,14 +2191,14 @@
     "href": "slides/wk-03-2026-01-29-action.html#animals-are-animate",
     "title": "Action",
     "section": "Animals are animate",
-    "text": "Animals are animate\n\n\n\nActions influence\n\nThe external world, \\(W\\)\nTheir own bodies, \\(B\\)\n\n\n\n\n\n\n\n\nflowchart TD\n  N[Nervous System] --&gt; B[Body]\n  B --&gt; W[World]"
+    "text": "Animals are animate\n\n\n\nActions influence\n\nTheir own bodies, \\(B\\)\n\nThe external world, \\(W\\)\n\n\nThe nervous system controls the body and its effects on the world\n\n\n\n\n\n\n\nflowchart TD\n  N[Nervous System] --&gt; B[Body]\n  B --&gt; W[World]"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#animal-movement-a-function-of",
     "href": "slides/wk-03-2026-01-29-action.html#animal-movement-a-function-of",
     "title": "Action",
     "section": "Animal movement a function of",
-    "text": "Animal movement a function of\n\nPhysics\nBiology\nPsychology"
+    "text": "Animal movement a function of\n\nPhysics\nBiology\nPsychology\n\n\n\n\n\n\n\n\nYour turn\n\n\nConcerning animal movement, name a physical law that applies. A biological law? A psychological law?"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#movement-one-result-of-nervous-system-output",
@@ -2226,7 +2226,7 @@
     "href": "slides/wk-03-2026-01-29-action.html#classes-of-behavior",
     "title": "Action",
     "section": "Classes of behavior",
-    "text": "Classes of behavior\n\n\n\nOrienting, info gathering\nMaintaining balance\nReaching, grasping, & manipulation\nLocomotion\n\n\n\nCommunication\nMating & caregiving\nIngestion & elimination"
+    "text": "Classes of behavior\n\n\n\nOrienting, info gathering\nMaintaining balance\nReaching, grasping, & manipulation\nLocomotion\n\n\n\nCommunication\nMating & caregiving\nIngestion & elimination\n\n\n\n\n\n\n\n\n\nYour turn\n\n\nDoes this miss any major classes of behavior?"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#orienting-info-gathering",
@@ -2268,7 +2268,7 @@
     "href": "slides/wk-03-2026-01-29-action.html#muscles-are-machines-that",
     "title": "Action",
     "section": "Muscles are machines that",
-    "text": "Muscles are machines that\n\n\n\nGenerate forces in one direction\nInvoluntary\n\nCardiac & smooth\n\nVoluntary\n\nStriated\nSkeletal"
+    "text": "Muscles are machines that\n\n\n\nGenerate force…in one direction\n\n\n\nInvoluntary\n\nCardiac & smooth\n\nVoluntary\n\nStriated\nSkeletal"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#functional-classes",
@@ -2282,7 +2282,7 @@
     "href": "slides/wk-03-2026-01-29-action.html#section",
     "title": "Action",
     "section": "",
-    "text": "(Cantú et al., 2019)"
+    "text": "Cassidy2012-ue Figure 2"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#agonistantagonist-pairs",
@@ -2296,14 +2296,14 @@
     "href": "slides/wk-03-2026-01-29-action.html#how-skeletal-muscles-contract",
     "title": "Action",
     "section": "How skeletal muscles contract",
-    "text": "How skeletal muscles contract\n\nMotor neurons (cell bodies located in ventral horn of spinal cord)\nProject to muscle fiber(s)\n\nMotor neuron + muscle fibers = motor unit\n\nForm neuromuscular junction\n\nSynapse between motor neuron and muscle fiber\nRelease acetylcholine (ACh)"
+    "text": "How skeletal muscles contract\n\nMotor neurons (cell bodies located in ventral horn of spinal cord)\nProject to muscle fiber(s)\n\nMotor unit == Motor neuron + muscle fibers\n\nForm neuromuscular junction\n\nSynapse between motor neuron and muscle fiber\nRelease acetylcholine (ACh)"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#section-1",
     "href": "slides/wk-03-2026-01-29-action.html#section-1",
     "title": "Action",
     "section": "",
-    "text": "Biological Psychology 4th ed."
+    "text": "(Cantú et al., 2019)"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#skeletal-muscle-fiber-types",
@@ -2317,21 +2317,21 @@
     "href": "slides/wk-03-2026-01-29-action.html#muscles-are-sensory-organs-too",
     "title": "Action",
     "section": "Muscles are sensory organs, too!",
-    "text": "Muscles are sensory organs, too!\n\n\n\nExtrafusal fibers generate force\nIntrafusal fibers contain stretch receptors\n\nSense muscle length/tension"
+    "text": "Muscles are sensory organs, too!\n\n\n\nExtrafusal fibers\n\nGenerate force\n\nIntrafusal fibers\n\nContain stretch receptors\nSense muscle length/tension"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#intrafusal-fibers",
     "href": "slides/wk-03-2026-01-29-action.html#intrafusal-fibers",
     "title": "Action",
     "section": "Intrafusal fibers",
-    "text": "Intrafusal fibers\n\nSense muscle length and change in length, e.g. “stretch”\nAlso called muscle spindles\nProvide muscle proprioception (perception about the self, a form of interoception)"
+    "text": "Intrafusal fibers\n\nSense muscle length and \\(\\Delta l\\), e.g. “stretch”\nProvide muscle proprioception\nProprioception == perception about the self\n\nA form of interoception"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#intrafusal-fibers-1",
     "href": "slides/wk-03-2026-01-29-action.html#intrafusal-fibers-1",
     "title": "Action",
     "section": "Intrafusal fibers",
-    "text": "Intrafusal fibers\n\nMuscle spindles are stretch receptors\n\nEnnervated by by primary Ia afferents (sensory output from muscle)\nSecondary Type II fibers\n\nMotor fiber\n\nEnnervated by gamma (\\(\\gamma\\)) motor neurons (motor input)"
+    "text": "Intrafusal fibers\n\nStretch receptors (also called muscle spindles)\n\nEnnervated by by primary Ia afferents (sensory output from muscle to CNS)\nSecondary Type II fibers\n\nForce-producing motor fiber\n\nEnnervated by gamma (\\(\\gamma\\)) motor neurons (motor input)"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#extrafusal-fibers",
@@ -2345,7 +2345,7 @@
     "href": "slides/wk-03-2026-01-29-action.html#monosynaptic-stretch-myotatic-reflex",
     "title": "Action",
     "section": "Monosynaptic stretch (myotatic) reflex",
-    "text": "Monosynaptic stretch (myotatic) reflex\n\nMuscle stretched (length increases)\nMuscle spindle in intrafusal fiber activates\nIa afferent \\(\\rightarrow\\) spinal cord\n\nActivates alpha (\\(\\alpha\\)) motor neuron\n\n\\(\\alpha\\) motor neuron activates extrafusal fiber\nMuscle contracts, shortens length"
+    "text": "Monosynaptic stretch (myotatic) reflex\n\nMuscle stretched (length increases)\nMuscle spindle in intrafusal fiber activates\nIa afferent \\(\\rightarrow\\) spinal cord\n\nActivates alpha (\\(\\alpha\\)) motor neuron\n1 synapse \\(\\rightarrow\\) monosynaptic\n\n\\(\\alpha\\) motor neuron activates extrafusal fiber\nMuscle contracts, shortens length"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#why-doesnt-antagonist-muscle-respond",
@@ -2394,7 +2394,7 @@
     "href": "slides/wk-03-2026-01-29-action.html#section-2",
     "title": "Action",
     "section": "",
-    "text": "M1. Wikipedia: https://en.wikipedia.org/wiki/Primary_motor_cortex"
+    "text": "Biological Psychology 4th ed."
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#topgraphic-organization",
@@ -2450,7 +2450,7 @@
     "href": "slides/wk-03-2026-01-29-action.html#section-3",
     "title": "Action",
     "section": "",
-    "text": "Nielsen (2016) Figure 1. Evidence of corticomotoneuronal connections in human subjects. Indirect, noninvasive evidence of the existence of monosynaptic connections between corticospinal neurons and spinal motoneurons may be obtained in awake human subjects by transcranial magnetic stimulation (TMS) (b,c) and coherence analysis of either cortical [electroencephalogram (EEG)] and muscular activity [electromyogram (EMG)] (d,e) or two separate recordings of muscular activity (f). (b,c) Corticospinal neurons can be excited by a brief magnetic pulse applied by a magnetic coil placed over the appropriate part of the motor cortex in awake human subjects. If the intensity of the magnetic pulse is adjusted appropriately, the evoked descending volley in the corticospinal tract may elicit a subthreshold excitatory postsynaptic potential (EPSP) in the relevant spinal motoneurons. This EPSP may be demonstrated as a change in the discharge probability of a single motor unit recorded from the muscle (b). In the illustrated example, the subject was asked to voluntarily activate the tibialis anterior (TA) muscle, and the discharges of a single motor unit were recorded by a needle electrode inserted into the muscle. TMS elicited a short-lasting (2-ms) increase of discharge probability at a latency of 45 ms (b). The short duration of this peak is consistent with the short rise time of a monosynaptic EPSP. This interpretation is further supported by the observation that stimulation of Ia afferents with known monosynaptic connections to the motoneurons elicits a peak with a similar short duration (c). Data in panels b and c modified with permission from Nielsen & Petersen (1994). (d,e) EEG recorded from the motor cortex and EMG recorded from a voluntarily activated muscle (TA in the illustrated example) show rhythmic modulation of the recorded activity at a frequency of 15–35 Hz. As shown from a coherence analysis of the two signals in panel d, some of this activity is common for the two sites, suggesting a close link between cortical and muscular activity. Panel e shows the EEG and EMG activities are not always synchronous but may show a time lag, which is in the range expected for a fast-conducting direct pathway to the motoneurons. Data in panels d and e modified with permission from Hansen et al. (2002). (f) A monosynaptic origin of corticomuscular coherence is further supported by the observation of short-term synchrony between the discharges of pairs of TA motor units, which may be related to the coherence in the 15–35-Hz frequency band. The subject was asked to voluntarily activate the TA muscle, and the discharges of two different TA motor units were recorded with needle electrodes. The short duration of the central peak of synchronization suggests that the motor unit activities are modulated by a common (monosynaptic) input from collaterals of last-order neurons, which are in all likelihood identical to corticomotoneuronal cells. The secondary peaks at lags of approximately 50–60 ms on either side of the central peak suggest that this last-order input modulates the discharge of the motor units at a frequency of about 20–30 Hz, i.e., corresponding to the coherence observed in the paired EEG-EMG recordings in panels b and c. Data in panel f modified with permission from Nielsen & Kagamihara (1994)."
+    "text": "Source: Wikipedia\n\n\n\nGamma (\\(\\gamma\\)) motor neuron fires to take up ‘slack’ in intrafusal fiber"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#behavioral-repertoires",
@@ -2548,7 +2548,7 @@
     "href": "slides/wk-03-2026-01-29-action.html#considerations",
     "title": "Action",
     "section": "Considerations",
-    "text": "Considerations\n\nSensory feedback\n\nMove eyes \\(\\rightarrow\\) shift visual field\nChange vergence or lens thickness \\(\\rightarrow\\) change image focus\nEye muscles (probably) have proprioceptors analogous to spindles in skeletal muscles"
+    "text": "Considerations\n\n(Multi)sensory feedback\n\nMove eyes \\(\\rightarrow\\) shift visual field\nChange vergence or lens thickness \\(\\rightarrow\\) change image focus\nEye muscles (probably) have proprioceptors analogous to spindles in skeletal muscles"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#considerations-1",
@@ -2576,14 +2576,14 @@
     "href": "slides/wk-03-2026-01-29-action.html#locomotion-physics",
     "title": "Action",
     "section": "Locomotion: Physics",
-    "text": "Locomotion: Physics\n\n\n\nRhythmic/periodic movement of limbs\n\nSequence of left/right leg flexions/extensions\n\narm swing\n\n\nhips/trunk/neck movements\n\n\nLegs, hips can be modeled as generalized spring-loaded inverted pendulum (G-SLIP)\n\n\n\n\n\nLu & Lin (2024)"
+    "text": "Locomotion: Physics\n\n\n\nRhythmic/periodic movement of limbs\n\nSequence of left/right leg flexions/extensions\n\narm swing\n\n\nhips/trunk/neck movements\n\n\n\n\n\n\n\nLu & Lin (2024)"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#locomotion-neural-signalling",
     "href": "slides/wk-03-2026-01-29-action.html#locomotion-neural-signalling",
     "title": "Action",
     "section": "Locomotion: Neural signalling",
-    "text": "Locomotion: Neural signalling\n\nCentral pattern generators (CPG) in spinal cord?"
+    "text": "Locomotion: Neural signalling\n\nAnimals with brain input to the spinal cord can locomote on a treadmill\nCentral pattern generators (CPG) in spinal cord?"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#or-rotational-patterns",
@@ -2618,7 +2618,7 @@
     "href": "slides/wk-03-2026-01-29-action.html#section-4",
     "title": "Action",
     "section": "",
-    "text": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/pharynx"
+    "text": "Nielsen (2016) Figure 1. Evidence of corticomotoneuronal connections in human subjects. Indirect, noninvasive evidence of the existence of monosynaptic connections between corticospinal neurons and spinal motoneurons may be obtained in awake human subjects by transcranial magnetic stimulation (TMS) (b,c) and coherence analysis of either cortical [electroencephalogram (EEG)] and muscular activity [electromyogram (EMG)] (d,e) or two separate recordings of muscular activity (f). (b,c) Corticospinal neurons can be excited by a brief magnetic pulse applied by a magnetic coil placed over the appropriate part of the motor cortex in awake human subjects. If the intensity of the magnetic pulse is adjusted appropriately, the evoked descending volley in the corticospinal tract may elicit a subthreshold excitatory postsynaptic potential (EPSP) in the relevant spinal motoneurons. This EPSP may be demonstrated as a change in the discharge probability of a single motor unit recorded from the muscle (b). In the illustrated example, the subject was asked to voluntarily activate the tibialis anterior (TA) muscle, and the discharges of a single motor unit were recorded by a needle electrode inserted into the muscle. TMS elicited a short-lasting (2-ms) increase of discharge probability at a latency of 45 ms (b). The short duration of this peak is consistent with the short rise time of a monosynaptic EPSP. This interpretation is further supported by the observation that stimulation of Ia afferents with known monosynaptic connections to the motoneurons elicits a peak with a similar short duration (c). Data in panels b and c modified with permission from Nielsen & Petersen (1994). (d,e) EEG recorded from the motor cortex and EMG recorded from a voluntarily activated muscle (TA in the illustrated example) show rhythmic modulation of the recorded activity at a frequency of 15–35 Hz. As shown from a coherence analysis of the two signals in panel d, some of this activity is common for the two sites, suggesting a close link between cortical and muscular activity. Panel e shows the EEG and EMG activities are not always synchronous but may show a time lag, which is in the range expected for a fast-conducting direct pathway to the motoneurons. Data in panels d and e modified with permission from Hansen et al. (2002). (f) A monosynaptic origin of corticomuscular coherence is further supported by the observation of short-term synchrony between the discharges of pairs of TA motor units, which may be related to the coherence in the 15–35-Hz frequency band. The subject was asked to voluntarily activate the TA muscle, and the discharges of two different TA motor units were recorded with needle electrodes. The short duration of the central peak of synchronization suggests that the motor unit activities are modulated by a common (monosynaptic) input from collaterals of last-order neurons, which are in all likelihood identical to corticomotoneuronal cells. The secondary peaks at lags of approximately 50–60 ms on either side of the central peak suggest that this last-order input modulates the discharge of the motor units at a frequency of about 20–30 Hz, i.e., corresponding to the coherence observed in the paired EEG-EMG recordings in panels b and c. Data in panel f modified with permission from Nielsen & Kagamihara (1994)."
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#consonants",
@@ -2632,21 +2632,21 @@
     "href": "slides/wk-03-2026-01-29-action.html#section-5",
     "title": "Action",
     "section": "",
-    "text": "By created by User:ish shwar (original .png deleted), .svg by Rohieb - sagittal section image based on Minifie et al. (1973:); articulation places are from Catford (1977), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1771968"
+    "text": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/pharynx"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#section-6",
     "href": "slides/wk-03-2026-01-29-action.html#section-6",
     "title": "Action",
     "section": "",
-    "text": "Simonyan et al. (2016) Figure 1"
+    "text": "M1. Wikipedia: https://en.wikipedia.org/wiki/Primary_motor_cortex"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#section-7",
     "href": "slides/wk-03-2026-01-29-action.html#section-7",
     "title": "Action",
     "section": "",
-    "text": "flowchart TD\n  Z[\"Motor cortex\"] & Y[\"Periaqueductal gray\"] --&gt; A & C & E & G\n  A[\"CN XII Hypoglossal\"] --&gt; B[\"Tongue\"]\n  C[\"CN X Vagus\"] --&gt; D[\"Larynx\"]\n  E[\"CN VII Facial\"] --&gt; F[\"Lips & face\"]\n  G[\"CN IX Glossopharygeal\"] --&gt; H[\"Pharynx\"]\n\n\n\n\nFigure 6: Inputs to cranial nerve nuclei involved in speech from cortex and midbrain."
+    "text": "Nielsen (2016) Figure 1. Evidence of corticomotoneuronal connections in human subjects. Indirect, noninvasive evidence of the existence of monosynaptic connections between corticospinal neurons and spinal motoneurons may be obtained in awake human subjects by transcranial magnetic stimulation (TMS) (b,c) and coherence analysis of either cortical [electroencephalogram (EEG)] and muscular activity [electromyogram (EMG)] (d,e) or two separate recordings of muscular activity (f). (b,c) Corticospinal neurons can be excited by a brief magnetic pulse applied by a magnetic coil placed over the appropriate part of the motor cortex in awake human subjects. If the intensity of the magnetic pulse is adjusted appropriately, the evoked descending volley in the corticospinal tract may elicit a subthreshold excitatory postsynaptic potential (EPSP) in the relevant spinal motoneurons. This EPSP may be demonstrated as a change in the discharge probability of a single motor unit recorded from the muscle (b). In the illustrated example, the subject was asked to voluntarily activate the tibialis anterior (TA) muscle, and the discharges of a single motor unit were recorded by a needle electrode inserted into the muscle. TMS elicited a short-lasting (2-ms) increase of discharge probability at a latency of 45 ms (b). The short duration of this peak is consistent with the short rise time of a monosynaptic EPSP. This interpretation is further supported by the observation that stimulation of Ia afferents with known monosynaptic connections to the motoneurons elicits a peak with a similar short duration (c). Data in panels b and c modified with permission from Nielsen & Petersen (1994). (d,e) EEG recorded from the motor cortex and EMG recorded from a voluntarily activated muscle (TA in the illustrated example) show rhythmic modulation of the recorded activity at a frequency of 15–35 Hz. As shown from a coherence analysis of the two signals in panel d, some of this activity is common for the two sites, suggesting a close link between cortical and muscular activity. Panel e shows the EEG and EMG activities are not always synchronous but may show a time lag, which is in the range expected for a fast-conducting direct pathway to the motoneurons. Data in panels d and e modified with permission from Hansen et al. (2002). (f) A monosynaptic origin of corticomuscular coherence is further supported by the observation of short-term synchrony between the discharges of pairs of TA motor units, which may be related to the coherence in the 15–35-Hz frequency band. The subject was asked to voluntarily activate the TA muscle, and the discharges of two different TA motor units were recorded with needle electrodes. The short duration of the central peak of synchronization suggests that the motor unit activities are modulated by a common (monosynaptic) input from collaterals of last-order neurons, which are in all likelihood identical to corticomotoneuronal cells. The secondary peaks at lags of approximately 50–60 ms on either side of the central peak suggest that this last-order input modulates the discharge of the motor units at a frequency of about 20–30 Hz, i.e., corresponding to the coherence observed in the paired EEG-EMG recordings in panels b and c. Data in panel f modified with permission from Nielsen & Kagamihara (1994)."
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#example",
@@ -2667,14 +2667,14 @@
     "href": "slides/wk-03-2026-01-29-action.html#section-8",
     "title": "Action",
     "section": "",
-    "text": "Simonyan et al. (2016) Figure 2"
+    "text": "https://www.tobii.com/resource-center/learn-articles/types-of-eye-movements"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#illustrative-motor-systems-interim-summary",
     "href": "slides/wk-03-2026-01-29-action.html#illustrative-motor-systems-interim-summary",
     "title": "Action",
     "section": "Illustrative motor systems: Interim summary",
-    "text": "Illustrative motor systems: Interim summary\n\nMany (most?) behaviors involve sequences of\n\nlooking/orienting + locomotion + reaching/manipulation + vocalization\n\nParallel, coordinated, sequential outputs to multiple motor systems\nDirect (cerebral) cortical control over muscles of eyes, fingers, vocal apparatus\nFeedback critical, often multisensory\nNS exploits physics of body\n\n\n\n\n\nBy The original uploader was Davigoli at English Wikipedia. - Transferred from en.wikipedia to Commons., https://at.or.at/hans/solitude/, GPLv2, https://commons.wikimedia.org/w/index.php?curid=3939703"
+    "text": "Illustrative motor systems: Interim summary\n\nMany (most?) behaviors involve sequences of\n\nlooking/orienting + locomotion + reaching/manipulation + vocalization\n\nParallel, coordinated, sequential outputs to multiple motor systems"
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#main-points",
@@ -2702,7 +2702,7 @@
     "href": "slides/wk-03-2026-01-29-action.html#references",
     "title": "Action",
     "section": "References",
-    "text": "References\n\n\n\n\nBagnall, M. W. (2022). Neurons that control walking go round in circles. Nature, 610, 453–454. https://doi.org/10.1038/d41586-022-02238-1\n\n\nBlumberg, M. S., & Adolph, K. E. (2023). Infant action and cognition: What’s at stake? Trends in Cognitive Sciences, 27(8), 696–698. https://doi.org/10.1016/j.tics.2023.05.008\n\n\nBress, K. S., & Cascio, C. J. (2024). Sensorimotor regulation of facial expression - an untouched frontier. Neuroscience and Biobehavioral Reviews, 162, 105684. https://doi.org/10.1016/j.neubiorev.2024.105684\n\n\nCantú, H., Nantel, J., Millán, M., Paquette, C., & Côté, J. N. (2019). Abnormal muscle activity and variability before, during, and after the occurrence of freezing in parkinson’s disease. Frontiers in Neurology, 10, 951. https://doi.org/10.3389/fneur.2019.00951\n\n\nCullen, K. E. (2022, May 31). The neuroscience of balance. Retrieved January 5, 2026, from https://www.physoc.org/magazine-articles/the-neuroscience-of-balance/\n\n\nDi Caro, V., Cesari, P., Sala, F., & Cattaneo, L. (2025). The neural bases of the reach-grasp movement in humans: Quantitative evidence from brain lesions. Proceedings of the National Academy of Sciences of the United States of America, 122, e2419801122. https://doi.org/10.1073/pnas.2419801122\n\n\nFarnsworth, B. (2019, January 8). Eye movements explained: Understanding saccades, smooth pursuits, and fixations. Retrieved January 16, 2026, from https://imotions.com/blog/learning/best-practice/types-of-eye-movements/\n\n\nFavela, L. H. (2020). Cognitive science as complexity science. Wiley Interdisciplinary Reviews. Cognitive Science, 11(4), e1525. https://doi.org/10.1002/wcs.1525\n\n\nGriffin, Z. M. (2024). Language production. In Open encyclopedia of cognitive science. MIT Press. https://doi.org/10.21428/e2759450.b076f599\n\n\nKhanna, A. R., Muñoz, W., Kim, Y. J., Kfir, Y., Paulk, A. C., Jamali, M., … Williams, Z. M. (2024). Single-neuronal elements of speech production in humans. Nature, 626, 603–610. https://doi.org/10.1038/s41586-023-06982-w\n\n\nKim, H. E., Avraham, G., & Ivry, R. B. (2021). The psychology of reaching: Action selection, movement implementation, and sensorimotor learning. Annual Review of Psychology, 72, 61–95. https://doi.org/10.1146/annurev-psych-010419-051053\n\n\nLab., E. C. (2022). Triple inverted pendulum (transition control). YouTube. Retrieved from https://www.youtube.com/watch?v=Rh7JuL3PRSY\n\n\nLocomotion. (n.d.). Retrieved January 5, 2026, from https://www.sciencedirect.com/topics/neuroscience/locomotion\n\n\nLu, W.-C., & Lin, P.-C. (2024). The generalized spring-loaded inverted pendulum model for analysis of various planar reduced-order models and for optimal robot leg design. Bioinspiration & Biomimetics, 19, 026017. https://doi.org/10.1088/1748-3190/ad2869\n\n\nMotion, M. A. (2024). Mastering balance: The science of center of gravity and base of support. Youtube. Retrieved from https://www.youtube.com/watch?v=5s1gEi5wfLg&t=11s\n\n\nNielsen, J. B. (2016). Human spinal motor control. Annual Review of Neuroscience, 39, 81–101. https://doi.org/10.1146/annurev-neuro-070815-013913\n\n\nPurves, D., Augustine, G. J., Fitzpatrick, D., Katz, L. C., LaMantia, A.-S., McNamara, J. O., & Mark Williams, S. (2001). Spinal cord circuitry and locomotion. In Neuroscience. 2nd edition. Sinauer Associates. Retrieved from https://www.ncbi.nlm.nih.gov/books/NBK11015/\n\n\nQuote origin: “To be is to do” “to do is to be” “do be do be do.” (n.d.). Retrieved January 12, 2026, from https://quoteinvestigator.com/2013/09/16/do-be-do/\n\n\nReviews, B. &. T. (2012). I like to move it (original video) madagascar HD. YouTube. Retrieved from https://www.youtube.com/watch?v=hdcTmpvDO0I\n\n\nSimonyan, K., Ackermann, H., Chang, E. F., & Greenlee, J. D. (2016). New developments in understanding the complexity of human speech production. The Journal of Neuroscience: The Official Journal of the Society for Neuroscience, 36, 11440–11448. https://doi.org/10.1523/JNEUROSCI.2424-16.2016\n\n\nStanton, J. (2015). Optokinetic to the right for projection. YouTube. Retrieved from https://www.youtube.com/watch?v=CG5n516PCXM\n\n\nVideoCollectables. (2014). World’s fastest talking man sings michael jackson’s BAD in 20 seconds @VideoScrapbookOfOurTimes. Youtube. Retrieved from https://www.youtube.com/watch?v=4X4Fy8YqysY\n\n\nWikipedia contributors. (2025a, August 30). Nerve conduction velocity. Retrieved from https://en.wikipedia.org/wiki/Nerve_conduction_velocity\n\n\nWikipedia contributors. (2025b, December 19). Saccade. Retrieved from https://en.wikipedia.org/wiki/Saccade\n\n\nWikipedia contributors. (2026, January 11). Articulatory phonetics. Retrieved from https://en.wikipedia.org/wiki/Articulatory_phonetics\n\n\nWolpert, D. (2011). Daniel wolpert: The real reason for brains. YouTube. Retrieved from https://www.youtube.com/watch?v=7s0CpRfyYp8\n\n\nXing, D., Truccolo, W., & Borton, D. A. (2022). Emergence of distinct neural subspaces in motor cortical dynamics during volitional adjustments of ongoing locomotion. The Journal of Neuroscience: The Official Journal of the Society for Neuroscience, 42, 9142–9157. https://doi.org/10.1523/JNEUROSCI.0746-22.2022\n\n\nZada, Z., Nastase, S. A., Speer, S., Mwilambwe-Tshilobo, L., Tsoi, L., Burns, S. M., … Tamir, D. I. (2025). Linguistic coupling between neural systems for speech production and comprehension during real-time dyadic conversations. Neuron, 0. https://doi.org/10.1016/j.neuron.2025.11.004\n\n\n牛津基礎生物學O. M. B. (2021). Animation 16.3 knee jerk reflex. Youtube. Retrieved from https://www.youtube.com/watch?v=DJLmVSeZ5-c"
+    "text": "References\n\n\n\n\nAnatomyApp. (2024). Biomechanics of the head and neck: circumduction. YouTube. Retrieved from https://youtube.com/shorts/gT_pVkFE7jg?si=YC6IKxlgll_MOQdL\n\n\nBagnall, M. W. (2022). Neurons that control walking go round in circles. Nature, 610, 453–454. https://doi.org/10.1038/d41586-022-02238-1\n\n\nBlumberg, M. S., & Adolph, K. E. (2023). Infant action and cognition: What’s at stake? Trends in Cognitive Sciences, 27(8), 696–698. https://doi.org/10.1016/j.tics.2023.05.008\n\n\nCantú, H., Nantel, J., Millán, M., Paquette, C., & Côté, J. N. (2019). Abnormal muscle activity and variability before, during, and after the occurrence of freezing in parkinson’s disease. Frontiers in Neurology, 10, 951. https://doi.org/10.3389/fneur.2019.00951\n\n\nCassidy, B. S., & Gutchess, A. H. (2012). Structural variation within the amygdala and ventromedial prefrontal cortex predicts memory for impressions in older adults. Frontiers in Psychology, 3, 319. https://doi.org/10.3389/fpsyg.2012.00319\n\n\nFarnsworth, B. (2019, January 8). Eye movements explained: Understanding saccades, smooth pursuits, and fixations. Retrieved January 16, 2026, from https://imotions.com/blog/learning/best-practice/types-of-eye-movements/\n\n\nFavela, L. H. (2020). Cognitive science as complexity science. Wiley Interdisciplinary Reviews. Cognitive Science, 11(4), e1525. https://doi.org/10.1002/wcs.1525\n\n\nLab., E. C. (2022). Triple inverted pendulum (transition control). YouTube. Retrieved from https://www.youtube.com/watch?v=Rh7JuL3PRSY\n\n\nLu, W.-C., & Lin, P.-C. (2024). The generalized spring-loaded inverted pendulum model for analysis of various planar reduced-order models and for optimal robot leg design. Bioinspiration & Biomimetics, 19, 026017. https://doi.org/10.1088/1748-3190/ad2869\n\n\nMotion, M. A. (2024). Mastering balance: The science of center of gravity and base of support. Youtube. Retrieved from https://www.youtube.com/watch?v=5s1gEi5wfLg&t=11s\n\n\nNielsen, J. B. (2016). Human spinal motor control. Annual Review of Neuroscience, 39, 81–101. https://doi.org/10.1146/annurev-neuro-070815-013913\n\n\nQuote origin: “To be is to do” “to do is to be” “do be do be do.” (n.d.). Retrieved January 12, 2026, from https://quoteinvestigator.com/2013/09/16/do-be-do/\n\n\nReviews, B. &. T. (2012). I like to move it (original video) madagascar HD. YouTube. Retrieved from https://www.youtube.com/watch?v=hdcTmpvDO0I\n\n\nSimonyan, K., Ackermann, H., Chang, E. F., & Greenlee, J. D. (2016). New developments in understanding the complexity of human speech production. The Journal of Neuroscience: The Official Journal of the Society for Neuroscience, 36, 11440–11448. https://doi.org/10.1523/JNEUROSCI.2424-16.2016\n\n\nStanton, J. (2015). Optokinetic to the right for projection. YouTube. Retrieved from https://www.youtube.com/watch?v=CG5n516PCXM\n\n\nVideoCollectables. (2014). World’s fastest talking man sings michael jackson’s BAD in 20 seconds @VideoScrapbookOfOurTimes. Youtube. Retrieved from https://www.youtube.com/watch?v=4X4Fy8YqysY\n\n\nWikipedia contributors. (2025a, August 30). Nerve conduction velocity. Retrieved from https://en.wikipedia.org/wiki/Nerve_conduction_velocity\n\n\nWikipedia contributors. (2025b, December 19). Saccade. Retrieved from https://en.wikipedia.org/wiki/Saccade\n\n\nWikipedia contributors. (2026, January 11). Articulatory phonetics. Retrieved from https://en.wikipedia.org/wiki/Articulatory_phonetics\n\n\nWolpert, D. (2011). Daniel wolpert: The real reason for brains. YouTube. Retrieved from https://www.youtube.com/watch?v=7s0CpRfyYp8\n\n\n牛津基礎生物學O. M. B. (2021). Animation 16.3 knee jerk reflex. Youtube. Retrieved from https://www.youtube.com/watch?v=DJLmVSeZ5-c"
   },
   {
     "objectID": "exercises/ex-ANAT.html",
@@ -3009,5 +3009,152 @@
     "title": "Final project",
     "section": "Tips",
     "text": "Tips\n\nAlways put your last name and first name in the file name of all documents you submit. For example, gilmore-rick-psy-511-2026-final-paper.docx works fine.\nSubmit your paper as a MS Word document using Canvas.\nInclude a cover page and title. Make sure to add page numbers.\n\nResearch proposals and BBS-style reviews should use APA format.\nBBS-style reviews, popular science pieces, and research proposals should include an introduction, body, and conclusion. Depending on the format, you may or may not need to label these sections.\nUnpack and define all acronyms when you first mention them. Define or explain technical terms and concepts.\nInclude all end-of-paper citations in a format that is convenient to you and easy to extract from your reference manager.\nInclude author-date citations in the text. Footnote-style in-text citations are also acceptable.\nUse double-spacing.\nRun spell-check on your paper before you submit. I also suggest reading your paper out loud as a way to catch run-on sentences, awkward phrasing, and odd word choices."
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#why-action",
+    "href": "slides/wk-03-2026-01-29-action.html#why-action",
+    "title": "Action",
+    "section": "Why action?",
+    "text": "Why action?\n\n\n\nThe way to do is to be.\n\n– Laozi (老子), Chinese philosopher\n\n\n\n\n\n\n\nThe way to be is to do.\n\n– Dale Carnegie\n\n\n\n“Quote origin” (n.d.)"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#movement-one-class-of-nervous-system-output",
+    "href": "slides/wk-03-2026-01-29-action.html#movement-one-class-of-nervous-system-output",
+    "title": "Action",
+    "section": "Movement one class of nervous system output",
+    "text": "Movement one class of nervous system output\n\n\n\n\nNervous system outputs\n\nAutonomic\nEndocrine\nSomatic\n\n\n\n\n\n\n\n\n\nflowchart TD\n  N[Nervous System] -- autonomic --&gt; B[Body];\n  N -- somatic --&gt; B;\n  N -- endocrine --&gt; B;\n\n\n\n\nFigure 1: Three classes of outputs from the nervous system."
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#muscles-are-engines-of-animal-motion",
+    "href": "slides/wk-03-2026-01-29-action.html#muscles-are-engines-of-animal-motion",
+    "title": "Action",
+    "section": "Muscles are engines of animal motion",
+    "text": "Muscles are engines of animal motion\n\n\n\n\n\nBy CFCF - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=37700550\n\n\n\n\n\n\nBy CFCF - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=37700551"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#animal-movement-lawful",
+    "href": "slides/wk-03-2026-01-29-action.html#animal-movement-lawful",
+    "title": "Action",
+    "section": "Animal movement lawful",
+    "text": "Animal movement lawful\n\nPhysics\nBiology\nPsychology\n\n\n\n\n\n\n\n\nYour turn\n\n\nCan you name a physical law that applies to movement? A biological law? A psychological law?"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#section-9",
+    "href": "slides/wk-03-2026-01-29-action.html#section-9",
+    "title": "Action",
+    "section": "",
+    "text": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/pharynx"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#computational-perspective",
+    "href": "slides/wk-03-2026-01-29-action.html#computational-perspective",
+    "title": "Action",
+    "section": "Computational perspective",
+    "text": "Computational perspective\n\n\n\nFavela (2020) Figure 3"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#muscles-engines-of-animal-motion",
+    "href": "slides/wk-03-2026-01-29-action.html#muscles-engines-of-animal-motion",
+    "title": "Action",
+    "section": "Muscles: Engines of animal motion",
+    "text": "Muscles: Engines of animal motion\n\n\n\n\n\n\n\n\n\nBy CFCF - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=37700550\n\n\n\n\n\n\n\n\n\n\n\n\nBy CFCF - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=37700551"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#circuit",
+    "href": "slides/wk-03-2026-01-29-action.html#circuit",
+    "title": "Action",
+    "section": "Circuit",
+    "text": "Circuit\n\n\n\n\n\n\nflowchart TD\n  N{Nervous System} ==&gt;|Alpha motor neurons|B(Extrafusal muscle fibers)\n  N ==&gt;|Gamma motor neurons|C(Intrafusal muscle fibers)\n  C ==&gt;|Ia spindle afferents|N\n  C ==&gt;|Secondary afferents|N\n\n\n\n\nFigure 4: CNS activation of skeletal muscle fibers."
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#marionette-analogy",
+    "href": "slides/wk-03-2026-01-29-action.html#marionette-analogy",
+    "title": "Action",
+    "section": "Marionette analogy",
+    "text": "Marionette analogy\n\n\n\n\n\n\n\nGiphy: Bob Baker Marionette Theater"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#why-this-matters",
+    "href": "slides/wk-03-2026-01-29-action.html#why-this-matters",
+    "title": "Action",
+    "section": "Why this matters…",
+    "text": "Why this matters…"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#also-patellar-reflex",
+    "href": "slides/wk-03-2026-01-29-action.html#also-patellar-reflex",
+    "title": "Action",
+    "section": "Also: Patellar reflex",
+    "text": "Also: Patellar reflex\n\n– 牛津基礎生物學 (2021)"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#section-10",
+    "href": "slides/wk-03-2026-01-29-action.html#section-10",
+    "title": "Action",
+    "section": "",
+    "text": "By created by User:ish shwar (original .png deleted), .svg by Rohieb - sagittal section image based on Minifie et al. (1973:); articulation places are from Catford (1977), CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1771968"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#section-11",
+    "href": "slides/wk-03-2026-01-29-action.html#section-11",
+    "title": "Action",
+    "section": "",
+    "text": "Simonyan et al. (2016) Figure 1"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#section-12",
+    "href": "slides/wk-03-2026-01-29-action.html#section-12",
+    "title": "Action",
+    "section": "",
+    "text": "flowchart TD\n  Z[\"Motor cortex\"] & Y[\"Periaqueductal gray\"] --&gt; A & C & E & G\n  A[\"CN XII Hypoglossal\"] --&gt; B[\"Tongue\"]\n  C[\"CN X Vagus\"] --&gt; D[\"Larynx\"]\n  E[\"CN VII Facial\"] --&gt; F[\"Lips & face\"]\n  G[\"CN IX Glossopharygeal\"] --&gt; H[\"Pharynx\"]\n\n\n\n\nFigure 6: Inputs to cranial nerve nuclei involved in speech from cortex and midbrain."
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#avoiding-tremor",
+    "href": "slides/wk-03-2026-01-29-action.html#avoiding-tremor",
+    "title": "Action",
+    "section": "Avoiding tremor",
+    "text": "Avoiding tremor\n\n\n\nPolysynaptic inhibition of antagonist muscle\nPrevents/dampens tremor\nBrain gets fast(est) sensory info from spindles"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#developmental-implications",
+    "href": "slides/wk-03-2026-01-29-action.html#developmental-implications",
+    "title": "Action",
+    "section": "Developmental implications?",
+    "text": "Developmental implications?\n\nDoes the motor system “learn” the sensory consequences of muscle fiber contraction?\n“Tuning” proprioceptive feedback\nVia random spontaneous “twitches” (Blumberg & Adolph, 2023)?"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#head-movements",
+    "href": "slides/wk-03-2026-01-29-action.html#head-movements",
+    "title": "Action",
+    "section": "Head movements",
+    "text": "Head movements\n\n– AnatomyApp (2024)"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#section-13",
+    "href": "slides/wk-03-2026-01-29-action.html#section-13",
+    "title": "Action",
+    "section": "",
+    "text": "Simonyan et al. (2016) Figure 2"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#locomotion-physics-1",
+    "href": "slides/wk-03-2026-01-29-action.html#locomotion-physics-1",
+    "title": "Action",
+    "section": "Locomotion: Physics",
+    "text": "Locomotion: Physics\n\n\n\nLegs, hips can be modeled as generalized spring-loaded inverted pendulum (G-SLIP)\n\n\n\n\n\nLu & Lin (2024)"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#illustrative-motor-systems-interim-summary-1",
+    "href": "slides/wk-03-2026-01-29-action.html#illustrative-motor-systems-interim-summary-1",
+    "title": "Action",
+    "section": "Illustrative motor systems: Interim summary",
+    "text": "Illustrative motor systems: Interim summary\n\nDirect (cerebral) cortical control over muscles of eyes, fingers, vocal apparatus\nFeedback critical, often multisensory\nExploiting physics of body"
+  },
+  {
+    "objectID": "slides/wk-03-2026-01-29-action.html#the-cerebral-symphony",
+    "href": "slides/wk-03-2026-01-29-action.html#the-cerebral-symphony",
+    "title": "Action",
+    "section": "The cerebral symphony",
+    "text": "The cerebral symphony\n # Wrap-up"
   }
 ]
