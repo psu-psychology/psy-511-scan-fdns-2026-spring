@@ -334,57 +334,57 @@ If so, what are the implications?
 
 ## Audition
 
-![https://www.mwmresearchgroup.org/blog/key-concepts-fourier-transforms-and-signal-processing](../include/img/image-2-ft_orig.png){width=70%}
+![https://www.mwmresearchgroup.org/blog/key-concepts-fourier-transforms-and-signal-processing](http://www.mwmresearchgroup.org/uploads/3/0/8/6/30861243/image-2-ft_orig.png){width=80%}
+
+<!-- --- -->
+
+<!-- :::: {.columns} -->
+<!-- ::: {.column width=50%} -->
+<!-- ```{r} -->
+<!-- #| label: fig-lower-freq -->
+<!-- #| fig-cap: "Lower frequency (20 Hz)" -->
+<!-- library(ggplot2) -->
+<!-- t = seq(from = 0, to = 1, by = .001) -->
+<!-- a1 = 1 -->
+<!-- a2 = 1.5 -->
+<!-- f1 = 20 -->
+<!-- f2 = 45 -->
+<!-- p1 = 0 -->
+<!-- p2 = pi/4 -->
+<!-- s1 = a1*sin(2*pi*f1*t+p1) -->
+<!-- s2 = a2*sin(2*pi*f2*t+p2) -->
+<!-- df <- data.frame(t = t, s1 = s1, s2 = s2, s12 = s1 + s2) -->
+<!-- df |> -->
+<!--   ggplot() + -->
+<!--   geom_line(aes(t, s1)) + -->
+<!--   ylim(-2, 2) -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: {.column width=50%} -->
+<!-- ```{r} -->
+<!-- #| label: fig-higher-freq -->
+<!-- #| fig-cap: "Higher frequency (45 Hz) with phase shift and 1.5x amplitude." -->
+<!-- df |> -->
+<!--   ggplot() + -->
+<!--   geom_line(aes(t, s2)) + -->
+<!--   ylim(-2, 2) -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- :::: -->
+
+<!-- --- -->
+
+<!-- ```{r} -->
+<!-- #| label: fig-sum-lower-higher-freq -->
+<!-- #| fig-cap: "Sum of lower and higher frequencies." -->
+<!-- df |> -->
+<!--   ggplot() + -->
+<!--   geom_line(aes(t, s12)) -->
+<!-- ``` -->
 
 ---
 
-:::: {.columns}
-::: {.column width=50%}
-```{r}
-#| label: fig-lower-freq
-#| fig-cap: "Lower frequency (20 Hz)"
-library(ggplot2)
-t = seq(from = 0, to = 1, by = .001)
-a1 = 1
-a2 = 1.5
-f1 = 20
-f2 = 45
-p1 = 0
-p2 = pi/4
-s1 = a1*sin(2*pi*f1*t+p1)
-s2 = a2*sin(2*pi*f2*t+p2)
-df <- data.frame(t = t, s1 = s1, s2 = s2, s12 = s1 + s2)
-df |>
-  ggplot() +
-  geom_line(aes(t, s1)) +
-  ylim(-2, 2)
-```
-:::
-::: {.column width=50%}
-```{r}
-#| label: fig-higher-freq
-#| fig-cap: "Higher frequency (45 Hz) with phase shift and 1.5x amplitude."
-df |>
-  ggplot() +
-  geom_line(aes(t, s2)) +
-  ylim(-2, 2)
-```
-:::
-::::
-
----
-
-```{r}
-#| label: fig-sum-lower-higher-freq
-#| fig-cap: "Sum of lower and higher frequencies."
-df |>
-  ggplot() +
-  geom_line(aes(t, s12))
-```
-
----
-
-![By Aquegg - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=5544473](https://upload.wikimedia.org/wikipedia/commons/c/c5/Spectrogram-19thC.png)
+![By Aquegg - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=5544473](https://upload.wikimedia.org/wikipedia/commons/c/c5/Spectrogram-19thC.png){width=90%}
 
 ## Somatosensation
 
@@ -402,43 +402,87 @@ df |>
 
 ![](https://images.unsplash.com/photo-1519699486208-1293e479cb98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80)
 
+## Specialized neurons: Vision
+
+:::: {.columns}
+::: {.column width=50%}
+- Photoreceptors
+:::
+::: {.column width=50%}
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/1414_Rods_and_Cones.jpg/330px-1414_Rods_and_Cones.jpg)
+:::
+::::
+
+## Specialized neurons: Audition
+
+:::: {.columns}
+::: {.column width=50%}
+- Cochlear hair cells
+:::
+::: {.column width=50%}
+![](https://med.stanford.edu/ohns/OHNS-healthcare/earinstitute/conditions-we-treat/hearing-hair-cell/_jcr_content/main/panel_builder_348698106/panel_0/image_0.img.full.high.jpg/organ-of-corti.jpg)
+:::
+::::
+
+## Specialized neurons: Gustation (taste)
+
+:::: {.columns}
+::: {.column width=50%}
+- taste receptor cells
+:::
+::: {.column width=50%}
+![@Chandrashekar2006-mn](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature05401/MediaObjects/41586_2006_Article_BFnature05401_Fig1_HTML.jpg?as=webp)
+:::
+::::
+
 ## ["Receptive fields"](https://en.wikipedia.org/wiki/Receptive_field)
 
-+ Area on sensory surface (e.g., retina, skin) that when stimulated changes neuron's firing
+>The receptive field is a portion of sensory space that can elicit neuronal responses when stimulated. The sensory space can be defined in a single dimension (e.g. carbon chain length of an odorant), two dimensions (e.g. skin surface) or multiple dimensions (e.g. space, time and tuning properties of a visual receptive field).
+
+-- @Alonso2009-og
     
 ## Tactile receptive fields
 
 ![https://www.nursinghero.com/study-guides/austincc-ap1/pain](https://i.stack.imgur.com/br9Zo.jpg)
 
-## Visual receptive fields
+## Receptive fields: Visual
 
+:::: {.columns}
+::: {.column width=50%}
 ![https://openbooks.lib.msu.edu/neuroscience/chapter/vision-the-retina/](https://openbooks.lib.msu.edu/app/uploads/sites/6/2021/03/RetinalReceptiveField.png)
+:::
+::: {.column width=50%}
+![https://wandell.github.io/FOV-1995/](https://wandell.github.io/FOV-1995/wp-content/uploads/2012/02/dir.selective.png)
 
-![https://foundationsofvision.stanford.edu/chapter-6-the-cortical-representation/](https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/orientedRF-1024x602.png)
+:::
+::::
 
 ## Topographic maps
 
-## Auditory: Tonotopic maps
+## Auditory: Tonotopic maps {.scrollable}
 
-![https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2830355/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2830355/bin/nihms172043f3.jpg)
+![@Humphries2010-hi Figure 3 ](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/77e5/2830355/d2c2a836b94d/nihms172043f3.jpg)
 
 ## Visual: Retinotopic maps
 
-![@dougherty_visual_2003](https://arvo.silverchair-cdn.com/arvo/content_public/journal/jov/933499/m_jov-3-10-1-fig001.jpeg?Expires=1712666457&Signature=XlOZhjDHS06YKBtQLQWg5mlbK9qEaZNgrqDF2UhAJCnpfm8O5LlSnNbBmjTJ1Sd9Ky8q6MfrknY7gbQgFtyK-BmAkRNb0WaAylDNNiZUbkAYjYQuKlkvXkZQX1sPByx5TyRdQfNmu4XCiMfFTeltgAztX5VE7IIFQIWojSJpSD475nwDflQIn7Td69K5UoYe5IqHWDM510pVwEuJibdqd6tXxbum6etzqbhZh7SJ1qJfMo8vjzRRNd56uRHMoSk~bVHNvQNain~hOde-XSI094TuQlVDeYl8GUyNnU8MWNxf50ZyPtgwuo-bo8PksqCH9ez3fz2ORrPHLSbntp8-7g__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+:::: {.columns}
+::: {.column width=50%}
+{{< video https://www.youtube.com/embed/f2JMbo4BZqY width=560 height=315 >}}
+:::
+::: {.column width=50%}
+{{< video https://www.youtube.com/embed/rsykP-9-moA width=560 height=315 >}}
+:::
+::::
 
----
+## Visual: Retinotopic maps
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f2JMbo4BZqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rsykP-9-moA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![@dougherty_visual_2003 Figure 1](../include/img/jov-3-10-1-fig001.jpeg)
 
 ## Somatosensory: Somatotopic maps in S1 & M1
 
 ![](http://bio1152.nicerweb.com/Locked/media/ch49/49_16-MotorSensoryCorts-L.jpg)
 
-## Sensivity non-uniform
+## Non-uniform sensitivity
 
 ## Two-point touch thresholds
 

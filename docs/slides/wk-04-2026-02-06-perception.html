@@ -694,68 +694,58 @@ Figure&nbsp;1: Schematic of information flows into and out of the nervous system
 <h2>Audition</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/image-2-ft_orig.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="https://www.mwmresearchgroup.org/blog/key-concepts-fourier-transforms-and-signal-processing"><img data-src="../include/img/image-2-ft_orig.png" style="width:70.0%" alt="https://www.mwmresearchgroup.org/blog/key-concepts-fourier-transforms-and-signal-processing"></a></p>
+<p><a href="http://www.mwmresearchgroup.org/uploads/3/0/8/6/30861243/image-2-ft_orig.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="https://www.mwmresearchgroup.org/blog/key-concepts-fourier-transforms-and-signal-processing"><img data-src="http://www.mwmresearchgroup.org/uploads/3/0/8/6/30861243/image-2-ft_orig.png" style="width:80.0%" alt="https://www.mwmresearchgroup.org/blog/key-concepts-fourier-transforms-and-signal-processing"></a></p>
 <figcaption>https://www.mwmresearchgroup.org/blog/key-concepts-fourier-transforms-and-signal-processing</figcaption>
 </figure>
 </div>
-</section>
-<section class="slide level2">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="cell">
-<div class="cell-output-display">
-<div id="fig-lower-freq" class="quarto-float quarto-figure quarto-figure-center">
-<figure class="quarto-float quarto-float-fig">
-<div aria-describedby="fig-lower-freq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="../include/fig/fig-lower-freq-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="Figure&nbsp;2: Lower frequency (20 Hz)"><img data-src="../include/fig/fig-lower-freq-1.png" width="960"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-lower-freq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: Lower frequency (20 Hz)
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="cell">
-<div class="cell-output-display">
-<div id="fig-higher-freq" class="quarto-float quarto-figure quarto-figure-center">
-<figure class="quarto-float quarto-float-fig">
-<div aria-describedby="fig-higher-freq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="../include/fig/fig-higher-freq-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="Figure&nbsp;3: Higher frequency (45 Hz) with phase shift and 1.5x amplitude."><img data-src="../include/fig/fig-higher-freq-1.png" width="960"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-higher-freq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3: Higher frequency (45 Hz) with phase shift and 1.5x amplitude.
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div></div>
-</section>
-<section class="slide level2">
-
-<div class="cell">
-<div class="cell-output-display">
-<div id="fig-sum-lower-higher-freq" class="quarto-float quarto-figure quarto-figure-center">
-<figure class="quarto-float quarto-float-fig">
-<div aria-describedby="fig-sum-lower-higher-freq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="../include/fig/fig-sum-lower-higher-freq-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="Figure&nbsp;4: Sum of lower and higher frequencies."><img data-src="../include/fig/fig-sum-lower-higher-freq-1.png" width="960"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sum-lower-higher-freq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;4: Sum of lower and higher frequencies.
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
+<!-- --- -->
+<!-- :::: {.columns} -->
+<!-- ::: {.column width=50%} -->
+<!-- ```{r} -->
+<!-- #| label: fig-lower-freq -->
+<!-- #| fig-cap: "Lower frequency (20 Hz)" -->
+<!-- library(ggplot2) -->
+<!-- t = seq(from = 0, to = 1, by = .001) -->
+<!-- a1 = 1 -->
+<!-- a2 = 1.5 -->
+<!-- f1 = 20 -->
+<!-- f2 = 45 -->
+<!-- p1 = 0 -->
+<!-- p2 = pi/4 -->
+<!-- s1 = a1*sin(2*pi*f1*t+p1) -->
+<!-- s2 = a2*sin(2*pi*f2*t+p2) -->
+<!-- df <- data.frame(t = t, s1 = s1, s2 = s2, s12 = s1 + s2) -->
+<!-- df |> -->
+<!--   ggplot() + -->
+<!--   geom_line(aes(t, s1)) + -->
+<!--   ylim(-2, 2) -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: {.column width=50%} -->
+<!-- ```{r} -->
+<!-- #| label: fig-higher-freq -->
+<!-- #| fig-cap: "Higher frequency (45 Hz) with phase shift and 1.5x amplitude." -->
+<!-- df |> -->
+<!--   ggplot() + -->
+<!--   geom_line(aes(t, s2)) + -->
+<!--   ylim(-2, 2) -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- :::: -->
+<!-- --- -->
+<!-- ```{r} -->
+<!-- #| label: fig-sum-lower-higher-freq -->
+<!-- #| fig-cap: "Sum of lower and higher frequencies." -->
+<!-- df |> -->
+<!--   ggplot() + -->
+<!--   geom_line(aes(t, s12)) -->
+<!-- ``` -->
 </section>
 <section class="slide level2">
 
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/c/c5/Spectrogram-19thC.png" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="By Aquegg - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=5544473"><img data-src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Spectrogram-19thC.png" alt="By Aquegg - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=5544473"></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/c/c5/Spectrogram-19thC.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="By Aquegg - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=5544473"><img data-src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Spectrogram-19thC.png" style="width:90.0%" alt="By Aquegg - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=5544473"></a></p>
 <figcaption>By Aquegg - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=5544473</figcaption>
 </figure>
 </div>
@@ -764,7 +754,7 @@ Figure&nbsp;4: Sum of lower and higher frequencies.
 <h2>Somatosensation</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://www.frontiersin.org/files/Articles/862344/fnhum-16-862344-HTML/image_m/fnhum-16-862344-g001.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="Figure 1 from https://www.frontiersin.org/articles/10.3389/fnhum.2022.862344/full"><img data-src="https://www.frontiersin.org/files/Articles/862344/fnhum-16-862344-HTML/image_m/fnhum-16-862344-g001.jpg" style="width:70.0%" alt="Figure 1 from https://www.frontiersin.org/articles/10.3389/fnhum.2022.862344/full"></a></p>
+<p><a href="https://www.frontiersin.org/files/Articles/862344/fnhum-16-862344-HTML/image_m/fnhum-16-862344-g001.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="Figure 1 from https://www.frontiersin.org/articles/10.3389/fnhum.2022.862344/full"><img data-src="https://www.frontiersin.org/files/Articles/862344/fnhum-16-862344-HTML/image_m/fnhum-16-862344-g001.jpg" style="width:70.0%" alt="Figure 1 from https://www.frontiersin.org/articles/10.3389/fnhum.2022.862344/full"></a></p>
 <figcaption>Figure 1 from https://www.frontiersin.org/articles/10.3389/fnhum.2022.862344/full</figcaption>
 </figure>
 </div>
@@ -781,13 +771,57 @@ Figure&nbsp;4: Sum of lower and higher frequencies.
 </section>
 <section class="slide level2">
 
-<p><a href="https://images.unsplash.com/photo-1519699486208-1293e479cb98?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img data-src="https://images.unsplash.com/photo-1519699486208-1293e479cb98?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80"></a></p>
+<p><a href="https://images.unsplash.com/photo-1519699486208-1293e479cb98?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img data-src="https://images.unsplash.com/photo-1519699486208-1293e479cb98?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80"></a></p>
+</section>
+<section id="specialized-neurons-vision" class="slide level2">
+<h2>Specialized neurons: Vision</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Photoreceptors</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/1414_Rods_and_Cones.jpg/330px-1414_Rods_and_Cones.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/1414_Rods_and_Cones.jpg/330px-1414_Rods_and_Cones.jpg" alt="Wikipedia"></a></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="specialized-neurons-audition" class="slide level2">
+<h2>Specialized neurons: Audition</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Cochlear hair cells</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><a href="https://med.stanford.edu/ohns/OHNS-healthcare/earinstitute/conditions-we-treat/hearing-hair-cell/_jcr_content/main/panel_builder_348698106/panel_0/image_0.img.full.high.jpg/organ-of-corti.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img data-src="https://med.stanford.edu/ohns/OHNS-healthcare/earinstitute/conditions-we-treat/hearing-hair-cell/_jcr_content/main/panel_builder_348698106/panel_0/image_0.img.full.high.jpg/organ-of-corti.jpg"></a></p>
+</div></div>
+</section>
+<section id="specialized-neurons-gustation-taste" class="slide level2">
+<h2>Specialized neurons: Gustation (taste)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>taste receptor cells</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature05401/MediaObjects/41586_2006_Article_BFnature05401_Fig1_HTML.jpg?as=webp" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="@Chandrashekar2006-mn"><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature05401/MediaObjects/41586_2006_Article_BFnature05401_Fig1_HTML.jpg?as=webp" alt="Chandrashekar, Hoon, Ryba, &amp; Zuker (2006)"></a></p>
+<figcaption><span class="citation" data-cites="Chandrashekar2006-mn">Chandrashekar et al. (<a href="#/references" role="doc-biblioref" onclick="">2006</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
 </section>
 <section id="receptive-fields" class="slide level2">
 <h2><a href="https://en.wikipedia.org/wiki/Receptive_field">“Receptive fields”</a></h2>
-<ul>
-<li>Area on sensory surface (e.g., retina, skin) that when stimulated changes neuron’s firing</li>
-</ul>
+<blockquote>
+<p>The receptive field is a portion of sensory space that can elicit neuronal responses when stimulated. The sensory space can be defined in a single dimension (e.g.&nbsp;carbon chain length of an odorant), two dimensions (e.g.&nbsp;skin surface) or multiple dimensions (e.g.&nbsp;space, time and tuning properties of a visual receptive field).</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Alonso2009-og">Alonso &amp; Chen (<a href="#/references" role="doc-biblioref" onclick="">2009</a>)</span></p>
 </section>
 <section id="tactile-receptive-fields" class="slide level2">
 <h2>Tactile receptive fields</h2>
@@ -798,58 +832,61 @@ Figure&nbsp;4: Sum of lower and higher frequencies.
 </figure>
 </div>
 </section>
-<section id="visual-receptive-fields" class="slide level2">
-<h2>Visual receptive fields</h2>
+<section id="receptive-fields-visual" class="slide level2">
+<h2>Receptive fields: Visual</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><a href="https://openbooks.lib.msu.edu/app/uploads/sites/6/2021/03/RetinalReceptiveField.png" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="https://openbooks.lib.msu.edu/neuroscience/chapter/vision-the-retina/"><img data-src="https://openbooks.lib.msu.edu/app/uploads/sites/6/2021/03/RetinalReceptiveField.png" alt="https://openbooks.lib.msu.edu/neuroscience/chapter/vision-the-retina/"></a></p>
 <figcaption>https://openbooks.lib.msu.edu/neuroscience/chapter/vision-the-retina/</figcaption>
 </figure>
 </div>
+</div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/orientedRF-1024x602.png" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="https://foundationsofvision.stanford.edu/chapter-6-the-cortical-representation/"><img data-src="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/orientedRF-1024x602.png" alt="https://foundationsofvision.stanford.edu/chapter-6-the-cortical-representation/"></a></p>
-<figcaption>https://foundationsofvision.stanford.edu/chapter-6-the-cortical-representation/</figcaption>
+<p><a href="https://wandell.github.io/FOV-1995/wp-content/uploads/2012/02/dir.selective.png" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="https://wandell.github.io/FOV-1995/"><img data-src="https://wandell.github.io/FOV-1995/wp-content/uploads/2012/02/dir.selective.png" alt="https://wandell.github.io/FOV-1995/"></a></p>
+<figcaption>https://wandell.github.io/FOV-1995/</figcaption>
 </figure>
 </div>
+</div></div>
 </section>
 <section id="topographic-maps" class="slide level2">
 <h2>Topographic maps</h2>
 </section>
-<section id="auditory-tonotopic-maps" class="slide level2">
+<section id="auditory-tonotopic-maps" class="slide level2 scrollable">
 <h2>Auditory: Tonotopic maps</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2830355/bin/nihms172043f3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2830355/"><img data-src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2830355/bin/nihms172043f3.jpg" alt="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2830355/"></a></p>
-<figcaption>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2830355/</figcaption>
+<p><a href="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/77e5/2830355/d2c2a836b94d/nihms172043f3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="@Humphries2010-hi Figure 3"><img data-src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/77e5/2830355/d2c2a836b94d/nihms172043f3.jpg" alt="Humphries, Liebenthal, &amp; Binder (2010) Figure 3"></a></p>
+<figcaption><span class="citation" data-cites="Humphries2010-hi">Humphries et al. (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span> Figure 3</figcaption>
 </figure>
 </div>
 </section>
 <section id="visual-retinotopic-maps" class="slide level2">
 <h2>Visual: Retinotopic maps</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<iframe data-external="1" src="https://www.youtube.com/embed/f2JMbo4BZqY" width="560" height="315" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div><div class="column" style="width:50%;">
+<iframe data-external="1" src="https://www.youtube.com/embed/rsykP-9-moA" width="560" height="315" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div></div>
+</section>
+<section id="visual-retinotopic-maps-1" class="slide level2">
+<h2>Visual: Retinotopic maps</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://arvo.silverchair-cdn.com/arvo/content_public/journal/jov/933499/m_jov-3-10-1-fig001.jpeg?Expires=1712666457&amp;Signature=XlOZhjDHS06YKBtQLQWg5mlbK9qEaZNgrqDF2UhAJCnpfm8O5LlSnNbBmjTJ1Sd9Ky8q6MfrknY7gbQgFtyK-BmAkRNb0WaAylDNNiZUbkAYjYQuKlkvXkZQX1sPByx5TyRdQfNmu4XCiMfFTeltgAztX5VE7IIFQIWojSJpSD475nwDflQIn7Td69K5UoYe5IqHWDM510pVwEuJibdqd6tXxbum6etzqbhZh7SJ1qJfMo8vjzRRNd56uRHMoSk~bVHNvQNain~hOde-XSI094TuQlVDeYl8GUyNnU8MWNxf50ZyPtgwuo-bo8PksqCH9ez3fz2ORrPHLSbntp8-7g__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="@dougherty_visual_2003"><img data-src="https://arvo.silverchair-cdn.com/arvo/content_public/journal/jov/933499/m_jov-3-10-1-fig001.jpeg?Expires=1712666457&amp;Signature=XlOZhjDHS06YKBtQLQWg5mlbK9qEaZNgrqDF2UhAJCnpfm8O5LlSnNbBmjTJ1Sd9Ky8q6MfrknY7gbQgFtyK-BmAkRNb0WaAylDNNiZUbkAYjYQuKlkvXkZQX1sPByx5TyRdQfNmu4XCiMfFTeltgAztX5VE7IIFQIWojSJpSD475nwDflQIn7Td69K5UoYe5IqHWDM510pVwEuJibdqd6tXxbum6etzqbhZh7SJ1qJfMo8vjzRRNd56uRHMoSk~bVHNvQNain~hOde-XSI094TuQlVDeYl8GUyNnU8MWNxf50ZyPtgwuo-bo8PksqCH9ez3fz2ORrPHLSbntp8-7g__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Dougherty et al. (2003)"></a></p>
-<figcaption><span class="citation" data-cites="dougherty_visual_2003">Dougherty et al. (<a href="#/references" role="doc-biblioref" onclick="">2003</a>)</span></figcaption>
+<p><a href="../include/img/jov-3-10-1-fig001.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="@dougherty_visual_2003 Figure 1"><img data-src="../include/img/jov-3-10-1-fig001.jpeg" alt="Dougherty et al. (2003) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="dougherty_visual_2003">Dougherty et al. (<a href="#/references" role="doc-biblioref" onclick="">2003</a>)</span> Figure 1</figcaption>
 </figure>
 </div>
-</section>
-<section class="slide level2">
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f2JMbo4BZqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-</section>
-<section class="slide level2">
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rsykP-9-moA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
 </section>
 <section id="somatosensory-somatotopic-maps-in-s1-m1" class="slide level2">
 <h2>Somatosensory: Somatotopic maps in S1 &amp; M1</h2>
 <p><a href="http://bio1152.nicerweb.com/Locked/media/ch49/49_16-MotorSensoryCorts-L.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-26"><img data-src="http://bio1152.nicerweb.com/Locked/media/ch49/49_16-MotorSensoryCorts-L.jpg"></a></p>
 </section>
-<section id="sensivity-non-uniform" class="slide level2">
-<h2>Sensivity non-uniform</h2>
+<section id="non-uniform-sensitivity" class="slide level2">
+<h2>Non-uniform sensitivity</h2>
 </section>
 <section id="two-point-touch-thresholds" class="slide level2">
 <h2>Two-point touch thresholds</h2>
@@ -1387,6 +1424,12 @@ Figure&nbsp;4: Sum of lower and higher frequencies.
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Alonso2009-og" class="csl-entry" role="listitem">
+Alonso, J.-M., &amp; Chen, Y. (2009). Receptive field. <em>Scholarpedia Journal</em>, <em>4</em>, 5393. <a href="https://doi.org/10.4249/scholarpedia.5393">https://doi.org/10.4249/scholarpedia.5393</a>
+</div>
+<div id="ref-Chandrashekar2006-mn" class="csl-entry" role="listitem">
+Chandrashekar, J., Hoon, M. A., Ryba, N. J. P., &amp; Zuker, C. S. (2006). The receptors and cells for mammalian taste. <em>Nature</em>, <em>444</em>, 288–294. <a href="https://doi.org/10.1038/nature05401">https://doi.org/10.1038/nature05401</a>
+</div>
 <div id="ref-dougherty_visual_2003" class="csl-entry" role="listitem">
 Dougherty, R. F., Koch, V. M., Brewer, A. A., Fischer, B., Modersitzki, J., &amp; Wandell, B. A. (2003). Visual field representations and locations of visual areas <span>V</span>1/2/3 in human visual cortex. <em>Journal of Vision</em>, <em>3</em>(10), 1–1. <a href="https://doi.org/10.1167/3.10.1">https://doi.org/10.1167/3.10.1</a>
 </div>
@@ -1398,6 +1441,9 @@ Gibson, J. J. (1966). <em>The senses considered as perceptual systems</em>. doi.
 </div>
 <div id="ref-Herman2013-uf" class="csl-entry" role="listitem">
 Herman, J. P. (2013). Neural control of chronic stress adaptation. <em>Frontiers in Behavioral Neuroscience</em>, <em>7</em>, 61. <a href="https://doi.org/10.3389/fnbeh.2013.00061">https://doi.org/10.3389/fnbeh.2013.00061</a>
+</div>
+<div id="ref-Humphries2010-hi" class="csl-entry" role="listitem">
+Humphries, C., Liebenthal, E., &amp; Binder, J. R. (2010). Tonotopic organization of human auditory cortex. <em>NeuroImage</em>, <em>50</em>, 1202–1211. <a href="https://doi.org/10.1016/j.neuroimage.2010.01.046">https://doi.org/10.1016/j.neuroimage.2010.01.046</a>
 </div>
 <div id="ref-Namkung2017-gc" class="csl-entry" role="listitem">
 Namkung, H., Kim, S.-H., &amp; Sawa, A. (2017). The insula: An underestimated brain area in clinical neuroscience, psychiatry, and neurology. <em>Trends in Neurosciences</em>, <em>40</em>(4), 200–207. <a href="https://doi.org/10.1016/j.tins.2017.02.002">https://doi.org/10.1016/j.tins.2017.02.002</a>
@@ -1426,7 +1472,7 @@ Swanson, L. W. (2012). <em>Brain architecture: <span>U</span>nderstanding the ba
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg" class="slide-logo"></p>
 <div class="footer footer-default">
-<p><a href="https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring">PSY 511.001</a> | © Rick Gilmore under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+<p><a href="https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring">PSY 511.001</a> | © 2025 Rick Gilmore under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
 </div>
 </div></div>
 

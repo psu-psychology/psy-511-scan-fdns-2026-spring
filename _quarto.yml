@@ -17,7 +17,7 @@ project:
 website:
   title: "PSY 511.001"
   announcement: 
-    content: "Welcome to PSY 511.001 Spring 2026. If you find a broken link or typo, let me know. I'll buy you a coffee." 
+    content: "Exercise [LVL](exercises/ex-LVL.qmd) is due Thursday." 
     position: below-navbar
     icon: info-circle
     dismissable: true
@@ -29,15 +29,27 @@ website:
       - schedule.qmd
       - evaluation.qmd
       - policies.qmd
+      - section: "Exercises"
+        contents:
+          - text: "Ex LVL • Levels/Terms"
+            href: exercises/ex-LVL.qmd
+          - text: "Ex ANAT • Anatomy"
+            href: exercises/ex-ANAT.qmd
+      - section: "Slides"
+        contents:
+          - text: "Wk 01 • Thu Jan 14"
+            href: slides/wk-01-2026-01-15-intro.qmd
+          - text: "Wk 02 • Thu Jan 21"
+            href: slides/wk-02-2026-01-22-anatomy.qmd
   repo-url: https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring
   repo-actions: [edit, issue]
   repo-subdir: src
   page-footer:
-    left: "Copyright © Rick Gilmore under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+    left: "Copyright © 2025 Rick Gilmore under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
     center: "Built with [Quarto](https://quarto.org/)"
     right: 
       - icon: github
-        href: https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring
+        href: https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/
     background: light
     border: true
   page-navigation: true

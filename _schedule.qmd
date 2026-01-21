@@ -4,6 +4,8 @@
 psy_511_vars <- readr::read_csv("data/csv/psy-511-vars.csv", show_col_types = FALSE)
 ```
 
+---
+
 ## Week 01: Jan 12-16
 
 ### Thu, Jan 15

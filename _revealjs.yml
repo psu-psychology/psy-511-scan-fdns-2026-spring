@@ -4,7 +4,7 @@ bibliography: [include/bib/psu-repro.bib, include/bib/packages.bib, include/bib/
 bibliographystyle: apa
 format:
   revealjs:
-    footer: "[PSY 511.001](https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring) | © Rick Gilmore under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+    footer: "[PSY 511.001](https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring) | © 2025 Rick Gilmore under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
     slide-number: true
     fig-align: center
     logo: https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg

@@ -4,3 +4,7 @@ subtitle: "Spring 2026 • TTh 12-3 PM"
 ---
 
 {{< include _index.qmd >}}
+
+## License
+
+{{< include _LICENSE.html >}}
