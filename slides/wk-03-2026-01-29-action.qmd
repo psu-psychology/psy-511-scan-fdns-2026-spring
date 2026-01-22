@@ -178,7 +178,7 @@ Can you name a physical law that applies to movement? A biological law? A psycho
 :::
 :::
 
-## Movement one class of nervous system output
+## Movement only one type of output
 
 ::: {.fragment}
 
@@ -227,19 +227,33 @@ flowchart TD
 
 ---
 
-### Schematic of input and output flows
+### Interoceptive signal routes
+
+```{mermaid}
+%%| label: fig-interoception-subgroups
+%%| fig-cap: "There are three primary groups of interoceptive signal routes from the body to the nervous system."
+flowchart TD
+  B[Body] -->|endocrine| N[Nervous System]
+  B -->|somatic| N
+  B -->|autonomic| N
+```
+
+---
+
+### Input and output flow schematic
 
 ```{mermaid}
 %%| label: fig-input-output-flows
-%%| fig-cap: "Schematic of information flows into and out of the nervous system. Note: This figure ignores flows specifically related to metabolism."
+%%| fig-cap: "Schematic of information flows into and out of the nervous system. *Note*: This figure ignores flows specifically related to metabolism, like changes in blood oxygen."
 flowchart TD
   N[Nervous System] -- autonomic --> B[Body]
   N -- somatic --> B
-  N ---|endocrine| B
-  B --->|interoception| N
+  N --->|endocrine| B
+  B --->|endocrine| N
   B --->|action| W[World]
   W --->|perception| B
-  B --->|exteroception| N
+  B --->|somatic| N
+  B --->|autonomic| N
 ```
 
 ## Computational perspective
@@ -248,8 +262,14 @@ flowchart TD
 
 ## Evolutionary perspective
 
+:::: {.columns}
+::: {.column width=50%}
 - What actions must animals perform?
-  - Live long enough to reproduce
+:::
+::: {.column width=50%}
+![giphy.com](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTk0cHUzaWNybHRrbjAwM2plZmw3NnU4M3B0amVoenNyaXl4ZnRoYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IL4iTvQH0MjS/giphy.gif){fig-align="right"}
+:::
+::::
 
 ---
 
@@ -294,7 +314,7 @@ flowchart TD
 ::: {.fragment}
 ::: {.callout-caution}
 ## Your turn
-Does this miss any major classes of behavior?
+What's missing?
 :::
 :::
 
@@ -327,7 +347,7 @@ Does this miss any major classes of behavior?
   - @Bress2024-og
 - Gesture -->
 
-## Muscles: Engines of animal motion {.scrollable}
+## Engines of animal motion {.scrollable}
 
 :::: {.columns}
 ::: {.column width=45%}
@@ -370,28 +390,45 @@ Does this miss any major classes of behavior?
 - Distal
     + Hands/fingers, feet/toes
     
-## {.scrollable}
-
-![[@Cantu2019-sz]](https://www.frontiersin.org/files/Articles/476718/fneur-10-00951-HTML/image_m/fneur-10-00951-g001.jpg)
-
 ## Agonist/antagonist pairs {.scrollable}
 
 ![](http://2.bp.blogspot.com/-TpOC4my_NBc/T0J-MhEv29I/AAAAAAAAF88/dYLv7QzFwmg/s1600/Hamstring-Quad4.jpg){fig-align="center"}
 
+---
+
+::: {.callout-important}
+## CNS must...
+1. Generate signals that move axial, proximal, & distal muscles.
+2. Generate signals that move agonist/antagonist muscle pairs in sequence.
+:::
+
 ## How skeletal muscles contract
 
-::: {.incremental}
+:::: {.columns}
+::: {.column width=50%}
 - Motor neurons (cell bodies located in ventral horn of spinal cord)
 - Project to muscle fiber(s)
   - *Motor unit* == Motor neuron + muscle fibers
-- Form *neuromuscular junction*
-    + Synapse between motor neuron and muscle fiber
-    + Release acetylcholine (ACh)
 :::
+::: {.column width=50%}
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/1/1b/Motor_unit.png?20190916132915)
+:::
+::::
 
-## {.scrollable}
+## How skeletal muscles contract
 
-![*Biological Psychology 4th ed.*](../include/img/from-spinal-cord-to-muscle.jpg){fig-align="center"}
+:::: {.columns}
+::: {.column width=50%}
+- *Neuromuscular junction*
+    + *Synapse* between motor neuron and muscle fiber
+    + Motor neuron axon releases *acetylcholine (ACh)*
+- Muscle fiber contracts
+:::
+::: {.column width=50%}
+![*Biological Psychology 4th ed.*](../include/img/from-spinal-cord-to-muscle.jpg)
+:::
+::::
+
 
 <!-- --- -->
 
@@ -438,10 +475,6 @@ Does this miss any major classes of behavior?
 :::
 ::::
 
-## Marionette analogy
-
-![Giphy: Bob Baker Marionette Theater](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGIxMzAxMzI2MXB2NXpvdTduOXF0ZWIzOG5zejMycGtmbzlkaXN6OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7b9mwnBioe3hcwvK/giphy.gif){fig-align="center"}
-    
 ## Muscles are sensory organs, too!
 
 :::: {.columns}
@@ -459,18 +492,21 @@ Does this miss any major classes of behavior?
 
 ## Intrafusal fibers
 
-+ Sense muscle length and $\Delta l$, e.g. "stretch"
-+ Provide muscle *proprioception*
++ Sense muscle length $l$ and $\Delta l$, e.g. "stretch"
++ Muscle *proprioception*
 - Proprioception == perception about the self
   - A form of interoception
 
 ## Intrafusal fibers
 
-- Stretch receptors (also called muscle spindles)
-  - Ennervated by by primary Ia afferents (sensory output from muscle to CNS)
-  - Secondary Type II fibers
+- *Type Ia afferents*
+  - Info about length $l$ and $\Delta l$ 
+  - Via stretch receptors (aka *muscle spindles*)
+- *Type II afferents*
+  - Info about length $l$ only
 - Force-producing motor fiber
-  + Ennervated by gamma ($\gamma$) motor neurons (motor input)
+  - Motor input
+  + Ennervated by gamma ($\gamma$) motor neurons
 
 ## Extrafusal fibers
 
@@ -481,25 +517,29 @@ Does this miss any major classes of behavior?
 
 ```{mermaid}
 %%| label: fig-info-flow-skeletal-muscle
-%%| fig-cap: "CNS activation of skeletal muscle fibers."
+%%| fig-cap: "CNS activation of extrafusal and intrafusal skeletal muscle fibers."
 flowchart TD
   N{Nervous System} ==>|Alpha motor neurons|B(Extrafusal muscle fibers)
   N ==>|Gamma motor neurons|C(Intrafusal muscle fibers)
-  C ==>|Ia spindle afferents|N
-  C ==>|Secondary afferents|N
+  C ==>|Type Ia afferents|N
+  C ==>|Type II afferents|N
 ```
 
-## Monosynaptic stretch (myotatic) reflex
+## Monosynaptic myotatic stretch reflex
 
 ::: {.incremental}
 - Muscle stretched (length increases)
 - Muscle spindle in intrafusal fiber activates
-- Ia afferent $\rightarrow$ spinal cord
+- Ia fiber $\rightarrow$ spinal cord
     + Activates alpha ($\alpha$) motor neuron
     - 1 synapse $\rightarrow$ monosynaptic
 - $\alpha$ motor neuron activates extrafusal fiber
 - Muscle contracts, shortens length
 :::
+
+## {.scrollable}
+
+![](../include/img/intrafusal-extrafusal-fibers.jpg){fig-align="center"}
 
 ## {.scrollable}
 
@@ -509,21 +549,9 @@ flowchart TD
 
 ## {.scrollable}
 
-![](../include/img/intrafusal-extrafusal-fibers.jpg){fig-align="center"}
-
-## {.scrollable}
-
 ![](../include/img/stretch-reflex.jpg){fig-align="center"}
 
----
-
-::: {.callout-note}
-This is a bit like the role of a belayer in rock climbing.
-
-![](https://www.thoughtco.com/thmb/_EukGM8OC9Rexe4KxtQxDQ3CsGs=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HowtoBelay_3-571117903df78c3fa293859d.jpg){fig-align="center"}
-:::
-
-## Avoiding tremor
+## Suppressing tremor
 
 :::: {.columns}
 ::: {.column width=50%}
@@ -537,7 +565,7 @@ This is a bit like the role of a belayer in rock climbing.
 :::
 ::::
 
-## Why this matters...
+## Why it matters...
 
 ![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXJjNXIxOGNzejhuaGNrcThxYzA1NGt5MG13YXY0eTJlNjM0NnlsbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VeZvq8yltmsUfq2sgX/giphy.gif){fig-align="center"}
 
@@ -561,19 +589,13 @@ This is a bit like the role of a belayer in rock climbing.
 :::
 ::::
 
-## Developmental implications? 
-
-- Does the motor system "learn" the sensory consequences of muscle fiber contraction?
-- "Tuning" proprioceptive feedback
-- Via random spontaneous "twitches" [@Blumberg2023-ce]?
-
 ## How muscles work: Interim summary
 
 ::: {.incremental}
 - Voluntary movements involve motor units causing contraction of agonist or antagonist pairs of skeletal muscles
 - Skeletal muscles have embedded sensors that detect length/tension
 - CNS gets rapid feedback about muscle length/tension (proprioception)
-- Monosynaptic stretch (myotatic) reflexes maintain position stability
+- Monosynaptic stretch reflexes maintain stability of limb/body position
 :::
 
 # Controlling muscles
@@ -592,20 +614,37 @@ This is a bit like the role of a belayer in rock climbing.
 
 ![M1. Wikipedia: <https://en.wikipedia.org/wiki/Primary_motor_cortex>](https://upload.wikimedia.org/wikipedia/commons/c/c5/Blausen_0103_Brain_Sensory%26Motor.png)
 
-## Topgraphic organization {.scrollable}
+## Topographic organization {.scrollable}
 
 ![Motor homunculus. Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Motor_homunculus.svg/1920px-Motor_homunculus.svg.png)
 
 ## Key nodes
 
+:::: {.columns}
+::: {.column width=50%}
 - Non-primary motor cortex
-  - Supplemental motor area (SMA)
+  - Supplementary motor area (SMA)
   - Premotor cortex (PMC)
   - Frontal eye fields (FEF)
+:::
+::: {.column width=50%}
+![By I, Paskari, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=2344159](https://upload.wikimedia.org/wikipedia/commons/8/80/Posterior_Parietal_Lobe.jpg){fig-align="right"}
+:::
+::::
+
+## Key nodes
+
+:::: {.columns}
+::: {.column width=50%}
 - Basal ganglia
 - Brain stem
 - Cerebellum
 - Spinal cord
+:::
+::: {.column width=50%}
+![*Biological Psychology 4th ed*](../include/img/motor-controllers-biopsych.jpg)
+:::
+::::
 
 ## Projection pathways
 
@@ -618,12 +657,29 @@ This is a bit like the role of a belayer in rock climbing.
 
 ## Pyramidal tracts/system
     
+:::: {.columns}
+::: {.column width=60%}
 + Pyramidal cells 
-  - Cerebral Cortex Layer 5 in primary motor cortex (M1)
+  - Layer 5 in primary motor cortex (M1)
 + Corticobulbar (cortex -> brainstem) tract
 + Corticospinal (cortex -> spinal cord) tract
+:::
+::: {.column width=40%}
+![Source: Wikipedia](../include/img/gray-corticospinal-tract.png)
+:::
+::::
+
+## Pyramidal tracts/system
+    
+:::: {.columns}
+::: {.column width=60%}
 - Crossover (decussate) in medulla
     + L side of brain ennervates R side of body
+:::
+::: {.column width=40%}
+![Source: Wikipedia](../include/img/gray-corticospinal-tract.png)
+:::
+::::
 
 ---
 
@@ -634,16 +690,6 @@ This is a bit like the role of a belayer in rock climbing.
 :::
 
 ![Source: Wikipedia](https://upload.wikimedia.org/wikipedia/commons/b/be/Gray672.png)
-
-## Extrapyramidal system
-
-+ [Tectospinal tract](https://en.wikipedia.org/wiki/Tectospinal_tract)
-+ [Lateral Vestibulospinal tract](https://en.wikipedia.org/wiki/Lateral_vestibulospinal_tract)
-+ [Reticulospinal tract](https://en.wikipedia.org/wiki/Reticular_formation#Descending_reticulospinal_tracts)
-- Rubrospinal tract
-- [Involuntary movements](https://en.wikipedia.org/wiki/Extrapyramidal_symptoms)
-    + Posture, balance, arousal
-    
 ## Direct cortical control
 
 - Over *some* motor neurons
@@ -653,6 +699,15 @@ This is a bit like the role of a belayer in rock climbing.
 ## {.scrollable}
 
 ![@Nielsen2016-hs Figure 1. Evidence of corticomotoneuronal connections in human subjects. Indirect, noninvasive evidence of the existence of monosynaptic connections between corticospinal neurons and spinal motoneurons may be obtained in awake human subjects by transcranial magnetic stimulation (TMS) (b,c) and coherence analysis of either cortical [electroencephalogram (EEG)] and muscular activity [electromyogram (EMG)] (d,e) or two separate recordings of muscular activity (f). (b,c) Corticospinal neurons can be excited by a brief magnetic pulse applied by a magnetic coil placed over the appropriate part of the motor cortex in awake human subjects. If the intensity of the magnetic pulse is adjusted appropriately, the evoked descending volley in the corticospinal tract may elicit a subthreshold excitatory postsynaptic potential (EPSP) in the relevant spinal motoneurons. This EPSP may be demonstrated as a change in the discharge probability of a single motor unit recorded from the muscle (b). In the illustrated example, the subject was asked to voluntarily activate the tibialis anterior (TA) muscle, and the discharges of a single motor unit were recorded by a needle electrode inserted into the muscle. TMS elicited a short-lasting (2-ms) increase of discharge probability at a latency of 45 ms (b). The short duration of this peak is consistent with the short rise time of a monosynaptic EPSP. This interpretation is further supported by the observation that stimulation of Ia afferents with known monosynaptic connections to the motoneurons elicits a peak with a similar short duration (c). Data in panels b and c modified with permission from Nielsen & Petersen (1994). (d,e) EEG recorded from the motor cortex and EMG recorded from a voluntarily activated muscle (TA in the illustrated example) show rhythmic modulation of the recorded activity at a frequency of 15–35 Hz. As shown from a coherence analysis of the two signals in panel d, some of this activity is common for the two sites, suggesting a close link between cortical and muscular activity. Panel e shows the EEG and EMG activities are not always synchronous but may show a time lag, which is in the range expected for a fast-conducting direct pathway to the motoneurons. Data in panels d and e modified with permission from Hansen et al. (2002). (f) A monosynaptic origin of corticomuscular coherence is further supported by the observation of short-term synchrony between the discharges of pairs of TA motor units, which may be related to the coherence in the 15–35-Hz frequency band. The subject was asked to voluntarily activate the TA muscle, and the discharges of two different TA motor units were recorded with needle electrodes. The short duration of the central peak of synchronization suggests that the motor unit activities are modulated by a common (monosynaptic) input from collaterals of last-order neurons, which are in all likelihood identical to corticomotoneuronal cells. The secondary peaks at lags of approximately 50–60 ms on either side of the central peak suggest that this last-order input modulates the discharge of the motor units at a frequency of about 20–30 Hz, i.e., corresponding to the coherence observed in the paired EEG-EMG recordings in panels b and c. Data in panel f modified with permission from Nielsen & Kagamihara (1994).](https://www.annualreviews.org/docserver/fulltext/neuro/39/1/ne390081.f1.gif)
+
+## Extrapyramidal system
+
+- [Involuntary movements](https://en.wikipedia.org/wiki/Extrapyramidal_symptoms)
+    + Posture, balance, arousal
++ [Tectospinal tract](https://en.wikipedia.org/wiki/Tectospinal_tract)
++ [Lateral Vestibulospinal tract](https://en.wikipedia.org/wiki/Lateral_vestibulospinal_tract)
++ [Reticulospinal tract](https://en.wikipedia.org/wiki/Reticular_formation#Descending_reticulospinal_tracts)
+- Rubrospinal tract
 
 # Illustrative motor systems
 

@@ -6,7 +6,6 @@ project:
     - "exercises/*.qmd"
     - "resources/*.qmd"
   output-dir: "docs"
-  execute-dir: project
   
 execute:
   freeze: auto  # re-render only when source changes
@@ -74,12 +73,5 @@ format:
   revealjs:
     revealjs-plugins:
       - embedio
-    bibliography: [include/bib/packages.bib, include/bib/psu-repro.bib, include/bib/psy-511.bib]
-    csl: include/bib/apa.csl
-
 editor: source
-
-knitr:
-  opts_chunk:
-    fig.path: include/fig/
     
