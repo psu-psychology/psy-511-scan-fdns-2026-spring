@@ -36,7 +36,7 @@ At each station, do the following:
 
 ::: {.callout-note}
 
-If you have time, you might pick one or two of the anatomical structures that you highlighted in [Exercise LVL • Levels/Terms](ex-LVL.qmd) and try to locate them.
+If you have time, you might pick one or two of the anatomical structures that you highlighted in Exercise LVL • Levels/Terms and try to locate them.
 
 If you cannot identify a structure or term in *any* of the stations or atlases, try to find an image on the internet that depicts the structure.
 If you 

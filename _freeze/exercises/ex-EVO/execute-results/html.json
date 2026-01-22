@@ -1,0 +1,15 @@
+{
+  "hash": "e8b5b38e5722326f32cbf0690ac42c84",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Exercise EVO • Evolution\"\nsubtitle: \"**Name:**____________________________\"\n---\n\n\n::: {.cell}\n\n:::\n\n\n## Goals\n\n1. To practice thinking and reasoning critically about how evolutionary perspectives can inform understanding about psychological phenomena.\n\n## Activity\n\nAnswer the following questions in a few short sentences:\n\n1. What feature(s) of the human brain are similar to closely related animals (e.g., mammals and especially primates)?\n2. What feature(s) of the human brain distinguish it from these closely related animals?\n3. Why is it especially hard to tie changes in human brain structure to particular human psychological characteristics?\n\nAnswer the following question in a paragraph or two:\n\n4. Consider a psychological domain that interests you, is an evolutionary perspective useful? Why or why not?\n\n## Submission details\n\n- Submit your write-up by **2026\\-03\\-26** via this [Canvas dropbox](https://psu\\.instructure\\.com/courses/2441266/assignments/18005262).\n- If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\n- If you found any resources that were especially useful to you in answering these questions, please cite them.\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

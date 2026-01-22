@@ -1,0 +1,15 @@
+{
+  "hash": "149b9303db005d2e8c7f297c33e00bdf",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Exercise CHEM • Neurochemistry\"\nsubtitle: \"**Name:**____________________________\"\n---\n\n\n::: {.cell}\n\n:::\n\n\n## Goals\n\n1. To understand some basic facts about neurotransmitters and their functions in communication.\n2. To understand some basic facts about hormones and their functions in communication.\n3. To understand how chemical (via neurotransmitters and hormones) and electrical (via action potentials) compare with one another.\n\n## Activity\n\n1. Starting with the arrival of the action potential at the terminal button, describe the main steps that lead to the release of neurotransmitter from the presynaptic terminal.\n2. Describe how the binding of neurotransmitter onto an *ionotropic* post-synaptic receptor influences the post-synaptic cell. What is an example of a neurotransmitter that has this effect?\n3. Describe how the binding of neurotransmitter onto a *metabotropic* post-synaptic receptor influences the post-synaptic cell. What is an example of a neurotransmitter that has this sort of effect?\n4. Describe at least two ways that neurotransmitters released at a synapse are inactivated, with an example for each.\n5. Describe some of the key features and roles of glutamate and GABA in the CNS.\n6. Describe at least two features that monoamine neurotransmitter systems have in common.\n7. Identify a structure in the CNS that controls the endocrine and neural responses to situations that require behavioral activation or increased activity and arousal. Give an example of how this might work in practice.\n\n## Submission details\n\n- Submit your write-up by **2026\\-04\\-16** via the Canvas [dropbox](https://psu\\.instructure\\.com/courses/2441266/assignments/18005510).\n- If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\n- If you found any resources that were especially useful to you in answering these questions, please cite them.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

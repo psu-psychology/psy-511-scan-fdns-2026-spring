@@ -1,0 +1,15 @@
+{
+  "hash": "3d610ddb42cf8e03ef4180f3c9063d72",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Exercise DEV • Development\"\nsubtitle: \"**Name:**____________________________\"\n---\n\n\n::: {.cell}\n\n:::\n\n\n## Goals\n\n1. Practice taking a *developmental neuroscience* perspective to psychological phenomena.\n2. Illustrate how taking such a perspective does or does not inform understanding about a particular phenomenon.\n\n## Activity\n\n1. Choose a psychological domain that interests you.\n2. In the spirit of [@Blumberg2023-fs], write a short essay (3-5 pp) where you apply a developmental neuroscience perspective to the domain.  In doing so, concisely answer the following questions:\n  - How does psychological functioning change over development?\n  - What brain system(s) are most directly implicated in the phenomenon?\n  - Does our current understanding of developmental patterns in these systems provide useful information about the domain?\n  - What information about brain structure or function is needed to understand the phenomenon more thoroughly?\n\n## Submission details\n\n- Submit your write-up by **2026\\-04\\-02** via the Canvas [dropbox](https://psu\\.instructure\\.com/courses/2441266/assignments/18005338).\n- If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\n- If you found any resources that were especially useful to you in answering these questions, please cite them.\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

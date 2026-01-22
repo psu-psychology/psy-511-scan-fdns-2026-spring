@@ -1,5 +1,6 @@
 ---
 title: "Policies"
+format: html
 ---
 
 {{< include _policies.qmd >}}

@@ -1,0 +1,15 @@
+{
+  "hash": "74dfd16b40dd8b785c156e5dc7af1cd7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Exercise AP • Neurophysiology II\"\nsubtitle: \"**Name:**____________________________\"\n---\n\n\n::: {.cell}\n\n:::\n\n\n## Goals\n\n1. To understand what change(s) in the resting state of neurons cause the *action potential*.\n2. To understand how the action potential results in the release of neurotransmitter from the axon terminal (terminal button).\n\n## Activity\n\nYou may work by yourself or with up to two other people for this activity.\nIf it is easier, you may draw figures and annotate them.\n\nAnswer the following questions in no more than a few sentences:\n\n1. What event(s) trigger the *rising phase* of the action potential in the axon initial segment?\n2. What event(s) occur at the *peak* of the action potential?\n3. What event(s) occur during the *falling phase* of the action potential?\n4. Why does the membrane potential overshoot (become more negative than) the typical resting potential?\n5. Why can't the neuron fire another action potential during the *absolute* refractory period? What do we need to do to generate an action potential during the *relative* refractory period? \n6. What makes \"computing\" with wires and action potentials \"expensive\" for the nervous system?\n7. How do psychologists benefit from learning more about these details of neurophysiology?\n\n## Submission details\n\n- Submit your write-up by **2026\\-04\\-09** via the Canvas [dropbox](https://psu\\.instructure\\.com/courses/2441266/assignments/18005465).\n- If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\n- If you found any resources that were especially useful to you in answering these questions, please cite them.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

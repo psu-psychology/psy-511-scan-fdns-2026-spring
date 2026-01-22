@@ -3,14 +3,17 @@ project:
   render:
     - "*.qmd"
     - "slides/*.qmd"
-    - "!exercises/*.qmd"
-    - "!resources/*.qmd"
+    - "exercises/*.qmd"
+    - "resources/*.qmd"
   output-dir: "docs"
+  
+execute:
+  freeze: auto  # re-render only when source changes
 
 website:
   title: "PSY 511.001"
   announcement: 
-    content: "Exercise [LVL](exercises/ex-LVL.qmd) is due Thursday." 
+    content: "Exercise LVL is due Thursday." 
     position: below-navbar
     icon: info-circle
     dismissable: true
@@ -50,12 +53,15 @@ website:
   
 format:
   html:
-    theme: default
-    css: include/css/styles.css
+    theme: [cosmo, include/css/psu.scss]
+    mainfont: roboto
+    fontsize: 1.1em
+    
     toc: true
     toc-depth: 4
+    
     fig-align: center
-    fontsize: 1.1em
+  
     number-sections: false
     citations-hover: true
     footnotes-hover: true

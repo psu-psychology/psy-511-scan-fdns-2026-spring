@@ -1,5 +1,6 @@
 ---
 title: "Schedule"
+format: html
 ---
 
 {{< include _schedule.qmd >}}

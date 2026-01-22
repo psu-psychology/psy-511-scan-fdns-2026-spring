@@ -1,5 +1,6 @@
 ---
 title: "Evaluation"
+format: html
 ---
 
 PSY 511 course performance will be evaluated based on the following scheme:

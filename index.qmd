@@ -1,6 +1,7 @@
 ---
 title: "PSY 511.001"
 subtitle: "Spring 2026 • TTh 12-3 PM"
+format: html
 ---
 
 {{< include _index.qmd >}}

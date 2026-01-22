@@ -1,0 +1,15 @@
+{
+  "hash": "dde89992b069a00c81bcc0d7b0103462",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Exercise PHYS • Neurophysiology I\"\nsubtitle: \"**Name:**____________________________\"\n---\n\n\n::: {.cell}\n\n:::\n\n\n## Goals\n\n1. To understand some basic facts about neurons and glia.\n2. To understand the ionic components and balance of forces that give rise to the *resting potential*.\n\n## Activity\n\nYou may work by yourself or with up to two other people for this activity.\n\nAnswer the following questions in no more than a few sentences:\n\n1. Describe at least two ways that neurons differ from other cells in the body.\n2. What are the two main types of myelin-producing glial cells, and where in the body are they found?\n\nDraw and annotate figure(s) to answer the following questions:\n\nMake sure to write a sentence or two to explain what's going on in your figures.\n\n3. Draw a figure that shows the two principal ions that contribute to the neuron's resting potential, and where (inside or outside the neuron) they are most heavily concentrated.\n4. Annotate your figure to show the direction of ion flow along each ion's concentration gradient^[Remember that ions flow *down* the concentration gradient, from regions of high concentration to regions of lower concentration].\n5. Annotate your figure to show the direction of ion movement caused by the $Na^+/K^+$ (sodium/potassium) ATPase (pump). \n6. Annotate your figure to show what spatial pattern of *electrical* charges (positive/negative voltage; inside the cell/outside the cell) would tend to keep the potassium ($K^+$) ions where they are most highly concentrated when the neuron is at rest. Explain your reasoning.\n7. Annotate your figure to show what this *same* pattern of electrical charges would do to sodium ($Na^+$) ions.\n\nAnswer the following questions in no more than a few sentences:\n\n8. What change(s) in the neuron could cause potassium ($K^+$) ions to move? Which direction would the ions move under these circumstances?\n9. What change(s) in the neuron could cause sodium ($Na^+$) ions to move? Which direction would the ions move under these circumstances?\n10. $Na^+/K^+$ (sodium/potassium) ATPase (pump) uses metabolic energy to function. It essentially keeps working constantly. What would happen to the neuron if this process was disrupted somehow?\n\n## Submission details\n\n- Submit your write-up by **2026\\-04\\-02** via the Canvas [dropbox](https://psu\\.instructure\\.com/courses/2441266/assignments/18005427).\n- If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\n- If you found any resources that were especially useful to you in answering these questions, please cite them.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
