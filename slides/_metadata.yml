@@ -1,9 +1,5 @@
 subtitle: "PSY 511.001 Spr 2026"
 
-csl: ../include/bib/apa.csl
-bibliography: [../include/bib/psu-repro.bib, ../include/bib/packages.bib, ../include/bib/psy-511.bib]
-bibliographystyle: apa
-
 execute:
   freeze: auto  # re-render only when source changes
 
@@ -24,7 +20,3 @@ format:
     institute: "Department of Psychology"
 
 lightbox: true
-
-knitr:
-  opts_chunk:
-    fig.path: ../include/fig/

@@ -59,7 +59,7 @@
     "href": "slides/wk-02-2026-01-22-anatomy.html#brain-anatomy-through-dance",
     "title": "Neuroanatomy",
     "section": "Brain anatomy through dance",
-    "text": "Brain anatomy through dance\n\n\nYour browser does not support the audio tag.",
+    "text": "Brain anatomy through dance\n\n\n\nYour browser does not support the audio tag.\n\n\n\nAnterior/Posterior\nMedial/Lateral\nSuperior/Inferior\nDorsal/Ventral\nRostral/Caudal",
     "crumbs": [
       "Slides",
       "Wk 02 • Thu Jan 21"
@@ -70,7 +70,7 @@
     "href": "slides/wk-02-2026-01-22-anatomy.html#terms",
     "title": "Neuroanatomy",
     "section": "Terms",
-    "text": "Terms\n\nAnterior/Posterior\nMedial/Lateral\nSuperior/Inferior\nDorsal/Ventral\nRostral/Caudal",
+    "text": "Terms\n\n\n\nhttps://medictests.com/units/standard-anatomical-terms-and-planes",
     "crumbs": [
       "Slides",
       "Wk 02 • Thu Jan 21"
@@ -521,7 +521,7 @@
     "href": "slides/wk-02-2026-01-22-anatomy.html#autonomic-nervous-system",
     "title": "Neuroanatomy",
     "section": "Autonomic nervous system",
-    "text": "Autonomic nervous system\n\nControls “vegetative functions”\n\nLimited voluntary control\n\nSympathetic\n\nPrepares body for action\n“Fight, flee, or fight”\n\nParasympathetic (around the sympathetic)\n\nRestorative function\n“Rest & digest”",
+    "text": "Autonomic nervous system\n\nControls “vegetative functions”\n\nLimited voluntary control\n\n\n\nSympathetic\n\nPrepares body for action\n“Fight, flee, or fight”\n\nParasympathetic (around the sympathetic)\n\nRestorative function\n“Rest & digest”",
     "crumbs": [
       "Slides",
       "Wk 02 • Thu Jan 21"
@@ -3163,5 +3163,38 @@
     "title": "Action",
     "section": "Pyramidal tracts/system",
     "text": "Pyramidal tracts/system\n\n\n\nCrossover (decussate) in medulla\n\nL side of brain ennervates R side of body\n\n\n\n\n\n\nSource: Wikipedia"
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#brain-anatomy-through-dance-1",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#brain-anatomy-through-dance-1",
+    "title": "Neuroanatomy",
+    "section": "Brain anatomy through dance",
+    "text": "Brain anatomy through dance\n\nYour browser does not support the audio tag.\nThis content is centered using inline CSS.",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Thu Jan 21"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#section",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#section",
+    "title": "Neuroanatomy",
+    "section": "",
+    "text": "https://medictests.com/units/standard-anatomical-terms-and-planes",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Thu Jan 21"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-2026-01-22-anatomy.html#section-1",
+    "href": "slides/wk-02-2026-01-22-anatomy.html#section-1",
+    "title": "Neuroanatomy",
+    "section": "",
+    "text": "Planes of section from http://www.scienceteacherprogram.org/",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Thu Jan 21"
+    ]
   }
 ]

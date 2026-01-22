@@ -76,22 +76,36 @@ flowchart TD
 - Connected to
 - Involved in
 
+<!-- ## Brain anatomy through dance -->
+
+<!-- <audio controls loop="loop"> -->
+<!-- <source src="../include/snd/brain_boxing.m4a" type="audio/mpeg"> -->
+<!-- Your browser does not support the audio tag.  -->
+<!-- </audio> -->
+
 ## Brain anatomy through dance
 
-<audio controls loop="loop">
-<source src="../include/snd/brain_boxing.m4a" type="audio/mpeg">
-Your browser does not support the audio tag. 
-</audio>
+:::: {.columns}
+::: {.column width=50%}
+::: {style="text-align:center;"}
+{{< audio ../include/snd/brain_boxing.m4a loop="true" >}}
+::: 
 
-## Terms
-
+:::
+::: {.column width=50%}
 - Anterior/Posterior
 - Medial/Lateral
 - Superior/Inferior
 - Dorsal/Ventral
 - Rostral/Caudal
+:::
+::::
 
-## Planes of section
+## {.scrollable}
+
+![https://medictests.com/units/standard-anatomical-terms-and-planes](https://s3.us-east-2.amazonaws.com/medictests/app/public/ckeditor_assets/pictures/7/content_1-Anatomical-Terms-and-Planes-V6.jpg)
+
+## {.scrollable}
 
 ![Planes of section from http://www.scienceteacherprogram.org/](http://www.scienceteacherprogram.org/biology/chillemistudentguide1-06/brain_directions_planes_sections__directions_-_small.gif)
 
@@ -573,21 +587,25 @@ Your browser does not support the audio tag.
 
 - Controls “vegetative functions”
   + Limited voluntary control
-- Sympathetic
+  
+::: {.incremental}
+- *Sympathetic*
   - Prepares body for action
   - "Fight, flee, or fight"
-- Parasympathetic (around the sympathetic)
+- *Parasympathetic* (around the sympathetic)
   - Restorative function
   - "Rest & digest"
+
+:::
 
 ## Autonomic nervous system
 
 :::: {.columns}
 ::: {.column width=50%}
-![By OpenStax College - Anatomy & Physiology, Connexions Web site. http://cnx.org/content/col11496/1.6/, Jun 19, 2013., CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=30148020](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/1503_Connections_of_the_Parasympathetic_Nervous_System.jpg/1280px-1503_Connections_of_the_Parasympathetic_Nervous_System.jpg){width=45% fig-align="left"}
+![By OpenStax College - Anatomy & Physiology, Connexions Web site. http://cnx.org/content/col11496/1.6/, Jun 19, 2013., CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=30148020](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/1503_Connections_of_the_Parasympathetic_Nervous_System.jpg/1280px-1503_Connections_of_the_Parasympathetic_Nervous_System.jpg){width=45% fig-align="center"}
 :::
 ::: {.column width=50%}
-![By Henry Vandyke Carter - Henry Gray (1918) Anatomy of the Human Body (See "Book" section below)Bartleby.com: Gray's Anatomy, Plate 839, Public Domain, https://commons.wikimedia.org/w/index.php?curid=792179](https://upload.wikimedia.org/wikipedia/commons/f/f7/Gray839.png){width=45% fig-align="right"}
+![By Henry Vandyke Carter - Henry Gray (1918) Anatomy of the Human Body (See "Book" section below)Bartleby.com: Gray's Anatomy, Plate 839, Public Domain, https://commons.wikimedia.org/w/index.php?curid=792179](https://upload.wikimedia.org/wikipedia/commons/f/f7/Gray839.png){width=45% fig-align="center"}
 :::
 ::::
 
