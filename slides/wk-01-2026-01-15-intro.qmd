@@ -1,5 +1,6 @@
 ---
 title: "Foundations of Social, Cognitive, and Affective Neuroscience"
+format: revealjs
 ---
 
 # Overview

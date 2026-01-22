@@ -1,18 +1,11 @@
 project:
   type: website
   render:
-    - "./*.qmd"
+    - "*.qmd"
     - "slides/*.qmd"
-    - "exercises/*.qmd"
-    - "resources/*.qmd"
+    - "!exercises/*.qmd"
+    - "!resources/*.qmd"
   output-dir: "docs"
-  resources:
-    - "include/snd/*.m4a"
-    - "include/snd/*.wav"
-    - "include/img/*.png"
-    - "include/img/*.jpg"
-    - "include/img/*.gif"
-    - "include/img/*.mov"
 
 website:
   title: "PSY 511.001"
@@ -71,5 +64,8 @@ format:
     bibliography: [include/bib/packages.bib, include/bib/psu-repro.bib, include/bib/psy-511.bib]
     csl: include/bib/apa.csl
     html-math-method: mathjax
+  revealjs:
+    revealjs-plugins:
+      - embedio
 editor: source
     

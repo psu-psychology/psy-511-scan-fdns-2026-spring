@@ -1,7 +1,12 @@
 subtitle: "PSY 511.001 Spr 2026"
+
 csl: ../include/bib/apa.csl
 bibliography: [../include/bib/psu-repro.bib, ../include/bib/packages.bib, ../include/bib/psy-511.bib]
 bibliographystyle: apa
+
+execute:
+  freeze: auto  # re-render only when source changes
+
 format:
   revealjs:
     footer: "[PSY 511.001](https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring) | © 2025 Rick Gilmore under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
@@ -17,10 +22,9 @@ format:
     citations-hover: true
     author: "Rick Gilmore"
     institute: "Department of Psychology"
-    revealjs-plugins:
-      - embedio
-  pptx: default
+
 lightbox: true
+
 knitr:
   opts_chunk:
     fig.path: ../include/fig/
