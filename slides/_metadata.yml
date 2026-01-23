@@ -18,5 +18,6 @@ format:
     citations-hover: true
     author: "Rick Gilmore"
     institute: "Department of Psychology"
-
+    reference-location: document
+    
 lightbox: true

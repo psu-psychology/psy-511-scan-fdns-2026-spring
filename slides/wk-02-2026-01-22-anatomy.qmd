@@ -7,15 +7,17 @@ format: revealjs
 
 ---
 
-{{< video https://www.youtube.com/embed/snO68aJTOpM width=100% height=70% >}}
+::: {#fig-pinky-and-the-brain}
+{{< video https://www.youtube.com/embed/snO68aJTOpM >}}
 
--- @Ctdalilah2006-co
+@Ctdalilah2006-co
+:::
 
----
+::: {#fig-im-your-brain-song}
+{{< video https://www.youtube.com/embed/Qw8E9WnZTQk >}}
 
-{{< video https://www.youtube.com/embed/Qw8E9WnZTQk width=100% height=70% >}}
-
--- @Kids_Learning_Tube2015-pb <!-- Kids brain song -->
+@Kids_Learning_Tube2015-pb <!-- Kids brain song -->
+:::
 
 ## Announcements
 
@@ -45,8 +47,10 @@ format: revealjs
   - World
   - Body
   - Nervous system
+
 :::
-::: 
+:::
+
 ::: {.column width=33%}
 ```{mermaid}
 flowchart TD
@@ -56,12 +60,14 @@ flowchart TD
   B --> N
 ```
 :::
+
 ::: {.column width=33%}
 ::: {.fragment}
 - Outputs to
   - World
   - Body
   - Nervous system
+
 :::
 :::
 ::::
@@ -76,28 +82,22 @@ flowchart TD
 - Connected to
 - Involved in
 
-<!-- ## Brain anatomy through dance -->
-
-<!-- <audio controls loop="loop"> -->
-<!-- <source src="../include/snd/brain_boxing.m4a" type="audio/mpeg"> -->
-<!-- Your browser does not support the audio tag.  -->
-<!-- </audio> -->
-
 ## Brain anatomy through dance
 
-:::: {.columns}
-::: {.column width=50%}
-::: {style="text-align:center;"}
-{{< audio ../include/snd/brain_boxing.m4a loop="true" >}}
-::: 
+{{< include _brain_boxing.html >}}
 
-:::
+## {.scrollable}
+
+:::: {.columns}
 ::: {.column width=50%}
 - Anterior/Posterior
 - Medial/Lateral
 - Superior/Inferior
 - Dorsal/Ventral
 - Rostral/Caudal
+:::
+::: {.column width=50%}
+![Wikipedia^["By Original: OpenStax Vector: Pixelsquid🎱 - Own work based on: Human Neuroaxis-en.jpg:, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=97420092"]](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Human_Neuroaxis-en.svg/2560px-Human_Neuroaxis-en.svg.png)
 :::
 ::::
 
@@ -124,7 +124,7 @@ flowchart TD
 ![Nervous system of Harriet Cole, see @McNaughton2018-fl](../include/img/harriet-bw-237w.jpg){width=70%}
 :::
 ::: {.column width=50%}
-![By Own work, CC BY 3.0, <https://commons.wikimedia.org/w/index.php?curid=10187018>](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/TE-Nervous_system_diagram.svg/1280px-TE-Nervous_system_diagram.svg.png){width=70%}
+![Wikipedia^[By Own work, CC BY 3.0, <https://commons.wikimedia.org/w/index.php?curid=10187018>]](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/TE-Nervous_system_diagram.svg/1280px-TE-Nervous_system_diagram.svg.png){width=70%}
 :::
 ::::
 
@@ -189,7 +189,7 @@ flowchart TD
 - Cerebral hemispheres
 - Bumps
   - Gyrus or gyri
-- Grooves 
+- Grooves
   - Sulcus or sulci: shallow
   - Fissure: deep
 - Medial longitudinal fissure
@@ -213,7 +213,7 @@ flowchart TD
   - Occipital
 :::
 ::: {.column width=50%}
-![By Sebastian023, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=21020857](https://upload.wikimedia.org/wikipedia/commons/4/46/LobesCaptsLateral.png)
+![Wikipedia^[By Sebastian023, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=21020857]](https://upload.wikimedia.org/wikipedia/commons/4/46/LobesCaptsLateral.png)
 :::
 ::::
 
@@ -239,25 +239,25 @@ flowchart TD
 - Insula: Gustatory
 :::
 ::: {.column width=50%}
-![By Sebastian023, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=21020857](https://upload.wikimedia.org/wikipedia/commons/4/46/LobesCaptsLateral.png)
+![Wikipedia^[By Sebastian023, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=21020857]](https://upload.wikimedia.org/wikipedia/commons/4/46/LobesCaptsLateral.png)
 :::
 ::::
 
 ## Cerebral cortex: M1
 
-![By Cortex sensorimoteur1.jpg: Pancratderivative work: Iamozy - Own work, This file was derived from: Cortex sensorimoteur1.jpg:, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=33981076](https://upload.wikimedia.org/wikipedia/commons/3/33/Human_motor_cortex.jpg){width=45%}
+![Wikipedia^[By Cortex sensorimoteur1.jpg: Pancratderivative work: Iamozy - Own work, This file was derived from: Cortex sensorimoteur1.jpg:, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=33981076]](https://upload.wikimedia.org/wikipedia/commons/3/33/Human_motor_cortex.jpg){width=45%}
 
 ## Cerebral cortex: A1
 
-![By Chittka L, Brockmann - Perception Space—The Final Frontier, A PLoS Biology Vol. 3, No. 4, e137 doi:10.1371/journal.pbio.0030137 ([1]/[2]), vectorised by Inductiveload, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=5958918](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Auditory_Cortex_Frequency_Mapping.svg/2560px-Auditory_Cortex_Frequency_Mapping.svg.png){width=60%}
+![Wikipedia^[By Chittka L, Brockmann - Perception Space—The Final Frontier, A PLoS Biology Vol. 3, No. 4, e137 doi:10.1371/journal.pbio.0030137 ([1]/[2]), vectorised by Inductiveload, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=5958918]](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Auditory_Cortex_Frequency_Mapping.svg/2560px-Auditory_Cortex_Frequency_Mapping.svg.png){width=60%}
 
 ## Cerebral cortex: S1
 
-![By Jimhutchins (talk) - The original image was uploaded on en.wikipedia as en:Image:Postcentral_gyrus.png, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4481990](https://upload.wikimedia.org/wikipedia/commons/6/66/Postcentral_gyrus.png){width=60%}
+![Wikipedia^[By Jimhutchins (talk) - The original image was uploaded on en.wikipedia as en:Image:Postcentral_gyrus.png, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4481990]](https://upload.wikimedia.org/wikipedia/commons/6/66/Postcentral_gyrus.png){width=60%}
 
 ## Cerebral cortex: V1
 
-![By Brodmann - File:Brodmann_Cytoarchitectonics.PNG, Public Domain, https://commons.wikimedia.org/w/index.php?curid=8221432](https://upload.wikimedia.org/wikipedia/commons/3/33/Brodmann_Cytoarchitectonics_17.png){width=30%}
+![Wikipedia^[By Brodmann - File:Brodmann_Cytoarchitectonics.PNG, Public Domain, https://commons.wikimedia.org/w/index.php?curid=8221432]](https://upload.wikimedia.org/wikipedia/commons/3/33/Brodmann_Cytoarchitectonics_17.png){width=30%}
 
 ## Cerebral cortex: Insula {.scrollable}
 
@@ -267,7 +267,7 @@ flowchart TD
 - Self-awareness, interpersonal experiences, motor control, interoception
 :::
 ::: {.column width=50%}
-![@Namkung2017-gc Figure 1](https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr1.jpg)
+![@Namkung2017-gc Figure 1^[Figure 1. Anatomy of the Human Insula. The human insular cortex is bilaterally located deep within the lateral sulcus separating the temporal lobe from the parietal and frontal lobes. The insula is covered with folds of the adjacent frontal, parietal, and temporal opercula. The circumference of the insula is outlined by the circular sulcus, and the deep central sulcus of the insula separates the anterior and posterior parts. Three short insular gyri are found in the anterior insula (AI), whereas two long insular gyri lie in the posterior insula (PI). Cytoarchitecturally, the insula is roughly divided into anterior agranular and posterior granular sections with a transitional dysgranular mid-section.]](https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr1.jpg)
 :::
 ::::
 
@@ -390,7 +390,7 @@ flowchart TD
 
 ## Hypothalamus
 
-- Five Fs: 
+- Five Fs:
   - Fighting/fleeing/freezing
   - Feeding
   - Reproduction
@@ -403,7 +403,7 @@ flowchart TD
     + Posterior pituitary (direct release of hormones)
         - Oxytocin
         - Vasopressin (aka, Arginine Vasopressin -- AVP; Anti-diuretic Hormone -- ADH)
-        
+
 ---
 
 | Major division | Ventricular Landmark | Embryonic Division | Structure         |
@@ -500,7 +500,7 @@ flowchart TD
 ::::
 
 ## Medulla oblongata
- 
+
 :::: {.columns}
 ::: {.column width=50%}
 - Cardiovascular regulation
@@ -575,7 +575,7 @@ flowchart TD
 :::
 :::
 ::: {.column width=50%}
-![By Own work, CC BY 3.0, <https://commons.wikimedia.org/w/index.php?curid=10187018>](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/TE-Nervous_system_diagram.svg/1280px-TE-Nervous_system_diagram.svg.png){width=70% fig-align="right"}
+![Wikipedia^[By Own work, CC BY 3.0, <https://commons.wikimedia.org/w/index.php?curid=10187018>]](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/TE-Nervous_system_diagram.svg/1280px-TE-Nervous_system_diagram.svg.png){width=70% fig-align="right"}
 :::
 ::::
 
@@ -587,7 +587,7 @@ flowchart TD
 
 - Controls “vegetative functions”
   + Limited voluntary control
-  
+
 ::: {.incremental}
 - *Sympathetic*
   - Prepares body for action
@@ -602,10 +602,10 @@ flowchart TD
 
 :::: {.columns}
 ::: {.column width=50%}
-![By OpenStax College - Anatomy & Physiology, Connexions Web site. http://cnx.org/content/col11496/1.6/, Jun 19, 2013., CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=30148020](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/1503_Connections_of_the_Parasympathetic_Nervous_System.jpg/1280px-1503_Connections_of_the_Parasympathetic_Nervous_System.jpg){width=45% fig-align="center"}
+![Wikipedia^[By OpenStax College - Anatomy & Physiology, Connexions Web site. http://cnx.org/content/col11496/1.6/, Jun 19, 2013., CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=30148020]](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/1503_Connections_of_the_Parasympathetic_Nervous_System.jpg/1280px-1503_Connections_of_the_Parasympathetic_Nervous_System.jpg){width=45% fig-align="center"}
 :::
 ::: {.column width=50%}
-![By Henry Vandyke Carter - Henry Gray (1918) Anatomy of the Human Body (See "Book" section below)Bartleby.com: Gray's Anatomy, Plate 839, Public Domain, https://commons.wikimedia.org/w/index.php?curid=792179](https://upload.wikimedia.org/wikipedia/commons/f/f7/Gray839.png){width=45% fig-align="center"}
+![Wikipedia^[By Henry Vandyke Carter - Henry Gray (1918) Anatomy of the Human Body (See "Book" section below)Bartleby.com: Gray's Anatomy, Plate 839, Public Domain, https://commons.wikimedia.org/w/index.php?curid=792179]](https://upload.wikimedia.org/wikipedia/commons/f/f7/Gray839.png){width=45% fig-align="center"}
 :::
 ::::
 
