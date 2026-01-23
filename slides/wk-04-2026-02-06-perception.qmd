@@ -228,8 +228,6 @@ flowchart TD
     
 ## Interoception
 
-
-    
 :::: {.columns}
 ::: {.column width=50%}
 - Hunger/thirst
@@ -567,9 +565,15 @@ plot(g, vertex.size=50, vertex.color="gray")
 
 ![http://apod.nasa.gov/apod/ap140605.html](../include/img/hud2014_1000c.jpg)
 
-- Light provides fast (2.99 million m/s; 186 million mi/hr) information about surfaces at a distance
+## Light
+
+- Provides fast (2.99 million m/s; 186 million mi/hr) information about surfaces at a distance
 - vs. sound (340 m/s; 767 mi/hr)
 - vs. chemical signals (min/mi)
+
+## Not instantaneous by cosmic scales
+
+
 
 ## Reflectance spectra differ by surface
 
@@ -595,17 +599,36 @@ plot(g, vertex.size=50, vertex.color="gray")
 ## The biological camera
 
 ![](../include/img/how-camera-works.jpg)
+## {.scrollable}
 
 ![](../include/img/the-eye-ksj.jpg)
 
+## {.scrollable}
+
 ![](../include/img/the-eye.jpg)
 
-## part of a self-stabilizing system...
+## Part of a self-stabilizing motor system...
 
-<!-- Kestrel showing image stabilization -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JGArTWOJtXs?start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <!-- Kestrel showing image stabilization --> -->
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/JGArTWOJtXs?start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
-<https://www.youtube.com/embed/JGArTWOJtXs>
+<!-- <https://www.youtube.com/embed/JGArTWOJtXs> -->
+
+{{< video https://www.youtube.com/watch?v=JGArTWOJtXs width=100% height=75% >}}
+
+-- @Bucalo2015-qm
+
+## {.scrollable}
+
+::: {.callout-important}
+## The eye/head/body system
+
+- Eye + head + body movements *align and point* the eyes
+- Eye + head + body movements *stabilize* the eyes
+  - When the observer moves
+  - When objects move
+
+:::
 
 ## Parts of the eye
 
