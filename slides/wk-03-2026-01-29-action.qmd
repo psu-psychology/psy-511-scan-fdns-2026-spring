@@ -988,11 +988,15 @@ flowchart TD
 
 - Keep Center of Mass (COM) within base of support
 
-::: {#fig-center-of-mass}
-{{< video https://www.youtube.com/watch?v=5s1gEi5wfLg&t=11s width=100% >}}
+::: {#fig-com-base-of-support-video}
+{{< video https://www.youtube.com/watch?v=5s1gEi5wfLg&t=11s>}}
 
 @Motion2024-rf
 :::
+
+## Locomotion: Physics (Neuromechanics)
+
+![@Sponberg2017-qe Figure 1^[Animal movement, as represented by a neuromechanical system diagram. Whether in humans or moths, neurons activate muscles by transmitting electrical impulses over time (t)—frequently digital, all-or-nothing events termed action potentials or spikes. Muscles transform the time-varying neural motor commands u(t) into mechanical forces f(t). Muscles actuate the body, but it is the interaction of the body with the surrounding environment that produces locomotion y(t). Meanwhile, myriad sensors detect not only the body and how it interacts with environment, but also internal states of the animal. All that information feeds back through the animal’s nervous system. Sensor signals can be combined with reference signals, illustrated by red arrows. In this schematic, r1(t) represents a brain-directed task such as “fly at a steady speed,” and r2(t) represents exogenous sensory cues such as a moth might receive when tracking the movement of a flower]](https://aip.brightspotcdn.com/dims4/default/ac26000/2147483647/strip/true/crop/1130x430+0+0/resize/1640x624!/format/webp/quality/90/?url=https%3A%2F%2Fk1-prod-aip.s3.us-east-2.amazonaws.com%2Fbrightspot%2FPTO.v70.i9.34_1.f1.jpg)
 
 ## Locomotion: Physics
 
@@ -1017,6 +1021,22 @@ flowchart TD
 :::
 ::: {.column width=50%}
 ![@Lu2024-si](https://content.cld.iop.org/journals/1748-3190/19/2/026017/revision2/bbad2869f1_lr.jpg)
+:::
+::::
+
+## Locomotion: On steering
+
+:::: {.columns}
+::: {.column width=50%}
+- Taxis
+  - Directed movement
+    - Toward (positive taxis)
+    - Away (negative taxis)
+- vs. Kinesis (random movement)
+- Steering a key "breakthrough" in the history of intelligence [@Bennett2023-gx]
+:::
+::: {.column width=50%}
+![@Bennett2023-gx](https://m.media-amazon.com/images/I/816NKaN+5aL._SX522_.jpg)
 :::
 ::::
 
