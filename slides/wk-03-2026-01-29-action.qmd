@@ -80,7 +80,7 @@ format:
 :::
 ::::
 
----
+## {.scrollable}
 
 ![Planes of section from http://www.scienceteacherprogram.org/](http://www.scienceteacherprogram.org/biology/chillemistudentguide1-06/brain_directions_planes_sections__directions_-_small.gif)
 
@@ -178,7 +178,7 @@ flowchart TD
 Can you name a physical law that applies to movement? A biological law? A psychological law?
 
 ::: {.fragment}
-Fitts' [@Fitts1954-we] Law: Speed/accuracy trade-off.
+Suggestion: Fitts' [-@Fitts1954-we] Law: Speed/accuracy trade-off
 :::
 :::
 :::
@@ -230,18 +230,18 @@ flowchart TD
 
 ---
 
-### Interoception
+<!-- ### Interoception -->
 
-```{mermaid}
-%%| label: fig-interoception-subgroups
-%%| fig-cap: "There are three primary groups of interoceptive signal routes from the body to the nervous system."
-flowchart TD
-  B[Body] -->|endocrine| N[Nervous System]
-  B -->|somatic| N
-  B -->|autonomic| N
-```
+<!-- ```{mermaid} -->
+<!-- %%| label: fig-interoception-subgroups -->
+<!-- %%| fig-cap: "There are three primary groups of interoceptive signal routes from the body to the nervous system." -->
+<!-- flowchart TD -->
+<!--   B[Body] -->|endocrine| N[Nervous System] -->
+<!--   B -->|somatic| N -->
+<!--   B -->|autonomic| N -->
+<!-- ``` -->
 
----
+<!-- --- -->
 
 ### Schematic
 
@@ -263,6 +263,10 @@ flowchart TD
 
 ![@Favela2020-uc Figure 3](../include/img/wcs1525-fig-0003-m.jpg){width=35%}
 
+## Neuromechanics perspective {.scrollable}
+
+![@Sartori2017-po Figure 1^[Linking between the neural and mechanical levels of motor function. Subjects perform a large repertoire of isometric ankle plantar-dorsi flexion contractions. High-density electromyograms are recorded and decomposed into the temporal events at which the underlying motor neurons discharged, thus opening a window into the central nervous system. This is done for seven major muscles spanning the ankle joint (see Methods Section). The decoded motor neuron discharges are directly used to control a subject-specific model of the musculoskeletal system. This enables reconstructing the net ankle moment over time, without knowledge of the experimental values (i.e. blinded validation) and without closed-loop feedback mechanism for compensating prediction errors (i.e. open-loop formulations). In this way, the predicted moment is purely contributed by motor neuron-controlled multi-muscle contractions acting on the skeletal system.]](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-017-13766-6/MediaObjects/41598_2017_13766_Fig1_HTML.jpg?as=webp)
+
 ## Evolutionary perspective
 
 :::: {.columns}
@@ -270,13 +274,11 @@ flowchart TD
 - What actions must animals perform?
 :::
 ::: {.column width=50%}
-::: {.fragment}
 ![giphy.com](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTk0cHUzaWNybHRrbjAwM2plZmw3NnU4M3B0amVoenNyaXl4ZnRoYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IL4iTvQH0MjS/giphy.gif){fig-align="right"}
-:::
 :::
 ::::
 
----
+## Evolutionary perspective
 
 ::: {.incremental}
 - Live long enough...
@@ -287,14 +289,7 @@ flowchart TD
   - Find a mate
   - Mate
   - Ensure the well-being of offspring
-- In other words...*behave*
 :::
-
-## Movement is the *real* reason for brains
-
-{{< video https://www.youtube.com/watch?v=7s0CpRfyYp8 width=100% height=70% >}}
-
--- @TED2011-oz
 
 ## Classes of behavior
 
@@ -351,6 +346,29 @@ What's missing?
 - Facial expression
   - @Bress2024-og
 - Gesture -->
+
+## The *real* reason for brains
+
+{{< video https://www.youtube.com/watch?v=7s0CpRfyYp8 width=100% height=70% >}}
+
+-- @TED2011-oz
+
+## But simple circuits...
+
+:::: {.columns}
+::: {.column width=30%}
+![@Braitenberg2021-fz](https://m.media-amazon.com/images/I/4183BLcu-0L._SY445_SX342_FMwebp_.jpg)
+:::
+::: {.column width=70%}
+![@HarmenUnknown-ki](../include/img/harmendeweerd-fig-01.png)
+:::
+::::
+
+## Even single cells...
+
+{{< video https://www.youtube.com/watch?v=PYKzwpKyUn0 width="100%" height="70%" >}}
+
+-- @Totally-Science2021-cu
 
 ## The engines of animal motion {.scrollable}
 
@@ -612,9 +630,9 @@ flowchart TD
 
 # Controlling muscles
 
----
+## {.scrollable}
 
-![*Biological Psychology 4th ed*](../include/img/motor-controllers-biopsych.jpg)
+![@van-KanUnknown-ni](https://wisc.pb.unizin.org/app/uploads/sites/202/2018/02/image1.jpeg)
 
 ## Key nodes
 
@@ -624,7 +642,7 @@ flowchart TD
 
 ## {.scrollable}
 
-![M1. Wikipedia: <https://en.wikipedia.org/wiki/Primary_motor_cortex>](https://upload.wikimedia.org/wikipedia/commons/c/c5/Blausen_0103_Brain_Sensory%26Motor.png)
+![Wikipedia^[https://en.wikipedia.org/wiki/Primary_motor_cortex]](https://upload.wikimedia.org/wikipedia/commons/c/c5/Blausen_0103_Brain_Sensory%26Motor.png)
 
 ## Somatotopic^[Topographic map of the body.] organization {.scrollable}
 
@@ -655,7 +673,7 @@ flowchart TD
 - Spinal cord
 :::
 ::: {.column width=50%}
-![*Biological Psychology 4th ed*](../include/img/motor-controllers-biopsych.jpg)
+![@van-KanUnknown-ni](https://wisc.pb.unizin.org/app/uploads/sites/202/2018/02/image1.jpeg){width=70%}
 :::
 ::::
 
@@ -678,7 +696,7 @@ flowchart TD
 + Corticospinal (cortex -> spinal cord) tract
 :::
 ::: {.column width=40%}
-![Wikipedia](../include/img/gray-corticospinal-tract.png)
+![Wikipedia^[By OpenStax College - Anatomy & Physiology, Connexions Web site. http://cnx.org/content/col11496/1.6/, Jun 19, 2013., CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=30148015]](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/1426_Corticospinal_Pathway.jpg/960px-1426_Corticospinal_Pathway.jpg){width=50%}
 :::
 ::::
 
@@ -707,9 +725,13 @@ flowchart TD
 :::
 ::::
 
-## Somatotopic map via spinal cord segments {.scrollable}
+## Somatotopic map & spinal cord segments {.scrollable}
 
 ![Wikipedia^[By Sheryl Tan, Faull L, Curtis A - The Anatomical record, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=152594765]](https://upload.wikimedia.org/wikipedia/commons/7/72/Spinal_cord_details.jpg)
+
+## Dermatomes & myotomes {.scrollable}
+
+![Wikipedia^[By Grant, John Charles Boileau - An atlas of anatomy, / by regions 1962, Public Domain, https://commons.wikimedia.org/w/index.php?curid=30017222]](https://upload.wikimedia.org/wikipedia/commons/9/93/Grant_1962_663.png)
 
 ## Direct cortical control
 
@@ -729,6 +751,20 @@ flowchart TD
 + [Lateral Vestibulospinal tract](https://en.wikipedia.org/wiki/Lateral_vestibulospinal_tract)
 + [Reticulospinal tract](https://en.wikipedia.org/wiki/Reticular_formation#Descending_reticulospinal_tracts)
 - Rubrospinal tract
+
+## Neuromechanical^[@Nishikawa2007-ik] perspective
+
+:::: {.columns}
+::: {.column width=50%}
+- "Closed loop" control
+- Physical intelligence (pre-flexes)
+  - Conduction speed slow
+  - Physical/mechanical (e.g., spring-like) properties of muscles, tendons
+:::
+::: {.column width=50%}
+![@van-KanUnknown-ni](https://wisc.pb.unizin.org/app/uploads/sites/202/2018/02/image1.jpeg){width=50%}
+:::
+::::
 
 # Illustrative motor systems
 
@@ -895,7 +931,9 @@ flowchart TD
 
 ## Eye muscles
 
-![](https://pressbooks.library.torontomu.ca/assessmentnursingmain/wp-content/uploads/sites/421/2024/08/Extraocular-movement-via-cranial-nerves.jpg){width=90%}
+![@DominguezUnknown-ko](https://upload.medbullets.com/topic/120483/images/eye_muscles..jpg)
+
+<!-- ![](https://pressbooks.library.torontomu.ca/assessmentnursingmain/wp-content/uploads/sites/421/2024/08/Extraocular-movement-via-cranial-nerves.jpg){width=90%} -->
 
 ---
 
@@ -994,7 +1032,7 @@ flowchart TD
 @Motion2024-rf
 :::
 
-## Locomotion: Physics (Neuromechanics)
+## Locomotion: Neuromechanics
 
 ![@Sponberg2017-qe Figure 1^[Animal movement, as represented by a neuromechanical system diagram. Whether in humans or moths, neurons activate muscles by transmitting electrical impulses over time (t)—frequently digital, all-or-nothing events termed action potentials or spikes. Muscles transform the time-varying neural motor commands u(t) into mechanical forces f(t). Muscles actuate the body, but it is the interaction of the body with the surrounding environment that produces locomotion y(t). Meanwhile, myriad sensors detect not only the body and how it interacts with environment, but also internal states of the animal. All that information feeds back through the animal’s nervous system. Sensor signals can be combined with reference signals, illustrated by red arrows. In this schematic, r1(t) represents a brain-directed task such as “fly at a steady speed,” and r2(t) represents exogenous sensory cues such as a moth might receive when tracking the movement of a flower]](https://aip.brightspotcdn.com/dims4/default/ac26000/2147483647/strip/true/crop/1130x430+0+0/resize/1640x624!/format/webp/quality/90/?url=https%3A%2F%2Fk1-prod-aip.s3.us-east-2.amazonaws.com%2Fbrightspot%2FPTO.v70.i9.34_1.f1.jpg)
 
@@ -1048,7 +1086,7 @@ flowchart TD
 ::: {#fig-running-biomechanics}
 {{< video https://www.youtube.com/shorts/pxWIauT1WaM >}}
 
-YouTube^[https://www.youtube.com/@mendip89/shorts]
+YouTube^[https://www.youtube.com/\@mendip89/shorts]
 :::
 
 ## Or "rotational" patterns...{.scrollable}
@@ -1141,20 +1179,34 @@ flowchart TD
   - looking/orienting + locomotion + reaching/manipulation + vocalization
 - Parallel, coordinated, sequential outputs to multiple motor systems
 
-## Illustrative motor systems: Interim summary
+## Interim summary
 
 - Direct (cerebral) cortical control over muscles of eyes, fingers, vocal apparatus
 - Feedback critical, often multisensory
 - Exploiting physics of body
 
+# Wrap-up
+
+## Computational perspective {.scrollable}
+
+:::: {.columns}
+::: {.column width=50%}
+- Computation
+  - Evolution, ethology, psychology
+  - Neuromechanics
+- Representation & algorithm
+  - Somatotopy
+- Hardware
+  - Muscles, tendons, spinal cord, brain
+:::
+::: {.column width=50%}
+![@Favela2020-uc Figure 3](../include/img/wcs1525-fig-0003-m.jpg){width=35%}
+:::
+::::
+
 ## The cerebral symphony
 
 ![By The original uploader was Davigoli at English Wikipedia. - Transferred from en.wikipedia to Commons., https://at.or.at/hans/solitude/, GPLv2, https://commons.wikimedia.org/w/index.php?curid=3939703](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Solitude.png/2560px-Solitude.png)
-# Wrap-up
-
-## Main points
-
-- 
 
 ## Next time
 
