@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2026-01-29">
 
-<title>terms-concepts – PSY 511.001</title>
+<title>Language – PSY 511.001</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -62,6 +62,9 @@ div.csl-indent {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-5c7f2581a5bb871e150ab4bb0330fc8c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -90,35 +93,6 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -132,7 +106,7 @@ window.Quarto = {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">terms-concepts</h1>
+          <h1 class="quarto-secondary-nav-title">Language</h1>
         </a>     
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
@@ -239,22 +213,51 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
-  <li><a href="#brain-areas" id="toc-brain-areas" class="nav-link" data-scroll-target="#brain-areas">Brain areas</a></li>
-  <li><a href="#networkspathways" id="toc-networkspathways" class="nav-link" data-scroll-target="#networkspathways">Networks/Pathways</a></li>
-  <li><a href="#physiological-processes" id="toc-physiological-processes" class="nav-link" data-scroll-target="#physiological-processes">Physiological processes</a></li>
-  <li><a href="#measures-methods" id="toc-measures-methods" class="nav-link" data-scroll-target="#measures-methods">Measures &amp; methods</a></li>
-  <li><a href="#computational-ideas" id="toc-computational-ideas" class="nav-link" data-scroll-target="#computational-ideas">Computational ideas</a></li>
-  <li><a href="#psychological-processes" id="toc-psychological-processes" class="nav-link" data-scroll-target="#psychological-processes">Psychological processes</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul>
+  <li><a href="#prelude" id="toc-prelude" class="nav-link" data-scroll-target="#prelude">Prelude</a></li>
+  <li><a href="#announcements" id="toc-announcements" class="nav-link" data-scroll-target="#announcements">Announcements</a></li>
+  <li><a href="#todays-topics" id="toc-todays-topics" class="nav-link" data-scroll-target="#todays-topics">Today’s topics</a></li>
+  <li><a href="#warm-up" id="toc-warm-up" class="nav-link" data-scroll-target="#warm-up">Warm-up</a></li>
+  </ul></li>
+  <li><a href="#language-and-the-brain" id="toc-language-and-the-brain" class="nav-link" data-scroll-target="#language-and-the-brain">Language and the brain</a>
+  <ul>
+  <li><a href="#language-behavior" id="toc-language-behavior" class="nav-link" data-scroll-target="#language-behavior">Language behavior</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#hierarchical-structure-of-language-information" id="toc-hierarchical-structure-of-language-information" class="nav-link" data-scroll-target="#hierarchical-structure-of-language-information">Hierarchical structure of language information</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
+  <li><a href="#wernicke-geschwind-wg-model" id="toc-wernicke-geschwind-wg-model" class="nav-link" data-scroll-target="#wernicke-geschwind-wg-model">Wernicke-Geschwind (WG) model</a></li>
+  <li><a href="#wernickes-area-brodmann-area-or-ba-42" id="toc-wernickes-area-brodmann-area-or-ba-42" class="nav-link" data-scroll-target="#wernickes-area-brodmann-area-or-ba-42">Wernicke’s area (Brodmann Area or BA 42)</a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"></a></li>
+  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3"></a></li>
+  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4"></a></li>
+  <li><a href="#brocas-area" id="toc-brocas-area" class="nav-link" data-scroll-target="#brocas-area">Broca’s area</a></li>
+  <li><a href="#dual-streams-hickok2007-rc" id="toc-dual-streams-hickok2007-rc" class="nav-link" data-scroll-target="#dual-streams-hickok2007-rc">Dual streams <span class="citation" data-cites="Hickok2007-rc">(Hickok &amp; Poeppel, 2007)</span>?</a></li>
+  <li><a href="#metaanalytic-evidence-hagoort2014-au" id="toc-metaanalytic-evidence-hagoort2014-au" class="nav-link" data-scroll-target="#metaanalytic-evidence-hagoort2014-au">Metaanalytic evidence <span class="citation" data-cites="Hagoort2014-au">(Hagoort &amp; Indefrey, 2014)</span></a></li>
+  <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5"></a></li>
+  <li><a href="#section-6" id="toc-section-6" class="nav-link" data-scroll-target="#section-6"></a></li>
+  </ul></li>
+  <li><a href="#topic-2" id="toc-topic-2" class="nav-link" data-scroll-target="#topic-2">Topic 2</a></li>
+  <li><a href="#wrap-up" id="toc-wrap-up" class="nav-link" data-scroll-target="#wrap-up">Wrap-up</a>
+  <ul>
+  <li><a href="#main-points" id="toc-main-points" class="nav-link" data-scroll-target="#main-points">Main points</a></li>
+  <li><a href="#next-time" id="toc-next-time" class="nav-link" data-scroll-target="#next-time">Next time</a></li>
+  </ul></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a>
+  <ul>
+  <li><a href="#about" id="toc-about" class="nav-link" data-scroll-target="#about">About</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/edit/main/src/resources/terms-concepts.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/edit/main/src/slides/wk-06-2026-02-19-language.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="wk-06-2026-02-19-language.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">terms-concepts</h1>
+<h1 class="title d-none d-lg-block">Language</h1>
+<p class="subtitle lead">PSY 511.001 Spr 2026</p>
 </div>
 
 
@@ -283,122 +286,203 @@ window.Quarto = {
 </header>
 
 
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<section id="prelude" class="level2">
+<h2 class="anchored" data-anchor-id="prelude">Prelude</h2>
+</section>
+<section id="announcements" class="level2">
+<h2 class="anchored" data-anchor-id="announcements">Announcements</h2>
+</section>
+<section id="todays-topics" class="level2">
+<h2 class="anchored" data-anchor-id="todays-topics">Today’s topics</h2>
+<ul>
+<li>Language and the brain</li>
+<li>Topic 2</li>
+</ul>
+</section>
+<section id="warm-up" class="level2">
+<h2 class="anchored" data-anchor-id="warm-up">Warm-up</h2>
+</section>
+</section>
+<section id="language-and-the-brain" class="level1">
+<h1>Language and the brain</h1>
+<section id="language-behavior" class="level2">
+<h2 class="anchored" data-anchor-id="language-behavior">Language behavior</h2>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/4X4Fy8YqysY?rel=0&amp;start=160" frameborder="0" allowfullscreen="">
+</iframe>
+</section>
+<section id="section" class="level2 scrollable">
+<h2 class="scrollable anchored" data-anchor-id="section"></h2>
+<ul>
+<li>Productive
+<ul>
+<li>Speaking (2-5 words/s), modulate prosody (intonation), often combined with gesture</li>
+<li>Writing, typing (.5-1.5 words/s)</li>
+</ul></li>
+<li>Receptive
+<ul>
+<li>Listening, responding (facial expressions, gestures, laughter, etc.)</li>
+<li>Reading (3-5 words/s)</li>
+</ul></li>
+<li>How so fast? Time for feedback?</li>
+</ul>
+</section>
+<section id="hierarchical-structure-of-language-information" class="level2">
+<h2 class="anchored" data-anchor-id="hierarchical-structure-of-language-information">Hierarchical structure of language information</h2>
+<ul>
+<li>Phonetic
+<ul>
+<li>|Ber| |wiTH| |mē|</li>
+</ul></li>
+<li>Syntactic</li>
+<li>Semantic</li>
+</ul>
+<p><a href="https://cdn.someecards.com/someecards/usercards/MjAxMi03YjFmMjM5OTA1MmVhMzI2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://cdn.someecards.com/someecards/usercards/MjAxMi03YjFmMjM5OTA1MmVhMzI2.png" class="img-fluid"></a></p>
+<p><a href="https://s3.amazonaws.com/contenthub-static/blog/wp-content/uploads/2017/02/BEAR-WITH-ME-.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://s3.amazonaws.com/contenthub-static/blog/wp-content/uploads/2017/02/BEAR-WITH-ME-.jpg" class="img-fluid"></a></p>
+</section>
+<section id="section-1" class="level2 scrollable">
+<h2 class="scrollable anchored" data-anchor-id="section-1"></h2>
+<ul>
+<li>Pragmatic</li>
+</ul>
+</section>
+<section id="wernicke-geschwind-wg-model" class="level2">
+<h2 class="anchored" data-anchor-id="wernicke-geschwind-wg-model">Wernicke-Geschwind (WG) model</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Carl_Wernicke">Carl Wernicke</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Norman_Geschwind">Norman Geschwind</a></li>
+<li>Perception ≠ production</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/3/30/Wernickeges2.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Wikipedia"><img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Wernickeges2.gif" class="img-fluid figure-img" alt="Wikipedia"></a></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+</section>
+<section id="wernickes-area-brodmann-area-or-ba-42" class="level2">
+<h2 class="anchored" data-anchor-id="wernickes-area-brodmann-area-or-ba-42">Wernicke’s area (Brodmann Area or BA 42)</h2>
+<ul>
+<li>Adjacent to primary auditory cortex (A1; Heschl’s gyrus; BA 41)</li>
+<li>Perception</li>
+<li>Receptive or ‘fluent’ aphasia</li>
+</ul>
+</section>
+<section id="section-2" class="level2 scrollable">
+<h2 class="scrollable anchored" data-anchor-id="section-2"></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/b/bf/Brodmann_area_41_inside_lateral_sulcus.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Wikipedia"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Brodmann_area_41_inside_lateral_sulcus.png" class="img-fluid figure-img" alt="Wikipedia"></a></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+</section>
+<section id="section-3" class="level2 scrollable">
+<h2 class="scrollable anchored" data-anchor-id="section-3"></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Human_temporal_lobe_areas.png/1024px-Human_temporal_lobe_areas.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Wikipedia"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Human_temporal_lobe_areas.png/1024px-Human_temporal_lobe_areas.png" class="img-fluid figure-img" alt="Wikipedia"></a></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+</section>
+<section id="section-4" class="level2 scrollable">
+<h2 class="scrollable anchored" data-anchor-id="section-4"></h2>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/dKTdMV6cOZw?rel=0" frameborder="0" allowfullscreen="">
+</iframe>
+</section>
+<section id="brocas-area" class="level2">
+<h2 class="anchored" data-anchor-id="brocas-area">Broca’s area</h2>
+<ul>
+<li>Inferior frontal gyrus, pars opercularis (BA 44) &amp; pars angularis (BA 45)<br>
+</li>
+<li>Production</li>
+<li>Expressive aphasia</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Broca%E2%80%99s_area_-_BA44_and_BA45.png/1024px-Broca%E2%80%99s_area_-_BA44_and_BA45.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Wikipedia"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Broca%E2%80%99s_area_-_BA44_and_BA45.png/1024px-Broca%E2%80%99s_area_-_BA44_and_BA45.png" class="img-fluid figure-img" alt="Wikipedia"></a></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/f2IiMEbMnPM" frameborder="0" allowfullscreen="">
+</iframe>
+</section>
+<section id="dual-streams-hickok2007-rc" class="level2">
+<h2 class="anchored" data-anchor-id="dual-streams-hickok2007-rc">Dual streams <span class="citation" data-cites="Hickok2007-rc">(<a href="#ref-Hickok2007-rc" role="doc-biblioref">Hickok &amp; Poeppel, 2007</a>)</span>?</h2>
+<ul>
+<li>Ventral (speech signals -&gt; semantics)</li>
+<li>Dorsal (speech signal acoustics -&gt; articulatory networks in frontal lobe)</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../include/img/hickock-poeppel-2007.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="[@Hickok2007-rc]"><img src="../include/img/hickock-poeppel-2007.jpg" class="img-fluid figure-img" alt="(Hickok &amp; Poeppel, 2007)"></a></p>
+<figcaption><span class="citation" data-cites="Hickok2007-rc">(<a href="#ref-Hickok2007-rc" role="doc-biblioref">Hickok &amp; Poeppel, 2007</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="metaanalytic-evidence-hagoort2014-au" class="level2">
+<h2 class="anchored" data-anchor-id="metaanalytic-evidence-hagoort2014-au">Metaanalytic evidence <span class="citation" data-cites="Hagoort2014-au">(<a href="#ref-Hagoort2014-au" role="doc-biblioref">Hagoort &amp; Indefrey, 2014</a>)</span></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../include/img/hagoort-indefrey-fig1a.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="[@Hagoort2014-au]. Figure 1. Schematic representation of the brain showing regions with reliably reported activations for sentences compared with nonsentential stimuli (a) and sentences with high syntactic or semantic processing demands compared with simpler sentences (b,c). The left posterior inferior frontal gyrus is further subdivided into Brodmann areas (BA) 44 (above black line), BA 45 (below black line, above AC–PC line) and BA 47 (below AC–PC line). Green regions indicate a reliable number of reports. Pink regions indicate no reports in 53 studies. For details, see Supplemental Tables 2, 3, and 4. Abbreviations: AC, anterior commissure; PC, posterior commissure)."><img src="../include/img/hagoort-indefrey-fig1a.jpg" class="img-fluid figure-img" alt="(Hagoort &amp; Indefrey, 2014). Figure 1. Schematic representation of the brain showing regions with reliably reported activations for sentences compared with nonsentential stimuli (a) and sentences with high syntactic or semantic processing demands compared with simpler sentences (b,c). The left posterior inferior frontal gyrus is further subdivided into Brodmann areas (BA) 44 (above black line), BA 45 (below black line, above AC–PC line) and BA 47 (below AC–PC line). Green regions indicate a reliable number of reports. Pink regions indicate no reports in 53 studies. For details, see Supplemental Tables 2, 3, and 4. Abbreviations: AC, anterior commissure; PC, posterior commissure)."></a></p>
+<figcaption><span class="citation" data-cites="Hagoort2014-au">(<a href="#ref-Hagoort2014-au" role="doc-biblioref">Hagoort &amp; Indefrey, 2014</a>)</span>. Figure 1. Schematic representation of the brain showing regions with reliably reported activations for sentences compared with nonsentential stimuli (a) and sentences with high syntactic or semantic processing demands compared with simpler sentences (b,c). The left posterior inferior frontal gyrus is further subdivided into Brodmann areas (BA) 44 (above black line), BA 45 (below black line, above AC–PC line) and BA 47 (below AC–PC line). Green regions indicate a reliable number of reports. Pink regions indicate no reports in 53 studies. For details, see Supplemental Tables 2, 3, and 4. Abbreviations: AC, anterior commissure; PC, posterior commissure).</figcaption>
+</figure>
+</div>
+</section>
+<section id="section-5" class="level2 scrollable">
+<h2 class="scrollable anchored" data-anchor-id="section-5"></h2>
+<p><a href="../include/img/hagoort-indefrey-fig1b.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="../include/img/hagoort-indefrey-fig1b.jpg" class="img-fluid"></a></p>
+<p><a href="../include/img/hagoort-indefrey-fig1c.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="../include/img/hagoort-indefrey-fig1c.jpg" class="img-fluid"></a></p>
+</section>
+<section id="section-6" class="level2 scrollable">
+<h2 class="scrollable anchored" data-anchor-id="section-6"></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../include/img/hagoort-indefrey-fig2a.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="[@Hagoort2014-au]. Figure 2. (a) Summary of activation patterns for sentences with high syntactic or semantic processing demands compared with simpler sentences. (b) Syntactic/semantic gradients in left inferior frontal and posterior temporal cortex based on 28 studies reporting posterior temporal cortex activation for syntactically demanding or semantically demanding sentences compared with less demanding sentences (see Supplemental Figure 13 for details). The centers represent the mean coordinates of the local maxima, and the radii represent the standard deviations of the distance between the local maxima and their means. Abbreviations: GFm, GFi, middle and inferior frontal gyri; BA, Brodmann area; GTs, GTm, GTi, superior, middle, and inferior temporal gyri; STS, ITS, superior and inferior temporal sulci; Gsm, supramarginal gyrus."><img src="../include/img/hagoort-indefrey-fig2a.jpg" class="img-fluid figure-img" alt="(Hagoort &amp; Indefrey, 2014). Figure 2. (a) Summary of activation patterns for sentences with high syntactic or semantic processing demands compared with simpler sentences. (b) Syntactic/semantic gradients in left inferior frontal and posterior temporal cortex based on 28 studies reporting posterior temporal cortex activation for syntactically demanding or semantically demanding sentences compared with less demanding sentences (see Supplemental Figure 13 for details). The centers represent the mean coordinates of the local maxima, and the radii represent the standard deviations of the distance between the local maxima and their means. Abbreviations: GFm, GFi, middle and inferior frontal gyri; BA, Brodmann area; GTs, GTm, GTi, superior, middle, and inferior temporal gyri; STS, ITS, superior and inferior temporal sulci; Gsm, supramarginal gyrus."></a></p>
+<figcaption><span class="citation" data-cites="Hagoort2014-au">(<a href="#ref-Hagoort2014-au" role="doc-biblioref">Hagoort &amp; Indefrey, 2014</a>)</span>. Figure 2. (a) Summary of activation patterns for sentences with high syntactic or semantic processing demands compared with simpler sentences. (b) Syntactic/semantic gradients in left inferior frontal and posterior temporal cortex based on 28 studies reporting posterior temporal cortex activation for syntactically demanding or semantically demanding sentences compared with less demanding sentences (see Supplemental Figure 13 for details). The centers represent the mean coordinates of the local maxima, and the radii represent the standard deviations of the distance between the local maxima and their means. Abbreviations: GFm, GFi, middle and inferior frontal gyri; BA, Brodmann area; GTs, GTm, GTi, superior, middle, and inferior temporal gyri; STS, ITS, superior and inferior temporal sulci; Gsm, supramarginal gyrus.</figcaption>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>“<em>A meta-analysis of numerous neuroimaging studies reveals a clear dorsal/ventral gradient in both left inferior frontal cortex and left posterior temporal cortex, with dorsal foci for syntactic processing and ventral foci for semantic processing. In addition…further networks need to be recruited to realize language-driven communication to its full extent.</em>”</p>
+<p><span class="citation" data-cites="Hagoort2014-au">(<a href="#ref-Hagoort2014-au" role="doc-biblioref">Hagoort &amp; Indefrey, 2014</a>)</span></p>
+</blockquote>
+</section>
+</section>
+<section id="topic-2" class="level1">
+<h1>Topic 2</h1>
+</section>
+<section id="wrap-up" class="level1">
+<h1>Wrap-up</h1>
+<section id="main-points" class="level2">
+<h2 class="anchored" data-anchor-id="main-points">Main points</h2>
+</section>
+<section id="next-time" class="level2">
+<h2 class="anchored" data-anchor-id="next-time">Next time</h2>
+</section>
+</section>
+<section id="resources" class="level1">
+<h1>Resources</h1>
 <section id="about" class="level2">
 <h2 class="anchored" data-anchor-id="about">About</h2>
-<p>This document describes the terms that PSY 511 students suggested they are interested in learning more about.</p>
+<p>This talk was produced using <a href="https://quarto.org">Quarto</a>, using the <a href="https://posit.co/products/open-source/rstudio/">RStudio</a> Integrated Development Environment (IDE), version 2026.1.0.392.</p>
+<p>The source files are in R and R Markdown, then rendered to HTML using the <a href="https://revealjs.com">revealJS</a> framework. The HTML slides are hosted in a <a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring">GitHub repo</a> and served by GitHub pages: <a href="https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/" class="uri">https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/</a></p>
 </section>
-<section id="brain-areas" class="level2">
-<h2 class="anchored" data-anchor-id="brain-areas">Brain areas</h2>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Dorsolateral_prefrontal_cortex">Dorsolateral prefrontal cortex</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Dorsomedial_prefrontal_cortex">Dorsomedial prefrontal cortex</a></li>
-<li>Left <a href="https://en.wikipedia.org/wiki/Precentral_gyrus">precentral gyrus</a></li>
-<li>Left inferior frontal junction</li>
-<li><a href="https://en.wikipedia.org/wiki/Striatum">Striatum</a>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Striatum#Ventral_striatum">Ventral striatum</a>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Nucleus_accumbens">Nucleus accumbens</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</section>
-<section id="networkspathways" class="level2">
-<h2 class="anchored" data-anchor-id="networkspathways">Networks/Pathways</h2>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Default_mode_network-">Default mode network</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Dorsal_attention_network">Dorsal attention network</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Frontoparietal_network">Frontoparietal network</a> (Central executive network)</li>
-<li><a href="https://en.wikipedia.org/wiki/Mesolimbic_pathway">Mesolimbic (dopamine) pathway</a></li>
-</ul>
-</section>
-<section id="physiological-processes" class="level2">
-<h2 class="anchored" data-anchor-id="physiological-processes">Physiological processes</h2>
-<ul>
-<li>Interoception</li>
-<li>Allostasis/allostatic load</li>
-<li>Heart rate variability (HRV)</li>
-<li>Respiratory sinus arrhythmia (RSA)</li>
-<li>Vagal (i.e, CN X Vagus nerve) tone</li>
-</ul>
-</section>
-<section id="measures-methods" class="level2">
-<h2 class="anchored" data-anchor-id="measures-methods">Measures &amp; methods</h2>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Resting_state_fMRI">Resting state fMRI (rsfMRI)</a></li>
-<li>Structural MRI
-<ul>
-<li>Vertex-wise vs.&nbsp;regional analyses of cortical thickness, c.f. <span class="citation" data-cites="Harrewijn2021-vt">(<a href="#ref-Harrewijn2021-vt" role="doc-biblioref">Harrewijn et al., 2021</a>)</span></li>
-</ul></li>
-<li><a href="https://en.wikipedia.org/wiki/Electroencephalography">Electroencephalography (EEG)</a>
-<ul>
-<li>Frequency-domain analyses
-<ul>
-<li>Alpha (<span class="math inline">\(\alpha\)</span>) power</li>
-<li>Hemispheric asymmetry</li>
-<li>Periodic vs.&nbsp;aperiodic components of EEG <span class="citation" data-cites="Donoghue2020-dh">(<a href="#ref-Donoghue2020-dh" role="doc-biblioref">Donoghue, Dominguez, &amp; Voytek, 2020</a>)</span></li>
-<li>Coupling c.f. <span class="citation" data-cites="He2025-bh">(<a href="#ref-He2025-bh" role="doc-biblioref">He et al., 2025</a>)</span></li>
-</ul></li>
-<li><a href="https://en.wikipedia.org/wiki/Event-related_potential">Event-related Potentials (ERP)</a>
-<ul>
-<li>Reward Positivity (RewP)</li>
-</ul></li>
-<li>Spheroids/<a href="https://en.wikipedia.org/wiki/Neural_organoid">Organoids</a></li>
-<li>Personality neuroscience</li>
-<li><a href="https://en.wikipedia.org/wiki/Region_of_interest">Regions of interest (ROI)</a></li>
-</ul></li>
-<li>ENIGMA consortium</li>
-<li>Multivariate pattern analysis (MVPA)</li>
-</ul>
-</section>
-<section id="computational-ideas" class="level2">
-<h2 class="anchored" data-anchor-id="computational-ideas">Computational ideas</h2>
-<ul>
-<li>Reward prediction error</li>
-<li>Predictive coding/active inference</li>
-<li>Free energy</li>
-<li>Neural sequence</li>
-</ul>
-</section>
-<section id="psychological-processes" class="level2">
-<h2 class="anchored" data-anchor-id="psychological-processes">Psychological processes</h2>
-<ul>
-<li>Repetitive negative thinking
-<ul>
-<li>Rumination</li>
-<li>Worry</li>
-</ul></li>
-<li>Internalizing psychopathology</li>
-<li>Executive function</li>
-<li>Reward processing
-<ul>
-<li>Reward prediction error</li>
-</ul></li>
-<li>Predictive coding</li>
-<li>Behavioral inhibition</li>
-<li>Inhibitory control</li>
-<li>Categorization (in emotion), c.f. <span class="citation" data-cites="Barrett2017-hq">(<a href="#ref-Barrett2017-hq" role="doc-biblioref">Barrett, 2017</a>)</span></li>
-<li>Borderline personality disorder (BPD)</li>
-<li>Obsessive-Compulsive Disorder (OCD)</li>
-<li>Generalized Anxiety Disorder (GAD)</li>
-</ul>
+<section id="references" class="level2">
 
 
 
+
+</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-Barrett2017-hq" class="csl-entry" role="listitem">
-Barrett, L. F. (2017). The theory of constructed emotion: An active inference account of interoception and categorization. <em>Social Cognitive and Affective Neuroscience</em>, <em>12</em>, 1–23. <a href="https://doi.org/10.1093/scan/nsw154">https://doi.org/10.1093/scan/nsw154</a>
+<div id="ref-Hagoort2014-au" class="csl-entry" role="listitem">
+Hagoort, P., &amp; Indefrey, P. (2014). The neurobiology of language beyond single words. <em>Annu. Rev. Neurosci.</em>, <em>37</em>, 347–362. <a href="https://doi.org/10.1146/annurev-neuro-071013-013847">https://doi.org/10.1146/annurev-neuro-071013-013847</a>
 </div>
-<div id="ref-Donoghue2020-dh" class="csl-entry" role="listitem">
-Donoghue, T., Dominguez, J., &amp; Voytek, B. (2020). Electrophysiological frequency band ratio measures conflate periodic and aperiodic neural activity. <em>eNeuro</em>, <em>7</em>, ENEURO.0192–20.2020. <a href="https://doi.org/10.1523/ENEURO.0192-20.2020">https://doi.org/10.1523/ENEURO.0192-20.2020</a>
-</div>
-<div id="ref-Harrewijn2021-vt" class="csl-entry" role="listitem">
-Harrewijn, A., Cardinale, E. M., Groenewold, N. A., Bas-Hoogendam, J. M., Aghajani, M., Hilbert, K., … Pine, D. S. (2021). Cortical and subcortical brain structure in generalized anxiety disorder: Findings from 28 research sites in the <span>ENIGMA</span>-anxiety working group. <em>Translational Psychiatry</em>, <em>11</em>, 502. <a href="https://doi.org/10.1038/s41398-021-01622-1">https://doi.org/10.1038/s41398-021-01622-1</a>
-</div>
-<div id="ref-He2025-bh" class="csl-entry" role="listitem">
-He, L., Wang, X., Zhang, J., Xiao, Z., Hu, X., &amp; Liu, Y. (2025). Human hippocampal ripples loosen medial prefrontal constraints to foster creative thinking. <em>bioRxiv</em>, 2025.07.22.666046. <a href="https://doi.org/10.1101/2025.07.22.666046">https://doi.org/10.1101/2025.07.22.666046</a>
+<div id="ref-Hickok2007-rc" class="csl-entry" role="listitem">
+Hickok, G., &amp; Poeppel, D. (2007). The cortical organization of speech processing. <em>Nat. Rev. Neurosci.</em>, <em>8</em>(5), 393–402. <a href="https://doi.org/10.1038/nrn2113">https://doi.org/10.1038/nrn2113</a>
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -809,7 +893,7 @@ He, L., Wang, X., Zhang, J., Xiao, Z., Hu, X., &amp; Liu, Y. (2025). Human hippo
 </div>   
     <div class="nav-footer-center">
 <p>Built with <a href="https://quarto.org/">Quarto</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/edit/main/src/resources/terms-concepts.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/edit/main/src/slides/wk-06-2026-02-19-language.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
@@ -822,6 +906,38 @@ He, L., Wang, X., Zhang, J., Xiao, Z., Hu, X., &amp; Liu, Y. (2025). Human hippo
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

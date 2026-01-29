@@ -1,0 +1,130 @@
+---
+title: "Language"
+---
+
+# Overview
+
+## Prelude
+
+## Announcements
+
+## Today's topics
+
+- Language and the brain
+- Topic 2
+
+## Warm-up
+
+# Language and the brain
+
+## Language behavior
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/4X4Fy8YqysY?rel=0&amp;start=160" frameborder="0" allowfullscreen></iframe>
+
+## {.scrollable}
+
+- Productive
+    - Speaking (2-5 words/s), modulate prosody (intonation), often combined with gesture
+    - Writing, typing (.5-1.5 words/s)
+- Receptive
+    - Listening, responding (facial expressions, gestures, laughter, etc.)
+    - Reading (3-5 words/s)
+- How so fast? Time for feedback?
+
+## Hierarchical structure of language information
+
+- Phonetic
+    - |Ber| |wiTH| |mē|
+- Syntactic
+- Semantic
+
+![](https://cdn.someecards.com/someecards/usercards/MjAxMi03YjFmMjM5OTA1MmVhMzI2.png)
+
+![](https://s3.amazonaws.com/contenthub-static/blog/wp-content/uploads/2017/02/BEAR-WITH-ME-.jpg)
+
+## {.scrollable}
+
+- Pragmatic
+
+## Wernicke-Geschwind (WG) model
+
+- [Carl Wernicke](https://en.wikipedia.org/wiki/Carl_Wernicke)
+- [Norman Geschwind](https://en.wikipedia.org/wiki/Norman_Geschwind)
+- Perception ≠ production
+
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/3/30/Wernickeges2.gif)
+
+## Wernicke's area (Brodmann Area or BA 42)
+    
+- Adjacent to primary auditory cortex (A1; Heschl's gyrus; BA 41)
+- Perception
+- Receptive or 'fluent' aphasia
+
+## {.scrollable}
+
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/b/bf/Brodmann_area_41_inside_lateral_sulcus.png)
+
+## {.scrollable}
+
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Human_temporal_lobe_areas.png/1024px-Human_temporal_lobe_areas.png)
+
+## {.scrollable}
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/dKTdMV6cOZw?rel=0" frameborder="0" allowfullscreen></iframe>
+
+## Broca's area
+
+- Inferior frontal gyrus, pars opercularis (BA 44) & pars angularis (BA 45)     
+- Production
+- Expressive aphasia
+
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Broca%E2%80%99s_area_-_BA44_and_BA45.png/1024px-Broca%E2%80%99s_area_-_BA44_and_BA45.png)
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/f2IiMEbMnPM" frameborder="0" allowfullscreen></iframe>
+
+## Dual streams [@Hickok2007-rc]?
+
+- Ventral (speech signals -> semantics)
+- Dorsal (speech signal acoustics -> articulatory networks in frontal lobe)
+
+![[@Hickok2007-rc]](../include/img/hickock-poeppel-2007.jpg)
+
+## Metaanalytic evidence [@Hagoort2014-au]
+
+![[@Hagoort2014-au]. Figure 1. Schematic representation of the brain showing regions with reliably reported activations for sentences compared with nonsentential stimuli (a) and sentences with high syntactic or semantic processing demands compared with simpler sentences (b,c). The left posterior inferior frontal gyrus is further subdivided into Brodmann areas (BA) 44 (above black line), BA 45 (below black line, above AC–PC line) and BA 47 (below AC–PC line). Green regions indicate a reliable number of reports. Pink regions indicate no reports in 53 studies. For details, see Supplemental Tables 2, 3, and 4. Abbreviations: AC, anterior commissure; PC, posterior commissure).](../include/img/hagoort-indefrey-fig1a.jpg)
+
+## {.scrollable}
+
+![](../include/img/hagoort-indefrey-fig1b.jpg)
+
+![](../include/img/hagoort-indefrey-fig1c.jpg)
+
+## {.scrollable}
+
+![[@Hagoort2014-au]. Figure 2. (a) Summary of activation patterns for sentences with high syntactic or semantic processing demands compared with simpler sentences. (b) Syntactic/semantic gradients in left inferior frontal and posterior temporal cortex based on 28 studies reporting posterior temporal cortex activation for syntactically demanding or semantically demanding sentences compared with less demanding sentences (see Supplemental Figure 13 for details). The centers represent the mean coordinates of the local maxima, and the radii represent the standard deviations of the distance between the local maxima and their means. Abbreviations: GFm, GFi, middle and inferior frontal gyri; BA, Brodmann area; GTs, GTm, GTi, superior, middle, and inferior temporal gyri; STS, ITS, superior and inferior temporal sulci; Gsm, supramarginal gyrus.](../include/img/hagoort-indefrey-fig2a.jpg)
+
+>"*A meta-analysis of numerous neuroimaging studies reveals a clear dorsal/ventral gradient in both left inferior frontal cortex and left posterior temporal cortex, with dorsal foci for syntactic processing and ventral foci for semantic processing. In addition...further networks need to be recruited to realize language-driven communication to its full extent.*"
+>
+> [@Hagoort2014-au]
+
+# Topic 2
+
+# Wrap-up
+
+## Main points
+
+## Next time
+
+# Resources
+
+## About
+
+This talk was produced using [Quarto](https://quarto.org), using the [RStudio](https://posit.co/products/open-source/rstudio/)
+Integrated Development Environment (IDE), version 2026.1.0.392.
+
+The source files are in R and R Markdown, then rendered to HTML using the
+[revealJS](https://revealjs.com) framework.
+The HTML slides are hosted in a [GitHub repo](https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring) and served by GitHub pages:
+<https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/>
+
+## References

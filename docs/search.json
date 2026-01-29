@@ -3441,7 +3441,7 @@
     "href": "resources/terms-concepts.html#networkspathways",
     "title": "terms-concepts",
     "section": "Networks/Pathways",
-    "text": "Networks/Pathways\n\nDefault mode network\nDorsal attention network\nFrontoparietal network (Central executive network)\nMesolimbocortical (dopamine) pathway"
+    "text": "Networks/Pathways\n\nDefault mode network\nDorsal attention network\nFrontoparietal network (Central executive network)\nMesolimbic (dopamine) pathway"
   },
   {
     "objectID": "resources/terms-concepts.html#physiological-processes",
@@ -3455,21 +3455,21 @@
     "href": "resources/terms-concepts.html#measures-methods",
     "title": "terms-concepts",
     "section": "Measures & methods",
-    "text": "Measures & methods\n\nResting state fMRI (rsfMRI)\nElectroencephalography (EEG)\n\nFrequency-domain analyses\n\nAlpha (\\(\\alpha\\)) power\nHemispheric asymmetry\nPeriodic vs. aperiodic components of EEG (Donoghue, Dominguez, & Voytek, 2020)\n\nEvent-related Potentials (ERP)\n\nReward Positivity (RewP)\n\nSpheroids/Organoids\nPersonality neuroscience\nRegions of interest (ROI)"
+    "text": "Measures & methods\n\nResting state fMRI (rsfMRI)\nStructural MRI\n\nVertex-wise vs. regional analyses of cortical thickness, c.f. (Harrewijn et al., 2021)\n\nElectroencephalography (EEG)\n\nFrequency-domain analyses\n\nAlpha (\\(\\alpha\\)) power\nHemispheric asymmetry\nPeriodic vs. aperiodic components of EEG (Donoghue, Dominguez, & Voytek, 2020)\nCoupling c.f. (He et al., 2025)\n\nEvent-related Potentials (ERP)\n\nReward Positivity (RewP)\n\nSpheroids/Organoids\nPersonality neuroscience\nRegions of interest (ROI)\n\nENIGMA consortium\nMultivariate pattern analysis (MVPA)"
   },
   {
     "objectID": "resources/terms-concepts.html#computational-ideas",
     "href": "resources/terms-concepts.html#computational-ideas",
     "title": "terms-concepts",
     "section": "Computational ideas",
-    "text": "Computational ideas\n\nReward prediction error\nPredictive coding/active inference\nFree energy"
+    "text": "Computational ideas\n\nReward prediction error\nPredictive coding/active inference\nFree energy\nNeural sequence"
   },
   {
     "objectID": "resources/terms-concepts.html#psychological-processes",
     "href": "resources/terms-concepts.html#psychological-processes",
     "title": "terms-concepts",
     "section": "Psychological processes",
-    "text": "Psychological processes\n\nRepetitive negative thinking\n\nRumination\nWorry\n\nInternalizing psychopathology\nExecutive function\nReward processing\n\nReward prediction error\n\nPredictive coding\nBehavioral inhibition\nInhibitory control\nCategorization\nBorderline personality disorder"
+    "text": "Psychological processes\n\nRepetitive negative thinking\n\nRumination\nWorry\n\nInternalizing psychopathology\nExecutive function\nReward processing\n\nReward prediction error\n\nPredictive coding\nBehavioral inhibition\nInhibitory control\nCategorization (in emotion), c.f. (Barrett, 2017)\nBorderline personality disorder (BPD)\nObsessive-Compulsive Disorder (OCD)\nGeneralized Anxiety Disorder (GAD)"
   },
   {
     "objectID": "slides/wk-04-2026-02-06-perception.html#light",
@@ -3547,5 +3547,586 @@
     "title": "Action",
     "section": "",
     "text": "31"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html",
+    "href": "slides/wk-07-2026-02-26-emotion.html",
+    "title": "Emotion",
+    "section": "",
+    "text": "Biological bases\nFear & anxiety\nStress\nPleasure & reward"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#todays-topics",
+    "href": "slides/wk-07-2026-02-26-emotion.html#todays-topics",
+    "title": "Emotion",
+    "section": "",
+    "text": "Biological bases\nFear & anxiety\nStress\nPleasure & reward"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#dimensions",
+    "href": "slides/wk-07-2026-02-26-emotion.html#dimensions",
+    "title": "Emotion",
+    "section": "Dimensions",
+    "text": "Dimensions"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#signatures",
+    "href": "slides/wk-07-2026-02-26-emotion.html#signatures",
+    "title": "Emotion",
+    "section": "Signatures",
+    "text": "Signatures\n\nBehaviors\nInternal states\n\nAutonomic\nEndocrine\nBrain regions or networks"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#autonomic-nervous-system-ans",
+    "href": "slides/wk-07-2026-02-26-emotion.html#autonomic-nervous-system-ans",
+    "title": "Emotion",
+    "section": "Autonomic Nervous System (ANS)",
+    "text": "Autonomic Nervous System (ANS)\n\nThis meta-analytic investigation demonstrates that there is no 1-to-1 mapping between an emotion category and a specific autonomic nervous system response pattern. In addition, we observed substantial variability in autonomic nervous system changes during instances of the same emotion category that was not accounted for by experimental moderators (such as the way the emotion was induced).\n\n– Siegel et al. (2018)\n\n\nThese findings suggest that autonomic nervous system changes during emotion are less like a bodily fingerprint and more like a population of variable, context sensitive instances.\n\n– Siegel et al. (2018)"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#body-location-of-experienced-emotions",
+    "href": "slides/wk-07-2026-02-26-emotion.html#body-location-of-experienced-emotions",
+    "title": "Emotion",
+    "section": "Body ‘location’ of experienced emotions",
+    "text": "Body ‘location’ of experienced emotions\n\n\n\nNummenmaa et al. (2014) Figure 11"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#section-1",
+    "href": "slides/wk-07-2026-02-26-emotion.html#section-1",
+    "title": "Emotion",
+    "section": "",
+    "text": "Nummenmaa et al. (2014) Figure 22"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#section-2",
+    "href": "slides/wk-07-2026-02-26-emotion.html#section-2",
+    "title": "Emotion",
+    "section": "",
+    "text": "!(Nummenmaa et al., 2014, fig. 4). ](https://www.pnas.org/cms/10.1073/pnas.1321664111/asset/68554fff-57c8-4818-8178-dc8bdd7a6db4/assets/graphic/pnas.1321664111fig04.jpeg)"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#where-in-the-brain-is-emotion-processed",
+    "href": "slides/wk-07-2026-02-26-emotion.html#where-in-the-brain-is-emotion-processed",
+    "title": "Emotion",
+    "section": "Where in the brain is emotion processed?",
+    "text": "Where in the brain is emotion processed?\nLindquist, Wager, Kober, Bliss-Moreau, & Barrett (2012)"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#locationist-account",
+    "href": "slides/wk-07-2026-02-26-emotion.html#locationist-account",
+    "title": "Emotion",
+    "section": "Locationist account",
+    "text": "Locationist account\n\nWhere in the brain is emotion processed?\n\n\n\n\nLindquist et al. (2012) Figure 13"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#constructionist-account",
+    "href": "slides/wk-07-2026-02-26-emotion.html#constructionist-account",
+    "title": "Emotion",
+    "section": "Constructionist account",
+    "text": "Constructionist account\n\nA psychological constructionist account of emotion assumes that emotions are psychological events that emerge out of more basic psychological operations that are not specific to emotion. In this view, mental categories such as anger, sadness, fear, et cetera, are not respected by the brain (nor are emotion, perception, or cognition, for that matter."
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#section-3",
+    "href": "slides/wk-07-2026-02-26-emotion.html#section-3",
+    "title": "Emotion",
+    "section": "",
+    "text": "…emotions emerge when people make meaning out of sensory input from the body and from the world using knowledge of prior experiences. Emotions are “situated conceptualizations” (cf. Barsalou 2003) because the emerging meaning is tailored to the immediate environment and prepares the person to respond to sensory input in a way that is tailored to the situation"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#section-4",
+    "href": "slides/wk-07-2026-02-26-emotion.html#section-4",
+    "title": "Emotion",
+    "section": "",
+    "text": "![Lindquist et al. (2012) Figure 44(https://static.cambridge.org/binary/version/id/urn:cambridge.org:id:binary:20170929031912583-0602:S0140525X11000446:S0140525X11000446_fig4g.jpeg)"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#section-5",
+    "href": "slides/wk-07-2026-02-26-emotion.html#section-5",
+    "title": "Emotion",
+    "section": "",
+    "text": "Lindquist et al. (2012) Figure 55"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#section-6",
+    "href": "slides/wk-07-2026-02-26-emotion.html#section-6",
+    "title": "Emotion",
+    "section": "",
+    "text": "Lindquist et al. (2012) Figure 66"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#section-7",
+    "href": "slides/wk-07-2026-02-26-emotion.html#section-7",
+    "title": "Emotion",
+    "section": "",
+    "text": "(Lindquist et al., 2012)\n\n\n\n\n\n(Lindquist et al., 2012)"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#amygdala-as-a-hub-for-fear",
+    "href": "slides/wk-07-2026-02-26-emotion.html#amygdala-as-a-hub-for-fear",
+    "title": "Emotion",
+    "section": "Amygdala as a ‘hub’ for fear",
+    "text": "Amygdala as a ‘hub’ for fear\n\nOur meta-analytic findings were inconsistent with a locationist hypothesis of amygdala function but were more consistent with the psychological constructionist hypothesis. Our density analyses revealed that, as compared to other brain regions, voxels within both amygdalae had more consistent increases in activation during instances of fear perception than during the perception of any other emotion category (Table 1). These voxels were not functionally specific for instances of perceiving fear, however.\n\n– Lindquist et al. (2012)"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#anterior-insula-as-hub-for-disgust",
+    "href": "slides/wk-07-2026-02-26-emotion.html#anterior-insula-as-hub-for-disgust",
+    "title": "Emotion",
+    "section": "Anterior insula as ‘hub’ for disgust",
+    "text": "Anterior insula as ‘hub’ for disgust\n\nOur meta-analytic findings were inconsistent with the locationist account that the anterior insula is the brain seat of disgust but were more consistent with the psychological constructionist account that insula activity is correlated with interoception and the awareness of affective feelings.\n\n– Lindquist et al. (2012)"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#orbitofrontal-cortex-ofc-as-hub-for-anger",
+    "href": "slides/wk-07-2026-02-26-emotion.html#orbitofrontal-cortex-ofc-as-hub-for-anger",
+    "title": "Emotion",
+    "section": "Orbitofrontal cortex (OFC) as ‘hub’ for anger",
+    "text": "Orbitofrontal cortex (OFC) as ‘hub’ for anger\n\nOur meta-analytic findings were inconsistent with the locationist hypothesis that the OFC is the brain seat of anger. As compared to voxels within other brain regions, voxels within the OFC did not have more consistent increases during instances of anger experience or perception than during any other emotion category. Rather, as compared to voxels within other brain regions, voxels within the left lOFC had more consistent increases in activation during instances of disgust experience than during the experience of other emotion categories.\n\n– Lindquist et al. (2012)"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#anterior-cingulate-cortex-as-hub-for-sadness",
+    "href": "slides/wk-07-2026-02-26-emotion.html#anterior-cingulate-cortex-as-hub-for-sadness",
+    "title": "Emotion",
+    "section": "Anterior cingulate cortex as ‘hub’ for sadness",
+    "text": "Anterior cingulate cortex as ‘hub’ for sadness\n\nOur meta-analytic evidence is inconsistent with the locationist account that the ACC is the brain basis of sadness, but more consistent with a psychological constructionist hypothesis of ACC function. As compared to voxels within other brain regions, voxels within the sACC, pACC and aMCC did not have more consistent increases when participants were experiencing or perceiving instances of sadness than during any other emotion category (Fig. 6).\n\n– Lindquist et al. (2012)"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#main-points",
+    "href": "slides/wk-07-2026-02-26-emotion.html#main-points",
+    "title": "Emotion",
+    "section": "Main points",
+    "text": "Main points"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#next-time",
+    "href": "slides/wk-07-2026-02-26-emotion.html#next-time",
+    "title": "Emotion",
+    "section": "Next time",
+    "text": "Next time"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#about",
+    "href": "slides/wk-07-2026-02-26-emotion.html#about",
+    "title": "Emotion",
+    "section": "About",
+    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2026.1.0.392.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/"
+  },
+  {
+    "objectID": "slides/wk-07-2026-02-26-emotion.html#footnotes",
+    "href": "slides/wk-07-2026-02-26-emotion.html#footnotes",
+    "title": "Emotion",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThe emBODY tool. Participants colored the initially blank body regions (A) whose activity they felt increasing (left body) and decreasing (right body) during emotions. Subjectwise activation–deactivation data (B) were stored as integers, with the whole body being represented by 50,364 data points. Activation and deactivation maps were subsequently combined (C) for statistical analysis.↩︎\nBodily topography of basic (Upper) and nonbasic (Lower) emotions associated with words. The body maps show regions whose activation increased (warm colors) or decreased (cool colors) when feeling each emotion. (P &lt; 0.05 FDR corrected; t &gt; 1.94). The colorbar indicates the t-statistic range.↩︎\nLocationist Hypotheses of Brain–Emotion Correspondence. A: Lateral view. B: Sagital view at the midline. C: Ventral view. D: Coronal view. Brain regions hypothesized to be associated with emotion categories are depicted. Here we depict the most popular locationist hypotheses, although other locationist hypotheses of brain–emotion correspondence exist (e.g., Panksepp, Reference Panksepp1998). Fear: amygdala (yellow); Disgust: insula (green); Anger: OFC (rust); Sadness: ACC (blue). A color version of this image can be viewed in the online version of this target article at http://www.journals.cambridge.org/bbs.↩︎\nThe Neural Reference Space for Discrete Emotion. The neural reference space (phrase coined by Edelman [1989]) is the set of brain regions consistently activated across all studies assessing the experience or perception of anger, disgust, fear, happiness and sadness (i.e. the superordinate category emotion). Brain regions in yellow exceeded the height threshold (\\(p&lt;.05\\)) and regions in orange exceeded the most stringent extent-based threshold (\\(p&lt;.001\\)). Regions in pink and magenta correspond to lesser extent-based thresholds and are not discussed in this article. Cortex is grey, the brainstem and nucleus accumbens are green, the amygdala is blue and the cerebellum is purple. A color version of this image can be viewed in the online version of this target article at http://www.journals.cambridge.org/bbs.↩︎\nLogistic Regression Findings. Selected results from the logistic regressions are presented (for additional findings, see Table S6 in supplementary materials). Circles with positive values represent a 100% increase in the odds that a variable predicted an increase in activity in that brain area. Circles with negative values represent a 100% increase in the odds that a variable predicted there would not be an increase in activity in that brain area. Legend: Blue lines: left hemisphere; Green lines: right hemisphere. Arrowheads: % change in odds is greater than values represented in this figure. Abbreviations: OFC: orbitofrontal cortex; DLPFC: dorsolateral prefrontal cortex; ATL: anterior temporal lobe; VLPFC: ventrolateral prefrontal cortex; DMPFC: dorsomedial prefrontal cortex; aMCC: anterior mid-cingulate cortex; sAAC: subgenual ACC. A color version of this image can be viewed in the online version of this target article at http://www.journals.cambridge.org/bbs.↩︎\nProportion of Study Contrasts with Increased Activation in Four Key Brain Areas. The y-axes plot the proportion of study contrasts in our database that had increased activation within 10mm of that brain area. The x-axes denote the contrast type separated by experience (exp) and perception (per). All brain regions depicted are in the right hemisphere. See Figures S2 and S3 in supplementary materials, available at http://www.journals.cambridge.org/bbs2012008, for additional regions. A color version of this image can be viewed in the online version of this target article at http://www.journals.cambridge.org/bbs↩︎"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html",
+    "title": "Learning & Memory",
+    "section": "",
+    "text": "Big picture questions\nBiological bases of\nDisorders of memory\nWorking memory"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#todays-topics",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#todays-topics",
+    "title": "Learning & Memory",
+    "section": "",
+    "text": "Big picture questions\nBiological bases of\nDisorders of memory\nWorking memory"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#memory-capacity-of-the-human-brain",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#memory-capacity-of-the-human-brain",
+    "title": "Learning & Memory",
+    "section": "Memory capacity of the human brain?",
+    "text": "Memory capacity of the human brain?\n\n1e12 neurons\n1e3 synapses/neuron\n1e15 synapses or 1.25e14 bytes\n1e9 gigabyte, 1e12 terabyte, 1e15 petabyte\n\nhttp://www.scientificamerican.com/article.cfm?id=what-is-the-memory-capacity"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#what-is-learning",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#what-is-learning",
+    "title": "Learning & Memory",
+    "section": "What is learning?",
+    "text": "What is learning?\nhttps://theelearningcoach.com/learning/10-definitions-learning/\n\nLearning is the process of acquiring new understanding, knowledge, behaviors, skills, values, attitudes, and preferences. https://en.wikipedia.org/wiki/Learning\n\n\nNon-associative\n\n\\(A(t+1) = f(A(t))\\)\nHabituation (\\(\\dot f &lt; 0\\)), sensitization (\\(\\dot f &gt; 0\\))\n\nAssociative\n\n\\(A \\rightarrow B\\)\nClassical & operant/instrumental conditioning\nSequence, observational, episodic, semantic…learning"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#learning-styles",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#learning-styles",
+    "title": "Learning & Memory",
+    "section": "Learning styles?",
+    "text": "Learning styles?\n\n\n\n(“Learning styles as a myth,” 2017)\n\n\n\nAre myths (Pashler, McDaniel, Rohrer, & Bjork, 2008)?\n\n\nAlthough the literature on learning styles is enormous, very few studies have even used an experimental methodology capable of testing the validity of learning styles applied to education. Moreover, of those that did use an appropriate method, several found results that flatly contradict the popular meshing hypothesis. We conclude therefore, that at present, there is no adequate evidence base to justify incorporating learning-styles assessments into general educational practice."
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#neural-networks",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#neural-networks",
+    "title": "Learning & Memory",
+    "section": "Neural networks",
+    "text": "Neural networks\n\nArchitectures/types, (Tch, 2017; Veen, n.d.)\n\n\n\n\n\n(Tch, 2017; from Veen, n.d.)"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#network-learning-rules",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#network-learning-rules",
+    "title": "Learning & Memory",
+    "section": "Network learning rules",
+    "text": "Network learning rules\n\nHow/when change connections between nodes\nTypes\n\nUnsupervised (i.e., covariance/correlation)\nSupervised (change based on ‘error’)\nReinforcement (learn now)"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#deep-learning-vs.-machine-learning",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#deep-learning-vs.-machine-learning",
+    "title": "Learning & Memory",
+    "section": "Deep learning vs. Machine Learning",
+    "text": "Deep learning vs. Machine Learning\n\n(“Deep learning vs machine learning,” 2022; “Deep learning vs. Machine learning - azure machine learning,” n.d.)\n\n\n\n\n“Deep learning vs machine learning” (2022)"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#what-is-memory",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#what-is-memory",
+    "title": "Learning & Memory",
+    "section": "What is memory?",
+    "text": "What is memory?\n\nA: Information encoding, storage, retrieval"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#are-there-different-types-of-human-memory",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#are-there-different-types-of-human-memory",
+    "title": "Learning & Memory",
+    "section": "Are there different types of (human) memory?",
+    "text": "Are there different types of (human) memory?\n\nFacts/events/places/feelings vs. skills\nShort vs. long-term\n\nWorking memory ~ short-term maintenance for guiding action\n\nExplicit (declarative: semantic vs. episodic) vs. implicit (procedural)\nRetrospective (from the past) vs. prospective (to be remembered)\nRecognition (judgment of familiarity or novelty) vs. recall"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#how-do-computers-and-brains-compare",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#how-do-computers-and-brains-compare",
+    "title": "Learning & Memory",
+    "section": "How do computers and brains compare?",
+    "text": "How do computers and brains compare?\n\n\n\n\n\n\n\nComputers\nBrains\n\n\n\n\nComputers have separate memory and processing stores\nBrains store info everywhere, but there are specialized regions\n\n\nComputer memory has specific addresses\nBrains store in distributed networks\n\n\nComputer memory is (usually) non-volatile\nMemories in brains naturally fade\n\n\nComputer memory stores all types of information–images, sounds, text, data–as binary sequences, e.g., 01101110\nHuman memory stores all types of information in patterns of synaptic connections and ???\n\n\nComputers render these sequences differently based on information about the type of data stored\nBrains retrieve or recall different forms of information based on ???\n\n\nDigital computers were inspired by mathematical models of neurons\nNeurons can be simulated by mathematical models implemented in computers\n\n\n\n\n\n\nMcCulloch-Pitts artificial neuron"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#in-single-cells",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#in-single-cells",
+    "title": "Learning & Memory",
+    "section": "In single cells",
+    "text": "In single cells\n\nLearning in single cells controversial (Gershman, Balbi, Gallistel, & Gunawardena, 2021)\nBeatrice Gelber\n\n\n\n\n(Figure 1 from Gershman et al., 2021). News story about Beatrice Gelber from the Tucson Daily Citizen October 19, 1960. © 1960, USA TODAY NETWORK. This image is not covered by the CC-BY 4.0 licence and may not be separated from the article.\n\n\n\n\n\n(Gershman et al., 2021) from (B. Gelber, 1952). In Experiment 1 (top), one group of Paramecia was exposed to intermittent training trials in which a wire was coated with bacteria (every 3rd trial during the training phase). This group acquired a conditioned response to the clean wire, as measured by adherence to the wire in final test trials. In contrast, an untrained group did not show a conditioned response. Experiment 2 (bottom) demonstrated that the wire by itself did not drive conditioned responding.\n\n\n\nThis paper presents a new approach to behavioral problems which might be called molecular biopsychology… Simply stated, it is hypothesized that the memory engram must be coded in macromolecules… As the geneticist studies the inherited characteristics of an organism the psychologist studies the modification of this inherited matrix by interaction with the environment. Possibly the biochemical and cellular physiological processes which encode new responses are continuous throughout the phyla (as genetic codes are) and therefore would be reasonably similar for a protozoan and a mammal. (Beatrice Gelber, 1962)\n\n\nTaking stock, we believe that Gelber’s experiments, though not without their limitations, convincingly demonstrated Pavlovian conditioning in Paramecia. Sadly, her critics seem to have won in the long term. Most reviews of the literature, if they mention Gelber’s work at all, quickly dismiss it…(Gershman et al., 2021)\n\n\nIf single cells can learn then they must be using a non-synaptic form of memory storage. The idea that intracellular molecules store memories has a long history, mainly in the study of multicellular organisms. (Gershman et al., 2021)"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#in-nervous-systems",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#in-nervous-systems",
+    "title": "Learning & Memory",
+    "section": "In nervous systems",
+    "text": "In nervous systems\n\nChanges in patterns of neural activity\nChanges in connectivity\n\nNew synapses\nAltered synapses (strengthened or weakened)"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#donald-hebbs-insight",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#donald-hebbs-insight",
+    "title": "Learning & Memory",
+    "section": "Donald Hebb’s Insight",
+    "text": "Donald Hebb’s Insight\n\n“When an axon of cell A is near enough to excite cell B and repeatedly or persistently takes part in firing it, some growth process or metabolic change takes place in one or both cells such that A’s efficacy, as on of the cells firing B, is increased.”\n\n(Hebb, 1949, p. 62)\n\n“Neurons that fire together wire together.”\n\n(Lowell & Singer, 1992, p. 211)\n\nLong-term potentiation (LTP)\n\nAn instance of Hebbian learning\n\n\n“a persistent strengthening of synapses based on recent patterns of activity. These are patterns of synaptic activity that produce a long-lasting increase in signal transmission between two neurons.[2] The opposite of LTP is long-term depression, which produces a long-lasting decrease in synaptic strength.” https://en.wikipedia.org/wiki/Long-term_potentiation"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#ltp-discovery-bliss1973-xx",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#ltp-discovery-bliss1973-xx",
+    "title": "Learning & Memory",
+    "section": "LTP discovery (Bliss & Lømo, 1973)",
+    "text": "LTP discovery (Bliss & Lømo, 1973)\n\nGranule cell neurons in hippocampus dentate gyrus (DG)\n\\(\\theta\\) band (10–20 Hz) stim for 10–15 sec, or 100 Hz stim for 3–4 sec\nshortened response latency, increased EPSP, increased population response over minutes or hours\n\n\n\n\nWikipedia"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#mechanisms-of-ltp-plasticity",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#mechanisms-of-ltp-plasticity",
+    "title": "Learning & Memory",
+    "section": "Mechanisms of LTP plasticity",
+    "text": "Mechanisms of LTP plasticity\n\nnumber of synaptic receptors\nquantity of NT released\neffectiveness of postsynaptic response"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#pathways-to-plasticity",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#pathways-to-plasticity",
+    "title": "Learning & Memory",
+    "section": "Pathways to plasticity",
+    "text": "Pathways to plasticity\n\nGlu release activates\n\nionotropic AMPA Glu receptors\nmetabotropic Glu receptors\nN-methyl-D-aspartate (NMDA) Glu receptors\n\n\\(Ca^{++}\\) entry via NMDA receptor activates protein kinases (CaMKII and PKAII)\nEarly LTP (up to few hours)\n\nprotein kinases phosphorylate (add \\(P\\) group to) postsynaptic AMPA receptors\nIncrease current flow through AMPA (Glu) receptors\n\nLate LTP\n\ndepends on protein synthesis to generate new AMPA receptor\ninsertion of new AMPA receptors into postsynaptic membrane\n\nRetrograde signal generator influences presynaptic response\n\n\n\n\nLTP\n\n\n\nknitr::include_graphics(\"http://www.pitt.edu/~super1/lecture/lec14361/img024.GIF\")\n\n\n\n\nLTP\n\n\n\n\n\n\n\n\nEric R. Kandel"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#hebbian-learning-via-nmda-receptor",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#hebbian-learning-via-nmda-receptor",
+    "title": "Learning & Memory",
+    "section": "‘Hebbian’ learning via NMDA receptor",
+    "text": "‘Hebbian’ learning via NMDA receptor\n\nN-methyl-D-aspartate receptor (NMDA-R)\n\nName derived from agonist molecule that selectively binds to the receptor\n\n‘Coincidence’ detector\n\nSending cell has released NT\nReceiving cell is/has been recently active\n\nChemically-gated AND\n\nLigand- (glutamate/aspartate + glycine) gated\nSending cell active\n\nVoltage-gated\n\n\\(Zn^{++}\\) or \\(Mg^{++}\\) ion ‘plug’ removed under depolarization\n\\(Na^+\\) & \\(Ca^{++}\\) influx; \\(K^+\\) outflux\nReceiving cell responds\n\n\n\n\n\nWikipedia\n\n\n\nNMDA receptor function may vary by location on neuron\n\nLong-term potentiation (LTP)\n\nSynaptic NMDA receptors\n\nLong-term depression (LTD)\n\nExtrasynaptic NMDA receptors\nLowered level of synaptic receptor activation"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#nmda-r-clinical-significance",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#nmda-r-clinical-significance",
+    "title": "Learning & Memory",
+    "section": "NMDA-R clinical significance",
+    "text": "NMDA-R clinical significance\n\nMemantine (Alzheimer’s Disease treatment)\n\nNMDA-R antagonist\nControls over-activation and \\(Ca^{++}\\) excitotoxicity?\n\nNMDA-R implicated in effects of phencylidine (PCP)\n\nLink to Glu hypothesis of schizophrenia?\n\nKetamine is NMDA receptor antagonist\n\nanesthesia, sedation pain relief\npossible short-term relief for depression\n\nLinked to analgesic effects of nitrous oxide (laughing gas; \\(NO\\))\nAlcohol (ethanol) inhibits (Ron & Wang, 2011)"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#spike-timing-dependent-plasticity",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#spike-timing-dependent-plasticity",
+    "title": "Learning & Memory",
+    "section": "Spike-timing-dependent plasticity",
+    "text": "Spike-timing-dependent plasticity\nHow to learn/remember “causal chains”?\n\ne.g., lightning THEN thunder\nunusual food THEN indigestion\n\n\n\n\n(Caporale & Dan, 2008)\n\n\n\n\n\n(Caporale & Dan, 2008)\n\n\n\nA before B: strengthen \\(A \\rightarrow B\\)\nA after B: \\(A \\rightarrow B\\)\nNeural Plasticity\n\nLasting changes in neural firing, connectivity\n\nNMDA receptor a molecular mechanism for implementing LTP and spike-timing-dependent plasticity"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#memory-systems",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#memory-systems",
+    "title": "Learning & Memory",
+    "section": "Memory systems",
+    "text": "Memory systems"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#lashleys-search-for-the-engram",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#lashleys-search-for-the-engram",
+    "title": "Learning & Memory",
+    "section": "Lashley’s search for the ‘engram’",
+    "text": "Lashley’s search for the ‘engram’\n\nIs memory ‘localized’ like sensory and motor functions? (Karl S. Lashley, 1944)\n\n\n\n\nK. S. Lashley & Clark (1946)\n\n\n\n““the area subdivisions are in large part anatomically meaningless and misleading as to the presumptive functional divisions of the cortex””\n\n(K. S. Lashley & Clark, 1946)\n\nNot in the rat cerebral cortex"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#modern-views",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#modern-views",
+    "title": "Learning & Memory",
+    "section": "Modern views",
+    "text": "Modern views\n\nCerebral cortex less central to “engram-like” memory than other areas\n\n\n\n\n(Squire, 2004)"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#hippocampus",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#hippocampus",
+    "title": "Learning & Memory",
+    "section": "Hippocampus",
+    "text": "Hippocampus\n\n\n\nhttps://upload.wikimedia.org/wikipedia/commons/5/5b/Hippocampus_and_seahorse_cropped.JPG\n\n\n\n\n\nSantiago Ramon Y Cajal; Source: Wikipedia\n\n\n\nDense in NMDA receptors\nCentral “hub” in network?\n\nNo, based on anatomical or functional connectivity\nBut yes, when modeling “information flow” (Mišić, Goñi, Betzel, Sporns, & McIntosh, 2014)\n\nFormation, storage, consolidation of long-term episodic or declarative memories\nStores info for later transfer to cortex\n\n“Engrams” form in hipp & PFC simultaneously, fade in PFC over time (Kitamura et al., 2017)\n\nSpatial navigation\n\nPlace cells\nGrid cells\nHead-direction cells\n\n\n\n\n\nKjelstrup et al. (2008)\n\n\n\nLondon taxi drivers (a high memory demand profession) have specialized hippocampi (Maguire et al., 2000)\n\n\n\n\n(Woollett & Maguire, 2011)\n\n\n\n\n\n\nNot due to self-motion, driving experience, or stress per se\n\n\nGray matter volume differences in the hippocampus relative to controls have been reported to accompany this expertise. While these gray matter differences could result from using and updating spatial representations, they might instead be influenced by factors such as self-motion, driving experience, and stress. We examined the contribution of these factors by comparing London taxi drivers with London bus drivers, who were matched for driving experience and levels of stress, but differed in that they follow a constrained set of routes. We found that compared with bus drivers, taxi drivers had greater gray matter volume in mid-posterior hippocampi and less volume in anterior hippocampi. Furthermore, years of navigation experience correlated with hippocampal gray matter volume only in taxi drivers, with right posterior gray matter volume increasing and anterior volume decreasing with more navigation experience. This suggests that spatial knowledge, and not stress, driving, or self-motion, is associated with the pattern of hippocampal gray matter volume in taxi drivers. (Maguire, Woollett, & Spiers, 2006)\n\n\n\n\n\n\n\n\n\nFigure 2. Gray Matter Volume Changes between T1 and T2 in Qualified Trainees\n\n\n\n\n\n\n\nFigure 3. Plot of Gray Matter Intensities across Groups and Time\n\n\n\n\n\n\nFigure 1: (Figures 1 and 2 from Woollett & Maguire, 2011)\n\n\n\n\nBirds with high memory demands have larger hippocampi\n\n\n\n\nSherry et al. (1989)\n\n\n\nBirds with high memory caching demands use sparse representations (“bar codes”) in hippocampus\n\n\n\n\nChettih et al. (2024)\n\n\n\n(Gilmore’s view) Humans have repurposed hippocampal system for other cognitive uses, e.g., semantic memory, language"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#cerebral-cortex",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#cerebral-cortex",
+    "title": "Learning & Memory",
+    "section": "Cerebral cortex",
+    "text": "Cerebral cortex\n\nContains retinotopic maps (beyond V1) that are memory-related (Steel, Silson, Garcia, & Robertson, 2024)\n\n\n\n\n(Figure 1 from Steel et al., 2024). a, PRF paradigm and modeling. In Exp. 1, participants underwent pRF mapping. Participants viewed visual scenes through a bar aperture that gradually traversed the visual field. Each visual-field traversal lasted 36 s (18 × 2 s positions), and the bar made eight traversals per run. The direction of motion varied between traversals. To estimate the pRF for each voxel, a synthetic time series is generated for 400 visual-field locations (200 x and y positions) and 100 sizes (sigma). This results in four million possible time series that are fit to each voxel’s activity. The fit results in four parameters describing each receptive field: x, y, sigma and amplitude. b, Negative-amplitude pRFs fall anterior to the cortex typically considered visual (beyond known retinotopic maps). Group average (n = 17) pRF amplitude map (threshold at explained variance R-squared (R2) &gt; 0.08) is shown on partially inflated representations of the left hemisphere, alongside ROIs: SPAs (OPA, PPA), PMAs (LPMA, VPMA) (localized in an independent group of participants24) and the DMN22. The known retinotopic maps in the posterior cortex (black dotted outlines21) contain exclusively positive-amplitude pRFs (hot colors), as visual stimulation evokes positive retinotopically specific BOLD responses. Negative-amplitude pRFs (cool colors), where visual stimulation evokes a negative spatially specific BOLD response, arise anterior to these retinotopic maps in the PMAs and DMN (see Fig. 2a for example time series from a representative subject).\n\n\n\n\n\n(Figure 2 from Steel et al., 2024). a, PRF modeling reveals posterior–anterior inversion of pRF amplitude in individual participants. Left, PRF amplitude for a representative participant overlaid onto a lateral view of the left hemisphere (threshold at R2 &gt; 0.15; see Extended Data Fig. 1 for example ventral and lateral surface pRF amplitude maps from all participants and Extended Data Fig. 3 for amplitude maps with default mode parcellation overlaid). Posterior visual cortex is dominated by positive-amplitude pRFs (hot colors), while cortex anterior to regions classically considered visual exhibits a high concentration of negative-amplitude pRFs (cold colors). This individual’s OPA and LPMA are shown in white. Both the SPAs and PMAs contain pRFs (Extended Data Fig. 2). Right, time-series, model fits and reconstructed pRFs for two surface vertices in this subject. Top, example prototypical positive-amplitude pRF from the lateral SPA (OPA) in the left and right hemispheres (LH, RH). Bottom, example negative-amplitude population receptive field from the LPMA. b, Memory areas (PMAs) contain a larger percentage of negative pRFs compared to perceptual areas (SPAs) (repeated measures ANOVA, Bonferroni-corrected t-tests). Blue bars depict percentage of negative pRFs from individually localized SPAs and PMAs compared to total pRFs in the area (dotted outline). On the ventral and lateral surfaces, SPAs are dominated by positive pRFs, whereas a transition from positive to negative pRFs is evident within PMAs. Individual participant data points overlaid and connected in gray. P two-tailed &lt; 0.05, **P two-tailed &lt; 0.001. NS, not significant.\n\n\n\nTogether with recent reports showing retinotopic coding persisting as far as the ‘cortical apex’ [15,16,31], including the DMN [15,16], and the hippocampus [31,32], our findings challenge conventional views of brain organization, which generally assume that retinotopic coding is replaced by abstract amodal coding as information propagates through the visual hierarchy [7,8,9,10] toward memory structures [11,12,13,14] (Steel et al., 2024)"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#cerebellum",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#cerebellum",
+    "title": "Learning & Memory",
+    "section": "Cerebellum",
+    "text": "Cerebellum\n\nresponse timing, sequences, especially in classical conditioning paradigms Jirenhed, Rasmussen, Johansson, & Hesslow (2017)"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#amnesia",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#amnesia",
+    "title": "Learning & Memory",
+    "section": "Amnesia",
+    "text": "Amnesia\n\nAcquired loss of memory\n≠ normal forgetting\nRetrograde (‘backwards’ in time)\n\nDamage to information acquired pre-injury\nTemporally graded\n\nAnterograde (‘forward’ in time)\n\nDamage to information acquired/experienced post-injury"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#patient-hm-henry-g.-molaison",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#patient-hm-henry-g.-molaison",
+    "title": "Learning & Memory",
+    "section": "Patient HM (Henry G. Molaison)",
+    "text": "Patient HM (Henry G. Molaison)\n\nIntractable/untreatable epilepsy\nBilateral resection of medial temporal lobe (1953)\nEpilepsy now treatable\nBut, memory impaired\nLived until 2008\n\n\n\n\n\n\n\nhttps://www.pbs.org/wgbh/nova/article/corkin-hm-memory/"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#hms-amnesia",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#hms-amnesia",
+    "title": "Learning & Memory",
+    "section": "HM’s amnesia",
+    "text": "HM’s amnesia\n\nRetrograde amnesia\n\nCan’t remember 10 yrs before operation\nDistant past better than more recent\n\nSevere, global anterograde amnesia\n\nImpaired learning of new facts, events, people\n\nBut, skills (mirror learning) intact\n\n\n“Every day is alone in itself, whatever enjoyment I’ve had, and whatever sorrow I’ve had…Right now, I’m wondering, have I done or said anything amiss? You see at this moment, everything looks clear to me, but what happened just before? That’s what worries me. It’s like waking from a dream. I just don’t remember.”"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#other-causes-of-amnesia",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#other-causes-of-amnesia",
+    "title": "Learning & Memory",
+    "section": "Other causes of amnesia",
+    "text": "Other causes of amnesia\n\nDisease\n\nAlzheimer’s, herpes virus\n\nKorsakoff’s syndrome\n\nResult of severe alcoholism\nImpairs medial thalamus & mammillary bodies"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#patient-na",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#patient-na",
+    "title": "Learning & Memory",
+    "section": "Patient NA",
+    "text": "Patient NA\n\nFencing accident\nDamage to medial thalamus\nAnterograde + graded retrograde amnesia\nAre thalamus & medial temporal region connected?"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#spared-skills-in-amnesia",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#spared-skills-in-amnesia",
+    "title": "Learning & Memory",
+    "section": "Spared skills in amnesia",
+    "text": "Spared skills in amnesia\n\nSkill-learning\nMirror-reading, writing\nShort-term memory\n“Cognitive” skills\nPriming"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#what-does-amnesia-tell-us",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#what-does-amnesia-tell-us",
+    "title": "Learning & Memory",
+    "section": "What does amnesia tell us?",
+    "text": "What does amnesia tell us?\n\nLong-term memory for facts, events, people\n≠ Short-term memory\n≠ Long-term memory for “skills”\nSeparate memory systems in the brain?"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#alzheimers-disease-ad",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#alzheimers-disease-ad",
+    "title": "Learning & Memory",
+    "section": "Alzheimer’s Disease (AD)",
+    "text": "Alzheimer’s Disease (AD)\n\nChronic, neurodegenerative disease affecting ~5 M Americans\nCognitive dysfunction (memory loss, language difficulties, planning, coordination)\nPsychiatric symptoms and behavioral disturbances\nDifficulties with daily living\nBurns & Iliffe (2009)\nBuild up of amyloid \\(\\beta\\) protein plaques in brain tissue\nAPOE e4 gene variant increases risk 2-12x"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#progression",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#progression",
+    "title": "Learning & Memory",
+    "section": "Progression",
+    "text": "Progression\n\n\n\nBurns & Iliffe (2009)\n\n\n\nPost-mortem exams show \\(\\beta\\) amyloid plaques and neurofibrillary tangles"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#treatments",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#treatments",
+    "title": "Learning & Memory",
+    "section": "Treatments",
+    "text": "Treatments\n\nAcetylcholinesterase (AChE) inhbitors (e.g. Aricept): Slow ACh inactivation\nNMDA-R partial antagonists (e.g., Memantine): Slow LTP\nDrugs that remove amyloid \\(\\beta\\) (e.g, lecanemab) don’t work especially well + have side effects\nAD the result of disordered immune response (Jevtic, Sengar, Salter, & McLaurin, 2017)?\n\nPromising prospective therapy using microglia to remove amyloid \\(\\beta\\) (Hou et al., 2024)\nLink between genetic factor (APOE4/4 gene) and fatty build-up in microglia (Haney et al., 2024)"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#the-other-end-of-the-spectrum",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#the-other-end-of-the-spectrum",
+    "title": "Learning & Memory",
+    "section": "The other end of the spectrum…",
+    "text": "The other end of the spectrum…\n\n\n\nWhat about working memory? (D’Esposito & Postle, 2015)\n\nLTM representations of target items + attention -&gt; elevated activation\n\nSemantic items\nSensorimotor items\n\nCapacity for attended items (in Focus of Attention or FoA) limited ~ 4\nNeural basis\n\nsustained activation in PFC\nsubthreshold activation in areas where items are stored\n\nIndividual differences in visual WM\n\n\n\n\nLuck & Vogel (2013)"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#what-about-working-memory-desposito2015-zm-1",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#what-about-working-memory-desposito2015-zm-1",
+    "title": "Learning & Memory",
+    "section": "What about working memory? (D’Esposito & Postle, 2015)",
+    "text": "What about working memory? (D’Esposito & Postle, 2015)\n\nLTM representations of target items + attention -&gt; elevated activation\n\nSemantic items\nSensorimotor items\n\nCapacity for attended items (in Focus of Attention or FoA) limited ~ 4\nNeural basis\n\nsustained activation in PFC\nsubthreshold activation in areas where items are stored\n\nIndividual differences in visual WM\n\n\n\n\nLuck & Vogel (2013)"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#summary",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#summary",
+    "title": "Learning & Memory",
+    "section": "Summary",
+    "text": "Summary\n\nMultiple types of learning & memory\nLearning & memory distributed across the brain\n\nSpecializations relate to location in the network? (input/output/in-between)\n\nHippocampus + PFC critical areas binding together sensory/semantic info stored elsewhere\nChanges in synaptic #, strength, connectivity provide cellular basis"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#main-points",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#main-points",
+    "title": "Learning & Memory",
+    "section": "Main points",
+    "text": "Main points"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#next-time",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#next-time",
+    "title": "Learning & Memory",
+    "section": "Next time",
+    "text": "Next time"
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#about",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#about",
+    "title": "Learning & Memory",
+    "section": "About",
+    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2026.1.0.392.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/"
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html",
+    "href": "slides/wk-06-2026-02-19-language.html",
+    "title": "Language",
+    "section": "",
+    "text": "Language and the brain\nTopic 2"
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#todays-topics",
+    "href": "slides/wk-06-2026-02-19-language.html#todays-topics",
+    "title": "Language",
+    "section": "",
+    "text": "Language and the brain\nTopic 2"
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#language-behavior",
+    "href": "slides/wk-06-2026-02-19-language.html#language-behavior",
+    "title": "Language",
+    "section": "Language behavior",
+    "text": "Language behavior"
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#section",
+    "href": "slides/wk-06-2026-02-19-language.html#section",
+    "title": "Language",
+    "section": "",
+    "text": "Productive\n\nSpeaking (2-5 words/s), modulate prosody (intonation), often combined with gesture\nWriting, typing (.5-1.5 words/s)\n\nReceptive\n\nListening, responding (facial expressions, gestures, laughter, etc.)\nReading (3-5 words/s)\n\nHow so fast? Time for feedback?"
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#hierarchical-structure-of-language-information",
+    "href": "slides/wk-06-2026-02-19-language.html#hierarchical-structure-of-language-information",
+    "title": "Language",
+    "section": "Hierarchical structure of language information",
+    "text": "Hierarchical structure of language information\n\nPhonetic\n\n|Ber| |wiTH| |mē|\n\nSyntactic\nSemantic"
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#section-1",
+    "href": "slides/wk-06-2026-02-19-language.html#section-1",
+    "title": "Language",
+    "section": "",
+    "text": "Pragmatic"
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#wernicke-geschwind-wg-model",
+    "href": "slides/wk-06-2026-02-19-language.html#wernicke-geschwind-wg-model",
+    "title": "Language",
+    "section": "Wernicke-Geschwind (WG) model",
+    "text": "Wernicke-Geschwind (WG) model\n\nCarl Wernicke\nNorman Geschwind\nPerception ≠ production\n\n\n\n\nWikipedia"
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#wernickes-area-brodmann-area-or-ba-42",
+    "href": "slides/wk-06-2026-02-19-language.html#wernickes-area-brodmann-area-or-ba-42",
+    "title": "Language",
+    "section": "Wernicke’s area (Brodmann Area or BA 42)",
+    "text": "Wernicke’s area (Brodmann Area or BA 42)\n\nAdjacent to primary auditory cortex (A1; Heschl’s gyrus; BA 41)\nPerception\nReceptive or ‘fluent’ aphasia"
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#section-2",
+    "href": "slides/wk-06-2026-02-19-language.html#section-2",
+    "title": "Language",
+    "section": "",
+    "text": "Wikipedia"
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#section-3",
+    "href": "slides/wk-06-2026-02-19-language.html#section-3",
+    "title": "Language",
+    "section": "",
+    "text": "Wikipedia"
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#brocas-area",
+    "href": "slides/wk-06-2026-02-19-language.html#brocas-area",
+    "title": "Language",
+    "section": "Broca’s area",
+    "text": "Broca’s area\n\nInferior frontal gyrus, pars opercularis (BA 44) & pars angularis (BA 45)\n\nProduction\nExpressive aphasia\n\n\n\n\nWikipedia"
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#dual-streams-hickok2007-rc",
+    "href": "slides/wk-06-2026-02-19-language.html#dual-streams-hickok2007-rc",
+    "title": "Language",
+    "section": "Dual streams (Hickok & Poeppel, 2007)?",
+    "text": "Dual streams (Hickok & Poeppel, 2007)?\n\nVentral (speech signals -&gt; semantics)\nDorsal (speech signal acoustics -&gt; articulatory networks in frontal lobe)\n\n\n\n\n(Hickok & Poeppel, 2007)"
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#metaanalytic-evidence-hagoort2014-au",
+    "href": "slides/wk-06-2026-02-19-language.html#metaanalytic-evidence-hagoort2014-au",
+    "title": "Language",
+    "section": "Metaanalytic evidence (Hagoort & Indefrey, 2014)",
+    "text": "Metaanalytic evidence (Hagoort & Indefrey, 2014)\n\n\n\n(Hagoort & Indefrey, 2014). Figure 1. Schematic representation of the brain showing regions with reliably reported activations for sentences compared with nonsentential stimuli (a) and sentences with high syntactic or semantic processing demands compared with simpler sentences (b,c). The left posterior inferior frontal gyrus is further subdivided into Brodmann areas (BA) 44 (above black line), BA 45 (below black line, above AC–PC line) and BA 47 (below AC–PC line). Green regions indicate a reliable number of reports. Pink regions indicate no reports in 53 studies. For details, see Supplemental Tables 2, 3, and 4. Abbreviations: AC, anterior commissure; PC, posterior commissure)."
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#section-6",
+    "href": "slides/wk-06-2026-02-19-language.html#section-6",
+    "title": "Language",
+    "section": "",
+    "text": "(Hagoort & Indefrey, 2014). Figure 2. (a) Summary of activation patterns for sentences with high syntactic or semantic processing demands compared with simpler sentences. (b) Syntactic/semantic gradients in left inferior frontal and posterior temporal cortex based on 28 studies reporting posterior temporal cortex activation for syntactically demanding or semantically demanding sentences compared with less demanding sentences (see Supplemental Figure 13 for details). The centers represent the mean coordinates of the local maxima, and the radii represent the standard deviations of the distance between the local maxima and their means. Abbreviations: GFm, GFi, middle and inferior frontal gyri; BA, Brodmann area; GTs, GTm, GTi, superior, middle, and inferior temporal gyri; STS, ITS, superior and inferior temporal sulci; Gsm, supramarginal gyrus.\n\n\n\n“A meta-analysis of numerous neuroimaging studies reveals a clear dorsal/ventral gradient in both left inferior frontal cortex and left posterior temporal cortex, with dorsal foci for syntactic processing and ventral foci for semantic processing. In addition…further networks need to be recruited to realize language-driven communication to its full extent.”\n(Hagoort & Indefrey, 2014)"
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#main-points",
+    "href": "slides/wk-06-2026-02-19-language.html#main-points",
+    "title": "Language",
+    "section": "Main points",
+    "text": "Main points"
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#next-time",
+    "href": "slides/wk-06-2026-02-19-language.html#next-time",
+    "title": "Language",
+    "section": "Next time",
+    "text": "Next time"
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#about",
+    "href": "slides/wk-06-2026-02-19-language.html#about",
+    "title": "Language",
+    "section": "About",
+    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2026.1.0.392.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/"
   }
 ]

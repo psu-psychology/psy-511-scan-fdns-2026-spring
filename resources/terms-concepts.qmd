@@ -35,22 +35,28 @@ This document describes the terms that PSY 511 students suggested they are inter
 ## Measures & methods
 
 - [Resting state fMRI (rsfMRI)](https://en.wikipedia.org/wiki/Resting_state_fMRI)
+- Structural MRI
+  - Vertex-wise vs. regional analyses of cortical thickness, c.f. [@Harrewijn2021-vt]
 - [Electroencephalography (EEG)](https://en.wikipedia.org/wiki/Electroencephalography)
   - Frequency-domain analyses
     - Alpha ($\alpha$) power
     - Hemispheric asymmetry
     - Periodic vs. aperiodic components of EEG [@Donoghue2020-dh]
+    - Coupling c.f. [@He2025-bh]
   - [Event-related Potentials (ERP)](https://en.wikipedia.org/wiki/Event-related_potential)
     - Reward Positivity (RewP)
   - Spheroids/[Organoids](https://en.wikipedia.org/wiki/Neural_organoid)
   - Personality neuroscience
   - [Regions of interest (ROI)](https://en.wikipedia.org/wiki/Region_of_interest)
+- ENIGMA consortium
+- Multivariate pattern analysis (MVPA)
 
 ## Computational ideas
 
 - Reward prediction error
 - Predictive coding/active inference
 - Free energy
+- Neural sequence
 
 ## Psychological processes
 
@@ -64,6 +70,7 @@ This document describes the terms that PSY 511 students suggested they are inter
 - Predictive coding
 - Behavioral inhibition
 - Inhibitory control
-- Categorization
-- Borderline personality disorder
-
+- Categorization (in emotion), c.f. [@Barrett2017-hq]
+- Borderline personality disorder (BPD)
+- Obsessive-Compulsive Disorder (OCD)
+- Generalized Anxiety Disorder (GAD)
