@@ -31,7 +31,7 @@ format:
 
 ---
 
-### The amygadala is found deep within which lobe of the cerebral cortex?
+### The amygdala is found deep within which lobe of the cerebral cortex?
 
 - A. The occipital lobe
 - B. The frontal lobe
@@ -40,7 +40,7 @@ format:
 
 ---
 
-### The amygadala is found deep within which lobe of the cerebral cortex?
+### The amygdala is found deep within which lobe of the cerebral cortex?
 
 - ~~A. The occipital lobe~~
 - ~~B. The frontal lobe~~

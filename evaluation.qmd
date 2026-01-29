@@ -24,7 +24,7 @@ One bonus point will be assigned for each class you attend and participate in ac
 ## For clinical students
 
 - Exercises LVL, ANAT, AP, ZZ, EVO, DEV, PHYS, and AP cover material related to biology-related discipline specific knowledge (DSK). 
-- Exercises LVL, AP, and DEV cover material related to cognitive-related discipline specific knowledge (DSK).
+- Exercises LVL, PA, and DEV cover material related to cognitive-related discipline specific knowledge (DSK).
 - Exercises LVL, EMO, and DEV cover material related to affect-related discipline specific knowledge (DSK).
 - Classroom participation and the final paper/project assess advanced integrative knowledge (AIK).
 - For students to receive a passing grade (B or better for the course, they must receive a passing grade (B or better or Satisfactory) for each assignment or activity designed to assess DSK and IAK.
@@ -35,11 +35,11 @@ One bonus point will be assigned for each class you attend and participate in ac
 
 | Points  | Percent | Grade |
 |---------|---------|-------|
-| 113-120  | 94-99   | A     |
-| 108-112   | 90-93   | A-    |
-| 104-107   | 87-89   | B+    |
-| 101-103   | 84-86   | B     |
-| 96-100   | 80-83   | B-    |
+| 113-120 | 94-99   | A     |
+| 108-112 | 90-93   | A-    |
+| 104-107 | 87-89   | B+    |
+| 101-103 | 84-86   | B     |
+| 96-100  | 80-83   | B-    |
 | 92-95   | 77-79   | C+    |
 | 84-91   | 70-76   | C     |
 | 72-83   | 60-69   | D     |

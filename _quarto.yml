@@ -38,6 +38,8 @@ website:
             href: slides/wk-01-2026-01-15-intro.qmd
           - text: "Wk 02 • Thu Jan 21"
             href: slides/wk-02-2026-01-22-anatomy.qmd
+          - text: "Wk 03 • Thu Jan 29"
+            href: slides/wk-03-2026-01-29-action.qmd
   repo-url: https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring
   repo-actions: [edit, issue]
   repo-subdir: src

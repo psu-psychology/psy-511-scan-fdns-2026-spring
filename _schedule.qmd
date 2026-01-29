@@ -106,9 +106,9 @@ ex_anat_due <- psy_511_vars |>
   - @TED2011-oz
   - @Niu-Jin-Ji-Chu-Sheng-Wu-Xue-2021-mv
 
-<!-- #### Materials -->
+#### Materials
 
-<!-- - [Action notes](404.qmd) -->
+- [Slides](slides/wk-03-2026-01-29-action.qmd) 
 
 #### Assignments
 
