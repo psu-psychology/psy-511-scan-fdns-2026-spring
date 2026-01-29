@@ -21,6 +21,7 @@ format:
 
 ## Today's topics
 
+- Warm-up
 - On action
 - How muscles work
 - Controlling muscles
@@ -228,22 +229,7 @@ flowchart TD
 :::
 ::::
 
----
-
-<!-- ### Interoception -->
-
-<!-- ```{mermaid} -->
-<!-- %%| label: fig-interoception-subgroups -->
-<!-- %%| fig-cap: "There are three primary groups of interoceptive signal routes from the body to the nervous system." -->
-<!-- flowchart TD -->
-<!--   B[Body] -->|endocrine| N[Nervous System] -->
-<!--   B -->|somatic| N -->
-<!--   B -->|autonomic| N -->
-<!-- ``` -->
-
-<!-- --- -->
-
-### Schematic
+## {.scrollable}
 
 ```{mermaid}
 %%| label: fig-input-output-flows
@@ -370,7 +356,7 @@ What's missing?
 
 -- @Totally-Science2021-cu
 
-## The engines of animal motion {.scrollable}
+## Engines of animal motion {.scrollable}
 
 :::: {.columns}
 ::: {.column width=45%}
@@ -421,7 +407,8 @@ What's missing?
 
 ::: {.callout-important}
 ## CNS must...
-1. Generate signals that move axial, proximal, & distal muscles.
+1. Generate signals that move axial, proximal, & distal muscles in coordination.
+
 2. Generate signals that move agonist/antagonist muscle pairs in sequence.
 :::
 
@@ -452,7 +439,6 @@ What's missing?
 ![*Biological Psychology 4th ed.*](../include/img/from-spinal-cord-to-muscle.jpg)
 :::
 ::::
-
 
 <!-- --- -->
 
@@ -494,7 +480,7 @@ What's missing?
 :::: {.columns}
 ::: {.column width=50%}
 - Fast twitch/fatiguing
-    + Type II
+    + Type II^[IIA and IIX are subtypes, see <https://en.wikipedia.org/wiki/Skeletal_muscle>]
     + White meat
 - Slow twitch/fatiguing
     + Type I
@@ -619,14 +605,12 @@ flowchart TD
 :::
 ::::
 
-## How muscles work: Interim summary
+## Interim summary
 
-::: {.incremental}
 - Voluntary movements involve motor units causing contraction of agonist or antagonist pairs of skeletal muscles
 - Skeletal muscles have embedded sensors that detect length/tension
-- CNS gets rapid feedback about muscle length/tension (proprioception)
+- CNS gets rapid^[but not instantaneous] feedback about muscle length/tension (proprioception)
 - Monosynaptic stretch reflexes maintain stability of limb/body position
-:::
 
 # Controlling muscles
 
@@ -1167,6 +1151,10 @@ flowchart TD
   
 ## {.scrollable}
 
+![@Simonyan2011-ok Figure 1^[Figure 1. (A) Schematic view of the vocal and respiratory tracts. Voice originates in the larynx. First, the expiratory airflow from the lungs reaches the larynx through the trachea, where it sets the closed vocal fold tissue into self-excited oscillatations, due to which the larynx becomes the source of voice sound. Further, pressure from the vocal fold oscillations is resonated through the vocal tract and radiated from the mouth as voice. (B) Schematic sequence of events preceding voice production: 1) The vocal folds close immediately prior to voice production; 2) subglottal air pressure builds up below the vocal folds during exhalation; 3) the lower and upper edge of the vocal folds separate subsequently with the release of air and sound generation; 4) the vocal folds reapproximate, starting from their lower edge; and 5) the vocal folds close completely before the next sound production.(C) Superior and lateral views of the human larynx. Intrinsic laryngeal muscles and cartilages. TA = thyroarytenoid muscle; LCA = lateral cricoarytenoid muscle; PCA = posterior cricoarytenoid muscle; IA = interarytenoid muscle; CT = cricothyroid muscle. The arrows show the directions of the muscle contractions. (D) Schematic presentation of the laryngeal muscle function. The left column shows the location of the cartilages and the edge of the vocal folds when each of the laryngeal muscles is active. The arrows indicate the directions of the force exerted: 1) thyroid cartilage, 2) cricoid cartilage, 3) arytenoid cartilages, 4) vocal ligament, and 5) posterior cricoarytenoid ligament. The middle column shows the laryngeal view. The right column shows contours of the frontal section at the middle of the membranous portion of the vocal fold. The dotted line shows a state in which no muscle is activated. Reprinted from Hirano, copyright 1981, with kind permission of Springer Science+Business Media.]](../include/img/simonyan-2011-fig-01.png)
+
+## {.scrollable}
+
 ![@Simonyan2016-xr Figure 2](https://www.jneurosci.org/content/jneuro/36/45/11440/F2.large.jpg)
 
 ## {.scrollable}
@@ -1223,12 +1211,6 @@ The source files are in R and R Markdown, then rendered to HTML using the
 [revealJS](https://revealjs.com) framework.
 The HTML slides are hosted in a [GitHub repo](https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring) and served by GitHub pages:
 <https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/>
-
-## Notes {.scrollable}
-
-@Simonyan2016-xr Figure 5:
-
->The cerebral networks supporting primate-general (gray arrows) and human-specific (black) aspects of vocal communication are assumed to be closely intertwined at the level of the basal ganglia. Dashed lines indicate that the basal ganglia motor loop undergoes a dynamic ontogenetic reorganization during spoken language acquisition in that a left-hemisphere cortical storage site of syllable-sized motor programs gradually emerges. Amygdala etc., Amygdala and other structures of the limbic system; ACC, anterior cingulate cortex; SMA, supplementary motor area; GPi, internal segment of globus pallidus; SNr/SNc, substantia nigra, pars reticulata/pars compacta; PAG, periaqueductal gray; vCPG, vocal central pattern generator. Data from Ackermann et al. (2014). B, Gestural architecture of the word “speaking.” Laryngeal activity (bottom line) is a crucial part of the respective movement sequence and must be adjusted to other vocal tract excursions. Articulatory gestures are assorted into syllabic units; gesture bundles pertaining to strong and weak syllables are rhythmically patterned to form metrical feet. Data from Ziegler (2010).
 
 ## References
 <!-- Quarto will automatically populate this slide with footnotes -->

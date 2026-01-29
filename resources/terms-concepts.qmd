@@ -1,0 +1,69 @@
+---
+title: "terms-concepts"
+format: html
+---
+
+## About
+
+This document describes the terms that PSY 511 students suggested they are interested in learning more about.
+
+## Brain areas
+
+- [Dorsolateral prefrontal cortex](https://en.wikipedia.org/wiki/Dorsolateral_prefrontal_cortex)
+- [Dorsomedial prefrontal cortex](https://en.wikipedia.org/wiki/Dorsomedial_prefrontal_cortex)
+- Left [precentral gyrus](https://en.wikipedia.org/wiki/Precentral_gyrus)
+- Left inferior frontal junction
+- [Striatum](https://en.wikipedia.org/wiki/Striatum)
+  - [Ventral striatum](https://en.wikipedia.org/wiki/Striatum#Ventral_striatum)
+    - [Nucleus accumbens](https://en.wikipedia.org/wiki/Nucleus_accumbens)
+
+## Networks/Pathways
+
+- [Default mode network](https://en.wikipedia.org/wiki/Default_mode_network-)
+- [Dorsal attention network](https://en.wikipedia.org/wiki/Dorsal_attention_network)
+- [Frontoparietal network](https://en.wikipedia.org/wiki/Frontoparietal_network) (Central executive network)
+- [Mesolimbic (dopamine) pathway](https://en.wikipedia.org/wiki/Mesolimbic_pathway)
+
+## Physiological processes
+
+- Interoception
+- Allostasis/allostatic load
+- Heart rate variability (HRV)
+- Respiratory sinus arrhythmia (RSA)
+- Vagal (i.e, CN X Vagus nerve) tone
+
+## Measures & methods
+
+- [Resting state fMRI (rsfMRI)](https://en.wikipedia.org/wiki/Resting_state_fMRI)
+- [Electroencephalography (EEG)](https://en.wikipedia.org/wiki/Electroencephalography)
+  - Frequency-domain analyses
+    - Alpha ($\alpha$) power
+    - Hemispheric asymmetry
+    - Periodic vs. aperiodic components of EEG [@Donoghue2020-dh]
+  - [Event-related Potentials (ERP)](https://en.wikipedia.org/wiki/Event-related_potential)
+    - Reward Positivity (RewP)
+  - Spheroids/[Organoids](https://en.wikipedia.org/wiki/Neural_organoid)
+  - Personality neuroscience
+  - [Regions of interest (ROI)](https://en.wikipedia.org/wiki/Region_of_interest)
+
+## Computational ideas
+
+- Reward prediction error
+- Predictive coding/active inference
+- Free energy
+
+## Psychological processes
+
+- Repetitive negative thinking
+  - Rumination
+  - Worry
+- Internalizing psychopathology
+- Executive function
+- Reward processing
+  - Reward prediction error
+- Predictive coding
+- Behavioral inhibition
+- Inhibitory control
+- Categorization
+- Borderline personality disorder
+
