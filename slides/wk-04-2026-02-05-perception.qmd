@@ -5,20 +5,84 @@ format:
     auto-play-media: true
 ---
 
-# Overview
+# Prelude
 
-## Prelude
+---
+
+{{< video https://www.youtube.com/watch?v=-J03yCE15rg&list=RD-J03yCE15rg width="100%" height="70%" >}}
+
+-- @TheWhoVEVO2016-wl
 
 ## Announcements
+
+- [Final Project proposal](../exercises/final-project.qmd) assigned.
+- [Ex-PA • Perception & Action](../exercises/ex-PA.qmd) assigned.
 
 ## Today's topics
 
 - The big picture
 - Sensory processing
-- Vision
-- Somatosensation
+- Deep dive: Vision
 
 ## Warm-up
+
+---
+
+### Why is the myotatic stretch reflex important?
+
+- A. It helps maintain body stability against external perturbation.
+- B. It is the most famous complete and monosynaptic perception/action circuit we know of.
+- C. It illustrates feedback control.
+- D. All of the above
+
+---
+
+### Why is the myotatic stretch reflex important?
+
+- A. It helps maintain body stability against external perturbation.
+- B. It is the most famous complete and monosynaptic perception/action circuit we know of.
+- C. It illustrates feedback control.
+- **D. All of the above**
+
+---
+
+### Motor neuron axons emerge from this part of the spinal cord.
+
+- A. Dorsal root
+- B. Ventral root
+- C. Cerebellum
+- D. Motor cortex (M1)
+
+---
+
+### Motor neuron axons emerge from this part of the spinal cord.
+
+- ~~A. Dorsal root~~
+- **B. Ventral root**
+- ~~C. Cerebellum~~
+- ~~D. Motor cortex (M1)~~
+
+---
+
+![Wikipedia^[By Mysid (original by Tristanb) - Vectorized in CorelDraw by Mysid on an existing image at en-wiki by Tristanb., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1420508]](https://upload.wikimedia.org/wikipedia/commons/d/d2/Spinal_nerve.svg)
+
+---
+
+### This is a a critical neural substrate for individuated movement of the fingers and vocal apparatus in humans.
+
+- A. Feedback from the cerebellum.
+- B. Feedforward information from the basal ganglia.
+- C. Large motor neurons in Layer 5 of M1.
+- D. Direct connections between M1 and motor neurons.
+
+---
+
+### This is a a critical neural substrate for individuated movement of the fingers and vocal apparatus in humans.
+
+- ~~A. Feedback from the cerebellum.~~
+- ~~B. Feedforward information from the basal ganglia.~~
+- ~~C. Large motor neurons in Layer 5 of M1.~~
+- **D. Direct connections between M1 and motor neurons.**
 
 # The big picture
 
@@ -99,11 +163,23 @@ flowchart TD
 
 ## Questions for interoception
 
+:::: {.columns}
+::: {.column width=50%}
 - Tired or rested?
 - Well or ill?
 - Hungry or thirsty or sated?
 - Stressed vs. coping?
 - Emotional state?
+- Position of body
+:::
+::: {.column width=50%}
+![@Barker2021-oa](https://www.frontiersin.org/files/Articles/558246/frym-09-558246-HTML/image_m/figure-3.jpg)
+:::
+::::
+
+---
+
+![@UnknownUnknown-pc](../include/img/nih-interoception-grant.png)
 
 ## Questions for exteroception
 
@@ -138,11 +214,10 @@ flowchart TD
 
 ::: {.incremental}
 - Behaviorally relevant conditions, events, and entities...
-- Generate patterns...
-    - Chemical
-    - Photic/electromagnetic
-    - Mechanical/acoustic
-
+- Generate...
+    - Chemical signals
+    - Photic/electromagnetic patterns
+    - Mechanical/acoustic patterns
 :::
     
 ---
@@ -194,6 +269,10 @@ flowchart TD
     - Shape, size, surface properties (color, texture, reflectance, etc.)
     - Wavelength/frequency, intensity
     
+## {.scrollable}
+
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/EM_Spectrum_Properties_edit.svg/1350px-EM_Spectrum_Properties_edit.svg.png)
+    
 ## Example: Vision
 
 - Where is it?
@@ -210,6 +289,10 @@ flowchart TD
     - Left/right or up/down: Interaural time/phase, intensity differences, pinnae filtering
     - Motion: Frequency shifts via Doppler effect
     
+## {.scrollable}
+
+![acoustics.byu.edu](https://acoustics.byu.edu/images/Spectrum-of-Acoustics.jpg)
+    
 ## Example: Chemosensation
 
 - Source: Chemicals in mouth, nasal cavity 
@@ -217,6 +300,10 @@ flowchart TD
     - Mixtures of chemicals
 - Where is it?
     - Left/right; up/down; near/far via intensity gradients
+    
+## {.scrollable}
+
+![@Bargmann2006-gr Figure 2^[The locations of the main olfactory tissues in the mouse (a), Drosophila (b) and C. elegans (c) are shown. The odorant detection machinery is localized to the olfactory cilia, which are specializations of the olfactory neurons that come into direct contact with the environment (centre). The cilia of three representative olfactory neurons in each species are illustrated in the right-hand panel. Colours denote different odorant receptor proteins in the cilia. a, In mammals, olfactory neurons reside in the nasal epithelium. Each olfactory neuron expresses one type of odorant receptor, a GPCR. b, In Drosophila, olfactory neurons are localized to antennae and maxillary palps. Most olfactory neurons express one specific olfactory receptor and one ubiquitous one, Or83b (dark blue). Occasionally, neurons express two specific olfactory receptors in addition to Or83b (far right). The orientation of fly olfactory receptors is inverted with respect to classical GPCRs (Fig. 1a). (Fly head image modified, with permission, from Kyotofly Kit, Kyoto Institute of Technology, Japan.) c, In C. elegans, each olfactory neuron expresses several different GPCRs. The cell body is in the head and the cilia are at the tip of the nose. (Image courtesy of Jason Kennerdell, Rockefeller University, New York, USA.)]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature05402/MediaObjects/41586_2006_Article_BFnature05402_Fig2_HTML.jpg?as=webp)
     
 ## Somatosensation
 
@@ -229,7 +316,7 @@ flowchart TD
 ## Interoception
 
 :::: {.columns}
-::: {.column width=50%}
+::: {.column width=60%}
 - Hunger/thirst
     - Receptors for nutrient, fluid levels
 - Energy levels
@@ -238,8 +325,8 @@ flowchart TD
 - Temperature
     - Receptors in skin, viscera
 :::
-::: {.column width=50%}
-![@Namkung2017-gc Figure 2](https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr2.jpg)
+::: {.column width=40%}
+![@Namkung2017-gc Figure 2^[Figure 2. Interoceptive Information and Its Integration with Emotional, Cognitive, and Motivational Signals from an Array of Cortical and Subcortical Regions. Interoceptive information of constantly changing body states arrives in the posterior insula by ascending sensory inputs from dedicated spinal and brainstem pathways via specific thalamic relays. This information is projected rostrally onto the anterior insula, where it is integrated with emotional, cognitive, and motivational signals from an array of cortical and subcortical regions. As a result, the anterior insula supports unique subjective feeling states. The anterior insula regulates the introduction of subjective feelings into cognitive and motivational processes by virtue of its cortical location at the cross-roads of numerous pathways involved in higher cognition and motivation. Abbreviations: AI, anterior insula; AMG, amygdala; dACC, dorsal anterior cingulate cortex; DLPFC, dorsolateral prefrontal cortex; PI, posterior insula; THAL, thalamus; VMPFC, ventromedial prefrontal cortex; VS, ventral striatum.]](https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr2.jpg)
 :::
 ::::
     
@@ -260,7 +347,7 @@ flowchart TD
 
 ## {.scrollable}
 
-![@Namkung2017-gc Figure 2. Interoceptive Information and Its Integration with Emotional, Cognitive, and Motivational Signals from an Array of Cortical and Subcortical Regions. Interoceptive information of constantly changing body states arrives in the posterior insula by ascending sensory inputs from dedicated spinal and brainstem pathways via specific thalamic relays. This information is projected rostrally onto the anterior insula, where it is integrated with emotional, cognitive, and motivational signals from an array of cortical and subcortical regions. As a result, the anterior insula supports unique subjective feeling states. The anterior insula regulates the introduction of subjective feelings into cognitive and motivational processes by virtue of its cortical location at the cross-roads of numerous pathways involved in higher cognition and motivation. Abbreviations: AI, anterior insula; AMG, amygdala; dACC, dorsal anterior cingulate cortex; DLPFC, dorsolateral prefrontal cortex; PI, posterior insula; THAL, thalamus; VMPFC, ventromedial prefrontal cortex; VS, ventral striatum.](https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr2.jpg)
+![@Namkung2017-gc Figure 2](https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr2.jpg)
 
 ## Features of sensory signals
 
@@ -268,10 +355,11 @@ flowchart TD
 
 :::: {.columns}
 ::: {.column width=40%}
-- Tonic (sustained) vs. phasic (transient) responses
+- *Tonic* (sustained) 
+- vs. *phasic* (transient) responses
 :::
 ::: {.column width=60%}
-![https://www.researchgate.net/figure/Two-types-of-receptions-differing-by-the-rate-of-adaptation-to-the-dynamical-stimulus-A_fig1_51231510](https://www.researchgate.net/publication/51231510/figure/fig1/AS:202984857313285@1425406769897/Two-types-of-receptions-differing-by-the-rate-of-adaptation-to-the-dynamical-stimulus-A.png)
+![@Dozmorov2011-ii Figure 1^[Two types of receptions differing by the rate of adaptation to the dynamical stimulus. A, Sensory system have two types of receptors differing by the rate of adaptation (9): tonic receptors that adapt slowly to a stimulus and continues to produce action potentials over the duration of the stimulus (left), and phasic receptors that adapt rapidly to a stimulus (right) and react to both the emergence of the signal (on- reaction) and to it cessation (off-reaction). The response diminishes quickly ant then stops. B, Immune system has different types of cells resembling in their reactions of tonic and phasic receptors of sensory systems. Some lymphocytes react preferably to the presence of foreign antigen (CD5- B lymphocytes, small resting T lymphocytes), whereas the others react to the change of antigenic contest in time (CD5+ B lymphocytes, naturally activated T-blast forms) or to the appearance of heterogeneity in presumingly homogenous tissue (NK killing of syngeneic targets in nonsyngeneic for targets environment (64, 65)).]](../include/img/dozmorov-2011-fig-01.jpeg)
 :::
 ::::
 
@@ -284,7 +372,21 @@ flowchart TD
 - Most sensory systems attuned to change
 :::
 ::: {.column width=50%}
-![@Herman2013-uf Figure 3](https://images-provider.frontiersin.org/api/ipx/w=290&f=webp/https://www.frontiersin.org/files/Articles/48488/fnbeh-07-00061-HTML/image_m/fnbeh-07-00061-g003.jpg)
+![@Herman2013-uf Figure 3^[Figure 3. Stress habituation and facilitation. Repeated exposure to the same stressor results in progressive diminution of response magnitude, thought to be mediated by structures such as the prefrontal cortex (PFC) and paraventricular thalamus (PVT). Exposure to a new stressor after either homotypic or hetertypic stressors causes a larger than normal (“sensitized' or “facilitated' response), which may be mediated by enhanced drive from the basolateral amygdala (BLA), PVT or locus coeruleus (LC).]](https://images-provider.frontiersin.org/api/ipx/w=290&f=webp/https://www.frontiersin.org/files/Articles/48488/fnbeh-07-00061-HTML/image_m/fnbeh-07-00061-g003.jpg)
+:::
+::::
+
+## Scientific psychology began with perception
+
+:::: {.columns}
+::: {.column width=50%}
+- Psychophysics has origins in mid-1800s
+- How precisely do human observers detect physical properties?
+- Emphasisis on quantitative relationships, precise measurement
+- More: @Wikipedia-contributors2025-gx
+:::
+::: {.column width=50%}
+![Gustav Fechner (Wikipedia)](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Gustav_Fechner.jpg/500px-Gustav_Fechner.jpg)
 :::
 ::::
 
@@ -295,7 +397,23 @@ flowchart TD
 - Just noticeable difference (JND)
   - How much of a change is noticeable?
   - Slope of psychophysical function
-  - JND a nonlinear function of absolute intensity
+  - JND usually a nonlinear function of absolute intensity ($S=k\ln{I}$)
+- Steven's power law ($\psi{I}=kI^\alpha$) [@Wikipedia-contributors2025-bb]
+:::
+::: {.column width=50%}
+![](https://www.psywww.com/intropsych/ch04-senses/04stevenscurves.jpg)
+:::
+::::
+
+## Perception not linear
+
+:::: {.columns}
+::: {.column width=50%}
+- Steven's power law ($\psi{I}=kI^\alpha$) [@Wikipedia-contributors2025-bb]
+- *Group*, average functions 
+- Ignores
+  - Individual differences
+  - Contextual factors, c.f. [signal detection theory](https://en.wikipedia.org/wiki/Detection_theory)
 :::
 ::: {.column width=50%}
 ![](https://www.psywww.com/intropsych/ch04-senses/04stevenscurves.jpg)
@@ -386,7 +504,22 @@ If so, what are the implications?
 
 ## Somatosensation
 
-![Figure 1 from https://www.frontiersin.org/articles/10.3389/fnhum.2022.862344/full](https://www.frontiersin.org/files/Articles/862344/fnhum-16-862344-HTML/image_m/fnhum-16-862344-g001.jpg){width=70%}
+![@Deflorio2022-yh Figure 1^[Figure 1. Schematic view of exploratory movements. Surface texture (e.g., periodicity of a spatial grating, or roughness of sandpaper) may be felt by static pressing or sliding contact of the index finger with the normal and tangential force components as shown. Sliding is critical in discriminating very fine texture as it generate skin vibrations which reflect the sensed surface.]](https://www.frontiersin.org/files/Articles/862344/fnhum-16-862344-HTML/image_m/fnhum-16-862344-g001.jpg){width=70%}
+
+## Methdological aside
+
+:::: {.columns}
+::: {.column width=30%}
+- Fourier analysis (& synthesis), [@Wikipedia-contributors2025-mu]
+- Powerful mathematical toolkit for understanding
+  - vision, audition, somatosensation
+  - EEG, MRI analysis
+  - Music
+:::
+::: {.column width=70%}
+![Wikipedia^[By Lorepenoten - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=176110382]](https://upload.wikimedia.org/wikipedia/commons/4/40/Fourier_analysis.png)
+:::
+::::
 
 ## Compare (>1) sensors located in different parts of the body
     
@@ -429,7 +562,7 @@ If so, what are the implications?
 - taste receptor cells
 :::
 ::: {.column width=50%}
-![@Chandrashekar2006-mn](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature05401/MediaObjects/41586_2006_Article_BFnature05401_Fig1_HTML.jpg?as=webp)
+![@Chandrashekar2006-mn Figure 1](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature05401/MediaObjects/41586_2006_Article_BFnature05401_Fig1_HTML.jpg?as=webp)
 :::
 ::::
 
@@ -517,10 +650,9 @@ g$layout <- layout_in_circle
 plot(g, vertex.size=50, vertex.color="gray")
 ```
 
-
 # Break
 
-# Vision
+# Deep dive: Vision
 
 ## Animals respond to visual illusions, too
 
@@ -843,13 +975,63 @@ plot(g, vertex.size=50, vertex.color="gray")
 - How do I get from here to there (action control)
 - What time (or time of year) is it?
 
-# Somatosensation
+# Senses (re)considered
+
+---
+
+![@Gibson1966-qo](https://images-na.ssl-images-amazon.com/images/I/31fzXc46omL._SX312_BO1,204,203,200_.jpg)
+
+## Act to perceive; perceive to act
+
+:::: {.columns}
+::: {.column width=50%}
+- Orienting, info gathering
+- Maintaining balance
+- Reaching, grasping, & manipulation
+- Locomotion
+:::
+::: {.column width=50%}
+- Communication
+- Mating & caregiving
+- Ingestion & elimination
+- Defense
+- Sleep
+:::
+::::
+
+## {.scrollable}
+
+```{mermaid}
+%%| fig-cap: "Schematic of information flows into and out of the nervous system. *Note*: This figure ignores flows specifically related to metabolism, like changes in blood oxygen."
+flowchart TD
+  N[Nervous System] -- autonomic --> B[Body]
+  N -- somatic --> B
+  N --->|endocrine| B
+  B --->|endocrine| N
+  B --->|action| W[World]
+  W --->|perception| B
+  B --->|somatic| N
+  B --->|autonomic| N
+```
 
 # Wrap-up
 
 ## Main points
 
+- Information about psychologically relevant properties of the world is carried via multiple physical and chemical channels.
+- Perceptual systems are specialized for detecting meaningful patterns in these channels.
+- Perceptual systems send information to the CNS via parallel pathways.
+- Perceptual systems have commonalities in terms of computational principles & algorithms.
+
+---
+
+- Vision dominates human perception.
+- Visual processing is both hierarchical (serial) and parallel.
+- Sensory and motor processing should be considered as integrated systems.
+
 ## Next time
+
+- Learning & memory
 
 # Resources
 

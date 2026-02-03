@@ -132,9 +132,9 @@ ex_anat_due <- psy_511_vars |>
   - @Neuroscience2025-ou
   - @CrashCourse2015-fn
 
-<!-- #### Materials -->
+#### Materials
 
-<!-- - [Perception notes](404.qmd) -->
+- [Slides](slides/wk-04-2026-02-05-perception.qmd)
 
 #### Assignment(s)
 

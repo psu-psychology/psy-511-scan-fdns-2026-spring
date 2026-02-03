@@ -14,7 +14,7 @@ execute:
 website:
   title: "PSY 511.001"
   announcement: 
-    content: "Exercise ANAT is due this week." 
+    content: "This week's topic is perception." 
     position: below-navbar
     icon: info-circle
     dismissable: true
@@ -42,6 +42,8 @@ website:
             href: slides/wk-02-2026-01-22-anatomy.qmd
           - text: "Wk 03 • Thu Jan 29"
             href: slides/wk-03-2026-01-29-action.qmd
+          - text: "Wk 04 • Thu Feb 05"
+            href: slides/wk-04-2026-02-05-perception.qmd
   repo-url: https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring
   repo-actions: [edit, issue]
   repo-subdir: src

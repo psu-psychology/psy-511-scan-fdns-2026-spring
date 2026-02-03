@@ -2857,7 +2857,7 @@
     "href": "schedule.html#week-04-feb-2-6",
     "title": "Schedule",
     "section": "Week 04: Feb 2-6",
-    "text": "Week 04: Feb 2-6\n\nThu, Feb 05\n\nTopic(s)\n\nPerception\n\n\n\nRead/Watch\n\nRequired\n\nRosenberg, Thompson, Doudlah, & Chang (2023)\nKhalsa et al. (2018)\n\nRecommended\n\nNeuroscience (2025)\nCrashCourse (2015)\n\n\n\n\n\n\nAssignment(s)\n\nAssigned: Final project proposal\n\nDue: 2026-03-05\nCanvas dropbox\n\nAssigned: Exercise PA • Perception & Action\n\nDue: 2026-02-12.\nCanvas dropbox",
+    "text": "Week 04: Feb 2-6\n\nThu, Feb 05\n\nTopic(s)\n\nPerception\n\n\n\nRead/Watch\n\nRequired\n\nRosenberg, Thompson, Doudlah, & Chang (2023)\nKhalsa et al. (2018)\n\nRecommended\n\nNeuroscience (2025)\nCrashCourse (2015)\n\n\n\n\nMaterials\n\nSlides\n\n\n\nAssignment(s)\n\nAssigned: Final project proposal\n\nDue: 2026-03-05\nCanvas dropbox\n\nAssigned: Exercise PA • Perception & Action\n\nDue: 2026-02-12.\nCanvas dropbox",
     "crumbs": [
       "Schedule"
     ]
@@ -4335,5 +4335,1017 @@
     "title": "Language",
     "section": "References",
     "text": "References\n\n\n\n\nHagoort, P., & Indefrey, P. (2014). The neurobiology of language beyond single words. Annu. Rev. Neurosci., 37, 347–362. https://doi.org/10.1146/annurev-neuro-071013-013847\n\n\nHickok, G., & Poeppel, D. (2007). The cortical organization of speech processing. Nat. Rev. Neurosci., 8(5), 393–402. https://doi.org/10.1038/nrn2113"
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#announcements",
+    "href": "slides/wk-04-2026-02-05-perception.html#announcements",
+    "title": "Perception",
+    "section": "Announcements",
+    "text": "Announcements\n\nFinal Project proposal assigned.\nEx-PA • Perception & Action assigned.",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#todays-topics",
+    "href": "slides/wk-04-2026-02-05-perception.html#todays-topics",
+    "title": "Perception",
+    "section": "Today’s topics",
+    "text": "Today’s topics\n\nThe big picture\nSensory processing\nDeep dive: Vision",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#warm-up",
+    "href": "slides/wk-04-2026-02-05-perception.html#warm-up",
+    "title": "Perception",
+    "section": "Warm-up",
+    "text": "Warm-up",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#perceptionaction-systems",
+    "href": "slides/wk-04-2026-02-05-perception.html#perceptionaction-systems",
+    "title": "Perception",
+    "section": "Perception/action systems",
+    "text": "Perception/action systems",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#multisensory-smartphones",
+    "href": "slides/wk-04-2026-02-05-perception.html#multisensory-smartphones",
+    "title": "Perception",
+    "section": "Multisensory smartphones",
+    "text": "Multisensory smartphones\n\n\n\nAccelerometer\nGyroscope\nMagnetometer\nProximity sensor\nAmbient light sensor\n\n\n\n\n\nBarometer\nThermometer\nMic\nCamera\nRadios (Bluetooth, wifi, cellular, GPS)",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#dimensions",
+    "href": "slides/wk-04-2026-02-05-perception.html#dimensions",
+    "title": "Perception",
+    "section": "Dimensions",
+    "text": "Dimensions\n\n\n\nInteroceptive\n\nBody position, movement, posture\nInternal status\n\nExteroceptive\n\nLayout of environment, contents\n\n\n\n\n\n\n\n\n\nflowchart TD\n  N[Nervous System] -- autonomic --&gt; B[Body]\n  N -- somatic --&gt; B\n  N -- endocrine --&gt; B\n  B ---&gt;|interoception| N\n  B ---&gt;|action| W[World]\n  W ---&gt;|perception| B\n  B ---&gt;|exteroception| N\n\n\n\n\nFigure 1: Schematic of information flows into and out of the nervous system.",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#questions-for-interoception",
+    "href": "slides/wk-04-2026-02-05-perception.html#questions-for-interoception",
+    "title": "Perception",
+    "section": "Questions for interoception",
+    "text": "Questions for interoception\n\n\n\nTired or rested?\nWell or ill?\nHungry or thirsty or sated?\nStressed vs. coping?\nEmotional state?\nPosition of body\n\n\n\n\n\nBarker et al. (2021)",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#questions-for-exteroception",
+    "href": "slides/wk-04-2026-02-05-perception.html#questions-for-exteroception",
+    "title": "Perception",
+    "section": "Questions for exteroception",
+    "text": "Questions for exteroception\n\nWho/What is out there?\nAnimate/inanimate?\n\nConspecific (same species)/non?\nThreat/non?\nFamiliar/un?\nMate/non? or Friend/not?\nFood source/non",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#questions-for-exteroception-1",
+    "href": "slides/wk-04-2026-02-05-perception.html#questions-for-exteroception-1",
+    "title": "Perception",
+    "section": "Questions for exteroception",
+    "text": "Questions for exteroception\n\n\n\nWhere is it?\n\nDistance\n\nProximal\nDistal\n\nElevation, azimuth\n\n\n\n\nCoordinate frames\n\nSelf/ego (left of me)\nObject (top of object)\nAllo/world (North of College)\n\nWhere moving?",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#causal-chains",
+    "href": "slides/wk-04-2026-02-05-perception.html#causal-chains",
+    "title": "Perception",
+    "section": "Causal chains",
+    "text": "Causal chains\n\nBehaviorally relevant conditions, events, and entities…\nGenerate…\n\nChemical signals\nPhotic/electromagnetic patterns\nMechanical/acoustic patterns",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#physics-of-sensation",
+    "href": "slides/wk-04-2026-02-05-perception.html#physics-of-sensation",
+    "title": "Perception",
+    "section": "Physics of sensation",
+    "text": "Physics of sensation\n\n\n\nInformal name\nSource\n\n\n\n\nVision\nElectromagnetic radiation\n\n\nAudition\nMechanical vibration in air/water\n\n\nTouch\nMechanical vibration of skin on surface\n\n\nVestibular\nRotation & linear acceleration of head\n\n\nOlfaction\nChemical patterns in air/water",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#physics-of-sensation-1",
+    "href": "slides/wk-04-2026-02-05-perception.html#physics-of-sensation-1",
+    "title": "Perception",
+    "section": "Physics of sensation",
+    "text": "Physics of sensation\n\n\n\nInformal name\nSource\n\n\n\n\nGustation\nChemical patterns in mouth\n\n\nElectroception\nElectromagnetic radiation\n\n\nMagnetoreception\nElectromagnetic radiation patterns\n\n\nKinesthesia\nPosition, velocity, acceleration of limbs, body",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#from-phi-to-psi",
+    "href": "slides/wk-04-2026-02-05-perception.html#from-phi-to-psi",
+    "title": "Perception",
+    "section": "From \\(\\Phi\\) to \\(\\Psi\\)",
+    "text": "From \\(\\Phi\\) to \\(\\Psi\\)\n\nWhat is the energy/chemical channel?\nChannels carry different types of information about\n\nWhat is out there?\nWhere is it located or moving?\n\nConvey information at different rates, with varied precision\nInformation often signaled by multiple sources",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#example-vision",
+    "href": "slides/wk-04-2026-02-05-perception.html#example-vision",
+    "title": "Perception",
+    "section": "Example: Vision",
+    "text": "Example: Vision\n\nSource: Electromagnetic radiation\n\nReflected from surfaces\n\nWhat is it?\n\nShape, size, surface properties (color, texture, reflectance, etc.)\nWavelength/frequency, intensity",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#example-vision-1",
+    "href": "slides/wk-04-2026-02-05-perception.html#example-vision-1",
+    "title": "Perception",
+    "section": "Example: Vision",
+    "text": "Example: Vision\n\nWhere is it?\n\nPosition: Left/right; up/down on retina\nNear/far: retinal disparity, interposition, height above horizon…\nOrientation, motion",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#example-audition",
+    "href": "slides/wk-04-2026-02-05-perception.html#example-audition",
+    "title": "Perception",
+    "section": "Example: Audition",
+    "text": "Example: Audition\n\nSource: Mechanical vibrations in air or water\nWhat is it?\n\nPattern of frequencies, amplitudes, durations\n\nWhere is it?\n\nLeft/right or up/down: Interaural time/phase, intensity differences, pinnae filtering\nMotion: Frequency shifts via Doppler effect",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#example-chemosensation",
+    "href": "slides/wk-04-2026-02-05-perception.html#example-chemosensation",
+    "title": "Perception",
+    "section": "Example: Chemosensation",
+    "text": "Example: Chemosensation\n\nSource: Chemicals in mouth, nasal cavity\nWhat is it?\n\nMixtures of chemicals\n\nWhere is it?\n\nLeft/right; up/down; near/far via intensity gradients",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#somatosensation",
+    "href": "slides/wk-04-2026-02-05-perception.html#somatosensation",
+    "title": "Perception",
+    "section": "Somatosensation",
+    "text": "Somatosensation\n\nSource: Thermal or mechanical stimulation (vibration/pressure) of skin\nWhat is it?\n\nShape, size, smoothness, mass, temperature, deformability: Pattern of stimulation\n\nWhere it it?\n\nPattern of cutaneous receptors on skin",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#interoception",
+    "href": "slides/wk-04-2026-02-05-perception.html#interoception",
+    "title": "Perception",
+    "section": "Interoception",
+    "text": "Interoception\n\n\n\nHunger/thirst\n\nReceptors for nutrient, fluid levels\n\nEnergy levels\n\nReceptors for hormones, NTs\nANS responses\n\nTemperature\n\nReceptors in skin, viscera\n\n\n\n\n\n\nNamkung et al. (2017) Figure 23",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#interoception-1",
+    "href": "slides/wk-04-2026-02-05-perception.html#interoception-1",
+    "title": "Perception",
+    "section": "Interoception",
+    "text": "Interoception\n\n\n\nMating interest\n\nReceptors for hormones, NTs\nANS responses\n\nBody position & movement (proprioception)\n\nReceptors in muscles, joints, skin\n\n\n\n\n\n\nNamkung et al. (2017) Figure 2",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#section-1",
+    "href": "slides/wk-04-2026-02-05-perception.html#section-1",
+    "title": "Perception",
+    "section": "",
+    "text": "Wikipedia",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#features-of-sensory-signals",
+    "href": "slides/wk-04-2026-02-05-perception.html#features-of-sensory-signals",
+    "title": "Perception",
+    "section": "Features of sensory signals",
+    "text": "Features of sensory signals",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#change-across-time",
+    "href": "slides/wk-04-2026-02-05-perception.html#change-across-time",
+    "title": "Perception",
+    "section": "Change across time",
+    "text": "Change across time\n\n\n\nTonic (sustained)\nvs. phasic (transient) responses\n\n\n\n\n\nDozmorov (2011) Figure 14",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#change-across-time-1",
+    "href": "slides/wk-04-2026-02-05-perception.html#change-across-time-1",
+    "title": "Perception",
+    "section": "Change across time",
+    "text": "Change across time\n\n\n\nAdaptation/habituation\nSensitization\nMost sensory systems attuned to change\n\n\n\n\n\nHerman (2013) Figure 35",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#scientific-psychology-began-with-perception",
+    "href": "slides/wk-04-2026-02-05-perception.html#scientific-psychology-began-with-perception",
+    "title": "Perception",
+    "section": "Scientific psychology began with perception",
+    "text": "Scientific psychology began with perception\n\n\n\nPsychophysics has origins in mid-1800s\nHow precisely do human observers detect physical properties?\nEmphasisis on quantitative relationships, precise measurement\nMore: Wikipedia contributors (2025b)\n\n\n\n\n\nGustav Fechner (Wikipedia)",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#perception-not-linear",
+    "href": "slides/wk-04-2026-02-05-perception.html#perception-not-linear",
+    "title": "Perception",
+    "section": "Perception not linear",
+    "text": "Perception not linear\n\n\n\nJust noticeable difference (JND)\n\nHow much of a change is noticeable?\nSlope of psychophysical function\nJND usually a nonlinear function of absolute intensity (\\(S=k\\ln{I}\\))\n\nSteven’s power law (\\(\\psi{I}=kI^\\alpha\\)) (Wikipedia contributors, 2025a)",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#project-to-cns-at-different-speeds",
+    "href": "slides/wk-04-2026-02-05-perception.html#project-to-cns-at-different-speeds",
+    "title": "Perception",
+    "section": "Project to CNS at different speeds",
+    "text": "Project to CNS at different speeds\n\nBigger diameter axon fiber: Faster\nThicker myelin sheath around axon: Faster",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#repeating-signals-e.g.-patterns",
+    "href": "slides/wk-04-2026-02-05-perception.html#repeating-signals-e.g.-patterns",
+    "title": "Perception",
+    "section": "Repeating signals (e.g. patterns)",
+    "text": "Repeating signals (e.g. patterns)\n\nIn space (textures)\nIn time",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#vision",
+    "href": "slides/wk-04-2026-02-05-perception.html#vision",
+    "title": "Perception",
+    "section": "Vision",
+    "text": "Vision\n\n\n\nRoark & Stringham (2019) Figure 1",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#audition",
+    "href": "slides/wk-04-2026-02-05-perception.html#audition",
+    "title": "Perception",
+    "section": "Audition",
+    "text": "Audition\n\n\n\nhttps://www.mwmresearchgroup.org/blog/key-concepts-fourier-transforms-and-signal-processing",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#somatosensation-1",
+    "href": "slides/wk-04-2026-02-05-perception.html#somatosensation-1",
+    "title": "Perception",
+    "section": "Somatosensation",
+    "text": "Somatosensation\n\n\n\nDeflorio et al. (2022) Figure 16",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#methdological-aside",
+    "href": "slides/wk-04-2026-02-05-perception.html#methdological-aside",
+    "title": "Perception",
+    "section": "Methdological aside",
+    "text": "Methdological aside\n\n\n\nFourier analysis (& synthesis), (Wikipedia contributors, 2025c)\nPowerful mathematical toolkit for understanding\n\nvision, audition, somatosensation\nEEG, MRI analysis\nMusic\n\n\n\n\n\n\nWikipedia7",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#compare-1-sensors-located-in-different-parts-of-the-body",
+    "href": "slides/wk-04-2026-02-05-perception.html#compare-1-sensors-located-in-different-parts-of-the-body",
+    "title": "Perception",
+    "section": "Compare (>1) sensors located in different parts of the body",
+    "text": "Compare (&gt;1) sensors located in different parts of the body\n\nEyes\nEars\nSkin surface\nNostrils\nTongue",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#specialized-neurons-vision",
+    "href": "slides/wk-04-2026-02-05-perception.html#specialized-neurons-vision",
+    "title": "Perception",
+    "section": "Specialized neurons: Vision",
+    "text": "Specialized neurons: Vision\n\n\n\nPhotoreceptors\n\n\n\n\n\nWikipedia",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#specialized-neurons-audition",
+    "href": "slides/wk-04-2026-02-05-perception.html#specialized-neurons-audition",
+    "title": "Perception",
+    "section": "Specialized neurons: Audition",
+    "text": "Specialized neurons: Audition\n\n\n\nCochlear hair cells",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#specialized-neurons-gustation-taste",
+    "href": "slides/wk-04-2026-02-05-perception.html#specialized-neurons-gustation-taste",
+    "title": "Perception",
+    "section": "Specialized neurons: Gustation (taste)",
+    "text": "Specialized neurons: Gustation (taste)\n\n\n\ntaste receptor cells\n\n\n\n\n\nChandrashekar et al. (2006) Figure 1",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#receptive-fields",
+    "href": "slides/wk-04-2026-02-05-perception.html#receptive-fields",
+    "title": "Perception",
+    "section": "“Receptive fields”",
+    "text": "“Receptive fields”\n\nThe receptive field is a portion of sensory space that can elicit neuronal responses when stimulated. The sensory space can be defined in a single dimension (e.g. carbon chain length of an odorant), two dimensions (e.g. skin surface) or multiple dimensions (e.g. space, time and tuning properties of a visual receptive field).\n\n– Alonso & Chen (2009)",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#tactile-receptive-fields",
+    "href": "slides/wk-04-2026-02-05-perception.html#tactile-receptive-fields",
+    "title": "Perception",
+    "section": "Tactile receptive fields",
+    "text": "Tactile receptive fields\n\n\n\nhttps://www.nursinghero.com/study-guides/austincc-ap1/pain",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#receptive-fields-visual",
+    "href": "slides/wk-04-2026-02-05-perception.html#receptive-fields-visual",
+    "title": "Perception",
+    "section": "Receptive fields: Visual",
+    "text": "Receptive fields: Visual\n\n\n\n\n\nhttps://openbooks.lib.msu.edu/neuroscience/chapter/vision-the-retina/\n\n\n\n\n\n\nhttps://wandell.github.io/FOV-1995/",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#topographic-maps",
+    "href": "slides/wk-04-2026-02-05-perception.html#topographic-maps",
+    "title": "Perception",
+    "section": "Topographic maps",
+    "text": "Topographic maps",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#auditory-tonotopic-maps",
+    "href": "slides/wk-04-2026-02-05-perception.html#auditory-tonotopic-maps",
+    "title": "Perception",
+    "section": "Auditory: Tonotopic maps",
+    "text": "Auditory: Tonotopic maps\n\n\n\nHumphries et al. (2010) Figure 3",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#visual-retinotopic-maps",
+    "href": "slides/wk-04-2026-02-05-perception.html#visual-retinotopic-maps",
+    "title": "Perception",
+    "section": "Visual: Retinotopic maps",
+    "text": "Visual: Retinotopic maps",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#visual-retinotopic-maps-1",
+    "href": "slides/wk-04-2026-02-05-perception.html#visual-retinotopic-maps-1",
+    "title": "Perception",
+    "section": "Visual: Retinotopic maps",
+    "text": "Visual: Retinotopic maps\n\n\n\nDougherty et al. (2003) Figure 1",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#somatosensory-somatotopic-maps-in-s1-m1",
+    "href": "slides/wk-04-2026-02-05-perception.html#somatosensory-somatotopic-maps-in-s1-m1",
+    "title": "Perception",
+    "section": "Somatosensory: Somatotopic maps in S1 & M1",
+    "text": "Somatosensory: Somatotopic maps in S1 & M1",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#non-uniform-sensitivity",
+    "href": "slides/wk-04-2026-02-05-perception.html#non-uniform-sensitivity",
+    "title": "Perception",
+    "section": "Non-uniform sensitivity",
+    "text": "Non-uniform sensitivity",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#two-point-touch-thresholds",
+    "href": "slides/wk-04-2026-02-05-perception.html#two-point-touch-thresholds",
+    "title": "Perception",
+    "section": "Two-point touch thresholds",
+    "text": "Two-point touch thresholds",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#somatosensory-homunculus",
+    "href": "slides/wk-04-2026-02-05-perception.html#somatosensory-homunculus",
+    "title": "Perception",
+    "section": "Somatosensory homunculus",
+    "text": "Somatosensory homunculus",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#visual-acuity-non-uniform",
+    "href": "slides/wk-04-2026-02-05-perception.html#visual-acuity-non-uniform",
+    "title": "Perception",
+    "section": "Visual acuity non-uniform",
+    "text": "Visual acuity non-uniform\n\n\n\nWikipedia",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#hearing-thresholds-non-uniform",
+    "href": "slides/wk-04-2026-02-05-perception.html#hearing-thresholds-non-uniform",
+    "title": "Perception",
+    "section": "Hearing thresholds non-uniform",
+    "text": "Hearing thresholds non-uniform\n\n\n\nhttp://auditoryneuroscience.com/",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#hierarchicalsequential-and-parallel",
+    "href": "slides/wk-04-2026-02-05-perception.html#hierarchicalsequential-and-parallel",
+    "title": "Perception",
+    "section": "Hierarchical/sequential AND parallel",
+    "text": "Hierarchical/sequential AND parallel",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#feedforward-and-feedback",
+    "href": "slides/wk-04-2026-02-05-perception.html#feedforward-and-feedback",
+    "title": "Perception",
+    "section": "Feedforward and feedback",
+    "text": "Feedforward and feedback",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#animals-respond-to-visual-illusions-too",
+    "href": "slides/wk-04-2026-02-05-perception.html#animals-respond-to-visual-illusions-too",
+    "title": "Perception",
+    "section": "Animals respond to visual illusions, too",
+    "text": "Animals respond to visual illusions, too\n\n\n\nhttps://www.illusionsindex.org/i/rotating-snakes",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#a-cat-responds",
+    "href": "slides/wk-04-2026-02-05-perception.html#a-cat-responds",
+    "title": "Perception",
+    "section": "A cat responds…",
+    "text": "A cat responds…\nhttps://www.reddit.com/r/youseeingthisshit/comments/p9y7v1/the_reaction_of_the_cat_on_the_optical_illusion/?ref=share&ref_source=embed&utm_content=title&utm_medium=post_embed&utm_name=85f1a01593f447e092c5b300e5561d6e&utm_source=embedly&utm_term=p9y7v1",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#application-in-vr",
+    "href": "slides/wk-04-2026-02-05-perception.html#application-in-vr",
+    "title": "Perception",
+    "section": "Application in VR",
+    "text": "Application in VR\n\n– ewakili (2021)",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#properties-of-electromagnetic-em-radiation",
+    "href": "slides/wk-04-2026-02-05-perception.html#properties-of-electromagnetic-em-radiation",
+    "title": "Perception",
+    "section": "Properties of Electromagnetic (EM) radiation",
+    "text": "Properties of Electromagnetic (EM) radiation\n\n\n\nWavelength/frequency\nIntensity\nLocation/position of source\nReflects off some materials\nRefracted (bent) moving through other materials\nInformation across space (and time)\n\n\n\n\n\nhttp://en.wikipedia.org/wiki/File:EM_Spectrum_Properties_edit.svg",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#light",
+    "href": "slides/wk-04-2026-02-05-perception.html#light",
+    "title": "Perception",
+    "section": "Light",
+    "text": "Light\n\nProvides fast (2.99 million m/s; 186 million mi/hr) information about surfaces at a distance\nvs. sound (340 m/s; 767 mi/hr)\nvs. chemical signals (min/mi)",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#not-instantaneous-by-cosmic-scales",
+    "href": "slides/wk-04-2026-02-05-perception.html#not-instantaneous-by-cosmic-scales",
+    "title": "Perception",
+    "section": "Not instantaneous by cosmic scales",
+    "text": "Not instantaneous by cosmic scales",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#reflectance-spectra-differ-by-surface",
+    "href": "slides/wk-04-2026-02-05-perception.html#reflectance-spectra-differ-by-surface",
+    "title": "Perception",
+    "section": "Reflectance spectra differ by surface",
+    "text": "Reflectance spectra differ by surface\n\n\n\nRandeberg (2005) Figure 8",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#optic-array-specifies-geometry-of-environment",
+    "href": "slides/wk-04-2026-02-05-perception.html#optic-array-specifies-geometry-of-environment",
+    "title": "Perception",
+    "section": "Optic array specifies geometry of environment",
+    "text": "Optic array specifies geometry of environment\n\n\n\nGibson",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#categories-of-wavelength-specify-perception-of-color",
+    "href": "slides/wk-04-2026-02-05-perception.html#categories-of-wavelength-specify-perception-of-color",
+    "title": "Perception",
+    "section": "Categories of wavelength specify perception of color",
+    "text": "Categories of wavelength specify perception of color\n\nEyes categorize wavelength into relative intensities within wavelength bands\nRGB ~ Red, Green, Blue\n\nLong, medium, short wavelengths\n\nColor is a neural/psychological construct",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#the-biological-camera",
+    "href": "slides/wk-04-2026-02-05-perception.html#the-biological-camera",
+    "title": "Perception",
+    "section": "The biological camera",
+    "text": "The biological camera\n ## {.scrollable}",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#part-of-a-self-stabilizing-motor-system",
+    "href": "slides/wk-04-2026-02-05-perception.html#part-of-a-self-stabilizing-motor-system",
+    "title": "Perception",
+    "section": "Part of a self-stabilizing motor system…",
+    "text": "Part of a self-stabilizing motor system…\n\n–&gt; \n\n\n– Bucalo (2015)",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#section-3",
+    "href": "slides/wk-04-2026-02-05-perception.html#section-3",
+    "title": "Perception",
+    "section": "",
+    "text": "Bargmann (2006) Figure 22",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#parts-of-the-eye",
+    "href": "slides/wk-04-2026-02-05-perception.html#parts-of-the-eye",
+    "title": "Perception",
+    "section": "Parts of the eye",
+    "text": "Parts of the eye\n\nCornea - refraction (2/3 of total)\nPupil - light intensity; diameter regulated by Iris.\nLens - refraction (remaining 1/3; focus)\nRetina - light detection\n\n~ skin or organ of Corti in inner ear\n\nPigment epithelium - regenerate photopigment\nMuscles - move eye, reshape lens, change pupil diameter",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#geometry-of-retinal-image",
+    "href": "slides/wk-04-2026-02-05-perception.html#geometry-of-retinal-image",
+    "title": "Perception",
+    "section": "Geometry of retinal image",
+    "text": "Geometry of retinal image\n\nImage inverted (up/down)\nImage reversed (left/right)\nPoint-to-point map (retinotopic)\nBinocular and monocular zones",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#the-fovea",
+    "href": "slides/wk-04-2026-02-05-perception.html#the-fovea",
+    "title": "Perception",
+    "section": "The fovea",
+    "text": "The fovea\n\n\n\nhttp://www.brainhq.com/sites/default/files/fovea.jpg\n\n\n\nCentral 1-2 deg of visual field\nAligned with visual axis\nRetinal ganglion cells pushed aside\nHighest acuity vision == best for details\nAcuity varies from center to periphery",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#what-part-of-the-skin-is-like-the-fovea",
+    "href": "slides/wk-04-2026-02-05-perception.html#what-part-of-the-skin-is-like-the-fovea",
+    "title": "Perception",
+    "section": "What part of the skin is like the fovea?",
+    "text": "What part of the skin is like the fovea?",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#photoreceptors-in-retina-detect-light",
+    "href": "slides/wk-04-2026-02-05-perception.html#photoreceptors-in-retina-detect-light",
+    "title": "Perception",
+    "section": "Photoreceptors in retina detect light",
+    "text": "Photoreceptors in retina detect light",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#photoreceptor-physiology",
+    "href": "slides/wk-04-2026-02-05-perception.html#photoreceptor-physiology",
+    "title": "Perception",
+    "section": "Photoreceptor physiology",
+    "text": "Photoreceptor physiology\n\nOuter segment\n\nMembrane disks\nPhotopigments\n\nSense light, trigger chemical cascade\n\n\nInner segment\n\nSynaptic terminal\n\nLight hyperpolarizes photoreceptor!\n\nThe dark current",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#retina",
+    "href": "slides/wk-04-2026-02-05-perception.html#retina",
+    "title": "Perception",
+    "section": "Retina",
+    "text": "Retina\n\nPhysiologically backwards\n\nDark current\n\nAnatomically inside-out\n\nPhotoreceptors at back of eye",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#retina-1",
+    "href": "slides/wk-04-2026-02-05-perception.html#retina-1",
+    "title": "Perception",
+    "section": "Retina",
+    "text": "Retina\n\nInformation flows…\n\nFrom photoreceptors…\nTo Bipolar cells\n\n&lt;-&gt; and Horizontal cells\n\nTo Retinal ganglion cells\n\n&lt;-&gt; and Amacrine cells\n\nTo cerebral cortex",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#center-surround-receptive-fields",
+    "href": "slides/wk-04-2026-02-05-perception.html#center-surround-receptive-fields",
+    "title": "Perception",
+    "section": "Center-surround receptive fields",
+    "text": "Center-surround receptive fields\n\n\nCenter region\n\nExcites (or inhibits)\n\nSurround region\n\nDoes the opposite\n\nBipolar cells & Retinal Ganglion cells -&gt;\nMost activated by “donuts” of light/dark\n\nLocal contrast (light/dark differences)",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#opponent-processing",
+    "href": "slides/wk-04-2026-02-05-perception.html#opponent-processing",
+    "title": "Perception",
+    "section": "Opponent processing",
+    "text": "Opponent processing\n\n\n\nhttp://www.visualexpert.com/sbfaqimages/RGBOpponent.gif\n\n\n\nBlack (darker) vs. white (lighter) (achromatic)\nLong (red) vs. Medium (green) wavelength cones\n(Long + Medium) vs. Short cones\nCan’t really see reddish-green or bluish-yellow\n\n“Oppose” one another at cellular/circuit level\nDEMO",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#from-eye-to-brain",
+    "href": "slides/wk-04-2026-02-05-perception.html#from-eye-to-brain",
+    "title": "Perception",
+    "section": "From eye to brain",
+    "text": "From eye to brain\n\n\nRetinal ganglion cells\n2nd/II cranial (optic) nerve\n\nOptic chiasm (\\(\\chi\\) - asm): Partial crossing of fibers\nNasal hemiretina (lateral/peripheral visual field) cross\nLeft visual field (from L & R retinae) -&gt; right hemisphere & vice versa\n\nLateral Geniculate Nucleus (LGN) of thalamus (receives 90% of retinal projections)\nHypothalamus\n\nSuprachiasmatic nucleus (superior to the optic chiasm): Synchronizes day/night cycle with circadian rhythms\n\nSuperior colliculus & brainstem",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#lgn",
+    "href": "slides/wk-04-2026-02-05-perception.html#lgn",
+    "title": "Perception",
+    "section": "LGN",
+    "text": "LGN\n\n\n6 layers + intralaminar zone\n\nParvocellular (small cells): chromatic\nMagnocellular (big cells): achromatic\nKoniocellular (chromatic - short wavelength?)\n\nRetinotopic map of opposite visual field\n\nFrom LGN to V1\n\n\nVia optic radiations\nPrimary visual cortex (V1) in occipital lobe\nCreate “stria of Gennari” (visible stripe in layer 4)\nCalcarine fissure (medial occiptal lobe) divides lower/upper visual field",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#human-v1",
+    "href": "slides/wk-04-2026-02-05-perception.html#human-v1",
+    "title": "Perception",
+    "section": "Human V1",
+    "text": "Human V1\n\n\n\nhttp://www.scholarpedia.org/w/images/3/3a/03-Human-V1.png\n\n\n\n\n\n(Dougherty et al., 2003)\n\n\n\nFovea overrepresented\n\nAnalogous to somatosensation\nHigh acuity in fovea vs. lower outside it\n\nUpper visual field/lower (ventral) V1 and vice versa",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#laminar-columnar-organization",
+    "href": "slides/wk-04-2026-02-05-perception.html#laminar-columnar-organization",
+    "title": "Perception",
+    "section": "Laminar, columnar organization",
+    "text": "Laminar, columnar organization\n\n\n6 laminae (layers)\n\nInput: Layer 4 (remember stria of Gennari?)\nOutput: Layers 2-3 (to cortex), 5 (to brainstem), 6 (to LGN)\n\nColumns\n\nOrientation/angle\nSpatial frequency\nColor/wavelength\nEye of origin, ocular dominance",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#from-center-surround-receptive-fields-to-line-detection",
+    "href": "slides/wk-04-2026-02-05-perception.html#from-center-surround-receptive-fields-to-line-detection",
+    "title": "Perception",
+    "section": "From center-surround receptive fields to line detection",
+    "text": "From center-surround receptive fields to line detection\n\n\n\n\n(Panichello et al., 2013)",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#ocular-dominance-columns",
+    "href": "slides/wk-04-2026-02-05-perception.html#ocular-dominance-columns",
+    "title": "Perception",
+    "section": "Ocular dominance columns",
+    "text": "Ocular dominance columns",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#beyond-v1",
+    "href": "slides/wk-04-2026-02-05-perception.html#beyond-v1",
+    "title": "Perception",
+    "section": "Beyond V1",
+    "text": "Beyond V1\n\n\nLarger, more complex receptive fields\nDorsal stream (where/how)\n\nToward parietal lobe\n\nVentral stream (what)",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#what-is-vision-for",
+    "href": "slides/wk-04-2026-02-05-perception.html#what-is-vision-for",
+    "title": "Perception",
+    "section": "What is vision for?",
+    "text": "What is vision for?\n\nWhat is it? (form perception)\nWhere is it? (space perception)\nHow do I get from here to there (action control)\nWhat time (or time of year) is it?",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#main-points",
+    "href": "slides/wk-04-2026-02-05-perception.html#main-points",
+    "title": "Perception",
+    "section": "Main points",
+    "text": "Main points\n\nInformation about psychologically relevant properties of the world is carried via multiple physical and chemical channels.\nPerceptual systems are specialized for detecting meaningful patterns in these channels.\nPerceptual systems send information to the CNS via parallel pathways.\nPerceptual systems have commonalities in terms of computational principles & algorithms.",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#next-time",
+    "href": "slides/wk-04-2026-02-05-perception.html#next-time",
+    "title": "Perception",
+    "section": "Next time",
+    "text": "Next time\n\nLearning & memory",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#about",
+    "href": "slides/wk-04-2026-02-05-perception.html#about",
+    "title": "Perception",
+    "section": "About",
+    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2026.1.0.392.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#references",
+    "href": "slides/wk-04-2026-02-05-perception.html#references",
+    "title": "Perception",
+    "section": "References",
+    "text": "References\n\n\n\n\nAlonso, J.-M., & Chen, Y. (2009). Receptive field. Scholarpedia Journal, 4, 5393. https://doi.org/10.4249/scholarpedia.5393\n\n\nBargmann, C. I. (2006). Comparative chemosensation from receptors to ecology. Nature, 444, 295–301. https://doi.org/10.1038/nature05402\n\n\nBarker, M., Brewer, R., & Murphy, J. (2021). What is interoception and why is it important? Frontiers for Young Minds, 9. https://doi.org/10.3389/frym.2021.558246\n\n\nBucalo, P. (2015). Falcon belly dance. Youtube. Retrieved from https://www.youtube.com/watch?v=JGArTWOJtXs\n\n\nChandrashekar, J., Hoon, M. A., Ryba, N. J. P., & Zuker, C. S. (2006). The receptors and cells for mammalian taste. Nature, 444, 288–294. https://doi.org/10.1038/nature05401\n\n\nDeflorio, D., Di Luca, M., & Wing, A. M. (2022). Skin and mechanoreceptor contribution to tactile input for perception: A review of simulation models. Frontiers in Human Neuroscience, 16, 862344. https://doi.org/10.3389/fnhum.2022.862344\n\n\nDougherty, R. F., Koch, V. M., Brewer, A. A., Fischer, B., Modersitzki, J., & Wandell, B. A. (2003). Visual field representations and locations of visual areas V1/2/3 in human visual cortex. Journal of Vision, 3(10), 1–1. https://doi.org/10.1167/3.10.1\n\n\nDozmorov, I. (2011). Immune system as sensory system. International Journal of Biomedical Science, 6, 167–175. https://doi.org/10.59566/IJBS.2010.6167\n\n\newakili. (2021). Foveated rendering shown by meta’s oculus, reducing compute load by 95%. Youtube. Retrieved from https://www.youtube.com/watch?v=NPK8eQ4o8Pk\n\n\nGibson, J. J. (1966). The senses considered as perceptual systems. doi.apa.org. Retrieved from http://doi.apa.org/psycinfo/1966-35026-000\n\n\nHerman, J. P. (2013). Neural control of chronic stress adaptation. Frontiers in Behavioral Neuroscience, 7, 61. https://doi.org/10.3389/fnbeh.2013.00061\n\n\nHumphries, C., Liebenthal, E., & Binder, J. R. (2010). Tonotopic organization of human auditory cortex. NeuroImage, 50, 1202–1211. https://doi.org/10.1016/j.neuroimage.2010.01.046\n\n\nNamkung, H., Kim, S.-H., & Sawa, A. (2017). The insula: An underestimated brain area in clinical neuroscience, psychiatry, and neurology. Trends in Neurosciences, 40(4), 200–207. https://doi.org/10.1016/j.tins.2017.02.002\n\n\nPanichello, M. F., Cheung, O. S., & Bar, M. (2013). Predictive feedback and conscious visual experience. Perception Science, 3, 620. https://doi.org/10.3389/fpsyg.2012.00620\n\n\nRandeberg, L. (2005). Diagnostic applications of diffuse reflectance spectroscopy. Retrieved from https://www.semanticscholar.org/paper/ec9450b79923e2e2152b54ab9241b60bc5374944\n\n\nRoark, M. W., & Stringham, J. M. (2019). Visual performance in the “real world”: Contrast sensitivity, visual acuity, and effects of macular carotenoids. Molecular Nutrition & Food Research, 63(15), e1801053. https://doi.org/10.1002/mnfr.201801053\n\n\nScripps research-led team receives $14.2M NIH award to map the body’s “hidden sixth sense.” (2025, October 8). Retrieved November 13, 2025, from https://www.scripps.edu/news-and-events/press-room/2025/20251008-nih-award.html\n\n\nSmith, G. E., Chouinard, P. A., & Byosiere, S.-E. (2021). If I fits I sits: A citizen science investigation into illusory contour susceptibility in domestic cats (felis silvestris catus). Applied Animal Behaviour Science, 240, 105338. https://doi.org/10.1016/j.applanim.2021.105338\n\n\nSwanson, L. W. (2005). Anatomy of the soul as reflected in the cerebral hemispheres: Neural circuits underlying voluntary control of basic motivated behaviors. Journal of Comparative Neurology, 493(1), 122–131. https://doi.org/10.1002/cne.20733\n\n\nSwanson, L. W. (2012). Brain architecture: Understanding the basic plan. Oxford University Press.\n\n\nTheWhoVEVO. (2016). The who - pinball wizard (live at the isle of wight, 1970). YouTube. Retrieved from https://www.youtube.com/watch?v=-J03yCE15rg&list=RD-J03yCE15rg&start_radio=1\n\n\nWikipedia contributors. (2025a, January 30). Stevens’s power law. Retrieved from https://en.wikipedia.org/wiki/Stevens%27s_power_law\n\n\nWikipedia contributors. (2025b, August 17). Psychophysics. Retrieved from https://en.wikipedia.org/wiki/Psychophysics\n\n\nWikipedia contributors. (2025c, December 31). Fourier analysis. Retrieved from https://en.wikipedia.org/wiki/Fourier_analysis",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#footnotes",
+    "href": "slides/wk-04-2026-02-05-perception.html#footnotes",
+    "title": "Perception",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nBy Mysid (original by Tristanb) - Vectorized in CorelDraw by Mysid on an existing image at en-wiki by Tristanb., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1420508\nThe locations of the main olfactory tissues in the mouse (a), Drosophila (b) and C. elegans (c) are shown. The odorant detection machinery is localized to the olfactory cilia, which are specializations of the olfactory neurons that come into direct contact with the environment (centre). The cilia of three representative olfactory neurons in each species are illustrated in the right-hand panel. Colours denote different odorant receptor proteins in the cilia. a, In mammals, olfactory neurons reside in the nasal epithelium. Each olfactory neuron expresses one type of odorant receptor, a GPCR. b, In Drosophila, olfactory neurons are localized to antennae and maxillary palps. Most olfactory neurons express one specific olfactory receptor and one ubiquitous one, Or83b (dark blue). Occasionally, neurons express two specific olfactory receptors in addition to Or83b (far right). The orientation of fly olfactory receptors is inverted with respect to classical GPCRs (Fig. 1a). (Fly head image modified, with permission, from Kyotofly Kit, Kyoto Institute of Technology, Japan.) c, In C. elegans, each olfactory neuron expresses several different GPCRs. The cell body is in the head and the cilia are at the tip of the nose. (Image courtesy of Jason Kennerdell, Rockefeller University, New York, USA.)\nFigure 2. Interoceptive Information and Its Integration with Emotional, Cognitive, and Motivational Signals from an Array of Cortical and Subcortical Regions. Interoceptive information of constantly changing body states arrives in the posterior insula by ascending sensory inputs from dedicated spinal and brainstem pathways via specific thalamic relays. This information is projected rostrally onto the anterior insula, where it is integrated with emotional, cognitive, and motivational signals from an array of cortical and subcortical regions. As a result, the anterior insula supports unique subjective feeling states. The anterior insula regulates the introduction of subjective feelings into cognitive and motivational processes by virtue of its cortical location at the cross-roads of numerous pathways involved in higher cognition and motivation. Abbreviations: AI, anterior insula; AMG, amygdala; dACC, dorsal anterior cingulate cortex; DLPFC, dorsolateral prefrontal cortex; PI, posterior insula; THAL, thalamus; VMPFC, ventromedial prefrontal cortex; VS, ventral striatum.\nTwo types of receptions differing by the rate of adaptation to the dynamical stimulus. A, Sensory system have two types of receptors differing by the rate of adaptation (9): tonic receptors that adapt slowly to a stimulus and continues to produce action potentials over the duration of the stimulus (left), and phasic receptors that adapt rapidly to a stimulus (right) and react to both the emergence of the signal (on- reaction) and to it cessation (off-reaction). The response diminishes quickly ant then stops. B, Immune system has different types of cells resembling in their reactions of tonic and phasic receptors of sensory systems. Some lymphocytes react preferably to the presence of foreign antigen (CD5- B lymphocytes, small resting T lymphocytes), whereas the others react to the change of antigenic contest in time (CD5+ B lymphocytes, naturally activated T-blast forms) or to the appearance of heterogeneity in presumingly homogenous tissue (NK killing of syngeneic targets in nonsyngeneic for targets environment (64, 65)).\nFigure 3. Stress habituation and facilitation. Repeated exposure to the same stressor results in progressive diminution of response magnitude, thought to be mediated by structures such as the prefrontal cortex (PFC) and paraventricular thalamus (PVT). Exposure to a new stressor after either homotypic or hetertypic stressors causes a larger than normal (“sensitized’ or “facilitated’ response), which may be mediated by enhanced drive from the basolateral amygdala (BLA), PVT or locus coeruleus (LC).\nFigure 1. Schematic view of exploratory movements. Surface texture (e.g., periodicity of a spatial grating, or roughness of sandpaper) may be felt by static pressing or sliding contact of the index finger with the normal and tangential force components as shown. Sliding is critical in discriminating very fine texture as it generate skin vibrations which reflect the sensed surface.\nBy Lorepenoten - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=176110382",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#section-2",
+    "href": "slides/wk-04-2026-02-05-perception.html#section-2",
+    "title": "Perception",
+    "section": "",
+    "text": "acoustics.byu.edu",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#section-4",
+    "href": "slides/wk-04-2026-02-05-perception.html#section-4",
+    "title": "Perception",
+    "section": "",
+    "text": "Namkung et al. (2017) Figure 2",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#section-6",
+    "href": "slides/wk-04-2026-02-05-perception.html#section-6",
+    "title": "Perception",
+    "section": "",
+    "text": "The eye/head/body system\n\n\n\nEye + head + body movements align and point the eyes\nEye + head + body movements stabilize the eyes\n\nWhen the observer moves\nWhen objects move",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#perception-not-linear-1",
+    "href": "slides/wk-04-2026-02-05-perception.html#perception-not-linear-1",
+    "title": "Perception",
+    "section": "Perception not linear",
+    "text": "Perception not linear\n\n\n\nSteven’s power law (\\(\\psi{I}=kI^\\alpha\\)) (Wikipedia contributors, 2025a)\nGroup, average functions\nIgnores\n\nIndividual differences\nContextual factors, c.f. signal detection theory",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#act-to-perceive-perceive-to-act",
+    "href": "slides/wk-04-2026-02-05-perception.html#act-to-perceive-perceive-to-act",
+    "title": "Perception",
+    "section": "Act to perceive; perceive to act",
+    "text": "Act to perceive; perceive to act\n\n\n\nOrienting, info gathering\nMaintaining balance\nReaching, grasping, & manipulation\nLocomotion\n\n\n\nCommunication\nMating & caregiving\nIngestion & elimination\nDefense\nSleep",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#section-7",
+    "href": "slides/wk-04-2026-02-05-perception.html#section-7",
+    "title": "Perception",
+    "section": "",
+    "text": "flowchart TD\n  N[Nervous System] -- autonomic --&gt; B[Body]\n  N -- somatic --&gt; B\n  N ---&gt;|endocrine| B\n  B ---&gt;|endocrine| N\n  B ---&gt;|action| W[World]\n  W ---&gt;|perception| B\n  B ---&gt;|somatic| N\n  B ---&gt;|autonomic| N\n\n\n Schematic of information flows into and out of the nervous system. Note: This figure ignores flows specifically related to metabolism, like changes in blood oxygen.",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
   }
 ]
