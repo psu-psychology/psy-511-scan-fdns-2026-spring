@@ -14,7 +14,7 @@ execute:
 website:
   title: "PSY 511.001"
   announcement: 
-    content: "Exercise LVL is due Thursday." 
+    content: "Exercise ANAT is due this week." 
     position: below-navbar
     icon: info-circle
     dismissable: true
@@ -32,6 +32,8 @@ website:
             href: exercises/ex-LVL.qmd
           - text: "Ex ANAT • Anatomy"
             href: exercises/ex-ANAT.qmd
+          - text: "Ex PA • Perception & Action"
+            href: exercises/ex-PA.qmd
       - section: "Slides"
         contents:
           - text: "Wk 01 • Thu Jan 14"

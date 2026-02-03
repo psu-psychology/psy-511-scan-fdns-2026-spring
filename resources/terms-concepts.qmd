@@ -1,11 +1,11 @@
 ---
-title: "terms-concepts"
+title: "Terms & Concepts"
 format: html
 ---
 
 ## About
 
-This document describes the terms that PSY 511 students suggested they are interested in learning more about.
+This document describes the terms that PSY 511 students suggested that they are interested in learning more about this semester.
 
 ## Brain areas
 

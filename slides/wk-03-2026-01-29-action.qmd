@@ -293,6 +293,8 @@ flowchart TD
 - Communication
 - Mating & caregiving
 - Ingestion & elimination
+- Defense
+- Sleep
 :::
 :::
 ::::
