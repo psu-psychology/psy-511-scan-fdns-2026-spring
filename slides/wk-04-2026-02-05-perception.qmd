@@ -495,7 +495,7 @@ speeds |>
 
 ## Audition
 
-![https://www.mwmresearchgroup.org/blog/key-concepts-fourier-transforms-and-signal-processing](http://www.mwmresearchgroup.org/uploads/3/0/8/6/30861243/image-2-ft_orig.png){width=80%}
+![https://www.mwmresearchgroup.org/blog/key-concepts-fourier-transforms-and-signal-processing](../include/img/image-2-ft_orig.png){width=80%}
 
 <!-- --- -->
 
@@ -551,7 +551,7 @@ speeds |>
 
 ![@Deflorio2022-yh Figure 1^[Figure 1. Schematic view of exploratory movements. Surface texture (e.g., periodicity of a spatial grating, or roughness of sandpaper) may be felt by static pressing or sliding contact of the index finger with the normal and tangential force components as shown. Sliding is critical in discriminating very fine texture as it generate skin vibrations which reflect the sensed surface.]](https://www.frontiersin.org/files/Articles/862344/fnhum-16-862344-HTML/image_m/fnhum-16-862344-g001.jpg){width=70%}
 
-## Methdological aside
+## Methodological aside
 
 ![Wikipedia^[By Lorepenoten - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=176110382]](https://upload.wikimedia.org/wikipedia/commons/4/40/Fourier_analysis.png)
 
@@ -628,7 +628,7 @@ speeds |>
     
 ## Tactile receptive fields
 
-![https://www.nursinghero.com/study-guides/austincc-ap1/pain](https://i.stack.imgur.com/br9Zo.jpg)
+![https://www.nursinghero.com/study-guides/austincc-ap1/pain](../include/img/tactile-receptive-field.jpg)
 
 ## Receptive fields: Visual
 
