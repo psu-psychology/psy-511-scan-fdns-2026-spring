@@ -70,7 +70,7 @@ This document describes the terms that PSY 511 students suggested that they are 
 - Predictive coding
 - Behavioral inhibition
 - Inhibitory control
-- Categorization (in emotion), c.f. [@Barrett2017-hq]
+- Categorization (in emotion), c.f. @Barrett2017-hq
 - Borderline personality disorder (BPD)
 - Obsessive-Compulsive Disorder (OCD)
 - Generalized Anxiety Disorder (GAD)
