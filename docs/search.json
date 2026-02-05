@@ -2118,56 +2118,88 @@
     "href": "resources/terms-concepts.html",
     "title": "Terms & Concepts",
     "section": "",
-    "text": "This document describes the terms that PSY 511 students suggested that they are interested in learning more about this semester."
+    "text": "This document describes the terms that PSY 511 students suggested that they are interested in learning more about this semester.",
+    "crumbs": [
+      "Resources",
+      "Student interests (Ex LVL)"
+    ]
   },
   {
     "objectID": "resources/terms-concepts.html#about",
     "href": "resources/terms-concepts.html#about",
     "title": "Terms & Concepts",
     "section": "",
-    "text": "This document describes the terms that PSY 511 students suggested that they are interested in learning more about this semester."
+    "text": "This document describes the terms that PSY 511 students suggested that they are interested in learning more about this semester.",
+    "crumbs": [
+      "Resources",
+      "Student interests (Ex LVL)"
+    ]
   },
   {
     "objectID": "resources/terms-concepts.html#brain-areas",
     "href": "resources/terms-concepts.html#brain-areas",
     "title": "Terms & Concepts",
     "section": "Brain areas",
-    "text": "Brain areas\n\nDorsolateral prefrontal cortex\nDorsomedial prefrontal cortex\nLeft precentral gyrus\nLeft inferior frontal junction\nStriatum\n\nVentral striatum\n\nNucleus accumbens"
+    "text": "Brain areas\n\nDorsolateral prefrontal cortex\nDorsomedial prefrontal cortex\nLeft precentral gyrus\nLeft inferior frontal junction\nStriatum\n\nVentral striatum\n\nNucleus accumbens",
+    "crumbs": [
+      "Resources",
+      "Student interests (Ex LVL)"
+    ]
   },
   {
     "objectID": "resources/terms-concepts.html#networkspathways",
     "href": "resources/terms-concepts.html#networkspathways",
     "title": "Terms & Concepts",
     "section": "Networks/Pathways",
-    "text": "Networks/Pathways\n\nDefault mode network\nDorsal attention network\nFrontoparietal network (Central executive network)\nMesolimbic (dopamine) pathway"
+    "text": "Networks/Pathways\n\nDefault mode network\nDorsal attention network\nFrontoparietal network (Central executive network)\nMesolimbic (dopamine) pathway",
+    "crumbs": [
+      "Resources",
+      "Student interests (Ex LVL)"
+    ]
   },
   {
     "objectID": "resources/terms-concepts.html#physiological-processes",
     "href": "resources/terms-concepts.html#physiological-processes",
     "title": "Terms & Concepts",
     "section": "Physiological processes",
-    "text": "Physiological processes\n\nInteroception\nAllostasis/allostatic load\nHeart rate variability (HRV)\nRespiratory sinus arrhythmia (RSA)\nVagal (i.e, CN X Vagus nerve) tone"
+    "text": "Physiological processes\n\nInteroception\nAllostasis/allostatic load\nHeart rate variability (HRV)\nRespiratory sinus arrhythmia (RSA)\nVagal (i.e, CN X Vagus nerve) tone",
+    "crumbs": [
+      "Resources",
+      "Student interests (Ex LVL)"
+    ]
   },
   {
     "objectID": "resources/terms-concepts.html#measures-methods",
     "href": "resources/terms-concepts.html#measures-methods",
     "title": "Terms & Concepts",
     "section": "Measures & methods",
-    "text": "Measures & methods\n\nResting state fMRI (rsfMRI)\nStructural MRI\n\nVertex-wise vs. regional analyses of cortical thickness, c.f. (Harrewijn et al., 2021)\n\nElectroencephalography (EEG)\n\nFrequency-domain analyses\n\nAlpha (\\(\\alpha\\)) power\nHemispheric asymmetry\nPeriodic vs. aperiodic components of EEG (Donoghue, Dominguez, & Voytek, 2020)\nCoupling c.f. (He et al., 2025)\n\nEvent-related Potentials (ERP)\n\nReward Positivity (RewP)\n\nSpheroids/Organoids\nPersonality neuroscience\nRegions of interest (ROI)\n\nENIGMA consortium\nMultivariate pattern analysis (MVPA)"
+    "text": "Measures & methods\n\nResting state fMRI (rsfMRI)\nStructural MRI\n\nVertex-wise vs. regional analyses of cortical thickness, c.f. (Harrewijn et al., 2021)\n\nElectroencephalography (EEG)\n\nFrequency-domain analyses\n\nAlpha (\\(\\alpha\\)) power\nHemispheric asymmetry\nPeriodic vs. aperiodic components of EEG (Donoghue, Dominguez, & Voytek, 2020)\nCoupling c.f. (He et al., 2025)\n\nEvent-related Potentials (ERP)\n\nReward Positivity (RewP)\n\nSpheroids/Organoids\nPersonality neuroscience\nRegions of interest (ROI)\n\nENIGMA consortium\nMultivariate pattern analysis (MVPA)",
+    "crumbs": [
+      "Resources",
+      "Student interests (Ex LVL)"
+    ]
   },
   {
     "objectID": "resources/terms-concepts.html#computational-ideas",
     "href": "resources/terms-concepts.html#computational-ideas",
     "title": "Terms & Concepts",
     "section": "Computational ideas",
-    "text": "Computational ideas\n\nReward prediction error\nPredictive coding/active inference\nFree energy\nNeural sequence"
+    "text": "Computational ideas\n\nReward prediction error\nPredictive coding/active inference\nFree energy\nNeural sequence",
+    "crumbs": [
+      "Resources",
+      "Student interests (Ex LVL)"
+    ]
   },
   {
     "objectID": "resources/terms-concepts.html#psychological-processes",
     "href": "resources/terms-concepts.html#psychological-processes",
     "title": "Terms & Concepts",
     "section": "Psychological processes",
-    "text": "Psychological processes\n\nRepetitive negative thinking\n\nRumination\nWorry\n\nInternalizing psychopathology\nExecutive function\nReward processing\n\nReward prediction error\n\nPredictive coding\nBehavioral inhibition\nInhibitory control\nCategorization (in emotion), c.f. (Barrett, 2017)\nBorderline personality disorder (BPD)\nObsessive-Compulsive Disorder (OCD)\nGeneralized Anxiety Disorder (GAD)"
+    "text": "Psychological processes\n\nRepetitive negative thinking\n\nRumination\nWorry\n\nInternalizing psychopathology\nExecutive function\nReward processing\n\nReward prediction error\n\nPredictive coding\nBehavioral inhibition\nInhibitory control\nCategorization (in emotion), c.f. (Barrett, 2017)\nBorderline personality disorder (BPD)\nObsessive-Compulsive Disorder (OCD)\nGeneralized Anxiety Disorder (GAD)",
+    "crumbs": [
+      "Resources",
+      "Student interests (Ex LVL)"
+    ]
   },
   {
     "objectID": "index.html",
@@ -4593,7 +4625,7 @@
     "href": "slides/wk-04-2026-02-05-perception.html#section-1",
     "title": "Perception",
     "section": "",
-    "text": "“Scripps research-led team receives $14.2M NIH award to map the body’s ‘hidden sixth sense’” (2025)",
+    "text": "Swanson (2012) Figure 10.2\n\n\n\n\n\n\nSwanson (2005) Figure 1",
     "crumbs": [
       "Slides",
       "Wk 04 • Thu Feb 05"
@@ -5859,6 +5891,17 @@
     "title": "Perception",
     "section": "",
     "text": "flowchart TD\n  N[Nervous System] -- autonomic --&gt; B[Body]\n  N -- somatic --&gt; B\n  N ---&gt;|endocrine| B\n  B ---&gt;|endocrine| N\n  B ---&gt;|action| W[World]\n  W ---&gt;|perception| B\n  B ---&gt;|somatic| N\n  B ---&gt;|autonomic| N\n\n\n Schematic of information flows into and out of the nervous system. Note: This figure ignores flows specifically related to metabolism, like changes in blood oxygen.",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html",
+    "href": "slides/wk-04-2026-02-05-perception.html",
+    "title": "Perception",
+    "section": "",
+    "text": "– TheWhoVEVO (2016)\n\n\n\n\n\n\n\nFriday 5-8 Three Dots\n\n\n\n\n\n\nSaturday 7p University Mennonite Church\n\n\n\n\n\n\n\n\nFinal Project proposal assigned.\nEx-PA • Perception & Action assigned.\n\n\n\n\n\nThe big picture\nSensory processing\nDeep dive: Vision",
     "crumbs": [
       "Slides",
       "Wk 04 • Thu Feb 05"

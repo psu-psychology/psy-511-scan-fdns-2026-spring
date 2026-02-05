@@ -46,6 +46,10 @@ website:
             href: slides/wk-03-2026-01-29-action.qmd
           - text: "Wk 04 • Thu Feb 05"
             href: slides/wk-04-2026-02-05-perception.qmd
+      - section: "Resources"
+        contents:
+          - text: "Student interests (Ex LVL)"
+            href: resources/terms-concepts.qmd
   repo-url: https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring
   repo-actions: [edit, issue]
   repo-subdir: src

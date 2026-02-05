@@ -35,7 +35,7 @@ format:
 - Sensory processing
 - Deep dive: Vision
 
-## Warm-up
+# Warm-up
 
 ---
 
