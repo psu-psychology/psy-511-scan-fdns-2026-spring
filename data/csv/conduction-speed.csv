@@ -1,0 +1,10 @@
+type,label,diameter_min,diameter_max,speed_min,speed_max,myelination,comment
+motor,alpha,13,20,50,60,thick,extrafusal muscle
+motor,gamma,5,8,4,24,thick,intrafusal muscle
+sensory,Ia,13,20,80,120,thick,muscle spindle
+sensory,Ib,13,20,80,120,thick,Golgi tendon organ
+sensory,II,6,12,33,75,thick,cutaneous mechanoreceptors
+sensory,III,1,5,3,30,thin,cold thermoreceptors
+sensory,IV,0.2,1.5,0.5,2,none,warm thermoreceptors
+autonomic,preganglionic,1,5,3,15,thick,
+autonomic,postganglionic,0.2,1.5,0.5,2,none,
