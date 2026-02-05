@@ -13,6 +13,17 @@ format:
 
 -- @TheWhoVEVO2016-wl
 
+## {.scrollable}
+
+:::: {.columns}
+::: {.column width=50%}
+![Friday 5-8 Three Dots](../include/img/porch-party.png){width=80%}
+:::
+::: {.column width=50%}
+![Saturday 7p University Mennonite Church](../include/img/cecilia.png){width=80%}
+:::
+::::
+
 ## Announcements
 
 - [Final Project proposal](../exercises/final-project.qmd) assigned.

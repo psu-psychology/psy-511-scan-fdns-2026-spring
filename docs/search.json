@@ -5055,7 +5055,7 @@
     "href": "slides/wk-04-2026-02-05-perception.html#section-3",
     "title": "Perception",
     "section": "",
-    "text": "acoustics.byu.edu",
+    "text": "Wikipedia5",
     "crumbs": [
       "Slides",
       "Wk 04 • Thu Feb 05"
@@ -5319,7 +5319,7 @@
     "href": "slides/wk-04-2026-02-05-perception.html#section-2",
     "title": "Perception",
     "section": "",
-    "text": "Wikipedia5",
+    "text": "“Scripps research-led team receives $14.2M NIH award to map the body’s ‘hidden sixth sense’” (2025)",
     "crumbs": [
       "Slides",
       "Wk 04 • Thu Feb 05"
@@ -5330,7 +5330,7 @@
     "href": "slides/wk-04-2026-02-05-perception.html#section-4",
     "title": "Perception",
     "section": "",
-    "text": "Bargmann (2006) Figure 26",
+    "text": "acoustics.byu.edu",
     "crumbs": [
       "Slides",
       "Wk 04 • Thu Feb 05"
@@ -5341,7 +5341,7 @@
     "href": "slides/wk-04-2026-02-05-perception.html#section-6",
     "title": "Perception",
     "section": "",
-    "text": "http://apod.nasa.gov/apod/ap140605.html",
+    "text": "Namkung et al. (2017) Figure 2",
     "crumbs": [
       "Slides",
       "Wk 04 • Thu Feb 05"
@@ -5374,7 +5374,7 @@
     "href": "slides/wk-04-2026-02-05-perception.html#section-7",
     "title": "Perception",
     "section": "",
-    "text": "Central Pennsylvania Observers (cpoclub.org)",
+    "text": "http://apod.nasa.gov/apod/ap140605.html",
     "crumbs": [
       "Slides",
       "Wk 04 • Thu Feb 05"
@@ -5396,7 +5396,7 @@
     "href": "slides/wk-04-2026-02-05-perception.html#section-8",
     "title": "Perception",
     "section": "",
-    "text": "Ayzenberg & Behrmann (2022) Figure 418",
+    "text": "Central Pennsylvania Observers (cpoclub.org)",
     "crumbs": [
       "Slides",
       "Wk 04 • Thu Feb 05"
@@ -5407,7 +5407,7 @@
     "href": "slides/wk-04-2026-02-05-perception.html#section-5",
     "title": "Perception",
     "section": "",
-    "text": "Namkung et al. (2017) Figure 2",
+    "text": "Bargmann (2006) Figure 26",
     "crumbs": [
       "Slides",
       "Wk 04 • Thu Feb 05"
@@ -5671,7 +5671,7 @@
     "href": "slides/wk-04-2026-02-05-perception.html#section-15",
     "title": "Perception",
     "section": "",
-    "text": "Wandell (1995) Chapter 3",
+    "text": "http://michaeldmann.net/pix_7/blndspot.gif",
     "crumbs": [
       "Slides",
       "Wk 04 • Thu Feb 05"
@@ -5682,7 +5682,7 @@
     "href": "slides/wk-04-2026-02-05-perception.html#section-16",
     "title": "Perception",
     "section": "",
-    "text": "http://cnx.org/content/col11496/1.6/",
+    "text": "Wandell (1995) Chapter 3",
     "crumbs": [
       "Slides",
       "Wk 04 • Thu Feb 05"
@@ -5693,7 +5693,7 @@
     "href": "slides/wk-04-2026-02-05-perception.html#section-17",
     "title": "Perception",
     "section": "",
-    "text": "http://www.retinareference.com/anatomy/",
+    "text": "http://cnx.org/content/col11496/1.6/",
     "crumbs": [
       "Slides",
       "Wk 04 • Thu Feb 05"
@@ -5704,7 +5704,7 @@
     "href": "slides/wk-04-2026-02-05-perception.html#section-18",
     "title": "Perception",
     "section": "",
-    "text": "Ayzenberg & Behrmann (2022) Figure 419",
+    "text": "http://www.retinareference.com/anatomy/",
     "crumbs": [
       "Slides",
       "Wk 04 • Thu Feb 05"
@@ -5748,7 +5748,7 @@
     "href": "slides/wk-04-2026-02-05-perception.html#section-19",
     "title": "Perception",
     "section": "",
-    "text": "flowchart TD\n  N[Nervous System] -- autonomic --&gt; B[Body]\n  N -- somatic --&gt; B\n  N ---&gt;|endocrine| B\n  B ---&gt;|endocrine| N\n  B ---&gt;|action| W[World]\n  W ---&gt;|perception| B\n  B ---&gt;|somatic| N\n  B ---&gt;|autonomic| N\n\n\n Schematic of information flows into and out of the nervous system. Note: This figure ignores flows specifically related to metabolism, like changes in blood oxygen.",
+    "text": "Ayzenberg & Behrmann (2022) Figure 419",
     "crumbs": [
       "Slides",
       "Wk 04 • Thu Feb 05"
@@ -5826,6 +5826,39 @@
     "title": "Perception",
     "section": "Columnar organization",
     "text": "Columnar organization\n\n\n\nColumns\n\nOrientation/angle\nSpatial frequency\nColor/wavelength\nEye of origin, ocular dominance",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#section",
+    "href": "slides/wk-04-2026-02-05-perception.html#section",
+    "title": "Perception",
+    "section": "",
+    "text": "Friday 5-8 Three Dots\n\n\n\n\n\n\nSaturday 7p University Mennonite Church",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#section-12",
+    "href": "slides/wk-04-2026-02-05-perception.html#section-12",
+    "title": "Perception",
+    "section": "",
+    "text": "The eye/head/body system\n\n\n\nEye + head + body movements align and point gaze\nEye + head + body movements stabilize gaze\n\nWhen the observer moves\nWhen objects move",
+    "crumbs": [
+      "Slides",
+      "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-04-2026-02-05-perception.html#section-20",
+    "href": "slides/wk-04-2026-02-05-perception.html#section-20",
+    "title": "Perception",
+    "section": "",
+    "text": "flowchart TD\n  N[Nervous System] -- autonomic --&gt; B[Body]\n  N -- somatic --&gt; B\n  N ---&gt;|endocrine| B\n  B ---&gt;|endocrine| N\n  B ---&gt;|action| W[World]\n  W ---&gt;|perception| B\n  B ---&gt;|somatic| N\n  B ---&gt;|autonomic| N\n\n\n Schematic of information flows into and out of the nervous system. Note: This figure ignores flows specifically related to metabolism, like changes in blood oxygen.",
     "crumbs": [
       "Slides",
       "Wk 04 • Thu Feb 05"
