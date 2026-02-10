@@ -31,72 +31,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    html { -webkit-text-size-adjust: 100%; }
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     /* CSS for citations */
     div.csl-bib-body { }
     div.csl-entry {
@@ -212,6 +146,9 @@
       margin-right: 0; 
     }
   </style>
+  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -268,22 +205,26 @@ Rick Gilmore
 <li>1e3 synapses/neuron</li>
 <li>1e15 synapses or 1.25e14 bytes</li>
 <li>1e9 gigabyte, 1e12 terabyte, 1e15 petabyte</li>
+<li>So 125 TB?</li>
 </ul>
-<p><a href="http://www.scientificamerican.com/article.cfm?id=what-is-the-memory-capacity" class="uri">http://www.scientificamerican.com/article.cfm?id=what-is-the-memory-capacity</a></p>
+<p>– <span class="citation" data-cites="Reber2010-bu">Reber (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span></p>
 </section>
 <section id="what-is-learning" class="slide level2">
 <h2>What is learning?</h2>
-<p><a href="https://theelearningcoach.com/learning/10-definitions-learning/" class="uri">https://theelearningcoach.com/learning/10-definitions-learning/</a></p>
 <blockquote>
-<p>Learning is the process of acquiring new understanding, knowledge, behaviors, skills, values, attitudes, and preferences. <a href="https://en.wikipedia.org/wiki/Learning" class="uri">https://en.wikipedia.org/wiki/Learning</a></p>
+<p>Learning is the process of acquiring new understanding, knowledge, behaviors, skills, values, attitudes, and preferences.</p>
 </blockquote>
+<p>– <a href="https://en.wikipedia.org/wiki/Learning" class="uri">https://en.wikipedia.org/wiki/Learning</a></p>
+</section>
+<section id="types" class="slide level2">
+<h2>Types</h2>
 <ul>
-<li><strong>Non-associative</strong>
+<li><em>Non-associative</em>
 <ul>
 <li><span class="math inline">\(A(t+1) = f(A(t))\)</span></li>
 <li>Habituation (<span class="math inline">\(\dot f &lt; 0\)</span>), sensitization (<span class="math inline">\(\dot f &gt; 0\)</span>)</li>
 </ul></li>
-<li><strong>Associative</strong>
+<li><em>Associative</em>
 <ul>
 <li><span class="math inline">\(A \rightarrow B\)</span></li>
 <li>Classical &amp; operant/instrumental conditioning</li>
@@ -295,40 +236,47 @@ Rick Gilmore
 <h2>Learning styles?</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/poorvu-center-learning-styles.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="[@noauthor_2017-td]"><img data-src="../include/img/poorvu-center-learning-styles.png" alt="(“Learning styles as a myth,” 2017)"></a></p>
-<figcaption><span class="citation" data-cites="noauthor_2017-td">(<a href="#/references" role="doc-biblioref" onclick=""><span>“Learning styles as a myth,”</span> 2017</a>)</span></figcaption>
+<p><a href="../include/img/poorvu-center-learning-styles.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="@noauthor_2017-td"><img data-src="../include/img/poorvu-center-learning-styles.png" alt="“Learning styles as a myth” (2017)"></a></p>
+<figcaption><span class="citation" data-cites="noauthor_2017-td"><span>“Learning styles as a myth”</span> (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span></figcaption>
 </figure>
 </div>
-<ul>
-<li>Are myths <span class="citation" data-cites="Pashler2008-zi">(<a href="#/references" role="doc-biblioref" onclick="">Pashler, McDaniel, Rohrer, &amp; Bjork, 2008</a>)</span>?</li>
-</ul>
-<blockquote>
-<p>Although the literature on learning styles is enormous, very few studies have even used an experimental methodology capable of testing the validity of learning styles applied to education. Moreover, of those that did use an appropriate method, several found results that flatly contradict the popular meshing hypothesis. We conclude therefore, that at present, there is no adequate evidence base to justify incorporating learning-styles assessments into general educational practice.</p>
-</blockquote>
 </section>
-<section id="neural-networks" class="slide level2">
-<h2>Neural networks</h2>
-<ul>
-<li><a href="https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464">Architectures/types</a>, <span class="citation" data-cites="Tch2017-fy Van_Veen_undated-ss">(<a href="#/references" role="doc-biblioref" onclick="">Tch, 2017</a>; <a href="#/references" role="doc-biblioref" onclick="">Veen, n.d.</a>)</span></li>
-</ul>
+<section id="are-myths-pashler2008-zi" class="slide level2">
+<h2>Are myths <span class="citation" data-cites="Pashler2008-zi">(<a href="#/references" role="doc-biblioref" onclick="">Pashler, McDaniel, Rohrer, &amp; Bjork, 2008</a>)</span></h2>
+<blockquote>
+<p>Although the literature on learning styles is enormous, very few studies have even used an experimental methodology capable of testing the validity of learning styles applied to education. Moreover, of those that did use an appropriate method, several found results that flatly contradict the popular meshing hypothesis…</p>
+</blockquote>
 </section>
 <section class="slide level2">
 
+<blockquote>
+<p>We conclude therefore, that at present, there is no adequate evidence base to justify incorporating learning-styles assessments into general educational practice.</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Pashler2008-zi">Pashler et al. (<a href="#/references" role="doc-biblioref" onclick="">2008</a>)</span></p>
+</section>
+<section id="how-do-machines-learn" class="slide level2">
+<h2>How do machines “learn”?</h2>
+<ul>
+<li>Neural networks</li>
+</ul>
+</section>
+<section id="neural-networks" class="slide level2 scrollable">
+<h2>Neural networks</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*cuTSPlTq0a_327iTPJyD-Q.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="[@Tch2017-fy; from @Van_Veen_undated-ss]"><img data-src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*cuTSPlTq0a_327iTPJyD-Q.png" alt="(Tch, 2017; from Veen, n.d.)"></a></p>
-<figcaption><span class="citation" data-cites="Tch2017-fy Van_Veen_undated-ss">(<a href="#/references" role="doc-biblioref" onclick="">Tch, 2017</a>; from <a href="#/references" role="doc-biblioref" onclick="">Veen, n.d.</a>)</span></figcaption>
+<p><a href="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*cuTSPlTq0a_327iTPJyD-Q.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="@Tch2017-fy; from @Van_Veen_undated-ss"><img data-src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*cuTSPlTq0a_327iTPJyD-Q.png" alt="Tch (2017); from Veen (n.d.)"></a></p>
+<figcaption><span class="citation" data-cites="Tch2017-fy">Tch (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span>; from <span class="citation" data-cites="Van_Veen_undated-ss">Veen (<a href="#/references" role="doc-biblioref" onclick="">n.d.</a>)</span></figcaption>
 </figure>
 </div>
 </section>
 <section id="network-learning-rules" class="slide level2">
 <h2>Network <a href="https://en.wikipedia.org/wiki/Learning_rule">learning rules</a></h2>
 <ul>
-<li>How/when change connections between nodes</li>
+<li>How/when to change connections between network nodes</li>
 <li>Types
 <ul>
 <li>Unsupervised (i.e., covariance/correlation)</li>
-<li>Supervised (change based on ‘error’)</li>
+<li>Supervised (change based on ‘error’, external ‘supervision’)</li>
 <li>Reinforcement (learn <em>now</em>)</li>
 </ul></li>
 </ul>
@@ -336,8 +284,11 @@ Rick Gilmore
 <section id="deep-learning-vs.-machine-learning" class="slide level2">
 <h2>Deep learning vs.&nbsp;Machine Learning</h2>
 <ul>
-<li><span class="citation" data-cites="noauthor_undated-hr noauthor_2022-ml">(<a href="#/references" role="doc-biblioref" onclick=""><span>“Deep learning vs machine learning,”</span> 2022</a>; <a href="#/references" role="doc-biblioref" onclick=""><span>“Deep learning vs. Machine learning - azure machine learning,”</span> n.d.</a>)</span></li>
+<li><span class="citation" data-cites="noauthor_undated-hr"><span>“Deep learning vs. Machine learning - azure machine learning”</span> (<a href="#/references" role="doc-biblioref" onclick="">n.d.</a>)</span>; <span class="citation" data-cites="noauthor_2022-ml"><span>“Deep learning vs machine learning”</span> (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span></li>
 </ul>
+</section>
+<section id="section" class="slide level2 scrollable">
+<h2></h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><a href="https://images.prismic.io/turing/652ebc26fbd9a45bcec81819_Deep_Learning_vs_Machine_Learning_3033723be2.webp?auto=format%2Ccompress&amp;fit=max&amp;w=3840" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="@noauthor_2022-ml"><img data-src="https://images.prismic.io/turing/652ebc26fbd9a45bcec81819_Deep_Learning_vs_Machine_Learning_3033723be2.webp?auto=format%2Ccompress&amp;fit=max&amp;w=3840" alt="“Deep learning vs machine learning” (2022)"></a></p>
@@ -347,25 +298,36 @@ Rick Gilmore
 </section>
 <section id="what-is-memory" class="slide level2">
 <h2>What is memory?</h2>
+<div class="fragment">
 <ul>
 <li>A: Information encoding, storage, retrieval</li>
 </ul>
+</div>
 </section>
-<section id="are-there-different-types-of-human-memory" class="slide level2">
-<h2>Are there different types of (human) memory?</h2>
+<section id="types-1" class="slide level2">
+<h2>Types?</h2>
 <ul>
 <li>Facts/events/places/feelings vs.&nbsp;skills</li>
 <li>Short vs.&nbsp;long-term
 <ul>
 <li>Working memory ~ short-term maintenance for guiding action</li>
 </ul></li>
-<li>Explicit (declarative: semantic vs.&nbsp;episodic) vs.&nbsp;implicit (procedural)</li>
-<li>Retrospective (from the past) vs.&nbsp;prospective (to be remembered)</li>
-<li>Recognition (judgment of familiarity or novelty) vs.&nbsp;recall</li>
+<li><em>Explicit</em> (declarative: <em>semantic</em> vs.&nbsp;<em>episodic</em>) vs.&nbsp;<em>implicit</em> (procedural)</li>
+<li><em>Retrospective</em> (from the past) vs.&nbsp;<em>prospective</em> (to be remembered)</li>
+<li><em>Recognition</em> (judgment of familiarity or novelty) vs.&nbsp;<em>recall</em></li>
 </ul>
 </section>
-<section id="how-do-computers-and-brains-compare" class="slide level2">
-<h2>How do computers and brains compare?</h2>
+<section id="section-1" class="slide level2 scrollable">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/squire-memory-systems.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="@squire_memory_2004"><img data-src="../include/img/squire-memory-systems.gif" alt="Squire (2004)"></a></p>
+<figcaption><span class="citation" data-cites="squire_memory_2004">Squire (<a href="#/references" role="doc-biblioref" onclick="">2004</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="computer-memory-vs.-brains" class="slide level2">
+<h2>Computer memory vs.&nbsp;brains</h2>
 <table class="caption-top">
 <colgroup>
 <col style="width: 57%">
@@ -379,34 +341,57 @@ Rick Gilmore
 </thead>
 <tbody>
 <tr class="odd">
-<td>Computers have separate memory and processing stores</td>
-<td>Brains store info everywhere, but there are specialized regions</td>
+<td>Separate memory and processing stores</td>
+<td>Processing &amp; memory not separate; pecialized regions</td>
 </tr>
 <tr class="even">
-<td>Computer memory has specific addresses</td>
-<td>Brains store in distributed networks</td>
+<td>Specific addresses</td>
+<td>Distributed networks (no addresses?)</td>
 </tr>
 <tr class="odd">
-<td>Computer memory is (usually) non-volatile</td>
-<td>Memories in brains naturally fade</td>
+<td>(Usually) non-volatile</td>
+<td>Volatile</td>
 </tr>
 <tr class="even">
-<td>Computer memory stores all types of information–images, sounds, text, data–as binary sequences, e.g., <code>01101110</code></td>
-<td>Human memory stores all types of information in patterns of synaptic connections and ???</td>
-</tr>
-<tr class="odd">
-<td>Computers render these sequences differently based on information about the <em>type</em> of data stored</td>
-<td>Brains retrieve or recall different forms of information based on ???</td>
-</tr>
-<tr class="even">
-<td>Digital computers were inspired by mathematical models of neurons</td>
-<td>Neurons can be simulated by mathematical models implemented in computers</td>
+<td>All types–images, sounds, text, data–stored as binary sequences, e.g., <code>01101110</code></td>
+<td>Stored patterns of synaptic connections and ???</td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="computer-memory-vs.-brains-1" class="slide level2">
+<h2>Computer memory vs.&nbsp;brains</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 57%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Computers</th>
+<th>Brains</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Render binary sequences differently based on information about the <em>type</em> of data stored</td>
+<td>Retrieve different types based on ???</td>
+</tr>
+<tr class="even">
+<td>Inspired by mathematical models of neurons</td>
+<td>Can be simulated by mathematical models implemented in computers</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="artificial-neurons" class="slide level2">
+<h2>Artificial neurons</h2>
+<ul>
+<li>Mathematical/computational models of neurons &amp; networks has 70 year+ history <span class="citation" data-cites="McCulloch1943-ud">(<a href="#/references" role="doc-biblioref" onclick="">McCulloch &amp; Pitts, 1943</a>)</span></li>
+</ul>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/b/b0/Artificial_neuron.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="McCulloch-Pitts artificial neuron"><img data-src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Artificial_neuron.png" alt="McCulloch-Pitts artificial neuron"></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/b/b0/Artificial_neuron.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="McCulloch-Pitts artificial neuron"><img data-src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Artificial_neuron.png" alt="McCulloch-Pitts artificial neuron"></a></p>
 <figcaption>McCulloch-Pitts <a href="https://en.wikipedia.org/wiki/Artificial_neuron">artificial neuron</a></figcaption>
 </figure>
 </div>
@@ -416,100 +401,255 @@ Rick Gilmore
 <h1>Biological bases of</h1>
 
 </section>
-<section id="in-single-cells" class="slide level2">
-<h2>In single cells</h2>
+<section id="does-learning-require-a-network" class="slide level2">
+<h2>Does learning require a network?</h2>
 <ul>
 <li>Learning in single cells controversial <span class="citation" data-cites="Gershman2021-zf">(<a href="#/references" role="doc-biblioref" onclick="">Gershman, Balbi, Gallistel, &amp; Gunawardena, 2021</a>)</span></li>
 <li>Beatrice Gelber</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="https://iiif.elifesciences.org/lax/61907%2Felife-61907-fig1-v1.tif/full/1500,/0/default.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="[Figure 1 from @Gershman2021-zf]. News story about Beatrice Gelber from the Tucson Daily Citizen October 19, 1960. © 1960, USA TODAY NETWORK. This image is not covered by the CC-BY 4.0 licence and may not be separated from the article."><img data-src="https://iiif.elifesciences.org/lax/61907%2Felife-61907-fig1-v1.tif/full/1500,/0/default.jpg" alt="(Figure 1 from Gershman et al., 2021). News story about Beatrice Gelber from the Tucson Daily Citizen October 19, 1960. © 1960, USA TODAY NETWORK. This image is not covered by the CC-BY 4.0 licence and may not be separated from the article."></a></p>
-<figcaption><span class="citation" data-cites="Gershman2021-zf">(Figure 1 from <a href="#/references" role="doc-biblioref" onclick="">Gershman et al., 2021</a>)</span>. News story about Beatrice Gelber from the Tucson Daily Citizen October 19, 1960. © 1960, USA TODAY NETWORK. This image is not covered by the CC-BY 4.0 licence and may not be separated from the article.</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="https://iiif.elifesciences.org/lax/61907%2Felife-61907-fig2-v1.tif/full/1500,/0/default.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="[@Gershman2021-zf] from [@Gelber1952-bb]. In Experiment 1 (top), one group of Paramecia was exposed to intermittent training trials in which a wire was coated with bacteria (every 3rd trial during the training phase). This group acquired a conditioned response to the clean wire, as measured by adherence to the wire in final test trials. In contrast, an untrained group did not show a conditioned response. Experiment 2 (bottom) demonstrated that the wire by itself did not drive conditioned responding."><img data-src="https://iiif.elifesciences.org/lax/61907%2Felife-61907-fig2-v1.tif/full/1500,/0/default.jpg" alt="(Gershman et al., 2021) from (B. Gelber, 1952). In Experiment 1 (top), one group of Paramecia was exposed to intermittent training trials in which a wire was coated with bacteria (every 3rd trial during the training phase). This group acquired a conditioned response to the clean wire, as measured by adherence to the wire in final test trials. In contrast, an untrained group did not show a conditioned response. Experiment 2 (bottom) demonstrated that the wire by itself did not drive conditioned responding."></a></p>
-<figcaption><span class="citation" data-cites="Gershman2021-zf">(<a href="#/references" role="doc-biblioref" onclick="">Gershman et al., 2021</a>)</span> from <span class="citation" data-cites="Gelber1952-bb">(<a href="#/references" role="doc-biblioref" onclick="">B. Gelber, 1952</a>)</span>. In Experiment 1 (top), one group of Paramecia was exposed to intermittent training trials in which a wire was coated with bacteria (every 3rd trial during the training phase). This group acquired a conditioned response to the clean wire, as measured by adherence to the wire in final test trials. In contrast, an untrained group did not show a conditioned response. Experiment 2 (bottom) demonstrated that the wire by itself did not drive conditioned responding.</figcaption>
-</figure>
-</div>
-<blockquote>
-<p>This paper presents a new approach to behavioral problems which might be called molecular biopsychology… Simply stated, it is hypothesized that the memory engram must be coded in macromolecules… As the geneticist studies the inherited characteristics of an organism the psychologist studies the modification of this inherited matrix by interaction with the environment. Possibly the biochemical and cellular physiological processes which encode new responses are continuous throughout the phyla (as genetic codes are) and therefore would be reasonably similar for a protozoan and a mammal. <span class="citation" data-cites="Gelber1962-ey">(<a href="#/references" role="doc-biblioref" onclick="">Beatrice Gelber, 1962</a>)</span></p>
-</blockquote>
-<blockquote>
-<p>Taking stock, we believe that Gelber’s experiments, though not without their limitations, convincingly demonstrated Pavlovian conditioning in Paramecia. Sadly, her critics seem to have won in the long term. Most reviews of the literature, if they mention Gelber’s work at all, quickly dismiss it…<span class="citation" data-cites="Gershman2021-zf">(<a href="#/references" role="doc-biblioref" onclick="">Gershman et al., 2021</a>)</span></p>
-</blockquote>
-<blockquote>
-<p>If single cells can learn then they must be using a non-synaptic form of memory storage. The idea that intracellular molecules store memories has a long history, mainly in the study of multicellular organisms. <span class="citation" data-cites="Gershman2021-zf">(<a href="#/references" role="doc-biblioref" onclick="">Gershman et al., 2021</a>)</span></p>
-</blockquote>
 </section>
-<section id="in-nervous-systems" class="slide level2">
-<h2>In nervous systems</h2>
+<section id="section-2" class="slide level2 scrollable">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://iiif.elifesciences.org/lax/61907%2Felife-61907-fig1-v1.tif/full/1500,/0/default.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="@Gershman2021-zf Figure 1"><img data-src="https://iiif.elifesciences.org/lax/61907%2Felife-61907-fig1-v1.tif/full/1500,/0/default.jpg" alt="Gershman et al. (2021) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="Gershman2021-zf">Gershman et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span> Figure 1<a href="#/footnotes" class="footnote-ref" id="fnref1" role="doc-noteref" data-footnote-href="#/fn1" onclick=""><sup>1</sup></a></figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="section-3" class="slide level2 scrollable">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://iiif.elifesciences.org/lax/61907%2Felife-61907-fig2-v1.tif/full/1500,/0/default.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="@Gershman2021-zf from @Gelber1952-bb"><img data-src="https://iiif.elifesciences.org/lax/61907%2Felife-61907-fig2-v1.tif/full/1500,/0/default.jpg" alt="Gershman et al. (2021) from B. Gelber (1952)"></a></p>
+<figcaption><span class="citation" data-cites="Gershman2021-zf">Gershman et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span><a href="#/footnotes" class="footnote-ref" id="fnref2" role="doc-noteref" data-footnote-href="#/fn2" onclick=""><sup>2</sup></a> from <span class="citation" data-cites="Gelber1952-bb">B. Gelber (<a href="#/references" role="doc-biblioref" onclick="">1952</a>)</span></figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section class="slide level2">
+
+<blockquote>
+<p>This paper presents a new approach to behavioral problems which might be called molecular biopsychology… Simply stated, it is hypothesized that the memory engram must be coded in macromolecule…As the geneticist studies the inherited characteristics of an organism the psychologist studies the modification of this inherited matrix by interaction with the environment.</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Gelber1962-ey">Beatrice Gelber (<a href="#/references" role="doc-biblioref" onclick="">1962</a>)</span></p>
+</section>
+<section class="slide level2">
+
+<blockquote>
+<p>Possibly the biochemical and cellular physiological processes which encode new responses are continuous throughout the phyla (as genetic codes are) and therefore would be reasonably similar for a protozoan and a mammal.</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Gelber1962-ey">Beatrice Gelber (<a href="#/references" role="doc-biblioref" onclick="">1962</a>)</span></p>
+</section>
+<section class="slide level2">
+
+<blockquote>
+<p>Taking stock, we believe that Gelber’s experiments, though not without their limitations, convincingly demonstrated Pavlovian conditioning in Paramecia. Sadly, her critics seem to have won in the long term. Most reviews of the literature, if they mention Gelber’s work at all, quickly dismiss it…</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Gershman2021-zf">Gershman et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span></p>
+</section>
+<section class="slide level2">
+
+<blockquote>
+<p>If single cells can learn then they must be using a non-synaptic form of memory storage. The idea that intracellular molecules store memories has a long history, mainly in the study of multicellular organisms.</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Gershman2021-zf">Gershman et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span></p>
+</section>
+<section id="learning-in-nervous-systems" class="slide level2">
+<h2>Learning in nervous systems</h2>
+<div class="fragment">
+<blockquote>
+<p>The idea that memory is stored as enduring changes in the brain dates back at least to the time of Plato and Aristotle (circa 350 BCE), but its scientific articulation emerged in the 20th century when Richard Semon introduced the term <strong>“engram” to describe the neural substrate for storing and recalling memories</strong>.</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Josselyn2020-xr">Josselyn &amp; Tonegawa (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span></p>
+</div>
+</section>
+<section id="mechanisms" class="slide level2">
+<h2>Mechanism(s)</h2>
+<blockquote>
+<p>Essentially, Semon proposed that <strong>an experience activates a population of neurons that undergo persistent chemical and/or physical changes to become an engram</strong>. Subsequent reactivation of the engram by cues available at the time of the experience induces memory retrieval.</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Josselyn2020-xr">Josselyn &amp; Tonegawa (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span></p>
+</section>
+<section id="neural-substrates-engrams-consist-of" class="slide level2">
+<h2>Neural substrates (engrams) consist of</h2>
 <ul>
-<li>Changes in patterns of neural activity</li>
-<li>Changes in connectivity
+<li>Changes in <em>patterns of neural activity</em></li>
+<li>Changes in <em>connectivity</em>
 <ul>
 <li>New synapses</li>
 <li>Altered synapses (strengthened or weakened)</li>
 </ul></li>
 </ul>
 </section>
-<section id="donald-hebbs-insight" class="slide level2">
-<h2>Donald Hebb’s Insight</h2>
+<section id="donald-hebb" class="slide level2">
+<h2>Donald Hebb</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Canadian clinical neuropsychologist</li>
+<li>Author of <em>The Organization of Behavior</em> <span class="citation" data-cites="Hebb1949-se">(<a href="#/references" role="doc-biblioref" onclick="">1949</a>)</span></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><a href="https://iiif.library.ubc.ca/image/cdm.arphotos.1-0150362.0/full/800,/0/default.jpg?ma=3153600&amp;lm=1707408032" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="https://iiif.library.ubc.ca/image/cdm.arphotos.1-0150362.0/full/800,/0/default.jpg?ma=3153600&amp;lm=1707408032" class="quarto-figure quarto-figure-right" style="width:60.0%"></a></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="hebbian-learning" class="slide level2">
+<h2>Hebbian learning</h2>
 <blockquote>
 <p>“<em>When an axon of cell A is near enough to excite cell B and repeatedly or persistently takes part in firing it, some growth process or metabolic change takes place in one or both cells such that A’s efficacy, as on of the cells firing B, is increased.</em>”</p>
 </blockquote>
-<p>(Hebb, 1949, p.&nbsp;62)</p>
+<p>– <span class="citation" data-cites="Hebb1949-se">Hebb (<a href="#/references" role="doc-biblioref" onclick="">1949</a>)</span></p>
+</section>
+<section id="hebbian-learning-1" class="slide level2">
+<h2>Hebbian learning</h2>
 <blockquote>
 <p>“<em>Neurons that fire together wire together.</em>”</p>
 </blockquote>
-<p>(Lowell &amp; Singer, 1992, p.&nbsp;211)</p>
-<h3 id="long-term-potentiation-ltp">Long-term potentiation (LTP)</h3>
-<ul>
-<li>An instance of Hebbian learning</li>
-</ul>
-<blockquote>
-<p>“<em>a persistent strengthening of synapses based on recent patterns of activity. These are patterns of synaptic activity that produce a long-lasting increase in signal transmission between two neurons.[2] The opposite of LTP is long-term depression, which produces a long-lasting decrease in synaptic strength.</em>” <a href="https://en.wikipedia.org/wiki/Long-term_potentiation" class="uri">https://en.wikipedia.org/wiki/Long-term_potentiation</a></p>
-</blockquote>
+<p>– <span class="citation" data-cites="Lowel1992-lk">Löwel &amp; Singer (<a href="#/references" role="doc-biblioref" onclick="">1992</a>)</span></p>
 </section>
-<section id="ltp-discovery-bliss1973-xx" class="slide level2">
-<h2>LTP discovery <a href="http://doi.org/10.1113/jphysiol.1973.sp010273/full"><span class="citation" data-cites="Bliss1973-xx">(<span>Bliss &amp; Lømo, 1973</span>)</span></a></h2>
+<section id="hebbian-learning-is-associative" class="slide level2">
+<h2>Hebbian learning is <em>associative</em></h2>
 <ul>
+<li>Neuron A active &amp;</li>
+<li>Neuron B active <span class="math inline">\(\rightarrow\)</span></li>
+</ul>
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A --&gt; B
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="fragment">
+<ul>
+<li>Strengthen link (synapse) between them</li>
+</ul>
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A ==&gt; B
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="how-synapses-strengthen" class="slide level2">
+<h2>How synapses strengthen</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Long-term_potentiation">Long-term potentiation (LTP)</a></li>
+<li>Make more potent (stengthen) synapse based on recent co-activity</li>
+<li>Change at synapse == physical basis of one type of Hebbian learning</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/LTP_exemplar.jpg/800px-LTP_exemplar.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/LTP_exemplar.jpg/800px-LTP_exemplar.jpg" class="quarto-figure quarto-figure-right"></a></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="ltp-discovery" class="slide level2">
+<h2>LTP discovery</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><span class="citation" data-cites="Bliss1973-xx">Bliss &amp; Lømo (<a href="#/references" role="doc-biblioref" onclick="">1973</a>)</span></li>
 <li>Granule cell neurons in hippocampus dentate gyrus (DG)</li>
 <li><span class="math inline">\(\theta\)</span> band (10–20 Hz) stim for 10–15 sec, or 100 Hz stim for 3–4 sec</li>
-<li>shortened response latency, increased EPSP, increased population response over minutes or hours</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
 <figure>
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/LTP_exemplar.jpg/1200px-LTP_exemplar.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/LTP_exemplar.jpg/1200px-LTP_exemplar.jpg" alt="Wikipedia"></a></p>
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/LTP_exemplar.jpg/1200px-LTP_exemplar.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/LTP_exemplar.jpg/1200px-LTP_exemplar.jpg" class="quarto-figure quarto-figure-right" alt="Wikipedia"></a></p>
+</figure>
+</div>
 <figcaption>Wikipedia</figcaption>
 </figure>
 </div>
+</div></div>
+</section>
+<section id="ltp-discovery-1" class="slide level2">
+<h2>LTP discovery</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>shortened response latency, increased EPSP, increased population response over minutes or hours</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/LTP_exemplar.jpg/1200px-LTP_exemplar.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/LTP_exemplar.jpg/1200px-LTP_exemplar.jpg" class="quarto-figure quarto-figure-right" alt="Wikipedia"></a></p>
+</figure>
+</div>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+</div></div>
 </section>
 <section id="mechanisms-of-ltp-plasticity" class="slide level2">
-<h2>Mechanisms of LTP plasticity</h2>
+<h2>Mechanism(s) of LTP plasticity</h2>
 <ul>
-<li>number of synaptic receptors</li>
-<li>quantity of NT released</li>
-<li>effectiveness of postsynaptic response</li>
+<li>effectiveness of postsynaptic response
+<ul>
+<li>post-synaptic, early LTP</li>
+</ul></li>
+<li>number of synaptic receptors
+<ul>
+<li>post-synaptic, late LTP</li>
+</ul></li>
+<li>quantity of NT released
+<ul>
+<li>pre-synaptic, late LTP</li>
+</ul></li>
 </ul>
 </section>
 <section id="pathways-to-plasticity" class="slide level2">
 <h2>Pathways to plasticity</h2>
 <ul>
-<li>Glu release activates
+<li>Glutamate release activates
 <ul>
 <li>ionotropic AMPA Glu receptors</li>
 <li>metabotropic Glu receptors</li>
 <li>N-methyl-D-aspartate (NMDA) Glu receptors</li>
 </ul></li>
+</ul>
+</section>
+<section id="pathways-to-plasticity-1" class="slide level2">
+<h2>Pathways to plasticity</h2>
+<ul>
 <li><span class="math inline">\(Ca^{++}\)</span> entry via NMDA receptor activates protein kinases (CaMKII and PKAII)</li>
 <li><em>Early LTP</em> (up to few hours)
 <ul>
 <li>protein kinases <em>phosphorylate</em> (add <span class="math inline">\(P\)</span> group to) postsynaptic AMPA receptors</li>
 <li>Increase current flow through AMPA (Glu) receptors</li>
 </ul></li>
+</ul>
+</section>
+<section id="pathways-to-plasticity-2" class="slide level2">
+<h2>Pathways to plasticity</h2>
+<ul>
 <li><em>Late LTP</em>
 <ul>
 <li>depends on protein synthesis to generate new AMPA receptor</li>
@@ -517,33 +657,36 @@ Rick Gilmore
 </ul></li>
 <li>Retrograde signal generator influences presynaptic response</li>
 </ul>
+</section>
+<section id="section-4" class="slide level2 scrollable">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:30%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="http://www.pitt.edu/~super1/lecture/lec14361/img024.GIF" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="LTP"><img data-src="http://www.pitt.edu/~super1/lecture/lec14361/img024.GIF" alt="LTP"></a></p>
+<p><a href="http://www.pitt.edu/~super1/lecture/lec14361/img024.GIF" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="LTP"><img data-src="http://www.pitt.edu/~super1/lecture/lec14361/img024.GIF" alt="LTP"></a></p>
 <figcaption>LTP</figcaption>
 </figure>
 </div>
-<div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"http://www.pitt.edu/~super1/lecture/lec14361/img024.GIF"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</details>
-<div class="cell-output-display">
+</div><div class="column" style="width:3%;">
+
+</div><div class="column" style="width:30%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="http://www.pitt.edu/~super1/lecture/lec14361/img024.GIF" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="LTP"><img data-src="http://www.pitt.edu/~super1/lecture/lec14361/img024.GIF" alt="LTP"></a></p>
-<figcaption>LTP</figcaption>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/e/ef/Aplysia_californica.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="Aplysia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Aplysia_californica.jpg" alt="Aplysia"></a></p>
+<figcaption>Aplysia</figcaption>
 </figure>
 </div>
-</div>
-</div>
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/e/ef/Aplysia_californica.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img data-src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Aplysia_californica.jpg"></a></p>
+</div><div class="column" style="width:3%;">
+
+</div><div class="column" style="width:30%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://www.nobelprize.org/images/kandel-13530-portrait-mini-2x.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Eric R. Kandel"><img data-src="https://www.nobelprize.org/images/kandel-13530-portrait-mini-2x.jpg" alt="Eric R. Kandel"></a></p>
+<p><a href="https://www.nobelprize.org/images/kandel-13530-portrait-mini-2x.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="Eric R. Kandel"><img data-src="https://www.nobelprize.org/images/kandel-13530-portrait-mini-2x.jpg" alt="Eric R. Kandel"></a></p>
 <figcaption>Eric R. Kandel</figcaption>
 </figure>
 </div>
+</div></div>
 </section>
 <section id="hebbian-learning-via-nmda-receptor" class="slide level2">
 <h2>‘Hebbian’ learning via NMDA receptor</h2>
@@ -557,6 +700,11 @@ Rick Gilmore
 <li>Sending cell has released NT</li>
 <li>Receiving cell is/has been recently active</li>
 </ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ul>
 <li>Chemically-gated AND
 <ul>
 <li>Ligand- (glutamate/aspartate + glycine) gated</li>
@@ -569,12 +717,18 @@ Rick Gilmore
 <li>Receiving cell responds</li>
 </ul></li>
 </ul>
+</section>
+<section class="slide level2">
+
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Activated_NMDAR.svg/220px-Activated_NMDAR.svg.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Activated_NMDAR.svg/220px-Activated_NMDAR.svg.png" alt="Wikipedia"></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Activated_NMDAR.svg/220px-Activated_NMDAR.svg.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Activated_NMDAR.svg/220px-Activated_NMDAR.svg.png" alt="Wikipedia"></a></p>
 <figcaption>Wikipedia</figcaption>
 </figure>
 </div>
+</section>
+<section class="slide level2">
+
 <ul>
 <li>NMDA receptor function may vary by location on neuron
 <ul>
@@ -602,13 +756,18 @@ Rick Gilmore
 <ul>
 <li>Link to Glu hypothesis of schizophrenia?</li>
 </ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ul>
 <li><em>Ketamine</em> is NMDA receptor antagonist
 <ul>
 <li>anesthesia, sedation pain relief</li>
 <li>possible short-term relief for depression</li>
 </ul></li>
 <li>Linked to analgesic effects of nitrous oxide (laughing gas; <span class="math inline">\(NO\)</span>)</li>
-<li>Alcohol (ethanol) inhibits <a href="https://www.ncbi.nlm.nih.gov/pubmed/21204417"><span class="citation" data-cites="Ron2011-dh">(<span>Ron &amp; Wang, 2011</span>)</span></a></li>
+<li>Alcohol (ethanol) inhibits <span class="citation" data-cites="Ron2011-dh">(<a href="#/references" role="doc-biblioref" onclick="">Ron &amp; Wang, 2011</a>)</span></li>
 </ul>
 </section>
 <section id="spike-timing-dependent-plasticity" class="slide level2">
@@ -618,87 +777,120 @@ Rick Gilmore
 <li>e.g., lightning THEN thunder</li>
 <li>unusual food THEN indigestion</li>
 </ul>
+</section>
+<section id="section-5" class="slide level2 scrollable">
+<h2></h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/caporale-2008-fig-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="[@caporale2008spike]"><img data-src="../include/img/caporale-2008-fig-1.jpg" alt="(Caporale &amp; Dan, 2008)"></a></p>
-<figcaption><span class="citation" data-cites="caporale2008spike">(<a href="#/references" role="doc-biblioref" onclick="">Caporale &amp; Dan, 2008</a>)</span></figcaption>
+<p><a href="../include/img/caporale-2008-fig-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="@caporale2008spike Figure 1"><img data-src="../include/img/caporale-2008-fig-1.jpg" alt="Caporale &amp; Dan (2008) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="caporale2008spike">Caporale &amp; Dan (<a href="#/references" role="doc-biblioref" onclick="">2008</a>)</span> Figure 1</figcaption>
 </figure>
 </div>
+</section>
+<section id="section-6" class="slide level2 scrollable">
+<h2></h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/caporale-2008-fig-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="[@caporale2008spike]"><img data-src="../include/img/caporale-2008-fig-2.jpg" alt="(Caporale &amp; Dan, 2008)"></a></p>
-<figcaption><span class="citation" data-cites="caporale2008spike">(<a href="#/references" role="doc-biblioref" onclick="">Caporale &amp; Dan, 2008</a>)</span></figcaption>
+<p><a href="../include/img/caporale-2008-fig-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="@caporale2008spike Figure 2"><img data-src="../include/img/caporale-2008-fig-2.jpg" alt="Caporale &amp; Dan (2008) Figure 2"></a></p>
+<figcaption><span class="citation" data-cites="caporale2008spike">Caporale &amp; Dan (<a href="#/references" role="doc-biblioref" onclick="">2008</a>)</span> Figure 2</figcaption>
 </figure>
 </div>
+</section>
+<section class="slide level2">
+
 <ul>
 <li>A before B: strengthen <span class="math inline">\(A \rightarrow B\)</span></li>
-<li>A after B: <span class="math inline">\(A \rightarrow B\)</span></li>
+<li>A after B: weaken <span class="math inline">\(A \rightarrow B\)</span></li>
 <li><a href="https://en.wikipedia.org/wiki/Neuroplasticity"><em>Neural Plasticity</em></a>
 <ul>
 <li>Lasting changes in neural firing, connectivity</li>
 </ul></li>
 <li>NMDA receptor a molecular mechanism for implementing LTP and spike-timing-dependent plasticity</li>
 </ul>
-</section>
-<section id="memory-systems" class="slide level2">
-<h2>Memory systems</h2>
+</section></section>
+<section>
+<section id="memory-systems" class="title-slide slide level1 center">
+<h1>Memory systems</h1>
+
 </section>
 <section id="lashleys-search-for-the-engram" class="slide level2">
 <h2>Lashley’s search for the <a href="https://en.wikipedia.org/wiki/Engram_(neuropsychology)">‘engram’</a></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
 <li>Is memory ‘localized’ like sensory and motor functions? <span class="citation" data-cites="Lashley1944-fg">(<a href="#/references" role="doc-biblioref" onclick="">Karl S. Lashley, 1944</a>)</span></li>
 </ul>
+</div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/lashley-1944.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="@Lashley1946-pa"><img data-src="../include/img/lashley-1944.jpg" alt="K. S. Lashley &amp; Clark (1946)"></a></p>
+<p><a href="../include/img/lashley-1944.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="@Lashley1946-pa"><img data-src="../include/img/lashley-1944.jpg" alt="K. S. Lashley &amp; Clark (1946)"></a></p>
 <figcaption><span class="citation" data-cites="Lashley1946-pa">K. S. Lashley &amp; Clark (<a href="#/references" role="doc-biblioref" onclick="">1946</a>)</span></figcaption>
 </figure>
 </div>
+</div></div>
+</section>
+<section id="section-7" class="slide level2 scrollable">
+<h2></h2>
 <blockquote>
-<p>“<em>“the area subdivisions are in large part anatomically meaningless and misleading as to the presumptive functional divisions of the cortex”</em>”</p>
+<p>“<em>the area subdivisions are in large part anatomically meaningless and misleading as to the presumptive functional divisions of the cortex</em>”</p>
 </blockquote>
-<p><span class="citation" data-cites="Lashley1946-pa">(<a href="#/references" role="doc-biblioref" onclick="">K. S. Lashley &amp; Clark, 1946</a>)</span></p>
+<p>– <span class="citation" data-cites="Lashley1946-pa">K. S. Lashley &amp; Clark (<a href="#/references" role="doc-biblioref" onclick="">1946</a>)</span></p>
 <ul>
-<li>Not in the rat cerebral cortex</li>
+<li>Memory not localized in the rat cerebral cortex!</li>
 </ul>
 </section>
 <section id="modern-views" class="slide level2">
 <h2>Modern views</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
 <li>Cerebral cortex less central to “engram-like” memory than other areas</li>
 </ul>
+</div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/squire-memory-systems.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="[@squire_memory_2004]"><img data-src="../include/img/squire-memory-systems.gif" alt="(Squire, 2004)"></a></p>
-<figcaption><span class="citation" data-cites="squire_memory_2004">(<a href="#/references" role="doc-biblioref" onclick="">Squire, 2004</a>)</span></figcaption>
+<p><a href="../include/img/squire-memory-systems.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="@squire_memory_2004"><img data-src="../include/img/squire-memory-systems.gif" alt="Squire (2004)"></a></p>
+<figcaption><span class="citation" data-cites="squire_memory_2004">Squire (<a href="#/references" role="doc-biblioref" onclick="">2004</a>)</span></figcaption>
 </figure>
 </div>
+</div></div>
 </section>
 <section id="hippocampus" class="slide level2">
 <h2>Hippocampus</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/hippocampus-seahorse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="https://upload.wikimedia.org/wikipedia/commons/5/5b/Hippocampus_and_seahorse_cropped.JPG"><img data-src="../include/img/hippocampus-seahorse.jpg" alt="https://upload.wikimedia.org/wikipedia/commons/5/5b/Hippocampus_and_seahorse_cropped.JPG"></a></p>
+<p><a href="../include/img/hippocampus-seahorse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="https://upload.wikimedia.org/wikipedia/commons/5/5b/Hippocampus_and_seahorse_cropped.JPG"><img data-src="../include/img/hippocampus-seahorse.jpg" alt="https://upload.wikimedia.org/wikipedia/commons/5/5b/Hippocampus_and_seahorse_cropped.JPG"></a></p>
 <figcaption>https://upload.wikimedia.org/wikipedia/commons/5/5b/Hippocampus_and_seahorse_cropped.JPG</figcaption>
 </figure>
 </div>
+</section>
+<section id="section-8" class="slide level2 scrollable">
+<h2></h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/2/25/CajalHippocampus_%28modified%29.png" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="Santiago Ramon Y Cajal; Source: Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/2/25/CajalHippocampus_%28modified%29.png" alt="Santiago Ramon Y Cajal; Source: Wikipedia"></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/2/25/CajalHippocampus_%28modified%29.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="Santiago Ramon Y Cajal; Source: Wikipedia"><img data-src="https://upload.wikimedia.org/wikipedia/commons/2/25/CajalHippocampus_%28modified%29.png" alt="Santiago Ramon Y Cajal; Source: Wikipedia"></a></p>
 <figcaption>Santiago Ramon Y Cajal; Source: Wikipedia</figcaption>
 </figure>
 </div>
+</section>
+<section id="hippocampus-1" class="slide level2">
+<h2>Hippocampus</h2>
 <ul>
 <li>Dense in NMDA receptors</li>
 <li>Central “hub” in network?
 <ul>
 <li>No, based on anatomical or functional connectivity</li>
-<li>But yes, when modeling “information flow” <a href="http://doi.org/10.1371/journal.pcbi.1003982"><span class="citation" data-cites="Misic2014-eq">(<span>Mišić, Goñi, Betzel, Sporns, &amp; McIntosh, 2014</span>)</span></a></li>
+<li>But yes, when modeling “information flow”, <span class="citation" data-cites="Misic2014-eq">(<a href="#/references" role="doc-biblioref" onclick="">Mišić, Goñi, Betzel, Sporns, &amp; McIntosh, 2014</a>)</span></li>
 </ul></li>
 <li>Formation, storage, consolidation of long-term episodic or declarative memories</li>
+</ul>
+</section>
+<section id="hippocampus-2" class="slide level2">
+<h2>Hippocampus</h2>
+<ul>
 <li>Stores info for later transfer to cortex
 <ul>
-<li>“Engrams” form in hipp &amp; PFC simultaneously, fade in PFC over time <a href="http://doi.org/10.1126/science.aam6808"><span class="citation" data-cites="Kitamura2017-es">(<span>Kitamura et al., 2017</span>)</span></a></li>
+<li>“Engrams” form in hipp &amp; PFC simultaneously, fade in PFC over time <span class="citation" data-cites="Kitamura2017-es">(<a href="#/references" role="doc-biblioref" onclick="">Kitamura et al., 2017</a>)</span></li>
 </ul></li>
 <li>Spatial navigation
 <ul>
@@ -707,30 +899,49 @@ Rick Gilmore
 <li><a href="http://www.scholarpedia.org/article/Head_direction_cells">Head-direction cells</a></li>
 </ul></li>
 </ul>
+</section>
+<section id="section-9" class="slide level2 scrollable">
+<h2></h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/finite-scale-spatial-rep-F1.large.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="@kjelstrup_finite_2008"><img data-src="../include/img/finite-scale-spatial-rep-F1.large.jpg" alt="Kjelstrup et al. (2008)"></a></p>
+<p><a href="../include/img/finite-scale-spatial-rep-F1.large.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="@kjelstrup_finite_2008"><img data-src="../include/img/finite-scale-spatial-rep-F1.large.jpg" alt="Kjelstrup et al. (2008)"></a></p>
 <figcaption><span class="citation" data-cites="kjelstrup_finite_2008">Kjelstrup et al. (<a href="#/references" role="doc-biblioref" onclick="">2008</a>)</span></figcaption>
 </figure>
 </div>
+</section>
+<section id="memory-taxing-behaviors-alter-hippocampus" class="slide level2">
+<h2>Memory-taxing behaviors alter hippocampus</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
 <li>London taxi drivers (a high memory demand profession) have specialized hippocampi <span class="citation" data-cites="maguire2000navigation">(<a href="#/references" role="doc-biblioref" onclick="">Maguire et al., 2000</a>)</span></li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="[@Woollett2011-uf]"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr1.jpg" alt="(Woollett &amp; Maguire, 2011)"></a></p>
-<figcaption><span class="citation" data-cites="Woollett2011-uf">(<a href="#/references" role="doc-biblioref" onclick="">Woollett &amp; Maguire, 2011</a>)</span></figcaption>
-</figure>
-</div>
-<!-- ![@maguire2000navigation](../include/img/maguire-etal-2000-F1.large.jpg) -->
-<!-- ![@maguire2000navigation](../include/img/maguire-etal-2000-F2.large.jpg) -->
-<!-- ![@maguire2000navigation](../include/img/maguire-etal-2000-F3.large.jpg) -->
-<ul>
 <li>Not due to self-motion, driving experience, or stress <em>per se</em></li>
 </ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="@Woollett2011-uf Figure 1"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr1.jpg" alt="Woollett &amp; Maguire (2011) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="Woollett2011-uf">Woollett &amp; Maguire (<a href="#/references" role="doc-biblioref" onclick="">2011</a>)</span> Figure 1</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section class="slide level2">
+
 <blockquote>
-<p>Gray matter volume differences in the hippocampus relative to controls have been reported to accompany this expertise. While these gray matter differences could result from using and updating spatial representations, they might instead be influenced by factors such as self-motion, driving experience, and stress. We examined the contribution of these factors by comparing London taxi drivers with London bus drivers, who were matched for driving experience and levels of stress, but differed in that they follow a constrained set of routes. We found that compared with bus drivers, taxi drivers had greater gray matter volume in mid-posterior hippocampi and less volume in anterior hippocampi. Furthermore, years of navigation experience correlated with hippocampal gray matter volume only in taxi drivers, with right posterior gray matter volume increasing and anterior volume decreasing with more navigation experience. This suggests that spatial knowledge, and not stress, driving, or self-motion, is associated with the pattern of hippocampal gray matter volume in taxi drivers. <span class="citation" data-cites="Maguire2006-sc">(<a href="#/references" role="doc-biblioref" onclick="">Maguire, Woollett, &amp; Spiers, 2006</a>)</span></p>
+<p>Gray matter volume differences in the hippocampus relative to controls have been reported to accompany this expertise. While these gray matter differences could result from using and updating spatial representations, they might instead be influenced by factors such as self-motion, driving experience, and stress. We examined the contribution of these factors by comparing London taxi drivers with London bus drivers, who were matched for driving experience and levels of stress, but differed in that they follow a constrained set of routes.</p>
 </blockquote>
+<p>– <span class="citation" data-cites="Maguire2006-sc">Maguire, Woollett, &amp; Spiers (<a href="#/references" role="doc-biblioref" onclick="">2006</a>)</span></p>
+</section>
+<section class="slide level2">
+
+<blockquote>
+<p>We found that compared with bus drivers, taxi drivers had greater gray matter volume in mid-posterior hippocampi and less volume in anterior hippocampi. Furthermore, years of navigation experience correlated with hippocampal gray matter volume only in taxi drivers, with right posterior gray matter volume increasing and anterior volume decreasing with more navigation experience. This suggests that spatial knowledge, and not stress, driving, or self-motion, is associated with the pattern of hippocampal gray matter volume in taxi drivers.</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Maguire2006-sc">Maguire et al. (<a href="#/references" role="doc-biblioref" onclick="">2006</a>)</span></p>
+</section>
+<section class="slide level2">
+
 <div id="fig-woollett-2011" class="quarto-layout-panel">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-woollett-2011-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -738,7 +949,7 @@ Rick Gilmore
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="Figure 2. Gray Matter Volume Changes between T1 and T2 in Qualified Trainees"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr2.jpg"></a></p>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="Figure 2. Gray Matter Volume Changes between T1 and T2 in Qualified Trainees"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr2.jpg"></a></p>
 <figcaption>Figure 2. Gray Matter Volume Changes between T1 and T2 in Qualified Trainees</figcaption>
 </figure>
 </div>
@@ -746,39 +957,46 @@ Rick Gilmore
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="Figure 3. Plot of Gray Matter Intensities across Groups and Time"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr3.jpg"></a></p>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="Figure 3. Plot of Gray Matter Intensities across Groups and Time"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr3.jpg"></a></p>
 <figcaption>Figure 3. Plot of Gray Matter Intensities across Groups and Time</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-woollett-2011-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: <span class="citation" data-cites="Woollett2011-uf">(Figures 1 and 2 from <a href="#/references" role="doc-biblioref" onclick="">Woollett &amp; Maguire, 2011</a>)</span>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-woollett-2011-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
 </figcaption>
 </figure>
 </div>
+</section>
+<section id="evidence-from-other-species" class="slide level2">
+<h2>Evidence from other species</h2>
 <ul>
-<li>Birds with high memory demands have larger hippocampi</li>
+<li>Birds whose ethologies have high memory demands have larger hippocampi.</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/sherry-food-storing-birds-1989.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="@sherry_hippocampal_1989"><img data-src="../include/img/sherry-food-storing-birds-1989.jpg" alt="Sherry, Vaccarino, Buckenham, &amp; Herz (1989)"></a></p>
+<p><a href="../include/img/sherry-food-storing-birds-1989.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-26" title="@sherry_hippocampal_1989"><img data-src="../include/img/sherry-food-storing-birds-1989.jpg" data-fig-width="40%" alt="Sherry, Vaccarino, Buckenham, &amp; Herz (1989)"></a></p>
 <figcaption><span class="citation" data-cites="sherry_hippocampal_1989">Sherry et al. (<a href="#/references" role="doc-biblioref" onclick="">1989</a>)</span></figcaption>
 </figure>
 </div>
+</section>
+<section id="section-10" class="slide level2 scrollable">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li>Birds with high memory caching demands use sparse representations (“bar codes”) in hippocampus</li>
+<li>Birds with high memory caching demands use sparse (“bar-code”-like ) representations in hippocampus</li>
 </ul>
+</div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/chettih-2024.png" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="@Chettih2024-co"><img data-src="../include/img/chettih-2024.png" alt="Chettih, Mackevicius, Hale, &amp; Aronov (2024)"></a></p>
+<p><a href="../include/img/chettih-2024.png" class="lightbox" data-gallery="quarto-lightbox-gallery-27" title="@Chettih2024-co"><img data-src="../include/img/chettih-2024.png" alt="Chettih, Mackevicius, Hale, &amp; Aronov (2024)"></a></p>
 <figcaption><span class="citation" data-cites="Chettih2024-co">Chettih et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></figcaption>
 </figure>
 </div>
-<ul>
-<li>(Gilmore’s view) Humans have repurposed hippocampal system for other cognitive uses, e.g., semantic memory, language</li>
-</ul>
+</div></div>
 </section>
 <section id="cerebral-cortex" class="slide level2">
 <h2>Cerebral cortex</h2>
@@ -787,24 +1005,31 @@ Figure&nbsp;1: <span class="citation" data-cites="Woollett2011-uf">(Figures 1 an
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-023-01512-3/MediaObjects/41593_2023_1512_Fig1_HTML.png?as=webp" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="[Figure 1 from @Steel2024-bv]. a, PRF paradigm and modeling. In Exp. 1, participants underwent pRF mapping. Participants viewed visual scenes through a bar aperture that gradually traversed the visual field. Each visual-field traversal lasted 36 s (18 × 2 s positions), and the bar made eight traversals per run. The direction of motion varied between traversals. To estimate the pRF for each voxel, a synthetic time series is generated for 400 visual-field locations (200 x and y positions) and 100 sizes (sigma). This results in four million possible time series that are fit to each voxel’s activity. The fit results in four parameters describing each receptive field: x, y, sigma and amplitude. b, Negative-amplitude pRFs fall anterior to the cortex typically considered visual (beyond known retinotopic maps). Group average (n = 17) pRF amplitude map (threshold at explained variance R-squared (R2) > 0.08) is shown on partially inflated representations of the left hemisphere, alongside ROIs: SPAs (OPA, PPA), PMAs (LPMA, VPMA) (localized in an independent group of participants24) and the DMN22. The known retinotopic maps in the posterior cortex (black dotted outlines21) contain exclusively positive-amplitude pRFs (hot colors), as visual stimulation evokes positive retinotopically specific BOLD responses. Negative-amplitude pRFs (cool colors), where visual stimulation evokes a negative spatially specific BOLD response, arise anterior to these retinotopic maps in the PMAs and DMN (see Fig. 2a for example time series from a representative subject)."><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-023-01512-3/MediaObjects/41593_2023_1512_Fig1_HTML.png?as=webp" alt="(Figure 1 from Steel et al., 2024). a, PRF paradigm and modeling. In Exp. 1, participants underwent pRF mapping. Participants viewed visual scenes through a bar aperture that gradually traversed the visual field. Each visual-field traversal lasted 36 s (18 × 2 s positions), and the bar made eight traversals per run. The direction of motion varied between traversals. To estimate the pRF for each voxel, a synthetic time series is generated for 400 visual-field locations (200 x and y positions) and 100 sizes (sigma). This results in four million possible time series that are fit to each voxel’s activity. The fit results in four parameters describing each receptive field: x, y, sigma and amplitude. b, Negative-amplitude pRFs fall anterior to the cortex typically considered visual (beyond known retinotopic maps). Group average (n = 17) pRF amplitude map (threshold at explained variance R-squared (R2) > 0.08) is shown on partially inflated representations of the left hemisphere, alongside ROIs: SPAs (OPA, PPA), PMAs (LPMA, VPMA) (localized in an independent group of participants24) and the DMN22. The known retinotopic maps in the posterior cortex (black dotted outlines21) contain exclusively positive-amplitude pRFs (hot colors), as visual stimulation evokes positive retinotopically specific BOLD responses. Negative-amplitude pRFs (cool colors), where visual stimulation evokes a negative spatially specific BOLD response, arise anterior to these retinotopic maps in the PMAs and DMN (see Fig. 2a for example time series from a representative subject)."></a></p>
-<figcaption><span class="citation" data-cites="Steel2024-bv">(Figure 1 from <a href="#/references" role="doc-biblioref" onclick="">Steel et al., 2024</a>)</span>. a, PRF paradigm and modeling. In Exp. 1, participants underwent pRF mapping. Participants viewed visual scenes through a bar aperture that gradually traversed the visual field. Each visual-field traversal lasted 36 s (18 × 2 s positions), and the bar made eight traversals per run. The direction of motion varied between traversals. To estimate the pRF for each voxel, a synthetic time series is generated for 400 visual-field locations (200 x and y positions) and 100 sizes (sigma). This results in four million possible time series that are fit to each voxel’s activity. The fit results in four parameters describing each receptive field: x, y, sigma and amplitude. b, Negative-amplitude pRFs fall anterior to the cortex typically considered visual (beyond known retinotopic maps). Group average (n = 17) pRF amplitude map (threshold at explained variance R-squared (R2) &gt; 0.08) is shown on partially inflated representations of the left hemisphere, alongside ROIs: SPAs (OPA, PPA), PMAs (LPMA, VPMA) (localized in an independent group of participants24) and the DMN22. The known retinotopic maps in the posterior cortex (black dotted outlines21) contain exclusively positive-amplitude pRFs (hot colors), as visual stimulation evokes positive retinotopically specific BOLD responses. Negative-amplitude pRFs (cool colors), where visual stimulation evokes a negative spatially specific BOLD response, arise anterior to these retinotopic maps in the PMAs and DMN (see Fig. 2a for example time series from a representative subject).</figcaption>
+<p><a href="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-023-01512-3/MediaObjects/41593_2023_1512_Fig1_HTML.png?as=webp" class="lightbox" data-gallery="quarto-lightbox-gallery-28" title="@Steel2024-bv Figure 1"><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-023-01512-3/MediaObjects/41593_2023_1512_Fig1_HTML.png?as=webp" style="width:70.0%" alt="Steel et al. (2024) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="Steel2024-bv">Steel et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span> Figure 1<a href="#/footnotes" class="footnote-ref" id="fnref3" role="doc-noteref" data-footnote-href="#/fn3" onclick=""><sup>3</sup></a></figcaption>
 </figure>
 </div>
+<aside></aside></section>
+<section class="slide level2">
+
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-023-01512-3/MediaObjects/41593_2023_1512_Fig2_HTML.png?as=webp" class="lightbox" data-gallery="quarto-lightbox-gallery-26" title="[Figure 2 from @Steel2024-bv]. a, PRF modeling reveals posterior–anterior inversion of pRF amplitude in individual participants. Left, PRF amplitude for a representative participant overlaid onto a lateral view of the left hemisphere (threshold at R2 > 0.15; see Extended Data Fig. 1 for example ventral and lateral surface pRF amplitude maps from all participants and Extended Data Fig. 3 for amplitude maps with default mode parcellation overlaid). Posterior visual cortex is dominated by positive-amplitude pRFs (hot colors), while cortex anterior to regions classically considered visual exhibits a high concentration of negative-amplitude pRFs (cold colors). This individual’s OPA and LPMA are shown in white. Both the SPAs and PMAs contain pRFs (Extended Data Fig. 2). Right, time-series, model fits and reconstructed pRFs for two surface vertices in this subject. Top, example prototypical positive-amplitude pRF from the lateral SPA (OPA) in the left and right hemispheres (LH, RH). Bottom, example negative-amplitude population receptive field from the LPMA. b, Memory areas (PMAs) contain a larger percentage of negative pRFs compared to perceptual areas (SPAs) (repeated measures ANOVA, Bonferroni-corrected t-tests). Blue bars depict percentage of negative pRFs from individually localized SPAs and PMAs compared to total pRFs in the area (dotted outline). On the ventral and lateral surfaces, SPAs are dominated by positive pRFs, whereas a transition from positive to negative pRFs is evident within PMAs. Individual participant data points overlaid and connected in gray. P two-tailed < 0.05, **P two-tailed < 0.001. NS, not significant."><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-023-01512-3/MediaObjects/41593_2023_1512_Fig2_HTML.png?as=webp" alt="(Figure 2 from Steel et al., 2024). a, PRF modeling reveals posterior–anterior inversion of pRF amplitude in individual participants. Left, PRF amplitude for a representative participant overlaid onto a lateral view of the left hemisphere (threshold at R2 > 0.15; see Extended Data Fig. 1 for example ventral and lateral surface pRF amplitude maps from all participants and Extended Data Fig. 3 for amplitude maps with default mode parcellation overlaid). Posterior visual cortex is dominated by positive-amplitude pRFs (hot colors), while cortex anterior to regions classically considered visual exhibits a high concentration of negative-amplitude pRFs (cold colors). This individual’s OPA and LPMA are shown in white. Both the SPAs and PMAs contain pRFs (Extended Data Fig. 2). Right, time-series, model fits and reconstructed pRFs for two surface vertices in this subject. Top, example prototypical positive-amplitude pRF from the lateral SPA (OPA) in the left and right hemispheres (LH, RH). Bottom, example negative-amplitude population receptive field from the LPMA. b, Memory areas (PMAs) contain a larger percentage of negative pRFs compared to perceptual areas (SPAs) (repeated measures ANOVA, Bonferroni-corrected t-tests). Blue bars depict percentage of negative pRFs from individually localized SPAs and PMAs compared to total pRFs in the area (dotted outline). On the ventral and lateral surfaces, SPAs are dominated by positive pRFs, whereas a transition from positive to negative pRFs is evident within PMAs. Individual participant data points overlaid and connected in gray. P two-tailed < 0.05, **P two-tailed < 0.001. NS, not significant."></a></p>
-<figcaption><span class="citation" data-cites="Steel2024-bv">(Figure 2 from <a href="#/references" role="doc-biblioref" onclick="">Steel et al., 2024</a>)</span>. a, PRF modeling reveals posterior–anterior inversion of pRF amplitude in individual participants. Left, PRF amplitude for a representative participant overlaid onto a lateral view of the left hemisphere (threshold at R2 &gt; 0.15; see Extended Data Fig. 1 for example ventral and lateral surface pRF amplitude maps from all participants and Extended Data Fig. 3 for amplitude maps with default mode parcellation overlaid). Posterior visual cortex is dominated by positive-amplitude pRFs (hot colors), while cortex anterior to regions classically considered visual exhibits a high concentration of negative-amplitude pRFs (cold colors). This individual’s OPA and LPMA are shown in white. Both the SPAs and PMAs contain pRFs (Extended Data Fig. 2). Right, time-series, model fits and reconstructed pRFs for two surface vertices in this subject. Top, example prototypical positive-amplitude pRF from the lateral SPA (OPA) in the left and right hemispheres (LH, RH). Bottom, example negative-amplitude population receptive field from the LPMA. b, Memory areas (PMAs) contain a larger percentage of negative pRFs compared to perceptual areas (SPAs) (repeated measures ANOVA, Bonferroni-corrected t-tests). Blue bars depict percentage of negative pRFs from individually localized SPAs and PMAs compared to total pRFs in the area (dotted outline). On the ventral and lateral surfaces, SPAs are dominated by positive pRFs, whereas a transition from positive to negative pRFs is evident within PMAs. Individual participant data points overlaid and connected in gray. <em>P two-tailed &lt; 0.05, </em>**P two-tailed &lt; 0.001. NS, not significant.</figcaption>
+<p><a href="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-023-01512-3/MediaObjects/41593_2023_1512_Fig2_HTML.png?as=webp" class="lightbox" data-gallery="quarto-lightbox-gallery-29" title="@Steel2024-bv Figure 2"><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-023-01512-3/MediaObjects/41593_2023_1512_Fig2_HTML.png?as=webp" style="width:70.0%" alt="Steel et al. (2024) Figure 2"></a></p>
+<figcaption><span class="citation" data-cites="Steel2024-bv">Steel et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span> Figure 2<a href="#/footnotes" class="footnote-ref" id="fnref4" role="doc-noteref" data-footnote-href="#/fn4" onclick=""><sup>4</sup></a></figcaption>
 </figure>
 </div>
+<aside></aside></section>
+<section class="slide level2">
+
 <blockquote>
-<p>Together with recent reports showing retinotopic coding persisting as far as the ‘cortical apex’ [15,16,31], including the DMN [15,16], and the hippocampus [31,32], our findings challenge conventional views of brain organization, which generally assume that retinotopic coding is replaced by abstract amodal coding as information propagates through the visual hierarchy [7,8,9,10] toward memory structures [11,12,13,14] <span class="citation" data-cites="Steel2024-bv">(<a href="#/references" role="doc-biblioref" onclick="">Steel et al., 2024</a>)</span></p>
+<p>Together with recent reports showing retinotopic coding persisting as far as the ‘cortical apex’ [15,16,31], including the DMN [15,16], and the hippocampus [31,32], our findings challenge conventional views of brain organization, which generally assume that retinotopic coding is replaced by abstract amodal coding as information propagates through the visual hierarchy [7,8,9,10] toward memory structures [11,12,13,14]</p>
 </blockquote>
+<p>– <span class="citation" data-cites="Steel2024-bv">Steel et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></p>
 </section>
 <section id="cerebellum" class="slide level2">
 <h2>Cerebellum</h2>
 <ul>
-<li>response timing, sequences, especially in classical conditioning paradigms <a href="http://dx.doi.org/10.1073/pnas.1621132114"><span class="citation" data-cites="Jirenhed2017-fl">Jirenhed, Rasmussen, Johansson, &amp; Hesslow (<span>2017</span>)</span></a></li>
+<li>response timing, sequences, especially in classical conditioning paradigms <span class="citation" data-cites="Jirenhed2017-fl">(<a href="#/references" role="doc-biblioref" onclick="">Jirenhed, Rasmussen, Johansson, &amp; Hesslow, 2017</a>)</span></li>
 </ul>
 </section></section>
 <section>
@@ -828,24 +1053,24 @@ Figure&nbsp;1: <span class="citation" data-cites="Woollett2011-uf">(Figures 1 an
 </ul></li>
 </ul>
 </section>
-<section id="patient-hm-henry-g.-molaison" class="slide level2">
-<h2><a href="https://www.pbs.org/wgbh/nova/article/corkin-hm-memory/">Patient HM</a> (Henry G. Molaison)</h2>
+<section id="patient-hm" class="slide level2">
+<h2>Patient HM<a href="#/footnotes" class="footnote-ref" id="fnref5" role="doc-noteref" data-footnote-href="#/fn5" onclick=""><sup>5</sup></a></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
 <li>Intractable/untreatable epilepsy</li>
 <li>Bilateral resection of medial temporal lobe (1953)</li>
 <li>Epilepsy now treatable</li>
 <li>But, memory impaired</li>
-<li>Lived until 2008</li>
 </ul>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aw6JmZuLhfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-<!-- Brenda Milner on HM -->
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="https://www.pbs.org/wgbh/nova/media/images/corkin-hm-memory-08.width-800.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-27" title="https://www.pbs.org/wgbh/nova/article/corkin-hm-memory/"><img data-src="https://www.pbs.org/wgbh/nova/media/images/corkin-hm-memory-08.width-800.jpg" alt="https://www.pbs.org/wgbh/nova/article/corkin-hm-memory/"></a></p>
-<figcaption>https://www.pbs.org/wgbh/nova/article/corkin-hm-memory/</figcaption>
-</figure>
-</div>
+</div><div class="column" style="width:50%;">
+<p><a href="https://www.pbs.org/wgbh/nova/media/images/corkin-hm-memory-08.width-800.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-30"><img data-src="https://www.pbs.org/wgbh/nova/media/images/corkin-hm-memory-08.width-800.jpg"></a></p>
+</div></div>
+<aside></aside></section>
+<section class="slide level2">
+
+<iframe data-external="1" src="https://www.youtube.com/embed/aw6JmZuLhfA" width="100%" height="70%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p>– <span class="citation" data-cites="Grafe2019-mk">(<a href="#/references" role="doc-biblioref" onclick=""><strong>Grafe2019-mk?</strong></a>)</span></p>
 </section>
 <section id="hms-amnesia" class="slide level2">
 <h2>HM’s amnesia</h2>
@@ -861,9 +1086,15 @@ Figure&nbsp;1: <span class="citation" data-cites="Woollett2011-uf">(Figures 1 an
 </ul></li>
 <li>But, skills (mirror learning) intact</li>
 </ul>
+</section>
+<section class="slide level2">
+
 <blockquote>
 <p>“<em>Every day is alone in itself, whatever enjoyment I’ve had, and whatever sorrow I’ve had…Right now, I’m wondering, have I done or said anything amiss? You see at this moment, everything looks clear to me, but what happened just before? That’s what worries me. It’s like waking from a dream. I just don’t remember.</em>”</p>
 </blockquote>
+</section>
+<section class="slide level2">
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rq9eM4ZXRgs" frameborder="0" allowfullscreen="">
 </iframe>
 </section>
@@ -889,8 +1120,11 @@ Figure&nbsp;1: <span class="citation" data-cites="Woollett2011-uf">(Figures 1 an
 <li>Anterograde + graded retrograde amnesia</li>
 <li>Are thalamus &amp; medial temporal region connected?</li>
 </ul>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/1GfFopZSyj8" frameborder="0" allowfullscreen="">
-</iframe>
+</section>
+<section class="slide level2">
+
+<iframe data-external="1" src="https://www.youtube.com/embed/1GfFopZSyj8" width="100%" height="70%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p>– <span class="citation" data-cites="Anagnostaras2014-nr">(<a href="#/references" role="doc-biblioref" onclick=""><strong>Anagnostaras2014-nr?</strong></a>)</span></p>
 </section>
 <section id="spared-skills-in-amnesia" class="slide level2">
 <h2>Spared skills in amnesia</h2>
@@ -918,6 +1152,11 @@ Figure&nbsp;1: <span class="citation" data-cites="Woollett2011-uf">(Figures 1 an
 <li>Cognitive dysfunction (memory loss, language difficulties, planning, coordination)</li>
 <li>Psychiatric symptoms and behavioral disturbances</li>
 <li>Difficulties with daily living</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ul>
 <li><a href="http://doi.org/10.1136/bmj.b158"><span class="citation" data-cites="burns_alzheimers_2009">Burns &amp; Iliffe (<span>2009</span>)</span></a></li>
 <li>Build up of amyloid <span class="math inline">\(\beta\)</span> protein plaques in brain tissue</li>
 <li>APOE e4 gene variant <a href="https://www.mayoclinic.org/diseases-conditions/alzheimers-disease/in-depth/alzheimers-genes/art-20046552">increases risk 2-12x</a></li>
@@ -927,14 +1166,21 @@ Figure&nbsp;1: <span class="citation" data-cites="Woollett2011-uf">(Figures 1 an
 <h2>Progression</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/bmj-158-F1.large.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-28" title="@burns_alzheimers_2009"><img data-src="../include/img/bmj-158-F1.large.jpg" alt="Burns &amp; Iliffe (2009)"></a></p>
-<figcaption><span class="citation" data-cites="burns_alzheimers_2009">Burns &amp; Iliffe (<a href="#/references" role="doc-biblioref" onclick="">2009</a>)</span></figcaption>
+<p><a href="../include/img/bmj-158-F1.large.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-31" title="@burns_alzheimers_2009 Figure 1"><img data-src="../include/img/bmj-158-F1.large.jpg" style="width:50.0%" alt="Burns &amp; Iliffe (2009) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="burns_alzheimers_2009">Burns &amp; Iliffe (<a href="#/references" role="doc-biblioref" onclick="">2009</a>)</span> Figure 1</figcaption>
 </figure>
 </div>
+</section>
+<section class="slide level2">
+
 <ul>
 <li>Post-mortem exams show <span class="math inline">\(\beta\)</span> amyloid plaques and neurofibrillary tangles</li>
 </ul>
-<p><a href="../include/img/20150331-mouse-brain.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-29"><img data-src="../include/img/20150331-mouse-brain.jpg"></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/20150331-mouse-brain.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-32"><img data-src="../include/img/20150331-mouse-brain.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"></a></p>
+</figure>
+</div>
 </section>
 <section id="treatments" class="slide level2">
 <h2>Treatments</h2>
@@ -942,6 +1188,11 @@ Figure&nbsp;1: <span class="citation" data-cites="Woollett2011-uf">(Figures 1 an
 <li>Acetylcholinesterase (AChE) inhbitors (e.g.&nbsp;Aricept): Slow ACh inactivation</li>
 <li>NMDA-R partial antagonists (e.g., Memantine): Slow LTP</li>
 <li>Drugs that remove amyloid <span class="math inline">\(\beta\)</span> (e.g, lecanemab) don’t work especially well + have side effects</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ul>
 <li>AD the result of disordered immune response <span class="citation" data-cites="Jevtic2017-jt">(<a href="#/references" role="doc-biblioref" onclick="">Jevtic, Sengar, Salter, &amp; McLaurin, 2017</a>)</span>?
 <ul>
 <li>Promising prospective therapy using microglia to remove amyloid <span class="math inline">\(\beta\)</span> <span class="citation" data-cites="Hou2024-wx">(<a href="#/references" role="doc-biblioref" onclick="">Hou et al., 2024</a>)</span></li>
@@ -953,35 +1204,14 @@ Figure&nbsp;1: <span class="citation" data-cites="Woollett2011-uf">(Figures 1 an
 <h2>The other end of the spectrum…</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hpTCZ-hO6iI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">
 </iframe>
-<h3 id="what-about-working-memory-desposito2015-zm">What about working memory? <span class="citation" data-cites="DEsposito2015-zm">(<a href="#/references" role="doc-biblioref" onclick="">D’Esposito &amp; Postle, 2015</a>)</span></h3>
-<ul>
-<li>LTM representations of target items + attention -&gt; elevated activation
-<ul>
-<li>Semantic items</li>
-<li>Sensorimotor items</li>
-</ul></li>
-<li>Capacity for attended items (in Focus of Attention or FoA) limited ~ 4</li>
-<li>Neural basis
-<ul>
-<li>sustained activation in PFC</li>
-<li>subthreshold activation in areas where items are stored</li>
-</ul></li>
-<li>Individual differences in visual WM</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S1364661313001265-gr2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-30" title="@Luck2013-uo"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S1364661313001265-gr2.jpg" alt="Luck &amp; Vogel (2013)"></a></p>
-<figcaption><span class="citation" data-cites="Luck2013-uo">Luck &amp; Vogel (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span></figcaption>
-</figure>
-</div>
 </section></section>
 <section>
 <section id="working-memory" class="title-slide slide level1 center">
 <h1>Working memory</h1>
 
 </section>
-<section id="what-about-working-memory-desposito2015-zm-1" class="slide level2">
-<h2>What about working memory? <span class="citation" data-cites="DEsposito2015-zm">(<a href="#/references" role="doc-biblioref" onclick="">D’Esposito &amp; Postle, 2015</a>)</span></h2>
+<section id="desposito2015-zm" class="slide level2">
+<h2><span class="citation" data-cites="DEsposito2015-zm">D’Esposito &amp; Postle (<a href="#/references" role="doc-biblioref" onclick="">2015</a>)</span></h2>
 <ul>
 <li>LTM representations of target items + attention -&gt; elevated activation
 <ul>
@@ -989,6 +1219,13 @@ Figure&nbsp;1: <span class="citation" data-cites="Woollett2011-uf">(Figures 1 an
 <li>Sensorimotor items</li>
 </ul></li>
 <li>Capacity for attended items (in Focus of Attention or FoA) limited ~ 4</li>
+</ul>
+</section>
+<section id="section-11" class="slide level2 scrollable">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
 <li>Neural basis
 <ul>
 <li>sustained activation in PFC</li>
@@ -996,15 +1233,22 @@ Figure&nbsp;1: <span class="citation" data-cites="Woollett2011-uf">(Figures 1 an
 </ul></li>
 <li>Individual differences in visual WM</li>
 </ul>
+</div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S1364661313001265-gr2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-31" title="@Luck2013-uo"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S1364661313001265-gr2.jpg" alt="Luck &amp; Vogel (2013)"></a></p>
-<figcaption><span class="citation" data-cites="Luck2013-uo">Luck &amp; Vogel (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span></figcaption>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S1364661313001265-gr2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-33" title="@Luck2013-uo Figure 2"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S1364661313001265-gr2.jpg" alt="Luck &amp; Vogel (2013) Figure 2"></a></p>
+<figcaption><span class="citation" data-cites="Luck2013-uo">Luck &amp; Vogel (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span> Figure 2</figcaption>
 </figure>
 </div>
+</div></div>
+</section></section>
+<section>
+<section id="wrap-up" class="title-slide slide level1 center">
+<h1>Wrap-up</h1>
+
 </section>
-<section id="summary" class="slide level2">
-<h2>Summary</h2>
+<section id="main-points" class="slide level2">
+<h2>Main points</h2>
 <ul>
 <li>Multiple types of learning &amp; memory</li>
 <li>Learning &amp; memory distributed across the brain
@@ -1014,17 +1258,12 @@ Figure&nbsp;1: <span class="citation" data-cites="Woollett2011-uf">(Figures 1 an
 <li>Hippocampus + PFC critical areas binding together sensory/semantic info stored elsewhere</li>
 <li>Changes in synaptic #, strength, connectivity provide cellular basis</li>
 </ul>
-</section></section>
-<section>
-<section id="wrap-up" class="title-slide slide level1 center">
-<h1>Wrap-up</h1>
-
-</section>
-<section id="main-points" class="slide level2">
-<h2>Main points</h2>
 </section>
 <section id="next-time" class="slide level2">
 <h2>Next time</h2>
+<ul>
+<li>Language</li>
+</ul>
 </section></section>
 <section>
 <section id="resources" class="title-slide slide level1 center">
@@ -1074,6 +1313,9 @@ Gershman, S. J., Balbi, P. E., Gallistel, C. R., &amp; Gunawardena, J. (2021). R
 <div id="ref-Haney2024-wb" class="csl-entry" role="listitem">
 Haney, M. S., Pálovics, R., Munson, C. N., Long, C., Johansson, P. K., Yip, O., … Wyss-Coray, T. (2024). <span>APOE4/4</span> is linked to damaging lipid droplets in alzheimer’s disease microglia. <em>Nature</em>, <em>628</em>(8006), 154–161. <a href="https://doi.org/10.1038/s41586-024-07185-7">https://doi.org/10.1038/s41586-024-07185-7</a>
 </div>
+<div id="ref-Hebb1949-se" class="csl-entry" role="listitem">
+Hebb, D. O. (1949). <em>The organization of behavior; <span>A</span> neuropsychological theory</em> (Vol. 335). Oxford, England: Wiley. Retrieved from <a href="https://psycnet.apa.org/fulltext/1950-02200-000.pdf">https://psycnet.apa.org/fulltext/1950-02200-000.pdf</a>
+</div>
 <div id="ref-Hou2024-wx" class="csl-entry" role="listitem">
 Hou, J., Chen, Y., Cai, Z., Heo, G. S., Yuede, C. M., Wang, Z., … Colonna, M. (2024). Antibody-mediated targeting of human microglial leukocyte ig-like receptor <span>B4</span> attenuates amyloid pathology in a mouse model. <em>Science Translational Medicine</em>, <em>16</em>(741), eadj9052. <a href="https://doi.org/10.1126/scitranslmed.adj9052">https://doi.org/10.1126/scitranslmed.adj9052</a>
 </div>
@@ -1082,6 +1324,9 @@ Jevtic, S., Sengar, A. S., Salter, M. W., &amp; McLaurin, J. (2017). The role of
 </div>
 <div id="ref-Jirenhed2017-fl" class="csl-entry" role="listitem">
 Jirenhed, D.-A., Rasmussen, A., Johansson, F., &amp; Hesslow, G. (2017). Learned response sequences in cerebellar purkinje cells. <em>Proceedings of the National Academy of Sciences of the United States of America</em>, <em>114</em>(23), 6127–6132. <a href="https://doi.org/10.1073/pnas.1621132114">https://doi.org/10.1073/pnas.1621132114</a>
+</div>
+<div id="ref-Josselyn2020-xr" class="csl-entry" role="listitem">
+Josselyn, S. A., &amp; Tonegawa, S. (2020). Memory engrams: Recalling the past and imagining the future. <em>Science</em>. <a href="https://doi.org/10.1126/science.aaw4325">https://doi.org/10.1126/science.aaw4325</a>
 </div>
 <div id="ref-Kitamura2017-es" class="csl-entry" role="listitem">
 Kitamura, T., Ogawa, S. K., Roy, D. S., Okuyama, T., Morrissey, M. D., Smith, L. M., … Tonegawa, S. (2017). Engrams and circuits crucial for systems consolidation of a memory. <em>Science</em>, <em>356</em>(6333), 73–78. <a href="https://doi.org/10.1126/science.aam6808">https://doi.org/10.1126/science.aam6808</a>
@@ -1098,6 +1343,9 @@ Lashley, K. S., &amp; Clark, G. (1946). The cytoarchitecture of the cerebral cor
 <div id="ref-noauthor_2017-td" class="csl-entry" role="listitem">
 Learning styles as a myth. (2017, June). <a href="https://poorvucenter.yale.edu/LearningStylesMyth" class="uri">https://poorvucenter.yale.edu/LearningStylesMyth</a>. Retrieved from <a href="https://poorvucenter.yale.edu/LearningStylesMyth">https://poorvucenter.yale.edu/LearningStylesMyth</a>
 </div>
+<div id="ref-Lowel1992-lk" class="csl-entry" role="listitem">
+Löwel, S., &amp; Singer, W. (1992). Selection of intrinsic horizontal connections in the visual cortex by correlated neuronal activity. <em>Science</em>, <em>255</em>, 209–212. <a href="https://doi.org/10.1126/science.1372754">https://doi.org/10.1126/science.1372754</a>
+</div>
 <div id="ref-Luck2013-uo" class="csl-entry" role="listitem">
 Luck, S. J., &amp; Vogel, E. K. (2013). Visual working memory capacity: From psychophysics and neurobiology to individual differences. <em>Trends Cogn. Sci.</em>, <em>17</em>(8), 391–400. <a href="https://doi.org/10.1016/j.tics.2013.06.006">https://doi.org/10.1016/j.tics.2013.06.006</a>
 </div>
@@ -1107,11 +1355,17 @@ Maguire, E. A., Gadian, D. G., Johnsrude, I. S., Good, C. D., Ashburner, J., Fra
 <div id="ref-Maguire2006-sc" class="csl-entry" role="listitem">
 Maguire, E. A., Woollett, K., &amp; Spiers, H. J. (2006). London taxi drivers and bus drivers: A structural <span>MRI</span> and neuropsychological analysis. <em>Hippocampus</em>, <em>16</em>(12), 1091–1101. <a href="https://doi.org/10.1002/hipo.20233">https://doi.org/10.1002/hipo.20233</a>
 </div>
+<div id="ref-McCulloch1943-ud" class="csl-entry" role="listitem">
+McCulloch, W. S., &amp; Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. <em>The Bulletin of Mathematical Biophysics</em>, <em>5</em>, 115–133. <a href="https://doi.org/10.1007/BF02478259">https://doi.org/10.1007/BF02478259</a>
+</div>
 <div id="ref-Misic2014-eq" class="csl-entry" role="listitem">
 Mišić, B., Goñi, J., Betzel, R. F., Sporns, O., &amp; McIntosh, A. R. (2014). A network convergence zone in the hippocampus. <em>PLoS Comput. Biol.</em>, <em>10</em>(12), e1003982. <a href="https://doi.org/10.1371/journal.pcbi.1003982">https://doi.org/10.1371/journal.pcbi.1003982</a>
 </div>
 <div id="ref-Pashler2008-zi" class="csl-entry" role="listitem">
 Pashler, H., McDaniel, M., Rohrer, D., &amp; Bjork, R. (2008). Learning styles: Concepts and evidence. <em>Psychological Science in the Public Interest: A Journal of the American Psychological Society</em>, <em>9</em>(3), 105–119. <a href="https://doi.org/10.1111/j.1539-6053.2009.01038.x">https://doi.org/10.1111/j.1539-6053.2009.01038.x</a>
+</div>
+<div id="ref-Reber2010-bu" class="csl-entry" role="listitem">
+Reber, P. (2010, May 1). What is the memory capacity of the human brain? Retrieved December 3, 2025, from <a href="https://www.scientificamerican.com/article/what-is-the-memory-capacity/">https://www.scientificamerican.com/article/what-is-the-memory-capacity/</a>
 </div>
 <div id="ref-Ron2011-dh" class="csl-entry" role="listitem">
 Ron, D., &amp; Wang, J. (2011). The <span>NMDA</span> receptor and alcohol addiction. In A. M. Van Dongen (Ed.), <em>Biology of the <span>NMDA</span> receptor</em>. Boca Raton (FL): CRC Press/Taylor &amp; Francis. Retrieved from <a href="https://www.ncbi.nlm.nih.gov/pubmed/21204417">https://www.ncbi.nlm.nih.gov/pubmed/21204417</a>
@@ -1136,6 +1390,16 @@ Woollett, K., &amp; Maguire, E. A. (2011). Acquiring <span>“the knowledge”</
 </div>
 </div>
 </section></section>
+<section id="footnotes" class="footnotes footnotes-end-of-document smaller scrollable" role="doc-endnotes"><h2>Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>News story about Beatrice Gelber from the Tucson Daily Citizen October 19, 1960. © 1960, USA TODAY NETWORK. This image is not covered by the CC-BY 4.0 licence and may not be separated from the article.</p></li>
+<li id="fn2"><p>In Experiment 1 (top), one group of Paramecia was exposed to intermittent training trials in which a wire was coated with bacteria (every 3rd trial during the training phase). This group acquired a conditioned response to the clean wire, as measured by adherence to the wire in final test trials. In contrast, an untrained group did not show a conditioned response. Experiment 2 (bottom) demonstrated that the wire by itself did not drive conditioned responding.</p></li>
+<li id="fn3"><p>a, PRF paradigm and modeling. In Exp. 1, participants underwent pRF mapping. Participants viewed visual scenes through a bar aperture that gradually traversed the visual field. Each visual-field traversal lasted 36 s (18 × 2 s positions), and the bar made eight traversals per run. The direction of motion varied between traversals. To estimate the pRF for each voxel, a synthetic time series is generated for 400 visual-field locations (200 x and y positions) and 100 sizes (sigma). This results in four million possible time series that are fit to each voxel’s activity. The fit results in four parameters describing each receptive field: x, y, sigma and amplitude. b, Negative-amplitude pRFs fall anterior to the cortex typically considered visual (beyond known retinotopic maps). Group average (n = 17) pRF amplitude map (threshold at explained variance R-squared (R2) &gt; 0.08) is shown on partially inflated representations of the left hemisphere, alongside ROIs: SPAs (OPA, PPA), PMAs (LPMA, VPMA) (localized in an independent group of participants24) and the DMN22. The known retinotopic maps in the posterior cortex (black dotted outlines21) contain exclusively positive-amplitude pRFs (hot colors), as visual stimulation evokes positive retinotopically specific BOLD responses. Negative-amplitude pRFs (cool colors), where visual stimulation evokes a negative spatially specific BOLD response, arise anterior to these retinotopic maps in the PMAs and DMN (see Fig. 2a for example time series from a representative subject).</p></li>
+<li id="fn4"><p>a, PRF modeling reveals posterior–anterior inversion of pRF amplitude in individual participants. Left, PRF amplitude for a representative participant overlaid onto a lateral view of the left hemisphere (threshold at R2 &gt; 0.15; see Extended Data Fig. 1 for example ventral and lateral surface pRF amplitude maps from all participants and Extended Data Fig. 3 for amplitude maps with default mode parcellation overlaid). Posterior visual cortex is dominated by positive-amplitude pRFs (hot colors), while cortex anterior to regions classically considered visual exhibits a high concentration of negative-amplitude pRFs (cold colors). This individual’s OPA and LPMA are shown in white. Both the SPAs and PMAs contain pRFs (Extended Data Fig. 2). Right, time-series, model fits and reconstructed pRFs for two surface vertices in this subject. Top, example prototypical positive-amplitude pRF from the lateral SPA (OPA) in the left and right hemispheres (LH, RH). Bottom, example negative-amplitude population receptive field from the LPMA. b, Memory areas (PMAs) contain a larger percentage of negative pRFs compared to perceptual areas (SPAs) (repeated measures ANOVA, Bonferroni-corrected t-tests). Blue bars depict percentage of negative pRFs from individually localized SPAs and PMAs compared to total pRFs in the area (dotted outline). On the ventral and lateral surfaces, SPAs are dominated by positive pRFs, whereas a transition from positive to negative pRFs is evident within PMAs. Individual participant data points overlaid and connected in gray. <em>P two-tailed &lt; 0.05, </em>**P two-tailed &lt; 0.001. NS, not significant.</p></li>
+<li id="fn5"><p>Henry G. Molaison was identified with his permission after his death in 2008.</p></li>
+</ol>
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg" class="slide-logo"></p>

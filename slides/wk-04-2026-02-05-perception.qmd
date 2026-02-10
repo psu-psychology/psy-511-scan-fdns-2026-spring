@@ -721,7 +721,7 @@ plot(g, vertex.size=50, vertex.color="gray")
 
 # Deeper dive: Vision
 
-## Vision is not veridical
+## Vision is not veridical {.scrollable}
 
 ![https://www.illusionsindex.org/i/rotating-snakes](../include/img/rotating-snakes.webp)
 

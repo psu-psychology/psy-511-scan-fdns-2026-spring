@@ -186,315 +186,495 @@
     "href": "slides/wk-05-2026-02-12-learning-memory.html#prelude",
     "title": "Learning & Memory",
     "section": "Prelude",
-    "text": "Prelude"
+    "text": "Prelude",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#announcements",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#announcements",
     "title": "Learning & Memory",
     "section": "Announcements",
-    "text": "Announcements"
+    "text": "Announcements",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#todays-topics",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#todays-topics",
     "title": "Learning & Memory",
     "section": "Today’s topics",
-    "text": "Today’s topics\n\nBig picture questions\nBiological bases of\nDisorders of memory\nWorking memory"
+    "text": "Today’s topics\n\nBig picture questions\nBiological bases of\nDisorders of memory\nWorking memory",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#warm-up",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#warm-up",
     "title": "Learning & Memory",
     "section": "Warm-up",
-    "text": "Warm-up"
+    "text": "Warm-up",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#memory-capacity-of-the-human-brain",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#memory-capacity-of-the-human-brain",
     "title": "Learning & Memory",
     "section": "Memory capacity of the human brain?",
-    "text": "Memory capacity of the human brain?\n\n1e12 neurons\n1e3 synapses/neuron\n1e15 synapses or 1.25e14 bytes\n1e9 gigabyte, 1e12 terabyte, 1e15 petabyte\n\nhttp://www.scientificamerican.com/article.cfm?id=what-is-the-memory-capacity"
+    "text": "Memory capacity of the human brain?\n\n1e12 neurons\n1e3 synapses/neuron\n1e15 synapses or 1.25e14 bytes\n1e9 gigabyte, 1e12 terabyte, 1e15 petabyte\nSo 125 TB?\n\n– Reber (2010)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#what-is-learning",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#what-is-learning",
     "title": "Learning & Memory",
     "section": "What is learning?",
-    "text": "What is learning?\nhttps://theelearningcoach.com/learning/10-definitions-learning/\n\nLearning is the process of acquiring new understanding, knowledge, behaviors, skills, values, attitudes, and preferences. https://en.wikipedia.org/wiki/Learning\n\n\nNon-associative\n\n\\(A(t+1) = f(A(t))\\)\nHabituation (\\(\\dot f &lt; 0\\)), sensitization (\\(\\dot f &gt; 0\\))\n\nAssociative\n\n\\(A \\rightarrow B\\)\nClassical & operant/instrumental conditioning\nSequence, observational, episodic, semantic…learning"
+    "text": "What is learning?\n\nLearning is the process of acquiring new understanding, knowledge, behaviors, skills, values, attitudes, and preferences.\n\n– https://en.wikipedia.org/wiki/Learning",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#learning-styles",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#learning-styles",
     "title": "Learning & Memory",
     "section": "Learning styles?",
-    "text": "Learning styles?\n\n\n\n(“Learning styles as a myth,” 2017)\n\n\n\nAre myths (Pashler, McDaniel, Rohrer, & Bjork, 2008)?\n\n\nAlthough the literature on learning styles is enormous, very few studies have even used an experimental methodology capable of testing the validity of learning styles applied to education. Moreover, of those that did use an appropriate method, several found results that flatly contradict the popular meshing hypothesis. We conclude therefore, that at present, there is no adequate evidence base to justify incorporating learning-styles assessments into general educational practice."
+    "text": "Learning styles?\n\n\n\n“Learning styles as a myth” (2017)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#neural-networks",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#neural-networks",
     "title": "Learning & Memory",
     "section": "Neural networks",
-    "text": "Neural networks\n\nArchitectures/types, (Tch, 2017; Veen, n.d.)"
+    "text": "Neural networks\n\n\n\nTch (2017); from Veen (n.d.)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#network-learning-rules",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#network-learning-rules",
     "title": "Learning & Memory",
     "section": "Network learning rules",
-    "text": "Network learning rules\n\nHow/when change connections between nodes\nTypes\n\nUnsupervised (i.e., covariance/correlation)\nSupervised (change based on ‘error’)\nReinforcement (learn now)"
+    "text": "Network learning rules\n\nHow/when to change connections between network nodes\nTypes\n\nUnsupervised (i.e., covariance/correlation)\nSupervised (change based on ‘error’, external ‘supervision’)\nReinforcement (learn now)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#deep-learning-vs.-machine-learning",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#deep-learning-vs.-machine-learning",
     "title": "Learning & Memory",
     "section": "Deep learning vs. Machine Learning",
-    "text": "Deep learning vs. Machine Learning\n\n(“Deep learning vs machine learning,” 2022; “Deep learning vs. Machine learning - azure machine learning,” n.d.)\n\n\n\n\n“Deep learning vs machine learning” (2022)"
+    "text": "Deep learning vs. Machine Learning\n\n“Deep learning vs. Machine learning - azure machine learning” (n.d.); “Deep learning vs machine learning” (2022)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#what-is-memory",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#what-is-memory",
     "title": "Learning & Memory",
     "section": "What is memory?",
-    "text": "What is memory?\n\nA: Information encoding, storage, retrieval"
+    "text": "What is memory?\n\n\nA: Information encoding, storage, retrieval",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#are-there-different-types-of-human-memory",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#are-there-different-types-of-human-memory",
     "title": "Learning & Memory",
     "section": "Are there different types of (human) memory?",
-    "text": "Are there different types of (human) memory?\n\nFacts/events/places/feelings vs. skills\nShort vs. long-term\n\nWorking memory ~ short-term maintenance for guiding action\n\nExplicit (declarative: semantic vs. episodic) vs. implicit (procedural)\nRetrospective (from the past) vs. prospective (to be remembered)\nRecognition (judgment of familiarity or novelty) vs. recall"
+    "text": "Are there different types of (human) memory?\n\nFacts/events/places/feelings vs. skills\nShort vs. long-term\n\nWorking memory ~ short-term maintenance for guiding action\n\nExplicit (declarative: semantic vs. episodic) vs. implicit (procedural)\nRetrospective (from the past) vs. prospective (to be remembered)\nRecognition (judgment of familiarity or novelty) vs. recall",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#how-do-computers-and-brains-compare",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#how-do-computers-and-brains-compare",
     "title": "Learning & Memory",
     "section": "How do computers and brains compare?",
-    "text": "How do computers and brains compare?\n\n\n\n\n\n\n\nComputers\nBrains\n\n\n\n\nComputers have separate memory and processing stores\nBrains store info everywhere, but there are specialized regions\n\n\nComputer memory has specific addresses\nBrains store in distributed networks\n\n\nComputer memory is (usually) non-volatile\nMemories in brains naturally fade\n\n\nComputer memory stores all types of information–images, sounds, text, data–as binary sequences, e.g., 01101110\nHuman memory stores all types of information in patterns of synaptic connections and ???\n\n\nComputers render these sequences differently based on information about the type of data stored\nBrains retrieve or recall different forms of information based on ???\n\n\nDigital computers were inspired by mathematical models of neurons\nNeurons can be simulated by mathematical models implemented in computers\n\n\n\n\n\n\nMcCulloch-Pitts artificial neuron"
+    "text": "How do computers and brains compare?\n\n\n\n\n\n\n\nComputers\nBrains\n\n\n\n\nRender binary sequences differently based on information about the type of data stored\nRetrieve different types based on ???\n\n\nInspired by mathematical models of neurons\nCan be simulated by mathematical models implemented in computers",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#in-single-cells",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#in-single-cells",
     "title": "Learning & Memory",
     "section": "In single cells",
-    "text": "In single cells\n\nLearning in single cells controversial (Gershman, Balbi, Gallistel, & Gunawardena, 2021)\nBeatrice Gelber\n\n\n\n\n(Figure 1 from Gershman et al., 2021). News story about Beatrice Gelber from the Tucson Daily Citizen October 19, 1960. © 1960, USA TODAY NETWORK. This image is not covered by the CC-BY 4.0 licence and may not be separated from the article.\n\n\n\n\n\n(Gershman et al., 2021) from (B. Gelber, 1952). In Experiment 1 (top), one group of Paramecia was exposed to intermittent training trials in which a wire was coated with bacteria (every 3rd trial during the training phase). This group acquired a conditioned response to the clean wire, as measured by adherence to the wire in final test trials. In contrast, an untrained group did not show a conditioned response. Experiment 2 (bottom) demonstrated that the wire by itself did not drive conditioned responding.\n\n\n\nThis paper presents a new approach to behavioral problems which might be called molecular biopsychology… Simply stated, it is hypothesized that the memory engram must be coded in macromolecules… As the geneticist studies the inherited characteristics of an organism the psychologist studies the modification of this inherited matrix by interaction with the environment. Possibly the biochemical and cellular physiological processes which encode new responses are continuous throughout the phyla (as genetic codes are) and therefore would be reasonably similar for a protozoan and a mammal. (Beatrice Gelber, 1962)\n\n\nTaking stock, we believe that Gelber’s experiments, though not without their limitations, convincingly demonstrated Pavlovian conditioning in Paramecia. Sadly, her critics seem to have won in the long term. Most reviews of the literature, if they mention Gelber’s work at all, quickly dismiss it…(Gershman et al., 2021)\n\n\nIf single cells can learn then they must be using a non-synaptic form of memory storage. The idea that intracellular molecules store memories has a long history, mainly in the study of multicellular organisms. (Gershman et al., 2021)"
+    "text": "In single cells\n\nLearning in single cells controversial (Gershman, Balbi, Gallistel, & Gunawardena, 2021)\nBeatrice Gelber\n\n\n\n\n(Figure 1 from Gershman et al., 2021). News story about Beatrice Gelber from the Tucson Daily Citizen October 19, 1960. © 1960, USA TODAY NETWORK. This image is not covered by the CC-BY 4.0 licence and may not be separated from the article.\n\n\n\n\n\n(Gershman et al., 2021) from (B. Gelber, 1952). In Experiment 1 (top), one group of Paramecia was exposed to intermittent training trials in which a wire was coated with bacteria (every 3rd trial during the training phase). This group acquired a conditioned response to the clean wire, as measured by adherence to the wire in final test trials. In contrast, an untrained group did not show a conditioned response. Experiment 2 (bottom) demonstrated that the wire by itself did not drive conditioned responding.\n\n\n\nThis paper presents a new approach to behavioral problems which might be called molecular biopsychology… Simply stated, it is hypothesized that the memory engram must be coded in macromolecules… As the geneticist studies the inherited characteristics of an organism the psychologist studies the modification of this inherited matrix by interaction with the environment. Possibly the biochemical and cellular physiological processes which encode new responses are continuous throughout the phyla (as genetic codes are) and therefore would be reasonably similar for a protozoan and a mammal. (Beatrice Gelber, 1962)\n\n\nTaking stock, we believe that Gelber’s experiments, though not without their limitations, convincingly demonstrated Pavlovian conditioning in Paramecia. Sadly, her critics seem to have won in the long term. Most reviews of the literature, if they mention Gelber’s work at all, quickly dismiss it…(Gershman et al., 2021)\n\n\nIf single cells can learn then they must be using a non-synaptic form of memory storage. The idea that intracellular molecules store memories has a long history, mainly in the study of multicellular organisms. (Gershman et al., 2021)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#in-nervous-systems",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#in-nervous-systems",
     "title": "Learning & Memory",
     "section": "In nervous systems",
-    "text": "In nervous systems\n\nChanges in patterns of neural activity\nChanges in connectivity\n\nNew synapses\nAltered synapses (strengthened or weakened)"
+    "text": "In nervous systems\n\nChanges in patterns of neural activity\nChanges in connectivity\n\nNew synapses\nAltered synapses (strengthened or weakened)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#donald-hebbs-insight",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#donald-hebbs-insight",
     "title": "Learning & Memory",
     "section": "Donald Hebb’s Insight",
-    "text": "Donald Hebb’s Insight\n\n“When an axon of cell A is near enough to excite cell B and repeatedly or persistently takes part in firing it, some growth process or metabolic change takes place in one or both cells such that A’s efficacy, as on of the cells firing B, is increased.”\n\n(Hebb, 1949, p. 62)\n\n“Neurons that fire together wire together.”\n\n(Lowell & Singer, 1992, p. 211)\nLong-term potentiation (LTP)\n\nAn instance of Hebbian learning\n\n\n“a persistent strengthening of synapses based on recent patterns of activity. These are patterns of synaptic activity that produce a long-lasting increase in signal transmission between two neurons.[2] The opposite of LTP is long-term depression, which produces a long-lasting decrease in synaptic strength.” https://en.wikipedia.org/wiki/Long-term_potentiation"
+    "text": "Donald Hebb’s Insight\n\n“When an axon of cell A is near enough to excite cell B and repeatedly or persistently takes part in firing it, some growth process or metabolic change takes place in one or both cells such that A’s efficacy, as on of the cells firing B, is increased.”\n\n(Hebb, 1949, p. 62)\n\n“Neurons that fire together wire together.”\n\n(Lowell & Singer, 1992, p. 211)\nLong-term potentiation (LTP)\n\nAn instance of Hebbian learning\n\n\n“a persistent strengthening of synapses based on recent patterns of activity. These are patterns of synaptic activity that produce a long-lasting increase in signal transmission between two neurons.[2] The opposite of LTP is long-term depression, which produces a long-lasting decrease in synaptic strength.” https://en.wikipedia.org/wiki/Long-term_potentiation",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#ltp-discovery-bliss1973-xx",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#ltp-discovery-bliss1973-xx",
     "title": "Learning & Memory",
     "section": "LTP discovery (Bliss & Lømo, 1973)",
-    "text": "LTP discovery (Bliss & Lømo, 1973)\n\nGranule cell neurons in hippocampus dentate gyrus (DG)\n\\(\\theta\\) band (10–20 Hz) stim for 10–15 sec, or 100 Hz stim for 3–4 sec\nshortened response latency, increased EPSP, increased population response over minutes or hours\n\n\n\n\nWikipedia"
+    "text": "LTP discovery (Bliss & Lømo, 1973)\n\nGranule cell neurons in hippocampus dentate gyrus (DG)\n\\(\\theta\\) band (10–20 Hz) stim for 10–15 sec, or 100 Hz stim for 3–4 sec\nshortened response latency, increased EPSP, increased population response over minutes or hours\n\n\n\n\nWikipedia",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#mechanisms-of-ltp-plasticity",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#mechanisms-of-ltp-plasticity",
     "title": "Learning & Memory",
-    "section": "Mechanisms of LTP plasticity",
-    "text": "Mechanisms of LTP plasticity\n\nnumber of synaptic receptors\nquantity of NT released\neffectiveness of postsynaptic response"
+    "section": "Mechanism(s) of LTP plasticity",
+    "text": "Mechanism(s) of LTP plasticity\n\neffectiveness of postsynaptic response\n\npost-synaptic, early LTP\n\nnumber of synaptic receptors\n\npost-synaptic, late LTP\n\nquantity of NT released\n\npre-synaptic, late LTP",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#pathways-to-plasticity",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#pathways-to-plasticity",
     "title": "Learning & Memory",
     "section": "Pathways to plasticity",
-    "text": "Pathways to plasticity\n\nGlu release activates\n\nionotropic AMPA Glu receptors\nmetabotropic Glu receptors\nN-methyl-D-aspartate (NMDA) Glu receptors\n\n\\(Ca^{++}\\) entry via NMDA receptor activates protein kinases (CaMKII and PKAII)\nEarly LTP (up to few hours)\n\nprotein kinases phosphorylate (add \\(P\\) group to) postsynaptic AMPA receptors\nIncrease current flow through AMPA (Glu) receptors\n\nLate LTP\n\ndepends on protein synthesis to generate new AMPA receptor\ninsertion of new AMPA receptors into postsynaptic membrane\n\nRetrograde signal generator influences presynaptic response\n\n\n\n\nLTP\n\n\n\n\nCode\nknitr::include_graphics(\"http://www.pitt.edu/~super1/lecture/lec14361/img024.GIF\")\n\n\n\n\n\nLTP\n\n\n\n\n\n\n\n\nEric R. Kandel"
+    "text": "Pathways to plasticity\n\nGlutamate release activates\n\nionotropic AMPA Glu receptors\nmetabotropic Glu receptors\nN-methyl-D-aspartate (NMDA) Glu receptors",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#hebbian-learning-via-nmda-receptor",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#hebbian-learning-via-nmda-receptor",
     "title": "Learning & Memory",
     "section": "‘Hebbian’ learning via NMDA receptor",
-    "text": "‘Hebbian’ learning via NMDA receptor\n\nN-methyl-D-aspartate receptor (NMDA-R)\n\nName derived from agonist molecule that selectively binds to the receptor\n\n‘Coincidence’ detector\n\nSending cell has released NT\nReceiving cell is/has been recently active\n\nChemically-gated AND\n\nLigand- (glutamate/aspartate + glycine) gated\nSending cell active\n\nVoltage-gated\n\n\\(Zn^{++}\\) or \\(Mg^{++}\\) ion ‘plug’ removed under depolarization\n\\(Na^+\\) & \\(Ca^{++}\\) influx; \\(K^+\\) outflux\nReceiving cell responds\n\n\n\n\n\nWikipedia\n\n\n\nNMDA receptor function may vary by location on neuron\n\nLong-term potentiation (LTP)\n\nSynaptic NMDA receptors\n\nLong-term depression (LTD)\n\nExtrasynaptic NMDA receptors\nLowered level of synaptic receptor activation"
+    "text": "‘Hebbian’ learning via NMDA receptor\n\nN-methyl-D-aspartate receptor (NMDA-R)\n\nName derived from agonist molecule that selectively binds to the receptor\n\n‘Coincidence’ detector\n\nSending cell has released NT\nReceiving cell is/has been recently active",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#nmda-r-clinical-significance",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#nmda-r-clinical-significance",
     "title": "Learning & Memory",
     "section": "NMDA-R clinical significance",
-    "text": "NMDA-R clinical significance\n\nMemantine (Alzheimer’s Disease treatment)\n\nNMDA-R antagonist\nControls over-activation and \\(Ca^{++}\\) excitotoxicity?\n\nNMDA-R implicated in effects of phencylidine (PCP)\n\nLink to Glu hypothesis of schizophrenia?\n\nKetamine is NMDA receptor antagonist\n\nanesthesia, sedation pain relief\npossible short-term relief for depression\n\nLinked to analgesic effects of nitrous oxide (laughing gas; \\(NO\\))\nAlcohol (ethanol) inhibits (Ron & Wang, 2011)"
+    "text": "NMDA-R clinical significance\n\nMemantine (Alzheimer’s Disease treatment)\n\nNMDA-R antagonist\nControls over-activation and \\(Ca^{++}\\) excitotoxicity?\n\nNMDA-R implicated in effects of phencylidine (PCP)\n\nLink to Glu hypothesis of schizophrenia?",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#spike-timing-dependent-plasticity",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#spike-timing-dependent-plasticity",
     "title": "Learning & Memory",
     "section": "Spike-timing-dependent plasticity",
-    "text": "Spike-timing-dependent plasticity\nHow to learn/remember “causal chains”?\n\ne.g., lightning THEN thunder\nunusual food THEN indigestion\n\n\n\n\n(Caporale & Dan, 2008)\n\n\n\n\n\n(Caporale & Dan, 2008)\n\n\n\nA before B: strengthen \\(A \\rightarrow B\\)\nA after B: \\(A \\rightarrow B\\)\nNeural Plasticity\n\nLasting changes in neural firing, connectivity\n\nNMDA receptor a molecular mechanism for implementing LTP and spike-timing-dependent plasticity"
+    "text": "Spike-timing-dependent plasticity\nHow to learn/remember “causal chains”?\n\ne.g., lightning THEN thunder\nunusual food THEN indigestion",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#memory-systems",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#memory-systems",
     "title": "Learning & Memory",
     "section": "Memory systems",
-    "text": "Memory systems"
+    "text": "Memory systems",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#lashleys-search-for-the-engram",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#lashleys-search-for-the-engram",
     "title": "Learning & Memory",
     "section": "Lashley’s search for the ‘engram’",
-    "text": "Lashley’s search for the ‘engram’\n\nIs memory ‘localized’ like sensory and motor functions? (Karl S. Lashley, 1944)\n\n\n\n\nK. S. Lashley & Clark (1946)\n\n\n\n““the area subdivisions are in large part anatomically meaningless and misleading as to the presumptive functional divisions of the cortex””\n\n(K. S. Lashley & Clark, 1946)\n\nNot in the rat cerebral cortex"
+    "text": "Lashley’s search for the ‘engram’\n\n\n\nIs memory ‘localized’ like sensory and motor functions? (Karl S. Lashley, 1944)\n\n\n\n\n\nK. S. Lashley & Clark (1946)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#modern-views",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#modern-views",
     "title": "Learning & Memory",
     "section": "Modern views",
-    "text": "Modern views\n\nCerebral cortex less central to “engram-like” memory than other areas\n\n\n\n\n(Squire, 2004)"
+    "text": "Modern views\n\n\n\nCerebral cortex less central to “engram-like” memory than other areas\n\n\n\n\n\nSquire (2004)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#hippocampus",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#hippocampus",
     "title": "Learning & Memory",
     "section": "Hippocampus",
-    "text": "Hippocampus\n\n\n\nhttps://upload.wikimedia.org/wikipedia/commons/5/5b/Hippocampus_and_seahorse_cropped.JPG\n\n\n\n\n\nSantiago Ramon Y Cajal; Source: Wikipedia\n\n\n\nDense in NMDA receptors\nCentral “hub” in network?\n\nNo, based on anatomical or functional connectivity\nBut yes, when modeling “information flow” (Mišić, Goñi, Betzel, Sporns, & McIntosh, 2014)\n\nFormation, storage, consolidation of long-term episodic or declarative memories\nStores info for later transfer to cortex\n\n“Engrams” form in hipp & PFC simultaneously, fade in PFC over time (Kitamura et al., 2017)\n\nSpatial navigation\n\nPlace cells\nGrid cells\nHead-direction cells\n\n\n\n\n\nKjelstrup et al. (2008)\n\n\n\nLondon taxi drivers (a high memory demand profession) have specialized hippocampi (Maguire et al., 2000)\n\n\n\n\n(Woollett & Maguire, 2011)\n\n\n\n\n\n\nNot due to self-motion, driving experience, or stress per se\n\n\nGray matter volume differences in the hippocampus relative to controls have been reported to accompany this expertise. While these gray matter differences could result from using and updating spatial representations, they might instead be influenced by factors such as self-motion, driving experience, and stress. We examined the contribution of these factors by comparing London taxi drivers with London bus drivers, who were matched for driving experience and levels of stress, but differed in that they follow a constrained set of routes. We found that compared with bus drivers, taxi drivers had greater gray matter volume in mid-posterior hippocampi and less volume in anterior hippocampi. Furthermore, years of navigation experience correlated with hippocampal gray matter volume only in taxi drivers, with right posterior gray matter volume increasing and anterior volume decreasing with more navigation experience. This suggests that spatial knowledge, and not stress, driving, or self-motion, is associated with the pattern of hippocampal gray matter volume in taxi drivers. (Maguire, Woollett, & Spiers, 2006)\n\n\n\n\n\n\n\n\n\nFigure 2. Gray Matter Volume Changes between T1 and T2 in Qualified Trainees\n\n\n\n\n\n\n\nFigure 3. Plot of Gray Matter Intensities across Groups and Time\n\n\n\n\n\n\nFigure 1: (Figures 1 and 2 from Woollett & Maguire, 2011)\n\n\n\n\nBirds with high memory demands have larger hippocampi\n\n\n\n\nSherry et al. (1989)\n\n\n\nBirds with high memory caching demands use sparse representations (“bar codes”) in hippocampus\n\n\n\n\nChettih et al. (2024)\n\n\n\n(Gilmore’s view) Humans have repurposed hippocampal system for other cognitive uses, e.g., semantic memory, language"
+    "text": "Hippocampus\n\n\n\nhttps://upload.wikimedia.org/wikipedia/commons/5/5b/Hippocampus_and_seahorse_cropped.JPG",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#cerebral-cortex",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#cerebral-cortex",
     "title": "Learning & Memory",
     "section": "Cerebral cortex",
-    "text": "Cerebral cortex\n\nContains retinotopic maps (beyond V1) that are memory-related (Steel, Silson, Garcia, & Robertson, 2024)\n\n\n\n\n(Figure 1 from Steel et al., 2024). a, PRF paradigm and modeling. In Exp. 1, participants underwent pRF mapping. Participants viewed visual scenes through a bar aperture that gradually traversed the visual field. Each visual-field traversal lasted 36 s (18 × 2 s positions), and the bar made eight traversals per run. The direction of motion varied between traversals. To estimate the pRF for each voxel, a synthetic time series is generated for 400 visual-field locations (200 x and y positions) and 100 sizes (sigma). This results in four million possible time series that are fit to each voxel’s activity. The fit results in four parameters describing each receptive field: x, y, sigma and amplitude. b, Negative-amplitude pRFs fall anterior to the cortex typically considered visual (beyond known retinotopic maps). Group average (n = 17) pRF amplitude map (threshold at explained variance R-squared (R2) &gt; 0.08) is shown on partially inflated representations of the left hemisphere, alongside ROIs: SPAs (OPA, PPA), PMAs (LPMA, VPMA) (localized in an independent group of participants24) and the DMN22. The known retinotopic maps in the posterior cortex (black dotted outlines21) contain exclusively positive-amplitude pRFs (hot colors), as visual stimulation evokes positive retinotopically specific BOLD responses. Negative-amplitude pRFs (cool colors), where visual stimulation evokes a negative spatially specific BOLD response, arise anterior to these retinotopic maps in the PMAs and DMN (see Fig. 2a for example time series from a representative subject).\n\n\n\n\n\n(Figure 2 from Steel et al., 2024). a, PRF modeling reveals posterior–anterior inversion of pRF amplitude in individual participants. Left, PRF amplitude for a representative participant overlaid onto a lateral view of the left hemisphere (threshold at R2 &gt; 0.15; see Extended Data Fig. 1 for example ventral and lateral surface pRF amplitude maps from all participants and Extended Data Fig. 3 for amplitude maps with default mode parcellation overlaid). Posterior visual cortex is dominated by positive-amplitude pRFs (hot colors), while cortex anterior to regions classically considered visual exhibits a high concentration of negative-amplitude pRFs (cold colors). This individual’s OPA and LPMA are shown in white. Both the SPAs and PMAs contain pRFs (Extended Data Fig. 2). Right, time-series, model fits and reconstructed pRFs for two surface vertices in this subject. Top, example prototypical positive-amplitude pRF from the lateral SPA (OPA) in the left and right hemispheres (LH, RH). Bottom, example negative-amplitude population receptive field from the LPMA. b, Memory areas (PMAs) contain a larger percentage of negative pRFs compared to perceptual areas (SPAs) (repeated measures ANOVA, Bonferroni-corrected t-tests). Blue bars depict percentage of negative pRFs from individually localized SPAs and PMAs compared to total pRFs in the area (dotted outline). On the ventral and lateral surfaces, SPAs are dominated by positive pRFs, whereas a transition from positive to negative pRFs is evident within PMAs. Individual participant data points overlaid and connected in gray. P two-tailed &lt; 0.05, **P two-tailed &lt; 0.001. NS, not significant.\n\n\n\nTogether with recent reports showing retinotopic coding persisting as far as the ‘cortical apex’ [15,16,31], including the DMN [15,16], and the hippocampus [31,32], our findings challenge conventional views of brain organization, which generally assume that retinotopic coding is replaced by abstract amodal coding as information propagates through the visual hierarchy [7,8,9,10] toward memory structures [11,12,13,14] (Steel et al., 2024)"
+    "text": "Cerebral cortex\n\nContains retinotopic maps (beyond V1) that are memory-related (Steel, Silson, Garcia, & Robertson, 2024)\n\n\n\n\nSteel et al. (2024) Figure 13",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#cerebellum",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#cerebellum",
     "title": "Learning & Memory",
     "section": "Cerebellum",
-    "text": "Cerebellum\n\nresponse timing, sequences, especially in classical conditioning paradigms Jirenhed, Rasmussen, Johansson, & Hesslow (2017)"
+    "text": "Cerebellum\n\nresponse timing, sequences, especially in classical conditioning paradigms (Jirenhed, Rasmussen, Johansson, & Hesslow, 2017)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#amnesia",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#amnesia",
     "title": "Learning & Memory",
     "section": "Amnesia",
-    "text": "Amnesia\n\nAcquired loss of memory\n≠ normal forgetting\nRetrograde (‘backwards’ in time)\n\nDamage to information acquired pre-injury\nTemporally graded\n\nAnterograde (‘forward’ in time)\n\nDamage to information acquired/experienced post-injury"
+    "text": "Amnesia\n\nAcquired loss of memory\n≠ normal forgetting\nRetrograde (‘backwards’ in time)\n\nDamage to information acquired pre-injury\nTemporally graded\n\nAnterograde (‘forward’ in time)\n\nDamage to information acquired/experienced post-injury",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#patient-hm-henry-g.-molaison",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#patient-hm-henry-g.-molaison",
     "title": "Learning & Memory",
     "section": "Patient HM (Henry G. Molaison)",
-    "text": "Patient HM (Henry G. Molaison)\n\nIntractable/untreatable epilepsy\nBilateral resection of medial temporal lobe (1953)\nEpilepsy now treatable\nBut, memory impaired\nLived until 2008\n\n\n\n\n\n\n\nhttps://www.pbs.org/wgbh/nova/article/corkin-hm-memory/"
+    "text": "Patient HM (Henry G. Molaison)\n\nIntractable/untreatable epilepsy\nBilateral resection of medial temporal lobe (1953)\nEpilepsy now treatable\nBut, memory impaired\nLived until 2008\n\n\n\n\n\n\n\nhttps://www.pbs.org/wgbh/nova/article/corkin-hm-memory/",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#hms-amnesia",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#hms-amnesia",
     "title": "Learning & Memory",
     "section": "HM’s amnesia",
-    "text": "HM’s amnesia\n\nRetrograde amnesia\n\nCan’t remember 10 yrs before operation\nDistant past better than more recent\n\nSevere, global anterograde amnesia\n\nImpaired learning of new facts, events, people\n\nBut, skills (mirror learning) intact\n\n\n“Every day is alone in itself, whatever enjoyment I’ve had, and whatever sorrow I’ve had…Right now, I’m wondering, have I done or said anything amiss? You see at this moment, everything looks clear to me, but what happened just before? That’s what worries me. It’s like waking from a dream. I just don’t remember.”"
+    "text": "HM’s amnesia\n\nRetrograde amnesia\n\nCan’t remember 10 yrs before operation\nDistant past better than more recent\n\nSevere, global anterograde amnesia\n\nImpaired learning of new facts, events, people\n\nBut, skills (mirror learning) intact",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#other-causes-of-amnesia",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#other-causes-of-amnesia",
     "title": "Learning & Memory",
     "section": "Other causes of amnesia",
-    "text": "Other causes of amnesia\n\nDisease\n\nAlzheimer’s, herpes virus\n\nKorsakoff’s syndrome\n\nResult of severe alcoholism\nImpairs medial thalamus & mammillary bodies"
+    "text": "Other causes of amnesia\n\nDisease\n\nAlzheimer’s, herpes virus\n\nKorsakoff’s syndrome\n\nResult of severe alcoholism\nImpairs medial thalamus & mammillary bodies",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#patient-na",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#patient-na",
     "title": "Learning & Memory",
     "section": "Patient NA",
-    "text": "Patient NA\n\nFencing accident\nDamage to medial thalamus\nAnterograde + graded retrograde amnesia\nAre thalamus & medial temporal region connected?"
+    "text": "Patient NA\n\nFencing accident\nDamage to medial thalamus\nAnterograde + graded retrograde amnesia\nAre thalamus & medial temporal region connected?",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#spared-skills-in-amnesia",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#spared-skills-in-amnesia",
     "title": "Learning & Memory",
     "section": "Spared skills in amnesia",
-    "text": "Spared skills in amnesia\n\nSkill-learning\nMirror-reading, writing\nShort-term memory\n“Cognitive” skills\nPriming"
+    "text": "Spared skills in amnesia\n\nSkill-learning\nMirror-reading, writing\nShort-term memory\n“Cognitive” skills\nPriming",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#what-does-amnesia-tell-us",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#what-does-amnesia-tell-us",
     "title": "Learning & Memory",
     "section": "What does amnesia tell us?",
-    "text": "What does amnesia tell us?\n\nLong-term memory for facts, events, people\n≠ Short-term memory\n≠ Long-term memory for “skills”\nSeparate memory systems in the brain?"
+    "text": "What does amnesia tell us?\n\nLong-term memory for facts, events, people\n≠ Short-term memory\n≠ Long-term memory for “skills”\nSeparate memory systems in the brain?",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#alzheimers-disease-ad",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#alzheimers-disease-ad",
     "title": "Learning & Memory",
     "section": "Alzheimer’s Disease (AD)",
-    "text": "Alzheimer’s Disease (AD)\n\nChronic, neurodegenerative disease affecting ~5 M Americans\nCognitive dysfunction (memory loss, language difficulties, planning, coordination)\nPsychiatric symptoms and behavioral disturbances\nDifficulties with daily living\nBurns & Iliffe (2009)\nBuild up of amyloid \\(\\beta\\) protein plaques in brain tissue\nAPOE e4 gene variant increases risk 2-12x"
+    "text": "Alzheimer’s Disease (AD)\n\nChronic, neurodegenerative disease affecting ~5 M Americans\nCognitive dysfunction (memory loss, language difficulties, planning, coordination)\nPsychiatric symptoms and behavioral disturbances\nDifficulties with daily living",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#progression",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#progression",
     "title": "Learning & Memory",
     "section": "Progression",
-    "text": "Progression\n\n\n\nBurns & Iliffe (2009)\n\n\n\nPost-mortem exams show \\(\\beta\\) amyloid plaques and neurofibrillary tangles"
+    "text": "Progression\n\n\n\nBurns & Iliffe (2009) Figure 1",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#treatments",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#treatments",
     "title": "Learning & Memory",
     "section": "Treatments",
-    "text": "Treatments\n\nAcetylcholinesterase (AChE) inhbitors (e.g. Aricept): Slow ACh inactivation\nNMDA-R partial antagonists (e.g., Memantine): Slow LTP\nDrugs that remove amyloid \\(\\beta\\) (e.g, lecanemab) don’t work especially well + have side effects\nAD the result of disordered immune response (Jevtic, Sengar, Salter, & McLaurin, 2017)?\n\nPromising prospective therapy using microglia to remove amyloid \\(\\beta\\) (Hou et al., 2024)\nLink between genetic factor (APOE4/4 gene) and fatty build-up in microglia (Haney et al., 2024)"
+    "text": "Treatments\n\nAcetylcholinesterase (AChE) inhbitors (e.g. Aricept): Slow ACh inactivation\nNMDA-R partial antagonists (e.g., Memantine): Slow LTP\nDrugs that remove amyloid \\(\\beta\\) (e.g, lecanemab) don’t work especially well + have side effects",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#the-other-end-of-the-spectrum",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#the-other-end-of-the-spectrum",
     "title": "Learning & Memory",
     "section": "The other end of the spectrum…",
-    "text": "The other end of the spectrum…\n\n\nWhat about working memory? (D’Esposito & Postle, 2015)\n\nLTM representations of target items + attention -&gt; elevated activation\n\nSemantic items\nSensorimotor items\n\nCapacity for attended items (in Focus of Attention or FoA) limited ~ 4\nNeural basis\n\nsustained activation in PFC\nsubthreshold activation in areas where items are stored\n\nIndividual differences in visual WM\n\n\n\n\nLuck & Vogel (2013)"
+    "text": "The other end of the spectrum…",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#what-about-working-memory-desposito2015-zm-1",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#what-about-working-memory-desposito2015-zm-1",
     "title": "Learning & Memory",
     "section": "What about working memory? (D’Esposito & Postle, 2015)",
-    "text": "What about working memory? (D’Esposito & Postle, 2015)\n\nLTM representations of target items + attention -&gt; elevated activation\n\nSemantic items\nSensorimotor items\n\nCapacity for attended items (in Focus of Attention or FoA) limited ~ 4\nNeural basis\n\nsustained activation in PFC\nsubthreshold activation in areas where items are stored\n\nIndividual differences in visual WM\n\n\n\n\nLuck & Vogel (2013)"
+    "text": "What about working memory? (D’Esposito & Postle, 2015)\n\nLTM representations of target items + attention -&gt; elevated activation\n\nSemantic items\nSensorimotor items\n\nCapacity for attended items (in Focus of Attention or FoA) limited ~ 4\nNeural basis\n\nsustained activation in PFC\nsubthreshold activation in areas where items are stored\n\nIndividual differences in visual WM\n\n\n\n\nLuck & Vogel (2013)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#summary",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#summary",
     "title": "Learning & Memory",
     "section": "Summary",
-    "text": "Summary\n\nMultiple types of learning & memory\nLearning & memory distributed across the brain\n\nSpecializations relate to location in the network? (input/output/in-between)\n\nHippocampus + PFC critical areas binding together sensory/semantic info stored elsewhere\nChanges in synaptic #, strength, connectivity provide cellular basis"
+    "text": "Summary\n\nMultiple types of learning & memory\nLearning & memory distributed across the brain\n\nSpecializations relate to location in the network? (input/output/in-between)\n\nHippocampus + PFC critical areas binding together sensory/semantic info stored elsewhere\nChanges in synaptic #, strength, connectivity provide cellular basis",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#main-points",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#main-points",
     "title": "Learning & Memory",
     "section": "Main points",
-    "text": "Main points"
+    "text": "Main points\n\nMultiple types of learning & memory\nLearning & memory distributed across the brain\n\nSpecializations relate to location in the network? (input/output/in-between)\n\nHippocampus + PFC critical areas binding together sensory/semantic info stored elsewhere\nChanges in synaptic #, strength, connectivity provide cellular basis",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#next-time",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#next-time",
     "title": "Learning & Memory",
     "section": "Next time",
-    "text": "Next time"
+    "text": "Next time\n\nLanguage",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#about",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#about",
     "title": "Learning & Memory",
     "section": "About",
-    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2026.1.0.392.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/"
+    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2026.1.0.392.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-05-2026-02-12-learning-memory.html#references",
     "href": "slides/wk-05-2026-02-12-learning-memory.html#references",
     "title": "Learning & Memory",
     "section": "References",
-    "text": "References\n\n\n\n\nBliss, T. V. P., & Lømo, T. (1973). Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path. J. Physiol., 232(2), 331–356. Retrieved from http://onlinelibrary.wiley.com/doi/10.1113/jphysiol.1973.sp010273/full\n\n\nBurns, A., & Iliffe, S. (2009). Alzheimer’s disease. BMJ, 338, b158. https://doi.org/10.1136/bmj.b158\n\n\nCaporale, N., & Dan, Y. (2008). Spike timing-dependent plasticity: A hebbian learning rule. Annu. Rev. Neurosci., 31, 25–46. https://doi.org/10.1146/annurev.neuro.31.060407.125639\n\n\nChettih, S. N., Mackevicius, E. L., Hale, S., & Aronov, D. (2024). Barcoding of episodic memories in the hippocampus of a food-caching bird. Cell. https://doi.org/10.1016/j.cell.2024.02.032\n\n\nD’Esposito, M., & Postle, B. R. (2015). The cognitive neuroscience of working memory. Annu. Rev. Psychol., 66, 115–142. https://doi.org/10.1146/annurev-psych-010814-015031\n\n\nDeep learning vs machine learning: The ultimate battle. (2022, May). https://www.turing.com/kb/ultimate-battle-between-deep-learning-and-machine-learning; Turing Enterprises Inc. Retrieved from https://www.turing.com/kb/ultimate-battle-between-deep-learning-and-machine-learning\n\n\nDeep learning vs. Machine learning - azure machine learning. (n.d.). https://learn.microsoft.com/en-us/azure/machine-learning/concept-deep-learning-vs-machine-learning?view=azureml-api-2. Retrieved from https://learn.microsoft.com/en-us/azure/machine-learning/concept-deep-learning-vs-machine-learning?view=azureml-api-2\n\n\nGelber, B. (1952). Investigations of the behavior of paramecium aurelia. I. Modification of behavior after training with reinforcement. Journal of Comparative and Physiological Psychology, 45(1), 58–65. https://doi.org/10.1037/h0063093\n\n\nGelber, Beatrice. (1962). Reminiscence and the trend of retention in paramecium aurelia. The Psychological Record, 12(2), 179–192. https://doi.org/10.1007/BF03393455\n\n\nGershman, S. J., Balbi, P. E., Gallistel, C. R., & Gunawardena, J. (2021). Reconsidering the evidence for learning in single cells. eLife, 10, e61907. https://doi.org/10.7554/eLife.61907\n\n\nHaney, M. S., Pálovics, R., Munson, C. N., Long, C., Johansson, P. K., Yip, O., … Wyss-Coray, T. (2024). APOE4/4 is linked to damaging lipid droplets in alzheimer’s disease microglia. Nature, 628(8006), 154–161. https://doi.org/10.1038/s41586-024-07185-7\n\n\nHou, J., Chen, Y., Cai, Z., Heo, G. S., Yuede, C. M., Wang, Z., … Colonna, M. (2024). Antibody-mediated targeting of human microglial leukocyte ig-like receptor B4 attenuates amyloid pathology in a mouse model. Science Translational Medicine, 16(741), eadj9052. https://doi.org/10.1126/scitranslmed.adj9052\n\n\nJevtic, S., Sengar, A. S., Salter, M. W., & McLaurin, J. (2017). The role of the immune system in alzheimer disease: Etiology and treatment. Ageing Research Reviews, 40, 84–94. https://doi.org/10.1016/j.arr.2017.08.005\n\n\nJirenhed, D.-A., Rasmussen, A., Johansson, F., & Hesslow, G. (2017). Learned response sequences in cerebellar purkinje cells. Proceedings of the National Academy of Sciences of the United States of America, 114(23), 6127–6132. https://doi.org/10.1073/pnas.1621132114\n\n\nKitamura, T., Ogawa, S. K., Roy, D. S., Okuyama, T., Morrissey, M. D., Smith, L. M., … Tonegawa, S. (2017). Engrams and circuits crucial for systems consolidation of a memory. Science, 356(6333), 73–78. https://doi.org/10.1126/science.aam6808\n\n\nKjelstrup, K. B., Solstad, T., Brun, V. H., Hafting, T., Leutgeb, S., Witter, M. P., … Moser, M.-B. (2008). Finite Scale of Spatial Representation in the Hippocampus. Science, 321(5885), 140–143. https://doi.org/10.1126/science.1157086\n\n\nLashley, Karl S. (1944). Studies of cerebral function in learning. XIII. Apparent absence of transcortical association in maze learning. Journal of Comparative Neurology. Retrieved from https://onlinelibrary.wiley.com/doi/abs/10.1002/cne.900800207\n\n\nLashley, K. S., & Clark, G. (1946). The cytoarchitecture of the cerebral cortex of ateles; a critical examination of architectonic studies. The Journal of Comparative Neurology, 85(2), 223–305. https://doi.org/10.1002/cne.900850207\n\n\nLearning styles as a myth. (2017, June). https://poorvucenter.yale.edu/LearningStylesMyth. Retrieved from https://poorvucenter.yale.edu/LearningStylesMyth\n\n\nLuck, S. J., & Vogel, E. K. (2013). Visual working memory capacity: From psychophysics and neurobiology to individual differences. Trends Cogn. Sci., 17(8), 391–400. https://doi.org/10.1016/j.tics.2013.06.006\n\n\nMaguire, E. A., Gadian, D. G., Johnsrude, I. S., Good, C. D., Ashburner, J., Frackowiak, R. S., & Frith, C. D. (2000). Navigation-related structural change in the hippocampi of taxi drivers. Proceedings of the National Academy of Sciences, 97(8), 4398–4403. https://doi.org/10.1073/pnas.070039597\n\n\nMaguire, E. A., Woollett, K., & Spiers, H. J. (2006). London taxi drivers and bus drivers: A structural MRI and neuropsychological analysis. Hippocampus, 16(12), 1091–1101. https://doi.org/10.1002/hipo.20233\n\n\nMišić, B., Goñi, J., Betzel, R. F., Sporns, O., & McIntosh, A. R. (2014). A network convergence zone in the hippocampus. PLoS Comput. Biol., 10(12), e1003982. https://doi.org/10.1371/journal.pcbi.1003982\n\n\nPashler, H., McDaniel, M., Rohrer, D., & Bjork, R. (2008). Learning styles: Concepts and evidence. Psychological Science in the Public Interest: A Journal of the American Psychological Society, 9(3), 105–119. https://doi.org/10.1111/j.1539-6053.2009.01038.x\n\n\nRon, D., & Wang, J. (2011). The NMDA receptor and alcohol addiction. In A. M. Van Dongen (Ed.), Biology of the NMDA receptor. Boca Raton (FL): CRC Press/Taylor & Francis. Retrieved from https://www.ncbi.nlm.nih.gov/pubmed/21204417\n\n\nSherry, D. F., Vaccarino, A. L., Buckenham, K., & Herz, R. S. (1989). The Hippocampal Complex of Food-Storing Birds. Brain, Behavior and Evolution, 34(5), 308–317. https://doi.org/10.1159/000116516\n\n\nSquire, L. R. (2004). Memory systems of the brain: A brief history and current perspective. Neurobiology of Learning and Memory, 82(3), 171–177. https://doi.org/10.1016/j.nlm.2004.06.005\n\n\nSteel, A., Silson, E. H., Garcia, B. D., & Robertson, C. E. (2024). A retinotopic code structures the interaction between perception and memory systems. Nature Neuroscience. https://doi.org/10.1038/s41593-023-01512-3\n\n\nTch, A. (2017, August). The mostly complete chart of neural networks, explained. https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464. Retrieved from https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464\n\n\nVeen, F. van. (n.d.). Neural network zoo prequel: Cells and layers. https://www.asimovinstitute.org/author/fjodorvanveen/. Retrieved from https://www.asimovinstitute.org/author/fjodorvanveen/\n\n\nWoollett, K., & Maguire, E. A. (2011). Acquiring “the knowledge” of london’s layout drives structural brain changes. Current Biology: CB, 21(24), 2109–2114. https://doi.org/10.1016/j.cub.2011.11.018"
+    "text": "References\n\n\n\n\nBliss, T. V. P., & Lømo, T. (1973). Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path. J. Physiol., 232(2), 331–356. Retrieved from http://onlinelibrary.wiley.com/doi/10.1113/jphysiol.1973.sp010273/full\n\n\nBurns, A., & Iliffe, S. (2009). Alzheimer’s disease. BMJ, 338, b158. https://doi.org/10.1136/bmj.b158\n\n\nCaporale, N., & Dan, Y. (2008). Spike timing-dependent plasticity: A hebbian learning rule. Annu. Rev. Neurosci., 31, 25–46. https://doi.org/10.1146/annurev.neuro.31.060407.125639\n\n\nChettih, S. N., Mackevicius, E. L., Hale, S., & Aronov, D. (2024). Barcoding of episodic memories in the hippocampus of a food-caching bird. Cell. https://doi.org/10.1016/j.cell.2024.02.032\n\n\nD’Esposito, M., & Postle, B. R. (2015). The cognitive neuroscience of working memory. Annu. Rev. Psychol., 66, 115–142. https://doi.org/10.1146/annurev-psych-010814-015031\n\n\nDeep learning vs machine learning: The ultimate battle. (2022, May). https://www.turing.com/kb/ultimate-battle-between-deep-learning-and-machine-learning; Turing Enterprises Inc. Retrieved from https://www.turing.com/kb/ultimate-battle-between-deep-learning-and-machine-learning\n\n\nDeep learning vs. Machine learning - azure machine learning. (n.d.). https://learn.microsoft.com/en-us/azure/machine-learning/concept-deep-learning-vs-machine-learning?view=azureml-api-2. Retrieved from https://learn.microsoft.com/en-us/azure/machine-learning/concept-deep-learning-vs-machine-learning?view=azureml-api-2\n\n\nGelber, B. (1952). Investigations of the behavior of paramecium aurelia. I. Modification of behavior after training with reinforcement. Journal of Comparative and Physiological Psychology, 45(1), 58–65. https://doi.org/10.1037/h0063093\n\n\nGelber, Beatrice. (1962). Reminiscence and the trend of retention in paramecium aurelia. The Psychological Record, 12(2), 179–192. https://doi.org/10.1007/BF03393455\n\n\nGershman, S. J., Balbi, P. E., Gallistel, C. R., & Gunawardena, J. (2021). Reconsidering the evidence for learning in single cells. eLife, 10, e61907. https://doi.org/10.7554/eLife.61907\n\n\nHaney, M. S., Pálovics, R., Munson, C. N., Long, C., Johansson, P. K., Yip, O., … Wyss-Coray, T. (2024). APOE4/4 is linked to damaging lipid droplets in alzheimer’s disease microglia. Nature, 628(8006), 154–161. https://doi.org/10.1038/s41586-024-07185-7\n\n\nHebb, D. O. (1949). The organization of behavior; A neuropsychological theory (Vol. 335). Oxford, England: Wiley. Retrieved from https://psycnet.apa.org/fulltext/1950-02200-000.pdf\n\n\nHou, J., Chen, Y., Cai, Z., Heo, G. S., Yuede, C. M., Wang, Z., … Colonna, M. (2024). Antibody-mediated targeting of human microglial leukocyte ig-like receptor B4 attenuates amyloid pathology in a mouse model. Science Translational Medicine, 16(741), eadj9052. https://doi.org/10.1126/scitranslmed.adj9052\n\n\nJevtic, S., Sengar, A. S., Salter, M. W., & McLaurin, J. (2017). The role of the immune system in alzheimer disease: Etiology and treatment. Ageing Research Reviews, 40, 84–94. https://doi.org/10.1016/j.arr.2017.08.005\n\n\nJirenhed, D.-A., Rasmussen, A., Johansson, F., & Hesslow, G. (2017). Learned response sequences in cerebellar purkinje cells. Proceedings of the National Academy of Sciences of the United States of America, 114(23), 6127–6132. https://doi.org/10.1073/pnas.1621132114\n\n\nJosselyn, S. A., & Tonegawa, S. (2020). Memory engrams: Recalling the past and imagining the future. Science. https://doi.org/10.1126/science.aaw4325\n\n\nKitamura, T., Ogawa, S. K., Roy, D. S., Okuyama, T., Morrissey, M. D., Smith, L. M., … Tonegawa, S. (2017). Engrams and circuits crucial for systems consolidation of a memory. Science, 356(6333), 73–78. https://doi.org/10.1126/science.aam6808\n\n\nKjelstrup, K. B., Solstad, T., Brun, V. H., Hafting, T., Leutgeb, S., Witter, M. P., … Moser, M.-B. (2008). Finite Scale of Spatial Representation in the Hippocampus. Science, 321(5885), 140–143. https://doi.org/10.1126/science.1157086\n\n\nLashley, Karl S. (1944). Studies of cerebral function in learning. XIII. Apparent absence of transcortical association in maze learning. Journal of Comparative Neurology. Retrieved from https://onlinelibrary.wiley.com/doi/abs/10.1002/cne.900800207\n\n\nLashley, K. S., & Clark, G. (1946). The cytoarchitecture of the cerebral cortex of ateles; a critical examination of architectonic studies. The Journal of Comparative Neurology, 85(2), 223–305. https://doi.org/10.1002/cne.900850207\n\n\nLearning styles as a myth. (2017, June). https://poorvucenter.yale.edu/LearningStylesMyth. Retrieved from https://poorvucenter.yale.edu/LearningStylesMyth\n\n\nLöwel, S., & Singer, W. (1992). Selection of intrinsic horizontal connections in the visual cortex by correlated neuronal activity. Science, 255, 209–212. https://doi.org/10.1126/science.1372754\n\n\nLuck, S. J., & Vogel, E. K. (2013). Visual working memory capacity: From psychophysics and neurobiology to individual differences. Trends Cogn. Sci., 17(8), 391–400. https://doi.org/10.1016/j.tics.2013.06.006\n\n\nMaguire, E. A., Gadian, D. G., Johnsrude, I. S., Good, C. D., Ashburner, J., Frackowiak, R. S., & Frith, C. D. (2000). Navigation-related structural change in the hippocampi of taxi drivers. Proceedings of the National Academy of Sciences, 97(8), 4398–4403. https://doi.org/10.1073/pnas.070039597\n\n\nMaguire, E. A., Woollett, K., & Spiers, H. J. (2006). London taxi drivers and bus drivers: A structural MRI and neuropsychological analysis. Hippocampus, 16(12), 1091–1101. https://doi.org/10.1002/hipo.20233\n\n\nMcCulloch, W. S., & Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. The Bulletin of Mathematical Biophysics, 5, 115–133. https://doi.org/10.1007/BF02478259\n\n\nMišić, B., Goñi, J., Betzel, R. F., Sporns, O., & McIntosh, A. R. (2014). A network convergence zone in the hippocampus. PLoS Comput. Biol., 10(12), e1003982. https://doi.org/10.1371/journal.pcbi.1003982\n\n\nPashler, H., McDaniel, M., Rohrer, D., & Bjork, R. (2008). Learning styles: Concepts and evidence. Psychological Science in the Public Interest: A Journal of the American Psychological Society, 9(3), 105–119. https://doi.org/10.1111/j.1539-6053.2009.01038.x\n\n\nReber, P. (2010, May 1). What is the memory capacity of the human brain? Retrieved December 3, 2025, from https://www.scientificamerican.com/article/what-is-the-memory-capacity/\n\n\nRon, D., & Wang, J. (2011). The NMDA receptor and alcohol addiction. In A. M. Van Dongen (Ed.), Biology of the NMDA receptor. Boca Raton (FL): CRC Press/Taylor & Francis. Retrieved from https://www.ncbi.nlm.nih.gov/pubmed/21204417\n\n\nSherry, D. F., Vaccarino, A. L., Buckenham, K., & Herz, R. S. (1989). The Hippocampal Complex of Food-Storing Birds. Brain, Behavior and Evolution, 34(5), 308–317. https://doi.org/10.1159/000116516\n\n\nSquire, L. R. (2004). Memory systems of the brain: A brief history and current perspective. Neurobiology of Learning and Memory, 82(3), 171–177. https://doi.org/10.1016/j.nlm.2004.06.005\n\n\nSteel, A., Silson, E. H., Garcia, B. D., & Robertson, C. E. (2024). A retinotopic code structures the interaction between perception and memory systems. Nature Neuroscience. https://doi.org/10.1038/s41593-023-01512-3\n\n\nTch, A. (2017, August). The mostly complete chart of neural networks, explained. https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464. Retrieved from https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464\n\n\nVeen, F. van. (n.d.). Neural network zoo prequel: Cells and layers. https://www.asimovinstitute.org/author/fjodorvanveen/. Retrieved from https://www.asimovinstitute.org/author/fjodorvanveen/\n\n\nWoollett, K., & Maguire, E. A. (2011). Acquiring “the knowledge” of london’s layout drives structural brain changes. Current Biology: CB, 21(24), 2109–2114. https://doi.org/10.1016/j.cub.2011.11.018",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   },
   {
     "objectID": "slides/wk-03-2026-01-29-action.html#prelude",
@@ -5916,6 +6096,512 @@
     "crumbs": [
       "Slides",
       "Wk 04 • Thu Feb 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html",
+    "title": "Learning & Memory",
+    "section": "",
+    "text": "Big picture questions\nBiological bases of\nDisorders of memory\nWorking memory",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#types",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#types",
+    "title": "Learning & Memory",
+    "section": "Types",
+    "text": "Types\n\nNon-associative\n\n\\(A(t+1) = f(A(t))\\)\nHabituation (\\(\\dot f &lt; 0\\)), sensitization (\\(\\dot f &gt; 0\\))\n\nAssociative\n\n\\(A \\rightarrow B\\)\nClassical & operant/instrumental conditioning\nSequence, observational, episodic, semantic…learning",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#learning-styles-1",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#learning-styles-1",
+    "title": "Learning & Memory",
+    "section": "Learning styles?",
+    "text": "Learning styles?\n\nAlthough the literature on learning styles is enormous, very few studies have even used an experimental methodology capable of testing the validity of learning styles applied to education. Moreover, of those that did use an appropriate method, several found results that flatly contradict the popular meshing hypothesis. We conclude therefore, that at present, there is no adequate evidence base to justify incorporating learning-styles assessments into general educational practice.",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#how-do-computers-and-brains-compare-1",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#how-do-computers-and-brains-compare-1",
+    "title": "Learning & Memory",
+    "section": "How do computers and brains compare?",
+    "text": "How do computers and brains compare?\n\n\n\n\n\n\n\nComputers\nBrains\n\n\n\n\nRender binary sequences differently based on information about the type of data stored\nRetrieve different types based on ???\n\n\nInspired by mathematical models of neurons\nCan be simulated by mathematical models implemented in computers",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#artificial-neurons",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#artificial-neurons",
+    "title": "Learning & Memory",
+    "section": "Artificial neurons",
+    "text": "Artificial neurons\n\nMathematical/computational models of neurons & networks has 70 year+ history (McCulloch & Pitts, 1943)\n\n\n\n\nMcCulloch-Pitts artificial neuron",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#are-myths-pashler2008-zi",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#are-myths-pashler2008-zi",
+    "title": "Learning & Memory",
+    "section": "Are myths (Pashler, McDaniel, Rohrer, & Bjork, 2008)",
+    "text": "Are myths (Pashler, McDaniel, Rohrer, & Bjork, 2008)\n\nAlthough the literature on learning styles is enormous, very few studies have even used an experimental methodology capable of testing the validity of learning styles applied to education. Moreover, of those that did use an appropriate method, several found results that flatly contradict the popular meshing hypothesis…",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#how-do-machines-learn",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#how-do-machines-learn",
+    "title": "Learning & Memory",
+    "section": "How do machines “learn”?",
+    "text": "How do machines “learn”?\n\nNeural networks",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#section",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#section",
+    "title": "Learning & Memory",
+    "section": "",
+    "text": "“Deep learning vs machine learning” (2022)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#types-1",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#types-1",
+    "title": "Learning & Memory",
+    "section": "Types?",
+    "text": "Types?\n\nFacts/events/places/feelings vs. skills\nShort vs. long-term\n\nWorking memory ~ short-term maintenance for guiding action\n\nExplicit (declarative: semantic vs. episodic) vs. implicit (procedural)\nRetrospective (from the past) vs. prospective (to be remembered)\nRecognition (judgment of familiarity or novelty) vs. recall",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#computer-memory-vs.-brains",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#computer-memory-vs.-brains",
+    "title": "Learning & Memory",
+    "section": "Computer memory vs. brains",
+    "text": "Computer memory vs. brains\n\n\n\n\n\n\n\nComputers\nBrains\n\n\n\n\nSeparate memory and processing stores\nProcessing & memory not separate; pecialized regions\n\n\nSpecific addresses\nDistributed networks (no addresses?)\n\n\n(Usually) non-volatile\nVolatile\n\n\nAll types–images, sounds, text, data–stored as binary sequences, e.g., 01101110\nStored patterns of synaptic connections and ???",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#computer-memory-vs.-brains-1",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#computer-memory-vs.-brains-1",
+    "title": "Learning & Memory",
+    "section": "Computer memory vs. brains",
+    "text": "Computer memory vs. brains\n\n\n\n\n\n\n\nComputers\nBrains\n\n\n\n\nRender binary sequences differently based on information about the type of data stored\nRetrieve different types based on ???\n\n\nInspired by mathematical models of neurons\nCan be simulated by mathematical models implemented in computers",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#does-learning-require-a-network",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#does-learning-require-a-network",
+    "title": "Learning & Memory",
+    "section": "Does learning require a network?",
+    "text": "Does learning require a network?\n\nLearning in single cells controversial (Gershman, Balbi, Gallistel, & Gunawardena, 2021)\nBeatrice Gelber",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#section-1",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#section-1",
+    "title": "Learning & Memory",
+    "section": "",
+    "text": "Squire (2004)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#section-2",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#section-2",
+    "title": "Learning & Memory",
+    "section": "",
+    "text": "Gershman et al. (2021) Figure 11",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#mechanisms",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#mechanisms",
+    "title": "Learning & Memory",
+    "section": "Mechanism(s)",
+    "text": "Mechanism(s)\n\nEssentially, Semon proposed that an experience activates a population of neurons that undergo persistent chemical and/or physical changes to become an engram. Subsequent reactivation of the engram by cues available at the time of the experience induces memory retrieval.\n\n– Josselyn & Tonegawa (2020)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#mechanisms-1",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#mechanisms-1",
+    "title": "Learning & Memory",
+    "section": "Mechanism(s)",
+    "text": "Mechanism(s)\n\nEssentially, Semon proposed that an experience activates a population of neurons that undergo persistent chemical and/or physical changes to become an engram. Subsequent reactivation of the engram by cues available at the time of the experience induces memory retrieval.\n\n– (Josselyn2020-xr?)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#neural-substrates-engrams-consist-of",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#neural-substrates-engrams-consist-of",
+    "title": "Learning & Memory",
+    "section": "Neural substrates (engrams) consist of",
+    "text": "Neural substrates (engrams) consist of\n\nChanges in patterns of neural activity\nChanges in connectivity\n\nNew synapses\nAltered synapses (strengthened or weakened)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#donald-hebb",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#donald-hebb",
+    "title": "Learning & Memory",
+    "section": "Donald Hebb",
+    "text": "Donald Hebb\n\n\n\nCanadian clinical neuropsychologist\nAuthor of The Organization of Behavior (1949)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#hebbian-learning",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#hebbian-learning",
+    "title": "Learning & Memory",
+    "section": "Hebbian learning",
+    "text": "Hebbian learning\n\n“When an axon of cell A is near enough to excite cell B and repeatedly or persistently takes part in firing it, some growth process or metabolic change takes place in one or both cells such that A’s efficacy, as on of the cells firing B, is increased.”\n\n– Hebb (1949)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#hebbian-learning-1",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#hebbian-learning-1",
+    "title": "Learning & Memory",
+    "section": "Hebbian learning",
+    "text": "Hebbian learning\n\n“Neurons that fire together wire together.”\n\n– Löwel & Singer (1992)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#hebbian-learning-is-associative",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#hebbian-learning-is-associative",
+    "title": "Learning & Memory",
+    "section": "Hebbian learning is associative",
+    "text": "Hebbian learning is associative\n\nNeuron A active &\nNeuron B active \\(\\rightarrow\\)\n\n\n\n\n\n\nflowchart LR\n  A --&gt; B\n\n\n\n\n\n\n\n\nStrengthen link (synapse) between them\n\n\n\n\n\n\nflowchart LR\n  A ==&gt; B",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#footnotes",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#footnotes",
+    "title": "Learning & Memory",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nNews story about Beatrice Gelber from the Tucson Daily Citizen October 19, 1960. © 1960, USA TODAY NETWORK. This image is not covered by the CC-BY 4.0 licence and may not be separated from the article.\nIn Experiment 1 (top), one group of Paramecia was exposed to intermittent training trials in which a wire was coated with bacteria (every 3rd trial during the training phase). This group acquired a conditioned response to the clean wire, as measured by adherence to the wire in final test trials. In contrast, an untrained group did not show a conditioned response. Experiment 2 (bottom) demonstrated that the wire by itself did not drive conditioned responding.\na, PRF paradigm and modeling. In Exp. 1, participants underwent pRF mapping. Participants viewed visual scenes through a bar aperture that gradually traversed the visual field. Each visual-field traversal lasted 36 s (18 × 2 s positions), and the bar made eight traversals per run. The direction of motion varied between traversals. To estimate the pRF for each voxel, a synthetic time series is generated for 400 visual-field locations (200 x and y positions) and 100 sizes (sigma). This results in four million possible time series that are fit to each voxel’s activity. The fit results in four parameters describing each receptive field: x, y, sigma and amplitude. b, Negative-amplitude pRFs fall anterior to the cortex typically considered visual (beyond known retinotopic maps). Group average (n = 17) pRF amplitude map (threshold at explained variance R-squared (R2) &gt; 0.08) is shown on partially inflated representations of the left hemisphere, alongside ROIs: SPAs (OPA, PPA), PMAs (LPMA, VPMA) (localized in an independent group of participants24) and the DMN22. The known retinotopic maps in the posterior cortex (black dotted outlines21) contain exclusively positive-amplitude pRFs (hot colors), as visual stimulation evokes positive retinotopically specific BOLD responses. Negative-amplitude pRFs (cool colors), where visual stimulation evokes a negative spatially specific BOLD response, arise anterior to these retinotopic maps in the PMAs and DMN (see Fig. 2a for example time series from a representative subject).\na, PRF modeling reveals posterior–anterior inversion of pRF amplitude in individual participants. Left, PRF amplitude for a representative participant overlaid onto a lateral view of the left hemisphere (threshold at R2 &gt; 0.15; see Extended Data Fig. 1 for example ventral and lateral surface pRF amplitude maps from all participants and Extended Data Fig. 3 for amplitude maps with default mode parcellation overlaid). Posterior visual cortex is dominated by positive-amplitude pRFs (hot colors), while cortex anterior to regions classically considered visual exhibits a high concentration of negative-amplitude pRFs (cold colors). This individual’s OPA and LPMA are shown in white. Both the SPAs and PMAs contain pRFs (Extended Data Fig. 2). Right, time-series, model fits and reconstructed pRFs for two surface vertices in this subject. Top, example prototypical positive-amplitude pRF from the lateral SPA (OPA) in the left and right hemispheres (LH, RH). Bottom, example negative-amplitude population receptive field from the LPMA. b, Memory areas (PMAs) contain a larger percentage of negative pRFs compared to perceptual areas (SPAs) (repeated measures ANOVA, Bonferroni-corrected t-tests). Blue bars depict percentage of negative pRFs from individually localized SPAs and PMAs compared to total pRFs in the area (dotted outline). On the ventral and lateral surfaces, SPAs are dominated by positive pRFs, whereas a transition from positive to negative pRFs is evident within PMAs. Individual participant data points overlaid and connected in gray. P two-tailed &lt; 0.05, **P two-tailed &lt; 0.001. NS, not significant.\nHenry G. Molaison was identified with his permission after his death in 2008.",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#mechanisms-of-learning-in-nervous-systems",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#mechanisms-of-learning-in-nervous-systems",
+    "title": "Learning & Memory",
+    "section": "Mechanism(s) of learning in nervous systems",
+    "text": "Mechanism(s) of learning in nervous systems\n\n\nThe idea that memory is stored as enduring changes in the brain dates back at least to the time of Plato and Aristotle (circa 350 BCE), but its scientific articulation emerged in the 20th century when Richard Semon introduced the term “engram” to describe the neural substrate for storing and recalling memories.\n\n– Josselyn & Tonegawa (2020)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#how-synapses-strengthen",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#how-synapses-strengthen",
+    "title": "Learning & Memory",
+    "section": "How synapses strengthen",
+    "text": "How synapses strengthen\n\n\n\nLong-term potentiation (LTP)\nMake more potent (stengthen) synapse based on recent co-activity\nChange at synapse == physical basis of one type of Hebbian learning",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#ltp-discovery",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#ltp-discovery",
+    "title": "Learning & Memory",
+    "section": "LTP discovery",
+    "text": "LTP discovery\n\n\n\nBliss & Lømo (1973)\nGranule cell neurons in hippocampus dentate gyrus (DG)\n\\(\\theta\\) band (10–20 Hz) stim for 10–15 sec, or 100 Hz stim for 3–4 sec\n\n\n\n\n\n\n\n\n\nWikipedia",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#pathways-to-plasticity-1",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#pathways-to-plasticity-1",
+    "title": "Learning & Memory",
+    "section": "Pathways to plasticity",
+    "text": "Pathways to plasticity\n\n\\(Ca^{++}\\) entry via NMDA receptor activates protein kinases (CaMKII and PKAII)\nEarly LTP (up to few hours)\n\nprotein kinases phosphorylate (add \\(P\\) group to) postsynaptic AMPA receptors\nIncrease current flow through AMPA (Glu) receptors",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#pathways-to-plasticity-2",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#pathways-to-plasticity-2",
+    "title": "Learning & Memory",
+    "section": "Pathways to plasticity",
+    "text": "Pathways to plasticity\n\nLate LTP\n\ndepends on protein synthesis to generate new AMPA receptor\ninsertion of new AMPA receptors into postsynaptic membrane\n\nRetrograde signal generator influences presynaptic response",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#learning-in-nervous-systems",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#learning-in-nervous-systems",
+    "title": "Learning & Memory",
+    "section": "Learning in nervous systems",
+    "text": "Learning in nervous systems\n\n\nThe idea that memory is stored as enduring changes in the brain dates back at least to the time of Plato and Aristotle (circa 350 BCE), but its scientific articulation emerged in the 20th century when Richard Semon introduced the term “engram” to describe the neural substrate for storing and recalling memories.\n\n– Josselyn & Tonegawa (2020)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#ltp-discovery-1",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#ltp-discovery-1",
+    "title": "Learning & Memory",
+    "section": "LTP discovery",
+    "text": "LTP discovery\n\n\n\nshortened response latency, increased EPSP, increased population response over minutes or hours\n\n\n\n\n\n\n\n\n\nWikipedia",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#section-3",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#section-3",
+    "title": "Learning & Memory",
+    "section": "",
+    "text": "Gershman et al. (2021)2 from B. Gelber (1952)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#section-4",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#section-4",
+    "title": "Learning & Memory",
+    "section": "",
+    "text": "LTP\n\n\n\n\n\n\n\n\nAplysia\n\n\n\n\n\n\n\n\nEric R. Kandel",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#section-5",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#section-5",
+    "title": "Learning & Memory",
+    "section": "",
+    "text": "Caporale & Dan (2008) Figure 1",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#section-6",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#section-6",
+    "title": "Learning & Memory",
+    "section": "",
+    "text": "Caporale & Dan (2008) Figure 2",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#section-7",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#section-7",
+    "title": "Learning & Memory",
+    "section": "",
+    "text": "“the area subdivisions are in large part anatomically meaningless and misleading as to the presumptive functional divisions of the cortex”\n\n– K. S. Lashley & Clark (1946)\n\nMemory not localized in the rat cerebral cortex!",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#section-8",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#section-8",
+    "title": "Learning & Memory",
+    "section": "",
+    "text": "Santiago Ramon Y Cajal; Source: Wikipedia",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#hippocampus-1",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#hippocampus-1",
+    "title": "Learning & Memory",
+    "section": "Hippocampus",
+    "text": "Hippocampus\n\nDense in NMDA receptors\nCentral “hub” in network?\n\nNo, based on anatomical or functional connectivity\nBut yes, when modeling “information flow”, (Mišić, Goñi, Betzel, Sporns, & McIntosh, 2014)\n\nFormation, storage, consolidation of long-term episodic or declarative memories",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#hippocampus-2",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#hippocampus-2",
+    "title": "Learning & Memory",
+    "section": "Hippocampus",
+    "text": "Hippocampus\n\nStores info for later transfer to cortex\n\n“Engrams” form in hipp & PFC simultaneously, fade in PFC over time (Kitamura et al., 2017)\n\nSpatial navigation\n\nPlace cells\nGrid cells\nHead-direction cells",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#section-9",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#section-9",
+    "title": "Learning & Memory",
+    "section": "",
+    "text": "Kjelstrup et al. (2008)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#memory-taxing-behaviors-alter-hippocampus",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#memory-taxing-behaviors-alter-hippocampus",
+    "title": "Learning & Memory",
+    "section": "Memory-taxing behaviors alter hippocampus",
+    "text": "Memory-taxing behaviors alter hippocampus\n\n\n\nLondon taxi drivers (a high memory demand profession) have specialized hippocampi (Maguire et al., 2000)\nNot due to self-motion, driving experience, or stress per se\n\n\n\n\n\nWoollett & Maguire (2011) Figure 1",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#evidence-from-other-species",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#evidence-from-other-species",
+    "title": "Learning & Memory",
+    "section": "Evidence from other species",
+    "text": "Evidence from other species\n\nBirds whose ethologies have high memory demands have larger hippocampi.\n\n\n\n\nSherry et al. (1989)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#section-10",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#section-10",
+    "title": "Learning & Memory",
+    "section": "",
+    "text": "Birds with high memory caching demands use sparse (“bar-code”-like ) representations in hippocampus\n\n\n\n\n\nChettih et al. (2024)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#patient-hm",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#patient-hm",
+    "title": "Learning & Memory",
+    "section": "Patient HM5",
+    "text": "Patient HM5\n\n\n\nIntractable/untreatable epilepsy\nBilateral resection of medial temporal lobe (1953)\nEpilepsy now treatable\nBut, memory impaired",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#what-about-working-memory-desposito2015-zm",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#what-about-working-memory-desposito2015-zm",
+    "title": "Learning & Memory",
+    "section": "What about working memory? (D’Esposito & Postle, 2015)",
+    "text": "What about working memory? (D’Esposito & Postle, 2015)\n\nLTM representations of target items + attention -&gt; elevated activation\n\nSemantic items\nSensorimotor items\n\nCapacity for attended items (in Focus of Attention or FoA) limited ~ 4\nNeural basis\n\nsustained activation in PFC\nsubthreshold activation in areas where items are stored\n\nIndividual differences in visual WM\n\n\n\n\nLuck & Vogel (2013)",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#desposito2015-zm",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#desposito2015-zm",
+    "title": "Learning & Memory",
+    "section": "D’Esposito & Postle (2015)",
+    "text": "D’Esposito & Postle (2015)\n\nLTM representations of target items + attention -&gt; elevated activation\n\nSemantic items\nSensorimotor items\n\nCapacity for attended items (in Focus of Attention or FoA) limited ~ 4",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#section-11",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#section-11",
+    "title": "Learning & Memory",
+    "section": "",
+    "text": "Neural basis\n\nsustained activation in PFC\nsubthreshold activation in areas where items are stored\n\nIndividual differences in visual WM\n\n\n\n\n\nLuck & Vogel (2013) Figure 2",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#patient-hm-1",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#patient-hm-1",
+    "title": "Learning & Memory",
+    "section": "Patient HM5",
+    "text": "Patient HM5\n\n\n\nIntractable/untreatable epilepsy\nBilateral resection of medial temporal lobe (1953)\nEpilepsy now treatable\nBut, memory impaired",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
     ]
   }
 ]
