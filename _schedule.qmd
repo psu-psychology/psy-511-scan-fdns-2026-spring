@@ -176,6 +176,10 @@ final_proj_prop_due <- psy_511_vars |>
 - Required
   - @Squire2011-zg
   - @DEsposito2015-zm
+  
+#### Materials
+
+- [Slides](slides/wk-05-2026-02-12-learning-memory.qmd)
 
 #### Assignment(s)
 
