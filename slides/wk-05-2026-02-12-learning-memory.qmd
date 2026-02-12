@@ -929,6 +929,14 @@ flowchart LR
 - Hippocampus + PFC critical areas binding together sensory/semantic info stored elsewhere
 - Changes in synaptic #, strength, connectivity provide cellular basis
 
+## Main points
+
+- Many questions remain
+  - How does reinforcement learning work? Where does the "learn-now" signal come from?
+    - Reward Prediction Errors (RPE) and dopamine signalling?
+  - What about supervised (error-correction) learning?
+- What does [Gemini](https://gemini.google.com/share/6fd649fec02a) have to say?
+
 ## Next time
 
 - Language

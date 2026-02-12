@@ -6834,5 +6834,16 @@
       "Slides",
       "Wk 05 • Thu Feb 12"
     ]
+  },
+  {
+    "objectID": "slides/wk-05-2026-02-12-learning-memory.html#main-points-1",
+    "href": "slides/wk-05-2026-02-12-learning-memory.html#main-points-1",
+    "title": "Learning & Memory",
+    "section": "Main points",
+    "text": "Main points\n\nBut many questions:\n\nHow does reinforcement learning work? Where does the “learn-now” signal come from?\n\nReward Prediction Errors (RPE) and dopamine signalling?\n\nWhat about supervised (error-correction) learning?\n\nWhat does Gemini know?",
+    "crumbs": [
+      "Slides",
+      "Wk 05 • Thu Feb 12"
+    ]
   }
 ]
