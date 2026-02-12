@@ -3,6 +3,7 @@ title: "Perception"
 format: 
   revealjs:
     auto-play-media: true
+    reference-location: document
 ---
 
 # Prelude

@@ -1,6 +1,9 @@
 ---
 title: "Learning & Memory"
-format: revealjs
+format: 
+  revealjs:
+    auto-play-media: true
+    reference-location: document
 ---
 
 # Overview
@@ -260,7 +263,7 @@ format: revealjs
 
 | Computers | Brains |
 |-----------|--------|
-| Separate memory and processing stores | Processing & memory not separate; pecialized regions |
+| Separate memory and processing stores | Processing & memory not separate; specialized regions |
 | Specific addresses | Distributed networks (no addresses?) |
 | (Usually) non-volatile | Volatile |
 | All types--images, sounds, text, data--stored as binary sequences, e.g., `01101110` | Stored patterns of synaptic connections and ??? |
@@ -539,10 +542,13 @@ flowchart LR
 ---
 
 :::: {.columns}
-::: {.column width=50%}
+::: {.column width=33%}
 ![](https://ejunkieblog.com/wp-content/uploads/2019/06/23-jobs-donald-duck-has-tried_omd-feat-1-780x440-14405377491822828103.jpg)
 :::
-::: {.column width=50%}
+::: {.column width=33%}
+![](https://iiif.library.ubc.ca/image/cdm.arphotos.1-0150362.0/full/800,/0/default.jpg?ma=3153600&lm=1707408032)
+:::
+::: {.column width=33%}
 ![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/500px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg)
 :::
 ::::
@@ -575,7 +581,7 @@ flowchart LR
     
 ## NMDA-R clinical significance
 
-- *Ketamine* is NMDA-R antagonist
+- *Ketamine* is NMDA-R antagonist^[Blocks ion pore. See <https://en.wikipedia.org/wiki/Ketamine>]
     - anesthesia, sedation pain relief
     - possible short-term relief for depression
 - Linked to analgesic effects of nitrous oxide (laughing gas; $NO$)
