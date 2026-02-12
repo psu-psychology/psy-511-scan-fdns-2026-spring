@@ -15,6 +15,8 @@ format: revealjs
 
 - *Due*: [Exercise PA • Perception & Action](../exercises/ex-PA.qmd)
   - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005038)
+- *Updated*: [Final Project proposal](../exercises/final-project.qmd#project-proposal)
+  - [Fun with AI](../exercises/final-project.qmd#a-critical-dialogue-with-ai)
 
 ## Today's topics
 

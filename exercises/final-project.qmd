@@ -9,7 +9,7 @@ Your proposal should describe the form of your project, the topic or topics to b
 
 Please submit the proposal as a Microsoft Word (.docx) formatted document.
 
-The proposal is due on [Wednesday, March 5, 2026]{.orange_due}
+The proposal is due on Wednesday, March 5, 2026. [Here](https://psu.instructure.com/courses/2441266/assignments/18005251) is the Canvas dropbox.
 
 ## Project options
 
@@ -45,6 +45,22 @@ For this project format, you are strongly encouraged to schedule time to present
 Write an exercise for a future group of PSY 511 students. Your exercise can build upon the existing exercises, replace the content for an existing exercise, or address a topic not covered or covered thoroughly this semester.
 
 For this project, you are strongly encouraged to meet with me in advance.
+
+### A critical dialogue with AI
+
+::: {.callout-important}
+## Background
+Gilmore has been using Gemini to explore various scientific topics that interest him.
+He finds it often to be a useful resource, especially for finding summaries of key ideas and the primary sources for these ideas.
+As an example, here is a [dialogue](https://gemini.google.com/share/a2edddc40a00) about monosynaptic stretch reflexes, and [here](https://gemini.google.com/share/f4b71886330c) is one about how Marr's three levels might apply to locomotion.
+This exercise gives you an opportunity to explore whether AI is useful to _you_.
+:::
+
+Engage in a critical dialogue with an AI service on a topic that you want to know more about. Read the main sources the AI refers to on your topic and provide a report that critiques the AI summary. What does the AI get right, what does it miss or get wrong? How useful is AI for graduate students who are learning about social, cognitive, and affective neuroscience?
+
+You may, but are not required to engage in similar dialogues with more than one AI service. If you do, then please compare and contrast the services.
+
+Make sure to share your dialogue/chat history with the AI(s), and of course, cite the primary source references you used in your critique.
 
 ## Tips
 
