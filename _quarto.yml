@@ -14,7 +14,7 @@ execute:
 website:
   title: "PSY 511.001"
   announcement: 
-    content: "This week's topic is perception." 
+    content: "There's a new [final project format](exercises/final-project.qmd#project-options) to consider." 
     position: below-navbar
     icon: info-circle
     dismissable: true
