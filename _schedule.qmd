@@ -198,13 +198,15 @@ final_proj_prop_due <- psy_511_vars |>
 
 - Required
   - @Hickok2007-rc
-  - @Bourguignon2025-sy
   - @Hagoort2014-au
 - Recommended
+  - @Friederici2011-ye
   - @Bourguignon2025-sy
   - @Zada2025-jl
 
-<!-- #### Materials -->
+#### Materials
+
+- [Slides](slides/wk-06-2026-02-19-language.qmd)
 
 <!-- #### Assignment(s) -->
 

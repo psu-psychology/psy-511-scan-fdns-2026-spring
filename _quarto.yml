@@ -14,7 +14,7 @@ execute:
 website:
   title: "PSY 511.001"
   announcement: 
-    content: "There's a new [final project format](exercises/final-project.qmd#project-options) to consider." 
+    content: "This week we'll cover some basic material then decide as a group what topic(s) to cover in the second half. Please skim the *recommended* readings." 
     position: below-navbar
     icon: info-circle
     dismissable: true
@@ -48,6 +48,8 @@ website:
             href: slides/wk-04-2026-02-05-perception.qmd
           - text: "Wk 05 • Thu Feb 12"
             href: slides/wk-05-2026-02-12-learning-memory.qmd
+          - text: "Wk 06 • Thu Feb 19"
+            href: slides/wk-06-2026-02-19-language.qmd
       - section: "Resources"
         contents:
           - text: "Student interests (Ex LVL)"

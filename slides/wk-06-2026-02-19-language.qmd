@@ -18,7 +18,10 @@ format: revealjs
 ## Today's topics
 
 - Language and the brain
-- Topic 2
+- Read & discuss
+  - @Bourguignon2025-sy or
+  - @Zada2025-jl or
+  - ideas suggested in @Google2026-ds
 
 ## Warm-up
 
@@ -63,6 +66,10 @@ format: revealjs
 :::
 :::
 ::::
+
+## Network components {.scrollable}
+
+![@Friederici2011-ye Figure 1^[FIGURE 1. Anatomical and cytoarchitectonic details of the left hemisphere. The different lobes (frontal, temporal, parietal, occipital) are marked by colored borders. Major language relevant gyri (IFG, STG, MTG) are color coded. Numbers indicate language-relevant Brodmann Areas (BA) which Brodmann (1909) defined on the basis of cytoarchitectonic characteristics. The coordinate labels superior/inferior indicate the position of the gyrus within a lobe (e.g., superior temporal gyrus) or within a BA (e.g., superior BA 44; the superior/inferior dimension is also labeled dorsal/ventral). The coordinate labels anterior/posterior indicate the position within a gyrus (e.g., anterior superior temporal gyrus; the anterior/posterior dimension is also labeled rostral/caudal). Broca's area consists of the pars opercularis (BA 44) and the pars triangularis (BA 45). Located anterior to Broca's area is the pars orbitalis (BA 47). The frontal operculum (FOP) is located ventrally and more medially to BA 44, BA 45. The premotor cortex is located in BA 6. Wernicke's area is defined as BA 42 and BA 22. The primary auditory cortex (PAC) and Heschl's gyrus (HG) are located in a lateral to medial orientation.]](../include/img/friederici-2011-fig-01.jpeg)
 
 ## Wernicke-Geschwind (WG) model
 
@@ -149,6 +156,26 @@ flowchart LR
 :::
 ::::
 
+## {.scrollable}
+
+![Wikipedia^[By Leathalperisthecoolest123321 - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=45449677]](https://upload.wikimedia.org/wikipedia/commons/8/8d/T16-DorsalRepetition.png)
+
+## {.scrollable}
+
+![[@Friederici2011-ye Figure 3^[FIGURE 3. Structural connectivities between the language cortices. Schematic view of two dorsal pathways and two ventral pathways. Dorsal pathway I connects the superior temporal gyrus (STG) to the premotor cortex via the arcuate fascile (AF) and the superior longitudinal fascicle (SLF). Dorsal pathway II connects the STG to BA 44 via the AF/SLF. Ventral pathway I connects BA 45 and the temporal cortex via the extreme fiber capsule system (EFCS). Ventral pathway II connects the frontal operculum (FOP) and the anterior temporal STG/STS via the uncinate fascile (UF).]](../include/img/friederici-2011-fig-03.jpeg)
+
+## Dual streams hypothesis
+
+:::: {.columns}
+::: {.column width=50%}
+- @Wikipedia-contributors2026-to
+- @Goodale1992-xd; @Mishkin1983-px
+:::
+::: {.column width=50%}
+![Wikipedia^[By Selket - I (Selket) made this from File:Gray728.svg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1679336]](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Ventral-dorsal_streams.svg/3840px-Ventral-dorsal_streams.svg.png)
+:::
+::::
+
 ## Metaanalytic evidence
 
 ![@Hagoort2014-au Figure 1a^[Figure 1. Schematic representation of the brain showing regions with reliably reported activations for sentences compared with nonsentential stimuli (a) and sentences with high syntactic or semantic processing demands compared with simpler sentences (b,c). The left posterior inferior frontal gyrus is further subdivided into Brodmann areas (BA) 44 (above black line), BA 45 (below black line, above AC–PC line) and BA 47 (below AC–PC line). Green regions indicate a reliable number of reports. Pink regions indicate no reports in 53 studies. For details, see Supplemental Tables 2, 3, and 4. Abbreviations: AC, anterior commissure; PC, posterior commissure).]](../include/img/hagoort-indefrey-fig1a.jpg)
@@ -171,11 +198,21 @@ flowchart LR
 
 -- @Hagoort2014-au
 
-# Topic 2
+# Read & discuss
+
+## Options
+
+- @Bourguignon2025-sy or
+- @Zada2025-jl or
+- ideas suggested in @Google2026-ds
 
 # Wrap-up
 
 ## Main points
+
+- Language behavior engages multiple sensory and motor systems working in parallel.
+- Earlier and simpler input/output models have yielded to more complex parallel network models.
+- Comprehending and producing language engages multiple regions of the brain.
 
 ## Next time
 
