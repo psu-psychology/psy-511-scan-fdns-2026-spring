@@ -474,6 +474,104 @@ Figure&nbsp;1: Minimal circuit diagram for verbal &amp; visual language.
 <p>“<em>A meta-analysis of numerous neuroimaging studies reveals a clear dorsal/ventral gradient in both left inferior frontal cortex and left posterior temporal cortex, with dorsal foci for syntactic processing and ventral foci for semantic processing. In addition…further networks need to be recruited to realize language-driven communication to its full extent.</em>”</p>
 </blockquote>
 <p>– <span class="citation" data-cites="Hagoort2014-au">Hagoort &amp; Indefrey (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span></p>
+</section>
+<section id="on-system-architectures" class="slide level2">
+<h2>On system architectures</h2>
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-serial" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-serial-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-serial">flowchart LR
+  A[Perception] --&gt; B[Cognition/Emotion]
+  B --&gt; C[Action]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-serial-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: A simplistic feedforward psychological architecture.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-parallel" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-parallel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-parallel">flowchart LR
+  A[Perception] --&gt; B[Cognition]
+  A --&gt; C[Emotion]
+  B --&gt; D[Action]
+  C --&gt; D
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-parallel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: A barely more complicated feedforward &amp; parallel psychological architecture.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="on-system-architectures-1" class="slide level2">
+<h2>On system architectures</h2>
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-parallel-feedback" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-parallel-feedback-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-parallel-feedback">flowchart LR
+  A[Perception] &lt;--&gt; B[Cognition]
+  A &lt;--&gt; C[Emotion]
+  B &amp; C &lt;--&gt; D[Action]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-parallel-feedback-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: A more realistic feedforward/feedback parallel architecture.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-parallel-feedback" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-parallel-feedback-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-parallel-feedback">flowchart LR
+  E[ ]:::empty
+  W[ ]:::empty
+  E --&gt; A
+  A[Perception] &lt;--&gt; B[Cognition]
+  A &lt;--&gt; C[Emotion]
+  B &lt;--&gt; C
+  B &amp; C &lt;--&gt; D[Action]
+  D --&gt; W
+  
+  %% Define the style for the empty node
+  classDef empty height:0,width:0,margin:0;
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-parallel-feedback-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: An even more realistic feedforward/feedback parallel architecture.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 </section></section>
 <section>
 <section id="read-discuss" class="title-slide slide level1 center">

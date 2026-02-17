@@ -70,6 +70,7 @@ ex_lvl_due <- psy_511_vars |>
 
 - [Slides](slides/wk-02-2026-01-22-anatomy.qmd) 
 - [Allen Brain Atlas](http://atlas.brain-map.org/atlas?atlas=138322605#atlas=138322605&structure=10390&resolution=119.78&x=31680.307112068967&y=42751.00179211847&zoom=-6&plate=112360949).
+- [Neuroanatomy Online](https://nba.uth.tmc.edu/neuroanatomy/)
 
 #### Assignments
 

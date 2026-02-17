@@ -5886,5 +5886,27 @@
       "Slides",
       "Wk 06 • Thu Feb 19"
     ]
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#on-system-architectures",
+    "href": "slides/wk-06-2026-02-19-language.html#on-system-architectures",
+    "title": "Language",
+    "section": "On system architectures",
+    "text": "On system architectures\n\n\n\n\n\n\nflowchart LR\n  A[Perception] --&gt; B[Cognition/Emotion]\n  B --&gt; C[Action]\n\n\n\n\nFigure 2: A simplistic feedforward psychological architecture.\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Perception] --&gt; B[Cognition]\n  A --&gt; C[Emotion]\n  B --&gt; D[Action]\n  C --&gt; D\n\n\n\n\nFigure 3: A barely more complicated feedforward & parallel psychological architecture.",
+    "crumbs": [
+      "Slides",
+      "Wk 06 • Thu Feb 19"
+    ]
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#on-system-architectures-1",
+    "href": "slides/wk-06-2026-02-19-language.html#on-system-architectures-1",
+    "title": "Language",
+    "section": "On system architectures",
+    "text": "On system architectures\n\n\n\n\n\n\nflowchart LR\n  A[Perception] &lt;--&gt; B[Cognition]\n  A &lt;--&gt; C[Emotion]\n  B & C &lt;--&gt; D[Action]\n\n\n\n\nFigure 4: A more realistic feedforward/feedback parallel architecture.\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  E[ ]:::empty\n  W[ ]:::empty\n  E --&gt; A\n  A[Perception] &lt;--&gt; B[Cognition]\n  A &lt;--&gt; C[Emotion]\n  B &lt;--&gt; C\n  B & C &lt;--&gt; D[Action]\n  D --&gt; W\n  \n  %% Define the style for the empty node\n  classDef empty height:0,width:0,margin:0;\n\n\n\n\nFigure 5: An even more realistic feedforward/feedback parallel architecture.",
+    "crumbs": [
+      "Slides",
+      "Wk 06 • Thu Feb 19"
+    ]
   }
 ]

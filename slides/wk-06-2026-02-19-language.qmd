@@ -198,6 +198,63 @@ flowchart LR
 
 -- @Hagoort2014-au
 
+## On system architectures
+
+```{mermaid}
+%%| label: fig-serial
+%%| fig-cap: "A simplistic feedforward psychological architecture."
+flowchart LR
+  A[Perception] --> B[Cognition/Emotion]
+  B --> C[Action]
+```
+
+::: {.fragment}
+
+```{mermaid}
+%%| label: fig-parallel
+%%| fig-cap: "A barely more complicated feedforward & parallel psychological architecture."
+
+flowchart LR
+  A[Perception] --> B[Cognition]
+  A --> C[Emotion]
+  B --> D[Action]
+  C --> D
+```
+
+:::
+
+## On system architectures
+
+```{mermaid}
+%%| label: fig-parallel-feedback
+%%| fig-cap: "A more realistic feedforward/feedback parallel architecture."
+
+flowchart LR
+  A[Perception] <--> B[Cognition]
+  A <--> C[Emotion]
+  B & C <--> D[Action]
+```
+
+::: {.fragment}
+```{mermaid}
+%%| label: fig-parallel-feedback
+%%| fig-cap: "An even more realistic feedforward/feedback parallel architecture."
+
+flowchart LR
+  E[ ]:::empty
+  W[ ]:::empty
+  E --> A
+  A[Perception] <--> B[Cognition]
+  A <--> C[Emotion]
+  B <--> C
+  B & C <--> D[Action]
+  D --> W
+  
+  %% Define the style for the empty node
+  classDef empty height:0,width:0,margin:0;
+```
+:::
+
 # Read & discuss
 
 ## Options
