@@ -17,6 +17,17 @@ format: revealjs
 
 - Final Project proposal due March 5, 2026.
 
+## Announcements
+
+:::: {.columns}
+::: {.column width=50%}
+- Thursday, February 19, 2026
+:::
+::: {.column width=50%}
+![](../include/img/cne-ai-group.png)
+:::
+::::
+
 ## Today's topics
 
 - Language and the brain
@@ -56,20 +67,20 @@ format: revealjs
   
 ---
 
-### What events does the NMDA receptor respond to?
+### What event(s) does the NMDA receptor respond to?
 
 - A. Cell A releases glutamate onto Cell B.
-- B. Cell B fires an action potential.
+- B. Cell B responds (fires an action potential).
 - C. Cell B releases glutamate onto Cell C.
 - D. A and B.
 - E. A and C.
 
 ---
 
-### What events does the NMDA receptor respond to?
+### What event(s) does the NMDA receptor respond to?
 
 - A. Cell A releases glutamate onto Cell B.
-- B. Cell B fires an action potential.
+- B. Cell B responds (fires an action potential).
 - ~~C. Cell B releases glutamate onto Cell C.~~
 - D. A and B.
 - ~~E. A and C.~~

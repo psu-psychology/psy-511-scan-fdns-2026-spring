@@ -223,12 +223,12 @@ final_proj_prop_due <- psy_511_vars |>
 
 - Required
   - @Malezieux2023-as
+  - @Barrett2017-hq
+- Recommended
+  - @LeDoux2017-ak
   - @Watabe-Uchida2017-gi
   - @Siegel2018-ab
-- Recommended
-  - @LeDoux2000-qi
-  - @Barrett2017-hq
-
+  
 <!-- #### Materials -->
 
 <!-- - [Notes](resources/fear-stress-reward.qmd) -->
