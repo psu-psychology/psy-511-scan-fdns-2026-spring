@@ -5551,7 +5551,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#prelude",
     "title": "Language",
     "section": "Prelude",
-    "text": "Prelude\n\n– Bow (2022)1",
+    "text": "Prelude\n\n\n\n\n\n\n\nFigure 1: Bow (2022)1",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5595,7 +5595,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#language-behavior",
     "title": "Language",
     "section": "Language behavior",
-    "text": "Language behavior",
+    "text": "Language behavior\n\n\n\n\n\n\n\nFigure 2: VideoCollectables (2014)",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5617,7 +5617,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#components-1",
     "title": "Language",
     "section": "Components",
-    "text": "Components\n\nReceptive\n\nListening\nResponding (facial expressions, gestures, laughter, etc.)\nReading (3-5 words/s)\nMorse code (30-50 wpm or 0.8+ word/s), (Zoglmann, 2025)\n\nHow so fast? Time for feedback?",
+    "text": "Components\n\nReceptive\n\nListening\nResponding (facial expressions, gestures, laughter, etc.)\nReading (3-5 words/s)\nMorse code (30-50 wpm or 0.8+ word/s) (Zoglmann, 2025)\n\nHow so fast? Time for feedback?",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5628,7 +5628,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#hierarchical-structure",
     "title": "Language",
     "section": "Hierarchical structure",
-    "text": "Hierarchical structure\n\n\n\nWikipedia contributors (2025)2",
+    "text": "Hierarchical structure\n\n\n\nPhonetic\n\n|Ber| |wiTH| |mē|",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5650,7 +5650,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#inputoutput-flow",
     "title": "Language",
     "section": "Input/output flow",
-    "text": "Input/output flow\n\n\n\n\n\n\nflowchart LR\n  A[speech input] --&gt; B[\"Auditory Cortex (A1)\"]\n  H[text input] --&gt;|eye movements| C[\"Visual Cortex (V1)\"]\n  B --&gt; I[\"???\"]\n  C --&gt; I\n  I --&gt; D[speech output]\n  I --&gt; F[\"typing/writing\"]\n  D --&gt; M[\"Primary motor cortex (M1)\"]\n  F --&gt; M\n  M --&gt; E[\"Vocal apparatus\"]\n  M --&gt; G[\"Finger, wrist muscles\"]\n\n\n\n\nFigure 1: Minimal circuit diagram for verbal & visual language.",
+    "text": "Input/output flow\n\n\n\n\n\n\nflowchart LR\n  A[speech input] --&gt; B[\"Auditory Cortex (A1)\"]\n  H[text input] --&gt;|eye movements| C[\"Visual Cortex (V1)\"]\n  B --&gt; I[\"???\"]\n  C --&gt; I\n  I --&gt; D[speech output]\n  I --&gt; F[\"typing/writing\"]\n  D --&gt; M[\"Primary motor cortex (M1)\"]\n  F --&gt; M\n  M --&gt; E[\"Vocal apparatus\"]\n  M --&gt; G[\"Finger, wrist muscles\"]\n\n\n\n\nFigure 3: Minimal circuit diagram for verbal & visual language.",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5683,7 +5683,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#section-1",
     "title": "Language",
     "section": "",
-    "text": "– cogmonaut (2010)",
+    "text": "Figure 4: Illustration of Wernicke’s aphasia (cogmonaut, 2010)",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5727,7 +5727,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#metaanalytic-evidence",
     "title": "Language",
     "section": "Metaanalytic evidence",
-    "text": "Metaanalytic evidence\n\n\n\nHagoort & Indefrey (2014) Figure 1a15",
+    "text": "Metaanalytic evidence\n\n\n\nHagoort & Indefrey (2014) Figure 1a16",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5738,7 +5738,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#section-4",
     "title": "Language",
     "section": "",
-    "text": "Wikipedia8",
+    "text": "Wikipedia9",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5749,7 +5749,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#section-5",
     "title": "Language",
     "section": "",
-    "text": "Friederici (2011) Figure 39",
+    "text": "Friederici (2011) Figure 310",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5760,7 +5760,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#section-6",
     "title": "Language",
     "section": "",
-    "text": "Uncinate Fasciculus: Wikipedia10\n\n\n\n\n\n\nExtreme (Fiber) Capsule System: Wikipedia11",
+    "text": "Uncinate Fasciculus: Wikipedia11\n\n\n\n\n\n\nExtreme (Fiber) Capsule System: Wikipedia12",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5771,7 +5771,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#section-7",
     "title": "Language",
     "section": "",
-    "text": "Arcuate Fasciculus: Wikipedia12\n\n\n\n\n\n\nJang (2013) Figure 113",
+    "text": "Arcuate Fasciculus: Wikipedia13\n\n\n\n\n\n\nJang (2013) Figure 114",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5815,7 +5815,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#references",
     "title": "Language",
     "section": "References",
-    "text": "References\n\n\n\n\nBourguignon, N., & Lo Bue, S. (2025). An emergentist account of language in the brain-seeking neural synergies behind human uniqueness. Journal of Cognitive Neuroscience, 37, 1717–1734. https://doi.org/10.1162/jocn_a_02331\n\n\nBow, J. (2022). Adriano Celentano - ’Prisencolinensinainciusol’. YouTube. Retrieved from https://www.youtube.com/watch?v=RObuKTeHoxo\n\n\ncogmonaut. (2010). Wernicke’s aphasia. YouTube. Retrieved from https://www.youtube.com/watch?v=dKTdMV6cOZw&t=1s\n\n\nFriederici, A. D. (2011). The brain basis of language processing: From structure to function. Physiological Reviews, 91, 1357–1392. https://doi.org/10.1152/physrev.00006.2011\n\n\nGoodale, M. A., & Milner, A. D. (1992). Separate visual pathways for perception and action. Trends in Neurosciences, 15, 20–25. https://doi.org/10.1016/0166-2236(92)90344-8\n\n\nGoogle AI. (2026, February 17). Graduate neuroscience of language topics. Retrieved February 17, 2026, from https://gemini.google.com/share/acb3f4f000e3\n\n\nHagoort, P., & Indefrey, P. (2014). The neurobiology of language beyond single words. Annu. Rev. Neurosci., 37, 347–362. https://doi.org/10.1146/annurev-neuro-071013-013847\n\n\nHeaven, W. D. (2026, January 7). LLMs contain a LOT of parameters. But what’s a parameter? Retrieved February 18, 2026, from https://www.technologyreview.com/2026/01/07/1130795/what-even-is-a-parameter/\n\n\nHickok, G., & Poeppel, D. (2007). The cortical organization of speech processing. Nat. Rev. Neurosci., 8(5), 393–402. https://doi.org/10.1038/nrn2113\n\n\nJang, S. H. (2013). Diffusion tensor imaging studies on arcuate fasciculus in stroke patients: A review. Frontiers in Human Neuroscience, 7, 749. https://doi.org/10.3389/fnhum.2013.00749\n\n\nMishkin, M., Ungerleider, L. G., & Macko, K. A. (1983). Object vision and spatial vision: Two cortical pathways. Trends in Neurosciences, 6, 414–417. https://doi.org/10.1016/0166-2236(83)90190-x\n\n\npurepedantry. (2007). Broca’s aphasia. YouTube. Retrieved from https://www.youtube.com/watch?v=f2IiMEbMnPM\n\n\nWikipedia contributors. (2023, September 11). Wernicke–Geschwind model. Retrieved from https://en.wikipedia.org/wiki/Wernicke%E2%80%93Geschwind_model\n\n\nWikipedia contributors. (2025, November 12). Parse tree. Retrieved from https://en.wikipedia.org/wiki/Parse_tree\n\n\nWikipedia contributors. (2026a, January 11). Articulatory phonetics. Retrieved from https://en.wikipedia.org/wiki/Articulatory_phonetics\n\n\nWikipedia contributors. (2026b, January 26). Broca’s area. Retrieved from https://en.wikipedia.org/wiki/Broca%27s_area\n\n\nWikipedia contributors. (2026c, February 13). Two-streams hypothesis. Retrieved from https://en.wikipedia.org/wiki/Two-streams_hypothesis\n\n\nWikipedia contributors. (2026d, February 17). Large language model. Retrieved from https://en.wikipedia.org/wiki/Large_language_model\n\n\nZada, Z., Nastase, S. A., Speer, S., Mwilambwe-Tshilobo, L., Tsoi, L., Burns, S. M., … Tamir, D. I. (2025). Linguistic coupling between neural systems for speech production and comprehension during real-time dyadic conversations. Neuron, 0. https://doi.org/10.1016/j.neuron.2025.11.004\n\n\nZoglmann, K. (2025). Sentences containing common eight-word phrases - 50wpm. YouTube. Retrieved from https://www.youtube.com/watch?v=D9xmpwZW2UI",
+    "text": "References\n\n\n\n\nBourguignon, N., & Lo Bue, S. (2025). An emergentist account of language in the brain-seeking neural synergies behind human uniqueness. Journal of Cognitive Neuroscience, 37, 1717–1734. https://doi.org/10.1162/jocn_a_02331\n\n\nBow, J. (2022). Adriano Celentano - ’Prisencolinensinainciusol’. YouTube. Retrieved from https://www.youtube.com/watch?v=RObuKTeHoxo\n\n\nBuzzFeedVideo. (2019). Deaf people answer commonly googled questions about being deaf. YouTube. Retrieved from https://www.youtube.com/watch?v=IgmB9c29UKU\n\n\ncogmonaut. (2010). Wernicke’s aphasia. YouTube. Retrieved from https://www.youtube.com/watch?v=dKTdMV6cOZw&t=1s\n\n\nFriederici, A. D. (2011). The brain basis of language processing: From structure to function. Physiological Reviews, 91, 1357–1392. https://doi.org/10.1152/physrev.00006.2011\n\n\nGoodale, M. A., & Milner, A. D. (1992). Separate visual pathways for perception and action. Trends in Neurosciences, 15, 20–25. https://doi.org/10.1016/0166-2236(92)90344-8\n\n\nGoogle AI. (2026, February 17). Graduate neuroscience of language topics. Retrieved February 17, 2026, from https://gemini.google.com/share/acb3f4f000e3\n\n\nHagoort, P., & Indefrey, P. (2014). The neurobiology of language beyond single words. Annu. Rev. Neurosci., 37, 347–362. https://doi.org/10.1146/annurev-neuro-071013-013847\n\n\nHeaven, W. D. (2026, January 7). LLMs contain a LOT of parameters. But what’s a parameter? Retrieved February 18, 2026, from https://www.technologyreview.com/2026/01/07/1130795/what-even-is-a-parameter/\n\n\nHickok, G., & Poeppel, D. (2007). The cortical organization of speech processing. Nat. Rev. Neurosci., 8(5), 393–402. https://doi.org/10.1038/nrn2113\n\n\nJang, S. H. (2013). Diffusion tensor imaging studies on arcuate fasciculus in stroke patients: A review. Frontiers in Human Neuroscience, 7, 749. https://doi.org/10.3389/fnhum.2013.00749\n\n\nMishkin, M., Ungerleider, L. G., & Macko, K. A. (1983). Object vision and spatial vision: Two cortical pathways. Trends in Neurosciences, 6, 414–417. https://doi.org/10.1016/0166-2236(83)90190-x\n\n\npurepedantry. (2007). Broca’s aphasia. YouTube. Retrieved from https://www.youtube.com/watch?v=f2IiMEbMnPM\n\n\nVideoCollectables. (2014). World’s fastest talking man sings michael jackson’s BAD in 20 seconds @VideoScrapbookOfOurTimes. YouTube. Retrieved from https://www.youtube.com/watch?v=4X4Fy8YqysY\n\n\nWhy AI uses so much energy — and what we can do about it. (2025, April 8). Retrieved February 18, 2026, from https://iee.psu.edu/news/blog/why-ai-uses-so-much-energy-and-what-we-can-do-about-it\n\n\nWikipedia contributors. (2023, September 11). Wernicke–Geschwind model. Retrieved from https://en.wikipedia.org/wiki/Wernicke%E2%80%93Geschwind_model\n\n\nWikipedia contributors. (2025, November 12). Parse tree. Retrieved from https://en.wikipedia.org/wiki/Parse_tree\n\n\nWikipedia contributors. (2026a, January 11). Articulatory phonetics. Retrieved from https://en.wikipedia.org/wiki/Articulatory_phonetics\n\n\nWikipedia contributors. (2026b, January 26). Broca’s area. Retrieved from https://en.wikipedia.org/wiki/Broca%27s_area\n\n\nWikipedia contributors. (2026c, February 13). Two-streams hypothesis. Retrieved from https://en.wikipedia.org/wiki/Two-streams_hypothesis\n\n\nWikipedia contributors. (2026d, February 17). Large language model. Retrieved from https://en.wikipedia.org/wiki/Large_language_model\n\n\nZada, Z., Nastase, S. A., Speer, S., Mwilambwe-Tshilobo, L., Tsoi, L., Burns, S. M., … Tamir, D. I. (2025). Linguistic coupling between neural systems for speech production and comprehension during real-time dyadic conversations. Neuron, 0. https://doi.org/10.1016/j.neuron.2025.11.004\n\n\nZoglmann, K. (2025). Sentences containing common eight-word phrases - 50wpm. YouTube. Retrieved from https://www.youtube.com/watch?v=D9xmpwZW2UI",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5826,7 +5826,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#footnotes",
     "title": "Language",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nhttps://en.wikipedia.org/wiki/Prisencolinensinainciusol\nBy Traced by Stannered - Own work based on: ParseTree.jpg, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1925920\nFIGURE 1. Anatomical and cytoarchitectonic details of the left hemisphere. The different lobes (frontal, temporal, parietal, occipital) are marked by colored borders. Major language relevant gyri (IFG, STG, MTG) are color coded. Numbers indicate language-relevant Brodmann Areas (BA) which Brodmann (1909) defined on the basis of cytoarchitectonic characteristics. The coordinate labels superior/inferior indicate the position of the gyrus within a lobe (e.g., superior temporal gyrus) or within a BA (e.g., superior BA 44; the superior/inferior dimension is also labeled dorsal/ventral). The coordinate labels anterior/posterior indicate the position within a gyrus (e.g., anterior superior temporal gyrus; the anterior/posterior dimension is also labeled rostral/caudal). Broca’s area consists of the pars opercularis (BA 44) and the pars triangularis (BA 45). Located anterior to Broca’s area is the pars orbitalis (BA 47). The frontal operculum (FOP) is located ventrally and more medially to BA 44, BA 45. The premotor cortex is located in BA 6. Wernicke’s area is defined as BA 42 and BA 22. The primary auditory cortex (PAC) and Heschl’s gyrus (HG) are located in a lateral to medial orientation.\nTalbot K, Louneva N, Cohen JW, Kazi H, Blake DJ, et al. (2011) Synaptic Dysbindin-1 Reductions in Schizophrenia Occur in an Isoform-Specific Manner Indicating Their Subsynaptic Location. PLoS ONE 6(3): e16886. doi:10.1371/journal.pone.0016886\nBy Brodamnn - Brodmann (1909) File:Brodmann areas inside of lateral sulcus close up.png, Public Domain, https://commons.wikimedia.org/w/index.php?curid=20696476\nBy Fatemeh Geranmayeh, Sonia L. E. Brownsett, Richard J. S. Wise - “Task-induced brain activity in aphasic stroke patients: what is driving recovery?” Fatemeh Geranmayeh, Sonia L. E. Brownsett, Richard J. S. Wise. Brain 2014 Oct 28;137(Pt 10):2632-48. Epub 2014 Jun 28. DOI: https://dx.doi.org/10.1093/brain/awu163, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=38174526\nBy Polygon data were generated by Database Center for Life Science(DBCLS)[2]. - Polygon data are from BodyParts3D[1], CC BY-SA 2.1 jp, https://commons.wikimedia.org/w/index.php?curid=32508617\nBy Leathalperisthecoolest123321 - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=45449677\nFIGURE 3. Structural connectivities between the language cortices. Schematic view of two dorsal pathways and two ventral pathways. Dorsal pathway I connects the superior temporal gyrus (STG) to the premotor cortex via the arcuate fascile (AF) and the superior longitudinal fascicle (SLF). Dorsal pathway II connects the STG to BA 44 via the AF/SLF. Ventral pathway I connects BA 45 and the temporal cortex via the extreme fiber capsule system (EFCS). Ventral pathway II connects the frontal operculum (FOP) and the anterior temporal STG/STS via the uncinate fascile (UF).\nBy Tractography data: Yeh, F. C., Panesar, S., Fernandes, D., Meola, A., Yoshino, M., Fernandez-Miranda, J. C., … & Verstynen, T. (2018). Population-averaged atlas of the macroscale human structural connectome and its network topology. NeuroImage, 178, 57-68. PubMed: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6921501/Skull and brain data: Nobutaka Mitsuhashi, Kaori Fujieda, Takuro Tamura, Shoko Kawamoto, Toshihisa Takagi, and Kousaku Okubo. (2009) BodyParts3D: 3D structure database for anatomical concepts. Nucleic Acids Research, Vol. 37, Database issue D782-D785, https://doi.org/10.1093/nar/gkn613 - Tractography data: http://brain.labsolver.org/diffusion-mri-templates/tractographySkull and brain data: http://lifesciencedb.jp/bp3d/, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=105038802\nBy Yeh, F. C., Panesar, S., Fernandes, D., Meola, A., Yoshino, M., Fernandez-Miranda, J. C., … & Verstynen, T. (2018). Population-averaged atlas of the macroscale human structural connectome and its network topology. NeuroImage, 178, 57-68. - http://brain.labsolver.org/, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=78298710\nBy Yeh, F. C., Panesar, S., Fernandes, D., Meola, A., Yoshino, M., Fernandez-Miranda, J. C., … & Verstynen, T. (2018). Population-averaged atlas of the macroscale human structural connectome and its network topology. NeuroImage, 178, 57-68. - http://brain.labsolver.org, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=78299333\nThe diffusion tensor tractographies of neural tracts for language: the arcuate fasciculus (AF), the superior longitudinal fasciculus (SLF), the inferior longitudinal fasciculus (ILF), the uncinate fasciculus (UF), and inferior fronto-occipital fasciculus (IFOF).\nBy Selket - I (Selket) made this from File:Gray728.svg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1679336\nFigure 1. Schematic representation of the brain showing regions with reliably reported activations for sentences compared with nonsentential stimuli (a) and sentences with high syntactic or semantic processing demands compared with simpler sentences (b,c). The left posterior inferior frontal gyrus is further subdivided into Brodmann areas (BA) 44 (above black line), BA 45 (below black line, above AC–PC line) and BA 47 (below AC–PC line). Green regions indicate a reliable number of reports. Pink regions indicate no reports in 53 studies. For details, see Supplemental Tables 2, 3, and 4. Abbreviations: AC, anterior commissure; PC, posterior commissure).\n(a) Summary of activation patterns for sentences with high syntactic or semantic processing demands compared with simpler sentences. (b) Syntactic/semantic gradients in left inferior frontal and posterior temporal cortex based on 28 studies reporting posterior temporal cortex activation for syntactically demanding or semantically demanding sentences compared with less demanding sentences (see Supplemental Figure 13 for details). The centers represent the mean coordinates of the local maxima, and the radii represent the standard deviations of the distance between the local maxima and their means. Abbreviations: GFm, GFi, middle and inferior frontal gyri; BA, Brodmann area; GTs, GTm, GTi, superior, middle, and inferior temporal gyri; STS, ITS, superior and inferior temporal sulci; Gsm, supramarginal gyrus.",
+    "text": "Footnotes\n\n\nhttps://en.wikipedia.org/wiki/Prisencolinensinainciusol\nBy Traced by Stannered - Own work based on: ParseTree.jpg, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1925920\nFIGURE 1. Anatomical and cytoarchitectonic details of the left hemisphere. The different lobes (frontal, temporal, parietal, occipital) are marked by colored borders. Major language relevant gyri (IFG, STG, MTG) are color coded. Numbers indicate language-relevant Brodmann Areas (BA) which Brodmann (1909) defined on the basis of cytoarchitectonic characteristics. The coordinate labels superior/inferior indicate the position of the gyrus within a lobe (e.g., superior temporal gyrus) or within a BA (e.g., superior BA 44; the superior/inferior dimension is also labeled dorsal/ventral). The coordinate labels anterior/posterior indicate the position within a gyrus (e.g., anterior superior temporal gyrus; the anterior/posterior dimension is also labeled rostral/caudal). Broca’s area consists of the pars opercularis (BA 44) and the pars triangularis (BA 45). Located anterior to Broca’s area is the pars orbitalis (BA 47). The frontal operculum (FOP) is located ventrally and more medially to BA 44, BA 45. The premotor cortex is located in BA 6. Wernicke’s area is defined as BA 42 and BA 22. The primary auditory cortex (PAC) and Heschl’s gyrus (HG) are located in a lateral to medial orientation.\nTalbot K, Louneva N, Cohen JW, Kazi H, Blake DJ, et al. (2011) Synaptic Dysbindin-1 Reductions in Schizophrenia Occur in an Isoform-Specific Manner Indicating Their Subsynaptic Location. PLoS ONE 6(3): e16886. doi:10.1371/journal.pone.0016886\nBy Brodamnn - Brodmann (1909) File:Brodmann areas inside of lateral sulcus close up.png, Public Domain, https://commons.wikimedia.org/w/index.php?curid=20696476\nBy Fatemeh Geranmayeh, Sonia L. E. Brownsett, Richard J. S. Wise - “Task-induced brain activity in aphasic stroke patients: what is driving recovery?” Fatemeh Geranmayeh, Sonia L. E. Brownsett, Richard J. S. Wise. Brain 2014 Oct 28;137(Pt 10):2632-48. Epub 2014 Jun 28. DOI: https://dx.doi.org/10.1093/brain/awu163, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=38174526\nBy Polygon data were generated by Database Center for Life Science(DBCLS)[2]. - Polygon data are from BodyParts3D[1], CC BY-SA 2.1 jp, https://commons.wikimedia.org/w/index.php?curid=32508617\na | Schematic diagram of the dual-stream model. The earliest stage of cortical speech processing involves some form of spectrotemporal analysis, which is carried out in auditory cortices bilaterally in the supratemporal plane. These spectrotemporal computations appear to differ between the two hemispheres. Phonological-level processing and representation involves the middle to posterior portions of the superior temporal sulcus (STS) bilaterally, although there may be a weak left-hemisphere bias at this level of processing. Subsequently, the system diverges into two broad streams, a dorsal pathway (blue) that maps sensory or phonological representations onto articulatory motor representations, and a ventral pathway (pink) that maps sensory or phonological representations onto lexical conceptual representations. b | Approximate anatomical locations of the dual-stream model components, specified as precisely as available evidence allows. Regions shaded green depict areas on the dorsal surface of the superior temporal gyrus (STG) that are proposed to be involved in spectrotemporal analysis. Regions shaded yellow in the posterior half of the STS are implicated in phonological-level processes. Regions shaded pink represent the ventral stream, which is bilaterally organized with a weak left-hemisphere bias. The more posterior regions of the ventral stream, posterior middle and inferior portions of the temporal lobes correspond to the lexical interface, which links phonological and semantic information, whereas the more anterior locations correspond to the proposed combinatorial network. Regions shaded blue represent the dorsal stream, which is strongly left dominant. The posterior region of the dorsal stream corresponds to an area in the Sylvian fissure at the parietotemporal boundary (area Spt), which is proposed to be a sensorimotor interface, whereas the more anterior locations in the frontal lobe, probably involving Broca’s region and a more dorsal premotor site, correspond to portions of the articulatory network. aITS, anterior inferior temporal sulcus; aMTG, anterior middle temporal gyrus; pIFG, posterior inferior frontal gyrus; PM, premotor cortex.\nBy Leathalperisthecoolest123321 - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=45449677\nFIGURE 3. Structural connectivities between the language cortices. Schematic view of two dorsal pathways and two ventral pathways. Dorsal pathway I connects the superior temporal gyrus (STG) to the premotor cortex via the arcuate fascile (AF) and the superior longitudinal fascicle (SLF). Dorsal pathway II connects the STG to BA 44 via the AF/SLF. Ventral pathway I connects BA 45 and the temporal cortex via the extreme fiber capsule system (EFCS). Ventral pathway II connects the frontal operculum (FOP) and the anterior temporal STG/STS via the uncinate fascile (UF).\nBy Tractography data: Yeh, F. C., Panesar, S., Fernandes, D., Meola, A., Yoshino, M., Fernandez-Miranda, J. C., … & Verstynen, T. (2018). Population-averaged atlas of the macroscale human structural connectome and its network topology. NeuroImage, 178, 57-68. PubMed: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6921501/Skull and brain data: Nobutaka Mitsuhashi, Kaori Fujieda, Takuro Tamura, Shoko Kawamoto, Toshihisa Takagi, and Kousaku Okubo. (2009) BodyParts3D: 3D structure database for anatomical concepts. Nucleic Acids Research, Vol. 37, Database issue D782-D785, https://doi.org/10.1093/nar/gkn613 - Tractography data: http://brain.labsolver.org/diffusion-mri-templates/tractographySkull and brain data: http://lifesciencedb.jp/bp3d/, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=105038802\nBy Yeh, F. C., Panesar, S., Fernandes, D., Meola, A., Yoshino, M., Fernandez-Miranda, J. C., … & Verstynen, T. (2018). Population-averaged atlas of the macroscale human structural connectome and its network topology. NeuroImage, 178, 57-68. - http://brain.labsolver.org/, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=78298710\nBy Yeh, F. C., Panesar, S., Fernandes, D., Meola, A., Yoshino, M., Fernandez-Miranda, J. C., … & Verstynen, T. (2018). Population-averaged atlas of the macroscale human structural connectome and its network topology. NeuroImage, 178, 57-68. - http://brain.labsolver.org, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=78299333\nThe diffusion tensor tractographies of neural tracts for language: the arcuate fasciculus (AF), the superior longitudinal fasciculus (SLF), the inferior longitudinal fasciculus (ILF), the uncinate fasciculus (UF), and inferior fronto-occipital fasciculus (IFOF).\nBy Selket - I (Selket) made this from File:Gray728.svg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=1679336\nFigure 1. Schematic representation of the brain showing regions with reliably reported activations for sentences compared with nonsentential stimuli (a) and sentences with high syntactic or semantic processing demands compared with simpler sentences (b,c). The left posterior inferior frontal gyrus is further subdivided into Brodmann areas (BA) 44 (above black line), BA 45 (below black line, above AC–PC line) and BA 47 (below AC–PC line). Green regions indicate a reliable number of reports. Pink regions indicate no reports in 53 studies. For details, see Supplemental Tables 2, 3, and 4. Abbreviations: AC, anterior commissure; PC, posterior commissure).\n(a) Summary of activation patterns for sentences with high syntactic or semantic processing demands compared with simpler sentences. (b) Syntactic/semantic gradients in left inferior frontal and posterior temporal cortex based on 28 studies reporting posterior temporal cortex activation for syntactically demanding or semantically demanding sentences compared with less demanding sentences (see Supplemental Figure 13 for details). The centers represent the mean coordinates of the local maxima, and the radii represent the standard deviations of the distance between the local maxima and their means. Abbreviations: GFm, GFi, middle and inferior frontal gyri; BA, Brodmann area; GTs, GTm, GTi, superior, middle, and inferior temporal gyri; STS, ITS, superior and inferior temporal sulci; Gsm, supramarginal gyrus.",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5848,7 +5848,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#dual-streams-hypothesis",
     "title": "Language",
     "section": "Dual streams hypothesis",
-    "text": "Dual streams hypothesis\n\n\n\nWikipedia contributors (2026c)\nGoodale & Milner (1992); Mishkin, Ungerleider, & Macko (1983)\n\n\n\n\n\nWikipedia14",
+    "text": "Dual streams hypothesis\n\n\n\nWikipedia contributors (2026c)\nGoodale & Milner (1992); Mishkin, Ungerleider, & Macko (1983)\n\n\n\n\n\nWikipedia15",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5892,7 +5892,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#on-system-architectures",
     "title": "Language",
     "section": "On system architectures",
-    "text": "On system architectures\n\n\n\n\n\n\nflowchart LR\n  A[Perception] --&gt; B[Cognition/Emotion]\n  B --&gt; C[Action]\n\n\n\n\nFigure 2: A simplistic feedforward psychological architecture.\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Perception] --&gt; B[Cognition]\n  A --&gt; C[Emotion]\n  B --&gt; D[Action]\n  C --&gt; D\n\n\n\n\nFigure 3: A barely more complicated feedforward & parallel psychological architecture.",
+    "text": "On system architectures\n\n\n\n\n\n\nflowchart LR\n  E[ ]:::empty\n  W[ ]:::empty\n  E --&gt; A\n  A[Perception] --&gt; B[Cognition/Emotion]\n  B --&gt; C[Action]\n  C --&gt; W\n  \n  %% Define the style for the empty node\n  classDef empty height:0,width:0,margin:0;\n\n\n\n\nFigure 6: A simplistic feedforward psychological architecture.\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  E[ ]:::empty\n  W[ ]:::empty\n  E --&gt; A\n  A[Perception] --&gt; B[Cognition]\n  A --&gt; C[Emotion]\n  B --&gt; D[Action]\n  C --&gt; D\n  D --&gt; W\n  \n  %% Define the style for the empty node\n  classDef empty height:0,width:0,margin:0;\n\n\n\n\nFigure 7: A barely more complicated feedforward & parallel psychological architecture.",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5903,7 +5903,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#on-system-architectures-1",
     "title": "Language",
     "section": "On system architectures",
-    "text": "On system architectures\n\n\n\n\n\n\nflowchart LR\n  E[ ]:::empty\n  W[ ]:::empty\n  E --&gt; A\n  A[Perception] &lt;--&gt; B[Cognition]\n  A &lt;--&gt; C[Emotion]\n  B & C &lt;--&gt; D[Action]\n  D --&gt; W\n  \n  %% Define the style for the empty node\n  classDef empty height:0,width:0,margin:0;\n\n\n\n\nFigure 4: A more realistic feedforward/feedback parallel architecture.\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  E[ ]:::empty\n  W[ ]:::empty\n  E --&gt; A\n  A[Perception] &lt;--&gt; B[Cognition]\n  A &lt;--&gt; C[Emotion]\n  B &lt;--&gt; C\n  B & C &lt;--&gt; D[Action]\n  D --&gt; W\n  \n  %% Define the style for the empty node\n  classDef empty height:0,width:0,margin:0;\n\n\n\n\nFigure 5: An even more realistic feedforward/feedback parallel architecture.",
+    "text": "On system architectures\n\n\n\n\n\n\nflowchart LR\n  E[ ]:::empty\n  W[ ]:::empty\n  E --&gt; A\n  A[Perception] &lt;--&gt; B[Cognition]\n  A &lt;--&gt; C[Emotion]\n  B & C &lt;--&gt; D[Action]\n  D --&gt; W\n  \n  %% Define the style for the empty node\n  classDef empty height:0,width:0,margin:0;\n\n\n\n\nFigure 8: A more realistic feedforward/feedback parallel architecture.\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  E[ ]:::empty\n  W[ ]:::empty\n  E --&gt; A\n  A[Perception] &lt;--&gt; B[Cognition]\n  A &lt;--&gt; C[Emotion]\n  B &lt;--&gt; C\n  B & C &lt;--&gt; D[Action]\n  D --&gt; W\n  \n  %% Define the style for the empty node\n  classDef empty height:0,width:0,margin:0;\n\n\n\n\nFigure 9: An even more realistic feedforward/feedback parallel architecture.",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5914,7 +5914,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#section-10",
     "title": "Language",
     "section": "",
-    "text": "Hagoort & Indefrey (2014) Figure 216",
+    "text": "Hagoort & Indefrey (2014) Figure 217",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5969,7 +5969,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#hierarchical-structure-1",
     "title": "Language",
     "section": "Hierarchical structure",
-    "text": "Hierarchical structure\n\n\n\nPhonetic\n\n|Ber| |wiTH| |mē|\n\nSyntactic\n\nSubject | Verb | Object\n\nSemantic\nPragmatic",
+    "text": "Hierarchical structure\n\n\n\nSyntactic\n\nSubject | Verb | Object\n\nSemantic",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5980,7 +5980,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#section-3",
     "title": "Language",
     "section": "",
-    "text": "– purepedantry (2007)",
+    "text": "Figure 5: Illustration of Broca’s aphasia (purepedantry, 2007)",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -5991,7 +5991,7 @@
     "href": "slides/wk-06-2026-02-19-language.html#cognitive-components",
     "title": "Language",
     "section": "Cognitive components",
-    "text": "Cognitive components\n\nSpeech sounds \\(\\rightarrow\\) words\n\nifyoudidnotknowtheenglishlanguagethiswouldbeanincomprehensiblestreamoflettersorsounds\n\nWords \\(\\rightarrow\\) semantics/meaning(s)\nSequences of words \\(\\rightarrow\\) semantics/meaning(s)\nPara and non-linguistic sounds + context \\(\\rightarrow\\) semantics/meaning(s)",
+    "text": "Cognitive components\n\nSpeech sounds \\(\\rightarrow\\) words\n\nifyoudidnotknowtheenglishlanguagethiswould beanincomprehensiblestreamoflettersorsounds\n\nWords \\(\\rightarrow\\) meaning(s)",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"
@@ -6002,7 +6002,95 @@
     "href": "slides/wk-06-2026-02-19-language.html#on-large-language-models-llms",
     "title": "Language",
     "section": "On large language models (LLMs)",
-    "text": "On large language models (LLMs)\n\nWikipedia contributors (2026d)\nAI systems trained to predict the next word or set of words (tokens)\nUse deep (multi, e.g., 100+ layer) neural network architecture\nGemini AI may have 1e12+ (trillions) of parameters\nEach word in an LLM represented by a vector (often 2^12 or 4,096) of numbers (feature values) (Heaven, 2026)",
+    "text": "On large language models (LLMs)\n\nWikipedia contributors (2026d)\n\n\nAI systems trained to predict the next word or set of words (tokens)\nUse deep (multi-, e.g., 100+ layer) neural network architecture\nGemini AI may have 1e12+ (trillions) of parameters\nEach word in an LLM represented by a vector (often 2^12 or 4,096) of numbers (feature values) (Heaven, 2026)",
+    "crumbs": [
+      "Slides",
+      "Wk 06 • Thu Feb 19"
+    ]
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#cognitive-components-1",
+    "href": "slides/wk-06-2026-02-19-language.html#cognitive-components-1",
+    "title": "Language",
+    "section": "Cognitive components",
+    "text": "Cognitive components\n\n\n\nPhonetic\n\n|Ber| |wiTH| |mē|",
+    "crumbs": [
+      "Slides",
+      "Wk 06 • Thu Feb 19"
+    ]
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#hierarchical-structure-2",
+    "href": "slides/wk-06-2026-02-19-language.html#hierarchical-structure-2",
+    "title": "Language",
+    "section": "Hierarchical structure",
+    "text": "Hierarchical structure\n\n\n\nWikipedia contributors (2025)2",
+    "crumbs": [
+      "Slides",
+      "Wk 06 • Thu Feb 19"
+    ]
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#hiearchical-structure",
+    "href": "slides/wk-06-2026-02-19-language.html#hiearchical-structure",
+    "title": "Language",
+    "section": "Hiearchical structure",
+    "text": "Hiearchical structure\n\n\n\nPhonetic\n\n|Ber| |wiTH| |mē|",
+    "crumbs": [
+      "Slides",
+      "Wk 06 • Thu Feb 19"
+    ]
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#dual-streams",
+    "href": "slides/wk-06-2026-02-19-language.html#dual-streams",
+    "title": "Language",
+    "section": "Dual streams?",
+    "text": "Dual streams?\n\n\n\nVentral (speech signals -&gt; semantics)\nDorsal (speech signal acoustics -&gt; articulatory networks in frontal lobe)\nHickok & Poeppel (2007)\n\n\n\n\n\nHickok & Poeppel (2007) Figure 18",
+    "crumbs": [
+      "Slides",
+      "Wk 06 • Thu Feb 19"
+    ]
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#dual-streams-hypothesis-in-vision",
+    "href": "slides/wk-06-2026-02-19-language.html#dual-streams-hypothesis-in-vision",
+    "title": "Language",
+    "section": "Dual streams hypothesis in vision",
+    "text": "Dual streams hypothesis in vision\n\n\n\nWikipedia contributors (2026c)\nGoodale & Milner (1992); Mishkin, Ungerleider, & Macko (1983)\n\n\n\n\n\nWikipedia15",
+    "crumbs": [
+      "Slides",
+      "Wk 06 • Thu Feb 19"
+    ]
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#our-human-heritage",
+    "href": "slides/wk-06-2026-02-19-language.html#our-human-heritage",
+    "title": "Language",
+    "section": "Our human heritage",
+    "text": "Our human heritage\n\n\n\n&lt;iframe width=“1200 height=”450” src=“https://www.youtube.com/embed/IgmB9c29UKU?si=aSViHzbK0w6Za49u” title=“YouTube video player” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen&gt; BuzzFeedVideo (2019)\n\n\nFigure 10",
+    "crumbs": [
+      "Slides",
+      "Wk 06 • Thu Feb 19"
+    ]
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#section-13",
+    "href": "slides/wk-06-2026-02-19-language.html#section-13",
+    "title": "Language",
+    "section": "",
+    "text": "“Why AI uses so much energy — and what we can do about it” (2025)",
+    "crumbs": [
+      "Slides",
+      "Wk 06 • Thu Feb 19"
+    ]
+  },
+  {
+    "objectID": "slides/wk-06-2026-02-19-language.html#hierarchical-structure-3",
+    "href": "slides/wk-06-2026-02-19-language.html#hierarchical-structure-3",
+    "title": "Language",
+    "section": "Hierarchical structure",
+    "text": "Hierarchical structure\n\n\n\nPragmatic",
     "crumbs": [
       "Slides",
       "Wk 06 • Thu Feb 19"

@@ -7,9 +7,11 @@ format: revealjs
 
 ## Prelude
 
-{{< video https://www.youtube.com/watch?v=RObuKTeHoxo width="100%" height=70% >}}
+::: {#fig-nonsense-song}
+<iframe width="1200" height="450" src="https://www.youtube.com/embed/RObuKTeHoxo?si=haQjjf4iNhiYGluM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
--- @Bow2022-cy^[https://en.wikipedia.org/wiki/Prisencolinensinainciusol]
+@Bow2022-cy^[https://en.wikipedia.org/wiki/Prisencolinensinainciusol]
+:::
 
 ## Announcements
 
@@ -25,11 +27,80 @@ format: revealjs
 
 ## Warm-up
 
+---
+
+### Hebbian learning is like which common statistical measurement?
+
+- A. Mean
+- B. Median
+- C. Variance
+- D. Covariance
+
+---
+
+### Hebbian learning is like which common statistical measurement?
+
+- ~~A. Mean~~
+- ~~B. Median~~
+- ~~C. Variance~~
+- **D. Covariance**
+
+---
+
+- Univariate
+  - Mean, median, variance
+- Bivariate
+  - Covariance
+- Multivariate
+  - Matrix of covariances
+  
+---
+
+### What events does the NMDA receptor respond to?
+
+- A. Cell A releases glutamate onto Cell B.
+- B. Cell B fires an action potential.
+- C. Cell B releases glutamate onto Cell C.
+- D. A and B.
+- E. A and C.
+
+---
+
+### What events does the NMDA receptor respond to?
+
+- A. Cell A releases glutamate onto Cell B.
+- B. Cell B fires an action potential.
+- ~~C. Cell B releases glutamate onto Cell C.~~
+- D. A and B.
+- ~~E. A and C.~~
+
+---
+
+### Which of the following statements are incorrect?
+
+- A. Computer memory is designed to fade in time like biological memory.
+- B. Computer memory is separate from information processing.
+- C. Biological memory is integrated with information processing.
+- D. Memory in computers can be stored in networks that are similar to brains.
+
+---
+
+### Which of the following statements are *incorrect*?
+
+- **A. Computer memory is designed to fade in time like biological memory.**
+- ~~B. Computer memory is separate from information processing.~~
+- ~~C. Biological memory is integrated with information processing.~~
+- ~~D. Memory in computers can be stored in networks that are similar to brains.~~
+
 # Language and the brain
 
 ## Language behavior
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/4X4Fy8YqysY?rel=0&amp;start=160" frameborder="0" allowfullscreen></iframe>
+::: {#fig-fast-talker-video}
+<iframe width="1200" height="450" src="https://www.youtube.com/embed/4X4Fy8YqysY?rel=0&amp;start=160" frameborder="0" allowfullscreen></iframe>
+
+@VideoCollectables2014-bw
+:::
 
 ## Components
 
@@ -45,7 +116,7 @@ format: revealjs
     - Listening 
     - Responding (facial expressions, gestures, laughter, etc.)
     - Reading (3-5 words/s)
-    - Morse code (30-50 wpm or 0.8+ word/s), [@Zoglmann2025-mf]
+    - Morse code (30-50 wpm or 0.8+ word/s) [@Zoglmann2025-mf]
 - How so fast? Time for feedback?
 
 ## Speech input/output
@@ -62,10 +133,36 @@ format: revealjs
 ## Cognitive components
 
 - Speech sounds $\rightarrow$ words
-  - ifyoudidnotknowtheenglishlanguagethiswouldbeanincomprehensiblestreamoflettersorsounds
-- Words $\rightarrow$ semantics/meaning(s)
-- Sequences of words $\rightarrow$ semantics/meaning(s)
-- Para and non-linguistic sounds + context $\rightarrow$ semantics/meaning(s)
+  - ifyoudidnotknowtheenglishlanguagethiswould
+    beanincomprehensiblestreamoflettersorsounds
+- Words $\rightarrow$ meaning(s)
+
+## Hierarchical structure
+
+:::: {.columns}
+::: {.column width=40%}
+- Phonetic
+  - |Ber| |wiTH| |mē|
+:::
+::: {.column width=60%}
+:::
+::::
+
+## Hierarchical structure
+
+:::: {.columns}
+::: {.column width=40%}
+- Syntactic
+  - Subject | Verb | Object
+- Semantic
+:::
+::: {.column width=60%}
+![](https://cdn.someecards.com/someecards/usercards/MjAxMi03YjFmMjM5OTA1MmVhMzI2.png){width=65% fig-align="right"}
+
+![](https://s3.amazonaws.com/contenthub-static/blog/wp-content/uploads/2017/02/BEAR-WITH-ME-.jpg){width=65% fig-align="right"}
+:::
+::::
+
 
 ## Hierarchical structure
 
@@ -75,19 +172,12 @@ format: revealjs
 
 :::: {.columns}
 ::: {.column width=40%}
-- Phonetic
-  - |Ber| |wiTH| |mē|
-- Syntactic
-  - Subject | Verb | Object
-- Semantic
 - Pragmatic
 :::
 ::: {.column width=60%}
 ![](https://cdn.someecards.com/someecards/usercards/MjAxMi03YjFmMjM5OTA1MmVhMzI2.png){width=65% fig-align="right"}
 
-::: {.fragment}
 ![](https://s3.amazonaws.com/contenthub-static/blog/wp-content/uploads/2017/02/BEAR-WITH-ME-.jpg){width=65% fig-align="right"}
-:::
 :::
 ::::
 
@@ -155,9 +245,11 @@ flowchart LR
     
 ## {.scrollable}
 
-{{< video https://www.youtube.com/watch?v=dKTdMV6cOZw&t=1s width=100% height=70% >}}
+::: {#fig-video-wernickes}
+<iframe width="1200" height="450" src="https://www.youtube.com/embed/dKTdMV6cOZw?si=iSPljaQTUhqHEqrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
--- @cogmonaut2010-hc
+Illustration of Wernicke's aphasia [@cogmonaut2010-hc]
+:::
 
 ## Broca's area
 
@@ -180,19 +272,22 @@ flowchart LR
 
 ## {.scrollable}
 
-{{< video https://www.youtube.com/embed/f2IiMEbMnPM width=100% height=70% >}}
+::: {#fig-video-brocas}
+<iframe width="1200" height="450" src="https://www.youtube.com/embed/f2IiMEbMnPM?si=Q8SijoleIHB876XV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
--- @purepedantry2007-td
+Illustration of Broca's aphasia [@purepedantry2007-td]
+:::
 
-## Dual streams [@Hickok2007-rc]?
+## Dual streams?
 
 :::: {.columns}
 ::: {.column width=50%}
 - Ventral (speech signals -> semantics)
 - Dorsal (speech signal acoustics -> articulatory networks in frontal lobe)
+- @Hickok2007-rc
 :::
 ::: {.column width=50%}
-![@Hickok2007-rc](../include/img/hickock-poeppel-2007.jpg)
+![@Hickok2007-rc Figure 1^[a | Schematic diagram of the dual-stream model. The earliest stage of cortical speech processing involves some form of spectrotemporal analysis, which is carried out in auditory cortices bilaterally in the supratemporal plane. These spectrotemporal computations appear to differ between the two hemispheres. Phonological-level processing and representation involves the middle to posterior portions of the superior temporal sulcus (STS) bilaterally, although there may be a weak left-hemisphere bias at this level of processing. Subsequently, the system diverges into two broad streams, a dorsal pathway (blue) that maps sensory or phonological representations onto articulatory motor representations, and a ventral pathway (pink) that maps sensory or phonological representations onto lexical conceptual representations. b | Approximate anatomical locations of the dual-stream model components, specified as precisely as available evidence allows. Regions shaded green depict areas on the dorsal surface of the superior temporal gyrus (STG) that are proposed to be involved in spectrotemporal analysis. Regions shaded yellow in the posterior half of the STS are implicated in phonological-level processes. Regions shaded pink represent the ventral stream, which is bilaterally organized with a weak left-hemisphere bias. The more posterior regions of the ventral stream, posterior middle and inferior portions of the temporal lobes correspond to the lexical interface, which links phonological and semantic information, whereas the more anterior locations correspond to the proposed combinatorial network. Regions shaded blue represent the dorsal stream, which is strongly left dominant. The posterior region of the dorsal stream corresponds to an area in the Sylvian fissure at the parietotemporal boundary (area Spt), which is proposed to be a sensorimotor interface, whereas the more anterior locations in the frontal lobe, probably involving Broca's region and a more dorsal premotor site, correspond to portions of the articulatory network. aITS, anterior inferior temporal sulcus; aMTG, anterior middle temporal gyrus; pIFG, posterior inferior frontal gyrus; PM, premotor cortex.]](../include/img/hickock-poeppel-2007.jpg)
 :::
 ::::
 
@@ -227,7 +322,7 @@ flowchart LR
 :::
 ::::
 
-## Dual streams hypothesis
+## Dual streams hypothesis in vision
 
 :::: {.columns}
 ::: {.column width=50%}
@@ -278,8 +373,15 @@ flowchart LR
 %%| label: fig-serial
 %%| fig-cap: "A simplistic feedforward psychological architecture."
 flowchart LR
+  E[ ]:::empty
+  W[ ]:::empty
+  E --> A
   A[Perception] --> B[Cognition/Emotion]
   B --> C[Action]
+  C --> W
+  
+  %% Define the style for the empty node
+  classDef empty height:0,width:0,margin:0;
 ```
 
 ::: {.fragment}
@@ -289,10 +391,17 @@ flowchart LR
 %%| fig-cap: "A barely more complicated feedforward & parallel psychological architecture."
 
 flowchart LR
+  E[ ]:::empty
+  W[ ]:::empty
+  E --> A
   A[Perception] --> B[Cognition]
   A --> C[Emotion]
   B --> D[Action]
   C --> D
+  D --> W
+  
+  %% Define the style for the empty node
+  classDef empty height:0,width:0,margin:0;
 ```
 
 :::
@@ -339,10 +448,23 @@ flowchart LR
 ## On large language models (LLMs)
 
 - @Wikipedia-contributors2026-wf
+
+::: {.incremental}
 - AI systems trained to predict the next word or set of words (tokens)
-- Use deep (multi, e.g., 100+ layer) neural network architecture
+- Use deep (multi-, e.g., 100+ layer) neural network architecture
 - Gemini AI may have 1e12+ (trillions) of parameters
 - Each word in an LLM represented by a vector (often 2^12 or 4,096) of numbers (feature values) [@Heaven2026-pz]
+:::
+
+## {.scrollable}
+
+![@Unknown2025-zs](../include/img/kandemir-2025-ai-energy.png)
+
+---
+
+>By 2030-2035 data centers could account for 20% of global energy use...
+
+-- @Unknown2025-zs
 
 # Read & discuss
 
@@ -360,6 +482,13 @@ flowchart LR
 - Earlier and simpler input/output models have yielded to more complex parallel and interactive network models.
 - Comprehending and producing language engages multiple regions of the brain.
 - Some functions are lateralized, especially in the left hemisphere.
+
+## Our human heritage
+
+::: {#fig-deaf-speakers-google-questions}
+<iframe width="1200 height="450" src="https://www.youtube.com/embed/IgmB9c29UKU?si=aSViHzbK0w6Za49u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+@BuzzFeedVideo2019-oq
+:::
 
 ## Next time
 
