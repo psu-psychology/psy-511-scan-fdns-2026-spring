@@ -105,6 +105,13 @@ format: revealjs
 
 # Language and the brain
 
+## Integrative perspectives
+
+- Language as action
+- Language as perception
+- Language as cognition
+  - Dependence on learning & memory
+
 ## Language behavior
 
 ::: {#fig-fast-talker-video}
@@ -146,6 +153,7 @@ format: revealjs
 - Speech sounds $\rightarrow$ words
   - ifyoudidnotknowtheenglishlanguagethiswould
     beanincomprehensiblestreamoflettersorsounds
+  - Perceive stream, parse into component sequences
 - Words $\rightarrow$ meaning(s)
 
 ## Hierarchical structure
