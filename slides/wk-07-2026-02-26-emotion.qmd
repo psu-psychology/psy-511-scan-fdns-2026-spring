@@ -52,8 +52,13 @@ format: revealjs
 - Internal states
   - Autonomic
   - Endocrine
+  - Immune
   - Brain regions or networks
 - Feelings
+
+## {.scrollable}
+
+![@Malezieux2023-as Figure 1 ^["Experimentally inferring emotion states across species. Evolutionary conserved functional emotion states (black box) are hidden internal states that can be inferred from knowledge about their causes (input or trigger, left) and consequences (emotion expression, right). Diverse triggers and contexts can cause similar emotion states (fan in), which can elicit a multitude of organismal changes (fan out). This arrangement allows the researcher to experimentally control and manipulate diverse features and contexts of ethological emotion triggers, quantify the resulting expression of the emotion state, and test whether the expressions adhere to emotion-characteristic features. The relationship between changes in stimulus input and the response of the organism can help to infer the presence of an emotion state."]](https://www.annualreviews.org/docserver/fulltext/neuro/46/1/ne460211.f1.gif)
 
 ## {.scrollable}
 
@@ -64,7 +69,7 @@ format: revealjs
 :::: {.columns}
 ::: {.column width=50%}
 - Basic $\leftrightarrow$ Complex
-- Dimensions: Valence + Arousal
+- Dimensions: Valence (+/-) & Arousal (high/low)
 - Action tendencies: Approach $\leftrightarrow$ Withdraw
 :::
 ::: {.column width=50%}
@@ -139,16 +144,40 @@ format: revealjs
 
 ![@Lindquist2012-jr Figure S3](../include/img/lindquist-etal-2012-fig-s3.png){width="75%"}
 
-## Are emotions localized in the brain?
+## So, are discrete emotions localized in the brain?
 
-:::: {.columns}
-::: {.column width=50%}
-- Meta-analytic [@Lindquist2012-jr] says no
-:::
-::: {.column width=50%}
 ![Giphy](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2lmYnU3NnA3MjYzazg2aTQ0eXRucHh4azF4MTJwNTRjZG13MHdjNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ji6zzUZwNIuLS/giphy.gif)
-:::
-::::
+
+---
+
+![@Malezieux2023-as Figure 2 ^["Figure 2. Largely overlapping and conserved brain regions involved in emotions. Recent work in rodents and humans has begun to highlight several conserved brain regions that are implicated in emotion processing across species. Interestingly, many of these regions are implicated in several emotion states of different valences. (a) Sagittal view of the rodent brain highlighting regions implicated in emotions. (b) Sagittal view of the human brain highlighting regions implicated in emotions. Note the conservation of many of these regions between rodents and humans. For clarity, we chose not to display the anatomical and functional connections between these regions. However, it should be noted that most of these regions are heavily interconnected and form functional networks that are crucial for the emergence and control of emotions. Abbreviations: ACC, anterior cingulate cortex; BLA, basolateral amygdala; BNST, bed nucleus of the stria terminalis; CeA, central amygdala; HPC, hippocampus; HPT, hypothalamus; LS, lateral septum; MeA, medial amygdala; mPFC, medial prefrontal cortex; NAc, nucleus accumbens; OFC, orbitofrontal cortex; PAG, periaqueductal gray; vHPC, ventral hippocampus; VP, ventral pallidum; VTA, ventral tegmental area."]](https://www.annualreviews.org/docserver/fulltext/neuro/46/1/ne460211.f2.gif){width="50%"}
+
+---
+
+![@Berridge2019-th Figure 1 ^["a | An affective modules hypothesis posits that a given neuron, neural system, projection or subregion reliably mediates only a single affective function. In the example shown here, which is based on some of the findings described in this article, a hypothesis of affective modules suggests that there are at least four affective modules within the nucleus accumbens shell. Each module is dedicated to mediating just one of four affective functions (the positive-valenced ‘liking’ and ‘wanting’ reactions and the negative-valenced ‘fear’ and ‘disgust’ reactions2,61,62,70) and is activated by particular manipulations of the nucleus accumbens (for example, ‘liking’ enhancement is triggered by opioid stimulation in the rostrodorsal quadrant of the medial shell62). b | An affective modes hypothesis that accounts for the same data would allow a given affective module (a given neuron, projection, neural system or subregion) to have more than one mode. For example, in the schematic example, module 1 (corresponding to a rostrodorsal site in the nucleus accumbens shell) can generate either pure ‘wanting’ (after dopamine receptor stimulation or AMPA receptor (AMPAR) blockade)45,47,70 or ‘liking’ plus ‘wanting’ (in response to opioid receptor stimulation47,62). Module 4 (corresponding to the caudal shell) can generate ‘wanting’ alone (after dopamine receptor or µ-opioid receptor stimulation)50,62, ‘fear’ alone (after AMPA receptor blockade)41,70 or ‘disgust’ plus ‘fear’ (after GABA agonist microinjection)61,70. However, a particular module may still have unique features that distinguish it from other modules (for example, only one of the modules illustrated has the capacity to enhance ‘liking’47,62 and only one has the capacity to generate ‘disgust’61,70). A particular module also may retain a valence bias across modes (for example, module 1 has strong positive-valenced bias41,62,70, whereas module 4 has a negative-valenced bias41,70) but still be capable of generating affective reactions of the opposite valence in particular modes (such as the switching between generation of ‘wanting’ and ‘fear’ by intermediate modules23,41, or the ‘wanting’ enhancement obtained from negatively biased module 4 in the dopamine receptor or µ-opioid receptor stimulation modes45,50,62). GABAR, GABA receptor."]](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41583-019-0122-8/MediaObjects/41583_2019_122_Fig1_HTML.png?as=webp){width="40%"}
+
+---
+
+![@Wager2015-fh Figure 1^["Fig 1. Classification of emotion category using the Bayesian Spatial Point Process model. A) A schematic of the method, which models the population density of activation across the brain with a sparse set of multivariate Gaussian distributions at two levels (study center and population center). The intensity function map summarizes the expected frequency of activation conditional on an emotion category. The model also represents the joint activation across multiple brain regions, which is not captured in the intensity map. The model can also be used for classification by calculating the conditional likelihood of each emotion category given a set of foci using Bayes’ rule. B) Confusion matrix for the 5-way classification of emotion category based on the model. Diagonal entries reflect classification accuracy. C) The intensity maps for each of the 5 emotion categories. Intensity maps are continuous over space, and their integral over any portion of the brain reflects the expected number of activation centers in that area for all studies with a particular emotion. The maps are thresholded for display at a voxel-wise intensity of 0.001 or above. "]](https://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=10.1371/journal.pcbi.1004066.g001)
+
+## {.scrollable}
+
+![@Wager2015-fh Figure 2^["Fig 2. Emotion-predictive patterns of activity across cortical networks and subcortical regions. A) Left: Seven resting-state connectivity networks from the Buckner Lab with cortical, basal ganglia, and cerebellar components. Colors reflect the network membership. Right: Published anatomical parcellations were used to supplement the resting-state networks to identify sub-regions in amygdala (131), hippocampus (131, 132), and thalamus (133). dAN: dorsal attention network; Def: default mode network; FPN: fronto-parietal network; Limbic: limbic network; SMN: somatomotor network; vAN: ventral attention network; Vis: visual network. B) The profile of activation intensity across the 7 cortical and basal ganglia resting-state networks, and anatomical amygdalar and thalamic regions. Colors indicate different emotion categories, as in Fig. 1. Red: anger; green: disgust; purple: fear; yellow: happiness; blue: sadness. Values farther toward the solid circle indicate greater average intensity in the network (i.e., more expected study centers). C) Two canonical patterns estimated using non-negative matrix factorization, and the distribution of intensity values for each emotion across the two canonical patterns. The colored area shows the 95% joint confidence interval (confidence ellipsoids) derived from the 10,000 Markov chain Monte Carlo samples in the Bayesian model. Non-overlapping confidence ellipsoids indicate significant differences across categories in the expression of each profile."]](https://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=10.1371/journal.pcbi.1004066.g002){width="75%"}
+
+## {.scrollable}
+
+![@Wager2015-fh Figure 3 ^["Fig 3. Co-activation graphs for each emotion category.
+A) Force-directed graphs for each emotion category, based on the Fruchterman-Reingold spring algorithm (134). The nodes (circles) are regions or networks, color-coded by anatomical system. The edges (lines) reflect co-activation between pairs of regions or networks, assessed based on the joint distribution of activation intensity in the Bayesian model (Pearson’s r across all MCMC iterations) and thresholded at P <. 05 corrected based on a permutation test. The size of each circle reflects its betweenness-centrality (48, 49), a measure of how strongly it connects disparate networks. (B) The same connections in the anatomical space of the brain. One location is depicted for each cortical network for visualization purposes, though the networks were distributed across regions (see Fig 3A). C) Global network efficiency (see refs. (135, 136)) within (diagonal elements) and between (off-diagonals) brain systems. Global efficiency (135, 136) is defined as the inverse of the average minimum path length between all members of each group of regions/nodes. Minimum path length is the minimum number of intervening nodes that must be traversed to reach one node from another, counting only paths with statistically significant associations and with distance values proportional to (2—Pearson’s r), rather than binary values, to better reflect the actual co-activation values. Higher efficiency reflects more direct relationships among the systems. Values of 0 indicates disjoint systems, with no significant co-activation paths connecting any pair of regions/networks, and values of 1 indicate the upper bound of efficiency, with a perfect association between each pair of regions. Co-activation is related to connectivity and network integration, though all fMRI-based connectivity measures only indirectly reflect actual neural connections. Efficiency is related to the average correlation among regions (r = 0.76) but not the average intensity (r = 0.02; see S5 Fig). "]](https://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=10.1371/journal.pcbi.1004066.g003){width="75%"}
+
+## @Wager2015-fh
+
+>Analyses of the activity patterns encoded in the model revealed that each emotion category is associated with unique, prototypical patterns of activity across multiple brain systems including the cortex, thalamus, amygdala, and other structures. The results indicate that emotion categories are not contained within any one region or system, but are represented as configurations across multiple brain networks.
+
+---
+
+>...these findings are incompatible with several contemporary theories of emotion, including those that emphasize emotion-dedicated brain systems and those that propose emotion is localized primarily in subcortical activity.
+
+-- @Wager2015-fh
 
 # Constructing emotion
 

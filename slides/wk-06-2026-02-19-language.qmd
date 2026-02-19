@@ -192,16 +192,40 @@ format: revealjs
 :::
 ::::
 
-## Network components {.scrollable}
+## Network components
 
-![@Friederici2011-ye Figure 1^[FIGURE 1. Anatomical and cytoarchitectonic details of the left hemisphere. The different lobes (frontal, temporal, parietal, occipital) are marked by colored borders. Major language relevant gyri (IFG, STG, MTG) are color coded. Numbers indicate language-relevant Brodmann Areas (BA) which Brodmann (1909) defined on the basis of cytoarchitectonic characteristics. The coordinate labels superior/inferior indicate the position of the gyrus within a lobe (e.g., superior temporal gyrus) or within a BA (e.g., superior BA 44; the superior/inferior dimension is also labeled dorsal/ventral). The coordinate labels anterior/posterior indicate the position within a gyrus (e.g., anterior superior temporal gyrus; the anterior/posterior dimension is also labeled rostral/caudal). Broca's area consists of the pars opercularis (BA 44) and the pars triangularis (BA 45). Located anterior to Broca's area is the pars orbitalis (BA 47). The frontal operculum (FOP) is located ventrally and more medially to BA 44, BA 45. The premotor cortex is located in BA 6. Wernicke's area is defined as BA 42 and BA 22. The primary auditory cortex (PAC) and Heschl's gyrus (HG) are located in a lateral to medial orientation.]](../include/img/friederici-2011-fig-01.jpeg)
+![@Friederici2011-ye Figure 1^[FIGURE 1. Anatomical and cytoarchitectonic details of the left hemisphere. The different lobes (frontal, temporal, parietal, occipital) are marked by colored borders. Major language relevant gyri (IFG, STG, MTG) are color coded. Numbers indicate language-relevant Brodmann Areas (BA) which Brodmann (1909) defined on the basis of cytoarchitectonic characteristics. The coordinate labels superior/inferior indicate the position of the gyrus within a lobe (e.g., superior temporal gyrus) or within a BA (e.g., superior BA 44; the superior/inferior dimension is also labeled dorsal/ventral). The coordinate labels anterior/posterior indicate the position within a gyrus (e.g., anterior superior temporal gyrus; the anterior/posterior dimension is also labeled rostral/caudal). Broca's area consists of the pars opercularis (BA 44) and the pars triangularis (BA 45). Located anterior to Broca's area is the pars orbitalis (BA 47). The frontal operculum (FOP) is located ventrally and more medially to BA 44, BA 45. The premotor cortex is located in BA 6. Wernicke's area is defined as BA 42 and BA 22. The primary auditory cortex (PAC) and Heschl's gyrus (HG) are located in a lateral to medial orientation.]](../include/img/friederici-2011-fig-01.jpeg){width="50%"}
 
-## Wernicke-Geschwind (WG) model
+## (Broca)-Wernicke-(Lichtheim)-Geschwind (WG) model
 
 :::: {.columns}
 ::: {.column width=50%}
+- [Paul Broca](https://en.wikipedia.org/wiki/Paul_Broca)
 - [Carl Wernicke](https://en.wikipedia.org/wiki/Carl_Wernicke)
+- [Ludvig Lichtheim](https://en.wikipedia.org/wiki/Ludwig_Lichtheim)
 - [Norman Geschwind](https://en.wikipedia.org/wiki/Norman_Geschwind)
+:::
+::: {.column width=50%}
+![@Tremblay2016-gm Figure 1^["Fig. 1. Left: The original model from Wernicke, 1874. For unknown reasons, the model is represented on the right hemisphere. Right: An update of the Classic model from Geschwind, 1972. In this figure, according to most anatomical definitions, the superior temporal gyrus is inadvertently mislabeled as the angular gyrus."]](https://ars.els-cdn.com/content/image/1-s2.0-S0093934X16300475-gr1_lrg.jpg)
+:::
+::::
+
+## (Broca)-Wernicke-(Lichtheim)-Geschwind (WG) model
+
+:::: {.columns}
+::: {.column width=50%}
+- [Superior Temporal Gyrus (STG)](https://en.wikipedia.org/wiki/Superior_temporal_gyrus): Comprehension
+- [Inferior Frontal Gyrus (IFG)](https://en.wikipedia.org/wiki/Inferior_frontal_gyrus): Speech articulation 
+:::
+::: {.column width=50%}
+![@Tremblay2016-gm Figure 1](https://ars.els-cdn.com/content/image/1-s2.0-S0093934X16300475-gr1_lrg.jpg)
+:::
+::::
+
+## (Broca)-Wernicke-(Lichtheim)-Geschwind (WG) model
+
+:::: {.columns}
+::: {.column width=50%}
 - Speaking ≠ Writing/typing
 - Perception ≠ production
 :::
@@ -280,7 +304,6 @@ Illustration of Wernicke's aphasia [@cogmonaut2010-hc]
 :::
 ::::
 
-
 ## {.scrollable}
 
 ::: {#fig-video-brocas}
@@ -288,6 +311,43 @@ Illustration of Wernicke's aphasia [@cogmonaut2010-hc]
 
 Illustration of Broca's aphasia [@purepedantry2007-td]
 :::
+
+## Arcuate fasciculus^[bundle of nerve fibers]
+
+:::: {.columns}
+::: {.column width=50%}
+- @Wikipedia-contributors2026-mx
+- Connects Wernicke's & Broca's areas
+:::
+::: {.column width=50%}
+![@Wikipedia-contributors2026-mx^["By Yeh, F. C., Panesar, S., Fernandes, D., Meola, A., Yoshino, M., Fernandez-Miranda, J. C., ... & Verstynen, T. (2018). Population-averaged atlas of the macroscale human structural connectome and its network topology. NeuroImage, 178, 57-68. - http://brain.labsolver.org, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=78299333"]](https://upload.wikimedia.org/wikipedia/commons/2/2a/Arcuate_Fasciculus.jpg)
+:::
+::::
+
+## {.scrollable}
+
+:::: {.columns}
+::: {.column width=50%}
+![@Tremblay2016-gm](../include/img/tremblay-dick-2016.png)
+:::
+::: {.column width=50%}
+- "No consistent definition of Broca’s and Wernicke’s areas"
+- "Beyond the arcuate fasciculus"
+- "We advocate for rejection of the Classic model and its terminology"
+:::
+::::
+
+---
+
+>Because the simple architecture of the Classic Model suggests a language-centric perspective, the resilience of the model has perpetuated different flavors of the longstanding idea that the neural machinery for language is “special”, that is, the notion that there exists neural tissue dedicated to the specific task of processing and producing language. 
+
+-- @Tremblay2016-gm
+
+---
+
+>An alternative view is that language is, at least in part, an overlaid functional system that “gets what service it can out of nervous tissues that have come into being and are maintained for very different ends than its own” (adapted from Sapir, 1921).
+
+-- @Tremblay2016-gm
 
 ## Dual streams?
 
@@ -309,7 +369,6 @@ Illustration of Broca's aphasia [@purepedantry2007-td]
 ## {.scrollable}
 
 ![@Friederici2011-ye Figure 3^[FIGURE 3. Structural connectivities between the language cortices. Schematic view of two dorsal pathways and two ventral pathways. Dorsal pathway I connects the superior temporal gyrus (STG) to the premotor cortex via the arcuate fascile (AF) and the superior longitudinal fascicle (SLF). Dorsal pathway II connects the STG to BA 44 via the AF/SLF. Ventral pathway I connects BA 45 and the temporal cortex via the extreme fiber capsule system (EFCS). Ventral pathway II connects the frontal operculum (FOP) and the anterior temporal STG/STS via the uncinate fascile (UF).]](../include/img/friederici-2011-fig-03.jpeg)
-
 
 ## {.scrollable}
 
@@ -498,6 +557,7 @@ flowchart LR
 
 ::: {#fig-deaf-speakers-google-questions}
 <iframe width="1200 height="450" src="https://www.youtube.com/embed/IgmB9c29UKU?si=aSViHzbK0w6Za49u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 @BuzzFeedVideo2019-oq
 :::
 
