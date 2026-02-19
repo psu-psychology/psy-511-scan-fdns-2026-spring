@@ -6298,5 +6298,180 @@
       "Slides",
       "Wk 06 • Thu Feb 19"
     ]
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html",
+    "href": "slides/wk-08-2026-03-05-sleep.html",
+    "title": "slide-template",
+    "section": "",
+    "text": "Topic 1\nTopic 2"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#todays-topics",
+    "href": "slides/wk-08-2026-03-05-sleep.html#todays-topics",
+    "title": "Sleep",
+    "section": "Today’s topics",
+    "text": "Today’s topics\n\nSleep facts\nBrain states during sleep\nMechanisms of sleep\nWhy sleep?"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#recommendations-by-age",
+    "href": "slides/wk-08-2026-03-05-sleep.html#recommendations-by-age",
+    "title": "Sleep",
+    "section": "Recommendations by age",
+    "text": "Recommendations by age\n\n\n\n\n\n\nFigure 2: CDC (2025b)"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#trends",
+    "href": "slides/wk-08-2026-03-05-sleep.html#trends",
+    "title": "Sleep",
+    "section": "Trends",
+    "text": "Trends\n\n\n\n\n\n\nFigure 2: CDC (2025a)"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#whos-not-getting-enough",
+    "href": "slides/wk-08-2026-03-05-sleep.html#whos-not-getting-enough",
+    "title": "Sleep",
+    "section": "Who’s not getting enough",
+    "text": "Who’s not getting enough\n\n\n\nCDC (2025a)"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#impacts",
+    "href": "slides/wk-08-2026-03-05-sleep.html#impacts",
+    "title": "Sleep",
+    "section": "Impacts",
+    "text": "Impacts\n\n\n\nShah et al. (2025) Figure 21"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#two-process-models",
+    "href": "slides/wk-08-2026-03-05-sleep.html#two-process-models",
+    "title": "Sleep",
+    "section": "Two-process models",
+    "text": "Two-process models"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#flip-flop-switch",
+    "href": "slides/wk-08-2026-03-05-sleep.html#flip-flop-switch",
+    "title": "Sleep",
+    "section": "Flip-Flop Switch",
+    "text": "Flip-Flop Switch"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#orexin",
+    "href": "slides/wk-08-2026-03-05-sleep.html#orexin",
+    "title": "Sleep",
+    "section": "Orexin",
+    "text": "Orexin"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#glymphatic-clearance",
+    "href": "slides/wk-08-2026-03-05-sleep.html#glymphatic-clearance",
+    "title": "Sleep",
+    "section": "Glymphatic clearance",
+    "text": "Glymphatic clearance"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#memory-consolidation",
+    "href": "slides/wk-08-2026-03-05-sleep.html#memory-consolidation",
+    "title": "Sleep",
+    "section": "Memory consolidation",
+    "text": "Memory consolidation"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#adaptive-inactivity",
+    "href": "slides/wk-08-2026-03-05-sleep.html#adaptive-inactivity",
+    "title": "Sleep",
+    "section": "Adaptive inactivity",
+    "text": "Adaptive inactivity"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#main-points",
+    "href": "slides/wk-08-2026-03-05-sleep.html#main-points",
+    "title": "Sleep",
+    "section": "Main points",
+    "text": "Main points"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#next-time",
+    "href": "slides/wk-08-2026-03-05-sleep.html#next-time",
+    "title": "Sleep",
+    "section": "Next time",
+    "text": "Next time"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#about",
+    "href": "slides/wk-08-2026-03-05-sleep.html#about",
+    "title": "Sleep",
+    "section": "About",
+    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2026.1.0.392.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#footnotes",
+    "href": "slides/wk-08-2026-03-05-sleep.html#footnotes",
+    "title": "Sleep",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n“Figure 2. Potential mechanisms influenced by sleep deprivation (CVD, Cardiovascular Disease; CHD, Coronary Heart Disease; HTH, Hypertension).”\nPittsburgh Sleep Quality Index Buysse, Reynolds, Monk, Berman, & Kupfer (1989)\n“By NascarEd - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=24506939”"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#prelude",
+    "href": "slides/wk-08-2026-03-05-sleep.html#prelude",
+    "title": "Sleep",
+    "section": "Prelude",
+    "text": "Prelude\n\n\n\n\n\n\n\nFigure 1: Films (2014)"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#announcements",
+    "href": "slides/wk-08-2026-03-05-sleep.html#announcements",
+    "title": "Sleep",
+    "section": "Announcements",
+    "text": "Announcements"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#warm-up",
+    "href": "slides/wk-08-2026-03-05-sleep.html#warm-up",
+    "title": "Sleep",
+    "section": "Warm-up",
+    "text": "Warm-up"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#references",
+    "href": "slides/wk-08-2026-03-05-sleep.html#references",
+    "title": "Sleep",
+    "section": "References",
+    "text": "References\n\n\n\n\nBuysse, D. J., Reynolds, C. F., 3rd, Monk, T. H., Berman, S. R., & Kupfer, D. J. (1989). The pittsburgh sleep quality index: A new instrument for psychiatric practice and research. Psychiatry Research, 28, 193–213. https://doi.org/10.1016/0165-1781(89)90047-4\n\n\nCDC. (2025a, January 31). FastStats: Sleep in adults. Retrieved February 19, 2026, from https://www.cdc.gov/sleep/data-research/facts-stats/adults-sleep-facts-and-stats.html\n\n\nCDC. (2025b, February 12). About sleep. Retrieved February 19, 2026, from https://www.cdc.gov/sleep/about/index.html\n\n\nFabbri, M., Beracci, A., Martoni, M., Meneo, D., Tonetti, L., & Natale, V. (2021). Measuring subjective sleep quality: A review. International Journal of Environmental Research and Public Health, 18, 1082. https://doi.org/10.3390/ijerph18031082\n\n\nFilms, R. S. (2014). Gary Wright - DreamWeaver official video. YouTube. Retrieved from https://www.youtube.com/watch?v=xZKuzwPOefs&list=RDxZKuzwPOefs&start_radio=1\n\n\nShah, A. S., Pant, M. R., Bommasamudram, T., Nayak, K. R., Roberts, S. S. H., Gallagher, C., … Pullinger, S. A. (2025). Effects of sleep deprivation on physical and mental health outcomes: An umbrella review. American Journal of Lifestyle Medicine, 15598276251346752. https://doi.org/10.1177/15598276251346752\n\n\nWikipedia contributors. (2025, October 4). Polysomnography. Retrieved from https://en.wikipedia.org/wiki/Polysomnography"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#fig-cdc-sleep-by-county",
+    "href": "slides/wk-08-2026-03-05-sleep.html#fig-cdc-sleep-by-county",
+    "title": "Sleep",
+    "section": "Who’s not getting enough",
+    "text": "Who’s not getting enough\n\n\n\nCDC (2025a)"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#health-impacts",
+    "href": "slides/wk-08-2026-03-05-sleep.html#health-impacts",
+    "title": "Sleep",
+    "section": "Health impacts",
+    "text": "Health impacts\n\n\n\nShah et al. (2025) Figure 21"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#evaluating-self-report-measures-of-sleep-quality",
+    "href": "slides/wk-08-2026-03-05-sleep.html#evaluating-self-report-measures-of-sleep-quality",
+    "title": "Sleep",
+    "section": "Evaluating self-report measures of sleep quality",
+    "text": "Evaluating self-report measures of sleep quality\n\n…objective measures of sleep quality, such as polysomnography, are not readily available to most clinicians in their daily routine, and are expensive, time-consuming, and impractical for epidemiological and research studies\n\n– Fabbri et al. (2021)"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#polysomnography",
+    "href": "slides/wk-08-2026-03-05-sleep.html#polysomnography",
+    "title": "Sleep",
+    "section": "Polysomnography",
+    "text": "Polysomnography\n\n\n\nElectroencephalography (EEG)\nElectrocardiography (ECG)\nElectrooculography (EOG)\nElectromyography (EMG)\nPulse oxymetry & respiratory airflow\n\n\n\n\n\nWikipedia contributors (2025)3"
+  },
+  {
+    "objectID": "slides/wk-08-2026-03-05-sleep.html#eeg-frequency-bands",
+    "href": "slides/wk-08-2026-03-05-sleep.html#eeg-frequency-bands",
+    "title": "Sleep",
+    "section": "EEG frequency bands",
+    "text": "EEG frequency bands"
   }
 ]
