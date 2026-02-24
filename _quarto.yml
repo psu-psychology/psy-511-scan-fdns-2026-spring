@@ -13,8 +13,8 @@ execute:
 
 website:
   title: "PSY 511.001"
-  announcement: 
-    content: "This week we'll cover some basic material then decide as a group what topic(s) to cover in the second half. Please skim the *recommended* readings." 
+  announcement:
+    content: "Remember that your final project proposal is due before Spring Break."
     position: below-navbar
     icon: info-circle
     dismissable: true
@@ -50,6 +50,8 @@ website:
             href: slides/wk-05-2026-02-12-learning-memory.qmd
           - text: "Wk 06 • Thu Feb 19"
             href: slides/wk-06-2026-02-19-language.qmd
+          - text: "Wk 07 • Thu Feb 26"
+            href: slides/wk-07-2026-02-26-emotion.qmd
       - section: "Resources"
         contents:
           - text: "Student interests (Ex LVL)"

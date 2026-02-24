@@ -209,8 +209,6 @@ final_proj_prop_due <- psy_511_vars |>
 
 - [Slides](slides/wk-06-2026-02-19-language.qmd)
 
-<!-- #### Assignment(s) -->
-
 ## Week 07: Feb 23-27 
 
 ### Thu, Feb 26
@@ -229,9 +227,9 @@ final_proj_prop_due <- psy_511_vars |>
   - @Watabe-Uchida2017-gi
   - @Siegel2018-ab
   
-<!-- #### Materials -->
+#### Materials
 
-<!-- - [Notes](resources/fear-stress-reward.qmd) -->
+- [Slides](slides/wk-07-2026-02-26-emotion.qmd)
 
 #### Assignment(s)
 
@@ -263,6 +261,8 @@ ex_emo_due <- psy_511_vars |>
   - @Rasch2013-yn
 
 <!-- #### Materials -->
+
+<!-- - [Slides](slides/wk-08-2026-03-05-sleep.qmd) -->
 
 #### Assignment(s)
 
