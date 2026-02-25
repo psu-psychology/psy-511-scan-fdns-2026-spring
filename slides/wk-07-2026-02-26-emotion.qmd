@@ -5,6 +5,10 @@ format:
     auto-animate: true
 ---
 
+```{r}
+#| include: false
+```
+
 # Prelude
 
 ## {.scrollable}
@@ -33,6 +37,73 @@ format:
 - Pleasure & reward
 
 ## Warm-up
+
+---
+
+### A person has difficulty producing fluent speech, but their comprehension appears largely intact. Where might this person have had a stroke?
+
+- A. Inferior frontal gyrus
+- B. Superior temporal gyrus
+- C. Superior frontal gyrus
+- D. Medial temporal lobe
+
+---
+
+### A person has difficulty producing fluent speech, but their comprehension appears largely intact. Where might this person have had a stroke?
+
+- **A. Inferior frontal gyrus**
+- ~~B. Superior temporal gyrus~~
+- ~~C. Superior frontal gyrus~~
+- ~~D. Medial temporal lobe~~
+
+---
+
+![@Tremblay2016-gm Figure 1](https://ars.els-cdn.com/content/image/1-s2.0-S0093934X16300475-gr1_lrg.jpg)
+
+---
+
+### Why do @Tremblay2016-gm want to move past the classic model of language neurobiology?
+
+- A. There is no consistent definition of Broca’s and Wernicke’s areas.
+- B. Language areas are connected by pathways beyond the arcuate fasciculus.
+- C. Broca's and Wernicke's aphasias have more similarities than differences.
+- D. A and B.
+
+---
+
+### Why do @Tremblay2016-gm want to move past the classic model of language neurobiology?
+
+- A. There is no consistent definition of Broca’s and Wernicke’s areas.
+- B. Language areas are connected by pathways beyond the arcuate fasciculus.
+- ~~C. Broca's and Wernicke's aphasias have more similarities than differences.~~
+- **D. A and B.**
+
+---
+
+### How are LLMs like human language perception/production systems?
+
+- A. They are instantiated in neural networks with dozens of layers
+- B. They have large numbers (trillions) of parameters
+- C. They predict words or sequences of words that follow some input
+- D. A, B, & C
+- E. They use minimal energy
+
+---
+
+### How are LLMs like human language perception/production systems?
+
+- A. They are instantiated in neural networks with dozens of layers
+- B. They have large numbers (trillions) of parameters
+- C. They predict words or sequences of words that follow some input
+- **D. All of the above**
+- ~~E. They use minimal energy~~
+
+---
+
+- See @O-Donnell2025-tm; @Shubhamku2025-wn; @Caravaca2025-gj
+- 6,706 J/query = 1.86 Wh/query. Brain uses ~20 W, so...
+  - 100 x 1.86/20= `{r} 100*1.86/20` % of a typical human brain's energy budget
+- Training: ~1,000 MWh or 1e6/20 = `{r} 1e6/20` human brain budgets
 
 # Biology of emotion
 

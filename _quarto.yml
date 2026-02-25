@@ -84,10 +84,13 @@ format:
     number-sections: false
     citations-hover: true
     footnotes-hover: true
+    
     date-modified: last-modified
     date: today
+    
     bibliography: [include/bib/packages.bib, include/bib/psu-repro.bib, include/bib/psy-511.bib]
     csl: include/bib/apa.csl
+    
     html-math-method: mathjax
   revealjs:
     revealjs-plugins:
