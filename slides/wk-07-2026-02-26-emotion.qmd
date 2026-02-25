@@ -616,6 +616,68 @@ Here, ACh serves as a neuromodulator.
 
 ## Main points
 
+- Emotions are combinations of actions, physiological states, and (for humans at least) feelings
+- Distinct emotions aren't localized to specific brain areas or show distinct ANS signatures
+- Emotions are distinguishable as activity patterns across multiple, interconnected areas
+- *Constructionist* perspective views emotions as "events that emerge out of more basic psychological operations" [@Lindquist2012-jr]
+
+---
+
+>...**emotions emerge when people make meaning out of sensory input from the body and from the world using knowledge of prior experiences**
+
+-- @Barrett2017-hq
+
+## Main points
+
+- Key brain areas/systems implicated in emotion processing:
+  - Amygdala
+  - Ventral Striatum, Nucleus Accumbens
+  - Hippocampus
+  - Thalamus
+  - Hypothalamus
+
+## Main points
+
+- Key brain areas/systems (continued)
+  - Midbrain & brainstem nuclei
+    - Ventral Tegmental Area (DA)
+    - Periaqueductal Gray
+    - Raphe Nucleus (NE), Locus Coeruleus (5-HT)
+  - ANS
+  
+## Main points
+
+:::: {.columns}
+::: {.column width=50%}
+- Key neurotransmitter pathways
+  - Dopamine (DA)
+  - Norepinephrine (NE)
+  - Serotonin (5-HT)
+  - Acetylcholine (ACh)
+  - Endorphins & endocannabinoid
+:::
+::: {.column width=50%}
+- Key endocrine pathways
+  - HPA (cortisol)
+  - SAM (adrenaline, NE)
+:::
+::::
+
+## Main points
+
+:::: {.columns}
+::: {.column width=40%}
+![@Bennett2023-gx](https://m.media-amazon.com/images/I/816NKaN+5aL._SX522_.jpg)
+:::
+::: {.column width=60%}
+1. Steering (toward/away)
+2. Reinforcement (+/-)
+3. Prediction
+4. ??
+5. ??
+:::
+::::
+
 ## Next time
 
 - Sleep

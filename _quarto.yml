@@ -14,7 +14,7 @@ execute:
 website:
   title: "PSY 511.001"
   announcement:
-    content: "Remember that your final project proposal is due before Spring Break."
+    content: "Remember that your final project [proposal](exercises/final-project.qmd) is due before Spring Break."
     position: below-navbar
     icon: info-circle
     dismissable: true

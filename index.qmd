@@ -1,6 +1,6 @@
 ---
 title: "PSY 511.001"
-subtitle: "Spring 2026 • TTh 12-3 PM"
+subtitle: "Spring 2026 • TTh 1-4 PM"
 format: html
 ---
 
