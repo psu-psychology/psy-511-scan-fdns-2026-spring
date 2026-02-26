@@ -101,9 +101,9 @@ format:
 ---
 
 - See @O-Donnell2025-tm; @Shubhamku2025-wn; @Caravaca2025-gj
-- 6,706 J/query = 1.86 Wh/query. Brain uses ~20 W, so...
+- Queries: 6,706 J/query = 1.86 Wh/query. Brain uses ~20 W, so...
   - 100 x 1.86/20= `{r} 100*1.86/20` % of a typical human brain's energy budget
-- Training: ~1,000 MWh or 1e6/20 = `{r} 1e6/20` human brain budgets
+- Training: ~1,000 MWh or 1e6/20 = `{r} 1000000/20` human brain budgets
 
 # Biology of emotion
 
@@ -123,7 +123,6 @@ format:
 
 :::: {.columns}
 ::: {.column width=50%}
-::: {.incremental}
 - Behaviors
 - Internal states
   - Autonomic
@@ -131,7 +130,6 @@ format:
   - Immune
   - Brain regions or networks
 - Feelings
-:::
 :::
 ::: {.column width=50%}
 ::: {.fragment}
@@ -179,13 +177,151 @@ format:
 
 ---
 
->This meta-analytic investigation demonstrates that **there is no 1-to-1 mapping between an emotion category and a specific autonomic nervous system response pattern**. In addition, we observed substantial variability in autonomic nervous system changes during instances of the same emotion category that was not accounted for by experimental moderators (such as the way the emotion was induced). 
+>Do we run from a bear because we are afraid or are we afraid because we run? William James posed this question more than a century ago, yet the notion that afferent visceral signals are essential for the unique experiences of distinct emotions remains a key unresolved question at the heart of emotional neuroscience.
+
+-- @Harrison2010-nx
+
+---
+
+```{mermaid}
+flowchart LR
+  B[Bear] ---> M[Me]
+  M ---> F[Fear]
+  F ---> P[Physio]
+  F ---> R[Run]
+```
+
+## Competing views on causes
+
+- James-Lange theory [@Wikipedia-contributors2025-xn]
+- Cannon-Bard theory [@Wikipedia-contributors2025-wp]
+- Two factor (Singer/Schacter) theory [@Wikipedia-contributors2025-er]
+
+## [James-Lange](https://en.wikipedia.org/wiki/James%E2%80%93Lange_theory) theory
+
+- Physiological response -> subjective feelings
+    
+```{mermaid}
+flowchart LR
+  B[Bear] ---> M[Me]
+  M ---> P[Physio]
+  P ---> F[Fear]
+  M ---> R[Run]
+```
+
+## [Cannon-Bard](https://en.wikipedia.org/wiki/Cannon%E2%80%93Bard_theory)
+
+:::: {.columns}
+::: {.column width=50%}
+- Severing CNS (spinal cord & vagus, Xth CN) from rest of body leaves some types of emotional expression unchanged
+- Physiological states slow, don't differentiate among emotions
+:::
+::: {.column width=50%}
+```{mermaid}
+flowchart LR
+  B[Bear] ---> M[Me]
+  M ---> P[Physio]
+  M ---> F[Fear]
+  M ---> R[Run]
+```
+:::
+::::
+
+## [Cannon-Bard](https://en.wikipedia.org/wiki/Cannon%E2%80%93Bard_theory) theory
+
+:::: {.columns}
+::: {.column width=50%}
+- Physiology and feelings distinct
+- Hypothalamus (physiological response); dorsal thalamus (feelings)
+:::
+::: {.column width=50%}
+```{mermaid}
+flowchart LR
+  B[Bear] ---> M[Me]
+  M ---> P[Physio]
+  M ---> F[Fear]
+  M ---> R[Run]
+```
+:::
+::::
+
+## [Two factor](https://en.wikipedia.org/wiki/Two-factor_theory_of_emotion) theory
+
+:::: {.columns}
+::: {.column width=50%}
+- Also known as Singer-Schacter theory
+- Physiological arousal + cognitive appraisal -> Emotion states
+:::
+::: {.column width=50%}
+```{mermaid}
+flowchart LR
+  B[Bear] ---> M[Me]
+  M ---> P[Physio]
+  M ---> A[Appraisal]
+  A ---> F[Fear]
+  P ---> F
+  P ---> A
+  M ---> R[Run]
+```
+:::
+::::
+
+## Physiological states
+
+:::: {.columns}
+::: {.column width=50%}
+>The classical view of emotion hypothesizes that certain emotion categories have a specific autonomic nervous system (ANS) “fingerprint” that is distinct from other categories... 
+
+-- @Siegel2018-ab
+:::
+::: {.column width=50%}
+::: {.fragment}
+```{mermaid}
+flowchart LR
+  F[fear] ---> H(heart rate)
+  F ---> B(blood pressure)
+  P[happiness] ---> H
+  P ---> B
+  A[anger] ---> H
+  A ---> B
+```
+:::
+::: 
+::::
+
+## Physiological states
+
+:::: {.columns}
+::: {.column width=50%}
+- What ANS measures are part of this "fingerprint?"
+- Do they distinguish among emotion categories?
+:::
+::: {.column width=50%}
+![@Siegel2018-ab Table 9.](../include/img/siegle-2018-tbl-09.png){fig-align="right" width="75%"}
+:::
+::::
+
+## Physiological states
+
+![@Siegel2018-ab Figure 6.](../include/img/siegel-2018-fig-06a.png)
+
+---
+
+![@Siegel2018-ab Figure 6.](../include/img/siegel-2018-fig-06b.png)
+
+---
+
+![@Siegel2018-ab Figure 6.](../include/img/siegel-2018-fig-06c.png)
+
+---
+
+>...**there is no 1-to-1 mapping between an emotion category and a specific autonomic nervous system response pattern**. In addition, we observed substantial variability in autonomic nervous system changes during instances of the same emotion category that was not accounted for by experimental moderators (such as the way the emotion was induced). 
 
 -- @Siegel2018-ab
 
 ---
 
->These findings suggest that autonomic nervous system changes during emotion are less like a bodily fingerprint and more like a population of variable, context sensitive instances.
+>These findings suggest that **autonomic nervous system changes during emotion are less like a bodily fingerprint and more like a population of variable, context sensitive instances**. 
 
 -- @Siegel2018-ab
 
@@ -454,6 +590,25 @@ A) Force-directed graphs for each emotion category, based on the Fruchterman-Rei
 :::
 ::::
 
+## Autonomic Nervous System
+
+:::: {.columns}
+::: {.column width=50%}
+- Sympathetic Branch
+  - Spinal cord $\rightarrow$ Vertebral ganglia $\righarrow$ target
+- Parasympathetic Branch
+  - Vagus (Xth CN) $\righarrow$ multiple targets
+  - Spinal cord $\rightarrow$ multiple targets
+:::
+::: {.column width=50%}
+![](http://humanphysiology.academy/Neurosciences%202015/Images/2/NEU_autonomic_nervous_system%20Merck%20Manuals.gif){width="80%" fig-align="right"}
+:::
+::::
+
+---
+
+![](http://humanphysiology.academy/Neurosciences%202015/Images/2/NEU_autonomic_nervous_system%20Merck%20Manuals.gif)
+
 ## Responses to threat or challenge
 
 :::: {.columns}
@@ -469,7 +624,6 @@ A) Force-directed graphs for each emotion category, based on the Fruchterman-Rei
 ![@Deussing2018-ub](https://journals.physiology.org/cms/10.1152/physrev.00042.2017/asset/images/medium/z9j0041828650001.gif){fig-align="right"}
 :::
 ::::
-
 
 ## Responses to threat or challenge
 
@@ -497,8 +651,8 @@ A) Force-directed graphs for each emotion category, based on the Fruchterman-Rei
 ![@Deussing2018-ub](https://journals.physiology.org/cms/10.1152/physrev.00042.2017/asset/images/medium/z9j0041828650001.gif)
 :::
 ::::
-
-## Cortisol receptors widespread
+  
+## Cortisol's many roles
 
 ![@Kadmiel2013-zz Figure 4](https://www.cell.com/cms/attachment/2007960795/2030644348/gr4.jpg)
 
@@ -725,12 +879,13 @@ Here, ACh serves as a neuromodulator.
   - Norepinephrine (NE)
   - Serotonin (5-HT)
   - Acetylcholine (ACh)
-  - Endorphins & endocannabinoid
+  - Endorphins & endocannabinoids
 :::
 ::: {.column width=50%}
 - Key endocrine pathways
   - HPA (cortisol)
   - SAM (adrenaline, NE)
+  - Oxytocin
 :::
 ::::
 
