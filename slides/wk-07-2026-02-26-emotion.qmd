@@ -337,6 +337,8 @@ flowchart LR
 
 ![@Nummenmaa2014-ub Figure 4^["Hierarchical structure of the similarity between bodily topographies associated with emotion words in experiment 1 (Upper) and basic emotions across experiments with word (W), story (S), movie (M), and Face (F) stimuli (Lower)."]](https://www.pnas.org/cms/10.1073/pnas.1321664111/asset/68554fff-57c8-4818-8178-dc8bdd7a6db4/assets/graphic/pnas.1321664111fig04.jpeg){width="55%"}
 
+- See also EMbody Tool Matlab code [@GlereanUnknown-ek]
+
 ## *Where* in the brain is emotion processed?
 
 :::: {.columns}
