@@ -259,10 +259,13 @@ ex_emo_due <- psy_511_vars |>
 - Required
   - @Nir2010-xd
   - @Rasch2013-yn
+- Recommended
+  - @Sulaman2023-jk
+  - @Sakurai2007-li
 
-<!-- #### Materials -->
+#### Materials
 
-<!-- - [Slides](slides/wk-08-2026-03-05-sleep.qmd) -->
+- [Slides](slides/wk-08-2026-03-05-sleep.qmd)
 
 #### Assignment(s)
 

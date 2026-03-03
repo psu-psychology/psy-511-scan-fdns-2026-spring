@@ -71,25 +71,237 @@ format: revealjs
 :::
 ::::
 
+## EEG
+
+:::: {.columns}
+::: {.column width=50%}
+- Post-synaptic electrical activity
+- Mostly from cerebral cortex
+:::
+::: {.column width=50%}
+![@Wikipedia-contributors2026-vk^[CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=845554]](https://upload.wikimedia.org/wikipedia/commons/2/26/Spike-waves.png)
+:::
+::::
+
+## What does EEG measure?
+
+:::: {.columns}
+::: {.column width=50%}
+- Voltage *differences* between *source* and *reference* electrode
+- Combined activity of huge # of neurons
+
+:::
+::: {.column width=50%}
+![https://naxonlabs.com/blog/understanding-strategic-placement-sensors-eeg-devices](https://naxon.s3.amazonaws.com/uploads/post/image/71/large_International_10-10_system.jpg)
+:::
+::::
+
+## What does EEG measure?
+
+:::: {.columns}
+::: {.column width=50%}
+- Current/voltage gradients between *apical* (near surface) dendrites and *basal* (deeper) dendrites and cell body/soma
+:::
+::: {.column width=50%}
+![@Naess2020-su Figure 1](https://www.biorxiv.org/content/biorxiv/early/2020/07/04/2020.07.01.181875/F1.large.jpg)
+:::
+::::
+
 ## EEG frequency bands
 
+:::: {.columns}
+::: {.column width=50%}
+- Fourier Analysis of time-varying EEG yields
+- High amplitudes in specific frequency bands
+:::
+::: {.column width=50%}
+![OpenAnesthesia.org](https://www.openanesthesia.org/wp-content/uploads/2025/11/24/EEG_Basic-Principles-and-Overview_figure-1-8ei2sg.png)
+:::
+::::
 
+## Sleep cycles
+
+:::: {.columns}
+::: {.column width=50%}
+- Non-Rapid Eye Movement (NREM)
+  - N1 (light sleep)
+  - N2
+  - N3 (slow-wave, deep sleep)
+:::
+::: {.column width=50%}
+![@Wikipedia-contributors2025-as^["By RazerM at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=17745252"]](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Sleep_Hypnogram.svg/3840px-Sleep_Hypnogram.svg.png)
+:::
+::::
+
+## Sleep cycles
+
+:::: {.columns}
+::: {.column width=50%}
+- Rapid Eye Movements (REM)
+  - More vivid dreaming
+  - Muscle atonia (REM atonia)
+- 4-6 cycles/night
+  - Often shorter as night progresses
+:::
+::: {.column width=50%}
+![@Wikipedia-contributors2025-as^["By RazerM at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=17745252"]](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Sleep_Hypnogram.svg/3840px-Sleep_Hypnogram.svg.png)
+:::
+::::
+
+## EEG patterns
+
+:::: {.columns}
+::: {.column width=50%}
+- NREM
+  - Lower frequency, higher amplitude
+- REM
+  - Higher frequency, lower amplitude
+  - More awake-like
+:::
+::: {.column width=50%}
+![@Wikipedia-contributors2025-as^["By Andrii Cherninskyi - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=44033654"]](https://upload.wikimedia.org/wikipedia/commons/5/58/Normal_EEG_of_mouse.png)
+:::
+::::
+
+---
+
+![@Wikipedia-contributors2025-as^["By MrSandman at English Wikipedia - Transferred from en.wikipedia to Commons., Public Domain, https://commons.wikimedia.org/w/index.php?curid=453205"]](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleep_EEG_REM.png)
+
+## Mechanisms of REM atonia
+
+:::: {.columns}
+::: {.column width=50%}
+- Spinal motor neurons hyperpolarize
+- But not those controlling eye muscles!
+- CN III, IV, VI control eye movements
+:::
+::: {.column width=50%}
+![@Roguski2020-ee Figure 1^["Key brain regions and neurotransmitters involved in regulation and maintenance of the REM sleep stage under healthy normative or pathological RBD conditions. In RBD, dysfunction within the SubC → VMM → Spinal Motor Neuron pathway results in a lack of REM atonia (depicted with dotted line). BF, basal forebrain; LC, locus coeruleus; LDT/PPT, laterodorsal tegmentum/pedunculopontine tegmentum; LH, lateral hypothalamus; Subc/PC, subcoeruleus/pre-locus coeruleus; TMN, tuberomammillary nucleus; vlPAG, ventrolateral periaqueductal gray; VLPO/MnPO, ventrolateral preoptic nucleus/median preoptic nucleus; VMM, ventromedial medulla. Figure created using BioRender.com."]](https://images-provider.frontiersin.org/api/ipx/w=654&f=webp/https://www.frontiersin.org/files/Articles/526705/xml-images/fneur-11-00610-g0001.webp)
+:::
+::::
+
+---
+
+![](https://britishcinematographer.co.uk/wp-content/uploads/2017/09/alien-tagline-in-space-no-one-can-hear-you-scream.jpg)
 
 # Mechanisms of sleep
 
 ## Two-process models
 
-## Flip-Flop Switch
+- Wakefulness promoting
+- Sleep promoting
 
-## Orexin
+## Wakefulness promoting
+
+![@Sulaman2023-jk Figure 1^["Fig. 1 | The orchestration of wakefulness. a, Wakefulness is generated through several concurrent processes. Left, wake systems stimulate cortical and thalamocortical circuits, suppressing low-frequency oscillations (hereafter depicted in yellow). Middle, the release of neuromodulators modulates excitability and information flow in distributed neural networks in support of waking-state processing and behaviors (hereafter depicted in red). Right, wake systems inhibit sleep-promoting neurons (hereafter depicted in green). b, Schematic of wake systems. Neuronal subpopulations distributed throughout the brain generate and maintain wakefulness. Output from the PBN, LC, TMN, LH and BF modulates thalamocortical and cortical circuits and promotes fast cortical oscillations conducive to waking-related processing. Neuromodulatory output from the LC, DR, VTA, PVN, BF, LH and TMN alters the excitability of neural networks spanning from the brainstem to the forebrain. Several wake systems, including those in the SC, LC, TMN, LH and NAc, can inhibit sleeppromoting neurons. Wakefulness may be initiated daily by indirect or direct circadian output from the SCN (purple) onto the PVN, LH, VTA and thalamus.Colors indicate participation in the processes shown in a. c–f, Inputs, outputs and local-network connectivity of four main wake systems. Complex interactions among multiple subpopulations within the LH, BF, VTA and Thal support wakefulness. Within each region, both excitatory and disinhibitory mechanisms fine-tune arousal regulation. c, GABAergic (blue), glutamatergic (purple) and peptidergic subpopulations within the LH generate and maintain wakefulness. Most excitatory and inhibitory inputs into the LH promote wakefulness. d, The BF is critical in opposing the default synchronized cortical state and in producing cortical arousal. Inputs from the PBN and outputs to the cortex are important for this function, whereas outputs to the VTA promote wakefulness. e, Dopaminergic, glutamatergic and GABAergic VTA neurons are involved in regulating wakefulness. Dopaminergic and glutamatergic VTA neurons are necessary for wake maintenance, even in the presence of highly salient stimuli. f, Several midline thalamic subpopulations are both necessary and sufficient for the generation of wakefulness and have been implicated in the initiation of wakefulness. Excitatory input from various wake-promoting neurons depolarizes TC neurons during wakefulness, resulting in the induction of fast cortical oscillations. Solid lines represent pathways whose functions have been experimentally interrogated. Dashed lines represent anatomical innervations that have not been functionally tested in the context of sleep–wake regulation. Blue lines represent inputs to wake systems that do not clearly fall into one of the functions described in a. 5-HT, serotonin; ACh, acetylcholine; BF, basal forebrain; BNST, bed nucleus of the stria terminalis; Calb1+ , calbindin-1-positive neurons; Cg, cingulate cortex; CMT, centromedial thalamus; CR+, calretinin-positive neurons; D1, dopamine type-D1 receptor; D2, dopamine type-D2 receptor; DA, dopamine; DMT, dorsomedial thalamus; DR, dorsal raphe; DS, dorsal striatum; GABA, gamma-aminobutyric acid; HA, histamine; Hcrt, hypocretin; LC, locus coeruleus; LH, lateral hypothalamus; MS, medial septum; NA, noradrenaline; NAc, nucleus accumbens; PBN, parabrachial nucleus; PC, peri-coeruleus; POA, preoptic area; PV+, parvalbumin-expressing neurons; PVN, hypothalamic paraventricular nucleus; PVT, paraventricular nucleus of the thalamus; RMTg, rostromedial tegmental nucleus; SC, superior colliculus; SCN, suprachiasmatic nucleus; TC, thalamocortical neurons; Thal, thalamus; TMN, tuberomammillary nucleus; VMT, ventromedial thalamus; VP, ventral pallidum; VTA, ventral tegmental area."]](../include/img/sulaman-fig01-1.png)
+
+---
+
+![@Sulaman2023-jk Figure 1](../include/img/sulaman-fig01-2.png)
+
+---
+
+![@Sulaman2023-jk Figure 1](../include/img/sulaman-fig01-3.png)
+
+## Transition to sleep
+
+![@Sulaman2023-jk Figure 2^["a, Proposed ‘de-arousal model of sleep initiation’. The transition from wakefulness to sleep is preceded by a transitional phase during which physiological and behavioral tranquilization enable a brain-wide shift in excitability, functional connectivity and information flow. Left, circadian and homeostatic drives promote a behavioral preparation for sleep. Middle, the manifestation of repetitive, pre-sleep behaviors, such as grooming and nest building, reduces vigilance toward the external environment and decreases the tone of wake-promoting neuromodulators. The decreased wake neuromodulatory tone further promotes the manifestation of pre-sleep behaviors. Right, low neuromodulatory tone also results in the release of TC neurons from their stimulation, the propagation of cortical slow oscillations and the disinhibition of sleep-promoting neurons, imposing sleep upon the organism. b, NREMS regulatory circuitry. POAGABA neurons have a central role in generating and maintaining NREMS. Additional NREMS-promoting populations have been identified in the medulla, midbrain, ZI, amygdala, striatum and cortex. NREMS is maintained by the continuous inhibition of wake systems. Thalamic, cortical and PZGABA neurons are implicated in driving characteristic NREMS oscillations. Blue, NREMS-promoting neurons. Gray, wake systems inhibited by NREMS-promoting neurons. Solid lines represent pathways whose functions have been experimentally interrogated. Dashed lines represent anatomical innervations that have not been functionally tested in the context of sleep–wake regulation. CeA, central nucleus of the amygdala; D2, dopamine type-D2 receptor; DMH, dorsomedial hypothalamus; DS, dorsal striatum; eGP, external globus pallidus; OT, olfactory tubercle; pIII, perioculomotor midbrain; PH, posterior hypothalamus; PZ, parafacial zone; SNr, substantia nigra pars reticulata; vlPAG, ventrolateral periaqueductal gray; vmM, ventromedial medulla; VP, ventral pallidum; ZI, zona incerta."]](../include/img/sulaman-fig02-1.png)
+
+---
+
+![@Sulaman2023-jk Figure 2](../include/img/sulaman-fig02-1.png)
+
+## Transition to REM
+
+![@Sulaman2023-jk Figure 3^["a, Gatekeeping neurons in the vlPAG, dorsal DpMe, DR and LC prevent REMS initiation during wakefulness and NREMS by inhibiting REMS-generating populations. REMS is likely initiated by the simultaneous inhibition of gatekeepers and activation of pontine and hypothalamic structures, including the SLD, PPT/LDT, PC and LH. b, The main neuronal populations generating and maintaining REMS are located in the brainstem (pons and medulla), and additional REMS regulatory populations have been identified in the LH, ZI, POA and VTA. c, Tonic features of REMS are generated by different neuronal circuits. Muscle atonia during REMS is attained by SLDglut neuronal input to vmMGly/GABA neurons, which inhibit spinal cord motoneurons. The suspension of thermoregulation may be induced by inhibitory DMHGal projections to the raphe pallidus. Finally, several brain regions have been implicated in the generation of cortical and hippocampal theta oscillations during REMS, including the MS and BF/LPO. The SuM and CL are implicated in the activation of several limbic and cortical regions during REMS. d, Phasic features of REMS are thought to be orchestrated by PPT/LDT neurons through projections to the brainstem, thalamic and forebrain areas, as well as through propagating theta oscillations. Dorsal medulla NPCalb/glut neurons have been implicated in generating REMS rapid eye movements through projections to the oculomotor nucleus. Myoclonic twitching during REMS involves the activation of cholinergic PPT, LDT and SLD neurons, as well as of red nucleus neurons, generating brief episodes of atonia cessation in tandem with glutamate-mediated activation of spinal cord motoneurons. PGO waves are associated with neuronal activation in several neuronal populations in the pons. Phasic increases in heart rate during REMS may be promoted by the phasic inhibition of cardiac vagal neurons in the nucleus ambiguous by REMS-active LPGiGly/GABA neurons. ACC, anterior cingulate cortex; Amb, nucleus ambiguous; Amy, amygdala; BAT, brown adipose tissue; BLA, basolateral amygdala; CL, claustrum; CVNs, cardiac vagal neurons; DG, dentate gyrus; dmM, dorsomedial medulla; DpMe, deep mesencephalic nucleus; Gal, galanin; Gi, gigantocellular nuclei; Glut, glutamate; Gly, glycinergic neurons; Hyp, hypothalamus; IN, spinal cord interneurons; LDT, laterodorsal tegmental nuclei; LPGi, lateral paragigantocellular nuclei; MC, motor cortex; mEC, medial entorhinal cortex; MNs, spinal cord motoneurons; NI, nucleus incertus; NP, nucleus papilio; OM, oculomotor nucleus; PPT, pedunculopontine tegmental nucleus; RN, red nucleus; RSC, retrosplenial cortex; SLD, sublaterodorsal tegmental nucleus; SuM, supramammillary nucleus; vM, ventral medulla; VTn, ventral tegmental nucleus of Gudden."]](../include/img/sulaman-fig03-1.png)
+
+---
+
+![@Sulaman2023-jk Figure 3](../include/img/sulaman-fig03-2.png)
+
+## Hypocretins/Orexins
+
+- Sleep and arousal
+- Feeding and energy, neuroendocrine, gastrointestinal, cardiovascular, & water balance regulation, pain modulation [@Ebrahim2002-um]
+- Target for PTSD treatments? [@Flores2014-oc]
+
+:::: {.columns}
+::: {.column width=50%}
+- Same substances, discovered independently
+- Neuropeptides
+- Released by lateral hypothalamus
+- Widespread projections
+:::
+::: {.column width=50%}
+![@Sakurai2007-li Figure 1^["This figure summarizes predicted orexinergic projections in the human brain. Please note that distributions of orexin fibres and receptors (OX1R, OX2R) are predicted from the results of studies on rodent brains, as it is on rodents that most histological studies on the orexin system have been carried out. Circles show regions with strong receptor expression and dense orexinergic projections. Orexin neurons originating in the lateral hypothalamic area (LHA) and posterior hypothalamus (PH) regulate sleep and wakefulness and the maintenance of arousal by sending excitatory projections to the entire CNS, excluding the cerebellum, with particularly dense projections to monoaminergic and cholinergic nuclei in the brain stem and hypothalamic regions24,25,26,27,28,29,30,31,32,38, including the locus coeruleus (LC, containing noradrenaline), tuberomammillary nucleus (TMN, containing histamine), raphe nuclei (Raphe, containing serotonin) and laterodorsal/pedunclopontine tegmental nuclei (LDT/PPT), containing acetylcholine). Orexin neurons also have links with the reward system through the ventral tegmental area (VTA, containing dopamine) and with the hypothalamic nuclei that stimulate feeding behaviour. Anatomical image adapted, with permission, from Ref. 108 © (1996) Appleton & Lange."]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2092/MediaObjects/41583_2007_Article_BFnrn2092_Fig1_HTML.jpg?as=webp)
+:::
+::::
+
+## Hypocretins/Orexins
+
+:::: {.columns}
+::: {.column width=50%}
+- Sleep and arousal, link to sleep disorders
+- Feeding and energy, neuroendocrine, gastrointestinal, cardiovascular, & water balance regulation, pain modulation [@Ebrahim2002-um]
+- Target for PTSD treatments? [@Flores2014-oc]
+:::
+::: {.column width=50%}
+![@Sakurai2007-li Figure 1](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2092/MediaObjects/41583_2007_Article_BFnrn2092_Fig1_HTML.jpg?as=webp)
+:::
+::::
 
 # Why sleep?
 
-## Glymphatic clearance
+## Adaptive inactivity
 
 ## Memory consolidation
 
-## Adaptive inactivity
+## Glymphatic clearance
+
+# On Circadian Rhythms
+
+---
+
+![@Wikipedia-contributors2026-zp^["By NoNameGYassineMrabetTalk✉ fixed by Addicted04 - The work was done with Inkscape by YassineMrabet. Informations were provided from "The Body Clock Guide to Better Health" by Michael Smolensky and Lynne Lamberg; Henry Holt and Company, Publishers (2000). Landscape was sampled from Open Clip Art Library (Ryan, Public domain). Vitruvian Man and the clock were sampled from Image:P human body.svg (GNU licence) and Image:Nuvola apps clock.png, respectively., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3017148"]](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Biological_clock_human.svg/3840px-Biological_clock_human.svg.png)
+
+## {.scrollable}
+
+::: {#fig-suprachiasmatic-nucleus-song}
+<iframe width="1200" height="450" src="https://www.youtube.com/embed/fgJPnQCJ9eE?si=mpEssYkYgsj2MQ9t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+@McGee2011-ew
+:::
+
+## Mechanisms
+
+:::: {.columns}
+::: {.column width=50%}
+- Retinohypothalamic tract projection to
+  - Suprachiasmatic Nucleus of the Hypothalamus
+  - SCN has endogenously cycling cells
+  - Light input synchronizes rhythms to day/night cycle
+:::
+::: {.column width=50%}
+![@Wikipedia-contributors2026-zz^["Illustration of the human brain showing the Cerebral Cortex, the Suprachiasmatic Nucleus, the Optic Chiasm, the Hypothalamus and the Pineal Gland. By 黄雨伞 - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=30518604"]](https://upload.wikimedia.org/wikipedia/commons/8/80/Suprachiasmatic_Nucleus.jpg)
+:::
+::::
+
+## Melatonin
+
+:::: {.columns}
+::: {.column width=50%}
+- Hormone/neurotransmitter
+- Released by Pineal Gland
+- ANS controls release
+:::
+::: {.column width=50%}
+![@Wikipedia-contributors2026-pj^["By Images are generated by Life Science Databases(LSDB). - from Anatomography, website maintained by Life Science Databases(LSDB).You can get this image through URL below. 次のアドレスからこのファイルで使用している画像を取得できますURL., CC BY-SA 2.1 jp, https://commons.wikimedia.org/w/index.php?curid=7855292"]](https://upload.wikimedia.org/wikipedia/commons/a/ab/Pineal_gland.png)
+:::
+::::
+
+## Melatonin receptors
+
+![@Gobbi2019-hf Figure 1^["Brain areas involved in the regulation of sleep and wakefulness with their respective receptors, including MT1 and MT2 receptors Modified with permission from Atkin et al. (2). Top left, green: During NREM, the serotonin neurons of the Dorsal Raphe (DR), the dopaminergic neurons of the Ventral tegmental area (VTA), and the noradrenergic neurons of the Locus Coeruleus (LC) decrease their firing activity. These neurons are silent during REM. OX1 and OX2-containing orexinergic neurons of the Lateral Hypothalamus (LH) decrease their firing activity during NREM and REM. The histaminergic H1-containing neurons of the Tuberomammillary Nucleus (TMN) decrease their firing activity during sleep. During wakefulness, neurons of the arousal system (i.e., monoaminergic neurons, orexinergic neurons) send widespread ascending projections to the cerebral cortex, stimulating cortical desynchronization with high frequency gamma and low frequency theta rhythmic activity. Bottom left, black: MT1 and MT2 receptors expressed in suprachiasmatic neurons, which receive inputs directly from the retinohypothalamic tract (RHT), influenced by light and external stimuli may be likely involved in the switch from wakefulness to NREM sleep. The transition from NREM and REM is controlled by the ventrolateral periaqueductal gray area (vlPAG), containing GABA, glutamate receptors, but also melatonin MT2 receptors. Top right, red: During NREM sleep, two nuclei are particularly active: the reticular thalamus (RT), containing melatonin MT2 and GABA receptors, which is responsible for thalamocortical input to the prefrontal cortex (showing synchronized activity during NREM); and the ventrolateral preoptic area (vlPAG), containing GABA and galanin receptors. They inhibit noradrenergic, serotonergic, cholinergic, histaminergic, and hypocretinergic neurons. These nuclei play a role in the “reciprocal inhibitory” model of the sleep–wake switch. Bottom right, blue: The vlPAG is a putative “REM ON” nucleus, switching the brain to the REM sleep mode. During REM, the sublateral nucleus (SLD), the basal forebrain (BF), and the lateral tegmentum/ pedunculopontine tegmentum (LDT/PPT, rich in acetylcholine receptors) and the ventromedial medulla (VM) neurons are particularly active. The BF is active in REM and wakefulness and inhibited during NREM."]](https://images-provider.frontiersin.org/api/ipx/w=654&f=webp/https://www.frontiersin.org/files/Articles/437162/xml-images/fendo-10-00087-g0001.webp)
 
 # Wrap-up
 
@@ -102,7 +314,7 @@ format: revealjs
 ## About
 
 This talk was produced using [Quarto](https://quarto.org), using the [RStudio](https://posit.co/products/open-source/rstudio/)
-Integrated Development Environment (IDE), version 2026.1.0.392.
+Integrated Development Environment (IDE), version 2026.1.1.403.
 
 The source files are in R and R Markdown, then rendered to HTML using the
 [revealJS](https://revealjs.com) framework.

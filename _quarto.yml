@@ -52,6 +52,8 @@ website:
             href: slides/wk-06-2026-02-19-language.qmd
           - text: "Wk 07 • Thu Feb 26"
             href: slides/wk-07-2026-02-26-emotion.qmd
+          - text: "Wk 08 • Thu Mar 5"
+            href: slides/wk-08-2026-03-05-sleep.qmd
       - section: "Resources"
         contents:
           - text: "Student interests (Ex LVL)"
