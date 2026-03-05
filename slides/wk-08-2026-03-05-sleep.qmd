@@ -78,7 +78,7 @@ format: revealjs
 
 ### Neurons in the _____ release _____ when there is a mismatch between predicted and actual reward.
 
-- A. Ventral Tegmental Area (VA); dopamine (DA)
+- A. Ventral Tegmental Area (VTA); dopamine (DA)
 - B. Locus Coeruleus; norepinephrine (NE)
 - C. Substantia Nigra (SN); dopamine
 - D. Raphe Nuclei; Serotonin (5-HT)

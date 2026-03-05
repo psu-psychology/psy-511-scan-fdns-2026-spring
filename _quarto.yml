@@ -13,11 +13,11 @@ execute:
 
 website:
   title: "PSY 511.001"
-  announcement:
-    content: "Remember that your final project [proposal](exercises/final-project.qmd) is due before Spring Break."
-    position: below-navbar
-    icon: info-circle
-    dismissable: true
+  # announcement:
+  #   content: "Remember that your final project [proposal](exercises/final-project.qmd) is due before Spring Break."
+  #   position: below-navbar
+  #   icon: info-circle
+  #   dismissable: true
   sidebar:
     style: "docked"
     search: true
@@ -36,6 +36,8 @@ website:
             href: exercises/ex-PA.qmd
           - text: "Final Project proposal"
             href: exercises/final-project.qmd
+          - text: "Ex ZZ • Sleep & Circadian Rhythms"
+            href: exercises/ex-ZZ.qmd
       - section: "Slides"
         contents:
           - text: "Wk 01 • Thu Jan 14"

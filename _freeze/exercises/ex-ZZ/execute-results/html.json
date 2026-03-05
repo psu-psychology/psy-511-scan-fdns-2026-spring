@@ -1,11 +1,9 @@
 {
-  "hash": "3ca50b883ff55ab0dfef2d584a74da24",
+  "hash": "571d88a6d9541aa90febcf8478e4e576",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Exercise ZZ • Sleep & Circadian Rhythms\"\nsubtitle: \"**Name:**____________________________\"\n---\n\n\n::: {.cell}\n\n:::\n\n\n## Goals\n\n1. To more deeply understand the influence of sleep or circadian rhythms more generally on   some internal state or behavior that is of interest to you.\n\n## Activity\n\nChoose a behavior or an internal psychological state that interests you:\n\n- Concisely describe current understanding about how the behavior or state is affected by sleep duration or quality, or is altered under states of sleep deprivation.\n- Alternatively, describe how the behavior or psychological state varies across a day, or seasonally. What are some causes of the temporal variation? What are some important consequences?\n\n## Submission details\n\n- Submit your write-up by **Thursday, February 12, 2026 at 11:59 pm**.\n- If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\n- If you found any resources that were especially useful to you in answering these questions, please cite them.\n",
-    "supporting": [
-      "ex-ZZ_files"
-    ],
+    "markdown": "---\ntitle: \"Exercise ZZ • Sleep & Circadian Rhythms\"\nsubtitle: \"**Name:**____________________________\"\n---\n\n\n::: {.cell}\n\n:::\n\n\n## Goals\n\n1. To more deeply understand the influence of sleep or circadian rhythms more generally on   some internal state or behavior that is of interest to you.\n\n## Activity\n\nChoose a behavior or an internal psychological state that interests you. Write a short, 4-5 pp, essay where you address the following points:\n\n- Concisely describe current understanding about how the behavior or state is affected by sleep duration or quality, or is altered under states of sleep deprivation.\n- Alternatively, describe how the behavior or psychological state varies across a day, or seasonally. What are some causes of the temporal variation? What are some important consequences?\n\n## Submission details\n\n- Submit your write-up by **2026\\-03\\-19**.\n- If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\n- If you found any resources that were especially useful to you in answering these questions, please cite them.\n",
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

@@ -6,7 +6,7 @@ subtitle: "**Name:**____________________________"
 ```{r}
 #| echo: false
 psy_511_vars <- readr::read_csv("data/csv/psy-511-vars.csv", show_col_types = FALSE)
-ex_lvl_due <- psy_511_vars |>
+ex_due <- psy_511_vars |>
   dplyr::filter(name == "WK_09_DATE") |>
   dplyr::select(value) |>
   as.character()
@@ -23,13 +23,13 @@ canvas_db <- psy_511_vars |>
 
 ## Activity
 
-Choose a behavior or an internal psychological state that interests you:
+Choose a behavior or an internal psychological state that interests you. Write a short, 4-5 pp, essay where you address the following points:
 
 - Concisely describe current understanding about how the behavior or state is affected by sleep duration or quality, or is altered under states of sleep deprivation.
 - Alternatively, describe how the behavior or psychological state varies across a day, or seasonally. What are some causes of the temporal variation? What are some important consequences?
 
 ## Submission details
 
-- Submit your write-up by **Thursday, February 12, 2026 at 11:59 pm**.
+- Submit your write-up by **`{r} ex_due`**.
 - If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.
 - If you found any resources that were especially useful to you in answering these questions, please cite them.
