@@ -393,6 +393,33 @@ basis for the mental event.
 :::
 ::::
 
+## Adenosine [@Wikipedia-contributors2026-ow]
+
+:::: {.columns}
+::: {.column width=50%}
+- Neuromodulator
+- Receptors in cerebral cortex, hippocampus, striatum, & cerebellum
+- Modulates DA receptors in striatum
+:::
+::: {.column width=50%}
+![@Ballesteros-Yanez2017-ap Figure 2](https://images-provider.frontiersin.org/api/ipx/w=654&f=webp/https://www.frontiersin.org/files/Articles/320873/xml-images/fphar-08-00985-g002.webp)
+:::
+::::
+
+## Adenosine
+
+:::: {.columns}
+::: {.column width=50%}
+- Circadian pattern ($\uparrow$: greater sleepiness) 
+- Coffee and caffeine-containing beverages widely consumed
+- Caffeine: adenosine antagonist
+- See also @Hollingworth1912-vn
+:::
+::: {.column width=50%}
+![](../include/img/seven-brew.webp)
+:::
+::::
+
 # Why sleep?
 
 ## Adaptive inactivity
@@ -419,11 +446,13 @@ basis for the mental event.
 :::
 ::::
 
----
+## @Siegel2005-bf
 
->Most theories suggest a role for non-rapid eye movement (NREM) sleep in energy conservation and in nervous system recuperation. Theories of REM sleep have suggested a role for this state in periodic brain activation during sleep, in localized recuperative processes and in emotional regulation. Across mammals, the amount and nature of sleep are correlated with age, body size and ecological variables, such as whether the animals live in a terrestrial or an aquatic environment, their diet and the safety of their sleeping site. Sleep may be an efficient time for the completion of a number of functions, but variations in sleep expression indicate that these functions may differ across species.
+>Most theories suggest a role for non-rapid eye movement (NREM) sleep in energy conservation and in nervous system recuperation. Theories of REM sleep have suggested a role for this state in periodic brain activation during sleep, in localized recuperative processes and in emotional regulation. 
 
---- @Siegel2005-bf
+## @Siegel2005-bf
+
+>Across mammals, the amount and nature of sleep are correlated with age, body size and ecological variables, such as whether the animals live in a terrestrial or an aquatic environment, their diet and the safety of their sleeping site. **Sleep may be an efficient time for the completion of a number of functions, but variations in sleep expression indicate that these functions may differ across species**.
 
 ## Memory consolidation
 
@@ -481,6 +510,25 @@ the reactivation of newly encoded memory representations**.
 ![@Hauglund2025-zj](https://ars.els-cdn.com/content/image/1-s2.0-S0092867424013436-fx1.jpg)
 :::
 ::::
+
+## Is sleep essential? [@Rasch2013-yn]
+
+::: {.fragment}
+>The fact that almost all animals sleep strongly argues in favor of an adaptive role of sleep in increasing the overall fitness of an organism.
+
+:::
+
+## Is sleep essential?
+
+>...Sleep has been proposed as serving an energy-saving function (82, 1311), the restoration of energy resources and the repairing of cell tissue (875), thermoregulation (973), metabolic regulation (651, 1229), and adaptive immune functions (695). **However, these functions could be likewise achieved in a state of quiet wakefulness and would not explain the loss of consciousness and responsiveness to external threats during sleep**.
+
+-- @Rasch2013-yn
+
+## Is sleep essential?
+
+>These prominent features of sleep strongly speak for the notion that sleep is mainly “for the brain” (553, 625).
+
+-- @Rasch2013-yn
 
 # On Circadian Rhythms
 
