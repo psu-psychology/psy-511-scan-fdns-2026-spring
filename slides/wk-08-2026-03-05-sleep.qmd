@@ -54,7 +54,7 @@ format: revealjs
 
 ---
 
-### Which of the following are *not* nodes in the forebrain emotion network?
+### Which of the following are *not* nodes in the forebrain portion of the emotion network?
 
 - A. Anterior Cingulate Cortex (ACC)
 - B. Hippocampus
@@ -63,7 +63,7 @@ format: revealjs
 
 ---
 
-### Which of the following are *not* nodes in the forebrain emotion network?
+### Which of the following are *not* nodes in the forebrain portion of the emotion network?
 
 - ~~A. Anterior Cingulate Cortex (ACC)~~
 - ~~B. Hippocampus~~
@@ -191,6 +191,19 @@ format: revealjs
 :::
 ::::
 
+## Aside about EEG spectra
+
+:::: {.columns}
+::: {.column width=50%}
+- EEG contains periodic and aperiodic components [@Donoghue2020-dh]
+- Comparisons of relative EEG power across frequency bands should consider aperiodic component
+- See [Terms & Concepts](../resources/terms-concepts.qmd)
+:::
+::: {.column width=50%}
+![@Donoghue2020-dh Figure 2^["Overview of band ratio measures and spectral parameters. A, An example power spectrum in which shaded regions reflect the θ band (4–8 Hz) and β band (20–30 Hz), respectively. Band ratio measures, such as the θ/β ratio, are calculated by dividing the average power between these two bands. B, An example of a parameterized power spectrum, in which aperiodic activity is separated from measured periodic components. This is an example spectrum from EEG data, in which peaks in θ, α, and β power are present. C, Examples of simulated power spectra with and without component oscillations of the θ/β ratio. Black lines indicate the simulated data, with red line reflecting the model fit, the dashed blue line indicating the aperiodic component of the model fit, and the green lines indicating the location of canonical θ and β oscillations. Band ratio measures, although intended to measure periodic activity, will reflect power at the predetermined frequencies regardless of whether there is evidence of periodic activity at those frequencies."]](https://www.eneuro.org/content/eneuro/7/6/ENEURO.0192-20.2020/F2.large.jpg?width=800&height=600&carousel=1)
+:::
+::::
+
 ## Sleep cycles
 
 :::: {.columns}
@@ -264,6 +277,49 @@ format: revealjs
 ---
 
 ![](https://britishcinematographer.co.uk/wp-content/uploads/2017/09/alien-tagline-in-space-no-one-can-hear-you-scream.jpg)
+
+# Psychological states
+
+## Perchance to dream
+
+- Variations in consciousness during NREM and REM sleep
+- Reduced voluntary control, self-awareness
+- Enhanced emotionality
+- Altered mnemonic processes [@Nir2010-xd]
+
+---
+
+:::: {.columns}
+::: {.column width=50%}
+![@Freud2001-fe^["Photographic portrait of Sigmund Freud, signed by the sitter ("Prof. Sigmund Freud"). By Max Halberstadt - https://www.christies.com/lotfinder/lot_details.aspx?intObjectID=6116407, Public Domain, https://commons.wikimedia.org/w/index.php?curid=64082854"]](https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg/1280px-Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg){width="60%"}
+:::
+::: {.column width=50%}
+>Deeper research will one day trace the path further and discover an organic
+basis for the mental event.
+
+-- @Freud1900-ne
+:::
+::::
+
+## {.scrollable}
+
+![@Nir2010-xd Table 1](../include/img/nir-2010-tbl01-1.png)
+
+## {.scrollable}
+
+![@Nir2010-xd Table 1](../include/img/nir-2010-tbl01-2.png)
+
+<!-- ## {.scrollable} -->
+
+<!-- ![[@Nir2010-xd Table 1](../include/img/nir-2010-tbl01-3.png) -->
+
+## {.scrollable}
+
+![@Nir2010-xd Table 1](../include/img/nir-2010-tbl01-4.png)
+
+## {.scrollable}
+
+![@Nir2010-xd Table 1](../include/img/nir-2010-tbl01-5.png)
 
 # Mechanisms of sleep
 
@@ -374,7 +430,7 @@ format: revealjs
 :::: {.columns}
 ::: {.column width=50%}
 - Two-stage memory system [@Marr1971-be]
-  - Encoding $\rightarrow$ consolidation
+  - Encoding (hippocampus) $\rightarrow$ consolidation (cortex)
   - Avoids catastrophic interference
 - Waking brain: Optimized for encoding
 - Sleeping brain: Optimized for consolidation
@@ -382,7 +438,7 @@ format: revealjs
 :::
 ::: {.column width=50%}
 ![@Rasch2013-yn Figure 2^["FIGURE 2. Effects of sleep and wake intervals of different length
-after learning on memory for senseless syllables. Sleep after learning leads to superior recall of syllables after the 1-, 2-, 4-, and 8-h retention interval, compared with wake intervals of the same length. Two subjects (H. and Mc.) participated in this classic study by Jenkins and Dallenbach (603). For each data point, each participant completed 6 –8 trials, with the different retention intervals performed in random order. The study took 2 mo during which the participants lived in the laboratory and were tested almost every day and night. Data are based on Table 3 in Reference 603, as the original figure contains an erroneous exchange of data points at the 4-h wake retention interval. Values are means  SE. \*\*P 0.01;
+after learning on memory for senseless syllables. Sleep after learning leads to superior recall of syllables after the 1-, 2-, 4-, and 8-h retention interval, compared with wake intervals of the same length. Two subjects (H. and Mc.) participated in this classic study by Jenkins and Dallenbach (603). For each data point, each participant completed 6 –8 trials, with the different retention intervals performed in random order. The study took 2 mo during which the participants lived in the laboratory and were tested almost every day and night. Data are based on Table 3 in Reference 603, as the original figure contains an erroneous exchange of data points at the 4-h wake retention interval. Values are means  SE. \*\*P 0.01;
 \*\*\* P 0.001."]](../include/img/rascsh-fig02.png)
 :::
 ::::
@@ -390,6 +446,13 @@ after learning on memory for senseless syllables. Sleep after learning leads to 
 ---
 
 ![@Rasch2013-yn Figure 2^["FIGURE 3. A model of active system consolidation during sleep. A: during SWS, memories newly encoded into a temporary store (i.e., the hippocampus in the declarative memory system) are repeatedly reactivated, which drives their gradual redistribution to the long-term store (i.e., the neocortex). B: system consolidation during SWS relies on a dialogue between neocortex and hippocampus under top-down control by the neocortical slow oscillations (red). The depolarizing up phases of the slow oscillations drive the repeated reactivation of hippocampal memory representations together with sharp wave-ripples (green) and thalamo-cortical spindles (blue). This synchronous drive allows for the formation of spindle-ripple events where sharp wave-ripples and associated reactivated memory information becomes nested into succeeding troughs of a spindle (shown at larger scale). In the black-and-white version of the figure, red, green, and blue correspond to dark, middle, and light gray, respectively. [Modified from Born and Wilhelm (125).]"]](../include/img/rasch-fig03.png)
+
+## {.scrollable}
+
+>Whereas initially it was commonly assumed that sleep improves memory in a passive manner, by protecting it from being overwritten by interfering external stimulus inputs, the **current theorizing assumes an active consolidation of memories** that is specifically established during sleep, and basically **originates from
+the reactivation of newly encoded memory representations**.
+
+-- @Rasch2013-yn
 
 ## Glymphatic clearance
 
@@ -482,6 +545,10 @@ after learning on memory for senseless syllables. Sleep after learning leads to 
   - Brainstem
   - Basal Forebrain
   - Thalamus
+  
+## Main points
+
+- Sleep engages a network of brain regions
   - Tegmentum
   - Cerebral cortex
   - Hippocampus
