@@ -1,0 +1,2390 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.27">
+
+  <meta name="author" content="Rick Gilmore">
+  <title>PSY 511.001 – Evolution &amp; development of the brain</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-a1e6b9f9a4c2299ae8b39f6a9fa80401.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Evolution &amp; development of the brain</h1>
+  <p class="subtitle">PSY 511.001 Spr 2026</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Rick Gilmore 
+</div>
+        <p class="quarto-title-affiliation">
+            Department of Psychology
+          </p>
+    </div>
+</div>
+
+</section>
+<section>
+<section id="overview" class="title-slide slide level1 center">
+<h1>Overview</h1>
+
+</section>
+<section id="prelude" class="slide level2">
+<h2>Prelude</h2>
+<div id="fig-evo-devo-song" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-evo-devo-song-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<iframe width="1280" height="450" src="https://www.youtube.com/embed/ydqReeTV_vk?si=Vmgw5-CLRZIeC2UQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-evo-devo-song-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: <span class="citation" data-cites="Acapellascience2017-yt">acapellascience (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span>
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="announcements" class="slide level2">
+<h2>Announcements</h2>
+</section>
+<section id="todays-topics" class="slide level2">
+<h2>Today’s topics</h2>
+<ul>
+<li>Public acceptance of evolution</li>
+<li>Evolution of nervous systems</li>
+<li>Development of the human brain</li>
+</ul>
+</section>
+<section id="warm-up" class="slide level2">
+<h2>Warm-up</h2>
+</section></section>
+<section>
+<section id="public-acceptance-of-evolution" class="title-slide slide level1 center">
+<h1>Public acceptance of evolution</h1>
+
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.science.org/cms/10.1126/science.1126746/asset/4c7394aa-a5b4-4f16-93c4-0e2bb50619bf/assets/graphic/765-1.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="@miller2006public. Public acceptance of evolution in 34 countries, 2005."><img data-src="https://www.science.org/cms/10.1126/science.1126746/asset/4c7394aa-a5b4-4f16-93c4-0e2bb50619bf/assets/graphic/765-1.gif" alt="Miller, Scott, &amp; Okamoto (2006). Public acceptance of evolution in 34 countries, 2005."></a></p>
+<figcaption><span class="citation" data-cites="miller2006public">Miller et al. (<a href="#/references" role="doc-biblioref" onclick="">2006</a>)</span>. Public acceptance of evolution in 34 countries, 2005.</figcaption>
+</figure>
+</div>
+</section>
+<section id="more-recent-data" class="slide level2">
+<h2>More recent data</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>In U.S., majority now “accept”</li>
+<li>Increase over last decade</li>
+<li><span class="citation" data-cites="Miller2021-lb">Miller et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/miller-2026-fig1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="@Miller2021-lb Figure 1"><img data-src="../include/img/miller-2026-fig1.jpg" alt="Miller et al. (2021) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="Miller2021-lb">Miller et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span> Figure 1<a href="#/footnotes" class="footnote-ref" id="fnref1" role="doc-noteref" data-footnote-href="#/fn1" onclick=""><sup>1</sup></a></figcaption>
+</figure>
+</div>
+</div></div>
+<aside></aside></section>
+<section id="types-of-evidence" class="slide level2">
+<h2>Types of evidence</h2>
+<ul>
+<li>Fossil
+<ul>
+<li>Fossil dating</li>
+</ul></li>
+<li>Geological
+<ul>
+<li>Where fossils are found relative to one another</li>
+<li>How long it takes to form layers</li>
+</ul></li>
+</ul>
+</section>
+<section id="types-of-evidence-1" class="slide level2">
+<h2>Types of evidence</h2>
+<ul>
+<li>Genetic
+<ul>
+<li>Rates of mutation</li>
+</ul></li>
+<li>Anatomical
+<ul>
+<li>Homologous structures across existing species</li>
+</ul></li>
+</ul>
+</section>
+<section id="explanatory-power" class="slide level2">
+<h2>Explanatory power</h2>
+<blockquote>
+<p>Nothing in Biology Makes Sense except in the Light of Evolution</p>
+</blockquote>
+<blockquote>
+<p>Seen in the light of evolution, biology is, perhaps, intellectually the most satisfying and inspiring science. Without that light, it becomes a pile of sundry facts some of them interesting or curious, but making no meaningful picture as a whole.</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Dobzhansky1973">Dobzhansky (<a href="#/references" role="doc-biblioref" onclick="">1973</a>)</span></p>
+</section>
+<section id="why-gilmore-thinks-the-theory-so-controversial-in-the-u.s." class="slide level2">
+<h2>Why Gilmore thinks the theory so controversial (in the U.S.)</h2>
+<ul>
+<li>Contradicts verbatim/non-metaphorical reading of some religious texts</li>
+<li>Makes humans seem less special</li>
+<li>Time scales involved beyond human experience</li>
+<li>Scientific method vs.&nbsp;other ways of knowing</li>
+<li>Found in nature ≠ good for human society</li>
+</ul>
+</section>
+<section id="why-gilmore-thinks-the-theory-so-controversial-in-the-u.s.-1" class="slide level2">
+<h2>Why Gilmore thinks the theory so controversial (in the U.S.)</h2>
+<ul>
+<li>Few negative consequences of ‘disbelief’</li>
+<li>U.S. culture individualistic, skeptical, anti-elitist, anti-intellectual</li>
+<li>Lower levels of religious belief among <a href="http://news.rice.edu/2015/12/03/first-worldwide-survey-of-religion-and-science-no-not-all-scientists-are-atheists/">U.S. scientists</a></li>
+<li><a href="http://www.people-press.org/2009/07/09/section-4-scientists-politics-and-religion/">Politics</a></li>
+<li>A minority of citizens support teaching <a href="http://www.pbs.org/wgbh/nova/blogs/education/2015/12/evolutionschools/">evolution-only</a></li>
+<li>Majority of classroom teachers aren’t <a href="https://www.sciencedaily.com/releases/2011/01/110127141657.htm">strong advocates</a></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<blockquote>
+<p>A structural equation model indicates that increasing enrollment in baccalaureate-level programs, exposure to college-level science courses, a declining level of religious fundamentalism, and a rising level of civic scientific literacy are responsible for the increased level of public acceptance.</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Miller2021-lb">Miller et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span></p>
+</section></section>
+<section>
+<section id="evolution-and-development" class="title-slide slide level1 center">
+<h1>Evolution and development</h1>
+
+</section>
+<section id="ontogenesis-and-phylogenesis" class="slide level2">
+<h2>Ontogenesis and phylogenesis</h2>
+<ul>
+<li><em>Ontogenesis</em>
+<ul>
+<li>Development within lifetimes, history of individuals</li>
+</ul></li>
+<li><em>Phylogenesis</em>
+<ul>
+<li>Change across lifetimes, history of species</li>
+</ul></li>
+</ul>
+</section>
+<section id="does-ontogeny-recapitulate-phyologeny" class="slide level2">
+<h2>Does ontogeny recapitulate phyologeny?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><span class="citation" data-cites="Haeckel2001-vg">Haeckel (<a href="#/references" role="doc-biblioref" onclick="">2001</a>)</span></li>
+<li>Is evolution cumulative?</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div id="fig-haeckel-drawings" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-haeckel-drawings-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://upload.wikimedia.org/wikipedia/commons/7/7d/Haeckel_Anthropogenie_1874.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;2: @Haeckel2001-vg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Haeckel_Anthropogenie_1874.jpg"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-haeckel-drawings-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: <span class="citation" data-cites="Haeckel2001-vg">Haeckel (<a href="#/references" role="doc-biblioref" onclick="">2001</a>)</span><a href="#/footnotes" class="footnote-ref" id="fnref2" role="doc-noteref" data-footnote-href="#/fn2" onclick=""><sup>2</sup></a>
+</figcaption>
+</figure>
+</div>
+</div></div>
+<aside></aside></section>
+<section id="complex-multicellular-life-emerged-recently" class="slide level2">
+<h2>Complex multicellular life emerged “recently”</h2>
+</section>
+<section id="section" class="slide level2 scrollable">
+<h2></h2>
+<div id="fig-evo-clock" class="quarto-float quarto-figure quarto-figure-center" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-evo-clock-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../include/img/evolclock.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figure&nbsp;3: "><img data-src="../include/img/evolclock.gif" id="fig-evo-clock" class="quarto-figure quarto-figure-center"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-evo-clock-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="section-1" class="slide level2 scrollable">
+<h2></h2>
+<div id="fig-britannica-evolution" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-britannica-evolution-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://cdn.britannica.com/98/398-050-BCA23330/scale-events.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Figure&nbsp;4: https://www.britannica.com/science/evolution-scientific-theory"><img data-src="https://cdn.britannica.com/98/398-050-BCA23330/scale-events.jpg" style="width:50.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-britannica-evolution-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: https://www.britannica.com/science/evolution-scientific-theory
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="nervous-system-architectures" class="slide level2">
+<h2>Nervous system architectures</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Body symmetry
+<ul>
+<li>radial</li>
+<li>bilateral</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div id="fig-nerve-net-video" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-nerve-net-video-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-UI531GMRTM?si=K7s4uS3iiIVWticm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-nerve-net-video-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: <span class="citation" data-cites="Park2009-ic">Park (<a href="#/references" role="doc-biblioref" onclick="">2009</a>)</span>
+</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="nervous-system-architectures-1" class="slide level2">
+<h2>Nervous system architectures</h2>
+<ul>
+<li>Segmentation</li>
+<li>Cephalization (concentration of sensory &amp; neural structures in anterior portion of body)</li>
+<li>Encasement in bone (vertebrates)</li>
+<li>Centralized vs.&nbsp;distributed function</li>
+</ul>
+<!-- --- -->
+<!-- **Cephalopods have "intelligent arms"** -->
+<!-- <iframe width="700" height="400" src="http://www.sciencedirect.com/science/article/pii/S0022098113000683" frameborder="0" allowfullscreen></iframe> -->
+</section>
+<section id="biological-computation" class="slide level2">
+<h2>Biological computation</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Ingestion</li>
+<li>Defense</li>
+<li>Reproduction</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div id="fig-swanson-2012-fig7-5" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-swanson-2012-fig7-5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../include/img/swanson-fig-7.5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Figure&nbsp;6: Adapted from @swanson2012brain"><img data-src="../include/img/swanson-fig-7.5.jpg" style="width:60.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-swanson-2012-fig7-5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Adapted from <span class="citation" data-cites="swanson2012brain">Swanson (<a href="#/references" role="doc-biblioref" onclick="">2012</a>)</span>
+</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="information-processing-universals" class="slide level2">
+<h2>Information processing universals</h2>
+<ul>
+<li>Sense/detect via sensors
+<ul>
+<li>Specialize by information source/type</li>
+<li>Specialize by target location
+<ul>
+<li>Interoceptive</li>
+<li>Exteroceptive</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="information-processing-universals-1" class="slide level2">
+<h2>Information processing universals</h2>
+<ul>
+<li>Analyze, evaluate, decide
+<ul>
+<li>Current state
+<ul>
+<li>World</li>
+<li>Organism</li>
+</ul></li>
+<li>Current goals</li>
+<li>Past state(s)</li>
+</ul></li>
+</ul>
+</section>
+<section id="information-processing-universals-2" class="slide level2">
+<h2>Information processing universals</h2>
+<ul>
+<li>Act
+<ul>
+<li>Move body
+<ul>
+<li>Approach/avoid</li>
+<li>Manipulate</li>
+<li>Ingest</li>
+<li>Signal</li>
+</ul></li>
+<li>Change physiological state</li>
+</ul></li>
+</ul>
+</section>
+<section id="evolution-of-architectures" class="slide level2 scrollable">
+<h2>Evolution of architectures</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Neurons and nervous systems 520-570 M years old</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div id="fig-arendt-2016-fig01" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-arendt-2016-fig01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../include/img/nrn.2015.15-f1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Figure&nbsp;7: @arendt_nerve_2016 Figure 1"><img data-src="../include/img/nrn.2015.15-f1.jpg"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-arendt-2016-fig01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7: <span class="citation" data-cites="arendt_nerve_2016">Arendt, Tosches, &amp; Marlow (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span> Figure 1<a href="#/footnotes" class="footnote-ref" id="fnref3" role="doc-noteref" data-footnote-href="#/fn3" onclick=""><sup>3</sup></a>
+</figcaption>
+</figure>
+</div>
+</div></div>
+<aside></aside></section>
+<section id="section-2" class="slide level2 scrollable">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Diverse nervous systems show developmental similarities at molecular level</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div id="fig-arendt-2016-fig02" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-arendt-2016-fig02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../include/img/nrn.2015.15-f2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Figure&nbsp;8: @arendt_nerve_2016 Figure 2"><img data-src="../include/img/nrn.2015.15-f2.jpg"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-arendt-2016-fig02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8: <span class="citation" data-cites="arendt_nerve_2016">Arendt et al. (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span> Figure 2<a href="#/footnotes" class="footnote-ref" id="fnref4" role="doc-noteref" data-footnote-href="#/fn4" onclick=""><sup>4</sup></a>
+</figcaption>
+</figure>
+</div>
+</div></div>
+<aside></aside></section>
+<section id="vertebrate-cns-organization" class="slide level2 scrollable">
+<h2>Vertebrate CNS organization</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/northcutt-2002-f1.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Figure 1 from @Northcutt2002-jg"><img data-src="../include/img/northcutt-2002-f1.gif" alt="Figure 1 from Northcutt (2002)"></a></p>
+<figcaption>Figure 1 from <span class="citation" data-cites="Northcutt2002-jg">Northcutt (<a href="#/references" role="doc-biblioref" onclick="">2002</a>)</span></figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<p><a href="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ENwGSoMh3t4yc2xlElUfUg.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img data-src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ENwGSoMh3t4yc2xlElUfUg.png"></a></p>
+</div></div>
+</section>
+<section id="brainbody-sizes" class="slide level2 scrollable">
+<h2>Brain/Body Sizes</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://brainmuseum.org/evolution/paleo/images/brnbodwt4.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Jerison https://brainmuseum.org/evolution/paleo/index.html"><img data-src="https://brainmuseum.org/evolution/paleo/images/brnbodwt4.gif" alt="Jerison https://brainmuseum.org/evolution/paleo/index.html"></a></p>
+<figcaption>Jerison <a href="https://brainmuseum.org/evolution/paleo/index.html" class="uri">https://brainmuseum.org/evolution/paleo/index.html</a></figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/northcutt-2002-f2.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Figure 2 from @Northcutt2002-jg"><img data-src="../include/img/northcutt-2002-f2.gif" alt="Figure 2 from Northcutt (2002)"></a></p>
+<figcaption>Figure 2 from <span class="citation" data-cites="Northcutt2002-jg">Northcutt (<a href="#/references" role="doc-biblioref" onclick="">2002</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="cerebral-cortex-a-target-of-selection" class="slide level2">
+<h2>Cerebral cortex a target of selection</h2>
+<div id="fig-hofman-fig01" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-hofman-fig01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="http://www.frontiersin.org/files/Articles/78485/fnana-08-00015-HTML/image_m/fnana-08-00015-g001.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="Figure&nbsp;9: @hofman_evolution_2014 Figure 1"><img data-src="http://www.frontiersin.org/files/Articles/78485/fnana-08-00015-HTML/image_m/fnana-08-00015-g001.jpg" style="width:40.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hofman-fig01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;9: <span class="citation" data-cites="hofman_evolution_2014">Hofman (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span> Figure 1<a href="#/footnotes" class="footnote-ref" id="fnref5" role="doc-noteref" data-footnote-href="#/fn5" onclick=""><sup>5</sup></a>
+</figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section class="slide level2">
+
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Structural measure</th>
+<th>Non-human comparison</th>
+<th>Human</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cortical gray matter %/tot brain vol</td>
+<td>insectivores 25%</td>
+<td>50%</td>
+</tr>
+<tr class="even">
+<td>Cortical gray + white</td>
+<td>mice 40%</td>
+<td>80%</td>
+</tr>
+<tr class="odd">
+<td>Cerebellar mass</td>
+<td>primates, mammals 10-15%</td>
+<td>10-15%</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Evidence for greater gray and white matter (relative to total brain volume) in human cerebral cortex</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<div id="fig-rakic-fig01" class="lightbox quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-rakic-fig01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2719/MediaObjects/41583_2009_Article_BFnrn2719_Fig1_HTML.jpg?as=webp" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="Figure&nbsp;10: @Rakic2009-jk Figure 1"><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2719/MediaObjects/41583_2009_Article_BFnrn2719_Fig1_HTML.jpg?as=webp"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-rakic-fig01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10: <span class="citation" data-cites="Rakic2009-jk">Rakic (<a href="#/references" role="doc-biblioref" onclick="">2009</a>)</span> Figure 1
+</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div id="fig-hovman-fig02" class="lightbox quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-hovman-fig02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="http://www.frontiersin.org/files/Articles/78485/fnana-08-00015-HTML/image_m/fnana-08-00015-g002.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="Figure&nbsp;11: @hofman_evolution_2014 Figure 2"><img data-src="http://www.frontiersin.org/files/Articles/78485/fnana-08-00015-HTML/image_m/fnana-08-00015-g002.jpg"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hovman-fig02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;11: <span class="citation" data-cites="hofman_evolution_2014">Hofman (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span> Figure 2
+</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="take-homes" class="slide level2">
+<h2>Take homes</h2>
+<ul>
+<li>(log) Brain sizes scale with (log) body size</li>
+<li>Brain sizes (more or less) scale with animal class</li>
+</ul>
+</section>
+<section id="old-story" class="slide level2">
+<h2>Old story</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Within mammals, human brains bigger than expected
+<ul>
+<li>Higher <em>encephalization quotient</em> – deviation from species-typical norm</li>
+</ul></li>
+<li>Humans have larger cerebral cortical gray + white matter than comparable mammals</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div id="fig-northcutt-fig02" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-northcutt-fig02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../include/img/northcutt-2002-f2.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="Figure&nbsp;12: Figure 2 from @Northcutt2002-jg"><img data-src="../include/img/northcutt-2002-f2.gif"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-northcutt-fig02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;12: Figure 2 from <span class="citation" data-cites="Northcutt2002-jg">Northcutt (<a href="#/references" role="doc-biblioref" onclick="">2002</a>)</span>
+</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="new-story" class="slide level2">
+<h2>New story</h2>
+<ul>
+<li>Does brain <em>size/mass</em> matter (that much)?</li>
+<li>“Size matters” (brain mass) presumes similarity among brains at micro-level</li>
+<li>Big (large mass) brains arise in multiple mammalian lineages</li>
+<li>Body sizes tend to increase over evolutionary time</li>
+</ul>
+</section>
+<section id="venditti2024-ul" class="slide level2">
+<h2><span class="citation" data-cites="Venditti2024-ul">Venditti, Baker, &amp; Barton (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></h2>
+<blockquote>
+<p>Despite decades of comparative studies, puzzling aspects of the relationship between mammalian brain and body mass continue to defy satisfactory explanation. Here we show that several such aspects arise from routinely fitting log-linear models to the data: the correlated evolution of brain and body mass is in fact <em>log-curvilinear</em> [emphasis added].</p>
+</blockquote>
+</section>
+<section id="venditti2024-ul-1" class="slide level2">
+<h2><span class="citation" data-cites="Venditti2024-ul">Venditti et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></h2>
+<blockquote>
+<p>…we document dramatically varying rates of relative brain mass evolution across the mammalian phylogeny, and we resolve the question of whether there is an overall trend for brain mass to increase through time.</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Venditti2024-ul">Venditti et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></p>
+</section>
+<section id="section-3" class="slide level2 scrollable">
+<h2></h2>
+<div id="fig-venditti-fig01" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-venditti-fig01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../include/img/venditti-2024-fig-01.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="Figure&nbsp;13: @Venditti2024-ul Figure 1"><img data-src="../include/img/venditti-2024-fig-01.png"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-venditti-fig01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;13: <span class="citation" data-cites="Venditti2024-ul">Venditti et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span> Figure 1
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="venditti2024-ul-2" class="slide level2">
+<h2><span class="citation" data-cites="Venditti2024-ul">Venditti et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></h2>
+<blockquote>
+<p>We find a trend in only three mammalian orders, which is by far the strongest in primates, setting the stage for the uniquely rapid directional increase ultimately producing the computational powers of the human brain.</p>
+</blockquote>
+</section>
+<section id="section-4" class="slide level2 scrollable">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><em># of cortical neurons</em> possibly more important difference than brain mass</li>
+<li>The primate advantage
+<ul>
+<li>more cortical neurons
+<ul>
+<li>but not larger neurons</li>
+<li>not more neurons in cerebellum</li>
+</ul></li>
+</ul></li>
+<li>Human brain just scaled up (non-ape) primate brain</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://i.thriftbooks.com/api/imagehandler/m/265B2E0B5A49FB55292E7E064107E17737EE8DA6.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="@Herculano-Houzel2016-oy"><img data-src="https://i.thriftbooks.com/api/imagehandler/m/265B2E0B5A49FB55292E7E064107E17737EE8DA6.jpeg" alt="Herculano-Houzel (2016)"></a></p>
+<figcaption><span class="citation" data-cites="Herculano-Houzel2016-oy">Herculano-Houzel (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="section-5" class="slide level2 scrollable">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/herculano-houtzel-2012-fig-01.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="@Herculano-Houzel2012-up Figure 1"><img data-src="../include/img/herculano-houtzel-2012-fig-01.webp" alt="Herculano-Houzel (2012) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="Herculano-Houzel2012-up">Herculano-Houzel (<a href="#/references" role="doc-biblioref" onclick="">2012</a>)</span> Figure 1<a href="#/footnotes" class="footnote-ref" id="fnref6" role="doc-noteref" data-footnote-href="#/fn6" onclick=""><sup>6</sup></a></figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="section-6" class="slide level2 scrollable">
+<h2></h2>
+<div id="fig-herculano-fig03" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-herculano-fig03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../include/img/herculano-houtzel-2012-fig-03.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="Figure&nbsp;14: @Herculano-Houzel2012-up Figure 3"><img data-src="../include/img/herculano-houtzel-2012-fig-03.webp"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-herculano-fig03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;14: <span class="citation" data-cites="Herculano-Houzel2012-up">Herculano-Houzel (<a href="#/references" role="doc-biblioref" onclick="">2012</a>)</span> Figure 3<a href="#/footnotes" class="footnote-ref" id="fnref7" role="doc-noteref" data-footnote-href="#/fn7" onclick=""><sup>7</sup></a>
+</figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="section-7" class="slide level2 scrollable">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Primate body sizes grew relatively less than brain sizes</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/venditti-2024-fig-04.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="@Venditti2024-ul Figure 4"><img data-src="../include/img/venditti-2024-fig-04.png" alt="Venditti et al. (2024) Figure 4"></a></p>
+<figcaption><span class="citation" data-cites="Venditti2024-ul">Venditti et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span> Figure 4</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="does-neuron-predict-cognition" class="slide level2">
+<h2>Does neuron # predict cognition?</h2>
+<div id="fig-herculano-fig03" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-herculano-fig03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://ars.els-cdn.com/content/image/1-s2.0-S2352154616302637-gr3_lrg.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="Figure&nbsp;15: @Herculano-Houzel2017-gf Figure 3"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S2352154616302637-gr3_lrg.jpg"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-herculano-fig03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;15: <span class="citation" data-cites="Herculano-Houzel2017-gf">Herculano-Houzel (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span> Figure 3
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="selection-pressures" class="slide level2">
+<h2>Selection pressures</h2>
+<ul>
+<li>Brain
+<ul>
+<li>More neurons in cerebral cortex than other mammals</li>
+</ul></li>
+<li>Behavior
+<ul>
+<li>Less time spent foraging
+<ul>
+<li>Higher quality/more energetically dense food</li>
+<li>Higher food availability</li>
+<li>Diet diversity</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="selection-pressures-1" class="slide level2">
+<h2>Selection pressures</h2>
+<ul>
+<li>Cultural factors
+<ul>
+<li>Social brain</li>
+<li>Cooking then later, agriculture, see also <span class="citation" data-cites="Wrangham2009-vq">(<a href="#/references" role="doc-biblioref" onclick="">Wrangham, 2009</a>)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="a-further-human-advantage" class="slide level2">
+<h2>A further human advantage</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://images.bwbcovers.com/067/The-Evolution-of-Childhood-9780674045668.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="@konner_evolution_2011"><img data-src="https://images.bwbcovers.com/067/The-Evolution-of-Childhood-9780674045668.jpg" class="quarto-figure quarto-figure-center" alt="Konner (2011)"></a></p>
+</figure>
+</div>
+<figcaption><span class="citation" data-cites="konner_evolution_2011">Konner (<a href="#/references" role="doc-biblioref" onclick="">2011</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="what-cortical-areas-were-selected" class="slide level2">
+<h2>What cortical areas were selected?</h2>
+<blockquote>
+<p>Although intense research effort is seeking to address which brain areas fire and connect to each other to produce complex behaviors in a few living primates, little is known about their evolution, and which brain areas or facets of cognition were favored by natural selection.</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Melchionna2025-cg">Melchionna et al. (<a href="#/references" role="doc-biblioref" onclick="">2025</a>)</span></p>
+</section>
+<section id="section-8" class="slide level2 scrollable">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/melchionna-2025-fig01.png" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="@Melchionna2025-cg Figure 1"><img data-src="../include/img/melchionna-2025-fig01.png" alt="Melchionna et al. (2025) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="Melchionna2025-cg">Melchionna et al. (<a href="#/references" role="doc-biblioref" onclick="">2025</a>)</span> Figure 1<a href="#/footnotes" class="footnote-ref" id="fnref8" role="doc-noteref" data-footnote-href="#/fn8" onclick=""><sup>8</sup></a></figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="section-9" class="slide level2 scrollable">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/melchionna-2025-fig02.png" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="@Melchionna2025-cg Figure 2"><img data-src="../include/img/melchionna-2025-fig02.png" alt="Melchionna et al. (2025) Figure 2"></a></p>
+<figcaption><span class="citation" data-cites="Melchionna2025-cg">Melchionna et al. (<a href="#/references" role="doc-biblioref" onclick="">2025</a>)</span> Figure 2<a href="#/footnotes" class="footnote-ref" id="fnref9" role="doc-noteref" data-footnote-href="#/fn9" onclick=""><sup>9</sup></a></figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="section-10" class="slide level2 scrollable">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/melchionna-2025-fig03.png" class="lightbox" data-gallery="quarto-lightbox-gallery-26" title="@Melchionna2025-cg Figure 3"><img data-src="../include/img/melchionna-2025-fig03.png" alt="Melchionna et al. (2025) Figure 3"></a></p>
+<figcaption><span class="citation" data-cites="Melchionna2025-cg">Melchionna et al. (<a href="#/references" role="doc-biblioref" onclick="">2025</a>)</span> Figure 3</figcaption>
+</figure>
+</div>
+</section>
+<section id="section-11" class="slide level2 scrollable">
+<h2></h2>
+<blockquote>
+<p>By developing statistical tools to study the evolution of the brain cortex at the fine scale, we found that rapid cortical expansion in the prefrontal region took place early on during the evolution of primates. In anthropoids, fast-expanding cortical areas extended to the posterior parietal cortex. In Homo, further expansion affected the medial temporal lobe and the posteroinferior region of the parietal lobe.</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Melchionna2025-cg">Melchionna et al. (<a href="#/references" role="doc-biblioref" onclick="">2025</a>)</span></p>
+</section></section>
+<section>
+<section id="development-of-the-human-brain" class="title-slide slide level1 center">
+<h1>Development of the human brain</h1>
+
+</section>
+<section id="timeline" class="slide level2 scrollable">
+<h2>Timeline</h2>
+<div id="fig-silbereis-2016-fig-01" class="lightbox quarto-float quarto-figure quarto-figure-center" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-silbereis-2016-fig-01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://ars.els-cdn.com/content/image/1-s2.0-S0896627315010806-gr1_lrg.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-27" title="Figure&nbsp;16: @Silbereis2016-la Figure 1."><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S0896627315010806-gr1_lrg.jpg" class="quarto-figure quarto-figure-center" style="width:75.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-silbereis-2016-fig-01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;16: <span class="citation" data-cites="Silbereis2016-la">Silbereis, Pochareddy, Zhu, Li, &amp; Sestan (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span> Figure 1<a href="#/footnotes" class="footnote-ref" id="fnref10" role="doc-noteref" data-footnote-href="#/fn10" onclick=""><sup>10</sup></a>.
+</figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="section-12" class="slide level2 scrollable">
+<h2></h2>
+<ul>
+<li>CNS among earliest-developing, last to finish organ systems
+<ul>
+<li>Prolonged developmental period…makes CNS vulnerable</li>
+<li>CNS especially <em>open</em> to external influences</li>
+</ul></li>
+</ul>
+</section>
+<section id="by-the-numbers" class="slide level2">
+<h2>By the numbers</h2>
+<ul>
+<li>~ 86 billion neurons in adult CNS
+<ul>
+<li>similar # of glia</li>
+<li>about 16 (14-32) billion neurons, 80/20% Glu/GABA</li>
+</ul></li>
+<li>7-80K synapses/cortical neuron
+<ul>
+<li>164 trillion synapses in cerebral cortex, <span class="citation" data-cites="DeFelipe2002-xz">(<a href="#/references" role="doc-biblioref" onclick="">DeFelipe, Alonso-Nanclares, &amp; Arellano, 2002</a>)</span></li>
+<li><span class="math inline">\(10^{15}\)</span> (quadrillion) synapses in CNS</li>
+</ul></li>
+</ul>
+</section>
+<section id="by-the-numbers-1" class="slide level2">
+<h2>By the numbers</h2>
+<ul>
+<li>145-175 km (90-109 mi) of myelinated axons, <span class="citation" data-cites="Marner2003-qu">(<a href="#/references" role="doc-biblioref" onclick="">Marner, Nyengaard, Tang, &amp; Pakkenberg, 2003</a>)</span></li>
+<li>brain ~ 2.5% of body mass, but consumes 18% of <span class="math inline">\(O_2\)</span> at rest, <span class="citation" data-cites="Kety1948-ty">(<a href="#/references" role="doc-biblioref" onclick="">Kety &amp; Schmidt, 1948</a>)</span>, and has been estimated to consume about 20 W.
+<ul>
+<li>millions of neurons generated per hour</li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="summaries-by-phase" class="title-slide slide level1 center">
+<h1>Summaries by phase</h1>
+
+</section>
+<section id="prenatal-period" class="slide level2">
+<h2>Prenatal period</h2>
+<ul>
+<li>~38 weeks from conception/fertilization on average</li>
+<li>Embryonic period (weeks 1-8), fetal period (weeks 9-)</li>
+<li>Three 12-13 week trimesters</li>
+</ul>
+</section>
+<section id="earliest-steps" class="slide level2">
+<h2>Earliest steps</h2>
+<ul>
+<li>Insemination
+<ul>
+<li>Can occur 3-4 days before or up to 1-2 days after…
+<ul>
+<li>Ovulation</li>
+</ul></li>
+</ul></li>
+<li>Fertilization
+<ul>
+<li>Within ~ 24 hrs of ovulation</li>
+</ul></li>
+<li>Implantation
+<ul>
+<li>~ 6 days after fertilization</li>
+</ul></li>
+</ul>
+</section>
+<section id="early-embryogenesis" class="slide level2">
+<h2>Early embryogenesis</h2>
+<div id="fig-embryogenesis-video" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-embryogenesis-video-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<iframe width="1280" height="450" src="https://www.youtube.com/embed/dAOWQC-OBv0" frameborder="0" allowfullscreen="">
+</iframe>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-embryogenesis-video-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;17
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="formation-of-neural-tube" class="slide level2">
+<h2>Formation of <em>neural tube</em><a href="#/footnotes" class="footnote-ref" id="fnref11" role="doc-noteref" data-footnote-href="#/fn11" onclick=""><sup>11</sup></a></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Embryonic layers: ectoderm, mesoderm, endoderm
+<ul>
+<li>Neural tube forms ~ 23 pcd<a href="#/footnotes" class="footnote-ref" id="fnref12" role="doc-noteref" data-footnote-href="#/fn12" onclick=""><sup>12</sup></a> from dorsal <em>ectoderm</em></li>
+<li>“Skin-brain” axis <span class="citation" data-cites="Jameson2023-jd">(<a href="#/references" role="doc-biblioref" onclick="">Jameson, Boulton, Silove, Nanan, &amp; Guastella, 2023</a>)</span>.</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><a href="https://as1.ftcdn.net/jpg/02/52/77/94/500_F_252779434_4Hr3vF8H3wDOH0RslaVw5nLnYoKACiP6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-28"><img data-src="https://as1.ftcdn.net/jpg/02/52/77/94/500_F_252779434_4Hr3vF8H3wDOH0RslaVw5nLnYoKACiP6.jpg" class="quarto-figure quarto-figure-right"></a></p>
+</figure>
+</div>
+</div></div>
+<aside></aside></section>
+<section id="section-13" class="slide level2 scrollable">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41380-022-01829-8/MediaObjects/41380_2022_1829_Fig1_HTML.png?as=webp" class="lightbox" data-gallery="quarto-lightbox-gallery-29" title="@Jameson2023-jd Figure 1"><img data-src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41380-022-01829-8/MediaObjects/41380_2022_1829_Fig1_HTML.png?as=webp" class="quarto-figure quarto-figure-center" style="width:75.0%" alt="Jameson et al. (2023) Figure 1"></a></p>
+</figure>
+</div>
+<figcaption><span class="citation" data-cites="Jameson2023-jd">Jameson et al. (<a href="#/references" role="doc-biblioref" onclick="">2023</a>)</span> Figure 1<a href="#/footnotes" class="footnote-ref" id="fnref13" role="doc-noteref" data-footnote-href="#/fn13" onclick=""><sup>13</sup></a></figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="neural-tube-closure" class="slide level2">
+<h2>Neural tube closure</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Neural tube closes in middle, moves toward rostral &amp; caudal ends, closing by 29 - 30 pcd.</li>
+<li>Failures of neural tube closure
+<ul>
+<li>Anencephaly (rostral neuraxis)</li>
+<li>Spina bifida (caudal neuraxis)</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2013/08/26/11/10/ds00417_im03493_r7_spinabifidababythu_jpg-popup.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-30" title="https://www.mayoclinic.org/diseases-conditions/spina-bifida/symptoms-causes/syc-20377860"><img data-src="https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2013/08/26/11/10/ds00417_im03493_r7_spinabifidababythu_jpg-popup.jpg" class="quarto-figure quarto-figure-center" style="width:75.0%" alt="https://www.mayoclinic.org/diseases-conditions/spina-bifida/symptoms-causes/syc-20377860"></a></p>
+</figure>
+</div>
+<figcaption>https://www.mayoclinic.org/diseases-conditions/spina-bifida/symptoms-causes/syc-20377860</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="neural-tube-becomes" class="slide level2">
+<h2>Neural tube becomes</h2>
+<ul>
+<li>Ventricles &amp; cerebral aqueduct</li>
+<li>Central canal of spinal cord</li>
+<li>Rostro-caudal patterning via differential growth into vesicles
+<ul>
+<li>Forebrain (prosencephalon)</li>
+<li>Midbrain (mesencephalone)</li>
+<li>Hindbrain (rhomencephalon)</li>
+</ul></li>
+</ul>
+</section>
+<section id="neurogenesis-and-gliogenesis" class="slide level2">
+<h2>Neurogenesis and gliogenesis</h2>
+<ul>
+<li>Neuroepithelium cell layer lines neural tube creating ventricular zone (VZ) and subventricular zone (SVZ)
+<ul>
+<li>Peri-ventricular regions home to pluripotent stem and progenitor cells that produce new neurons &amp; glia</li>
+</ul></li>
+<li>Neurogenesis (of excitatory Glu neurons) observed by 27 pcd (7 pcw; post-conceptual week)
+<ul>
+<li>complete by 191 pcd (27 pcw), <a href="http://dx.doi.org/10.1016/j.neuron.2015.12.008"><span class="citation" data-cites="Silbereis2016-la">Silbereis et al. (<span>2016</span>)</span></a></li>
+</ul></li>
+</ul>
+</section>
+<section id="neurogenesis-and-gliogenesis-1" class="slide level2">
+<h2>Neurogenesis and gliogenesis</h2>
+<ul>
+<li>Most cortical and striatal neurons generated prenatally, but
+<ul>
+<li>Cerebellum continues to ~ 18 mos</li>
+</ul></li>
+</ul>
+</section>
+<section id="section-14" class="slide level2 scrollable">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrm1739/MediaObjects/41580_2005_Article_BFnrm1739_Fig1_HTML.jpg?as=webp" class="lightbox" data-gallery="quarto-lightbox-gallery-31" title="@Gotz2005-yj Figure 1"><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrm1739/MediaObjects/41580_2005_Article_BFnrm1739_Fig1_HTML.jpg?as=webp" class="quarto-figure quarto-figure-center" style="width:75.0%" alt="Götz &amp; Huttner (2005) Figure 1"></a></p>
+</figure>
+</div>
+<figcaption><span class="citation" data-cites="Gotz2005-yj">Götz &amp; Huttner (<a href="#/references" role="doc-biblioref" onclick="">2005</a>)</span> Figure 1<a href="#/footnotes" class="footnote-ref" id="fnref14" role="doc-noteref" data-footnote-href="#/fn14" onclick=""><sup>14</sup></a></figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="old-brains-new-neurons" class="slide level2">
+<h2>Old brains, new neurons?</h2>
+<ul>
+<li>Some areas in adult human brain generate new neurons
+<ul>
+<li>hippocampus</li>
+<li>striatum</li>
+<li>olfactory bulb (minimally)</li>
+<li>weak evidence for <em>substantial</em> neurogenesis in adult cerebral cortex</li>
+</ul></li>
+</ul>
+</section>
+<section id="section-15" class="slide level2 scrollable">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/ernst-fig-01.png" class="lightbox" data-gallery="quarto-lightbox-gallery-32" title="@Ernst2015-iz Figure 1"><img data-src="../include/img/ernst-fig-01.png" class="quarto-figure quarto-figure-center" style="width:75.0%" alt="Ernst &amp; Frisén (2015) Figure 1"></a></p>
+</figure>
+</div>
+<figcaption><span class="citation" data-cites="Ernst2015-iz">Ernst &amp; Frisén (<a href="#/references" role="doc-biblioref" onclick="">2015</a>)</span> Figure 1<a href="#/footnotes" class="footnote-ref" id="fnref15" role="doc-noteref" data-footnote-href="#/fn15" onclick=""><sup>15</sup></a></figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="neural-stem-cells" class="slide level2">
+<h2>Neural stem cells</h2>
+<ul>
+<li>Undergo <em>symmetric</em> &amp; <em>asymmetric</em> cell division</li>
+<li>Generate glia, neurons, and basal progenitor cells</li>
+</ul>
+</section>
+<section id="radial-glia-and-cell-migration" class="slide level2">
+<h2>Radial glia and cell migration</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/radial-glia.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-33"><img data-src="../include/img/radial-glia.jpg" class="quarto-figure quarto-figure-center" style="width:75.0%"></a></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/neural-tube.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-34"><img data-src="../include/img/neural-tube.jpg" class="quarto-figure quarto-figure-center" style="width:75.0%"></a></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="radial-unit-hypothesis" class="slide level2">
+<h2>Radial unit hypothesis</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2719/MediaObjects/41583_2009_Article_BFnrn2719_Fig2_HTML.jpg?as=webp" class="lightbox" data-gallery="quarto-lightbox-gallery-35" title="@Rakic2009-jk Figure 2"><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2719/MediaObjects/41583_2009_Article_BFnrn2719_Fig2_HTML.jpg?as=webp" alt="Rakic (2009) Figure 2"></a></p>
+<figcaption><span class="citation" data-cites="Rakic2009-jk">Rakic (<a href="#/references" role="doc-biblioref" onclick="">2009</a>)</span> Figure 2</figcaption>
+</figure>
+</div>
+</section>
+<section id="neural-migration" class="slide level2">
+<h2>Neural migration</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/ZRF-gKZHINk" frameborder="0" allowfullscreen="">
+</iframe>
+</div><div class="column" style="width:50%;">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/t-8bxeWqSV4" frameborder="0" allowfullscreen="">
+</iframe>
+</div></div>
+</section>
+<section id="axon-growth-cone" class="slide level2">
+<h2>Axon growth cone</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Chemoattractants
+<ul>
+<li>e.g., Nerve Growth Factor (NGF)</li>
+</ul></li>
+<li>Chemorepellents</li>
+<li>Receptor molecules in growth cone detect chemical gradients</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/Fgmt2RBow0I" frameborder="0" allowfullscreen="">
+</iframe>
+</div></div>
+</section>
+<section id="glia-migrate-too" class="slide level2">
+<h2>Glia migrate, too</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/baumann-2001.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-36" title="@Baumann2001-nw Figure 4"><img data-src="../include/img/baumann-2001.jpeg" class="quarto-figure quarto-figure-center" style="width:50.0%" alt="Baumann &amp; Pham-Dinh (2001) Figure 4"></a></p>
+</figure>
+</div>
+<figcaption><span class="citation" data-cites="Baumann2001-nw">Baumann &amp; Pham-Dinh (<a href="#/references" role="doc-biblioref" onclick="">2001</a>)</span> Figure 4<a href="#/footnotes" class="footnote-ref" id="fnref16" role="doc-noteref" data-footnote-href="#/fn16" onclick=""><sup>16</sup></a></figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="differentiation" class="slide level2">
+<h2>Differentiation</h2>
+<ul>
+<li>Neuron
+<ul>
+<li>pyramidal cell vs.&nbsp;stellate vs.&nbsp;Purkinje vs.&nbsp;…</li>
+<li>NTs released</li>
+</ul></li>
+<li>vs.&nbsp;glial cell
+<ul>
+<li>myelin-producing vs.&nbsp;astrocyte vs.&nbsp;microglia</li>
+</ul></li>
+<li>Where to connect</li>
+</ul>
+</section>
+<section id="differential-gene-expression" class="slide level2 scrollable">
+<h2>Differential gene expression</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/johnson-gene-expression-fig-6.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-37" title="@johnson2009functional"><img data-src="../include/img/johnson-gene-expression-fig-6.jpeg" class="quarto-figure quarto-figure-center" style="width:75.0%" alt="M. B. Johnson et al. (2009)"></a></p>
+</figure>
+</div>
+<figcaption><span class="citation" data-cites="johnson2009functional">M. B. Johnson et al. (<a href="#/references" role="doc-biblioref" onclick="">2009</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="gyral-development" class="slide level2">
+<h2>Gyral development</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="wk">16-19 wk</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/chi-77-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-38" title="@Chi1977-hm"><img data-src="../include/img/chi-77-1.jpg" alt="Chi, Dooling, &amp; Gilles (1977)"></a></p>
+<figcaption><span class="citation" data-cites="Chi1977-hm">Chi et al. (<a href="#/references" role="doc-biblioref" onclick="">1977</a>)</span></figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<h4 id="wk-1">24-27 wk</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/chi-77-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-39" title="@Chi1977-hm"><img data-src="../include/img/chi-77-2.jpg" alt="Chi et al. (1977)"></a></p>
+<figcaption><span class="citation" data-cites="Chi1977-hm">Chi et al. (<a href="#/references" role="doc-biblioref" onclick="">1977</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="gyral-development-1" class="slide level2">
+<h2>Gyral development</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="wk-2">28-31 wk</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/chi-77-3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-40" title="@Chi1977-hm"><img data-src="../include/img/chi-77-3.jpg" alt="Chi et al. (1977)"></a></p>
+<figcaption><span class="citation" data-cites="Chi1977-hm">Chi et al. (<a href="#/references" role="doc-biblioref" onclick="">1977</a>)</span></figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<h4 id="wk-3">36-44 wk</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/chi-77-4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-41" title="@Chi1977-hm"><img data-src="../include/img/chi-77-4.jpg" alt="Chi et al. (1977)"></a></p>
+<figcaption><span class="citation" data-cites="Chi1977-hm">Chi et al. (<a href="#/references" role="doc-biblioref" onclick="">1977</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="infancy-early-childhood" class="title-slide slide level1 center">
+<h1>Infancy &amp; Early Childhood</h1>
+
+</section>
+<section id="synaptogenesis" class="slide level2">
+<h2>Synaptogenesis</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Begins prenatally (~ 18 pcw)</li>
+<li>Peak density ~ 15 mos postnatal</li>
+<li>Spine density in DLPFC ~ 7 yrs postnatal</li>
+<li>700K synapses/s on average</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/synaptic-density-infant.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-42" title="@Huttenlocher2009-ez"><img data-src="../include/img/synaptic-density-infant.jpg" alt="Huttenlocher (2009)"></a></p>
+<figcaption><span class="citation" data-cites="Huttenlocher2009-ez">Huttenlocher (<a href="#/references" role="doc-biblioref" onclick="">2009</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="proliferation-pruning" class="slide level2">
+<h2>Proliferation, pruning</h2>
+<ul>
+<li>Early proliferation (synapse formation)</li>
+<li>Later pruning (synapse removal)</li>
+<li>Rates, peaks differ by area</li>
+</ul>
+</section>
+<section id="apoptosis" class="slide level2">
+<h2>Apoptosis</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Programmed cell death</li>
+<li>20-80%, varies by area</li>
+<li>Spinal cord &gt;&gt; cortex</li>
+<li>Quantity of nerve growth factors (NGF) influences</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<iframe data-external="1" src="https://www.youtube.com/embed/ukxNXSPckjQ" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><span class="citation" data-cites="Mr_Riddz_Science2015-bd">(<a href="#/references" role="doc-biblioref" onclick="">Mr Riddz Science, 2015</a>)</span></p>
+</div></div>
+</section>
+<section id="section-16" class="slide level2 scrollable">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2719/MediaObjects/41583_2009_Article_BFnrn2719_Fig3_HTML.jpg?as=webp" class="lightbox" data-gallery="quarto-lightbox-gallery-43" title="@Rakic2009-jk Figure 3"><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2719/MediaObjects/41583_2009_Article_BFnrn2719_Fig3_HTML.jpg?as=webp" class="quarto-figure quarto-figure-center" style="width:75.0%" alt="Rakic (2009) Figure 3"></a></p>
+</figure>
+</div>
+<figcaption><span class="citation" data-cites="Rakic2009-jk">Rakic (<a href="#/references" role="doc-biblioref" onclick="">2009</a>)</span> Figure 3</figcaption>
+</figure>
+</div>
+</section>
+<section id="synaptic-rearrangement" class="slide level2">
+<h2>Synaptic rearrangement</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/huttenlocher.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-44" title="Huttenlocher"><img data-src="../include/img/huttenlocher.jpg" class="quarto-figure quarto-figure-center" style="width:75.0%" alt="Huttenlocher"></a></p>
+</figure>
+</div>
+<figcaption>Huttenlocher</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Progressive phase: growth rate &gt;&gt; loss rate</li>
+<li>Regressive phase: growth rate &lt;&lt; loss rate</li>
+</ul>
+</div></div>
+</section>
+<section id="myelination" class="slide level2">
+<h2>Myelination</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Neonatal brain largely unmyelinated</li>
+<li>Gradual myelination, peaks in mid-20s</li>
+<li>Non-uniform pattern
+<ul>
+<li>Spinal cord before brain</li>
+<li>Sensory before motor</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/baumann-fig-06.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-45" title="@Baumann2001-nw Figure 6"><img data-src="../include/img/baumann-fig-06.jpeg" alt="Baumann &amp; Pham-Dinh (2001) Figure 6"></a></p>
+<figcaption><span class="citation" data-cites="Baumann2001-nw">Baumann &amp; Pham-Dinh (<a href="#/references" role="doc-biblioref" onclick="">2001</a>)</span> Figure 6<a href="#/footnotes" class="footnote-ref" id="fnref17" role="doc-noteref" data-footnote-href="#/fn17" onclick=""><sup>17</sup></a></figcaption>
+</figure>
+</div>
+</div></div>
+<aside></aside></section>
+<section id="structural-development" class="slide level2 scrollable">
+<h2>Structural development</h2>
+<div id="fig-knickmeyer" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-knickmeyer-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="http://www.jneurosci.org/content/jneuro/28/47/12176/F2.large.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-46" title="Figure&nbsp;18: @Knickmeyer2008-vl"><img data-src="http://www.jneurosci.org/content/jneuro/28/47/12176/F2.large.jpg" style="width:60.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-knickmeyer-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;18: <span class="citation" data-cites="Knickmeyer2008-vl">Knickmeyer et al. (<a href="#/references" role="doc-biblioref" onclick="">2008</a>)</span>
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="structural-development-1" class="slide level2">
+<h2>Structural development</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="synaptogenesis-1">Synaptogenesis</h4>
+<p><a href="../include/img/huttenlocher.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-47"><img data-src="../include/img/huttenlocher.jpg"></a></p>
+</div><div class="column" style="width:50%;">
+<h4 id="myelination-1">Myelination</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.pnas.org/cms/10.1073/pnas.1009073107/asset/ff27c87e-3ed0-4a67-96a2-19ec4ea4c327/assets/graphic/pnas.1009073107fig01.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-48" title="@Hagmann02112010 Figure 1"><img data-src="https://www.pnas.org/cms/10.1073/pnas.1009073107/asset/ff27c87e-3ed0-4a67-96a2-19ec4ea4c327/assets/graphic/pnas.1009073107fig01.jpeg" alt="Hagmann et al. (2010) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="Hagmann02112010">Hagmann et al. (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span> Figure 1</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="networks-in-the-brain" class="slide level2">
+<h2>Networks in the brain</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Some more susceptible to lesioning/injury.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.frontiersin.org/files/Articles/72413/fnhum-08-00051-HTML/image_m/fnhum-08-00051-g004.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-49" title="@irimia_2014 Figure 4"><img data-src="https://www.frontiersin.org/files/Articles/72413/fnhum-08-00051-HTML/image_m/fnhum-08-00051-g004.jpg" alt="Irimia &amp; Van Horn (2014) Figure 4"></a></p>
+<figcaption><span class="citation" data-cites="irimia_2014">Irimia &amp; Van Horn (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span> Figure 4<a href="#/footnotes" class="footnote-ref" id="fnref18" role="doc-noteref" data-footnote-href="#/fn18" onclick=""><sup>18</sup></a></figcaption>
+</figure>
+</div>
+</div></div>
+<aside></aside></section>
+<section id="develop-across-age-with-differing-profiles" class="slide level2">
+<h2>Develop (across) age with differing profiles:</h2>
+<blockquote>
+<p>Our results revealed three distinguishable profiles, whose expression strengthened with increasing age and which characterized developmental differences in connectivity within the ten systems, between networks thought to underlie cognitive control and non-control systems, and among the non-control networks.</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Petrican2017-re">Petrican, Taylor, &amp; Grady (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span></p>
+</section>
+<section id="sensoryattention-networks" class="slide level2 scrollable">
+<h2>Sensory/Attention Networks</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S1053811917307735-gr2a_lrg.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-50" title="@Petrican2017-re Figure 2a"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S1053811917307735-gr2a_lrg.jpg" alt="Petrican et al. (2017) Figure 2a"></a></p>
+<figcaption><span class="citation" data-cites="Petrican2017-re">Petrican et al. (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span> Figure 2a</figcaption>
+</figure>
+</div>
+</section>
+<section id="control-networks" class="slide level2">
+<h2>“Control” networks</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S1053811917307735-gr2b_lrg.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-51" title="@Petrican2017-re Figure 2b"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S1053811917307735-gr2b_lrg.jpg" alt="Petrican et al. (2017) Figure 2b"></a></p>
+<figcaption><span class="citation" data-cites="Petrican2017-re">Petrican et al. (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span> Figure 2b</figcaption>
+</figure>
+</div>
+</section>
+<section id="non-control-networks" class="slide level2 scrollable">
+<h2>Non-“control” networks</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S1053811917307735-gr2c_lrg.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-52" title="@Petrican2017-re Figure 2c"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S1053811917307735-gr2c_lrg.jpg" alt="Petrican et al. (2017) Figure 2c"></a></p>
+<figcaption><span class="citation" data-cites="Petrican2017-re">Petrican et al. (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span> Figure 2c</figcaption>
+</figure>
+</div>
+</section>
+<section id="developmental-connectomics" class="slide level2">
+<h2>Developmental connectomics</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/cao-2017.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-53" title="@Cao2017-bl"><img data-src="../include/img/cao-2017.jpg" alt="Cao, Huang, &amp; He (2017)"></a></p>
+<figcaption><span class="citation" data-cites="Cao2017-bl">Cao et al. (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span><a href="#/footnotes" class="footnote-ref" id="fnref19" role="doc-noteref" data-footnote-href="#/fn19" onclick=""><sup>19</sup></a></figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="myelination-changes-network-properties" class="slide level2 scrollable">
+<h2>Myelination changes “network” properties</h2>
+<div id="fig-hagmann-fig-02" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-hagmann-fig-02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../include/img/hagmann-fig-02.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-54" title="Figure&nbsp;19: @Hagmann02112010 Figure 2"><img data-src="../include/img/hagmann-fig-02.webp"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hagmann-fig-02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;19: <span class="citation" data-cites="Hagmann02112010">Hagmann et al. (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span> Figure 2<a href="#/footnotes" class="footnote-ref" id="fnref20" role="doc-noteref" data-footnote-href="#/fn20" onclick=""><sup>20</sup></a>
+</figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="cortical-thickness-changes" class="slide level2">
+<h2>Cortical thickness changes</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Due to synaptic rearrangment, myelination <span class="citation" data-cites="Gogtay2004-bq">(<a href="#/references" role="doc-biblioref" onclick="">Gogtay et al., 2004</a>)</span></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="http://www.jneurosci.org/content/jneuro/28/14/3586/F1.large.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-55" title="@Shaw2008-dq Figure 1"><img data-src="http://www.jneurosci.org/content/jneuro/28/14/3586/F1.large.jpg" style="width:75.0%" alt="Shaw et al. (2008) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="Shaw2008-dq">Shaw et al. (<a href="#/references" role="doc-biblioref" onclick="">2008</a>)</span> Figure 1</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="section-17" class="slide level2 scrollable">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="http://www.jneurosci.org/content/jneuro/28/14/3586/F2.large.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-56" title="@Shaw2008-dq Figure 2"><img data-src="http://www.jneurosci.org/content/jneuro/28/14/3586/F2.large.jpg" alt="Shaw et al. (2008) Figure 2"></a></p>
+<figcaption><span class="citation" data-cites="Shaw2008-dq">Shaw et al. (<a href="#/references" role="doc-biblioref" onclick="">2008</a>)</span> Figure 2</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="http://www.jneurosci.org/content/jneuro/28/14/3586/F3.large.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-57" title="@Shaw2008-dq Figure 3"><img data-src="http://www.jneurosci.org/content/jneuro/28/14/3586/F3.large.jpg" alt="Shaw et al. (2008) Figure 3"></a></p>
+<figcaption><span class="citation" data-cites="Shaw2008-dq">Shaw et al. (<a href="#/references" role="doc-biblioref" onclick="">2008</a>)</span> Figure 3</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="section-18" class="slide level2 scrollable">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="http://www.jneurosci.org/content/jneuro/28/14/3586/F4.large.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-58" title="@Shaw2008-dq Figure 4"><img data-src="http://www.jneurosci.org/content/jneuro/28/14/3586/F4.large.jpg" style="width:50.0%" alt="Shaw et al. (2008) Figure 4"></a></p>
+<figcaption><span class="citation" data-cites="Shaw2008-dq">Shaw et al. (<a href="#/references" role="doc-biblioref" onclick="">2008</a>)</span> Figure 4</figcaption>
+</figure>
+</div>
+<!-- ## Video depictions -->
+<!-- :::: {.columns} -->
+<!-- ::: {.column width=50%} -->
+<!-- #### Left hemisphere -->
+<!-- <video width="320" height="240" controls> -->
+<!--   <source src="../include/mov/02680Movie1.mp4" type="video/mp4"> -->
+<!-- Your browser does not support the video tag. -->
+<!-- </video> -->
+<!-- ::: -->
+<!-- ::: {.column width=50%} -->
+<!-- #### Right hemisphere -->
+<!-- <video width="320" height="240" controls> -->
+<!--   <source src="../include/mov/02680Movie2.mp4" type="video/mp4"> -->
+<!-- Your browser does not support the video tag. -->
+<!-- </video> -->
+<!-- ::: -->
+<!-- :::: -->
+<!-- ## {.scrollable} -->
+<!-- :::: {.columns} -->
+<!-- ::: {.column width=50%} -->
+<!-- #### Superior -->
+<!-- <video width="320" height="240" controls> -->
+<!--   <source src="../include/mov/02680Movie3.mp4" type="video/mp4"> -->
+<!-- Your browser does not support the video tag. -->
+<!-- </video> -->
+<!-- ::: -->
+<!-- ::: {.column width=50%} -->
+<!-- #### Inferior -->
+<!-- <video width="320" height="240" controls> -->
+<!--   <source src="../include/mov/02680Movie4.mp4" type="video/mp4"> -->
+<!-- Your browser does not support the video tag. -->
+<!-- </video> -->
+<!-- ::: -->
+<!-- :::: -->
+</section>
+<section id="changes-in-brain-energetics-glucose-utilization" class="slide level2">
+<h2>Changes in brain energetics (glucose utilization)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.pnas.org/cms/10.1073/pnas.1323099111/asset/36abb8b8-6e1f-4a61-b5db-718340542d99/assets/graphic/pnas.1323099111fig01.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-59" title="@Kuzawa2014-qd Figure 1"><img data-src="https://www.pnas.org/cms/10.1073/pnas.1323099111/asset/36abb8b8-6e1f-4a61-b5db-718340542d99/assets/graphic/pnas.1323099111fig01.jpeg" alt="Kuzawa et al. (2014) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="Kuzawa2014-qd">Kuzawa et al. (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span> Figure 1</figcaption>
+</figure>
+</div>
+</section>
+<section id="gene-expression-across-development" class="slide level2">
+<h2>Gene expression across development</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature10523/MediaObjects/41586_2011_Article_BFnature10523_Fig5_HTML.jpg?as=webp" class="lightbox" data-gallery="quarto-lightbox-gallery-60" title="@Kang2011-ex Figure 5"><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature10523/MediaObjects/41586_2011_Article_BFnature10523_Fig5_HTML.jpg?as=webp" alt="Kang et al. (2011) Figure 5"></a></p>
+<figcaption><span class="citation" data-cites="Kang2011-ex">Kang et al. (<a href="#/references" role="doc-biblioref" onclick="">2011</a>)</span> Figure 5<a href="#/footnotes" class="footnote-ref" id="fnref21" role="doc-noteref" data-footnote-href="#/fn21" onclick=""><sup>21</sup></a></figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="summary-of-prenatal-milestones" class="slide level2">
+<h2>Summary of prenatal milestones</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Neuro- and gliogenesis</li>
+<li>Migration</li>
+<li>Synaptogenesis begins</li>
+<li>Differentiation</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Apoptosis</li>
+<li>Myelination begins</li>
+<li>Infant gene expression ≠ Adult</li>
+</ul>
+</div></div>
+</section>
+<section id="summary-of-postnatal-milestones" class="slide level2">
+<h2>Summary of postnatal milestones</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Synaptogenesis</li>
+<li>Cortical expansion, activity-dependent change</li>
+<li>Then cubic, quadratic, or linear declines in cortical thickness</li>
+<li>Myelination</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Connectivity changes (esp within networks)</li>
+<li>Prolonged period of postnatal/pre-reproductive development <span class="citation" data-cites="konner_evolution_2011">(<a href="#/references" role="doc-biblioref" onclick="">Konner, 2011</a>)</span></li>
+</ul>
+</div></div>
+</section>
+<section id="how-brain-development-clarifies-anatomical-structure" class="slide level2">
+<h2>How brain development clarifies anatomical structure</h2>
+</section>
+<section id="weeks" class="slide level2">
+<h2>3-4 weeks</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/swanson-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-61" title="@swanson2012brain"><img data-src="../include/img/swanson-1.jpg" alt="Swanson (2012)"></a></p>
+<figcaption><span class="citation" data-cites="swanson2012brain">Swanson (<a href="#/references" role="doc-biblioref" onclick="">2012</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="weeks-1" class="slide level2">
+<h2>4 weeks</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/4/4c/4_week_embryo_brain.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-62" title="https://upload.wikimedia.org/wikipedia/commons/4/4c/4_week_embryo_brain.jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/4/4c/4_week_embryo_brain.jpg" alt="https://upload.wikimedia.org/wikipedia/commons/4/4c/4_week_embryo_brain.jpg"></a></p>
+<figcaption>https://upload.wikimedia.org/wikipedia/commons/4/4c/4_week_embryo_brain.jpg</figcaption>
+</figure>
+</div>
+</section>
+<section id="weeks-2" class="slide level2">
+<h2>~4 weeks</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/swanson-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-63" title="@swanson2012brain"><img data-src="../include/img/swanson-2.jpg" alt="Swanson (2012)"></a></p>
+<figcaption><span class="citation" data-cites="swanson2012brain">Swanson (<a href="#/references" role="doc-biblioref" onclick="">2012</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="weeks-3" class="slide level2">
+<h2>6 weeks</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/6_week_human_embryo_nervous_system.svg/500px-6_week_human_embryo_nervous_system.svg.png" class="lightbox" data-gallery="quarto-lightbox-gallery-64" title="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/6_week_human_embryo_nervous_system.svg/500px-6_week_human_embryo_nervous_system.svg.png"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/6_week_human_embryo_nervous_system.svg/500px-6_week_human_embryo_nervous_system.svg.png" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/6_week_human_embryo_nervous_system.svg/500px-6_week_human_embryo_nervous_system.svg.png"></a></p>
+<figcaption>https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/6_week_human_embryo_nervous_system.svg/500px-6_week_human_embryo_nervous_system.svg.png</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/swanson-3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-65" title="@swanson2012brain"><img data-src="../include/img/swanson-3.jpg" alt="Swanson (2012)"></a></p>
+<figcaption><span class="citation" data-cites="swanson2012brain">Swanson (<a href="#/references" role="doc-biblioref" onclick="">2012</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="beyond-6-weeks" class="slide level2">
+<h2>Beyond 6 weeks</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../include/img/swanson-4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-66" title="@swanson2012brain"><img data-src="../include/img/swanson-4.jpg" alt="Swanson (2012)"></a></p>
+<figcaption><span class="citation" data-cites="swanson2012brain">Swanson (<a href="#/references" role="doc-biblioref" onclick="">2012</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="organization-of-the-brain" class="slide level2">
+<h2>Organization of the brain</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 29%">
+<col style="width: 26%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Major division</th>
+<th>Ventricular Landmark</th>
+<th>Embryonic Division</th>
+<th>Structure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Forebrain</td>
+<td>Lateral</td>
+<td>Telencephalon</td>
+<td>Cerebral cortex</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td>Basal ganglia</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td>Hippocampus, amygdala</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Third</td>
+<td>Diencephalon</td>
+<td>Thalamus</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td>Hypothalamus</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="organization-of-the-brain-1" class="slide level2">
+<h2>Organization of the brain</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 29%">
+<col style="width: 26%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Major division</th>
+<th>Ventricular Landmark</th>
+<th>Embryonic Division</th>
+<th>Structure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Midbrain</td>
+<td>Cerebral Aqueduct</td>
+<td>Mesencephalon</td>
+<td>Tectum, tegmentum</td>
+</tr>
+<tr class="even">
+<td>Hindbrain</td>
+<td>4th</td>
+<td>Metencephalon</td>
+<td>Cerebellum, pons</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>–</td>
+<td>Mylencephalon</td>
+<td>Medulla oblongata</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="from-structural-development-to-functional-development" class="slide level2 scrollable">
+<h2>From structural development to functional development</h2>
+<div id="fig-johnson-2001-fig-03" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-johnson-2001-fig-03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2F35081509/MediaObjects/41583_2001_Article_BF35081509_Fig3_HTML.gif?as=webp" class="lightbox" data-gallery="quarto-lightbox-gallery-67" title="Figure&nbsp;20: @Johnson2001-yy Figure 3"><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2F35081509/MediaObjects/41583_2001_Article_BF35081509_Fig3_HTML.gif?as=webp"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-johnson-2001-fig-03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;20: <span class="citation" data-cites="Johnson2001-yy">M. H. Johnson (<a href="#/references" role="doc-biblioref" onclick="">2001</a>)</span> Figure 3<a href="#/footnotes" class="footnote-ref" id="fnref22" role="doc-noteref" data-footnote-href="#/fn22" onclick=""><sup>22</sup></a>
+</figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="different-hardware-different-computations" class="slide level2">
+<h2>Different hardware = different computations?</h2>
+<blockquote>
+<p>Researchers routinely use motor behaviors (e.g., eye, face, and limb movements) to index cognition in the human neonate.</p>
+</blockquote>
+<blockquote>
+<p>When developmental researchers use infant movements to index cognition, they often assume that the cortex is involved in producing the behavior.</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Blumberg2023-ce">Blumberg &amp; Adolph (<a href="#/references" role="doc-biblioref" onclick="">2023a</a>)</span></p>
+</section>
+<section id="blumberg2023-ce" class="slide level2">
+<h2><span class="citation" data-cites="Blumberg2023-ce">Blumberg &amp; Adolph (<a href="#/references" role="doc-biblioref" onclick="">2023a</a>)</span></h2>
+<blockquote>
+<p>However, cortical control of movement is absent at birth, emerging gradually over the first several postnatal months and beyond; before cortical outflow emerges, brainstem networks produce complex motor behavior.</p>
+</blockquote>
+<blockquote>
+<p>Thus, cortical control of the motor behaviors used to infer cognition in neonates is not neurobiologically plausible.</p>
+</blockquote>
+</section>
+<section id="blumberg2023-ce-1" class="slide level2">
+<h2><span class="citation" data-cites="Blumberg2023-ce">Blumberg &amp; Adolph (<a href="#/references" role="doc-biblioref" onclick="">2023a</a>)</span></h2>
+<blockquote>
+<p>Researchers should be cautious when making claims about developmental continuity between newborn and adult cognition (i.e., ‘core knowledge’) and its supporting neural architecture.</p>
+</blockquote>
+</section>
+<section id="section-19" class="slide level2 scrollable">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S136466132200331X-gr1_lrg.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-68" title="@Blumberg2023-fs Figure 1"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S136466132200331X-gr1_lrg.jpg" alt="Blumberg &amp; Adolph (2023b) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="Blumberg2023-fs">Blumberg &amp; Adolph (<a href="#/references" role="doc-biblioref" onclick="">2023b</a>)</span> Figure 1<a href="#/footnotes" class="footnote-ref" id="fnref23" role="doc-noteref" data-footnote-href="#/fn23" onclick=""><sup>23</sup></a></figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="section-20" class="slide level2 scrollable">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S136466132200331X-b1_lrg.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-69" title="@Blumberg2023-fs Figure 2"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S136466132200331X-b1_lrg.jpg" alt="Blumberg &amp; Adolph (2023b) Figure 2"></a></p>
+<figcaption><span class="citation" data-cites="Blumberg2023-fs">Blumberg &amp; Adolph (<a href="#/references" role="doc-biblioref" onclick="">2023b</a>)</span> Figure 2<a href="#/footnotes" class="footnote-ref" id="fnref24" role="doc-noteref" data-footnote-href="#/fn24" onclick=""><sup>24</sup></a></figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="blumberg2023-ce-2" class="slide level2">
+<h2><span class="citation" data-cites="Blumberg2023-ce">Blumberg &amp; Adolph (<a href="#/references" role="doc-biblioref" onclick="">2023a</a>)</span></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S1364661323001250-b1_lrg.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-70" title="@Blumberg2023-ce Figure 1"><img data-src="https://ars.els-cdn.com/content/image/1-s2.0-S1364661323001250-b1_lrg.jpg" alt="Blumberg &amp; Adolph (2023a) Figure 1"></a></p>
+<figcaption><span class="citation" data-cites="Blumberg2023-ce">Blumberg &amp; Adolph (<a href="#/references" role="doc-biblioref" onclick="">2023a</a>)</span> Figure 1<a href="#/footnotes" class="footnote-ref" id="fnref25" role="doc-noteref" data-footnote-href="#/fn25" onclick=""><sup>25</sup></a></figcaption>
+</figure>
+</div>
+<aside></aside></section>
+<section id="blumberg2023-ce-3" class="slide level2">
+<h2><span class="citation" data-cites="Blumberg2023-ce">Blumberg &amp; Adolph (<a href="#/references" role="doc-biblioref" onclick="">2023a</a>)</span></h2>
+<blockquote>
+<p>With regard to the developmental continuity of core knowledge, Pinker famously argued that ‘…the null hypothesis in developmental psychology is that the cognitive mechanisms of children and adults are identical; hence it is a hypothesis that should not be rejected until the data leave us no other choice’ [10]…</p>
+</blockquote>
+</section>
+<section id="blumberg2023-ce-4" class="slide level2">
+<h2><span class="citation" data-cites="Blumberg2023-ce">Blumberg &amp; Adolph (<a href="#/references" role="doc-biblioref" onclick="">2023a</a>)</span></h2>
+<blockquote>
+<p>Regardless, given developmental discontinuities in the brain mechanisms upon which the expression of infant cognition relies, why assume developmental continuity between infant and adult minds? The available evidence leaves us no choice but to reject Pinker’s null hypothesis.</p>
+</blockquote>
+</section></section>
+<section>
+<section id="wrap-up" class="title-slide slide level1 center">
+<h1>Wrap-up</h1>
+
+</section>
+<section id="main-points" class="slide level2">
+<h2>Main points</h2>
+</section>
+<section id="next-time" class="slide level2">
+<h2>Next time</h2>
+<ul>
+<li>Cellular neuroscience</li>
+</ul>
+</section></section>
+<section>
+<section id="resources" class="title-slide slide level1 center">
+<h1>Resources</h1>
+
+</section>
+<section id="about" class="slide level2">
+<h2>About</h2>
+<p>This talk was produced using <a href="https://quarto.org">Quarto</a>, using the <a href="https://posit.co/products/open-source/rstudio/">RStudio</a> Integrated Development Environment (IDE), version 2026.1.0.392.</p>
+<p>The source files are in R and R Markdown, then rendered to HTML using the <a href="https://revealjs.com">revealJS</a> framework. The HTML slides are hosted in a <a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring">GitHub repo</a> and served by GitHub pages: <a href="https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/" class="uri">https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/</a></p>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Acapellascience2017-yt" class="csl-entry" role="listitem">
+acapellascience. (2017, September). <span>Evo-Devo</span> (despacito biology parody) | a capella science. Youtube. Retrieved from <a href="https://www.youtube.com/watch?v=ydqReeTV_vk">https://www.youtube.com/watch?v=ydqReeTV_vk</a>
+</div>
+<div id="ref-arendt_nerve_2016" class="csl-entry" role="listitem">
+Arendt, D., Tosches, M. A., &amp; Marlow, H. (2016). From nerve net to nerve ring, nerve cord and brain — evolution of the nervous system. <em>Nature Reviews Neuroscience</em>, <em>17</em>(1), 61–72. <a href="https://doi.org/10.1038/nrn.2015.15">https://doi.org/10.1038/nrn.2015.15</a>
+</div>
+<div id="ref-Baumann2001-nw" class="csl-entry" role="listitem">
+Baumann, N., &amp; Pham-Dinh, D. (2001). Biology of oligodendrocyte and myelin in the mammalian central nervous system. <em>Physiological Reviews</em>, <em>81</em>(2), 871–927. <a href="https://doi.org/10.1152/physrev.2001.81.2.871">https://doi.org/10.1152/physrev.2001.81.2.871</a>
+</div>
+<div id="ref-Blumberg2023-ce" class="csl-entry" role="listitem">
+Blumberg, M. S., &amp; Adolph, K. E. (2023a). Infant action and cognition: <span>W</span>hat’s at stake? <em>Trends in Cognitive Sciences</em>, <em>27</em>(8), 696–698. <a href="https://doi.org/10.1016/j.tics.2023.05.008">https://doi.org/10.1016/j.tics.2023.05.008</a>
+</div>
+<div id="ref-Blumberg2023-fs" class="csl-entry" role="listitem">
+Blumberg, M. S., &amp; Adolph, K. E. (2023b). Protracted development of motor cortex constrains rich interpretations of infant cognition. <em>Trends in Cognitive Sciences</em>, <em>27</em>(3), 233–245. <a href="https://doi.org/10.1016/j.tics.2022.12.014">https://doi.org/10.1016/j.tics.2022.12.014</a>
+</div>
+<div id="ref-Cao2017-bl" class="csl-entry" role="listitem">
+Cao, M., Huang, H., &amp; He, Y. (2017). Developmental connectomics from infancy through early childhood. <em>Trends in Neuroscience</em>, <em>40</em>(8), 494–506. <a href="https://doi.org/10.1016/j.tins.2017.06.003">https://doi.org/10.1016/j.tins.2017.06.003</a>
+</div>
+<div id="ref-Chi1977-hm" class="csl-entry" role="listitem">
+Chi, J. G., Dooling, E. C., &amp; Gilles, F. H. (1977). Gyral development of the human brain. <em>Ann. Neurol.</em>, <em>1</em>(1), 86–93. <a href="https://doi.org/10.1002/ana.410010109">https://doi.org/10.1002/ana.410010109</a>
+</div>
+<div id="ref-DeFelipe2002-xz" class="csl-entry" role="listitem">
+DeFelipe, J., Alonso-Nanclares, L., &amp; Arellano, J. I. (2002). Microstructure of the neocortex: Comparative aspects. <em>Journal of Neurocytology</em>, <em>31</em>(3-5), 299–316. <a href="https://doi.org/10.1023/a:1024130211265">https://doi.org/10.1023/a:1024130211265</a>
+</div>
+<div id="ref-Dobzhansky1973" class="csl-entry" role="listitem">
+Dobzhansky, T. (1973). Nothing in biology makes sense except in the light of evolution. <em>The American Biology Teacher</em>, <em>35</em>(3), pp. 125–129. Retrieved from <a href="http://www.jstor.org/stable/4444260">http://www.jstor.org/stable/4444260</a>
+</div>
+<div id="ref-Ernst2015-iz" class="csl-entry" role="listitem">
+Ernst, A., &amp; Frisén, J. (2015). Adult neurogenesis in humans- common and unique traits in mammals. <em>PLoS Biology</em>, <em>13</em>(1), e1002045. <a href="https://doi.org/10.1371/journal.pbio.1002045">https://doi.org/10.1371/journal.pbio.1002045</a>
+</div>
+<div id="ref-Gogtay2004-bq" class="csl-entry" role="listitem">
+Gogtay, N., Giedd, J. N., Lusk, L., Hayashi, K. M., Greenstein, D., Vaituzis, A. C., … Thompson, P. M. (2004). Dynamic mapping of human cortical development during childhood through early adulthood. <em>Proc. Natl. Acad. Sci. U. S. A.</em>, <em>101</em>(21), 8174–8179. <a href="https://doi.org/10.1073/pnas.0402680101">https://doi.org/10.1073/pnas.0402680101</a>
+</div>
+<div id="ref-Gotz2005-yj" class="csl-entry" role="listitem">
+Götz, M., &amp; Huttner, W. B. (2005). The cell biology of neurogenesis. <em>Nat. Rev. Mol. Cell Biol.</em>, <em>6</em>(10), 777–788. <a href="https://doi.org/10.1038/nrm1739">https://doi.org/10.1038/nrm1739</a>
+</div>
+<div id="ref-Haeckel2001-vg" class="csl-entry" role="listitem">
+Haeckel, W. by E. (2001, August 12). Ernst haeckel. Retrieved March 18, 2026, from <a href="https://en.wikipedia.org/wiki/Ernst_Haeckel">https://en.wikipedia.org/wiki/Ernst_Haeckel</a>
+</div>
+<div id="ref-Hagmann02112010" class="csl-entry" role="listitem">
+Hagmann, P., Sporns, O., Madan, N., Cammoun, L., Pienaar, R., Wedeen, V. J., … Grant, P. E. (2010). White matter maturation reshapes structural connectivity in the late developing human brain. <em>Proceedings of the National Academy of Sciences</em>, <em>107</em>(44), 19067–19072. <a href="https://doi.org/10.1073/pnas.1009073107">https://doi.org/10.1073/pnas.1009073107</a>
+</div>
+<div id="ref-Herculano-Houzel2012-up" class="csl-entry" role="listitem">
+Herculano-Houzel, S. (2012). The remarkable, yet not extraordinary, human brain as a scaled-up primate brain and its associated cost. <em>Proceedings of the National Academy of Sciences of the United States of America</em>, <em>109 Suppl 1</em>, 10661–10668. <a href="https://doi.org/10.1073/pnas.1201895109">https://doi.org/10.1073/pnas.1201895109</a>
+</div>
+<div id="ref-Herculano-Houzel2016-oy" class="csl-entry" role="listitem">
+Herculano-Houzel, S. (2016). <em>The human advantage: A new understanding of how our brain became remarkable</em>. MIT Press. Retrieved from <a href="https://market.android.com/details?id=book-DMqpCwAAQBAJ">https://market.android.com/details?id=book-DMqpCwAAQBAJ</a>
+</div>
+<div id="ref-Herculano-Houzel2017-gf" class="csl-entry" role="listitem">
+Herculano-Houzel, S. (2017). Numbers of neurons as biological correlates of cognitive capability. <em>Current Opinion in Behavioral Sciences</em>, <em>16</em>(Supplement C), 1–7. <a href="https://doi.org/10.1016/j.cobeha.2017.02.004">https://doi.org/10.1016/j.cobeha.2017.02.004</a>
+</div>
+<div id="ref-hofman_evolution_2014" class="csl-entry" role="listitem">
+Hofman, M. A. (2014). Evolution of the human brain: When bigger is better. <em>Frontiers in Neuroanatomy</em>, <em>8</em>. <a href="https://doi.org/10.3389/fnana.2014.00015">https://doi.org/10.3389/fnana.2014.00015</a>
+</div>
+<div id="ref-Huttenlocher2009-ez" class="csl-entry" role="listitem">
+Huttenlocher, P. R. (2009). <em>Neural plasticity: The effects of environment on the development of the cerebral cortex</em>. Harvard University Press. Retrieved from <a href="https://play.google.com/store/books/details?id=2uhP2CBnaGwC">https://play.google.com/store/books/details?id=2uhP2CBnaGwC</a>
+</div>
+<div id="ref-irimia_2014" class="csl-entry" role="listitem">
+Irimia, A., &amp; Van Horn, J. (2014). Systematic network lesioning reveals the core white matter scaffold of the human brain. <em>Frontiers in Human Neuroscience</em>, <em>8</em>, 51. <a href="https://doi.org/10.3389/fnhum.2014.00051">https://doi.org/10.3389/fnhum.2014.00051</a>
+</div>
+<div id="ref-Jameson2023-jd" class="csl-entry" role="listitem">
+Jameson, C., Boulton, K. A., Silove, N., Nanan, R., &amp; Guastella, A. J. (2023). Ectodermal origins of the skin-brain axis: A novel model for the developing brain, inflammation, and neurodevelopmental conditions. <em>Molecular Psychiatry</em>, <em>28</em>(1), 108–117. <a href="https://doi.org/10.1038/s41380-022-01829-8">https://doi.org/10.1038/s41380-022-01829-8</a>
+</div>
+<div id="ref-johnson2009functional" class="csl-entry" role="listitem">
+Johnson, M. B., Kawasawa, Y. I., Mason, C. E., Krsnik, Ž., Coppola, G., Bogdanović, D., … Šestan, N. (2009). Functional and evolutionary insights into human brain development through global transcriptome analysis. <em>Neuron</em>, <em>62</em>(4), 494–509.
+</div>
+<div id="ref-Johnson2001-yy" class="csl-entry" role="listitem">
+Johnson, M. H. (2001). Functional brain development in humans. <em>Nat. Rev. Neurosci.</em>, <em>2</em>(7), 475–483. <a href="https://doi.org/10.1038/35081509">https://doi.org/10.1038/35081509</a>
+</div>
+<div id="ref-Kang2011-ex" class="csl-entry" role="listitem">
+Kang, H. J., Kawasawa, Y. I., Cheng, F., Zhu, Y., Xu, X., Li, M., … Šestan, N. (2011). Spatio-temporal transcriptome of the human brain. <em>Nature</em>, <em>478</em>(7370), 483–489. <a href="https://doi.org/10.1038/nature10523">https://doi.org/10.1038/nature10523</a>
+</div>
+<div id="ref-Kety1948-ty" class="csl-entry" role="listitem">
+Kety, S. S., &amp; Schmidt, C. F. (1948). <span>T</span>he <span>N</span>itrous <span>OXIDE</span> <span>METHOD</span> <span>FOR</span> <span>THE</span> <span>QUANTITATIVE</span> <span>DETERMINATION</span> <span>OF</span> <span>CEREBRAL</span> <span>BLOOD</span> <span>FLOW</span> <span>IN</span> <span>MAN</span>: <span>THEORY</span>, <span>PROCEDURE</span> <span>AND</span> <span>NORMAL</span> <span>VALUES</span>. <em>The Journal of Clinical Investigation</em>, <em>27</em>(4), 476–483. <a href="https://doi.org/10.1172/JCI101994">https://doi.org/10.1172/JCI101994</a>
+</div>
+<div id="ref-Knickmeyer2008-vl" class="csl-entry" role="listitem">
+Knickmeyer, R. C., Gouttard, S., Kang, C., Evans, D., Wilber, K., Smith, J. K., … Gilmore, J. H. (2008). A structural <span>MRI</span> study of human brain development from birth to 2 years. <em>J. Neurosci.</em>, <em>28</em>(47), 12176–12182. <a href="https://doi.org/10.1523/JNEUROSCI.3479-08.2008">https://doi.org/10.1523/JNEUROSCI.3479-08.2008</a>
+</div>
+<div id="ref-konner_evolution_2011" class="csl-entry" role="listitem">
+Konner, M. (2011). <em>The <span>Evolution</span> of <span>Childhood</span></em>. Belknap Press of Harvard University Press. Retrieved from <a href="http://www.hup.harvard.edu/catalog.php?isbn=9780674062016">http://www.hup.harvard.edu/catalog.php?isbn=9780674062016</a>
+</div>
+<div id="ref-Kuzawa2014-qd" class="csl-entry" role="listitem">
+Kuzawa, C. W., Chugani, H. T., Grossman, L. I., Lipovich, L., Muzik, O., Hof, P. R., … Lange, N. (2014). Metabolic costs and evolutionary implications of human brain development. <em>Proc. Natl. Acad. Sci. U. S. A.</em>, <em>111</em>(36), 13010–13015. <a href="https://doi.org/10.1073/pnas.1323099111">https://doi.org/10.1073/pnas.1323099111</a>
+</div>
+<div id="ref-Marner2003-qu" class="csl-entry" role="listitem">
+Marner, L., Nyengaard, J. R., Tang, Y., &amp; Pakkenberg, B. (2003). Marked loss of myelinated nerve fibers in the human brain with age. <em>The Journal of Comparative Neurology</em>, <em>462</em>(2), 144–152. <a href="https://doi.org/10.1002/cne.10714">https://doi.org/10.1002/cne.10714</a>
+</div>
+<div id="ref-Melchionna2025-cg" class="csl-entry" role="listitem">
+Melchionna, M., Castiglione, S., Girardi, G., Profico, A., Mondanaro, A., Sansalone, G., … Raia, P. (2025). Cortical areas associated to higher cognition drove primate brain evolution. <em>Communications Biology</em>, <em>8</em>, 80. <a href="https://doi.org/10.1038/s42003-025-07505-1">https://doi.org/10.1038/s42003-025-07505-1</a>
+</div>
+<div id="ref-Miller2021-lb" class="csl-entry" role="listitem">
+Miller, J. D., Scott, E. C., Ackerman, M. S., Laspra, B., Branch, G., Polino, C., &amp; Huffaker, J. S. (2021). Public acceptance of evolution in the united states, 1985-2020. <em>Public Understanding of Science</em>, 9636625211035919. <a href="https://doi.org/10.1177/09636625211035919">https://doi.org/10.1177/09636625211035919</a>
+</div>
+<div id="ref-miller2006public" class="csl-entry" role="listitem">
+Miller, J. D., Scott, E. C., &amp; Okamoto, S. (2006). Public acceptance of evolution. <em>SCIENCE-NEW YORK THEN WASHINGTON-</em>, <em>313</em>(5788), 765. <a href="https://doi.org/10.1126/science.1126746">https://doi.org/10.1126/science.1126746</a>
+</div>
+<div id="ref-Mr_Riddz_Science2015-bd" class="csl-entry" role="listitem">
+Mr Riddz Science. (2015, September). Apoptosis - programmed cell death. Youtube. Retrieved from <a href="https://www.youtube.com/watch?v=ukxNXSPckjQ">https://www.youtube.com/watch?v=ukxNXSPckjQ</a>
+</div>
+<div id="ref-Northcutt2002-jg" class="csl-entry" role="listitem">
+Northcutt, R. G. (2002). Understanding vertebrate brain evolution. <em>Integr. Comp. Biol.</em>, <em>42</em>(4), 743–756. <a href="https://doi.org/10.1093/icb/42.4.743">https://doi.org/10.1093/icb/42.4.743</a>
+</div>
+<div id="ref-Park2009-ic" class="csl-entry" role="listitem">
+Park, S. (2009). <em>Hydra movement</em>. Youtube. Retrieved from <a href="https://www.youtube.com/watch?v=-UI531GMRTM">https://www.youtube.com/watch?v=-UI531GMRTM</a>
+</div>
+<div id="ref-Petrican2017-re" class="csl-entry" role="listitem">
+Petrican, R., Taylor, M. J., &amp; Grady, C. L. (2017). Trajectories of brain system maturation from childhood to older adulthood: Implications for lifespan cognitive functioning. <em>Neuroimage</em>. <a href="https://doi.org/10.1016/j.neuroimage.2017.09.025">https://doi.org/10.1016/j.neuroimage.2017.09.025</a>
+</div>
+<div id="ref-Rakic2009-jk" class="csl-entry" role="listitem">
+Rakic, P. (2009). Evolution of the neocortex: A perspective from developmental biology. <em>Nature Reviews. Neuroscience</em>, <em>10</em>(10), 724–735. <a href="https://doi.org/10.1038/nrn2719">https://doi.org/10.1038/nrn2719</a>
+</div>
+<div id="ref-Shaw2008-dq" class="csl-entry" role="listitem">
+Shaw, P., Kabani, N. J., Lerch, J. P., Eckstrand, K., Lenroot, R., Gogtay, N., … Others. (2008). Neurodevelopmental trajectories of the human cerebral cortex. <em>Journal of Neuroscience</em>, <em>28</em>(14), 3586–3594. <a href="https://doi.org/10.1523/JNEUROSCI.5309-07.2008">https://doi.org/10.1523/JNEUROSCI.5309-07.2008</a>
+</div>
+<div id="ref-Silbereis2016-la" class="csl-entry" role="listitem">
+Silbereis, J. C., Pochareddy, S., Zhu, Y., Li, M., &amp; Sestan, N. (2016). The cellular and molecular landscapes of the developing human central nervous system. <em>Neuron</em>, <em>89</em>(2), 248–268. <a href="https://doi.org/10.1016/j.neuron.2015.12.008">https://doi.org/10.1016/j.neuron.2015.12.008</a>
+</div>
+<div id="ref-swanson2012brain" class="csl-entry" role="listitem">
+Swanson, L. W. (2012). <em>Brain architecture: <span>U</span>nderstanding the basic plan</em>. Oxford University Press.
+</div>
+<div id="ref-Venditti2024-ul" class="csl-entry" role="listitem">
+Venditti, C., Baker, J., &amp; Barton, R. A. (2024). Co-evolutionary dynamics of mammalian brain and body size. <em>Nature Ecology &amp; Evolution</em>, <em>8</em>, 1534–1542. <a href="https://doi.org/10.1038/s41559-024-02451-3">https://doi.org/10.1038/s41559-024-02451-3</a>
+</div>
+<div id="ref-Wrangham2009-vq" class="csl-entry" role="listitem">
+Wrangham, R. (2009). <em>Catching fire: How cooking made us human</em>. Basic Books. Retrieved from <a href="https://market.android.com/details?id=book-ebEOupKz-rMC">https://market.android.com/details?id=book-ebEOupKz-rMC</a>
+</div>
+</div>
+</section></section>
+<section id="footnotes" class="footnotes footnotes-end-of-document smaller scrollable" role="doc-endnotes"><h2>Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>“Figure 1. Public acceptance and rejection of evolution in the United States, 1985–2020. The following question was used in all of the years in this analysis:”For each statement below, please indicate if you think that it is definitely true, probably true, probably false, or definitely false. If you don’t know or aren’t sure, please check the ‘not sure’ box. ‘Human beings, as we know them today, developed from earlier species of animals.’ The number of respondents in each year and the confidence intervals are provided in the Supplemental Material in SI Table 1.”</p></li>
+<li id="fn2"><p>“1874 illustration from Anthropogenie showing”very early”, “somewhat later” and “still later” stages of embryos of fish (F), salamander (A), turtle (T), chick (H), pig (S), cow (R), rabbit (K), and human (M). By Lithograph by J. G. Bach of Leipzig after drawings by Haeckel, from Anthropogenie published by Engelmann - Nick Hopwood. “Pictures of Evolution and Charges of Fraud:: Ernst Haeckel’s Embryological Illustrations”, Isis 97 (2006), 260-301 pdf, Public Domain, https://commons.wikimedia.org/w/index.php?curid=8007834”</p></li>
+<li id="fn3"><p>“Animal phylogeny. A simplified animal phylogenetic tree (showing the evolutionary history of animals), in which lines represent evolutionary diversification. The lengths of the lines are arbitrary, as they do not indicate evolutionary distance. For a brief characterization of the Anthozoa, Bilateria, Ceriantharia, Cnidaria, Ctenophora, Medusozoa and Neuralia, see the glossary. The phylogenetic position of the Ctenophora is not settled, as indicated by a question mark. The Ctenophora image is adapted with permission from Ref. 43, Wiley. The Porifera and Placozoa images are reprinted with permission from Ref. 139 (Nielsen, C. Animal Evolution: Interrelationships of the Living Phyla p31 and p39 (2012)) by the permission of Oxford University Press. The Annelida image is adapted with permission from Ref. 140, Schweizerbart Science Publishers (www.schweizerbart.de).”</p></li>
+<li id="fn4"><p>“Comparison of neurodevelopment in the frog, annelid and sea anemone. The frog Xenopus laevis (part a), the annelid Platynereis dumerilii (part b) and the cnidarian Nematostella vectensis (part c) are depicted in their gastrula-like stages (gastrula, trochophora and planula, respectively; upper panels), intermediate developmental (neurula, metatrochophora and late planula, respectively; middle panels) and juvenile stages (tadpole, nectochaete and polyp, respectively; lower panels). Colours demarcate developmental neurogenic regions, and double-headed arrows show the apical (AP)–blastoporal (BL) axis. All views in parts a–c are lateral. At gastrula stages (upper panels), blastoporal ectodermal tissue (around the closing blastopore; red) and apical pole ectodermal tissue (violet) can be distinguished. At subsequent stages, a large part of the ectoderm — incluing the former apical and blastoporal regions — gives rise to neurogenic tissue. The neurogenic tissue comprises regions of distinct molecular identity (indicated by different colours), which will give rise to different parts of the nervous system. In the frog (part a), the neural plate (violet, red and yellow) comprises future forebrain tissue, as well as medial and lateral neural tube tissue; it is laterally bounded by developing peripheral nervous system components (blue). Similar regions are apparent in the annelid (part b), and these give rise to the brain, medial and lateral nerve cord and peripheral nervous system. As reasoned in this article, these regions also exist in the cnidarian (part c). In the frog and annelid worm, these regions are further subdivided into specific subregions by the activity of molecular organizing signals”</p></li>
+<li id="fn5"><p>“Lateral views of the brains of some mammals to show the evolutionary development of the neocortex (gray). In the hedgehog almost the entire neocortex is occupied by sensory and motor areas. In the prosimian Galago the sensory cortical areas are separated by an area occupied by association cortex (AS). A second area of association cortex is found in front of the motor cortex. In man these anterior and posterior association areas are strongly developed. A, primary auditory cortex; AS, association cortex; Ent, entorhinal cortex; I, insula; M, primary motor cortex; PF, prefrontal cortex; PM, premotor cortex; S, primary somatosensory cortex; V, primary visual cortex. Modified with permission from Nieuwenhuys (1994).”</p></li>
+<li id="fn6"><p>“Large brains appear several times in the mammalian radiation. Example species are illustrated for each major mammalian group. The mammalian radiation is based on the findings of Murphy et al.&nbsp;(18) and Kaas (19). Brain images are from the University of Wisconsin and Michigan State Comparative Mammalian Brain Collections (www.brainmuseum.org).”</p></li>
+<li id="fn7"><p>“Shared nonneuronal scaling rules and structure- and order-specific neuronal scaling rules for mammalian brains. Each point represents the average values for one species (insectivores, blue; rodents, green; primates, red; Scandentia, orange). Arrows point to human data points, circles represent the cerebral cortex, squares represent the cerebellum, and triangles represent the rest of the brain (excluding the olfactory bulb). (A) Clade- and structure-specific scaling of brain structure mass as a function of numbers of neurons. Allometric exponents: cerebral cortex: 1.699 (Glires), 1.598 (insectivores), 1.087 or linear (primates); cerebellum: 1.305 (Glires), 1.028 or linear (insectivores), 0.976 or linear (primates); rest of the brain: 1.568 (Glires), 1.297 (insectivores), 1.198 (or 1.4 when corrected for phylogenetic relatedness in the dataset, primates). (B) Neuronal cell densities scale differently across structures and orders but are always larger in primates than in Glires. Allometric exponents: cerebral cortex: −0.424 (Glires), −0.569 (insectivores), −0.168 (primates); cerebellum: −0.271 (Glires), not significant (insectivores and primates); rest of the brain: −0.467 (Glires), not significant (insectivores), −0.220 (primates). (C) Mass of the cerebral cortex, cerebellum, and rest of the brain varies as a similar function of their respective numbers of nonneuronal cells. Allometric exponents: cerebral cortex: 1.132 (Glires), 1.143 (insectivores), 1.036 (primates); cerebellum: 1.002 (Glires), 1.094 (insectivores), 0.873 (primates); rest of the brain: 1.073 (Glires), 0.926 (insectivores), 1.065 (primates). (D) Average density of nonneuronal cells in each structure does not vary systematically with structure mass across species. Power functions are not plotted so as not to obscure the data points. Allometric exponents are from a study by Herculano-Houzel (20); data are from studies by Herculano-Houzel and her colleagues (22–27).”</p></li>
+<li id="fn8"><p>“Fig. 1: Relative warp analysis (RWA) plot showing the distribution of mammalian endocast diversity…The two meshes to the right (in latero-frontal view) show the relative importance of each landmark (their loadings) on the extreme values of first and on the second Relative Warp (RW) axes, respectively.”</p></li>
+<li id="fn9"><p>“a Evolutionary rate values related to the node correspond to the positive and significant shift. b The phylogenetic tree of mammals. The light blue circle indicates the positive shift in Catarrhine. The light red circles indicate the negative shift pertaining to Ferungulata and Marsupialia. The circle size is proportional to the intensity of rate change. c The phylogenetic tree of the Primates (extracted from the tree in b) shows the location of principal primate clades and representative shapes of their respective endocasts. The color gradient represents the map of the evolutionary changes in shape of the endocast from the mammal tree root, in terms of cortical area expansion (blue) and contraction (red). Multivariate rates of brain evolution of individual species are indicated by the colored dots next to the tree tips in both b and c.&nbsp;Brain endocasts of the different species are not to scale. Silhouettes for Homo, Carlito, Lemur, Bradypus, Macropus, Canis, Panthera, and Capreolus are free for reuse under CC0 1.0 Universal Public Domain Dedication license (https://creativecommons.org/publicdomain/zero/1.0/). Silhouettes for Cebus (credits to Sarah Werning) and Ceratotherium (credits to Jan A. Venter, Herbert H. T. Prins, David A. Balfour and Rob Slotow) are free for reuse under the Attribution 3.0 Unported license (https://creativecommons.org/licenses/by/3.0/). Silhouette for Macaca is free for reuse under the Public Domain Mark 1.0 license (https://creativecommons.org/publicdomain/mark/1.0/).”</p></li>
+<li id="fn10"><p>“Timeline of Key Human Neurodevelopmental Processes and Functional Milestones.”</p></li>
+<li id="fn11"><p>Neurulation</p></li>
+<li id="fn12"><p><em>p</em>ost <em>c</em>onceptual <em>d</em>ays</p></li>
+<li id="fn13"><p>“The ectoderm and neurodevelopmental divergence. This figure describes the evolutionary and developmental skin-brain connection, common molecular factors that underpin this relationship in utero and post-birth, the existing evidence for associations between atopic disease and neurodevelopmental delay, and potential early life markers that could identify neurodevelopmental divergence.”</p></li>
+<li id="fn14"><p>“The lineage trees shown provide a simplified view of the relationship between neuroepithelial cells (NE), radial glial cells (RG) and neurons (N), without (a) and with (b) basal progenitors (BP) as cellular intermediates in the generation of neurons. They also show the types of cell division involved.”</p></li>
+<li id="fn15"><p>“New neurons are indicated in green. (A) Neuroblasts that are generated in the subventricular zone lining the lateral ventricle (LV) in rodents migrate to the OB, a structure crucial for olfaction, where they integrate as interneurons. (B) Neuroblasts are present in the subventricular zone also in humans, and new neurons integrate in the adjacent striatum, which plays an essential role in movement coordination, procedural learning, and memory, as well as motivational and emotional control. New neurons are continuously generated in the DG of the hippocampus—a brain structure essential for memory and mood control—in both rodents and humans (A, B). A limited subpopulation of DG neurons are subject to exchange in rodents (C), whereas the majority turn over in humans (D) [4–6]. The neurons within the turning over population are continuously exchanged. A value of 100% on the y-axis means that all neurons have been replaced since the individual’s birth.”</p></li>
+<li id="fn16"><p>“Fig. 4. A: migration and differentiation of cells of astrocyte and oligodendrocyte lineages, and multifocal pattern of development of glial rows in the fimbria between embryonic day 15 (E15) and postnatal day 60 (P60). (Lower surface, ependyma; upper surface, pia.) There is a relatively small increase in the thickness of the fimbria. The multicellular ventricular layer (small open circles at lower surface at E15 and P0) becomes reduced to a unicellular adult ependyma (triangles on ependymal surface). Cells migrating into the body of the fimbria, and supplemented by division of precursors there, become arranged in progressively longer interfascicular glial rows. The astrocytes (large, pale circles) change from predominantly radial processes to predominantly longitudinal. Oligodendrocytes are represented by small, black, filled contiguous circles. Myelination (not represented) largely occurs between P10 and P60. Axons (not represented) are present from the earliest developmental stage. [From Suzuki and Raisman (596). Copyright 1992, reprinted by permission of Wiley-Liss, Inc., a subsidiary of John Wiley &amp; Sons, Inc.]B: organization of the glial framework of central white matter tracts. Arrangement of radial and longitudinal processes of oligodendrocytes (Og) and astrocytes (As) forming a continuous meshwork of processes intermingled within the axonal tracts in the fimbria. Astrocytes are linked with each other by gap junctions, and also form gap junctions with oligodendrocytes, thus providing an indication for a functional as well as an anatomical functional syncytium. Myelination occurs on an asynchronous mode, with individual oligodendrocytes maturing independently within a cluster of adjacent oligodendrocytes, suggesting an interaction between axon maturation and oligodendrocyte differentiation. [From Raisman (492).]”</p></li>
+<li id="fn17"><p>“Fig. 6. Cycles of myelination in the CNS during development. The width and the length of graphs indicate progression in the intensity of staining corresponding to the density of myelinated fibers; the vertical stripes at the end of the graphs indicate approximate age range of termination of myelination estimated from comparison of the fetal and postnatal tissue with tissue from adults in the third and later decades of life. Adapted from Yakovlev and Lecours (677).”</p></li>
+<li id="fn18"><p>“SIMILARITIES IN GM LESION EFFECTS UPON NETWORK TOPOLOGY AS REVEALED BY PCA. Shown are lateral, medial, dorsal, ventral, anterior and posterior views of each hemisphere for the first three PCs—i.e.&nbsp;PC1 in (A), PC2 in (B) and PC3 in (C)—mapped on the cortex, demonstrating the anatomical similarity pattern associated with the extent to which the removal of different regions affects the network in a similar way. For each PC, color varies from the minimum to the maximum value of the PC factor loadings. PC1 (54% of the variance Σ in the data) exhibits greater hemispheric asymmetry than the following two PCs and covers the entire left parietal lobe and, to a smaller extent, the left temporal lobe. PC2 (26% of Σ) is—by comparison to PC1—highly symmetric, and includes the entire frontal lobe of both hemispheres, whereas PC3 (8% of Σ) is again symmetric and includes the occipital lobes of both hemispheres.”</p></li>
+<li id="fn19"><p>“Hypothetical Models of Brain Connectome Development from Infancy to Early Childhood (A) A hypothetical developmental model of information segregation and integration in the brain networks. (C) A hypothetical developmental model from primary regions to higher-order association regions. (C) A hypothetical developmental model of structural and functional brain connectomes.”</p></li>
+<li id="fn20"><p>“Relationship of network metrics and developmental age. Results shown are for cerebral cortex at two spatial resolutions: (A) n = 66 and (B) n = 241 nodes. For whole-brain data (cortex and deep gray structures) see Fig. S2. Scatter plots show node strength, global efficiency, clustering coefficient, and modularity (left to right). All measures are computed from the weighted SC matrices of individual subjects. Values for clustering coefficient and small-world index are scaled relative to populations of 100 random networks with preserved degree and weight distributions. For R and P values, see Table 1.”</p></li>
+<li id="fn21"><p>“a, Comparison between DCX expression in HIP and the density of DCX-immunopositive cells in the human dentate gyrus36. b, Comparison between transcriptome-based dendrite development trajectory in DFC and Golgi-method-based growth of basal dendrites of layer 3 (L3) and 5 (L5) pyramidal neurons in the human DFC41. c, Comparison between transcriptome-based synapse development trajectory in DFC and density of DFC synapses calculated using electron microscopy42. For b and c, PC1 for gene expression was plotted against age to represent the developmental trajectory of genes associated with dendrite (b) or synapse (c) development. Independent data sets were centred, scaled and plotted on a logarithmic scale. d, PC1 value for the indicated sets of genes (expressed as percentage of maximum) plotted against age to represent general trends and regional differences in several neurodevelopmental processes in NCX, HIP and CBC.”</p></li>
+<li id="fn22"><p>“Three accounts of the neural basis of an advance in behavioural abilities in infants. a | A maturational view in which the neuroanatomical maturation of one region, in this case the dorsolateral prefrontal cortex (DLPC), allows new behavioural abilities to emerge. Specifically, maturation of DLPC has been associated with successful performance in the object retrieval task (Fig. 1a)50. Note that although the task itself involves activity in several regions, it is thought to be maturation of only one of these, the DLPC, that results in changed behaviour. b | An interactive specialization view in which the onset of a new behavioural ability is due to changes in the interactions between several regions that were already partially active. In this hypothetical illustration, it is suggested that changes in the interactions between DLPC, parietal cortex and cerebellum might give rise to successful performance in the object retrieval paradigm. In contrast to the maturational view, it is refinement of the connectivity between regions, rather than within a single region, that is important. According to this view, regions adjust their functionality together to allow new computations. c | A skill-learning model, in which the pattern of activation of cortical regions changes during the acquisition of new skills throughout the lifespan. In the example illustrated there is decreasing activation of DLPC and medial frontal cortex (pre-supplementary motor area), accompanied by increasing activation of more posterior regions (such as intraparietal sulcus), as human adults perform a visuomotor sequence learning task77. It is suggested that similar changes might occur during the acquisition of new skills by infants. These three accounts are not necessarily mutually exclusive.”</p></li>
+<li id="fn23"><p>“Sensory origins of primary motor cortex (M1). (A) Boundaries of primary cortical areas in rats: primary somatosensory cortex (S1, red) and M1 (blue), and primary auditory (A1) and visual (V1) cortex. (B) Enlargements of red and blue regions in (A) show the somatotopic organization of S1 and M1. Adapted, with permission, from [92]. (C) Peri-event histogram showing sensory responsiveness of an individual neuron in the forelimb region of M1 at P20. The neuron’s firing rate is shown in relation to movement onset (vertical broken line) for twitches (red) and wake movements (black). This neuron is representative of all M1 neurons recorded at this age. Neurons fire above baseline (0 on the y-axis) after – not before – movement onset during both sleep and wake, indicative of sensory responding. Adapted, with permission, from [9].”</p></li>
+<li id="fn24"><p>“Protracted development of motor maps in M1. (A) Representative motor maps in rat pups at postnatal day (P) 25 and P30 and in adult rats at P60. Each map was produced using intracortical microstimulation in the forelimb region of M1 in anesthetized animals. The legends indicate the simple (i.e., single joint) and complex (i.e., multijoint) movements evoked at each stimulation site. Rectangles around the maps demarcate identical cortical surface areas. Adapted, with permission, from [17]. (B) Representative motor maps in kittens at P63 and P86 and in adult cats. Each map was produced using intracortical microstimulation in the forelimb region of M1 in anesthetized animals. The legend indicates the single-joint forelimb movements (shoulder, elbow, wrist) and multijoint movements evoked at each stimulation site. Movements of the digits occurred with movements of other joints. Colors denote the threshold electric current for movement production as indicated by the color bar at right. The black lines show the location of the cruciate sulcus. Adapted, with permission, from [24]. Both figure parts are used with permission of the American Physiological Society; permission conveyed through Copyright Clearance, Inc.”</p></li>
+<li id="fn25"><p>“Figure I. Estimating the onset of M1 motor outflow in early human development. Estimated days postconception plotted against event scale for humans, macaques, cats, and rats (data from translatingtime.org). Red-shaded region denotes 95% confidence intervals for human data. Three additional events are shown: birth (vertical bars), estimated onset of cortical delta rhythm (gray circles), and estimated onset of M1 motor outflow based on cortical stimulation studies (gray squares). Based on M1 onset in the non-human species, five possible onsets in humans are represented (arrows a–e). Inset: semi-log replotting of the data shown with four events from the visual system. Abbreviations: dLGN, dorsal lateral geniculate nucleus; SC, superior colliculus; V1, primary visual cortex; VEP, visual evoked potential.”</p></li>
+</ol>
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg" class="slide-logo"></p>
+<div class="footer footer-default">
+<p><a href="https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring">PSY 511.001</a> | © 2025 Rick Gilmore under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+                // default icon
+                link.classList.add("external");
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
+    
+
+</body></html>

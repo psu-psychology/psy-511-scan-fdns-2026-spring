@@ -312,9 +312,9 @@ ex_zz_due <- psy_511_vars |>
   - @hofman_evolution_2014
   - @Blumberg2023-fs
   
-<!-- #### Materials -->
+#### Materials
 
-<!-- - [Notes](resources/evolution.qmd) -->
+- [Slides](slides/wk-09-2026-03-19-evo-devo.qmd) 
 
 #### Assignments
 
