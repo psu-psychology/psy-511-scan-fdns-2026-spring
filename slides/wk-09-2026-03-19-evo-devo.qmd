@@ -13,7 +13,22 @@ format: revealjs
 @Acapellascience2017-yt
 :::
 
+---
+
+::: {#fig-gentle-arms-of-eden}
+<iframe width="1280" height="450" src="https://www.youtube.com/embed/bAGMATHlSK4?si=S3Sjrt_2r9LdwMCt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+@twoodburn2008-cm
+:::
+
 ## Announcements
+
+- *Due*: [Exercise ZZ • Sleep & Circadian Rhythms](../exercises/ex-ZZ.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338)
+- *Assigned*: [Exercise EVO • Evolution](../exercises/ex-EVO.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005262)
+- *Assigned*: [Exercise DEV • Development](../exercises/ex-DEV.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338)
 
 ## Today's topics
 
@@ -22,6 +37,42 @@ format: revealjs
 - Development of the human brain
 
 ## Warm-up
+
+---
+
+### You observe high amplitude, low frequency (delta) wave activity in a sleeping person's EEG. What state are they most likely in?
+
+- A. REM
+- B. NREM (N3)
+- C. Pre-REM
+- D. Awake but meditating
+
+---
+
+### You observe high amplitude, low frequency (delta) wave activity in a sleeping person's EEG. What state are they most likely in?
+
+- ~~A. REM~~
+- **B. NREM (N3)**
+- ~~C. Pre-REM~~
+- ~~D. Awake but meditating~~
+
+---
+
+### Sleep atonia is most likely to be experienced in what sleep stage?
+
+- A. REM
+- B. NREM (N3)
+- C. Pre-REM
+- D. Awake but meditating
+
+---
+
+### Sleep atonia is most likely to be experienced in what sleep stage?
+
+- **A. REM**
+- ~~B. NREM (N3)~~
+- ~~C. Pre-REM~~
+- ~~D. Awake but meditating~~
 
 # Public acceptance of evolution
 
@@ -49,7 +100,7 @@ format: revealjs
     + Fossil dating
 - Geological
     + Where fossils are found relative to one another
-    + How long it takes to form layers
+    + Laminar patterns; How long it takes to form layers
     
 ## Types of evidence
 
@@ -60,11 +111,16 @@ format: revealjs
     
 ## Explanatory power
 
->Nothing in Biology Makes Sense except in the Light of Evolution
-
+:::: {.columns}
+::: {.column width=40%}
+![@Wikipedia-contributors2026-nu^["Mosaic medallion in the floor of the main hall of the Jordan Hall of Science, University of Notre Dame. By SteveMcCluskey - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=25369137."]](https://upload.wikimedia.org/wikipedia/commons/8/80/Dobzhansky_Evolution_Notre_Dame.jpg)
+:::
+::: {.column width=60%}
 >Seen in the light of evolution, biology is, perhaps, intellectually the most satisfying and inspiring science. Without that light, it becomes a pile of sundry facts some of them interesting or curious, but making no meaningful picture as a whole.
 
 -- @Dobzhansky1973
+:::
+::::
 
 ## Why Gilmore thinks the theory so controversial (in the U.S.)
 
@@ -89,6 +145,10 @@ format: revealjs
 -- @Miller2021-lb
 
 # Evolution and development
+
+## Where do we come from?
+
+![Rick Gilmore's family tree](../include/img/gilmore-rick-7-generations.png){#fig-gilmore-family-tree fig-align="center" width="70%"}
 
 ## Ontogenesis and phylogenesis
 
@@ -118,32 +178,6 @@ format: revealjs
 ## {.scrollable}
 
 ![https://www.britannica.com/science/evolution-scientific-theory](https://cdn.britannica.com/98/398-050-BCA23330/scale-events.jpg){#fig-britannica-evolution width="50%"}
-
-## Nervous system architectures
-
-:::: {.columns}
-::: {.column width=50%}
-- Body symmetry
-  + radial
-  + bilateral
-
-:::
-::: {.column width=50%}
-
-::: {#fig-nerve-net-video}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-UI531GMRTM?si=K7s4uS3iiIVWticm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-@Park2009-ic
-:::
-:::
-::::
-
-## Nervous system architectures
-
-- Segmentation
-- Cephalization (concentration of sensory & neural structures in anterior portion of body)
-- Encasement in bone (vertebrates)
-- Centralized vs. distributed function
 
 <!-- --- -->
 
@@ -190,17 +224,58 @@ format: revealjs
       - Ingest
       - Signal
     - Change physiological state
-
-## Evolution of architectures {.scrollable}
+    
+## Nervous system architectures
 
 :::: {.columns}
 ::: {.column width=50%}
+- Single cells communicate via chemical diffusion
 - Neurons and nervous systems 520-570 M years old
+- Multi-cellular organisms with cells specialized for point-to-point communication
+:::
+::: {.column width=50%}
+![https://www.britannica.com/science/evolution-scientific-theory](https://cdn.britannica.com/98/398-050-BCA23330/scale-events.jpg){width="50%"}
+:::
+::::
+    
+## Nervous system architectures
+
+:::: {.columns}
+::: {.column width=50%}
+- Body symmetry
+  + radial
+  + bilateral
+- Body $\leftrightarrow$ nervous system symmetry
 :::
 ::: {.column width=50%}
 ![@arendt_nerve_2016 Figure 1^["Animal phylogeny. A simplified animal phylogenetic tree (showing the evolutionary history of animals), in which lines represent evolutionary diversification. The lengths of the lines are arbitrary, as they do not indicate evolutionary distance. For a brief characterization of the Anthozoa, Bilateria, Ceriantharia, Cnidaria, Ctenophora, Medusozoa and Neuralia, see the glossary. The phylogenetic position of the Ctenophora is not settled, as indicated by a question mark. The Ctenophora image is adapted with permission from Ref. 43, Wiley. The Porifera and Placozoa images are reprinted with permission from Ref. 139 (Nielsen, C. Animal Evolution: Interrelationships of the Living Phyla p31 and p39 (2012)) by the permission of Oxford University Press. The Annelida image is adapted with permission from Ref. 140, Schweizerbart Science Publishers (www.schweizerbart.de)."]](../include/img/nrn.2015.15-f1.jpg){#fig-arendt-2016-fig01}
 :::
 ::::
+
+## Example: Hydra
+
+:::: {.columns}
+::: {.column width=50%}
+- Radially symmetric bodies often non-centralized nervous systems
+  - Neural net
+- Bilaterality
+  - Simplifies steering?
+  - Remember [Braitenberg's Vehicles](wk-03-2026-01-29-action.qmd#/but-simple-circuits)?
+:::
+::: {.column width=50%}
+::: {#fig-nerve-net-video}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-UI531GMRTM?si=K7s4uS3iiIVWticm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+@Park2009-ic
+:::
+:::
+::::
+
+## Nervous system architectures
+
+- Segmentation
+- Cephalization (concentration of sensory & neural structures in anterior portion of body)
+- Encasement in bone (vertebrates)
 
 ## {.scrollable}
 
@@ -261,10 +336,17 @@ format: revealjs
 :::
 ::::
 
-## Take homes
+## Old story
 
-- (log) Brain sizes scale with (log) body size
-- Brain sizes (more or less) scale with animal class
+:::: {.columns}
+::: {.column width=50%}
+- (log) brain mass scales with (log) body mass
+- Brain masses (more or less) scale with animal class
+:::
+::: {.column width=50%}
+![Figure 2 from @Northcutt2002-jg](../include/img/northcutt-2002-f2.gif){#fig-northcutt-fig02}
+:::
+::::
 
 ## Old story
 
@@ -275,7 +357,7 @@ format: revealjs
 - Humans have larger cerebral cortical gray + white matter than comparable mammals
 :::
 ::: {.column width=50%}
-![Figure 2 from @Northcutt2002-jg](../include/img/northcutt-2002-f2.gif){#fig-northcutt-fig02}
+![Figure 2 from @Northcutt2002-jg](../include/img/northcutt-2002-f2.gif)
 :::
 ::::
 
@@ -313,20 +395,20 @@ format: revealjs
   - more cortical neurons
     - but not larger neurons
     - not more neurons in cerebellum
-- Human brain just scaled up (non-ape) primate brain
+- Human brain scaled up (non-ape) primate brain
 :::
 ::: {.column width=50%}
-![@Herculano-Houzel2016-oy](https://i.thriftbooks.com/api/imagehandler/m/265B2E0B5A49FB55292E7E064107E17737EE8DA6.jpeg)
+![@Herculano-Houzel2016-oy](https://i.thriftbooks.com/api/imagehandler/m/265B2E0B5A49FB55292E7E064107E17737EE8DA6.jpeg){#fig-herculano-houtzel-2016}
 :::
 ::::
 
 ## {.scrollable}
 
-![@Herculano-Houzel2012-up Figure 1^["Large brains appear several times in the mammalian radiation. Example species are illustrated for each major mammalian group. The mammalian radiation is based on the findings of Murphy et al. (18) and Kaas (19). Brain images are from the University of Wisconsin and Michigan State Comparative Mammalian Brain Collections (www.brainmuseum.org)."]](../include/img/herculano-houtzel-2012-fig-01.webp)
+![@Herculano-Houzel2012-up Figure 1^["Large brains appear several times in the mammalian radiation. Example species are illustrated for each major mammalian group. The mammalian radiation is based on the findings of Murphy et al. (18) and Kaas (19). Brain images are from the University of Wisconsin and Michigan State Comparative Mammalian Brain Collections (www.brainmuseum.org)."]](../include/img/herculano-houtzel-2012-fig-01.webp){#fig-herculano-houtzel-2012-fig-01}
 
 ## {.scrollable}
 
-![@Herculano-Houzel2012-up Figure 3^["Shared nonneuronal scaling rules and structure- and order-specific neuronal scaling rules for mammalian brains. Each point represents the average values for one species (insectivores, blue; rodents, green; primates, red; Scandentia, orange). Arrows point to human data points, circles represent the cerebral cortex, squares represent the cerebellum, and triangles represent the rest of the brain (excluding the olfactory bulb). (A) Clade- and structure-specific scaling of brain structure mass as a function of numbers of neurons. Allometric exponents: cerebral cortex: 1.699 (Glires), 1.598 (insectivores), 1.087 or linear (primates); cerebellum: 1.305 (Glires), 1.028 or linear (insectivores), 0.976 or linear (primates); rest of the brain: 1.568 (Glires), 1.297 (insectivores), 1.198 (or 1.4 when corrected for phylogenetic relatedness in the dataset, primates). (B) Neuronal cell densities scale differently across structures and orders but are always larger in primates than in Glires. Allometric exponents: cerebral cortex: −0.424 (Glires), −0.569 (insectivores), −0.168 (primates); cerebellum: −0.271 (Glires), not significant (insectivores and primates); rest of the brain: −0.467 (Glires), not significant (insectivores), −0.220 (primates). (C) Mass of the cerebral cortex, cerebellum, and rest of the brain varies as a similar function of their respective numbers of nonneuronal cells. Allometric exponents: cerebral cortex: 1.132 (Glires), 1.143 (insectivores), 1.036 (primates); cerebellum: 1.002 (Glires), 1.094 (insectivores), 0.873 (primates); rest of the brain: 1.073 (Glires), 0.926 (insectivores), 1.065 (primates). (D) Average density of nonneuronal cells in each structure does not vary systematically with structure mass across species. Power functions are not plotted so as not to obscure the data points. Allometric exponents are from a study by Herculano-Houzel (20); data are from studies by Herculano-Houzel and her colleagues (22–27)."]](../include/img/herculano-houtzel-2012-fig-03.webp){#fig-herculano-fig03}
+![@Herculano-Houzel2012-up Figure 3^["Shared nonneuronal scaling rules and structure- and order-specific neuronal scaling rules for mammalian brains. Each point represents the average values for one species (insectivores, blue; rodents, green; primates, red; Scandentia, orange). Arrows point to human data points, circles represent the cerebral cortex, squares represent the cerebellum, and triangles represent the rest of the brain (excluding the olfactory bulb). (A) Clade- and structure-specific scaling of brain structure mass as a function of numbers of neurons. Allometric exponents: cerebral cortex: 1.699 (Glires), 1.598 (insectivores), 1.087 or linear (primates); cerebellum: 1.305 (Glires), 1.028 or linear (insectivores), 0.976 or linear (primates); rest of the brain: 1.568 (Glires), 1.297 (insectivores), 1.198 (or 1.4 when corrected for phylogenetic relatedness in the dataset, primates). (B) Neuronal cell densities scale differently across structures and orders but are always larger in primates than in Glires. Allometric exponents: cerebral cortex: −0.424 (Glires), −0.569 (insectivores), −0.168 (primates); cerebellum: −0.271 (Glires), not significant (insectivores and primates); rest of the brain: −0.467 (Glires), not significant (insectivores), −0.220 (primates). (C) Mass of the cerebral cortex, cerebellum, and rest of the brain varies as a similar function of their respective numbers of nonneuronal cells. Allometric exponents: cerebral cortex: 1.132 (Glires), 1.143 (insectivores), 1.036 (primates); cerebellum: 1.002 (Glires), 1.094 (insectivores), 0.873 (primates); rest of the brain: 1.073 (Glires), 0.926 (insectivores), 1.065 (primates). (D) Average density of nonneuronal cells in each structure does not vary systematically with structure mass across species. Power functions are not plotted so as not to obscure the data points. Allometric exponents are from a study by Herculano-Houzel (20); data are from studies by Herculano-Houzel and her colleagues (22–27)."]](../include/img/herculano-houtzel-2012-fig-03.webp){#fig-herculano-houtzel-fig-03}
 
 
 ## {.scrollable}
@@ -336,34 +418,44 @@ format: revealjs
 - Primate body sizes grew relatively less than brain sizes
 :::
 ::: {.column width=50%}
-![@Venditti2024-ul Figure 4](../include/img/venditti-2024-fig-04.png)
+![@Venditti2024-ul Figure 4](../include/img/venditti-2024-fig-04.png){#fig-venditti-2024-fig-04}
 
 :::
 ::::
 
 ## Does neuron # predict cognition?
 
-![@Herculano-Houzel2017-gf Figure 3](https://ars.els-cdn.com/content/image/1-s2.0-S2352154616302637-gr3_lrg.jpg){#fig-herculano-fig03}
+![@Herculano-Houzel2017-gf Figure 3](https://ars.els-cdn.com/content/image/1-s2.0-S2352154616302637-gr3_lrg.jpg){#fig-herculano-houtzel-2017-fig-03}
 
 ## Selection pressures
 
 - Brain
     - More neurons in cerebral cortex than other mammals
 - Behavior
+    - Predator/prey interactions [@Wooster2026-uk]
     - Less time spent foraging
-        + Higher quality/more energetically dense food
-        + Higher food availability
-        - Diet diversity
+    + Higher quality/more energetically dense food
+    + Higher food availability
+    - Less metabolic energy devoted to digestion
         
 ## Selection pressures
 
 - Cultural factors
-  - Social brain
-  - Cooking then later, agriculture, see also [@Wrangham2009-vq]
+  - Social brain [@Dunbar1998-ny]
+  - Communication
+  - Cooking [@Wrangham2009-vq] then later, agriculture & urbanization
 
 ## A further human advantage
 
-![@konner_evolution_2011](https://images.bwbcovers.com/067/The-Evolution-of-Childhood-9780674045668.jpg){fig-align="center"}
+:::: {.columns}
+::: {.column width=50%}
+- Human childhood lengthy, costly
+- Childhood adaptive
+:::
+::: {.column width=50%}
+![@konner_evolution_2011](https://images.bwbcovers.com/067/The-Evolution-of-Childhood-9780674045668.jpg){fig-align="right"}
+:::
+::::
 
 ## What cortical areas were selected?
 
@@ -373,15 +465,15 @@ format: revealjs
 
 ## {.scrollable}
 
-![@Melchionna2025-cg Figure 1^["Fig. 1: Relative warp analysis (RWA) plot showing the distribution of mammalian endocast diversity...The two meshes to the right (in latero-frontal view) show the relative importance of each landmark (their loadings) on the extreme values of first and on the second Relative Warp (RW) axes, respectively."]](../include/img/melchionna-2025-fig01.png)
+![@Melchionna2025-cg Figure 1^["Fig. 1: Relative warp analysis (RWA) plot showing the distribution of mammalian endocast diversity...The two meshes to the right (in latero-frontal view) show the relative importance of each landmark (their loadings) on the extreme values of first and on the second Relative Warp (RW) axes, respectively."]](../include/img/melchionna-2025-fig01.png){#fig-melchionna-2025-fig-01}
 
 ## {.scrollable}
 
-![@Melchionna2025-cg Figure 2^["a Evolutionary rate values related to the node correspond to the positive and significant shift. b The phylogenetic tree of mammals. The light blue circle indicates the positive shift in Catarrhine. The light red circles indicate the negative shift pertaining to Ferungulata and Marsupialia. The circle size is proportional to the intensity of rate change. c The phylogenetic tree of the Primates (extracted from the tree in b) shows the location of principal primate clades and representative shapes of their respective endocasts. The color gradient represents the map of the evolutionary changes in shape of the endocast from the mammal tree root, in terms of cortical area expansion (blue) and contraction (red). Multivariate rates of brain evolution of individual species are indicated by the colored dots next to the tree tips in both b and c. Brain endocasts of the different species are not to scale. Silhouettes for Homo, Carlito, Lemur, Bradypus, Macropus, Canis, Panthera, and Capreolus are free for reuse under CC0 1.0 Universal Public Domain Dedication license (https://creativecommons.org/publicdomain/zero/1.0/). Silhouettes for Cebus (credits to Sarah Werning) and Ceratotherium (credits to Jan A. Venter, Herbert H. T. Prins, David A. Balfour and Rob Slotow) are free for reuse under the Attribution 3.0 Unported license (https://creativecommons.org/licenses/by/3.0/). Silhouette for Macaca is free for reuse under the Public Domain Mark 1.0 license (https://creativecommons.org/publicdomain/mark/1.0/)."]](../include/img/melchionna-2025-fig02.png)
+![@Melchionna2025-cg Figure 2^["a Evolutionary rate values related to the node correspond to the positive and significant shift. b The phylogenetic tree of mammals. The light blue circle indicates the positive shift in Catarrhine. The light red circles indicate the negative shift pertaining to Ferungulata and Marsupialia. The circle size is proportional to the intensity of rate change. c The phylogenetic tree of the Primates (extracted from the tree in b) shows the location of principal primate clades and representative shapes of their respective endocasts. The color gradient represents the map of the evolutionary changes in shape of the endocast from the mammal tree root, in terms of cortical area expansion (blue) and contraction (red). Multivariate rates of brain evolution of individual species are indicated by the colored dots next to the tree tips in both b and c. Brain endocasts of the different species are not to scale. Silhouettes for Homo, Carlito, Lemur, Bradypus, Macropus, Canis, Panthera, and Capreolus are free for reuse under CC0 1.0 Universal Public Domain Dedication license (https://creativecommons.org/publicdomain/zero/1.0/). Silhouettes for Cebus (credits to Sarah Werning) and Ceratotherium (credits to Jan A. Venter, Herbert H. T. Prins, David A. Balfour and Rob Slotow) are free for reuse under the Attribution 3.0 Unported license (https://creativecommons.org/licenses/by/3.0/). Silhouette for Macaca is free for reuse under the Public Domain Mark 1.0 license (https://creativecommons.org/publicdomain/mark/1.0/)."]](../include/img/melchionna-2025-fig02.png){#fig-melchionna-2025-fig-02}
 
 ## {.scrollable}
 
-![@Melchionna2025-cg Figure 3](../include/img/melchionna-2025-fig03.png)
+![@Melchionna2025-cg Figure 3](../include/img/melchionna-2025-fig03.png){#fig-melchionna-2025-fig-03}
 
 ## {.scrollable}
 
@@ -405,7 +497,7 @@ format: revealjs
 
 - ~ 86 billion neurons in adult CNS
   - similar # of glia
-  - about 16 (14-32) billion neurons, 80/20% Glu/GABA
+  - about 16 (14-32) billion neurons in cerebral cortex, 80/20% Glu/GABA
 - 7-80K synapses/cortical neuron
   - 164 trillion synapses in cerebral cortex, [@DeFelipe2002-xz]
   - $10^{15}$ (quadrillion) synapses in CNS
@@ -414,8 +506,7 @@ format: revealjs
 
 - 145-175 km (90-109 mi) of myelinated axons, [@Marner2003-qu]
 - brain ~ 2.5% of body mass, but consumes 18% of $O_2$ at rest, [@Kety1948-ty], and has been estimated to consume about 20 W.
-  - millions of neurons generated per hour
-   
+
 # Summaries by phase
     
 ## Prenatal period
@@ -450,13 +541,13 @@ format: revealjs
     - "Skin-brain" axis [@Jameson2023-jd].
 :::
 ::: {.column width=50%}
-![](https://as1.ftcdn.net/jpg/02/52/77/94/500_F_252779434_4Hr3vF8H3wDOH0RslaVw5nLnYoKACiP6.jpg){.lightbox fig-align="right"}
+![](https://as1.ftcdn.net/jpg/02/52/77/94/500_F_252779434_4Hr3vF8H3wDOH0RslaVw5nLnYoKACiP6.jpg){.lightbox fig-align="right" #fig-neural-tube-formation}
 :::
 ::::
 
 ## {.scrollable}
     
-![@Jameson2023-jd Figure 1^["The ectoderm and neurodevelopmental divergence. This figure describes the evolutionary and developmental skin-brain connection, common molecular factors that underpin this relationship in utero and post-birth, the existing evidence for associations between atopic disease and neurodevelopmental delay, and potential early life markers that could identify neurodevelopmental divergence."]](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41380-022-01829-8/MediaObjects/41380_2022_1829_Fig1_HTML.png?as=webp){.lightbox width=75% fig-align="center"}
+![@Jameson2023-jd Figure 1^["The ectoderm and neurodevelopmental divergence. This figure describes the evolutionary and developmental skin-brain connection, common molecular factors that underpin this relationship in utero and post-birth, the existing evidence for associations between atopic disease and neurodevelopmental delay, and potential early life markers that could identify neurodevelopmental divergence."]](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41380-022-01829-8/MediaObjects/41380_2022_1829_Fig1_HTML.png?as=webp){.lightbox width=75% fig-align="center" #fig-jameson-2023-fig-01}
 
 ## Neural tube closure
 
@@ -468,7 +559,7 @@ format: revealjs
     + Spina bifida (caudal neuraxis)
 :::
 ::: {.column width=50%}
-![https://www.mayoclinic.org/diseases-conditions/spina-bifida/symptoms-causes/syc-20377860](https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2013/08/26/11/10/ds00417_im03493_r7_spinabifidababythu_jpg-popup.jpg){.lightbox width=75% fig-align="center"}
+![https://www.mayoclinic.org/diseases-conditions/spina-bifida/symptoms-causes/syc-20377860](https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2013/08/26/11/10/ds00417_im03493_r7_spinabifidababythu_jpg-popup.jpg){.lightbox width=75% fig-align="center" #fig-spina-bifida}
 :::
 ::::
 
@@ -480,22 +571,42 @@ format: revealjs
     - Forebrain (prosencephalon)
     - Midbrain (mesencephalone)
     - Hindbrain (rhomencephalon)
+    
+## 
+    
+:::: {.columns}
+::: {.column width=50%}
+![Embryonic human brain from Wikipedia](../include/img/6_week_embryo_brain.jpg){#fig-6-week-embryo}
+:::
+::: {.column width=50%}
+![Cross section of embryonic brain from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/EmbryonicBrain.svg/1200px-EmbryonicBrain.svg.png){#fig-embryonic-brain}
+:::
+::::
 
 ## Neurogenesis and gliogenesis
 
 - Neuroepithelium cell layer lines neural tube creating ventricular zone (VZ) and subventricular zone (SVZ)
     - Peri-ventricular regions home to pluripotent stem and progenitor cells that produce new neurons & glia
-- Neurogenesis (of excitatory Glu neurons) observed by 27 pcd (7 pcw; post-conceptual week)
+- Neurogenesis (of excitatory Glu neurons) observed by 27 pcd (4 pcw; post-conceptual week)
     - complete by 191 pcd (27 pcw), [@Silbereis2016-la](http://dx.doi.org/10.1016/j.neuron.2015.12.008)
+
+## {.scrollable}
+
+![@Gotz2005-yj Figure 1^["The lineage trees shown provide a simplified view of the relationship between neuroepithelial cells (NE), radial glial cells (RG) and neurons (N), without (a) and with (b) basal progenitors (BP) as cellular intermediates in the generation of neurons. They also show the types of cell division involved."]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrm1739/MediaObjects/41580_2005_Article_BFnrm1739_Fig1_HTML.jpg?as=webp){.lightbox width=75% fig-align="center" #fig-gotz-2005-fig-01}
+
+##
+
+::: {.callout-important}
+## By the numbers
+- 85 billion cells in ~24 wks
+  - 60 sec/min * 60 min/hour * 24 hrs/day * 7 days/wk * 24 = 604,800
+  - ~140,500/sec
+:::
     
 ## Neurogenesis and gliogenesis
 
 - Most cortical and striatal neurons generated prenatally, but
     - Cerebellum continues to ~ 18 mos
-    
-## {.scrollable}
-
-![@Gotz2005-yj Figure 1^["The lineage trees shown provide a simplified view of the relationship between neuroepithelial cells (NE), radial glial cells (RG) and neurons (N), without (a) and with (b) basal progenitors (BP) as cellular intermediates in the generation of neurons. They also show the types of cell division involved."]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrm1739/MediaObjects/41580_2005_Article_BFnrm1739_Fig1_HTML.jpg?as=webp){.lightbox width=75% fig-align="center"}
 
 ## Old brains, new neurons?
 
@@ -507,7 +618,18 @@ format: revealjs
 
 ## {.scrollable}
 
-![@Ernst2015-iz Figure 1^["New neurons are indicated in green. (A) Neuroblasts that are generated in the subventricular zone lining the lateral ventricle (LV) in rodents migrate to the OB, a structure crucial for olfaction, where they integrate as interneurons. (B) Neuroblasts are present in the subventricular zone also in humans, and new neurons integrate in the adjacent striatum, which plays an essential role in movement coordination, procedural learning, and memory, as well as motivational and emotional control. New neurons are continuously generated in the DG of the hippocampus—a brain structure essential for memory and mood control—in both rodents and humans (A, B). A limited subpopulation of DG neurons are subject to exchange in rodents (C), whereas the majority turn over in humans (D) [4–6]. The neurons within the turning over population are continuously exchanged. A value of 100% on the y-axis means that all neurons have been replaced since the individual’s birth."]](../include/img/ernst-fig-01.png){.lightbox width=75% fig-align="center"}
+![@Ernst2015-iz Figure 1^["New neurons are indicated in green. (A) Neuroblasts that are generated in the subventricular zone lining the lateral ventricle (LV) in rodents migrate to the OB, a structure crucial for olfaction, where they integrate as interneurons. (B) Neuroblasts are present in the subventricular zone also in humans, and new neurons integrate in the adjacent striatum, which plays an essential role in movement coordination, procedural learning, and memory, as well as motivational and emotional control. New neurons are continuously generated in the DG of the hippocampus—a brain structure essential for memory and mood control—in both rodents and humans (A, B). A limited subpopulation of DG neurons are subject to exchange in rodents (C), whereas the majority turn over in humans (D) [4–6]. The neurons within the turning over population are continuously exchanged. A value of 100% on the y-axis means that all neurons have been replaced since the individual’s birth."]](../include/img/ernst-fig-01.png){.lightbox width=75% fig-align="center" #fig-ernst-2015-fig-01}
+
+## 
+
+:::: {.columns}
+::: {.column width=50%}
+>...We identified a distinct profile of neurogenesis in SuperAgers that may reflect a ‘resilience signature’...our study points to a multiomic molecular signature of the hippocampus that distinguishes cognitive resilience and deterioration with ageing.
+:::
+::: {.column width=50%}
+![@Disouky2026-ok](../include/img/disouky-2026-cover.png){#fig-disouky-2026}
+:::
+::::
 
 ## Neural stem cells
 
@@ -518,16 +640,16 @@ format: revealjs
 
 :::: {.columns}
 ::: {.column width=50%}
-![](../include/img/radial-glia.jpg){.lightbox width=75% fig-align="center"}
+![](../include/img/radial-glia.jpg){.lightbox width=75% fig-align="center" #fig-radial-glia}
 :::
 ::: {.column width=50%}
-![](../include/img/neural-tube.jpg){.lightbox width=75% fig-align="center"}
+![](../include/img/neural-tube.jpg){.lightbox width=75% fig-align="center" #fig-neural-tube}
 :::
 ::::
 
 ## Radial unit hypothesis
 
-![@Rakic2009-jk Figure 2](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2719/MediaObjects/41583_2009_Article_BFnrn2719_Fig2_HTML.jpg?as=webp)
+![@Rakic2009-jk Figure 2](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2719/MediaObjects/41583_2009_Article_BFnrn2719_Fig2_HTML.jpg?as=webp #fig-rakic-2009-fig-02){#fig-radial-unit-hypothesis}
 
 ## Neural migration
 
@@ -558,7 +680,7 @@ format: revealjs
 
 ## Glia migrate, too
 
-![@Baumann2001-nw Figure 4^["Fig. 4. A: migration and differentiation of cells of astrocyte and oligodendrocyte lineages, and multifocal pattern of development of glial rows in the fimbria between embryonic day 15 (E15) and postnatal day 60 (P60). (Lower surface, ependyma; upper surface, pia.) There is a relatively small increase in the thickness of the fimbria. The multicellular ventricular layer (small open circles at lower surface at E15 and P0) becomes reduced to a unicellular adult ependyma (triangles on ependymal surface). Cells migrating into the body of the fimbria, and supplemented by division of precursors there, become arranged in progressively longer interfascicular glial rows. The astrocytes (large, pale circles) change from predominantly radial processes to predominantly longitudinal. Oligodendrocytes are represented by small, black, filled contiguous circles. Myelination (not represented) largely occurs between P10 and P60. Axons (not represented) are present from the earliest developmental stage. [From Suzuki and Raisman (596). Copyright 1992, reprinted by permission of Wiley-Liss, Inc., a subsidiary of John Wiley & Sons, Inc.]B: organization of the glial framework of central white matter tracts. Arrangement of radial and longitudinal processes of oligodendrocytes (Og) and astrocytes (As) forming a continuous meshwork of processes intermingled within the axonal tracts in the fimbria. Astrocytes are linked with each other by gap junctions, and also form gap junctions with oligodendrocytes, thus providing an indication for a functional as well as an anatomical functional syncytium. Myelination occurs on an asynchronous mode, with individual oligodendrocytes maturing independently within a cluster of adjacent oligodendrocytes, suggesting an interaction between axon maturation and oligodendrocyte differentiation. [From Raisman (492).]"]](../include/img/baumann-2001.jpeg){.lightbox width=50% fig-align="center"}
+![@Baumann2001-nw Figure 4^["Fig. 4. A: migration and differentiation of cells of astrocyte and oligodendrocyte lineages, and multifocal pattern of development of glial rows in the fimbria between embryonic day 15 (E15) and postnatal day 60 (P60). (Lower surface, ependyma; upper surface, pia.) There is a relatively small increase in the thickness of the fimbria. The multicellular ventricular layer (small open circles at lower surface at E15 and P0) becomes reduced to a unicellular adult ependyma (triangles on ependymal surface). Cells migrating into the body of the fimbria, and supplemented by division of precursors there, become arranged in progressively longer interfascicular glial rows. The astrocytes (large, pale circles) change from predominantly radial processes to predominantly longitudinal. Oligodendrocytes are represented by small, black, filled contiguous circles. Myelination (not represented) largely occurs between P10 and P60. Axons (not represented) are present from the earliest developmental stage. [From Suzuki and Raisman (596). Copyright 1992, reprinted by permission of Wiley-Liss, Inc., a subsidiary of John Wiley & Sons, Inc.]B: organization of the glial framework of central white matter tracts. Arrangement of radial and longitudinal processes of oligodendrocytes (Og) and astrocytes (As) forming a continuous meshwork of processes intermingled within the axonal tracts in the fimbria. Astrocytes are linked with each other by gap junctions, and also form gap junctions with oligodendrocytes, thus providing an indication for a functional as well as an anatomical functional syncytium. Myelination occurs on an asynchronous mode, with individual oligodendrocytes maturing independently within a cluster of adjacent oligodendrocytes, suggesting an interaction between axon maturation and oligodendrocyte differentiation. [From Raisman (492).]"]](../include/img/baumann-2001.jpeg){.lightbox width=50% fig-align="center" #fig-baumann-2001-fig-04}
 
 ## Differentiation
 
@@ -571,7 +693,7 @@ format: revealjs
 
 ## Differential gene expression {.scrollable}
 
-![@johnson2009functional](../include/img/johnson-gene-expression-fig-6.jpeg){width=75% fig-align="center"}
+![@johnson2009functional](../include/img/johnson-gene-expression-fig-6.jpeg){width=75% fig-align="center" #fig-johnson-2009-fig-06}
 
 ## Gyral development
 
@@ -611,7 +733,7 @@ format: revealjs
 - 700K synapses/s on average
 :::
 ::: {.column width=50%}
-![@Huttenlocher2009-ez](../include/img/synaptic-density-infant.jpg){.lightbox}
+![@Huttenlocher2009-ez](../include/img/synaptic-density-infant.jpg){.lightbox #fig-huttenlocher-2009-synaptic-density}
 :::
 ::::
 
@@ -633,19 +755,19 @@ format: revealjs
 ::: {.column width=50%}
 {{< video https://www.youtube.com/watch?v=ukxNXSPckjQ >}}
 
-[@Mr_Riddz_Science2015-bd]
+@Mr_Riddz_Science2015-bd
 :::
 ::::
 
 ## {.scrollable}
 
-![@Rakic2009-jk Figure 3](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2719/MediaObjects/41583_2009_Article_BFnrn2719_Fig3_HTML.jpg?as=webp){width=75% fig-align="center"}
+![@Rakic2009-jk Figure 3](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2719/MediaObjects/41583_2009_Article_BFnrn2719_Fig3_HTML.jpg?as=webp){width=75% fig-align="center" #fig-rakic-2009-fig-03}
 
 ## Synaptic rearrangement
 
 :::: {.columns}
 ::: {.column width=50%}
-![Huttenlocher](../include/img/huttenlocher.jpg){width=75% fig-align="center"}
+![Huttenlocher](../include/img/huttenlocher.jpg){width=75% fig-align="center" #fig-huttenlocher}
 :::
 ::: {.column width=50%}
 - Progressive phase: growth rate >> loss rate
@@ -677,11 +799,11 @@ format: revealjs
 :::: {.columns}
 ::: {.column width=50%}
 #### Synaptogenesis
-![](../include/img/huttenlocher.jpg)
+![](../include/img/huttenlocher.jpg){#fig-huttenlocher-growth}
 :::
 ::: {.column width=50%}
 #### Myelination
-![@Hagmann02112010 Figure 1](https://www.pnas.org/cms/10.1073/pnas.1009073107/asset/ff27c87e-3ed0-4a67-96a2-19ec4ea4c327/assets/graphic/pnas.1009073107fig01.jpeg)
+![@Hagmann02112010 Figure 1](https://www.pnas.org/cms/10.1073/pnas.1009073107/asset/ff27c87e-3ed0-4a67-96a2-19ec4ea4c327/assets/graphic/pnas.1009073107fig01.jpeg){#fig-hagmann-dti-data}
 :::
 ::::
 
@@ -692,7 +814,7 @@ format: revealjs
 - Some more susceptible to lesioning/injury.
 :::
 ::: {.column width=50%}
-![@irimia_2014 Figure 4^["SIMILARITIES IN GM LESION EFFECTS UPON NETWORK TOPOLOGY AS REVEALED BY PCA. Shown are lateral, medial, dorsal, ventral, anterior and posterior views of each hemisphere for the first three PCs—i.e. PC1 in (A), PC2 in (B) and PC3 in (C)—mapped on the cortex, demonstrating the anatomical similarity pattern associated with the extent to which the removal of different regions affects the network in a similar way. For each PC, color varies from the minimum to the maximum value of the PC factor loadings. PC1 (54% of the variance Σ in the data) exhibits greater hemispheric asymmetry than the following two PCs and covers the entire left parietal lobe and, to a smaller extent, the left temporal lobe. PC2 (26% of Σ) is—by comparison to PC1—highly symmetric, and includes the entire frontal lobe of both hemispheres, whereas PC3 (8% of Σ) is again symmetric and includes the occipital lobes of both hemispheres."]](https://www.frontiersin.org/files/Articles/72413/fnhum-08-00051-HTML/image_m/fnhum-08-00051-g004.jpg)
+![@irimia_2014 Figure 4^["SIMILARITIES IN GM LESION EFFECTS UPON NETWORK TOPOLOGY AS REVEALED BY PCA. Shown are lateral, medial, dorsal, ventral, anterior and posterior views of each hemisphere for the first three PCs—i.e. PC1 in (A), PC2 in (B) and PC3 in (C)—mapped on the cortex, demonstrating the anatomical similarity pattern associated with the extent to which the removal of different regions affects the network in a similar way. For each PC, color varies from the minimum to the maximum value of the PC factor loadings. PC1 (54% of the variance Σ in the data) exhibits greater hemispheric asymmetry than the following two PCs and covers the entire left parietal lobe and, to a smaller extent, the left temporal lobe. PC2 (26% of Σ) is—by comparison to PC1—highly symmetric, and includes the entire frontal lobe of both hemispheres, whereas PC3 (8% of Σ) is again symmetric and includes the occipital lobes of both hemispheres."]](https://www.frontiersin.org/files/Articles/72413/fnhum-08-00051-HTML/image_m/fnhum-08-00051-g004.jpg){#fig-irimia-2014-fig-04}
 :::
 ::::
 
@@ -704,20 +826,20 @@ format: revealjs
 
 ## Sensory/Attention Networks {.scrollable}
 
-![@Petrican2017-re Figure 2a](https://ars.els-cdn.com/content/image/1-s2.0-S1053811917307735-gr2a_lrg.jpg)
+![@Petrican2017-re Figure 2a](https://ars.els-cdn.com/content/image/1-s2.0-S1053811917307735-gr2a_lrg.jpg){#fig-petrican-2017-fig-02a}
 
 ## "Control" networks
 
-![@Petrican2017-re Figure 2b](https://ars.els-cdn.com/content/image/1-s2.0-S1053811917307735-gr2b_lrg.jpg)
+![@Petrican2017-re Figure 2b](https://ars.els-cdn.com/content/image/1-s2.0-S1053811917307735-gr2b_lrg.jpg){#fig-petrican-2017-fig-02b}
 
 ## Non-"control" networks {.scrollable}
 
-![@Petrican2017-re Figure 2c](https://ars.els-cdn.com/content/image/1-s2.0-S1053811917307735-gr2c_lrg.jpg)
+![@Petrican2017-re Figure 2c](https://ars.els-cdn.com/content/image/1-s2.0-S1053811917307735-gr2c_lrg.jpg){#fig-petrican-2017-fig-02c}
 
 
 ## Developmental connectomics
 
-![@Cao2017-bl^["Hypothetical Models of Brain Connectome Development from Infancy to Early Childhood (A) A hypothetical developmental model of information segregation and integration in the brain networks. (C) A hypothetical developmental model from primary regions to higher-order association regions. (C) A hypothetical developmental model of structural and functional brain connectomes."]](../include/img/cao-2017.jpg)
+![@Cao2017-bl^["Hypothetical Models of Brain Connectome Development from Infancy to Early Childhood (A) A hypothetical developmental model of information segregation and integration in the brain networks. (C) A hypothetical developmental model from primary regions to higher-order association regions. (C) A hypothetical developmental model of structural and functional brain connectomes."]](../include/img/cao-2017.jpg){#fig-cao-2017-fig-a}
 
 ## Myelination changes "network" properties {.scrollable}
 
@@ -730,7 +852,7 @@ format: revealjs
 - Due to synaptic rearrangment, myelination [@Gogtay2004-bq]
 :::
 ::: {.column width=50%}
-![@Shaw2008-dq Figure 1](http://www.jneurosci.org/content/jneuro/28/14/3586/F1.large.jpg){width="75%"}
+![@Shaw2008-dq Figure 1](http://www.jneurosci.org/content/jneuro/28/14/3586/F1.large.jpg){width="75%" #fig-shaw-2008-fig-01}
 :::
 ::::
 
@@ -738,17 +860,17 @@ format: revealjs
 
 :::: {.columns}
 ::: {.column width=50%}
-![@Shaw2008-dq Figure 2](http://www.jneurosci.org/content/jneuro/28/14/3586/F2.large.jpg)
+![@Shaw2008-dq Figure 2](http://www.jneurosci.org/content/jneuro/28/14/3586/F2.large.jpg){#fig-shaw-2008-fig-02}
 
 :::
 ::: {.column width=50%}
-![@Shaw2008-dq Figure 3](http://www.jneurosci.org/content/jneuro/28/14/3586/F3.large.jpg)
+![@Shaw2008-dq Figure 3](http://www.jneurosci.org/content/jneuro/28/14/3586/F3.large.jpg){#fig-shaw-2008-fig-03}
 :::
 ::::
 
 ## {.scrollable}
 
-![@Shaw2008-dq Figure 4](http://www.jneurosci.org/content/jneuro/28/14/3586/F4.large.jpg){width="50%"}
+![@Shaw2008-dq Figure 4](http://www.jneurosci.org/content/jneuro/28/14/3586/F4.large.jpg){width="50%" #fig-shaw-2008-fig-04}
 
 <!-- ## Video depictions -->
 
@@ -793,11 +915,11 @@ format: revealjs
 
 ## Changes in brain energetics (glucose utilization)
 
-![@Kuzawa2014-qd Figure 1](https://www.pnas.org/cms/10.1073/pnas.1323099111/asset/36abb8b8-6e1f-4a61-b5db-718340542d99/assets/graphic/pnas.1323099111fig01.jpeg)
+![@Kuzawa2014-qd Figure 1](https://www.pnas.org/cms/10.1073/pnas.1323099111/asset/36abb8b8-6e1f-4a61-b5db-718340542d99/assets/graphic/pnas.1323099111fig01.jpeg){#fig-kuzawa-2014-fig-01}
 
 ## Gene expression across development
 
-![@Kang2011-ex Figure 5^["a, Comparison between DCX expression in HIP and the density of DCX-immunopositive cells in the human dentate gyrus36. b, Comparison between transcriptome-based dendrite development trajectory in DFC and Golgi-method-based growth of basal dendrites of layer 3 (L3) and 5 (L5) pyramidal neurons in the human DFC41. c, Comparison between transcriptome-based synapse development trajectory in DFC and density of DFC synapses calculated using electron microscopy42. For b and c, PC1 for gene expression was plotted against age to represent the developmental trajectory of genes associated with dendrite (b) or synapse (c) development. Independent data sets were centred, scaled and plotted on a logarithmic scale. d, PC1 value for the indicated sets of genes (expressed as percentage of maximum) plotted against age to represent general trends and regional differences in several neurodevelopmental processes in NCX, HIP and CBC."]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature10523/MediaObjects/41586_2011_Article_BFnature10523_Fig5_HTML.jpg?as=webp)
+![@Kang2011-ex Figure 5^["a, Comparison between DCX expression in HIP and the density of DCX-immunopositive cells in the human dentate gyrus36. b, Comparison between transcriptome-based dendrite development trajectory in DFC and Golgi-method-based growth of basal dendrites of layer 3 (L3) and 5 (L5) pyramidal neurons in the human DFC41. c, Comparison between transcriptome-based synapse development trajectory in DFC and density of DFC synapses calculated using electron microscopy42. For b and c, PC1 for gene expression was plotted against age to represent the developmental trajectory of genes associated with dendrite (b) or synapse (c) development. Independent data sets were centred, scaled and plotted on a logarithmic scale. d, PC1 value for the indicated sets of genes (expressed as percentage of maximum) plotted against age to represent general trends and regional differences in several neurodevelopmental processes in NCX, HIP and CBC."]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature10523/MediaObjects/41586_2011_Article_BFnature10523_Fig5_HTML.jpg?as=webp){#fig-kang-2011-fig-05}
 
 ## Summary of prenatal milestones
 
@@ -834,30 +956,30 @@ format: revealjs
 
 ## 3-4 weeks
 
-![@swanson2012brain](../include/img/swanson-1.jpg)
+![@swanson2012brain](../include/img/swanson-1.jpg){#fig-swanson-2012-01}
 
 ## 4 weeks
 
-![https://upload.wikimedia.org/wikipedia/commons/4/4c/4_week_embryo_brain.jpg](https://upload.wikimedia.org/wikipedia/commons/4/4c/4_week_embryo_brain.jpg)
+![https://upload.wikimedia.org/wikipedia/commons/4/4c/4_week_embryo_brain.jpg](https://upload.wikimedia.org/wikipedia/commons/4/4c/4_week_embryo_brain.jpg){#fig-wikimedia-embryo}
 
 ## ~4 weeks
 
-![@swanson2012brain](../include/img/swanson-2.jpg)
+![@swanson2012brain](../include/img/swanson-2.jpg){#fig-swanson-2012-02}
 
 ## 6 weeks
 
 :::: {.columns}
 ::: {.column width=50%}
-![https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/6_week_human_embryo_nervous_system.svg/500px-6_week_human_embryo_nervous_system.svg.png](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/6_week_human_embryo_nervous_system.svg/500px-6_week_human_embryo_nervous_system.svg.png)
+![https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/6_week_human_embryo_nervous_system.svg/500px-6_week_human_embryo_nervous_system.svg.png](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/6_week_human_embryo_nervous_system.svg/500px-6_week_human_embryo_nervous_system.svg.png){#fig-wikimedia-6-week-embryo}
 :::
 ::: {.column width=50%}
-![@swanson2012brain](../include/img/swanson-3.jpg)
+![@swanson2012brain](../include/img/swanson-3.jpg){#fig-swanson-2012-3}
 :::
 ::::
 
 ## Beyond 6 weeks
 
-![@swanson2012brain](../include/img/swanson-4.jpg)
+![@swanson2012brain](../include/img/swanson-4.jpg){#fig-swanson-2012-4}
 
 ## Organization of the brain
 
@@ -902,15 +1024,15 @@ format: revealjs
 
 ## {.scrollable}
 
-![@Blumberg2023-fs Figure 1^["Sensory origins of primary motor cortex (M1). (A) Boundaries of primary cortical areas in rats: primary somatosensory cortex (S1, red) and M1 (blue), and primary auditory (A1) and visual (V1) cortex. (B) Enlargements of red and blue regions in (A) show the somatotopic organization of S1 and M1. Adapted, with permission, from [92]. (C) Peri-event histogram showing sensory responsiveness of an individual neuron in the forelimb region of M1 at P20. The neuron’s firing rate is shown in relation to movement onset (vertical broken line) for twitches (red) and wake movements (black). This neuron is representative of all M1 neurons recorded at this age. Neurons fire above baseline (0 on the y-axis) after – not before – movement onset during both sleep and wake, indicative of sensory responding. Adapted, with permission, from [9]."]](https://ars.els-cdn.com/content/image/1-s2.0-S136466132200331X-gr1_lrg.jpg)
+![@Blumberg2023-fs Figure 1^["Sensory origins of primary motor cortex (M1). (A) Boundaries of primary cortical areas in rats: primary somatosensory cortex (S1, red) and M1 (blue), and primary auditory (A1) and visual (V1) cortex. (B) Enlargements of red and blue regions in (A) show the somatotopic organization of S1 and M1. Adapted, with permission, from [92]. (C) Peri-event histogram showing sensory responsiveness of an individual neuron in the forelimb region of M1 at P20. The neuron’s firing rate is shown in relation to movement onset (vertical broken line) for twitches (red) and wake movements (black). This neuron is representative of all M1 neurons recorded at this age. Neurons fire above baseline (0 on the y-axis) after – not before – movement onset during both sleep and wake, indicative of sensory responding. Adapted, with permission, from [9]."]](https://ars.els-cdn.com/content/image/1-s2.0-S136466132200331X-gr1_lrg.jpg){#fig-blumberg-2023-fig-01}
 
 ## {.scrollable}
 
-![@Blumberg2023-fs Figure 2^["Protracted development of motor maps in M1. (A) Representative motor maps in rat pups at postnatal day (P) 25 and P30 and in adult rats at P60. Each map was produced using intracortical microstimulation in the forelimb region of M1 in anesthetized animals. The legends indicate the simple (i.e., single joint) and complex (i.e., multijoint) movements evoked at each stimulation site. Rectangles around the maps demarcate identical cortical surface areas. Adapted, with permission, from [17]. (B) Representative motor maps in kittens at P63 and P86 and in adult cats. Each map was produced using intracortical microstimulation in the forelimb region of M1 in anesthetized animals. The legend indicates the single-joint forelimb movements (shoulder, elbow, wrist) and multijoint movements evoked at each stimulation site. Movements of the digits occurred with movements of other joints. Colors denote the threshold electric current for movement production as indicated by the color bar at right. The black lines show the location of the cruciate sulcus. Adapted, with permission, from [24]. Both figure parts are used with permission of the American Physiological Society; permission conveyed through Copyright Clearance, Inc."]](https://ars.els-cdn.com/content/image/1-s2.0-S136466132200331X-b1_lrg.jpg)
+![@Blumberg2023-fs Figure 2^["Protracted development of motor maps in M1. (A) Representative motor maps in rat pups at postnatal day (P) 25 and P30 and in adult rats at P60. Each map was produced using intracortical microstimulation in the forelimb region of M1 in anesthetized animals. The legends indicate the simple (i.e., single joint) and complex (i.e., multijoint) movements evoked at each stimulation site. Rectangles around the maps demarcate identical cortical surface areas. Adapted, with permission, from [17]. (B) Representative motor maps in kittens at P63 and P86 and in adult cats. Each map was produced using intracortical microstimulation in the forelimb region of M1 in anesthetized animals. The legend indicates the single-joint forelimb movements (shoulder, elbow, wrist) and multijoint movements evoked at each stimulation site. Movements of the digits occurred with movements of other joints. Colors denote the threshold electric current for movement production as indicated by the color bar at right. The black lines show the location of the cruciate sulcus. Adapted, with permission, from [24]. Both figure parts are used with permission of the American Physiological Society; permission conveyed through Copyright Clearance, Inc."]](https://ars.els-cdn.com/content/image/1-s2.0-S136466132200331X-b1_lrg.jpg){#fig-blumberg-2023-fig-02}
 
 ## @Blumberg2023-ce
 
-![@Blumberg2023-ce Figure 1^["Figure I. Estimating the onset of M1 motor outflow in early human development. Estimated days postconception plotted against event scale for humans, macaques, cats, and rats (data from translatingtime.org). Red-shaded region denotes 95% confidence intervals for human data. Three additional events are shown: birth (vertical bars), estimated onset of cortical delta rhythm (gray circles), and estimated onset of M1 motor outflow based on cortical stimulation studies (gray squares). Based on M1 onset in the non-human species, five possible onsets in humans are represented (arrows a–e). Inset: semi-log replotting of the data shown with four events from the visual system. Abbreviations: dLGN, dorsal lateral geniculate nucleus; SC, superior colliculus; V1, primary visual cortex; VEP, visual evoked potential."]](https://ars.els-cdn.com/content/image/1-s2.0-S1364661323001250-b1_lrg.jpg)
+![@Blumberg2023-ce Figure 1^["Figure I. Estimating the onset of M1 motor outflow in early human development. Estimated days postconception plotted against event scale for humans, macaques, cats, and rats (data from translatingtime.org). Red-shaded region denotes 95% confidence intervals for human data. Three additional events are shown: birth (vertical bars), estimated onset of cortical delta rhythm (gray circles), and estimated onset of M1 motor outflow based on cortical stimulation studies (gray squares). Based on M1 onset in the non-human species, five possible onsets in humans are represented (arrows a–e). Inset: semi-log replotting of the data shown with four events from the visual system. Abbreviations: dLGN, dorsal lateral geniculate nucleus; SC, superior colliculus; V1, primary visual cortex; VEP, visual evoked potential."]](https://ars.els-cdn.com/content/image/1-s2.0-S1364661323001250-b1_lrg.jpg){#fig-blumberg-2023ce-fig}
 
 ## @Blumberg2023-ce
 
@@ -924,9 +1046,32 @@ format: revealjs
 
 ## Main points
 
+- How life emerged on Earth is not known
+- Life on Earth has 3.7-4.2 billion year history
+- Bilateral, segmented, centralized, vertebrate nervous systems emerged ~500 M years ago
+- Biologically modern humans emerged ~200,000 years ago (~4,000 generations)
+
+## Main points
+
+- Human brains have more cortical neurons than other primates
+- Selection pressures on cerebral cortex, especially frontal and parietal
+- Evolution shapes human brain development
+
+## Main points
+
+- Human nervous system development can be divided into prenatal, postnatal stages
+- Development has progressive and regressive processes (More not always better)
+- Most neurons in cerebral cortex are generated by the end of the second trimester
+
+## Main points
+
+- Synapse genesis, pruning, alteration dominate postnatal development
+- Myelination continues into the third decade
+- Human brain & behavioral development (childhood) prolonged
+
 ## Next time
 
-- Cellular neuroscience
+- Cellular neuroscience I
 
 # Resources
 
