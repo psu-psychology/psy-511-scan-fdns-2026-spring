@@ -810,11 +810,11 @@ format: revealjs
 ## Networks in the brain
 
 :::: {.columns}
-::: {.column width=50%}
+::: {.column width=40%}
 - Some more susceptible to lesioning/injury.
 :::
-::: {.column width=50%}
-![@irimia_2014 Figure 4^["SIMILARITIES IN GM LESION EFFECTS UPON NETWORK TOPOLOGY AS REVEALED BY PCA. Shown are lateral, medial, dorsal, ventral, anterior and posterior views of each hemisphere for the first three PCs—i.e. PC1 in (A), PC2 in (B) and PC3 in (C)—mapped on the cortex, demonstrating the anatomical similarity pattern associated with the extent to which the removal of different regions affects the network in a similar way. For each PC, color varies from the minimum to the maximum value of the PC factor loadings. PC1 (54% of the variance Σ in the data) exhibits greater hemispheric asymmetry than the following two PCs and covers the entire left parietal lobe and, to a smaller extent, the left temporal lobe. PC2 (26% of Σ) is—by comparison to PC1—highly symmetric, and includes the entire frontal lobe of both hemispheres, whereas PC3 (8% of Σ) is again symmetric and includes the occipital lobes of both hemispheres."]](https://www.frontiersin.org/files/Articles/72413/fnhum-08-00051-HTML/image_m/fnhum-08-00051-g004.jpg){#fig-irimia-2014-fig-04}
+::: {.column width=60%}
+![@irimia_2014 Figure 4^["SIMILARITIES IN GM LESION EFFECTS UPON NETWORK TOPOLOGY AS REVEALED BY PCA. Shown are lateral, medial, dorsal, ventral, anterior and posterior views of each hemisphere for the first three PCs—i.e. PC1 in (A), PC2 in (B) and PC3 in (C)—mapped on the cortex, demonstrating the anatomical similarity pattern associated with the extent to which the removal of different regions affects the network in a similar way. For each PC, color varies from the minimum to the maximum value of the PC factor loadings. PC1 (54% of the variance Σ in the data) exhibits greater hemispheric asymmetry than the following two PCs and covers the entire left parietal lobe and, to a smaller extent, the left temporal lobe. PC2 (26% of Σ) is—by comparison to PC1—highly symmetric, and includes the entire frontal lobe of both hemispheres, whereas PC3 (8% of Σ) is again symmetric and includes the occipital lobes of both hemispheres."]](https://www.frontiersin.org/files/Articles/72413/fnhum-08-00051-HTML/image_m/fnhum-08-00051-g004.jpg){#fig-irimia-2014-fig-04 width="60%"}
 :::
 ::::
 
@@ -828,7 +828,7 @@ format: revealjs
 
 ![@Petrican2017-re Figure 2a](https://ars.els-cdn.com/content/image/1-s2.0-S1053811917307735-gr2a_lrg.jpg){#fig-petrican-2017-fig-02a}
 
-## "Control" networks
+## "Control" networks {.scrollable}
 
 ![@Petrican2017-re Figure 2b](https://ars.els-cdn.com/content/image/1-s2.0-S1053811917307735-gr2b_lrg.jpg){#fig-petrican-2017-fig-02b}
 
@@ -913,7 +913,7 @@ format: revealjs
 <!-- ::: -->
 <!-- :::: -->
 
-## Changes in brain energetics (glucose utilization)
+## Changes in brain energetics (glucose utilization) {.scrollable}
 
 ![@Kuzawa2014-qd Figure 1](https://www.pnas.org/cms/10.1073/pnas.1323099111/asset/36abb8b8-6e1f-4a61-b5db-718340542d99/assets/graphic/pnas.1323099111fig01.jpeg){#fig-kuzawa-2014-fig-01}
 
@@ -1021,7 +1021,6 @@ format: revealjs
 
 >Researchers should be cautious when making claims about developmental continuity between newborn and adult cognition (i.e., ‘core knowledge’) and its supporting neural architecture.
 
-
 ## {.scrollable}
 
 ![@Blumberg2023-fs Figure 1^["Sensory origins of primary motor cortex (M1). (A) Boundaries of primary cortical areas in rats: primary somatosensory cortex (S1, red) and M1 (blue), and primary auditory (A1) and visual (V1) cortex. (B) Enlargements of red and blue regions in (A) show the somatotopic organization of S1 and M1. Adapted, with permission, from [92]. (C) Peri-event histogram showing sensory responsiveness of an individual neuron in the forelimb region of M1 at P20. The neuron’s firing rate is shown in relation to movement onset (vertical broken line) for twitches (red) and wake movements (black). This neuron is representative of all M1 neurons recorded at this age. Neurons fire above baseline (0 on the y-axis) after – not before – movement onset during both sleep and wake, indicative of sensory responding. Adapted, with permission, from [9]."]](https://ars.els-cdn.com/content/image/1-s2.0-S136466132200331X-gr1_lrg.jpg){#fig-blumberg-2023-fig-01}
@@ -1030,7 +1029,7 @@ format: revealjs
 
 ![@Blumberg2023-fs Figure 2^["Protracted development of motor maps in M1. (A) Representative motor maps in rat pups at postnatal day (P) 25 and P30 and in adult rats at P60. Each map was produced using intracortical microstimulation in the forelimb region of M1 in anesthetized animals. The legends indicate the simple (i.e., single joint) and complex (i.e., multijoint) movements evoked at each stimulation site. Rectangles around the maps demarcate identical cortical surface areas. Adapted, with permission, from [17]. (B) Representative motor maps in kittens at P63 and P86 and in adult cats. Each map was produced using intracortical microstimulation in the forelimb region of M1 in anesthetized animals. The legend indicates the single-joint forelimb movements (shoulder, elbow, wrist) and multijoint movements evoked at each stimulation site. Movements of the digits occurred with movements of other joints. Colors denote the threshold electric current for movement production as indicated by the color bar at right. The black lines show the location of the cruciate sulcus. Adapted, with permission, from [24]. Both figure parts are used with permission of the American Physiological Society; permission conveyed through Copyright Clearance, Inc."]](https://ars.els-cdn.com/content/image/1-s2.0-S136466132200331X-b1_lrg.jpg){#fig-blumberg-2023-fig-02}
 
-## @Blumberg2023-ce
+## @Blumberg2023-ce {.scrollable}
 
 ![@Blumberg2023-ce Figure 1^["Figure I. Estimating the onset of M1 motor outflow in early human development. Estimated days postconception plotted against event scale for humans, macaques, cats, and rats (data from translatingtime.org). Red-shaded region denotes 95% confidence intervals for human data. Three additional events are shown: birth (vertical bars), estimated onset of cortical delta rhythm (gray circles), and estimated onset of M1 motor outflow based on cortical stimulation studies (gray squares). Based on M1 onset in the non-human species, five possible onsets in humans are represented (arrows a–e). Inset: semi-log replotting of the data shown with four events from the visual system. Abbreviations: dLGN, dorsal lateral geniculate nucleus; SC, superior colliculus; V1, primary visual cortex; VEP, visual evoked potential."]](https://ars.els-cdn.com/content/image/1-s2.0-S1364661323001250-b1_lrg.jpg){#fig-blumberg-2023ce-fig}
 
