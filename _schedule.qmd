@@ -358,16 +358,15 @@ ex_dev_due <- psy_511_vars |>
 
 #### Read/Watch
 
-- [Cellular neuroscience notes](404.qmd) | [PDF](404.qmd) |
 - Optional
   - @Won2025-aq
   - @Zeng2017-sg
   - @Oliveira2015-ky
   - @Distefano-Gagne2023-gt
 
-<!-- #### Materials -->
+#### Materials
 
-<!-- - [Slides](404.qmd) | [PDF](404.qmd) | -->
+- [Slides](slides/wk-10-2026-03-26-cells.qmd)
 
 #### Assignment(s)
 

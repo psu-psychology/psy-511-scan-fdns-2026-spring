@@ -38,6 +38,10 @@ website:
             href: exercises/final-project.qmd
           - text: "Ex ZZ • Sleep & Circadian Rhythms"
             href: exercises/ex-ZZ.qmd
+          - text: "Ex EVO • Evolution"
+            href: exercises/ex-EVO.qmd
+          - text: "Ex DEV • Development"
+            href: exercises/ex-DEV.qmd
       - section: "Slides"
         contents:
           - text: "Wk 01 • Thu Jan 14"
@@ -58,6 +62,8 @@ website:
             href: slides/wk-08-2026-03-05-sleep.qmd
           - text: "Wk 09 • Thu Mar 19"
             href: slides/wk-09-2026-03-19-evo-devo.qmd
+          - text: "Wk 10 • Thu Mar 26"
+            href: slides/wk-10-2026-03-26-cells.qmd
       - section: "Resources"
         contents:
           - text: "Student interests (Ex LVL)"
