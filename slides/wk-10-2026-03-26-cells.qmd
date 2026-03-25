@@ -15,6 +15,9 @@ format: revealjs
 
 ## Announcements
 
+- *Due*: [Exercise EVO • Evolution](../exercises/ex-EVO.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005262)
+
 ## Today's topics
 
 - Why should (psychologists) care?
@@ -22,6 +25,68 @@ format: revealjs
 - Neurophysiology I
 
 ## Warm-up
+
+---
+
+### How old is the vertebrate nervous system plan?
+
+- A. $\approx$ 5 million years
+- B. $\approx$ 50 million years
+- C. $\approx$ 500 million years
+- D. $\approx$ 4 billion years
+
+---
+
+### How old is the vertebrate nervous system plan?
+
+- ~~A. $\approx$ 5 million years~~
+- ~~B. $\approx$ 50 million years~~
+- **C. $\approx$ 500 million years**
+- ~~D. $\approx$ 4 billion years~~
+
+## {.scrollable}
+
+![https://www.britannica.com/science/evolution-scientific-theory](https://cdn.britannica.com/98/398-050-BCA23330/scale-events.jpg){#fig-geologic-timeline}
+
+---
+
+### Herculano-Houtzel and colleagues revealed all of the following EXCEPT:
+
+- A. Human brains have more neurons in the cerebral cortex than other primates.
+- B. Human brains have comparable numbers of non-neuronal cells for their body size.
+- C. The human cerebellum contains an appropriate number of neurons for a primate of its size.
+- D. The human cerebellum has 3x fewer neurons than the cerebral cortex.
+
+---
+
+### Herculano-Houtzel and colleagues revealed all of the following EXCEPT:
+
+- A. Human brains have more neurons in the cerebral cortex than other primates.
+- B. Human brains have comparable numbers of non-neuronal cells for their body size.
+- C. The human cerebellum contains an appropriate number of neurons for a primate of its size.
+- **D. The human cerebellum has 3x *fewer* neurons than the cerebral cortex.**
+
+---
+
+### During which periods(s) is neurogenesis prominent in the human cerebral cortex?
+
+- A. 1st trimester
+- B. 2nd trimester
+- C. 1st and 2nd trimester
+- D. Prenatal and postnatal
+
+---
+
+### During which periods(s) is neurogenesis prominent in the human cerebral cortex?
+
+- A. 1st trimester
+- B. 2nd trimester
+- **C. 1st and 2nd trimester**
+- ~~D. Prenatal and postnatal~~
+
+## {.scrollable}
+
+![@Silbereis2016-la Figure 1^["Timeline of Key Human Neurodevelopmental Processes and Functional Milestones."]. ](https://ars.els-cdn.com/content/image/1-s2.0-S0896627315010806-gr1_lrg.jpg){.lightbox width=75% fig-align="center" #fig-silbereis-2016-fig-01}
 
 # Why should (psychologists) care?
 
@@ -117,7 +182,7 @@ format: revealjs
 
 :::: {.columns}
 ::: {.column width=50%}
-![@Sterling2021-yx](https://mit-press-new-us.imgix.net/covers/9780262534680.jpg?auto=format&w=298&dpr=2&q=80){width=30% #fig-sterling-2021}
+![@Sterling2021-yx](https://mit-press-new-us.imgix.net/covers/9780262534680.jpg?auto=format&w=298&dpr=2&q=80){width=60% #fig-sterling-2021}
 :::
 ::: {.column width=50%}
 - Chemical communication specific (neurotransmitters $\rightarrow$ receptors)
@@ -132,7 +197,7 @@ format: revealjs
 
 - Steering
   - Multicellular bodies
-  - Approach/avoidance
+  - Approach/avoid
 - Store/recall past events
   - Greater storage capacity
 - Predict the future
@@ -164,7 +229,7 @@ format: revealjs
 - 20,000-25,000 human genes
 - $\approx$ 2-20 million genes in non-human "metagenome"
 - @Human-Microbiome-Project-Consortium2012-jl; @Tierney2019-ol
-- humans as supraorganisms
+- humans as supraorganisms [@Gilbert2012-nv]
 :::
 ::: {.column width=50%}
 ![@Gilbert2012-nv](../include/img/gilbert-2012-title.png)
@@ -284,6 +349,10 @@ How would you estimate how long?
 ![https://en.wikipedia.org/wiki/Astrocyte](https://upload.wikimedia.org/wikipedia/commons/3/3e/Metabolic_interactions_between_astrocytes_and_neurons_with_major_reactions.png)
 :::
 ::::
+
+---
+
+![https://en.wikipedia.org/wiki/Astrocyte](https://upload.wikimedia.org/wikipedia/commons/3/3e/Metabolic_interactions_between_astrocytes_and_neurons_with_major_reactions.png){width="80%"}
 
 ## Myelinating cells
 

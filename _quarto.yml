@@ -42,6 +42,8 @@ website:
             href: exercises/ex-EVO.qmd
           - text: "Ex DEV • Development"
             href: exercises/ex-DEV.qmd
+          - text: "Ex PHYS • Neurophysiology I"
+            href: exercises/ex-PHYS.qmd
       - section: "Slides"
         contents:
           - text: "Wk 01 • Thu Jan 14"

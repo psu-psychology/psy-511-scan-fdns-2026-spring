@@ -379,6 +379,8 @@ ex_phys_due <- psy_511_vars |>
   as.character()
 ```
 
+- *Due*: [Exercise EVO • Evolution](exercises/ex-EVO.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005262)
 - *Assigned*: [Exercise PHYS • Neurophysiology I](exercises/ex-PHYS.qmd)
   - *Due*: `{r} ex_phys_due`
   - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005427)
