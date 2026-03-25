@@ -144,6 +144,54 @@ format: revealjs
 
 -- @Balasubramanian2021-fw
 
+## Who (what) am I?
+
+- $\approx$ 38 trillion bacteria + $\approx$ 30 trillion human cells
+  - Me:Not me ratio $\approx$ 1:1.3 [@Sender2016-nk; @Bianconi2013-ur]
+  
+## Who (what) am I
+
+- Varies across lifespan and experience [@Rodriguez2015-tv; @Nuriel-Ohayon2016-nl]
+  - Newborns $\approx$ 1:0.01
+  - Adults $\approx$ 1:1.3
+  - Post-antibiotics $\approx$ 1:0.5
+  - Pregnancy (3rd trimester) $\approx$ 1.1:1.3
+  
+## Who (what) am I?
+
+:::: {.columns}
+::: {.column width=50%}
+- 20,000-25,000 human genes
+- $\approx$ 2-20 million genes in non-human "metagenome"
+- @Human-Microbiome-Project-Consortium2012-jl; @Tierney2019-ol
+- humans as supraorganisms
+:::
+::: {.column width=50%}
+![@Gilbert2012-nv](../include/img/gilbert-2012-title.png)
+:::
+::::
+
+## *When* am I me?
+
+| Cell Type | Lifespan | Primary Function |
+|-----------|----------|------------------|
+| Intestinal epithelium | 2-5 days | Nutrient absorption; barrier |
+| Sperm cells | $\approx$ 2-3 mos | Reproduction |
+| Red blood cells | 120 days | Oxygen transport |
+| Liver cells | 1 year | Metabolism/Detoxification |
+
+@Sender2021-qs; @Spalding2005-jz; @UnknownUnknown-ko
+
+## *When* am I me?
+
+| Cell Type | Lifespan | Primary Function |
+|-----------|----------|------------------|
+| Skeleton | 10+ years | Structural support |
+| Egg cells | Menopause | Reproduction |
+| Neurons | Lifetime | Signal processing/memory |
+
+@Sender2021-qs; @Spalding2005-jz; @UnknownUnknown-ko
+
 # Cellular neuroanatomy
 
 ## How many neurons and glia?
