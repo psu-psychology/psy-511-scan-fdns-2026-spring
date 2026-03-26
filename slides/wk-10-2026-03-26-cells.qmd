@@ -612,6 +612,15 @@ See also: <https://en.wikipedia.org/wiki/Myelin>
 :::
 ::::
 
+## If the soma was a marble...
+
+| Part | Real Size | Scale Model |
+|------|---------------------|-----------------------------|
+| Soma | $\approx$ 20 µm | 15 mm (marble) |
+| Axon Thickness | $\approx$ 1 µm | 0.75 mm (fishing line) |
+| Local Axon Length | $\approx$ 1 mm | 75 cm (arm's length) |
+| Long Axon Length | $\approx$ 1 m | 750 m (nearly 1/2 mile) |
+
 ## Classifying neurons
 
 :::: {.columns}
@@ -856,7 +865,7 @@ Concord Consortium (concord.org)
 :::: {.columns}
 ::: {.column width=50%}
 - "Metabolic" force via Na/K-ATPase
-- 3 Na^+ out : 2 K^+ in
+- 3 $Na^+$ out : 2 $K^+$ in
 - Creates/sustains ion concentration imbalances
 :::
 ::: {.column width=50%}
@@ -989,7 +998,7 @@ What sign of voltage (+/-) will stop $K^+$ outflow?
 ::: {.fragment}
 ::: {.callout-important}
 ## Your turn
-- Resting potential is -60-70 mV, more *positive* than the -90 mV that would stop $K^+$ outflow
+- Resting potential is $\approx$ -60-70 mV, more *positive* than the -90 mV that would stop $K^+$ outflow
 - Why?
 :::
 :::
@@ -1053,6 +1062,8 @@ All things being equal, when will the inflow of $Na+$ due to the force of diffus
 ## Your turn
 
 What is the *sign* of the equilibrium potential for $Na^+$
+
+Or, what inside/outside voltage would stop the inflow of $Na^+$?
 :::
 :::
 :::
@@ -1062,7 +1073,7 @@ What is the *sign* of the equilibrium potential for $Na^+$
 
 - Na/K-ATPase creates Na/K concentration imbalances
 - $K^+$ outflow makes membrane potential negative
-  - Membrane potential approaches, but does not reach $K^+$ equilibrium potential ($\approx 90 mV$)
+  - Membrane potential approaches, but does not reach $K^+$ equilibrium potential ($\approx -90 mV$)
 - $Na^+$ inflow makes membrane potential (more) positive than system with $K^+$ alone
 
 ## Metaphor I
@@ -1094,10 +1105,11 @@ What is the *sign* of the equilibrium potential for $Na^+$
 
 ## Summary of forces
 
-| Ion | Concentration gradient | Force of diffusion  | Sign of electrostatic force |
-|--------|--------------------------|---------------------|---------------------|
-| $K^+$  | $[K^+]_{i} >> [K^+]_{o}$ | outward        | -     |
-| $Na^+$ | $[Na^+]_{i} << [Na^+]_{o}$ | inward       | -     |
+| Ion | Concentration gradient | Force of diffusion  | Driving force |
+|--------|---------------------|---------------------|----------------------------|
+| $K^+$  | $[K^+]_{i} >> [K^+]_{o}$ | outward        | outward                    |
+| $Na^+$ | $[Na^+]_{i} << [Na^+]_{o}$ | inward       | strongly inward          
+|
 
 ## Driving force
 
