@@ -20,6 +20,7 @@ canvas_db <- psy_511_vars |>
 ## Goals
 
 1. To more deeply understand how emotions are measured.
+2. To consider the challenges of capturing important dimensions of emotional states given the limitations of existing measurement tools.
 
 ## Activity
 

@@ -50,6 +50,14 @@ format: revealjs
 
 ---
 
+::: {#fig-to-scale}
+<iframe width="1280" height="450" src="https://www.youtube.com/embed/nOVvEbH2GC0?si=vmbDk3QFLL0p2maJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+@Scale:2023-gp
+:::
+
+---
+
 ### Herculano-Houtzel and colleagues revealed all of the following EXCEPT:
 
 - A. Human brains have more neurons in the cerebral cortex than other primates.
@@ -359,14 +367,23 @@ How would you estimate how long?
 ::: {.callout-note}
 ## Myelin
 
+:::: {.columns}
+::: {.column width=50%}
 - outer covering of neurons
 - provided by separate class of glial cell
 - increases the speed of signal (action potential) conduction. 
 - found in all *vertebrates*^[except jawless fish]
-- The white in white matter
+- The *white* in white matter
+:::
+::: {.column width=50%}
+![https://www.hydroassoc.org/grey-matter-brain-damage/](https://www.hydroassoc.org/wp-content/uploads/2015/01/MatterInjury.jpg)
+:::
+::::
 
 See also: <https://en.wikipedia.org/wiki/Myelin>
 :::
+
+
 
 ## Oligodendrocytes
 
@@ -421,7 +438,7 @@ See also: <https://en.wikipedia.org/wiki/Myelin>
 - 'Pruning' of synapses in normal development
 :::
 ::: {.column width=50%}
-![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Microglia_and_neurons.jpg/1200px-Microglia_and_neurons.jpg){#fig-microglia}
+![@Wikipedia-contributors2025-do^["Rat microglia grown in tissue culture in green, along with nerve fiber processes shown in red. By GerryShaw - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=17504964. "]](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Microglia_and_neurons.jpg/1200px-Microglia_and_neurons.jpg){#fig-microglia}
 :::
 ::::
 
@@ -433,7 +450,7 @@ See also: <https://en.wikipedia.org/wiki/Myelin>
 - Disruptions -> impaired connectivity and social behavior [@Zhan2014-lx]
 :::
 ::: {.column width=50%}
-![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Microglia_and_neurons.jpg/1200px-Microglia_and_neurons.jpg)
+![@Wikipedia-contributors2025-do](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Microglia_and_neurons.jpg/1200px-Microglia_and_neurons.jpg)
 :::
 ::::
 
@@ -469,7 +486,6 @@ See also: <https://en.wikipedia.org/wiki/Myelin>
 ::: {.column width=50%}
 - Majority of input to neuron
 - Passive (do not generate current flows) vs. active (generate current flows like axons)
-- "Polarized" or directional information flow (to soma)
 :::
 ::: {.column width=50%}
 ![https://askabiologist.asu.edu/neuron-anatomy](https://askabiologist.asu.edu/sites/default/files/resources/articles/neuron_anatomy.jpg){#fig-neuron-direction-messages-travel}
@@ -495,7 +511,7 @@ See also: <https://en.wikipedia.org/wiki/Myelin>
 - Concentrate effects of local current flows, biochemical reactions
 :::
 ::: {.column width=50%}
-![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/b/b1/Dendritic_spines.jpg){#fig-dendritic-spines}
+![@Wikipedia-contributors2025-py^["Spines on the dendrite of a medium spiny striatal neuron. The image was obtained by expressing Enhanced Green Fluorescent Protein (EGFP) in the neurons and imaging them using a laser scanning two photon microscope. By http://en.wikipedia.org/w/index.php?title=User:Tmhoogland&action=edit - http://en.wikipedia.org/wiki/Image:Spines.jpg, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1826453"]](https://upload.wikimedia.org/wikipedia/commons/b/b1/Dendritic_spines.jpg){#fig-dendritic-spines}
 :::
 ::::
 
@@ -506,11 +522,25 @@ See also: <https://en.wikipedia.org/wiki/Myelin>
 - Varied shapes
 - Nucleus
 	+ Chromosomes
-- Organelles
-	+ Mitochondria
-	+ Smooth and Rough Endoplasmic reticulum (ER)
+	- 70-84% of human genes expressed in the brain [@Negi2017-vh]
 :::
 ::: {.column width=50%}
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Complete_neuron_cell_diagram_en.svg/1280px-Complete_neuron_cell_diagram_en.svg.png)
+:::
+::::
+
+
+## Soma (cell body)
+
+:::: {.columns}
+::: {.column width=60%}
+- Nucleus
+	+ Mitochondria
+	  - Source of Adenosine Triphosphate (ATP), chemical energy
+	+ Smooth and Rough Endoplasmic reticulum (ER)
+	  - Synthesis of proteins, lipids, calcium storage, ...
+:::
+::: {.column width=40%}
 ![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Complete_neuron_cell_diagram_en.svg/1280px-Complete_neuron_cell_diagram_en.svg.png)
 :::
 ::::
@@ -593,7 +623,7 @@ See also: <https://en.wikipedia.org/wiki/Myelin>
     + Granule cells
 :::
 ::: {.column width=50%}
-![Pyramidal cell (Wikipedia)](https://upload.wikimedia.org/wikipedia/commons/6/6d/GolgiStainedPyramidalCell.jpg){fig-align="right" width="70%" #fig-pyramidal-cell}
+![@Wikipedia-contributors2026-im^["A human neocortical pyramidal cell stained via Golgi's method. The apical dendrite extends vertically above the soma (cell body) and the numerous basal dendrites radiate laterally from the base of the cell body. Photo by Bob Jacobs, Laboratory of Quantitative Neuromorphology Department of Psychology Colorado College https://www.coloradocollege.edu/basics/contact/directory/people/jacobs_bob.html."]](https://upload.wikimedia.org/wikipedia/commons/6/6d/GolgiStainedPyramidalCell.jpg){fig-align="right" width="70%" #fig-pyramidal-cell}
 :::
 ::::
 
@@ -1100,25 +1130,10 @@ What is the *sign* of the equilibrium potential for $Na^+$
 :::
 ::::
 
-<!-- ## [Equilibrium potentials](http://www.physiologyweb.com/calculators/nernst_potential_calculator.html) -->
-
-<!-- Under typical conditions -->
-
-<!-- | Ion | [inside]  | [outside]    | Voltage    | -->
-<!-- |-----|-----------|--------------|------------| -->
-<!-- | $K^+$  | ~150 mM   | ~4 mM        | ~ -90 mV    | -->
-<!-- | $Na^+$ | ~10 mM    | ~140 mM      | ~ +55-60 mV | -->
-<!-- | $Cl-$ | ~10 mM    | ~110 mM      | - 65-80 mV  | -->
-
-<!-- --- -->
-
-<!-- ![](http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/nernst_equation_v_k.gif) -->
-
 ---
 
 ::: {#fig-resting-potential-video}
 <iframe width="1280" height="450" src="https://www.youtube.com/embed/PtKAeihnbv0?si=tzS8_sY3z_IPdAch" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 @khanacademymedicine2012-fl
 :::
@@ -1138,6 +1153,7 @@ What is the *sign* of the equilibrium potential for $Na^+$
   - Myelinating cells (Oligodendrocytes in CNS & Schwann cells in PNS)
   - Microglia
 - Neurons may be classified by multiple structural and functional features
+  - Directional information flow: Dendrites $\rightarrow$ soma $\rightarrow$ axon
 
 ## Main points
 
@@ -1145,11 +1161,17 @@ What is the *sign* of the equilibrium potential for $Na^+$
   - Na/K-ATPase creates concentration differences inside & outside the cell
   - $K^+$ concentrated inside; $Na^+$ outside
 - Membrane has channels that permit ions to flow
+  - When the channels are *open*; some are gated (open and close).
 
 ## Main points
 
 - Neuron's -60-70 mV resting potential a combination of outward flows of $K^+$ and inward flows of $Na^+$
-- Balance between force of diffusion & electrostatic forces
+  - Compromise between the -90 mV equilibrium potential for $K^+$ and the +50 mV value for $Na^+$
+- Balance between force of diffusion & electrostatic force
+
+---
+
+![](https://m.media-amazon.com/images/I/71ejRBpSyWL._AC_SY879_.jpg){fig-align="center" width="40%"}
 
 ## Next time
 

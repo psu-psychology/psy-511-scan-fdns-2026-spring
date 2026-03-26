@@ -20,6 +20,7 @@ canvas_db <- psy_511_vars |>
 ## Goals
 
 1. To more deeply understand the specific *actions* associated with some internal state or behavior and the *perceptual information* that influences that state or behavior.
+2. To explore whether focusing on perceptual information or actions sheds light on the interplay among them, especially when thinking about internal mental states.
 
 ## Activity
 
@@ -40,8 +41,14 @@ To the best of your ability, annotate your flow diagram with specific nervous sy
 
 Is the behavior or internal state regulated in some way? In other words, does perceptual information alter the intensity or character of the behavior or state? If so how?
 
+Does taking a perception/processing/action perspective inform understanding about the behavior or state in particular ways?
+
+Similarly, how does capturing the information flows in a diagram shed light on the behavior or state?
+
 ## Submission details
 
 - Submit your write-up by **`{r} ex_due`** via the Canvas [dropbox](`{r} canvas_db`).
 - If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.
+- Always use page numbers, double-spacing, and APA citation format.
+- While variations are acceptable, the 5 paragraph essay format is a good choice here. Make sure that your paper makes a specific claim or argument in a thesis sentence contained in your introduction and that you restate your thesis in a concluding paragraph.
 - If you found any resources that were especially useful to you in answering these questions, please cite them.

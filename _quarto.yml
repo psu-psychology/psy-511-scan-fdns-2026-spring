@@ -36,6 +36,8 @@ website:
             href: exercises/ex-PA.qmd
           - text: "Final Project proposal"
             href: exercises/final-project.qmd
+          - text: "Measuring emotion"
+            href: exercises/ex-EMO.qmd
           - text: "Ex ZZ • Sleep & Circadian Rhythms"
             href: exercises/ex-ZZ.qmd
           - text: "Ex EVO • Evolution"
