@@ -46,6 +46,8 @@ website:
             href: exercises/ex-DEV.qmd
           - text: "Ex PHYS • Neurophysiology I"
             href: exercises/ex-PHYS.qmd
+          - text: "Ex AP • Neurophysiology II"
+            href: exercises/ex-AP.qmd
       - section: "Slides"
         contents:
           - text: "Wk 01 • Thu Jan 14"
@@ -68,6 +70,8 @@ website:
             href: slides/wk-09-2026-03-19-evo-devo.qmd
           - text: "Wk 10 • Thu Mar 26"
             href: slides/wk-10-2026-03-26-cells.qmd
+          - text: "Wk 11 • Thu Apr 02"
+            href: slides/wk-11-2026-04-02-neural-comm.qmd
       - section: "Resources"
         contents:
           - text: "Student interests (Ex LVL)"

@@ -395,13 +395,9 @@ ex_phys_due <- psy_511_vars |>
   - Action potential
   - Synaptic transmission
 
-#### Read/Watch
+#### Materials
 
-- [Cellular neuroscience notes](404.qmd)
-
-<!-- #### Materials -->
-
-<!-- - [Slides]() -->
+- [Slides](slides/wk-11-2026-04-02-neural-comm.qmd)
 
 #### Assignment(s)
 
