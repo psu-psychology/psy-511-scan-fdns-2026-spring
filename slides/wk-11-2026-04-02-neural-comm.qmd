@@ -186,10 +186,10 @@ Which ion, $K^+$ or $Na^+$ has the strongest driving force when the neuron is at
     - $[K^+]_{i} >> [K^+]_{o}$
     - $[Na^+]_{i} << [Na^+]_{o}$
 
-| Phase | Ion | Driving force | Flow direction | Flow magnitude |
+| Phase | Ion | Driving force |  Flow magnitude | Flow direction |
 |-------|-----|---------------|----------------|----------------|
-| Rest  | $K^+$  | $\approx$ +20 mV         | out            | small^[Approaching V_K.]          |
-|       | $Na^+$ | $\approx$ -125 mV        | in             | small^[Membrane not very permeable.]          |
+| Rest  | $K^+$  | $\approx$ +20 mV         | small^[Approaching V_K.]  | out   | 
+|       | $Na^+$ | $\approx$ -125 mV        | small^[Membrane not very permeable.]  | in  | 
 
 ## Depolarization (rising)
 
@@ -207,10 +207,10 @@ Which ion, $K^+$ or $Na^+$ has the strongest driving force when the neuron is at
 
 ---
 
-| Phase | Ion | Driving force | Flow direction | Flow magnitude |
+| Phase | Ion | Driving force |  Flow magnitude | Flow direction |
 |-------|-----|---------------|----------------|----------------|
-| Rising| $K^+$  | growing       | out            | growing        |
-|       | $Na^+$ | shrinking     | in             | high           |
+| Rising| $K^+$  | growing       | growing        | out            | 
+|       | $Na^+$ | shrinking     | high           | in             | 
 
 ## Peak
 
@@ -240,10 +240,10 @@ Which ion, $K^+$ or $Na^+$ has the strongest driving force when the neuron is at
 
 ---
 
-| Phase | Ion | Driving force | Flow direction | Flow magnitude |
+| Phase | Ion | Driving force |  Flow magnitude | Flow direction |
 |-------|-----|---------------|----------------|----------------|
-| Peak  | $K^+$  | 120 mV        | out            | high           |
-|       | $Na^+$ | 20 mV         | in            | small          |
+| Peak  | $K^+$  | 120 mV        | high           | out            | 
+|       | $Na^+$ | 20 mV         | small          | in            | 
 
 ## Repolarization (falling)
 
@@ -261,10 +261,10 @@ Which ion, $K^+$ or $Na^+$ has the strongest driving force when the neuron is at
 
 ---
 
-| Phase | Ion | Driving force | Flow direction | Flow magnitude |
+| Phase | Ion | Driving force | Flow magnitude | Flow direction | 
 |-------|-----|---------------|----------------|----------------|
-| Falling | K | shrinking     | out            | high           |
-|       | $Na^+$ | growing       | in             | small          |
+| Falling | $K^+$ | shrinking     | high           | out            | 
+|       | $Na^+$ | growing       | small          | in             | 
 
 ## Refractory phase(s)
 
@@ -324,10 +324,10 @@ Which ion, $K^+$ or $Na^+$ has the strongest driving force when the neuron is at
 
 ---
 
-| Phase | Ion | Driving force | Flow direction | Flow magnitude |
+| Phase | Ion | Driving force | Flow magnitude | Flow direction | 
 |-------|-----|---------------|----------------|----------------|
-| Refractory | K | ~0 mV      | out            | small          |
-|       | $Na^+$ | 145 mV        | in             | small          |
+| Refractory | $K^+$ | ~0 mV      | small          | out            | 
+|       | $Na^+$ | 145 mV        | small          | in             | 
 
 ---
 
@@ -604,7 +604,7 @@ Which ion, $K^+$ or $Na^+$ has the strongest driving force when the neuron is at
 - Why must NTs be inactivated?
 - What sort of PSP would *opening* a $Na^+$ channel produce?
 - What sort of PSP would *opening* a $Cl^-$ channel produce?
-- What sort of PSP would *closing* a $K^+$ produce?
+- What sort of PSP would *closing* a channel $K^+$ produce?
 :::
 :::
 

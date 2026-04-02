@@ -224,7 +224,7 @@
     "href": "slides/wk-11-2026-04-02-neural-comm.html#neuron-at-rest",
     "title": "Neural communication",
     "section": "Neuron at rest",
-    "text": "Neuron at rest\n\n\\(Na^+\\)/\\(K^+\\) pump maintains concentrations (\\(Na^2\\) out; \\(K^+\\) in)\n\n\\([K^+]_{i} &gt;&gt; [K^+]_{o}\\)\n\\([Na^+]_{i} &lt;&lt; [Na^+]_{o}\\)\n\n\n\n\n\n\n\n\n\n\n\n\nPhase\nIon\nDriving force\nFlow direction\nFlow magnitude\n\n\n\n\nRest\n\\(K^+\\)\n\\(\\approx\\) +20 mV\nout\nsmall5\n\n\n\n\\(Na^+\\)\n\\(\\approx\\) -125 mV\nin\nsmall6",
+    "text": "Neuron at rest\n\n\\(Na^+\\)/\\(K^+\\) pump maintains concentrations (\\(Na^2\\) out; \\(K^+\\) in)\n\n\\([K^+]_{i} &gt;&gt; [K^+]_{o}\\)\n\\([Na^+]_{i} &lt;&lt; [Na^+]_{o}\\)\n\n\n\n\n\n\n\n\n\n\n\n\nPhase\nIon\nDriving force\nFlow magnitude\nFlow direction\n\n\n\n\nRest\n\\(K^+\\)\n\\(\\approx\\) +20 mV\nsmall5\nout\n\n\n\n\\(Na^+\\)\n\\(\\approx\\) -125 mV\nsmall6\nin",
     "crumbs": [
       "Slides",
       "Wk 11 • Thu Apr 02"
@@ -543,7 +543,7 @@
     "href": "slides/wk-11-2026-04-02-neural-comm.html#questions-to-ponder",
     "title": "Neural communication",
     "section": "Questions to ponder",
-    "text": "Questions to ponder\n\n\n\n\n\n\nYour turn\n\n\n\nWhy do NTs diffuse from pre- to post-synaptic membrane?\nWhy must NTs be inactivated?\nWhat sort of PSP would opening a \\(Na^+\\) channel produce?\nWhat sort of PSP would opening a \\(Cl^-\\) channel produce?\nWhat sort of PSP would closing a \\(K^+\\) produce?",
+    "text": "Questions to ponder\n\n\n\n\n\n\nYour turn\n\n\n\nWhy do NTs diffuse from pre- to post-synaptic membrane?\nWhy must NTs be inactivated?\nWhat sort of PSP would opening a \\(Na^+\\) channel produce?\nWhat sort of PSP would opening a \\(Cl^-\\) channel produce?\nWhat sort of PSP would closing a channel \\(K^+\\) produce?",
     "crumbs": [
       "Slides",
       "Wk 11 • Thu Apr 02"
