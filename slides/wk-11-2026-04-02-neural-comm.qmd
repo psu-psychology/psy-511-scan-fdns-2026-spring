@@ -84,7 +84,7 @@ format: revealjs
   - charging capacitor has increasing voltage
 - Outflow would stop when *membrane potential*, $V_m$ = *equilibrium potential* for $K^+$
 
-## Equilibrium potential**
+## Equilibrium potential
 
 - Voltage ($V_{K}$) that keeps system in equilibrium
     - $[K^+]_{in}$ >> $[K^+]_{out}$
@@ -169,7 +169,7 @@ Which ion, $K^+$ or $Na^+$ has the strongest driving force when the neuron is at
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/1920px-Action_potential.svg.png){width="65%"}
 :::
 ::: {.column width=50%}
-![](http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif)
+![](../include/img/actpot4.gif)
 :::
 ::::
 
@@ -201,7 +201,7 @@ Which ion, $K^+$ or $Na^+$ has the strongest driving force when the neuron is at
     - continued $K^+$ outflow through passive channels
 :::
 ::: {.column width=50%}
-![](http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif)
+![](../include/img/actpot4.gif)
 :::
 ::::
 
@@ -221,7 +221,7 @@ Which ion, $K^+$ or $Na^+$ has the strongest driving force when the neuron is at
     - Slow inflow due to small driving force (+30 mV - 55mV = -25 mv)
 :::
 ::: {.column width=50%}
-![](http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif)
+![](../include/img/actpot4.gif)
 :::
 ::::
 
@@ -234,7 +234,7 @@ Which ion, $K^+$ or $Na^+$ has the strongest driving force when the neuron is at
     - Fast outflow due to strong driving force (+30 mv - (-90 mv) = +120 mV)
 :::
 ::: {.column width=50%}
-![](http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif)
+![](../include/img/actpot4.gif)
 :::
 ::::
 
@@ -255,7 +255,7 @@ Which ion, $K^+$ or $Na^+$ has the strongest driving force when the neuron is at
     - Through passive channels only
 :::
 ::: {.column width=50%}
-![](http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif)
+![](../include/img/actpot4.gif)
 :::
 ::::
 
@@ -279,7 +279,7 @@ Which ion, $K^+$ or $Na^+$ has the strongest driving force when the neuron is at
 - Membrane potential more negative (-90 mV) than at rest (-70 mV)
 :::
 ::: {.column width=50%}
-![](http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif)
+![](../include/img/actpot4.gif)
 :::
 ::::
 
@@ -291,7 +291,7 @@ Which ion, $K^+$ or $Na^+$ has the strongest driving force when the neuron is at
     - Driving force on $Na^+$ high (-90 mv - 55 mV = -145 mV), but too bad
 :::
 ::: {.column width=50%}
-![](http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif)
+![](../include/img/actpot4.gif)
 :::
 ::::
 
@@ -304,7 +304,7 @@ Which ion, $K^+$ or $Na^+$ has the strongest driving force when the neuron is at
 - $Na^+$/$K^+$ pump restoring concentration balance
 :::
 ::: {.column width=50%}
-![](http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif)
+![](../include/img/actpot4.gif)
 :::
 ::::
 
@@ -318,7 +318,7 @@ Which ion, $K^+$ or $Na^+$ has the strongest driving force when the neuron is at
     - Membrane potential is more negative than resting potential
 :::
 ::: {.column width=50%}
-![](http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif) 
+![](../include/img/actpot4.gif) 
 :::
 ::::
 
