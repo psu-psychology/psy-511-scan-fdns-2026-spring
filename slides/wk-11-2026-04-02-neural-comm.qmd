@@ -7,12 +7,27 @@ format: revealjs
 
 ## For fun
 
+::: {#fig-stevie-wonder-superstition}
+<iframe width="1240" height="450" src="https://www.youtube.com/embed/97hwNY3ni10?si=2k0feL7PKLxzhtNm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+@Musikladen2020-id
+:::
+
 ## Announcements
+
+- *Due*: [Exercise DEV • Development](../exercises/ex-DEV.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005338)
+- *Due*: [Exercise PHYS • Neurophysiology I](../exercises/ex-PHYS.qmd)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005427)
+- *Assigned*: [Exercise AP • Neurophysiology II](../exercises/ex-AP.qmd)
+  - *Due*: 2026-04-09 (next Thursday)
+  - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005465)
 
 ## Today's topics
 
-- The action potential
-- Synaptic transmission
+- Neural communication
+  - The action potential
+  - Synaptic transmission
 
 ## Warm-up
 
