@@ -394,6 +394,10 @@ ex_phys_due <- psy_511_vars |>
 - Cellular neuroscience II
   - Action potential
   - Synaptic transmission
+  
+#### Read/Watch
+
+- @Henley2021-kx
 
 #### Materials
 
@@ -431,12 +435,12 @@ ex_ap_due <- psy_511_vars |>
 
 #### Read/Watch
 
-- [Neurochemistry notes](404.qmd)
+- @Henley2021-ii; @Henley2021-ix; @Henley2021-fg
 - Optional: @Sarkar2016-qf.
 
-<!-- #### Materials -->
+#### Materials
 
-<!-- - [Slides]() -->
+- [Slides](slides/wk-12-2026-04-09-neurochemistry.qmd)
 
 #### Assignment(s)
 
