@@ -436,91 +436,126 @@ What is the effect of *inhibiting* neurotransmitter inactivation?
 - Release enhanced by cortisol from adrenal cortex
 - Unusual in NOT being part of negative feedback system controlling its own release
 
-## Serotonin (5-hydroxytryptamine or 5-HT)
-
-- Released by *raphe nuclei* in brainstem
-
-![https://en.wikipedia.org/wiki/Serotonin_pathway](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Serotonergic_neurons.svg/1280px-Serotonergic_neurons.svg.png)
-
 - Role in mood, sleep, eating, pain, nausea, cognition, memory
 - Modulates release of other NTs
-- Most (90%; [[@De_Ponti2004-lo]](http://dx.doi.org/10.1136/gut.2003.035568)) of body's 5-HT regulates digestion
+- 
 
---- 
+## Serotonin (5-hydroxytryptamine or 5-HT)
 
+:::: {.columns}
+::: {.column width=50%}
+- Released by *raphe nuclei* in brainstem
+- Role in mood, sleep, eating, pain, nausea, cognition, memory
+- Modulates release of other NTs
+:::
+::: {.column width=50%}
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Serotonergic_neurons.svg/1280px-Serotonergic_neurons.svg.png)
+:::
+::::
+
+## 5-HT in the PNS
+
+:::: {.columns}
+::: {.column width=50%}
+- Most (90%; @De_Ponti2004-lo) of body's $\approx$ 250K 5-HT neurons regulate digestion
+- via Enteric Nervous System (in PNS)
+:::
+::: {.column width=50%}
+![@Furness2012-dy](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrgastro.2012.32/MediaObjects/41575_2012_Article_BFnrgastro201232_Fig1_HTML.jpg){width="70%"}
+:::
+::::
+
+## 5-HT in the CNS
+
+:::: {.columns}
+::: {.column width=50%}
 - Separate cortical, subcortical 5-HT projection pathways?
+:::
+::: {.column width=50%}
+![@Ren2018-zl](https://ars.els-cdn.com/content/image/1-s2.0-S0092867418309711-fx1.jpg)
+:::
+::::
 
----
+## 5-HT receptors
 
-![[@Ren2018-zl]](https://ars.els-cdn.com/content/image/1-s2.0-S0092867418309711-fx1.jpg)
+- Seven families (5-HT 1-7) with 14 types
+- All but one (5-HT3) metabotropic
+    - 5-HT3 receptor antagonists (e.g., ondansetron) are antimimetics used in treating nausea
 
-- Seven receptor families (5-HT 1-7) with 14 types
-- All but one metabotropic
+## 5-HT clinical relevance
 
-## 5-HT Clinical relevance
-
+:::: {.columns}
+::: {.column width=50%}
 - Ecstasy (MDMA) disturbs serotonin
 - So does LSD
 - Fluoxetine (Prozac)
     + *Selective Serotonin Reuptake Inhibitor (SSRI)*
     + Treats depression, panic, eating disorders, others
-- 5-HT3 receptor antagonists (e.g., ondansetron) are anti-mimetics used in treating nausea; 5-HT3 receptor is *ionotropic*.
+:::
+::: {.column width=50%}
+![Wikipedia^["In this drawing of the brain, the serotonergic system is red and the mesolimbic dopamine pathway is blue. There is one collection of serotonergic neurons in the upper brainstem that sends axons upwards to the whole cerebrum, and one collection next to the cerebellum that sends axons downward to the spinal cord. Slightly forward the upper serotonergic neurons is the ventral tegmental area (VTA), which contains dopaminergic neurons. These neurons' axons then connect to the nucleus accumbens, hippocampus, and the frontal cortex. Over the VTA is another collection of dopaminergic cells, the substansia nigra, which send axons to the striatum."]](https://upload.wikimedia.org/wikipedia/commons/a/aa/Pubmed_equitativa_hormonal.png)
+:::
+::::
 
-<p><a href="https://commons.wikimedia.org/wiki/File:Pubmed_equitativa_hormonal.png#/media/File:Pubmed_equitativa_hormonal.png"><img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Pubmed_equitativa_hormonal.png" alt="In this drawing of the brain, the serotonergic system is red and the mesolimbic dopamine pathway is blue. There is one collection of serotonergic neurons in the upper brainstem that sends axons upwards to the whole cerebrum, and one collection next to the cerebellum that sends axons downward to the spinal cord. Slightly forward the upper serotonergic neurons is the ventral tegmental area (VTA), which contains dopaminergic neurons. These neurons' axons then connect to the nucleus accumbens, hippocampus, and the frontal cortex. Over the VTA is another collection of dopaminergic cells, the substansia nigra, which send axons to the striatum."></a><br>Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=45159949">Link</a></p>
+## 5-HT clinical relevance
 
+:::: {.columns}
+::: {.column width=50%}
 - Different psychological roles (passive vs. active coping) associated with different 5-HT receptor subtypes? [@Carhart-Harris2017-aq]
-
-## Comparisons among neuromodulators
-
-![[Figure 1 from @Avery2017-iv]](https://www.frontiersin.org/files/Articles/300066/fncir-11-00108-HTML/image_m/fncir-11-00108-g001.jpg)
-
-- Limited evidence for specific functions by neuromodulator
-- Same neuromodulators -> different effects on different target areas
-- Most neuromodulators relate to attention and novelty detection
-- Neuromodulators interact with one another
+- "No consistent of there being an association between serotonin and depression..." [@Moncrieff2022-os]
+:::
+::: {.column width=50%}
+![Wikipedia^["In this drawing of the brain, the serotonergic system is red and the mesolimbic dopamine pathway is blue. There is one collection of serotonergic neurons in the upper brainstem that sends axons upwards to the whole cerebrum, and one collection next to the cerebellum that sends axons downward to the spinal cord. Slightly forward the upper serotonergic neurons is the ventral tegmental area (VTA), which contains dopaminergic neurons. These neurons' axons then connect to the nucleus accumbens, hippocampus, and the frontal cortex. Over the VTA is another collection of dopaminergic cells, the substansia nigra, which send axons to the striatum."]](https://upload.wikimedia.org/wikipedia/commons/a/aa/Pubmed_equitativa_hormonal.png)
+:::
+::::
 
 ## Melatonin
 
+:::: {.columns}
+::: {.column width=50%}
 - Released by *pine*al gland (pine cone-like appearance)
-
-![](https://iamtheslightedge.com/wp-content/uploads/2020/05/pinealgland.jpg)
-
-::: {.callout-note}
-
-## Seat of the soul? @Lokhorst2005-ol
-
-![https://www.salon.com/2021/05/15/how-the-pineal-gland-became-an-obsession-for-both-spiritualists-and-sci-fi-writers/](https://mediaproxy.salon.com/width/1200/https://media2.salon.com/2021/05/descartes-pineal-gland-0514211.jpg)
-
+- Neurotransmitter & hormone
 :::
+::: {.column width=50%}
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/6/6d/Pineal_gland.gif)
+:::
+::::
 
 ## Histamine (HA)
 
+:::: {.columns}
+::: {.column width=50%}
 - Released by hypothalamus, projects to whole brain.
-
-![[@Haas2003-gh]. About 64,000 histamine-producing neurons, located in the tuberomamillary nucleus119 of the human brain, innervate all of the major parts of the cerebrum, cerebellum, posterior piuitary and the spinal cord.](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn1034/MediaObjects/41583_2003_Article_BFnrn1034_Fig1_HTML.jpg?as=webp)    
-
 - $H_1$-$H_4$ Metabotropic receptors, one ionotropic type in thalamus/hypothalamus
+:::
+::: {.column width=50%}
+![@Haas2003-gh Figure 1^["About 64,000 histamine-producing neurons, located in the tuberomamillary nucleus119 of the human brain, innervate all of the major parts of the cerebrum, cerebellum, posterior piuitary and the spinal cord."]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn1034/MediaObjects/41583_2003_Article_BFnrn1034_Fig1_HTML.jpg?as=webp) 
+:::
+::::
+
+## Histamine (HA)
+
+:::: {.columns}
+::: {.column width=50%}
 - Role in arousal/sleep regulation
 - In body, part of immune/inflammatory response
-
-## Targets of psychotropic drugs
-
-![Source: https://stahlonline.cambridge.org/essential_4th_chapter.jsf?page=chapter2_summary.htm&name=Chapter%202&title=Summary](../include/img/psychotropic-drug-targets.jpg)
-
-- Transporters
-- G-protein-linked (metabotropic receptors)
-- Enzymes
-- Ligand-gated channels
-- Voltage-gated (ionotropic receptors)
+:::
+::: {.column width=50%}
+![@Haas2003-gh Figure 1^["About 64,000 histamine-producing neurons, located in the tuberomamillary nucleus119 of the human brain, innervate all of the major parts of the cerebrum, cerebellum, posterior piuitary and the spinal cord."]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn1034/MediaObjects/41583_2003_Article_BFnrn1034_Fig1_HTML.jpg?as=webp) 
+:::
+::::
 
 ## Other NTs
 
 - Gases
     + *Nitric Oxide (NO)*, *carbon monoxide (CO)*
 - Neuropeptides
-    + *Substance P* and *endorphins* (endogenous morphine-like compounds) have role in pain
-    + *Orexin/hypocretin*, project from lateral hypothalamus across brain, regulates appetite, arousal
+    + *Substance P* and *endorphins* (endogenous morphine-like compounds) regulate pain
     + *Cholecystokinin (CCK)* stimulates digestion
+    + *Orexin/hypocretin*, project from lateral hypothalamus across brain, regulates appetite, arousal
+
+## Other NTs
+
 - Purines
     + *Adenosine* (inhibited by caffeine)
 - Others
@@ -528,41 +563,66 @@ What is the effect of *inhibiting* neurotransmitter inactivation?
 
 # Hormones
 
-## Hormonal communication
+## What are hormones?
 
 - Chemicals secreted into blood
 - Act on specific target tissues via receptors
 - Produce specific effects
 
-## Examples of substances that are both hormones and NTs
+## Both NTs and hormones
     
 - Melatonin
 - Epinephrine/adrenaline
 - Oxytocin
 - Arginine Vasopressin (AVP) or Anti-Diuretic Hormone (ADH)
+- Corticotropic Releasing Hormone (CRH)
     
 ## Behaviors under hormonal influence
 
-## Ingestive (eating/ drinking)
+## Physiological responses and behaviors under hormonal influence
 
-+ Fluid levels
-+ Na, K, Ca levels 
-+ Digestion
-+ Blood glucose levels
+:::: {.columns}
+::: {.column width=50%}
+- Ingestive (eating/ drinking)
+    + Fluid levels
+    + Na, K, Ca levels 
+    + Digestion
+    + Blood glucose levels
+:::
+::: {.column width=50%}
+![](https://yourkidstable.com/wp-content/uploads/2017/12/graphicstock-close-up-of-cute-little-girl-in-the-kitchen-sitting-in-high-chair-eating-watermelon_r_bBNYOUfb-768x511.jpg)
+:::
+::::
 
-## Reproduction-related
+## Physiological responses and behaviors under hormonal influence
 
-+ Sexual Maturation
-+ Mating
-+ Birth
-+ Care giving
+:::: {.columns}
+::: {.column width=50%}
+- Reproduction
+    + Sexual Maturation
+    + Mating
+    + Birth
+    + Caregiving
+:::
+::: {.column width=50%}
+![](http://2.bp.blogspot.com/-LziO1SbCVbU/UeqmTPOCJiI/AAAAAAAACUI/u7mCG4vlf_U/s1600/reprodution.JPG+51.jpg)
+:::
+::::
+    
+## Physiological responses and behaviors under hormonal influence
 
-## Responses to threat/challenge
-
-+ Metabolism
-+ Heart rate, blood pressure 
-+ Digestion
-+ Arousal
+:::: {.columns}
+::: {.column width=50%}
+- Responses to threat/challenge
+    + Metabolism
+    + Heart rate, blood pressure 
+    + Digestion
+    + Arousal
+:::
+::: {.column width=50%}
+![](http://www.howitworksdaily.com/wp-content/uploads/2012/07/dreamstime_s_14557293.jpg)
+:::
+::::
 
 ## Common factors
 
@@ -621,100 +681,198 @@ What is the effect of *inhibiting* neurotransmitter inactivation?
 :::
 ::::
 
-## Hormone release from hypothalamus 
+## Two release systems
 
-- Direct
-- Indirectd
+- From hypothalamus via pituitary
+  - Direct
+  - Indirect
 
 ## Direct release
 
-- Hypothalamus (paraventricular, supraoptic nucleus) to
+:::: {.columns}
+::: {.column width=50%}
+- Hypothalamus ->
 - Posterior pituitary
     + *Oxytocin*
-    + *Arginine Vasopressin (AVP, vasopressin)*
-
-![Source: https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/1807_The_Posterior_Pituitary_Complex.jpg/594px-1807_The_Posterior_Pituitary_Complex.jpg](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/1807_The_Posterior_Pituitary_Complex.jpg/594px-1807_The_Posterior_Pituitary_Complex.jpg)
+    + *Arginine Vasopressin (AVP, vasopressin)*, also known as anti-diuretic hormone (ADH)
+:::
+::: {.column width=50%}
+![@Hacking2016-sy](https://prod-images-static.radiopaedia.org/images/31285207/3997ae412a0ccea5f879e7e23bd31c_big_gallery.jpeg){fig-align="right"}
+:::
+::::
 
 ## Indirect release
 
+:::: {.columns}
+::: {.column width=50%}
 - Hypothalamus -> *releasing hormones* 
 - Anterior pituitary -> *tropic hormones*
+:::
+::: {.column width=50%}
+![@Wikipedia-contributors2026-ve^["By OpenStax College - Anatomy & Physiology, Connexions Web site. http://cnx.org/contents/IgqATiKA@3/The-Pituitary-Gland-and-Hypoth, Jun 19, 2013., CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=30148144"]](https://upload.wikimedia.org/wikipedia/commons/e/ef/1808_The_Anterior_Pituitary_Complex.jpg)
+:::
+::::
+
+## Indirect release
+
+:::: {.columns}
+::: {.column width=50%}
+- Blood stream ->
 - End organs
-
+:::
+::: {.column width=50%}
 ![*Biological Psychology 4e*](../include/img/indirect-release.jpg){#fig-hormone-release-pathways}
+:::
+::::
 
-## Case studies
+# Case studies
 
 ## Responses to threat or challenge
 
-![[Figure 1 from @ulrich-lai_neural_2009]. Figure 1: General scheme of brain acute-stress regulatory pathways. Stressors activate brainstem and/or forebrain limbic structures. The brainstem can generate rapid hypothalamic-pituitary-adrenal (HPA) axis and autonomic nervous system (ANS) responses through direct projections to hypophysiotrophic neurons in the paraventricular nucleus of the hypothalamus (PVN) or to preganglionic autonomic neurons (stress response triggers). By contrast, forebrain limbic regions have no direct connections with the HPA axis or the ANS and thus require intervening synapses before they can access autonomic or neuroendocrine neurons (top-down regulation). A high proportion of these intervening neurons are located in hypothalamic nuclei that are also responsive to homeostatic status, providing a mechanism by which the descending limbic information can be modulated according to the physiological status of the animal ('middle management'). BST, bed nucleus of the stria terminalis; CVO, circumventricular organ; SAM, sympathoadrenomedullary system.](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2647/MediaObjects/41583_2009_Article_BFnrn2647_Fig1_HTML.jpg?as=webp)
+![@ulrich-lai_neural_2009 Figure 1^["Figure 1: General scheme of brain acute-stress regulatory pathways. Stressors activate brainstem and/or forebrain limbic structures. The brainstem can generate rapid hypothalamic-pituitary-adrenal (HPA) axis and autonomic nervous system (ANS) responses through direct projections to hypophysiotrophic neurons in the paraventricular nucleus of the hypothalamus (PVN) or to preganglionic autonomic neurons (stress response triggers). By contrast, forebrain limbic regions have no direct connections with the HPA axis or the ANS and thus require intervening synapses before they can access autonomic or neuroendocrine neurons (top-down regulation). A high proportion of these intervening neurons are located in hypothalamic nuclei that are also responsive to homeostatic status, providing a mechanism by which the descending limbic information can be modulated according to the physiological status of the animal ('middle management'). BST, bed nucleus of the stria terminalis; CVO, circumventricular organ; SAM, sympathoadrenomedullary system."]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2647/MediaObjects/41583_2009_Article_BFnrn2647_Fig1_HTML.jpg?as=webp)
 
+## Responses to threat or challenge
+
+:::: {.columns}
+::: {.column width=50%}
 - Neural response
     + *Sympathetic Adrenal Medulla (SAM) response*
     + Sympathetic NS activation of adrenal medulla, other organs
     + Releases NE and Epi into bloodstream
-    
-![[Figure 2 from @ulrich-lai_neural_2009]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2647/MediaObjects/41583_2009_Article_BFnrn2647_Fig2_HTML.jpg?as=webp)
-  
+:::
+::: {.column width=50%}
+
+![@ulrich-lai_neural_2009 Figure 2](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2647/MediaObjects/41583_2009_Article_BFnrn2647_Fig2_HTML.jpg?as=webp)
+:::
+::::
+
+## Responses to threat or challenge
+
+:::: {.columns}
+::: {.column width=50%}
 - Endocrine response
     + *Hypothalamic Pituitary Adrenal (HPA) axis*
     + Adrenal hormones released
-    
-![[@Deussing2018-ub]. FIGURE 1. Effector systems of the stress response. A stressor elicits rapid activation of the autonomic nervous system with its sympathoneuronal (SN) and sympatho-adrenomedullary (SAM) limbs releasing their main effectors, noradrenaline and adrenaline, respectively. Activation of the hypothalamic-pituitary-adrenocortical (HPA) axis results in synthesis and release of its main effector, cortisol or corticosterone, in rodents. ACTH, adrenocorticotropic hormone; CRF, corticotropin-releasing factor.](https://journals.physiology.org/cms/10.1152/physrev.00042.2017/asset/images/medium/z9j0041828650001.gif)
+:::
+::: {.column width=50%}
+![@Deussing2018-ub Figure 1^["FIGURE 1. Effector systems of the stress response. A stressor elicits rapid activation of the autonomic nervous system with its sympathoneuronal (SN) and sympatho-adrenomedullary (SAM) limbs releasing their main effectors, noradrenaline and adrenaline, respectively. Activation of the hypothalamic-pituitary-adrenocortical (HPA) axis results in synthesis and release of its main effector, cortisol or corticosterone, in rodents. ACTH, adrenocorticotropic hormone; CRF, corticotropin-releasing factor."]](https://journals.physiology.org/cms/10.1152/physrev.00042.2017/asset/images/medium/z9j0041828650001.gif)
+:::
+::::
+  
+## Endocrine responses
 
+:::: {.columns}
+::: {.column width=50%}
 - Hypothalamus
     + *Corticotropin Releasing Hormone (CRH)* or *Corticotropin Releasing Factor (CRF)*
     + Paraventricular nucleus (PVN)
 - Anterior pituitary
     + *Adrenocorticotropic hormone (ACTH)*
+:::
+::: {.column width=50%}
+![@ulrich-lai_neural_2009 Figure 3^["Figure 3: The brain circuitry that regulates HPA axis stress responses. Stress-induced activation of the dorsal part of the medial parvocellular paraventricular nucleus of the hypothalamus (PVNmpd) originates in several brain regions (excitatory inputs are coloured blue with solid lines and inhibitory (GABA (γ-aminobutyric acid)-ergic) inputs are coloured red with dashed lines). The paraventricular nucleus of the hypothalamus (PVN) receives direct noradrenergic, adrenergic and peptidergic innervation from the nucleus of the solitary tract (NTS). The dorsomedial components of the dorsomedial hypothalamus (dmDMH) and the arcuate nucleus (Arc) provide intrahypothalamic stress excitation. The anterior part of the bed nucleus of the stria terminalis (BST), particularly the anteroventral nucleus of the BST (avBST), activates hypothalamic-pituitary-adrenocortical (HPA) axis stress responses. The PVN also receives a stress-excitatory drive from the dorsal raphe, the tuberomammillary nucleus, the supramammillary nucleus and the spinal cord, among others (omitted in the interest of space). Activation of the PVNmpd is inhibited by numerous hypothalamic circuits, including the medial preoptic area (mPOA), the ventrolateral component of the dorsomedial hypothalamus (vlDMH) and local neurons in the peri-PVN region (pPVN), encompassing the PVN surround and the subparaventricular zone. The posterior subregions of the bed nucleus of the stria terminalis (pBST) provide a prominent forebrain inhibition of HPA axis responses; most of these inputs are GABAergic. Brain sections are modified, with permission, from Ref. 154 © (1998) Academic Press."]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2647/MediaObjects/41583_2009_Article_BFnrn2647_Fig3_HTML.jpg?as=webp)
+:::
+::::
+
+## Endocrine responses
+
+:::: {.columns}
+::: {.column width=50%}
 - Adrenal cortex
     + *Glucocorticoids (e.g., cortisol)*
     + *Mineralocorticoids (e.g. aldosterone)*
-  
-![[Figure 3 from @ulrich-lai_neural_2009]. Figure 3: The brain circuitry that regulates HPA axis stress responses. Stress-induced activation of the dorsal part of the medial parvocellular paraventricular nucleus of the hypothalamus (PVNmpd) originates in several brain regions (excitatory inputs are coloured blue with solid lines and inhibitory (GABA (γ-aminobutyric acid)-ergic) inputs are coloured red with dashed lines). The paraventricular nucleus of the hypothalamus (PVN) receives direct noradrenergic, adrenergic and peptidergic innervation from the nucleus of the solitary tract (NTS). The dorsomedial components of the dorsomedial hypothalamus (dmDMH) and the arcuate nucleus (Arc) provide intrahypothalamic stress excitation. The anterior part of the bed nucleus of the stria terminalis (BST), particularly the anteroventral nucleus of the BST (avBST), activates hypothalamic-pituitary-adrenocortical (HPA) axis stress responses. The PVN also receives a stress-excitatory drive from the dorsal raphe, the tuberomammillary nucleus, the supramammillary nucleus and the spinal cord, among others (omitted in the interest of space). Activation of the PVNmpd is inhibited by numerous hypothalamic circuits, including the medial preoptic area (mPOA), the ventrolateral component of the dorsomedial hypothalamus (vlDMH) and local neurons in the peri-PVN region (pPVN), encompassing the PVN surround and the subparaventricular zone. The posterior subregions of the bed nucleus of the stria terminalis (pBST) provide a prominent forebrain inhibition of HPA axis responses; most of these inputs are GABAergic. Brain sections are modified, with permission, from Ref. 154 © (1998) Academic Press.](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2647/MediaObjects/41583_2009_Article_BFnrn2647_Fig3_HTML.jpg?as=webp)
+:::
+::: {.column width=50%}
+![@ulrich-lai_neural_2009 Figure 3](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2647/MediaObjects/41583_2009_Article_BFnrn2647_Fig3_HTML.jpg?as=webp)
+:::
+::::
 
-- CRF receptors found throughout the brain
+## CRF receptors
 
-![[@Deussing2018-ub]. FIGURE 4. Distribution of mRNA expression of corticotropin-releasing factor (CRF)-related peptides in the rodent brain. Three-dimensional expression patterns of CRF-related peptide were collapsed onto a single sagittal brain section. Depicted are well-documented sites of high to moderate expression. Sites of expression are indicated by colored dots: CRF (orange), urocortin (UCN) 1 (green), UCN2 (light blue), UCN3 (purple). 7, Facial nerve; 12, hypoglossal nerve; Amb, ambiguous nucleus; AP, area postrema; arc, arcuate nucleus; Bar, Barrington’s nucleus; BLA, basolateral amygdala; BNST, bed nucleus of the stria terminalis (d, dorsal aspect; v, ventral aspect); CA1, cornu ammonis subfield 1; CA3, cornu ammonis subfield 3; CC, corpus callosum; CeA, central amygdala; Cereb, cerebellum; CingCx, cingulate cortex; CPu, caudate putamen; DeepN, deep nucleus of cerebellum; DG, dentate gyrus; EW, Edinger Westphal nucleus; FrCx, frontal cortex; GPe, external globus pallidus; Hip, hippocampus; IC, inferior colliculus; IO, inferior olive; IPN, interpeduncular nucleus; LC, locus coeruleus; LH, lateral hypothalamus; LS, lateral septum; LSO, lateral superior olive; LTDg, laterodorsal tegmental nucleus; MeA, medial amygdala; MePO, median preoptic area; MGN, medial geniculate nucleus; MS, medial septum; MVN, medial vestibular nucleus; NAc, nucleus accumbens; NTS, nucleus of the solitary tract; OB, olfactory bulb; OccCx, occipital cortex; OT, olfactory tubercle; PAG, periaqueductal gray; ParCx, parietal cortex; PB, parabrachial nucleus; PFA, perifornical area; PG, pontine gray; Pir, piriform cortex; Pit, pituitary (p, lobe, anterior lobe, intermediate, posterior lobe); PM, premammillary nucleus; PPTg, pedunculopontine tegmental nucleus; PVN, paraventricular nucleus of the hypothalamus; R, red nucleus; RN, raphe nuclei; RTB, reticular thalamic nucleus; SC, superior colliculus; SN, substantia nigra; Sp5n, spinal trigeminal nucleus; SPO, superior paraolivary nucleus; VMH, ventromedial hypothalamus, VTA, ventral tegmental area.](https://journals.physiology.org/cms/10.1152/physrev.00042.2017/asset/images/medium/z9j0041828650004.gif)
+:::: {.columns}
+::: {.column width=50%}
+- Found throughout the brain
+:::
+::: {.column width=50%}
+![@Deussing2018-ub Figure 4^["FIGURE 4. Distribution of mRNA expression of corticotropin-releasing factor (CRF)-related peptides in the rodent brain. Three-dimensional expression patterns of CRF-related peptide were collapsed onto a single sagittal brain section. Depicted are well-documented sites of high to moderate expression. Sites of expression are indicated by colored dots: CRF (orange), urocortin (UCN) 1 (green), UCN2 (light blue), UCN3 (purple). 7, Facial nerve; 12, hypoglossal nerve; Amb, ambiguous nucleus; AP, area postrema; arc, arcuate nucleus; Bar, Barrington’s nucleus; BLA, basolateral amygdala; BNST, bed nucleus of the stria terminalis (d, dorsal aspect; v, ventral aspect); CA1, cornu ammonis subfield 1; CA3, cornu ammonis subfield 3; CC, corpus callosum; CeA, central amygdala; Cereb, cerebellum; CingCx, cingulate cortex; CPu, caudate putamen; DeepN, deep nucleus of cerebellum; DG, dentate gyrus; EW, Edinger Westphal nucleus; FrCx, frontal cortex; GPe, external globus pallidus; Hip, hippocampus; IC, inferior colliculus; IO, inferior olive; IPN, interpeduncular nucleus; LC, locus coeruleus; LH, lateral hypothalamus; LS, lateral septum; LSO, lateral superior olive; LTDg, laterodorsal tegmental nucleus; MeA, medial amygdala; MePO, median preoptic area; MGN, medial geniculate nucleus; MS, medial septum; MVN, medial vestibular nucleus; NAc, nucleus accumbens; NTS, nucleus of the solitary tract; OB, olfactory bulb; OccCx, occipital cortex; OT, olfactory tubercle; PAG, periaqueductal gray; ParCx, parietal cortex; PB, parabrachial nucleus; PFA, perifornical area; PG, pontine gray; Pir, piriform cortex; Pit, pituitary (p, lobe, anterior lobe, intermediate, posterior lobe); PM, premammillary nucleus; PPTg, pedunculopontine tegmental nucleus; PVN, paraventricular nucleus of the hypothalamus; R, red nucleus; RN, raphe nuclei; RTB, reticular thalamic nucleus; SC, superior colliculus; SN, substantia nigra; Sp5n, spinal trigeminal nucleus; SPO, superior paraolivary nucleus; VMH, ventromedial hypothalamus, VTA, ventral tegmental area."]](https://journals.physiology.org/cms/10.1152/physrev.00042.2017/asset/images/medium/z9j0041828650004.gif)
+:::
+::::
 
-##### Adrenal hormones
+## Adrenal hormones
 
 - *Steroids*
     + Derived from cholesterol
-- *Cortisol* (CORT)
-    + increases blood glucose, aids in fat, protein, & carbohydrate metabolism
-    + suppressess immune response, e.g., anti-inflammatory
-    + in presence of Epi/Ad, role in memory formation
-    - Receptors found in cytosol of most cells; some on cell membranes
-    - Regulates gene transcription
-    + circadian rhythmicity: high in am, low in pm
-    
-![https://en.wikipedia.org/wiki/Cortisol](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Change_in_plasma_cortisol_cycle_over_24_hours.jpg/440px-Change_in_plasma_cortisol_cycle_over_24_hours.jpg)
-    
 - *Aldosterone*
     + Regulates Na (and water)
-    
+- *Cortisol* (CORT)
+
+## Cortisol
+
+:::: {.columns}
+::: {.column width=50%}
++ increases blood glucose, aids in fat, protein, & carbohydrate metabolism
++ suppressess immune response, e.g., anti-inflammatory
++ in presence of Epi/Ad, role in memory formation
+
+:::
+::: {.column width=50%}
+![@Andreadi2025-hn](https://www.mdpi.com/ijms/ijms-26-02090/article_deploy/html/images/ijms-26-02090-g002.png)
+:::
+::::
+
+## Cortisol
+
+:::: {.columns}
+::: {.column width=50%}
+- Receptors found in cytosol of most cells; some on cell membranes
+- Regulates gene transcription
++ circadian rhythmicity: high in am, low in pm
+:::
+::: {.column width=50%}
+![@Andreadi2025-hn](https://www.mdpi.com/ijms/ijms-26-02090/article_deploy/html/images/ijms-26-02090-g002.png)
+:::
+::::
+
 ## Reproductive behavior -- the milk letdown reflex
 
+:::: {.columns}
+::: {.column width=50%}
 - Supraoptic nucleus & Paraventricular nucleus (PVN) of hypothalamus release oxytocin 
     - Into bloodstream via posterior pituitary (endocrine)
     - Onto neurons in nucleus accumbens (neurocrine), amygdala, brainstem
-- Oxytocin stimulates milk ducts to secrete
-
+:::
+::: {.column width=50%}
 ![https://64.media.tumblr.com/29ad3be13cc42500c5c0eb496b465745/tumblr_nr55r27dOB1tqg84mo1_640.png](https://64.media.tumblr.com/29ad3be13cc42500c5c0eb496b465745/tumblr_nr55r27dOB1tqg84mo1_640.png)
+:::
+::::
 
-**Oxytocin's role...**
+
+## Reproductive behavior -- the milk letdown reflex
+
+:::: {.columns}
+::: {.column width=50%}
+- In CNS (*neurocrine*)
+  - nucleus accumbens, amygdala, brainstem
+- In breast tissue, oxytocin stimulates milk ducts
+:::
+::: {.column width=50%}
+![https://64.media.tumblr.com/29ad3be13cc42500c5c0eb496b465745/tumblr_nr55r27dOB1tqg84mo1_640.png](https://64.media.tumblr.com/29ad3be13cc42500c5c0eb496b465745/tumblr_nr55r27dOB1tqg84mo1_640.png)
+:::
+::::
+
+## Oxytocin
 
 - Sexual arousal
 - Released during orgasm, causing rhythmic muscle contractions
 - Stimulates uterine, vaginal contraction during labor
-    - But mouse OXY knock-out model still engages in reproductive behavior and gives birth without incident.
+    - But mouse OXY knock-out model still engages in reproductive behavior and gives birth without incident
+    
+## Oxytocin
+
 - Oxytocin-producing cells in ovarian corpus luteum, testicles, retina, adrenal medulla, pancreas
 - Links to social interaction, bonding [@Weisman2013158]
 - Alters face processing in autism  [@Domes2013164]
 - May inhibit fear/anxiety-related behaviors by gating amygdala [@viviani2011oxytocin]
-
-![](http://columbusfreepress.com/sites/default/files/keep-calm-and-release-oxytocin-2(1).png)
 
 ## Melatonin
 
@@ -724,27 +882,75 @@ What is the effect of *inhibiting* neurotransmitter inactivation?
 - Night time peak, early morning low
 - Secretion suppressed by short wavelength or "blue" light (< 460-480 nm)
 - Rhythm irregular until ~3 mos post-natal [@Ardura2003-tw]
-- Peak weakens, broadens with age
+:::
+::: {.column width=50%}
+![@Zisapel2018-jc Figure 2^["Mean plasma levels of ingested (A) and endogenous (B) melatonin. (A) Pharmacokinetics of prolonged‐release (PRM) versus immediate‐release (IR) melatonin 2 mg formulations. Results are mean plasma melatonin levels following drug intake and expressed as % of the AUC (adapted from Zisapel, 2010). (B) Mean endogenous plasma melatonin levels (adapted from Zhdanova et al., 1998)."]](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/aec0/6057895/d56a1df8d539/BPH-175-3190-g002.jpg)
+:::
+::::
+
+## Melatonin
+
+![@Arendt2000-cv Figure 2^["Diagrammatic representation of the control of production and the functions of melatonin, regarding seasonal and circadian timing mechanisms. Abbreviations: SCN: suprachiasmatic nucleus, PVN: paraventricular nucleus, SCG: superior cervical ganglion, NA: norepinephrine (noradrenalin), RHT: retino-hypothalamic-tract, CCG: clock-controlled genes. Based on an original diagram by Dr Elisabeth Maywood, MRC Laboratory of Molecular Biology, Neurobiology Division, Hills Road Cambridge, CB2 2QH, UK."]](https://www.ncbi.nlm.nih.gov/books/NBK550972/bin/neuroendo_pinealmel-Image002.jpg)
+
+## Melatonin
+
+:::: {.columns}
+::: {.column width=50%}
+- Suprachiasmatic nucleus (SCN) of the hypothalamus
+- Paraventricular nucleus of the hypothalamus
+- Spinal cord
+- Superior cervical ganglion (sympathetic NS)
+- Pineal gland
 :::
 ::: {.column width=50%}
 ![](http://thebrain.mcgill.ca/flash/a/a_11/a_11_cr/a_11_cr_hor/a_11_cr_hor_1a.jpg)
 :::
 ::::
 
-## Melatonin
+## Melatonin and other circadian rhythms
 
-- Pathway
-    - Suprachiasmatic nucleus (SCN) of the hypothalamus
-    - Paraventricular nucleus of the hypothalamus
-    - Spinal cord
-    - Superior cervical ganglion
-    - Pineal gland
-    
----
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fgJPnQCJ9eE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![[@Arendt2000-cv Figure 6^["Relationship of plasma melatonin to other major circadian rhythms driven by the internal clock. Abbreviations: VAS: visual analogue scale. Reproduced from Rajaratnam SMW and Arendt J. Lancet 358:999-1005, 2001 by permission."]](https://www.ncbi.nlm.nih.gov/books/NBK550972/bin/neuroendo_pinealmel-Image006.jpg)
 
 # Neurocomputing
+
+## Targets of psychotropic drugs
+
+:::: {.columns}
+::: {.column width=50%}
+- Transporters
+- G-protein-linked (metabotropic) receptors
+- Enzymes
+- Ligand-gated channels
+- Voltage-gated (ionotropic receptors)
+:::
+::: {.column width=50%}
+![Source: https://stahlonline.cambridge.org/essential_4th_chapter.jsf?page=chapter2_summary.htm&name=Chapter%202&title=Summary](../include/img/psychotropic-drug-targets.jpg)
+:::
+::::
+
+## Comparing neuromodulators
+
+:::: {.columns}
+::: {.column width=50%}
+- Limited evidence for specific functions by neuromodulator
+- Same neuromodulators -> different effects on different target areas
+:::
+::: {.column width=50%}
+![@Avery2017-iv Figure 1](https://www.frontiersin.org/files/Articles/300066/fncir-11-00108-HTML/image_m/fncir-11-00108-g001.jpg)
+:::
+::::
+
+## Comparing neuromodulators
+
+:::: {.columns}
+::: {.column width=50%}
+- Most neuromodulators relate to attention and novelty detection
+- Neuromodulators interact with one another
+:::
+::: {.column width=50%}
+![@Avery2017-iv Figure 1](https://www.frontiersin.org/files/Articles/300066/fncir-11-00108-HTML/image_m/fncir-11-00108-g001.jpg)
+:::
+::::
 
 ## On neurochemical influences
 
@@ -753,6 +959,15 @@ What is the effect of *inhibiting* neurotransmitter inactivation?
 - Varied time scales
     - *Phasic* (e.g., cortisol in response to challenge)
     - *Periodic* (e.g., melatonin; diurnal cortisol)
+    
+:::: {.columns}
+::: {.column width=50%}
+Content
+:::
+::: {.column width=50%}
+
+:::
+::::
   
 ## Thinking about neurochemical influences
 
