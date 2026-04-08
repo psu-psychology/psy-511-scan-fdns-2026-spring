@@ -11812,7 +11812,7 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#announcements",
     "title": "Neurochemistry",
     "section": "Announcements",
-    "text": "Announcements"
+    "text": "Announcements\n\nDue: Exercise AP • Neurophysiology II\n\nCanvas dropbox\n\nAssigned: Exercise CHEM • Neurochemistry\n\nDue: {r} ex_chem_due.\nCanvas dropbox"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#todays-topics",
@@ -11854,7 +11854,7 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#categories",
     "title": "Neurochemistry",
     "section": "Categories",
-    "text": "Categories\n\n\n\nFunction/Mode of Action\n\nExcitatory1\nInhibitory2\nModulatory\n\n\n\n\nChemical structure\n\nAmino acids\nMonoamines\nAcetylcholine (ACh)\nOthers"
+    "text": "Categories\n\n\n\nFunction/Mode of Action\n\nExcitatory1\nInhibitory2\nModulatory\n\n\n\n\nChemical structure\n\nAmino acids\nMonoamines\nAcetylcholine (ACh)\nGases, Neuropeptides, Purines, others"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#amino-acids",
@@ -11875,7 +11875,7 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#glutamate-1",
     "title": "Neurochemistry",
     "section": "Glutamate",
-    "text": "Glutamate\n\nInactivated via\n\nreuptake via glutamate transporters in preysynaptic terminal\nglial reuptake\n\nLinked to umami (savory) taste sensation (think monosodium glutamate or MSG)\nDysregulation in schizophrenia McCutcheon, Krystal, & Howes (2020), mood disorders Małgorzata, Paweł, Iwona, Brzostek, & Andrzej (2020)\nToo much glutamate is toxic!"
+    "text": "Glutamate\n\nInactivated via\n\nreuptake via glutamate transporters in preysynaptic terminal\nglial reuptake\n\nLinked to umami (savory) taste sensation (think monosodium glutamate or MSG)\nDysregulation in schizophrenia McCutcheon, Krystal, & Howes (2020), mood disorders Małgorzata, Paweł, Iwona, Brzostek, & Andrzej (2020)"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#glutamate-receptor-types",
@@ -11903,14 +11903,14 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#section",
     "title": "Neurochemistry",
     "section": "",
-    "text": "http://pittmedneuro.com/inhibitory.html"
+    "text": "Figure 4: http://pittmedneuro.com/inhibitory.html"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#section-1",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#section-1",
     "title": "Neurochemistry",
     "section": "",
-    "text": "https://en.wikipedia.org/wiki/GABAA_receptor"
+    "text": "Figure 5: https://en.wikipedia.org/wiki/GABAA_receptor"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#other-amino-acid-nts",
@@ -11931,14 +11931,14 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#ach-in-somatic-motor-system-sms",
     "title": "Neurochemistry",
     "section": "ACh in Somatic Motor System (SMS)",
-    "text": "ACh in Somatic Motor System (SMS)\n\n\n\nSomatic nervous system\n\nMotor neuron in spinal cord -&gt; neuromuscular junction\n\n\n\n\n\n\nBiological Psychology 4th ed."
+    "text": "ACh in Somatic Motor System (SMS)\n\n\n\nSomatic nervous system\n\nMotor neuron in spinal cord -&gt; neuromuscular junction\n\n\n\n\n\n\n\n\n\nFigure 6: Biological Psychology 4th ed."
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#ach-in-ans",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#ach-in-ans",
     "title": "Neurochemistry",
     "section": "ACh in ANS",
-    "text": "ACh in ANS\n\n\n\nAutonomic nervous system (ANS)\n\nSympathetic branch: preganglionic neuron\nParasympathetic branch: pre/postganglionic\n\n\n\n\n\n\nhttps://imotions.com/blog/learning/research-fundamentals/nervous-system/"
+    "text": "ACh in ANS\n\n\n\nAutonomic nervous system (ANS)\n\nSympathetic branch: preganglionic neuron\nParasympathetic branch: pre/postganglionic\n\n\n\n\n\n\n\n\n\nFigure 7: https://imotions.com/blog/learning/research-fundamentals/nervous-system/"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#section-2",
@@ -11959,14 +11959,14 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#curare",
     "title": "Neurochemistry",
     "section": "Curare",
-    "text": "Curare"
+    "text": "Curare\n\n\n\nBinds to Nicotinic ACh receptor in muscle\n\n\n\n\n\n\n\n\n\nFigure 8: www.general-anaesthesia.com"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#atropine",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#atropine",
     "title": "Neurochemistry",
     "section": "Atropine",
-    "text": "Atropine\n\n\n\naka, nightshade or belladonna\ninhibits (acts as an antagonist for) muscarinic ACh receptor\n\n\n\n\n\nhttps://cdn.britannica.com/92/183192-050-1741C2F9/Belladonna-nightshade-leaves-berries-alkaloids-humans.jp\n\n\n\n\n\nhttps://commons.wikimedia.org/wiki/File:Eye_treated_with_dilating_eye_drops.jpg"
+    "text": "Atropine\n\n\n\naka, nightshade or belladonna\ninhibits (acts as an antagonist for) muscarinic ACh receptor\n\n\n\n\n\n\n\n\nFigure 9: https://cdn.britannica.com/92/183192-050-1741C2F9/Belladonna-nightshade-leaves-berries-alkaloids-humans.jpg\n\n\n\n\n\n\n\n\n\nFigure 10: Wikipedia contributors (2025c)3"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#ach-in-cns",
@@ -11980,14 +11980,14 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#basal-forebrain",
     "title": "Neurochemistry",
     "section": "Basal forebrain",
-    "text": "Basal forebrain\n\n\n\nAvram et al. (2021) Figure 13"
+    "text": "Basal forebrain\n\n\n\nAvram et al. (2021) Figure 14"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#monoamines",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#monoamines",
     "title": "Neurochemistry",
     "section": "Monoamines",
-    "text": "Monoamines\n\n\n\n\n\n\nFigure 1: https://en.wikipedia.org/wiki/Mah_Nà_Mah_Nà"
+    "text": "Monoamines\n\n\n\n\n\n\n\nFigure 1: Songs (2018)\n\n\n\nSee also https://en.wikipedia.org/wiki/Mah_Nà_Mah_Nà"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#monoamine-song",
@@ -12022,7 +12022,7 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#synthesis-pathways",
     "title": "Neurochemistry",
     "section": "Synthesis pathways",
-    "text": "Synthesis pathways\n\n\n\nL-tyrosine -&gt; L-DOPA -&gt; DA\nDA -&gt; NE/NAd -&gt; Epi/Ad\n\n\n\n\n\nHenley (2021) Figure 9.64"
+    "text": "Synthesis pathways\n\n\n\nL-tyrosine -&gt; L-DOPA -&gt; DA\nDA -&gt; NE/NAd -&gt; Epi/Ad\n\n\n\n\n\nHenley (2021) Figure 9.67"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#monoamine-nts-1",
@@ -12043,7 +12043,7 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#receptor-distribution",
     "title": "Neurochemistry",
     "section": "Receptor distribution",
-    "text": "Receptor distribution\n\n\n\nFigure 4 from Vogelsang & D’Esposito (2018), adapted from Palomero-Gallagher et al. (2015)"
+    "text": "Receptor distribution\n\n\n\n\n\n\nFigure 13: Vogelsang & D’Esposito (2018) Figure 48, adapted from Palomero-Gallagher, Amunts, & Zilles (2015)"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#da-release-pathways",
@@ -12071,7 +12071,7 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#da-inactivation-1",
     "title": "Neurochemistry",
     "section": "DA inactivation",
-    "text": "DA inactivation\n\n\n\nReuptake via Dopamine transporter (DAT)\n\nPsychostimulants (e.g., cocaine, methylphenidate) act upon. “Dopamine transporter” (n.d.)\nDAT also transports norepinephrine (NE)"
+    "text": "DA inactivation\n\n\n\nReuptake via Dopamine transporter (DAT)\n\nPsychostimulants (e.g., cocaine, methylphenidate) act upon. “Dopamine transporter” (n.d.)\nDAT also transports norepinephrine (NE)\n\n\n\n\n\n\n\n\n\nFigure 15: Overk & Mufson (2010)"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#da-receptor-types",
@@ -12085,7 +12085,7 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#norepinephrine-ne",
     "title": "Neurochemistry",
     "section": "Norepinephrine (NE)",
-    "text": "Norepinephrine (NE)\n\nReleased by\n\nlocus coeruleus (‘blue place’) in pons/caudal tegmentum\npostganglionic sympathetic nervous system neurons contact target tissues"
+    "text": "Norepinephrine (NE)\n\n\n\nReleased by\n\nlocus coeruleus (‘blue place’) in pons/caudal tegmentum\n\n\n\n\n\n\n\n\n\n\nFigure 16"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#ne-clinical-relevance",
@@ -12113,7 +12113,7 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#mao-is-wikipedia-contributors2026-fs",
     "title": "Neurochemistry",
     "section": "MAO-Is (Wikipedia contributors, 2026a)",
-    "text": "MAO-Is (Wikipedia contributors, 2026a)\n\n\n\nMAOIs increase extracellular NE, DA, 5-HT\nEarliest drug treatment for depression\nAlso used for panic disorder, social anxiety disorder, Parkinson’s Disease\n\n\n\n\n\nFigure 1 from Youdim et al. (2006) Figure 1"
+    "text": "MAO-Is (Wikipedia contributors, 2026a)\n\n\n\nMAOIs increase extracellular NE, DA, 5-HT\nEarliest drug treatment for depression\nAlso used for panic disorder, social anxiety disorder, Parkinson’s Disease\n\n\n\n\n\nYoudim et al. (2006) Figure 19"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#mao-is",
@@ -12148,14 +12148,14 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#serotonin-5-hydroxytryptamine-or-5-ht",
     "title": "Neurochemistry",
     "section": "Serotonin (5-hydroxytryptamine or 5-HT)",
-    "text": "Serotonin (5-hydroxytryptamine or 5-HT)\n\n\n\nReleased by raphe nuclei in brainstem\nRole in mood, sleep, eating, pain, nausea, cognition, memory\nModulates release of other NTs\n\n\n\n\n\nWikipedia"
+    "text": "Serotonin (5-hydroxytryptamine or 5-HT)\n\n\n\nReleased by raphe nuclei in brainstem\nRole in mood, sleep, eating, pain, nausea, cognition, memory\nModulates release of other NTs\n\n\n\n\n\n\n\n\nFigure 18: Wikipedia"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#ht-clinical-relevance",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#ht-clinical-relevance",
     "title": "Neurochemistry",
     "section": "5-HT clinical relevance",
-    "text": "5-HT clinical relevance\n\n\n\nEcstasy (MDMA) disturbs serotonin\nSo does LSD\nFluoxetine (Prozac)\n\nSelective Serotonin Reuptake Inhibitor (SSRI)\nTreats depression, panic, eating disorders, others\n\n\n\n\n\n\nWikipedia5"
+    "text": "5-HT clinical relevance\n\n\n\nEcstasy (MDMA) disturbs serotonin\nSo does LSD\nFluoxetine (Prozac)\n\nSelective Serotonin Reuptake Inhibitor (SSRI)\nTreats depression, panic, eating disorders, others\n\n\n\n\n\n\n\n\n\nFigure 21: Wikipedia contributors (2025d)12"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#comparisons-among-neuromodulators",
@@ -12169,28 +12169,28 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#melatonin",
     "title": "Neurochemistry",
     "section": "Melatonin",
-    "text": "Melatonin\n\n\n\nReleased by pineal gland (pine cone-like appearance)\nNeurotransmitter & hormone\n\n\n\n\n\nWikipedia"
+    "text": "Melatonin\n\n\n\nReleased by pineal gland (pine cone-like appearance)\nNeurotransmitter & hormone\n\n\n\n\n\n\n\n\nFigure 22: Wikipedia"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#histamine-ha",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#histamine-ha",
     "title": "Neurochemistry",
     "section": "Histamine (HA)",
-    "text": "Histamine (HA)\n\n\n\nReleased by hypothalamus, projects to whole brain.\n\\(H_1\\)-\\(H_4\\) Metabotropic receptors, one ionotropic type in thalamus/hypothalamus\n\n\n\n\n\nHaas & Panula (2003) Figure 17"
+    "text": "Histamine (HA)\n\n\n\nReleased by hypothalamus, projects to whole brain.\n\\(H_1\\)-\\(H_4\\) Metabotropic receptors, one ionotropic type in thalamus/hypothalamus\n\n\n\n\n\n\n\n\nFigure 23: Haas & Panula (2003) Figure 114"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#targets-of-psychotropic-drugs",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#targets-of-psychotropic-drugs",
     "title": "Neurochemistry",
     "section": "Targets of psychotropic drugs",
-    "text": "Targets of psychotropic drugs\n\n\n\nTransporters\nG-protein-linked (metabotropic) receptors\nEnzymes\nLigand-gated channels\nVoltage-gated (ionotropic receptors)\n\n\n\n\n\nSource: https://stahlonline.cambridge.org/essential_4th_chapter.jsf?page=chapter2_summary.htm&name=Chapter%202&title=Summary"
+    "text": "Targets of psychotropic drugs\n\n\n\nTransporters\nG-protein-linked (metabotropic) receptors\nEnzymes\nLigand-gated channels\nVoltage-gated (ionotropic receptors)\n\n\n\n\n\n\n\n\nFigure 37: Source: https://stahlonline.cambridge.org/essential_4th_chapter.jsf?page=chapter2_summary.htm&name=Chapter%202&title=Summary"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#other-nts",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#other-nts",
     "title": "Neurochemistry",
     "section": "Other NTs",
-    "text": "Other NTs\n\nGases\n\nNitric Oxide (NO), carbon monoxide (CO)\n\nNeuropeptides\n\nSubstance P and endorphins (endogenous morphine-like compounds) regulate pain\nCholecystokinin (CCK) stimulates digestion\nOrexin/hypocretin, project from lateral hypothalamus across brain, regulates appetite, arousal"
+    "text": "Other NTs\n\nGases\n\nNitric Oxide (NO), carbon monoxide (CO)\n\nNeuropeptides\n\nSubstance P and endorphins (endogenous morphine-like compounds) regulate pain\nOrexin/hypocretin regulates wakefulness & appetite\nCholecystokinin (CCK) stimulates digestion\nOrexin/hypocretin, project from lateral hypothalamus across brain, regulates appetite, arousal"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#hormonal-communication",
@@ -12232,7 +12232,7 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#responses-to-threatchallenge",
     "title": "Neurochemistry",
     "section": "Responses to threat/challenge",
-    "text": "Responses to threat/challenge\n\nMetabolism\nHeart rate, blood pressure\nDigestion\nArousal"
+    "text": "Responses to threat/challenge\n\n\n\nMetabolism\nHeart rate, blood pressure\nDigestion\nArousal"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#common-factors",
@@ -12267,7 +12267,7 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#hormonal-release-sites",
     "title": "Neurochemistry",
     "section": "Hormonal release sites",
-    "text": "Hormonal release sites"
+    "text": "Hormonal release sites\n\n\n\n\n\n\nFigure 24"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#release-sites",
@@ -12288,14 +12288,14 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#direct-release",
     "title": "Neurochemistry",
     "section": "Direct release",
-    "text": "Direct release\n\n\n\nHypothalamus -&gt;\nPosterior pituitary\n\nOxytocin\nArginine Vasopressin (AVP, vasopressin), also known as anti-diuretic hormone (ADH)\n\n\n\n\n\n\n\n\n\n\nHacking et al. (2016)"
+    "text": "Direct release\n\n\n\nHypothalamus -&gt;\nPosterior pituitary\n\nOxytocin\nArginine Vasopressin (AVP, vasopressin), also known as anti-diuretic hormone (ADH)\n\n\n\n\n\n\n\n\n\nFigure 25: Hacking, Gaillard, & Smith (2016)"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#indirect-release",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#indirect-release",
     "title": "Neurochemistry",
     "section": "Indirect release",
-    "text": "Indirect release\n\n\n\nHypothalamus -&gt; releasing hormones\nAnterior pituitary -&gt; tropic hormones\n\n\n\n\n\nWikipedia contributors (2026b)9"
+    "text": "Indirect release\n\n\n\nHypothalamus -&gt; releasing hormones\nAnterior pituitary -&gt; tropic hormones\n\n\n\n\n\n\n\n\nFigure 26: Wikipedia contributors (2026b)16"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#case-studies",
@@ -12309,14 +12309,14 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#responses-to-threat-or-challenge",
     "title": "Neurochemistry",
     "section": "Responses to threat or challenge",
-    "text": "Responses to threat or challenge\n\n\n\nUlrich-Lai & Herman (2009) Figure 110"
+    "text": "Responses to threat or challenge\n\n\n\n\n\n\nFigure 28: Ulrich-Lai & Herman (2009) Figure 117"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#reproductive-behavior-the-milk-letdown-reflex",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#reproductive-behavior-the-milk-letdown-reflex",
     "title": "Neurochemistry",
     "section": "Reproductive behavior – the milk letdown reflex",
-    "text": "Reproductive behavior – the milk letdown reflex\n\n\n\nSupraoptic nucleus & Paraventricular nucleus (PVN) of hypothalamus release oxytocin\n\nInto bloodstream via posterior pituitary (endocrine)\nOnto neurons in nucleus accumbens (neurocrine), amygdala, brainstem\n\n\n\n\n\n\nhttps://64.media.tumblr.com/29ad3be13cc42500c5c0eb496b465745/tumblr_nr55r27dOB1tqg84mo1_640.png"
+    "text": "Reproductive behavior – the milk letdown reflex\n\n\n\nIn CNS (neurocrine)\n\nnucleus accumbens, amygdala, brainstem\n\n\n\n\n\n\nhttps://64.media.tumblr.com/29ad3be13cc42500c5c0eb496b465745/tumblr_nr55r27dOB1tqg84mo1_640.png"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#circadian-rhythms",
@@ -12330,7 +12330,7 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#melatonin-1",
     "title": "Neurochemistry",
     "section": "Melatonin",
-    "text": "Melatonin\n\n\n\nDiurnal rhythm\nNight time peak, early morning low\nSecretion suppressed by short wavelength or “blue” light (&lt; 460-480 nm)\nRhythm irregular until ~3 mos post-natal (Ardura, Gutierrez, Andres, & Agapito, 2003)\n\n\n\n\n\nZisapel (2018) Figure 214"
+    "text": "Melatonin\n\n\n\nDiurnal rhythm\nNight time peak, early morning low\nSecretion suppressed by short wavelength or “blue” light (&lt; 460-480 nm)\nRhythm irregular until ~3 mos post-natal (Ardura, Gutierrez, Andres, & Agapito, 2003)\n\n\n\n\n\n\n\n\nFigure 33: Zisapel (2018) Figure 221"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#thinking-about-neurochemical-influences",
@@ -12344,7 +12344,7 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#main-points",
     "title": "Neurochemistry",
     "section": "Main points",
-    "text": "Main points"
+    "text": "Main points\n\nControl over the nervous system and body spans a wide range of spatial and temporal resolutions\nNeurotransmitters\n\nExcitatory & inhibitory\nModulatory\n\nHormones\n\nCNS, PNS, rest of body"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#next-time",
@@ -12365,14 +12365,14 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#references",
     "title": "Neurochemistry",
     "section": "References",
-    "text": "References\n\n\n\n\nAndreadi, A., Andreadi, S., Todaro, F., Ippoliti, L., Bellia, A., Magrini, A., … Lauro, D. (2025). Modified cortisol circadian rhythm: The hidden toll of night-shift work. International Journal of Molecular Sciences, 26, 2090. https://doi.org/10.3390/ijms26052090\n\n\nArdura, J., Gutierrez, R., Andres, J., & Agapito, T. (2003). Emergence and evolution of the circadian rhythm of melatonin in children. Horm. Res., 59(2), 66–72. https://doi.org/68571\n\n\nArendt, J., & Aulinas, A. (2000). Physiology of the pineal gland and melatonin. In Endotext. South Dartmouth (MA): MDText.com, Inc. Retrieved from https://www.ncbi.nlm.nih.gov/books/NBK550972/\n\n\nAvery, M. C., & Krichmar, J. L. (2017). Neuromodulatory systems and their interactions: A review of models, theories, and experiments. Frontiers in Neural Circuits, 11, 108. https://doi.org/10.3389/fncir.2017.00108\n\n\nAvram, M., Grothe, M. J., Meinhold, L., Leucht, C., Leucht, S., Borgwardt, S., … Sorg, C. (2021). Lower cholinergic basal forebrain volumes link with cognitive difficulties in schizophrenia. Neuropsychopharmacology: Official Publication of the American College of Neuropsychopharmacology. https://doi.org/10.1038/s41386-021-01070-x\n\n\nCarhart-Harris, R. L., & Nutt, D. J. (2017). Serotonin and brain function: A tale of two receptors. Journal of Psychopharmacology, 31(9), 1091–1120. https://doi.org/10.1177/0269881117725915\n\n\nDe Ponti, F. (2004). Pharmacology of serotonin: What a clinician should know. Gut, 53(10), 1520–1535. https://doi.org/10.1136/gut.2003.035568\n\n\nDeussing, J. M., & Chen, A. (2018). The Corticotropin-Releasing factor family: Physiology of the stress response. Physiological Reviews, 98(4), 2225–2286. https://doi.org/10.1152/physrev.00042.2017\n\n\nDomes, G., Heinrichs, M., Kumbier, E., Grossmann, A., Hauenstein, K., & Herpertz, S. C. (2013). Effects of intranasal oxytocin on the neural basis of face processing in autism spectrum disorder. Biological Psychiatry, 74(3), 164–171. https://doi.org/http://dx.doi.org/10.1016/j.biopsych.2013.02.007\n\n\nDopamine transporter. (n.d.). https://www.sciencedirect.com/topics/neuroscience/dopamine-transporter. Retrieved from https://www.sciencedirect.com/topics/neuroscience/dopamine-transporter\n\n\nFurness, J. B. (2012). The enteric nervous system and neurogastroenterology. Nature Reviews. Gastroenterology & Hepatology, 9(5), 286–294. https://doi.org/10.1038/nrgastro.2012.32\n\n\nHaas, H., & Panula, P. (2003). The role of histamine and the tuberomamillary nucleus in the nervous system. Nature Reviews. Neuroscience, 4(2), 121–130. https://doi.org/10.1038/nrn1034\n\n\nHacking, C., Gaillard, F., & Smith, D. (2016, December 7). Posterior pituitary. In Radiopaedia.org. Radiopaedia.org. https://doi.org/10.53347/rid-49865\n\n\nHenley, C. (2021). Neurotransmitter synthesis and storage. In Foundations of neuroscience. Michigan State University Libraries. Retrieved from https://openbooks.lib.msu.edu/neuroscience/chapter/neurotransmitter-synthesis-and-storage/\n\n\nMałgorzata, P., Paweł, K., Iwona, M. L., Brzostek, T., & Andrzej, P. (2020). Glutamatergic dysregulation in mood disorders: Opportunities for the discovery of novel drug targets. Expert Opinion on Therapeutic Targets, 24(12), 1187–1209. https://doi.org/10.1080/14728222.2020.1836160\n\n\nMcCutcheon, R. A., Krystal, J. H., & Howes, O. D. (2020). Dopamine and glutamate in schizophrenia: Biology, symptoms and treatment. World Psychiatry: Official Journal of the World Psychiatric Association, 19(1), 15–33. https://doi.org/10.1002/wps.20693\n\n\nMesulam, M.-M. (2013). Cholinergic circuitry of the human nucleus basalis and its fate in alzheimer’s disease. The Journal of Comparative Neurology, 521(18), 4124–4144. https://doi.org/10.1002/cne.23415\n\n\nMoncrieff, J., Cooper, R. E., Stockmann, T., Amendola, S., Hengartner, M. P., & Horowitz, M. A. (2022). The serotonin theory of depression: A systematic umbrella review of the evidence. Molecular Psychiatry. https://doi.org/10.1038/s41380-022-01661-0\n\n\nPalomero-Gallagher, N., Amunts, K., & Zilles, K. (2015). Transmitter receptor distribution in the human brain. In Brain mapping (pp. 261–275). Elsevier. https://doi.org/10.1016/b978-0-12-397025-1.00221-9\n\n\nPicciotto, M. R., Higley, M. J., & Mineur, Y. S. (2012). Acetylcholine as a neuromodulator: Cholinergic signaling shapes nervous system function and behavior. Neuron, 76, 116–129. https://doi.org/10.1016/j.neuron.2012.08.036\n\n\nRen, J., Friedmann, D., Xiong, J., Liu, C. D., Ferguson, B. R., Weerakkody, T., … Luo, L. (2018). Anatomically defined and functionally distinct dorsal raphe serotonin sub-systems. Cell. https://doi.org/10.1016/j.cell.2018.07.043\n\n\nUlrich-Lai, Y. M., & Herman, J. P. (2009). Neural regulation of endocrine and autonomic stress responses. Nature Reviews Neuroscience, 10(6), 397–409. https://doi.org/10.1038/nrn2647\n\n\nViviani, D., Charlet, A., Burg, E. van den, Robinet, C., Hurni, N., Abatis, M., … Stoop, R. (2011). Oxytocin selectively gates fear responses through distinct outputs from the central amygdala. Science, 333(6038), 104–107. https://doi.org/10.1126/science.1201043\n\n\nVogelsang, D. A., & D’Esposito, M. (2018). Is there evidence for a rostral-caudal gradient in fronto-striatal loops and what role does dopamine play? Frontiers in Neuroscience, 12, 242. https://doi.org/10.3389/fnins.2018.00242\n\n\nWeisman, O., & Feldman, R. (2013). Oxytocin effects on the human brain: Findings, questions, and future directions. Biological Psychiatry, 74(3), 158–159. https://doi.org/http://dx.doi.org/10.1016/j.biopsych.2013.05.026\n\n\nWikipedia contributors. (2025, October 25). Blind men and an elephant. Retrieved from https://en.wikipedia.org/wiki/Blind_men_and_an_elephant\n\n\nWikipedia contributors. (2026a, February 23). Monoamine oxidase inhibitor. Retrieved from https://en.wikipedia.org/wiki/Monoamine_oxidase_inhibitor\n\n\nWikipedia contributors. (2026b, March 26). Anterior pituitary. Retrieved from https://en.wikipedia.org/wiki/Anterior_pituitary\n\n\nYoudim, M. B. H., Edmondson, D., & Tipton, K. F. (2006). The therapeutic potential of monoamine oxidase inhibitors. Nature Reviews. Neuroscience, 7(4), 295–309. https://doi.org/10.1038/nrn1883\n\n\nZisapel, N. (2018). New perspectives on the role of melatonin in human sleep, circadian rhythms and their regulation: Melatonin in human sleep and circadian rhythms. British Journal of Pharmacology, 175, 3190–3199. https://doi.org/10.1111/bph.14116"
+    "text": "References\n\n\n\n\nAndreadi, A., Andreadi, S., Todaro, F., Ippoliti, L., Bellia, A., Magrini, A., … Lauro, D. (2025). Modified cortisol circadian rhythm: The hidden toll of night-shift work. International Journal of Molecular Sciences, 26, 2090. https://doi.org/10.3390/ijms26052090\n\n\nArdura, J., Gutierrez, R., Andres, J., & Agapito, T. (2003). Emergence and evolution of the circadian rhythm of melatonin in children. Horm. Res., 59(2), 66–72. https://doi.org/68571\n\n\nArendt, J., & Aulinas, A. (2000). Physiology of the pineal gland and melatonin. In Endotext. South Dartmouth (MA): MDText.com, Inc. Retrieved from https://www.ncbi.nlm.nih.gov/books/NBK550972/\n\n\nAvery, M. C., & Krichmar, J. L. (2017). Neuromodulatory systems and their interactions: A review of models, theories, and experiments. Frontiers in Neural Circuits, 11, 108. https://doi.org/10.3389/fncir.2017.00108\n\n\nAvram, M., Grothe, M. J., Meinhold, L., Leucht, C., Leucht, S., Borgwardt, S., … Sorg, C. (2021). Lower cholinergic basal forebrain volumes link with cognitive difficulties in schizophrenia. Neuropsychopharmacology: Official Publication of the American College of Neuropsychopharmacology. https://doi.org/10.1038/s41386-021-01070-x\n\n\nCarhart-Harris, R. L., & Nutt, D. J. (2017). Serotonin and brain function: A tale of two receptors. Journal of Psychopharmacology, 31(9), 1091–1120. https://doi.org/10.1177/0269881117725915\n\n\nDe Ponti, F. (2004). Pharmacology of serotonin: What a clinician should know. Gut, 53(10), 1520–1535. https://doi.org/10.1136/gut.2003.035568\n\n\nDeussing, J. M., & Chen, A. (2018). The Corticotropin-Releasing factor family: Physiology of the stress response. Physiological Reviews, 98(4), 2225–2286. https://doi.org/10.1152/physrev.00042.2017\n\n\nDomes, G., Heinrichs, M., Kumbier, E., Grossmann, A., Hauenstein, K., & Herpertz, S. C. (2013). Effects of intranasal oxytocin on the neural basis of face processing in autism spectrum disorder. Biological Psychiatry, 74(3), 164–171. https://doi.org/http://dx.doi.org/10.1016/j.biopsych.2013.02.007\n\n\nDopamine transporter. (n.d.). https://www.sciencedirect.com/topics/neuroscience/dopamine-transporter. Retrieved from https://www.sciencedirect.com/topics/neuroscience/dopamine-transporter\n\n\nFurness, J. B. (2012). The enteric nervous system and neurogastroenterology. Nature Reviews. Gastroenterology & Hepatology, 9(5), 286–294. https://doi.org/10.1038/nrgastro.2012.32\n\n\nHaas, H., & Panula, P. (2003). The role of histamine and the tuberomamillary nucleus in the nervous system. Nature Reviews. Neuroscience, 4(2), 121–130. https://doi.org/10.1038/nrn1034\n\n\nHacking, C., Gaillard, F., & Smith, D. (2016, December 7). Posterior pituitary. In Radiopaedia.org. Radiopaedia.org. https://doi.org/10.53347/rid-49865\n\n\nHenley, C. (2021). Neurotransmitter synthesis and storage. In Foundations of neuroscience. Michigan State University Libraries. Retrieved from https://openbooks.lib.msu.edu/neuroscience/chapter/neurotransmitter-synthesis-and-storage/\n\n\nMałgorzata, P., Paweł, K., Iwona, M. L., Brzostek, T., & Andrzej, P. (2020). Glutamatergic dysregulation in mood disorders: Opportunities for the discovery of novel drug targets. Expert Opinion on Therapeutic Targets, 24(12), 1187–1209. https://doi.org/10.1080/14728222.2020.1836160\n\n\nMcCutcheon, R. A., Krystal, J. H., & Howes, O. D. (2020). Dopamine and glutamate in schizophrenia: Biology, symptoms and treatment. World Psychiatry: Official Journal of the World Psychiatric Association, 19(1), 15–33. https://doi.org/10.1002/wps.20693\n\n\nMesulam, M.-M. (2013). Cholinergic circuitry of the human nucleus basalis and its fate in alzheimer’s disease. The Journal of Comparative Neurology, 521(18), 4124–4144. https://doi.org/10.1002/cne.23415\n\n\nMoncrieff, J., Cooper, R. E., Stockmann, T., Amendola, S., Hengartner, M. P., & Horowitz, M. A. (2022). The serotonin theory of depression: A systematic umbrella review of the evidence. Molecular Psychiatry. https://doi.org/10.1038/s41380-022-01661-0\n\n\nOverk, C. R., & Mufson, E. J. (2010). Dopamine transporter: Aging and parkinson’s disease. In Encyclopedia of movement disorders (pp. 330–332). Elsevier. https://doi.org/10.1016/b978-0-12-374105-9.00237-9\n\n\nPalomero-Gallagher, N., Amunts, K., & Zilles, K. (2015). Transmitter receptor distribution in the human brain. In Brain mapping (pp. 261–275). Elsevier. https://doi.org/10.1016/b978-0-12-397025-1.00221-9\n\n\nPicciotto, M. R., Higley, M. J., & Mineur, Y. S. (2012). Acetylcholine as a neuromodulator: Cholinergic signaling shapes nervous system function and behavior. Neuron, 76, 116–129. https://doi.org/10.1016/j.neuron.2012.08.036\n\n\nRen, J., Friedmann, D., Xiong, J., Liu, C. D., Ferguson, B. R., Weerakkody, T., … Luo, L. (2018). Anatomically defined and functionally distinct dorsal raphe serotonin sub-systems. Cell. https://doi.org/10.1016/j.cell.2018.07.043\n\n\nSongs, M. (2018). Muppet songs: Mahna mahna (muppet show - 1976). Youtube. Retrieved from https://www.youtube.com/watch?v=TbZ_hTEOKZc\n\n\nUlrich-Lai, Y. M., & Herman, J. P. (2009). Neural regulation of endocrine and autonomic stress responses. Nature Reviews Neuroscience, 10(6), 397–409. https://doi.org/10.1038/nrn2647\n\n\nViviani, D., Charlet, A., Burg, E. van den, Robinet, C., Hurni, N., Abatis, M., … Stoop, R. (2011). Oxytocin selectively gates fear responses through distinct outputs from the central amygdala. Science, 333(6038), 104–107. https://doi.org/10.1126/science.1201043\n\n\nVogelsang, D. A., & D’Esposito, M. (2018). Is there evidence for a rostral-caudal gradient in fronto-striatal loops and what role does dopamine play? Frontiers in Neuroscience, 12, 242. https://doi.org/10.3389/fnins.2018.00242\n\n\nWeisman, O., & Feldman, R. (2013). Oxytocin effects on the human brain: Findings, questions, and future directions. Biological Psychiatry, 74(3), 158–159. https://doi.org/http://dx.doi.org/10.1016/j.biopsych.2013.05.026\n\n\nWikipedia contributors. (2025a, September 28). Adrenal gland. Retrieved from https://en.wikipedia.org/wiki/Adrenal_gland\n\n\nWikipedia contributors. (2025b, October 25). Blind men and an elephant. Retrieved from https://en.wikipedia.org/wiki/Blind_men_and_an_elephant\n\n\nWikipedia contributors. (2025c, November 20). Cycloplegia. Retrieved from https://en.wikipedia.org/wiki/Cycloplegia#Cycloplegic_medication\n\n\nWikipedia contributors. (2025d, November 24). Raphe nuclei. Retrieved from https://en.wikipedia.org/wiki/Raphe_nuclei\n\n\nWikipedia contributors. (2026a, February 23). Monoamine oxidase inhibitor. Retrieved from https://en.wikipedia.org/wiki/Monoamine_oxidase_inhibitor\n\n\nWikipedia contributors. (2026b, March 26). Anterior pituitary. Retrieved from https://en.wikipedia.org/wiki/Anterior_pituitary\n\n\nYoudim, M. B. H., Edmondson, D., & Tipton, K. F. (2006). The therapeutic potential of monoamine oxidase inhibitors. Nature Reviews. Neuroscience, 7(4), 295–309. https://doi.org/10.1038/nrn1883\n\n\nZisapel, N. (2018). New perspectives on the role of melatonin in human sleep, circadian rhythms and their regulation: Melatonin in human sleep and circadian rhythms. British Journal of Pharmacology, 175, 3190–3199. https://doi.org/10.1111/bph.14116"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#footnotes",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#footnotes",
     "title": "Neurochemistry",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\n“Generates EPSP”\n“Generates IPSP”\n“Fig. 1: Map of the cholinergic basal forebrain. The region of interest depicts the cholinergic basal forebrain, based on a cytoarchitectonic map of cholinergic nuclei, overlaid on a human brain template in Montreal Neurological Institute space. The BFCN mask is based on combined histology and postmortem MRI [63], containing several cholinergic subdivisions within the basal forebrain, including the medial septal nucleus, diagonal band of Broca, nucleus subputaminalis, the basal magnocellular complex, and nucleus basalis of Meynert (57, 72)”\n“Figure 9.6. Dopamine is synthesized in a two-step process. Tyrosine is converted into DOPA by tyrosine hydroxylase, the rate-limiting step in the pathway. Then dopamine is synthesized from DOPA by DOPA decarboxylase. Dopamine is then packaged into vesicles by vesicular monoamine transporter. ‘Dopamine Synthesis’ by Casey Henley is licensed under a Creative Commons Attribution Non-Commercial Share-Alike (CC BY-NC-SA) 4.0 International License.”\n“In this drawing of the brain, the serotonergic system is red and the mesolimbic dopamine pathway is blue. There is one collection of serotonergic neurons in the upper brainstem that sends axons upwards to the whole cerebrum, and one collection next to the cerebellum that sends axons downward to the spinal cord. Slightly forward the upper serotonergic neurons is the ventral tegmental area (VTA), which contains dopaminergic neurons. These neurons’ axons then connect to the nucleus accumbens, hippocampus, and the frontal cortex. Over the VTA is another collection of dopaminergic cells, the substansia nigra, which send axons to the striatum.”\n“In this drawing of the brain, the serotonergic system is red and the mesolimbic dopamine pathway is blue. There is one collection of serotonergic neurons in the upper brainstem that sends axons upwards to the whole cerebrum, and one collection next to the cerebellum that sends axons downward to the spinal cord. Slightly forward the upper serotonergic neurons is the ventral tegmental area (VTA), which contains dopaminergic neurons. These neurons’ axons then connect to the nucleus accumbens, hippocampus, and the frontal cortex. Over the VTA is another collection of dopaminergic cells, the substansia nigra, which send axons to the striatum.”\n“About 64,000 histamine-producing neurons, located in the tuberomamillary nucleus119 of the human brain, innervate all of the major parts of the cerebrum, cerebellum, posterior piuitary and the spinal cord.”\n“About 64,000 histamine-producing neurons, located in the tuberomamillary nucleus119 of the human brain, innervate all of the major parts of the cerebrum, cerebellum, posterior piuitary and the spinal cord.”\n“By OpenStax College - Anatomy & Physiology, Connexions Web site. http://cnx.org/contents/IgqATiKA@3/The-Pituitary-Gland-and-Hypoth, Jun 19, 2013., CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=30148144”\n“Figure 1: General scheme of brain acute-stress regulatory pathways. Stressors activate brainstem and/or forebrain limbic structures. The brainstem can generate rapid hypothalamic-pituitary-adrenal (HPA) axis and autonomic nervous system (ANS) responses through direct projections to hypophysiotrophic neurons in the paraventricular nucleus of the hypothalamus (PVN) or to preganglionic autonomic neurons (stress response triggers). By contrast, forebrain limbic regions have no direct connections with the HPA axis or the ANS and thus require intervening synapses before they can access autonomic or neuroendocrine neurons (top-down regulation). A high proportion of these intervening neurons are located in hypothalamic nuclei that are also responsive to homeostatic status, providing a mechanism by which the descending limbic information can be modulated according to the physiological status of the animal (‘middle management’). BST, bed nucleus of the stria terminalis; CVO, circumventricular organ; SAM, sympathoadrenomedullary system.”\n“FIGURE 1. Effector systems of the stress response. A stressor elicits rapid activation of the autonomic nervous system with its sympathoneuronal (SN) and sympatho-adrenomedullary (SAM) limbs releasing their main effectors, noradrenaline and adrenaline, respectively. Activation of the hypothalamic-pituitary-adrenocortical (HPA) axis results in synthesis and release of its main effector, cortisol or corticosterone, in rodents. ACTH, adrenocorticotropic hormone; CRF, corticotropin-releasing factor.”\n“Figure 3: The brain circuitry that regulates HPA axis stress responses. Stress-induced activation of the dorsal part of the medial parvocellular paraventricular nucleus of the hypothalamus (PVNmpd) originates in several brain regions (excitatory inputs are coloured blue with solid lines and inhibitory (GABA (γ-aminobutyric acid)-ergic) inputs are coloured red with dashed lines). The paraventricular nucleus of the hypothalamus (PVN) receives direct noradrenergic, adrenergic and peptidergic innervation from the nucleus of the solitary tract (NTS). The dorsomedial components of the dorsomedial hypothalamus (dmDMH) and the arcuate nucleus (Arc) provide intrahypothalamic stress excitation. The anterior part of the bed nucleus of the stria terminalis (BST), particularly the anteroventral nucleus of the BST (avBST), activates hypothalamic-pituitary-adrenocortical (HPA) axis stress responses. The PVN also receives a stress-excitatory drive from the dorsal raphe, the tuberomammillary nucleus, the supramammillary nucleus and the spinal cord, among others (omitted in the interest of space). Activation of the PVNmpd is inhibited by numerous hypothalamic circuits, including the medial preoptic area (mPOA), the ventrolateral component of the dorsomedial hypothalamus (vlDMH) and local neurons in the peri-PVN region (pPVN), encompassing the PVN surround and the subparaventricular zone. The posterior subregions of the bed nucleus of the stria terminalis (pBST) provide a prominent forebrain inhibition of HPA axis responses; most of these inputs are GABAergic. Brain sections are modified, with permission, from Ref. 154 © (1998) Academic Press.”\n“FIGURE 4. Distribution of mRNA expression of corticotropin-releasing factor (CRF)-related peptides in the rodent brain. Three-dimensional expression patterns of CRF-related peptide were collapsed onto a single sagittal brain section. Depicted are well-documented sites of high to moderate expression. Sites of expression are indicated by colored dots: CRF (orange), urocortin (UCN) 1 (green), UCN2 (light blue), UCN3 (purple). 7, Facial nerve; 12, hypoglossal nerve; Amb, ambiguous nucleus; AP, area postrema; arc, arcuate nucleus; Bar, Barrington’s nucleus; BLA, basolateral amygdala; BNST, bed nucleus of the stria terminalis (d, dorsal aspect; v, ventral aspect); CA1, cornu ammonis subfield 1; CA3, cornu ammonis subfield 3; CC, corpus callosum; CeA, central amygdala; Cereb, cerebellum; CingCx, cingulate cortex; CPu, caudate putamen; DeepN, deep nucleus of cerebellum; DG, dentate gyrus; EW, Edinger Westphal nucleus; FrCx, frontal cortex; GPe, external globus pallidus; Hip, hippocampus; IC, inferior colliculus; IO, inferior olive; IPN, interpeduncular nucleus; LC, locus coeruleus; LH, lateral hypothalamus; LS, lateral septum; LSO, lateral superior olive; LTDg, laterodorsal tegmental nucleus; MeA, medial amygdala; MePO, median preoptic area; MGN, medial geniculate nucleus; MS, medial septum; MVN, medial vestibular nucleus; NAc, nucleus accumbens; NTS, nucleus of the solitary tract; OB, olfactory bulb; OccCx, occipital cortex; OT, olfactory tubercle; PAG, periaqueductal gray; ParCx, parietal cortex; PB, parabrachial nucleus; PFA, perifornical area; PG, pontine gray; Pir, piriform cortex; Pit, pituitary (p, lobe, anterior lobe, intermediate, posterior lobe); PM, premammillary nucleus; PPTg, pedunculopontine tegmental nucleus; PVN, paraventricular nucleus of the hypothalamus; R, red nucleus; RN, raphe nuclei; RTB, reticular thalamic nucleus; SC, superior colliculus; SN, substantia nigra; Sp5n, spinal trigeminal nucleus; SPO, superior paraolivary nucleus; VMH, ventromedial hypothalamus, VTA, ventral tegmental area.”\n“Mean plasma levels of ingested (A) and endogenous (B) melatonin. (A) Pharmacokinetics of prolonged‐release (PRM) versus immediate‐release (IR) melatonin 2 mg formulations. Results are mean plasma melatonin levels following drug intake and expressed as % of the AUC (adapted from Zisapel, 2010). (B) Mean endogenous plasma melatonin levels (adapted from Zhdanova et al., 1998).”\n“Diagrammatic representation of the control of production and the functions of melatonin, regarding seasonal and circadian timing mechanisms. Abbreviations: SCN: suprachiasmatic nucleus, PVN: paraventricular nucleus, SCG: superior cervical ganglion, NA: norepinephrine (noradrenalin), RHT: retino-hypothalamic-tract, CCG: clock-controlled genes. Based on an original diagram by Dr Elisabeth Maywood, MRC Laboratory of Molecular Biology, Neurobiology Division, Hills Road Cambridge, CB2 2QH, UK.”\n“Relationship of plasma melatonin to other major circadian rhythms driven by the internal clock. Abbreviations: VAS: visual analogue scale. Reproduced from Rajaratnam SMW and Arendt J. Lancet 358:999-1005, 2001 by permission.”\n“Seven blind men and an elephant parable at a Jain temple. By romana klee from usa - sammati tarka prakarana, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=59461928”"
+    "text": "Footnotes\n\n\n“Generates EPSP”\n“Generates IPSP”\n“Cycloplegia caused by Cyclopentolate 1% instilled in both eyes. By Ilovebaddies (talk) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=112232286”\n“Fig. 1: Map of the cholinergic basal forebrain. The region of interest depicts the cholinergic basal forebrain, based on a cytoarchitectonic map of cholinergic nuclei, overlaid on a human brain template in Montreal Neurological Institute space. The BFCN mask is based on combined histology and postmortem MRI [63], containing several cholinergic subdivisions within the basal forebrain, including the medial septal nucleus, diagonal band of Broca, nucleus subputaminalis, the basal magnocellular complex, and nucleus basalis of Meynert (57, 72)”\n“Cholinergic circuitry of the human nucleus basalis. ACh, acetylcholine; DA, dopamine; EAA, excitatory amino acids; NE, norepinephrine; 5HT, serotonin. Question marks indicate that the connection has not been confirmed in the human brain.”\n“The cholinergic system and its functions. The cholinergic system originates in the basal forebrain and sends projections to many cortical and subcortical regions. As a result, it has been implicated in a variety of functions including memory, attention, and uncertainty computations. Activity of the basal forebrain is thought to be regulated by prefrontal cortices, as well as other neuromodulatory brain regions.”\n“Figure 9.6. Dopamine is synthesized in a two-step process. Tyrosine is converted into DOPA by tyrosine hydroxylase, the rate-limiting step in the pathway. Then dopamine is synthesized from DOPA by DOPA decarboxylase. Dopamine is then packaged into vesicles by vesicular monoamine transporter. ‘Dopamine Synthesis’ by Casey Henley is licensed under a Creative Commons Attribution Non-Commercial Share-Alike (CC BY-NC-SA) 4.0 International License.”\n“Overview of distributions for dopamine, norepinephrine and serotonin receptors. Brodmann area map is presented in bottom left corner. A, caudate-putamen; B, globus pallidus; C, diencephalon; D, amygdala; E, CA1 region of hippocampus; F, CA2/3 region of hippocampus; G, dentate gyrus. Figure adapted from Palomero et al. (2015) with permission from Elsevier Journals.”\n“The pathway of dopamine synthesis proceeds from tyrosine via tyrosine hydroxylase (TH) catalysis to levodopa (L-DOPA), and subsequent decarboxylation by dopa decarboxylase (DDC) to dopamine. Dopamine is metabolized by intraneuronal monoamine oxidase A (MAOA), and by glial and astrocyte MAOA and MAOB1,11. Selective inhibitors of MAOA (for example, moclobemide) and MAOB (selegiline, rasagiline and safinamide) do not alter the steady-state striatal dopamine levels, although chronic treatment with these drugs does enhance dopamine release, possibly due to the elevation of endogenous brain amines or receptor modulation93,194. However, non-selective MAOA/B inhibitors (such as ladostigil and those shown in Table 2) do induce highly significant increases in the levels of dopamine in the striatum and other regions93,194. Although dopamine does not pass the blood–brain barrier (BBB), L-DOPA can, and DDC inhibitors that do not pass the BBB, such as benzerazide (benserazide) and carbidopa, increase its availability to the brain. Inhibitors of catechol-O-methyltransferase (COMT), such as entacapone, also enhance L-DOPA availability and prevent the inactivation of dopamine by COMT. 3-OMD, 3-O-methyl dopa; D1, D2, dopamine receptors.”\n“Depiction of location of adrenal glands in human body; zoom to detail of adrenal gland; zoom to cross section of adrenal gland; cross section shows cortex, including connective tissue capsule, zona glomerulosa, zona fasciculata, and zona reticularis; also shows medulla. By Antinksčio sandara.png Author: EdgarasLe - https://commons.wikimedia.org/wiki/File:Antinks%C4%8Dio_sandara_esp.png, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=127157804”\n“The neural connections between the ENS and CNS, and neural connections between gastrointestinal organs, are quite different from those depicted in textbooks. The digestive system contains full reflex circuits of the ENS (motor neurons and interneurons in blue, sensory neurons in purple). Pathways from the gastrointestinal tract project outwards, via intestinofugal neurons (red), to the CNS (neurons in yellow), sympathetic ganglia, gallbladder and pancreas. Neurons in sympathetic prevertebral ganglia (green) receive both CNS and ENS inputs. Sensory information goes both to the ENS, via intrinsic primary afferent (sensory) neurons (purple) and to the CNS via extrinsic primary afferent neurons (also purple) that follow spinal and vagal afferent routes. Pathways from the CNS reach the ENS and gastrointestinal effector tissues through vagal, sympathetic and pelvic pathways. Abbreviations: CNS, central nervous system; ENS, enteric nervous system.”\n“In this drawing of the brain, the serotonergic system is red and the mesolimbic dopamine pathway is blue. There is one collection of serotonergic neurons in the upper brainstem that sends axons upwards to the whole cerebrum, and one collection next to the cerebellum that sends axons downward to the spinal cord. Slightly forward the upper serotonergic neurons is the ventral tegmental area (VTA), which contains dopaminergic neurons. These neurons’ axons then connect to the nucleus accumbens, hippocampus, and the frontal cortex. Over the VTA is another collection of dopaminergic cells, the substansia nigra, which send axons to the striatum.”\n“In this drawing of the brain, the serotonergic system is red and the mesolimbic dopamine pathway is blue. There is one collection of serotonergic neurons in the upper brainstem that sends axons upwards to the whole cerebrum, and one collection next to the cerebellum that sends axons downward to the spinal cord. Slightly forward the upper serotonergic neurons is the ventral tegmental area (VTA), which contains dopaminergic neurons. These neurons’ axons then connect to the nucleus accumbens, hippocampus, and the frontal cortex. Over the VTA is another collection of dopaminergic cells, the substansia nigra, which send axons to the striatum. By NIH - http://www.drugabuse.gov/pubs/teaching/largegifs/slide-2.gif, Public Domain, https://commons.wikimedia.org/w/index.php?curid=37682508.”\n“About 64,000 histamine-producing neurons, located in the tuberomamillary nucleus119 of the human brain, innervate all of the major parts of the cerebrum, cerebellum, posterior piuitary and the spinal cord.”\n“About 64,000 histamine-producing neurons, located in the tuberomamillary nucleus119 of the human brain, innervate all of the major parts of the cerebrum, cerebellum, posterior piuitary and the spinal cord.”\n“By OpenStax College - Anatomy & Physiology, Connexions Web site. http://cnx.org/contents/IgqATiKA@3/The-Pituitary-Gland-and-Hypoth, Jun 19, 2013., CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=30148144”\n“Figure 1: General scheme of brain acute-stress regulatory pathways. Stressors activate brainstem and/or forebrain limbic structures. The brainstem can generate rapid hypothalamic-pituitary-adrenal (HPA) axis and autonomic nervous system (ANS) responses through direct projections to hypophysiotrophic neurons in the paraventricular nucleus of the hypothalamus (PVN) or to preganglionic autonomic neurons (stress response triggers). By contrast, forebrain limbic regions have no direct connections with the HPA axis or the ANS and thus require intervening synapses before they can access autonomic or neuroendocrine neurons (top-down regulation). A high proportion of these intervening neurons are located in hypothalamic nuclei that are also responsive to homeostatic status, providing a mechanism by which the descending limbic information can be modulated according to the physiological status of the animal (‘middle management’). BST, bed nucleus of the stria terminalis; CVO, circumventricular organ; SAM, sympathoadrenomedullary system.”\n“FIGURE 1. Effector systems of the stress response. A stressor elicits rapid activation of the autonomic nervous system with its sympathoneuronal (SN) and sympatho-adrenomedullary (SAM) limbs releasing their main effectors, noradrenaline and adrenaline, respectively. Activation of the hypothalamic-pituitary-adrenocortical (HPA) axis results in synthesis and release of its main effector, cortisol or corticosterone, in rodents. ACTH, adrenocorticotropic hormone; CRF, corticotropin-releasing factor.”\n“Figure 3: The brain circuitry that regulates HPA axis stress responses. Stress-induced activation of the dorsal part of the medial parvocellular paraventricular nucleus of the hypothalamus (PVNmpd) originates in several brain regions (excitatory inputs are coloured blue with solid lines and inhibitory (GABA (γ-aminobutyric acid)-ergic) inputs are coloured red with dashed lines). The paraventricular nucleus of the hypothalamus (PVN) receives direct noradrenergic, adrenergic and peptidergic innervation from the nucleus of the solitary tract (NTS). The dorsomedial components of the dorsomedial hypothalamus (dmDMH) and the arcuate nucleus (Arc) provide intrahypothalamic stress excitation. The anterior part of the bed nucleus of the stria terminalis (BST), particularly the anteroventral nucleus of the BST (avBST), activates hypothalamic-pituitary-adrenocortical (HPA) axis stress responses. The PVN also receives a stress-excitatory drive from the dorsal raphe, the tuberomammillary nucleus, the supramammillary nucleus and the spinal cord, among others (omitted in the interest of space). Activation of the PVNmpd is inhibited by numerous hypothalamic circuits, including the medial preoptic area (mPOA), the ventrolateral component of the dorsomedial hypothalamus (vlDMH) and local neurons in the peri-PVN region (pPVN), encompassing the PVN surround and the subparaventricular zone. The posterior subregions of the bed nucleus of the stria terminalis (pBST) provide a prominent forebrain inhibition of HPA axis responses; most of these inputs are GABAergic. Brain sections are modified, with permission, from Ref. 154 © (1998) Academic Press.”\n“FIGURE 4. Distribution of mRNA expression of corticotropin-releasing factor (CRF)-related peptides in the rodent brain. Three-dimensional expression patterns of CRF-related peptide were collapsed onto a single sagittal brain section. Depicted are well-documented sites of high to moderate expression. Sites of expression are indicated by colored dots: CRF (orange), urocortin (UCN) 1 (green), UCN2 (light blue), UCN3 (purple). 7, Facial nerve; 12, hypoglossal nerve; Amb, ambiguous nucleus; AP, area postrema; arc, arcuate nucleus; Bar, Barrington’s nucleus; BLA, basolateral amygdala; BNST, bed nucleus of the stria terminalis (d, dorsal aspect; v, ventral aspect); CA1, cornu ammonis subfield 1; CA3, cornu ammonis subfield 3; CC, corpus callosum; CeA, central amygdala; Cereb, cerebellum; CingCx, cingulate cortex; CPu, caudate putamen; DeepN, deep nucleus of cerebellum; DG, dentate gyrus; EW, Edinger Westphal nucleus; FrCx, frontal cortex; GPe, external globus pallidus; Hip, hippocampus; IC, inferior colliculus; IO, inferior olive; IPN, interpeduncular nucleus; LC, locus coeruleus; LH, lateral hypothalamus; LS, lateral septum; LSO, lateral superior olive; LTDg, laterodorsal tegmental nucleus; MeA, medial amygdala; MePO, median preoptic area; MGN, medial geniculate nucleus; MS, medial septum; MVN, medial vestibular nucleus; NAc, nucleus accumbens; NTS, nucleus of the solitary tract; OB, olfactory bulb; OccCx, occipital cortex; OT, olfactory tubercle; PAG, periaqueductal gray; ParCx, parietal cortex; PB, parabrachial nucleus; PFA, perifornical area; PG, pontine gray; Pir, piriform cortex; Pit, pituitary (p, lobe, anterior lobe, intermediate, posterior lobe); PM, premammillary nucleus; PPTg, pedunculopontine tegmental nucleus; PVN, paraventricular nucleus of the hypothalamus; R, red nucleus; RN, raphe nuclei; RTB, reticular thalamic nucleus; SC, superior colliculus; SN, substantia nigra; Sp5n, spinal trigeminal nucleus; SPO, superior paraolivary nucleus; VMH, ventromedial hypothalamus, VTA, ventral tegmental area.”\n“Mean plasma levels of ingested (A) and endogenous (B) melatonin. (A) Pharmacokinetics of prolonged‐release (PRM) versus immediate‐release (IR) melatonin 2 mg formulations. Results are mean plasma melatonin levels following drug intake and expressed as % of the AUC (adapted from Zisapel, 2010). (B) Mean endogenous plasma melatonin levels (adapted from Zhdanova et al., 1998).”\n“Diagrammatic representation of the control of production and the functions of melatonin, regarding seasonal and circadian timing mechanisms. Abbreviations: SCN: suprachiasmatic nucleus, PVN: paraventricular nucleus, SCG: superior cervical ganglion, NA: norepinephrine (noradrenalin), RHT: retino-hypothalamic-tract, CCG: clock-controlled genes. Based on an original diagram by Dr Elisabeth Maywood, MRC Laboratory of Molecular Biology, Neurobiology Division, Hills Road Cambridge, CB2 2QH, UK.”\n“Relationship of plasma melatonin to other major circadian rhythms driven by the internal clock. Abbreviations: VAS: visual analogue scale. Reproduced from Rajaratnam SMW and Arendt J. Lancet 358:999-1005, 2001 by permission.”\n“Seven blind men and an elephant parable at a Jain temple. By romana klee from usa - sammati tarka prakarana, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=59461928”\nIn PNS\n+ ACh in CNS"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#thinking-about-neurochemical-influences-1",
@@ -12386,28 +12386,28 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#architecture",
     "title": "Neurochemistry",
     "section": "Architecture",
-    "text": "Architecture\n\n\n\n\n\n\n\n\nflowchart TD\n  A[\"A\"] --&gt; B[\"B\"]\n  B --&gt; C[\"C\"]\n  C --&gt; D[\"D\"] & E[\"E\"]\n\n\n\n\nFigure 3: A simple feedforward architecture.\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart TD \n  B --&gt; C\n  C --&gt; D & E\n  M[\"M\"] -.-&gt; B[\"B\"] & C[\"C\"] & D[\"D\"] & E[\"E\"]\n\n\n\n\nFigure 4: Feedforward architecture with modulation.\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart TD \n  B --&gt; C\n  C --&gt; D & E\n  M -.-&gt; B\n  M[\"M\"] -.-o C[\"C\"]\n  M -.-x D[\"D\"] & E[\"E\"]\n\n\n\n\nFigure 5: Feedforward architecture with varied modulation (different effects of M)."
+    "text": "Architecture\n\n\n\n\n\n\n\n\nflowchart TD\n  A[\"A\"] --&gt; B[\"B\"]\n  B --&gt; C[\"C\"]\n  C --&gt; D[\"D\"] & E[\"E\"]\n\n\n\n\nFigure 38: A simple feedforward architecture.\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart TD \n  B --&gt; C\n  C --&gt; D & E\n  M[\"M\"] -.-&gt; B[\"B\"] & C[\"C\"] & D[\"D\"] & E[\"E\"]\n\n\n\n\nFigure 39: Feedforward architecture with modulation.\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart TD \n  B --&gt; C\n  C --&gt; D & E\n  M -.-&gt; B\n  M[\"M\"] -.-o C[\"C\"]\n  M -.-x D[\"D\"] & E[\"E\"]\n\n\n\n\nFigure 40: Feedforward architecture with varied modulation (different effects of M)."
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#architecture-1",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#architecture-1",
     "title": "Neurochemistry",
     "section": "Architecture",
-    "text": "Architecture\n\n\n\n\n\n\nflowchart TD \n  B --&gt; C\n  C --&gt; D & E\n  M -.-&gt; B\n  M[\"M\"] -.-o C[\"C\"]\n  M -.-x D[\"D\"] & E[\"E\"]\n  E ==&gt; M\n\n\n\n\nFigure 6: Feedforward/feedback architecture with varied modulation."
+    "text": "Architecture\n\n\n\n\n\n\nflowchart TD \n  B --&gt; C\n  C --&gt; D & E\n  M -.-&gt; B\n  M[\"M\"] -.-o C[\"C\"]\n  M -.-x D[\"D\"] & E[\"E\"]\n  E ==&gt; M\n\n\n\n\nFigure 41: Feedforward/feedback architecture with varied modulation."
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#melatonin-2",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#melatonin-2",
     "title": "Neurochemistry",
     "section": "Melatonin",
-    "text": "Melatonin\n\n\n\nArendt & Aulinas (2000) Figure 215"
+    "text": "Melatonin\n\n\n\n\n\n\nFigure 34: Arendt & Aulinas (2000) Figure 222"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#on-neurochemical-influences",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#on-neurochemical-influences",
     "title": "Neurochemistry",
     "section": "On neurochemical influences",
-    "text": "On neurochemical influences\n\nMeasure hormones in blood, saliva, urine; can’t effectively measure NTs\nMultivariate, nonlinear, mutually interacting\nVaried time scales\n\nPhasic (e.g., cortisol in response to challenge)\nPeriodic (e.g., melatonin; diurnal cortisol)\n\n\n\n\nContent"
+    "text": "On neurochemical influences\n\nMeasure hormones in blood, saliva, urine; can’t effectively measure NTs\nMultivariate, nonlinear, mutually interacting\nVaried time scales\n\nPhasic (e.g., cortisol in response to challenge)\nPeriodic (e.g., melatonin; diurnal cortisol)"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#serotonin-5-ht",
@@ -12435,14 +12435,14 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#ht-in-the-pns",
     "title": "Neurochemistry",
     "section": "5-HT in the PNS",
-    "text": "5-HT in the PNS\n\n\n\nMost (90%; De Ponti (2004)) of body’s \\(\\approx\\) 250K 5-HT neurons regulate digestion\nvia Enteric Nervous System (in PNS)\n\n\n\n\n\nFurness (2012)"
+    "text": "5-HT in the PNS\n\n\n\nMost (90%; De Ponti (2004)) of body’s \\(\\approx\\) 250K 5-HT neurons regulate digestion\nvia Enteric Nervous System (in PNS)\n\n\n\n\n\n\n\n\nFigure 19: Furness (2012) Figure 111"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#ht-in-the-cns",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#ht-in-the-cns",
     "title": "Neurochemistry",
     "section": "5-HT in the CNS",
-    "text": "5-HT in the CNS\n\n\n\nSeparate cortical, subcortical 5-HT projection pathways?\n\n\n\n\n\nRen et al. (2018)"
+    "text": "5-HT in the CNS\n\n\n\nSeparate cortical, subcortical 5-HT projection pathways?\n\n\n\n\n\n\n\n\nFigure 20: Ren et al. (2018)"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#comparing-neuromodulators",
@@ -12470,7 +12470,7 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#physiological-responses-and-behaviors-under-hormonal-influence",
     "title": "Neurochemistry",
     "section": "Physiological responses and behaviors under hormonal influence",
-    "text": "Physiological responses and behaviors under hormonal influence\n\n\n\nIngestive (eating/ drinking)\n\nFluid levels\nNa, K, Ca levels\nDigestion\nBlood glucose levels"
+    "text": "Physiological responses and behaviors under hormonal influence"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#physiological-responses-and-behaviors-under-hormonal-influence-1",
@@ -12505,7 +12505,7 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#indirect-release-1",
     "title": "Neurochemistry",
     "section": "Indirect release",
-    "text": "Indirect release\n\n\n\nBlood stream -&gt;\nEnd organs\n\n\n\n\n\n\n\n\nFigure 2: Biological Psychology 4e"
+    "text": "Indirect release\n\n\n\nBlood stream -&gt;\nEnd organs\n\n\n\n\n\n\n\n\nFigure 27: Biological Psychology 4e"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#indirect-release-2",
@@ -12519,28 +12519,28 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#ht-clinical-relevance-1",
     "title": "Neurochemistry",
     "section": "5-HT clinical relevance",
-    "text": "5-HT clinical relevance\n\n\n\nDifferent psychological roles (passive vs. active coping) associated with different 5-HT receptor subtypes? (Carhart-Harris & Nutt, 2017)\n“No consistent of there being an association between serotonin and depression…” (Moncrieff et al., 2022)\n\n\n\n\n\nWikipedia6"
+    "text": "5-HT clinical relevance\n\n\n\nDifferent psychological roles (passive vs. active coping) associated with different 5-HT receptor subtypes? (Carhart-Harris & Nutt, 2017)\n“No consistent of there being an association between serotonin and depression…” (Moncrieff et al., 2022)\n\n\n\n\n\nWikipedia contributors (2025d)13"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#comparing-neuromodulators-1",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#comparing-neuromodulators-1",
     "title": "Neurochemistry",
     "section": "Comparing neuromodulators",
-    "text": "Comparing neuromodulators\n\n\n\nMost neuromodulators relate to attention and novelty detection\nNeuromodulators interact with one another\n\n\n\n\n\nAvery & Krichmar (2017) Figure 1"
+    "text": "Comparing neuromodulators\n\n\n\nMany neuromodulators relate to attention and novelty detection\nNeuromodulators interact with one another\n\n\n\n\n\nAvery & Krichmar (2017) Figure 1"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#histamine-ha-1",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#histamine-ha-1",
     "title": "Neurochemistry",
     "section": "Histamine (HA)",
-    "text": "Histamine (HA)\n\n\n\nRole in arousal/sleep regulation\nIn body, part of immune/inflammatory response\n\n\n\n\n\nHaas & Panula (2003) Figure 18"
+    "text": "Histamine (HA)\n\n\n\nRole in arousal/sleep regulation\nIn body, part of immune/inflammatory response\n\n\n\n\n\nHaas & Panula (2003) Figure 115"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#both-nts-and-hormones",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#both-nts-and-hormones",
     "title": "Neurochemistry",
     "section": "Both NTs and hormones",
-    "text": "Both NTs and hormones\n\nMelatonin\nEpinephrine/adrenaline\nOxytocin\nArginine Vasopressin (AVP) or Anti-Diuretic Hormone (ADH)\nCorticotropic Releasing Hormone (CRH)"
+    "text": "Both NTs and hormones\n\nMelatonin\nEpinephrine/adrenaline\nOrexin/hypocretin\nOxytocin\nArginine Vasopressin (AVP) or Anti-Diuretic Hormone (ADH)\nCorticotropin Releasing Hormone (CRH)"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#melatonin-3",
@@ -12554,28 +12554,28 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#responses-to-threat-or-challenge-1",
     "title": "Neurochemistry",
     "section": "Responses to threat or challenge",
-    "text": "Responses to threat or challenge\n\n\n\nNeural response\n\nSympathetic Adrenal Medulla (SAM) response\nSympathetic NS activation of adrenal medulla, other organs\nReleases NE and Epi into bloodstream\n\n\n\n\n\n\nUlrich-Lai & Herman (2009) Figure 2"
+    "text": "Responses to threat or challenge\n\n\n\nNeural response\n\nSympathetic Adrenal Medulla (SAM) response\nSympathetic NS activation of adrenal medulla, other organs\nReleases NE and Epi into bloodstream\n\n\n\n}"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#responses-to-threat-or-challenge-2",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#responses-to-threat-or-challenge-2",
     "title": "Neurochemistry",
     "section": "Responses to threat or challenge",
-    "text": "Responses to threat or challenge\n\n\n\nEndocrine response\n\nHypothalamic Pituitary Adrenal (HPA) axis\nAdrenal hormones released\n\n\n\n\n\n\nDeussing & Chen (2018) Figure 111"
+    "text": "Responses to threat or challenge\n\n\n\nEndocrine response\n\nHypothalamic Pituitary Adrenal (HPA) axis\nAdrenal hormones released\n\n\n\n\n\n\n\n\n\nFigure 29: Deussing & Chen (2018) Figure 118"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#endocrine-responses",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#endocrine-responses",
     "title": "Neurochemistry",
     "section": "Endocrine responses",
-    "text": "Endocrine responses\n\n\n\nHypothalamus\n\nCorticotropin Releasing Hormone (CRH) or Corticotropin Releasing Factor (CRF)\nParaventricular nucleus (PVN)\n\nAnterior pituitary\n\nAdrenocorticotropic hormone (ACTH)\n\n\n\n\n\n\nUlrich-Lai & Herman (2009) Figure 312"
+    "text": "Endocrine responses\n\n\n\nHypothalamus\n\nCorticotropin Releasing Hormone (CRH) or Corticotropin Releasing Factor (CRF)\nParaventricular nucleus (PVN)\n\nAnterior pituitary\n\nAdrenocorticotropic hormone (ACTH)\n\n\n\n\n\n\n\n\n\nFigure 30: Ulrich-Lai & Herman (2009) Figure 319"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#cortisol",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#cortisol",
     "title": "Neurochemistry",
     "section": "Cortisol",
-    "text": "Cortisol\n\n\n\nincreases blood glucose, aids in fat, protein, & carbohydrate metabolism\nsuppressess immune response, e.g., anti-inflammatory\nin presence of Epi/Ad, role in memory formation\n\n\n\n\n\nAndreadi et al. (2025)"
+    "text": "Cortisol\n\n\n\nincreases blood glucose, aids in fat, protein, & carbohydrate metabolism\nsuppressess immune response, e.g., anti-inflammatory\nin presence of Epi/Ad, role in memory formation\n\n\n\n\n\n\n\n\nFigure 32: Andreadi et al. (2025)"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#adrenal-hormones",
@@ -12596,7 +12596,7 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#crf-receptors",
     "title": "Neurochemistry",
     "section": "CRF receptors",
-    "text": "CRF receptors\n\n\n\nFound throughout the brain\n\n\n\n\n\nDeussing & Chen (2018) Figure 413"
+    "text": "CRF receptors\n\n\n\nFound throughout the brain\n\n\n\n\n\nDeussing & Chen (2018) Figure 420"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#cortisol-1",
@@ -12610,7 +12610,7 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#oxytocin",
     "title": "Neurochemistry",
     "section": "Oxytocin",
-    "text": "Oxytocin\n\nSexual arousal\nReleased during orgasm, causing rhythmic muscle contractions\nStimulates uterine, vaginal contraction during labor\n\nBut mouse OXY knock-out model still engages in reproductive behavior and gives birth without incident"
+    "text": "Oxytocin\n\nOxytocin-producing cells in ovarian corpus luteum, testicles, retina, adrenal medulla, pancreas\nLinks to social interaction, bonding (Weisman & Feldman, 2013)\nAlters face processing in autism (Domes et al., 2013)\nMay inhibit fear/anxiety-related behaviors by gating amygdala (Viviani et al., 2011)"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#oxytocin-1",
@@ -12624,13 +12624,125 @@
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#reproductive-behavior-the-milk-letdown-reflex-1",
     "title": "Neurochemistry",
     "section": "Reproductive behavior – the milk letdown reflex",
-    "text": "Reproductive behavior – the milk letdown reflex\n\n\n\nIn CNS (neurocrine)\n\nnucleus accumbens, amygdala, brainstem\n\nIn breast tissue, oxytocin stimulates milk ducts\n\n\n\n\n\nhttps://64.media.tumblr.com/29ad3be13cc42500c5c0eb496b465745/tumblr_nr55r27dOB1tqg84mo1_640.png"
+    "text": "Reproductive behavior – the milk letdown reflex\n\n\n\nIn breast tissue, oxytocin stimulates milk ducts\n\n\n\n\n\nhttps://64.media.tumblr.com/29ad3be13cc42500c5c0eb496b465745/tumblr_nr55r27dOB1tqg84mo1_640.png"
   },
   {
     "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#melatonin-and-other-circadian-rhythms",
     "href": "slides/wk-12-2026-04-09-neurochemistry.html#melatonin-and-other-circadian-rhythms",
     "title": "Neurochemistry",
     "section": "Melatonin and other circadian rhythms",
-    "text": "Melatonin and other circadian rhythms\n![Arendt & Aulinas (2000) Figure 616"
+    "text": "Melatonin and other circadian rhythms\n\n\n\n\n\n\nFigure 36: Arendt & Aulinas (2000) Figure 623"
+  },
+  {
+    "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#signal-specificity",
+    "href": "slides/wk-12-2026-04-09-neurochemistry.html#signal-specificity",
+    "title": "Neurochemistry",
+    "section": "Signal specificity",
+    "text": "Signal specificity\n\nNetwork architecture\n\nFrom X to Y\n\nNTs released\nReceptor types"
+  },
+  {
+    "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#section-3",
+    "href": "slides/wk-12-2026-04-09-neurochemistry.html#section-3",
+    "title": "Neurochemistry",
+    "section": "",
+    "text": "In ANS, postganglionic sympathetic nervous system neurons contact target tissues\n\n\n\n\n\nhttps://imotions.com/blog/learning/research-fundamentals/nervous-system/"
+  },
+  {
+    "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#ne",
+    "href": "slides/wk-12-2026-04-09-neurochemistry.html#ne",
+    "title": "Neurochemistry",
+    "section": "NE",
+    "text": "NE\n\n\n\nIn ANS, postganglionic sympathetic nervous system neurons contact target tissues\n\n\n\n\n\nhttps://imotions.com/blog/learning/research-fundamentals/nervous-system/"
+  },
+  {
+    "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#adrenal-adjacent-to-the-renal-gland-or-kidney",
+    "href": "slides/wk-12-2026-04-09-neurochemistry.html#adrenal-adjacent-to-the-renal-gland-or-kidney",
+    "title": "Neurochemistry",
+    "section": "Adrenal (adjacent to the renal gland or kidney)",
+    "text": "Adrenal (adjacent to the renal gland or kidney)\n\n\n\n\n\n\nFigure 17: Wikipedia contributors (2025a)10"
+  },
+  {
+    "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#ingestive-eatingdrinking",
+    "href": "slides/wk-12-2026-04-09-neurochemistry.html#ingestive-eatingdrinking",
+    "title": "Neurochemistry",
+    "section": "Ingestive (eating/drinking)",
+    "text": "Ingestive (eating/drinking)\n\n\n\nFluid levels\nNa, K, Ca levels\nDigestion\nBlood glucose levels"
+  },
+  {
+    "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#reproduction",
+    "href": "slides/wk-12-2026-04-09-neurochemistry.html#reproduction",
+    "title": "Neurochemistry",
+    "section": "Reproduction",
+    "text": "Reproduction\n\n\n\nSexual Maturation\nMating\nBirth\nCaregiving"
+  },
+  {
+    "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#crfcrh-receptors",
+    "href": "slides/wk-12-2026-04-09-neurochemistry.html#crfcrh-receptors",
+    "title": "Neurochemistry",
+    "section": "CRF/CRH receptors",
+    "text": "CRF/CRH receptors\n\n\n\nFound throughout the brain\n\n\n\n\n\n\n\n\nFigure 31: Deussing & Chen (2018) Figure 420"
+  },
+  {
+    "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#milk-letdown-reflex",
+    "href": "slides/wk-12-2026-04-09-neurochemistry.html#milk-letdown-reflex",
+    "title": "Neurochemistry",
+    "section": "Milk letdown reflex",
+    "text": "Milk letdown reflex\n\n\n\nSupraoptic nucleus & Paraventricular nucleus (PVN) of hypothalamus release oxytocin\n\nInto bloodstream via posterior pituitary (endocrine)\n\n\n\n\n\n\nhttps://64.media.tumblr.com/29ad3be13cc42500c5c0eb496b465745/tumblr_nr55r27dOB1tqg84mo1_640.png"
+  },
+  {
+    "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#milk-letdown-reflex-1",
+    "href": "slides/wk-12-2026-04-09-neurochemistry.html#milk-letdown-reflex-1",
+    "title": "Neurochemistry",
+    "section": "Milk letdown reflex",
+    "text": "Milk letdown reflex\n\n\n\nIn CNS (neurocrine)\n\nnucleus accumbens, amygdala, brainstem\n\n\n\n\n\n\nhttps://64.media.tumblr.com/29ad3be13cc42500c5c0eb496b465745/tumblr_nr55r27dOB1tqg84mo1_640.png"
+  },
+  {
+    "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#milk-letdown-reflex-2",
+    "href": "slides/wk-12-2026-04-09-neurochemistry.html#milk-letdown-reflex-2",
+    "title": "Neurochemistry",
+    "section": "Milk letdown reflex",
+    "text": "Milk letdown reflex\n\n\n\nIn breast tissue, oxytocin stimulates milk ducts\n\n\n\n\n\nhttps://64.media.tumblr.com/29ad3be13cc42500c5c0eb496b465745/tumblr_nr55r27dOB1tqg84mo1_640.png"
+  },
+  {
+    "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#oxytocins-other-roles",
+    "href": "slides/wk-12-2026-04-09-neurochemistry.html#oxytocins-other-roles",
+    "title": "Neurochemistry",
+    "section": "Oxytocin’s other roles",
+    "text": "Oxytocin’s other roles\n\nSexual arousal\nReleased during orgasm\nStimulates uterine, vaginal contraction during labor\n\nBut mouse OXY knock-out model still engages in reproductive behavior and gives birth without incident"
+  },
+  {
+    "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#melatonin-circuit",
+    "href": "slides/wk-12-2026-04-09-neurochemistry.html#melatonin-circuit",
+    "title": "Neurochemistry",
+    "section": "Melatonin circuit",
+    "text": "Melatonin circuit\n\n\n\nSuprachiasmatic nucleus (SCN) of the hypothalamus\nParaventricular nucleus of the hypothalamus\nSpinal cord\nSuperior cervical ganglion (sympathetic NS)\nPineal gland\n\n\n\n\n\n\n\n\nFigure 35"
+  },
+  {
+    "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#melatonin-vs-other-rhythms",
+    "href": "slides/wk-12-2026-04-09-neurochemistry.html#melatonin-vs-other-rhythms",
+    "title": "Neurochemistry",
+    "section": "Melatonin vs other rhythms",
+    "text": "Melatonin vs other rhythms\n\n\n\n\n\n\nFigure 36: Arendt & Aulinas (2000) Figure 623"
+  },
+  {
+    "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#melatonin-vs.-other-rhythms",
+    "href": "slides/wk-12-2026-04-09-neurochemistry.html#melatonin-vs.-other-rhythms",
+    "title": "Neurochemistry",
+    "section": "Melatonin vs. other rhythms",
+    "text": "Melatonin vs. other rhythms\n\n\n\n\n\n\nFigure 36: Arendt & Aulinas (2000) Figure 623"
+  },
+  {
+    "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#main-points-1",
+    "href": "slides/wk-12-2026-04-09-neurochemistry.html#main-points-1",
+    "title": "Neurochemistry",
+    "section": "Main points",
+    "text": "Main points\n\nAmino acids + ACh25 are excitatory (Glu) & inhibitory (GABA, Glycine)\nMonoamines26 are modulators\n\nesp DA, NE, 5-HT\nBrain stem nuclei \\(\\rightarrow\\) CNS\n\nNeuropeptides often NT & hormone"
+  },
+  {
+    "objectID": "slides/wk-12-2026-04-09-neurochemistry.html#main-points-2",
+    "href": "slides/wk-12-2026-04-09-neurochemistry.html#main-points-2",
+    "title": "Neurochemistry",
+    "section": "Main points",
+    "text": "Main points\n\nHypothalamus (“master” gland) \\(\\rightarrow\\) Pituitary\nDirect release (OXY, AVP)\nIndirect release (e.g., CRH \\(\\rightarrow\\) ACTH \\(\\rightarrow\\) CORT)\nBehavior: Combined neural & endocrine influence"
   }
 ]
