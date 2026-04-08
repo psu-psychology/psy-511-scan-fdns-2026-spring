@@ -1,8 +1,6 @@
 subtitle: "PSY 511.001 Spr 2026"
-
 execute:
   freeze: auto  # re-render only when source changes
-
 format:
   revealjs:
     footer: "[PSY 511.001](https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring) | © 2025 Rick Gilmore under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
@@ -19,5 +17,13 @@ format:
     author: "Rick Gilmore"
     institute: "Department of Psychology"
     reference-location: document
-    
 lightbox: true
+custom-callout:
+  question:
+    icon-symbol: "fa-question"
+    color: "pink"
+  answer:
+    icon-symbol: "fa-brain"
+    color: "blue"
+filters:
+  - custom-callout

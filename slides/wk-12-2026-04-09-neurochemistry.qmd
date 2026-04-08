@@ -33,7 +33,6 @@ Monoamines, mod-u-late neurons </br>
 Monoamines, throughout the brain</br>
 Monoamines, keep people happy, brains snappy, not sleepy, not sappy, do-do do-do do-do do
 
-
 ## Announcements
 
 - *Due*:  [Exercise AP • Neurophysiology II](../exercises/ex-AP.qmd)
@@ -52,42 +51,51 @@ Monoamines, keep people happy, brains snappy, not sleepy, not sappy, do-do do-do
 
 ---
 
-### What causes voltage-gated $Na^+$ channels to open?
+::: question
+## What causes voltage-gated Na channels to open?
 
 - A. The channels bind a ligand like glutamate.
 - B. The Na/K pump slows down.
 - C. Cl- entry causes the cell to hyperpolarize.
 - D. An accumulation of EPSPs depolarizes the membrane.
 
+:::
+
+::: fragment
+::: answer
+::: incremental
+- ~~A. The channels bind a ligand like glutamate.~~ {{< fa circle-xmark >}}
+- ~~B. The Na/K pump slows down.~~ {{< fa circle-xmark >}}
+- ~~C. Cl- entry causes the cell to hyperpolarize.~~ {{< fa circle-xmark >}} 
+- **D. An accumulation of EPSPs depolarizes the membrane.** {{< fa check >}}
+:::
+:::
+:::
+
 ---
 
-### What causes voltage-gated $Na^+$ channels to open?
-
-- ~~A. The channels bind a ligand like glutamate.~~
-- ~~B. The Na/K pump slows down.~~
-- ~~C. Cl- entry causes the cell to hyperpolarize.~~
-- **D. An accumulation of EPSPs depolarizes the membrane.**
-
----
-
+::: question
 ### All of the following events occur near the peak of the action potential *except*:
-
 - A. Voltage-gated $Na^+$ channels close and inactivate.
 - B. Voltage-gated $K^+$ channels open.
 - C. $K^+$ ions flow out of the cell through passive/leak channels.
 - D. The membrane potential approaches the reversal/equilibrium potential for $K^+$.
+:::
+
+::: fragment
+::: answer
+::: incremental
+- A. Voltage-gated $Na^+$ channels close and inactivate. {{< fa check >}} 
+- B. Voltage-gated $K^+$ channels open. {{< fa check >}} 
+- C. $K^+$ ions flow out of the cell through passive/leak channels. {{< fa check >}} 
+- **D. The membrane potential approaches the reversal/equilibrium potential for $K^+$.** {{< fa check >}}
+:::
+:::
+::: 
 
 ---
 
-### All of the following events occur near the peak of the action potential *except*:
-
-- A. Voltage-gated $Na^+$ channels close and inactivate.
-- B. Voltage-gated $K^+$ channels open.
-- C. $K^+$ ions flow out of the cell through passive/leak channels.
-- **D. The membrane potential approaches the reversal/equilibrium potential for $K^+$.**
-
----
-
+::: question
 ### What factor(s) accelerate the speed of propagation along an axon?
 
 - A. Large diameter.
@@ -96,15 +104,19 @@ Monoamines, keep people happy, brains snappy, not sleepy, not sappy, do-do do-do
 - D. Short axon length.
 - E. A and C.
 
----
+:::
 
-### What factor(s) accelerate the speed of propagation along an axon?
-
-- A. Large diameter.
-- ~~B. Small diameter.~~
-- C. Thick myelin.
-- ~~D. Short axon length.~~
-- **E. A and C.**
+::: fragment
+::: answer
+::: incremental
+- A. Large diameter. {{< fa check >}} 
+- ~~B. Small diameter.~~ {{< fa circle-xmark >}}
+- C. Thick myelin. {{< fa check >}}
+- ~~D. Short axon length.~~ {{< fa circle-xmark >}}
+-  **E. A and C.** {{< fa check >}}
+::: 
+:::
+:::
 
 # Neurochemistry
 
@@ -161,7 +173,7 @@ Monoamines, keep people happy, brains snappy, not sleepy, not sappy, do-do do-do
 - Role in learning (via NMDA-R)
 - Receptors on neurons and glia (astrocytes and oligodendrocytes)
 
-## Glutamate
+## Glutamate (Glu)
 
 - Inactivated via 
   - reuptake via glutamate transporters in preysynaptic terminal
@@ -192,9 +204,10 @@ Monoamines, keep people happy, brains snappy, not sleepy, not sappy, do-do do-do
 ## $\gamma$ aminobutyric acid (GABA)
 
 - Primary inhibitory NT in CNS
-- Excitatory in developing CNS, $[Cl^-]_{in} >> [Cl^-]_{out}$ out
+- Excitatory in developing CNS
+  - $[Cl^-]_{in} >> [Cl^-]_{out}$ out
 - Binding sites for benzodiazepines (BZD; e.g., Valium), barbiturates, ethanol, etc.
-  - BZD affect subset of GABA-A receptors
+  - BZD affects subset of GABA-A receptors
   - Increase total Cl- influx
 
 ## GABA receptor types
@@ -204,11 +217,11 @@ Monoamines, keep people happy, brains snappy, not sleepy, not sappy, do-do do-do
 | Ionotropic   | GABA-A     | $Cl^-$           |
 | Metabotropic | GABA-B     | $K^+$             |
 
-##
+## GABA
 
 :::: {.columns}
 ::: {.column width=50%}
-![http://pittmedneuro.com/inhibitory.html](http://pittmedneuro.com/img/GABAa.jpg){#fig-gaba-receptor}
+![http://pittmedneuro.com/inhibitory.html](http://pittmedneuro.com/img/GABAa.jpg){width="60%" #fig-gabaa-receptor-pitt}
 <!-- ![https://en.wikipedia.org/wiki/GABAA_receptor](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/GABAA-receptor-protein-example.png/800px-GABAA-receptor-protein-example.png) -->
 :::
 ::: {.column width=50%}
@@ -216,7 +229,7 @@ Monoamines, keep people happy, brains snappy, not sleepy, not sappy, do-do do-do
 :::
 ::::
 
-## {.scrollable}
+## GABA-A receptor {.scrollable}
 
 ![https://en.wikipedia.org/wiki/GABAA_receptor](https://upload.wikimedia.org/wikipedia/commons/1/15/Fig-GABAA_receptor.png){#fig-gaba-receptor-molecular width="60%"}
 
@@ -227,18 +240,17 @@ Monoamines, keep people happy, brains snappy, not sleepy, not sappy, do-do do-do
 - *Glycine*
     + Spinal cord interneurons
     - Inhibitory
-    - Cl- channel opens
+    - Opens Cl- channel
 
 ## Acetylcholine (ACh)
 
 - Primary excitatory NT of CNS output
 
-## ACh in Somatic Motor System (SMS)
+## ACh in PNS (Somatic)
 
 :::: {.columns}
 ::: {.column width=50%}
-- Somatic nervous system
-  - Motor neuron in spinal cord -> neuromuscular junction
+- Motor neuron in spinal cord -> neuromuscular junction
 :::
 ::: {.column width=50%}
 ![*Biological Psychology 4th ed.*](../include/img/from-spinal-cord-to-muscle.jpg){#fig-spinal-cord-to-muscle-fiber width="60%"}
@@ -247,13 +259,12 @@ Monoamines, keep people happy, brains snappy, not sleepy, not sappy, do-do do-do
 
 ---
 
-## ACh in ANS
+## ACh in PNS (Autonomic)
 
 :::: {.columns}
 ::: {.column width=50%}
-- Autonomic nervous system (ANS)
-    + Sympathetic branch: preganglionic neuron
-    + Parasympathetic branch: pre/postganglionic
++ Sympathetic branch: preganglionic neuron
++ Parasympathetic branch: pre/postganglionic
 :::
 ::: {.column width=50%}
 ![https://imotions.com/blog/learning/research-fundamentals/nervous-system/](https://imotions.com/wp-content/uploads/2022/10/Sympathetic-parasympathetic-nervous-systems.png){#fig-ans}
@@ -393,9 +404,15 @@ Monoamines, keep people happy, brains snappy, not sleepy, not sappy, do-do do-do
   - Monoamine Oxidase Inhibitors (MAO-Is) *inhibit* monoamine inactivation
   
 ::: {.fragment}
-::: {.callout-important}
+::: question
 ## Your turn
 What is the effect of *inhibiting* neurotransmitter inactivation?
+:::
+:::
+
+::: fragment
+::: answer
+NT concentration $\uparrow$, action prolonged.
 :::
 :::
 
@@ -437,7 +454,7 @@ What is the effect of *inhibiting* neurotransmitter inactivation?
 
 :::: {.columns}
 ::: {.column width=50%}
-+ In ANS, postganglionic sympathetic nervous system neurons contact target tissues
++ In ANS, postganglionic sympathetic neurons contact target tissues
 :::
 ::: {.column width=50%}
 ![https://imotions.com/blog/learning/research-fundamentals/nervous-system/](https://imotions.com/wp-content/uploads/2022/10/Sympathetic-parasympathetic-nervous-systems.png)
@@ -457,7 +474,7 @@ What is the effect of *inhibiting* neurotransmitter inactivation?
 ## NE inactivation
 
 - Enzymatic degradation via MAO
-  + inactivate monoamines
+  + inactivates monoamines
   - Type A (MAO-A)
     - NE, epinephrine, 5-HT, melatonin, DA
   - Type B (MAO-B)
@@ -534,7 +551,7 @@ What is the effect of *inhibiting* neurotransmitter inactivation?
 
 :::: {.columns}
 ::: {.column width=50%}
-- Most (90%; @De_Ponti2004-lo) of body's $\approx$ 250K 5-HT neurons regulate digestion
+- Most [90%, @De_Ponti2004-lo] of body's $\approx$ 250K 5-HT neurons regulate digestion
 - via Enteric Nervous System (in PNS)
 :::
 ::: {.column width=50%}
@@ -579,7 +596,7 @@ What is the effect of *inhibiting* neurotransmitter inactivation?
 :::: {.columns}
 ::: {.column width=50%}
 - Different psychological roles (passive vs. active coping) associated with different 5-HT receptor subtypes? [@Carhart-Harris2017-aq]
-- "No consistent of there being an association between serotonin and depression..." [@Moncrieff2022-os]
+- "...not consistent of there being an association between serotonin and depression..." [@Moncrieff2022-os]
 :::
 ::: {.column width=50%}
 ![@Wikipedia-contributors2025-lp^["In this drawing of the brain, the serotonergic system is red and the mesolimbic dopamine pathway is blue. There is one collection of serotonergic neurons in the upper brainstem that sends axons upwards to the whole cerebrum, and one collection next to the cerebellum that sends axons downward to the spinal cord. Slightly forward the upper serotonergic neurons is the ventral tegmental area (VTA), which contains dopaminergic neurons. These neurons' axons then connect to the nucleus accumbens, hippocampus, and the frontal cortex. Over the VTA is another collection of dopaminergic cells, the substansia nigra, which send axons to the striatum. By NIH - http://www.drugabuse.gov/pubs/teaching/largegifs/slide-2.gif, Public Domain, https://commons.wikimedia.org/w/index.php?curid=37682508."]](https://upload.wikimedia.org/wikipedia/commons/a/aa/Pubmed_equitativa_hormonal.png){width="60%"}
@@ -628,9 +645,8 @@ What is the effect of *inhibiting* neurotransmitter inactivation?
     + *Nitric Oxide (NO)*, *carbon monoxide (CO)*
 - Neuropeptides
     + *Substance P* and *endorphins* (endogenous morphine-like compounds) regulate pain
-    + *Orexin/hypocretin* regulates wakefulness & appetite
-    + *Cholecystokinin (CCK)* stimulates digestion
     + *Orexin/hypocretin*, project from lateral hypothalamus across brain, regulates appetite, arousal
+    + *Cholecystokinin (CCK)* stimulates digestion
 
 ## Other NTs
 
@@ -638,6 +654,18 @@ What is the effect of *inhibiting* neurotransmitter inactivation?
     + *Adenosine* (inhibited by caffeine)
 - Others
     + *Anandamide* (activates endogenous cannabinoid receptors)
+- 200+ and counting [@UnknownUnknown-pb]
+
+## The chemical brain
+
+:::: {.columns}
+::: {.column width=50%}
+![giphy.com](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXIzMzI5NjhwYnF6NThub2IydWJqOWJvNm92ZWVqMndpZGw1YWc3MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2wRLDz95iZ3YhSn9pK/giphy.gif){width="70%"}
+:::
+::: {.column width=50%}
+![giphy.com](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExemV4Z2NpOXoxa2hyMW40dWV0dTJ2dWQxZ3pydnoxcGxkNDh3M2VjbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wRVWf0rZhggJ7ZQxqb/giphy.gif){width="70%"}
+:::
+::::
 
 # Hormones
 
@@ -757,9 +785,11 @@ What is the effect of *inhibiting* neurotransmitter inactivation?
 :::
 ::::
 
-## Two release systems
+## Hypothalamus
 
-- From hypothalamus via pituitary
+- "Output" organ
+  - Master gland^[Plus control over ANS]
+- Two release pathways via pituitary
   - Direct
   - Indirect
 
