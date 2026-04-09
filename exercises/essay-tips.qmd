@@ -1,0 +1,32 @@
+---
+title: "Essay tips"
+---
+
+## About
+
+This page provides some guidance for how to write compelling and thought-provoking essays.
+
+## General guidance
+
+These exercises present you opportunities to dig more deeply into a topic than we have time for in other class-related work.
+There are more exercise opportunities than grades assigned so that you can choose which ones most interest you or advance your learning.
+In almost all cases, you should respond to the exercises by writing an essay.
+
+Essays have a specific structure that you should follow.
+Begin with an introductory paragraph. That paragraph should have a clear and compelling thesis statement. The best statements stake a claim or state an opinion that will be buttressed with evidence you provide in subsequent paragraphs in the body of your essay. Your introduction can hint at the evidence you will present and arguments you will make, but leave the meaty details for the body of the essay.
+
+The body of your essay can be at least two and as many as four or five paragraphs. Each paragraph should focus on a different topic and should ideally have a readily identifiable topic sentence. Most exercise assignments ask a series of questions that you should answer. Addressing each question in a separate paragraph provides one easy way to structure the body of your essay.
+
+Finally, your essay should have a strong conclusion where you restate your thesis and the evidence that supports it. It's fine to remind readers why the topic is important and what remains to be learned.
+
+Follow this structure, and you will do well in the assignments. Moreover, you'll eventually incorporate the form into other forms of writing, to your benefit and the benefit of people who read your work.
+
+## Specific tips
+
+0. Outline first. Microsoft Word's outline feature is good, but use whatever tool works for you. It may seem odd, but you might proceed inside-out. Outline the body paragraphs of your essay where you pose questions and provide answers, then bring the logic of that work into your introduction.
+1. Always cite sources, both in-text and in a final reference section.
+2. Relatedly, if you're not already using a reference manager (EndNote, Zotero, PaperPile), start immediately.
+3. Always add page numbers.
+4. APA paper format isn't the only manuscript format, but it's a reasonable standard to adopt.
+5. Read your paper out loud before you submit. There's no better way to catch run-on sentences or awkward turns of phrase than hearing them out loud.
+6. Run spell-check. If you use Microsoft Word, consider the results from the grammar check. Sometimes the suggestions reflect different stylistic choices that you might ignore. But often, the suggestions are good.

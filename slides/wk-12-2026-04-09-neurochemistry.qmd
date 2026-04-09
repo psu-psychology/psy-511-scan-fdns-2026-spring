@@ -38,7 +38,7 @@ Monoamines, keep people happy, brains snappy, not sleepy, not sappy, do-do do-do
 - *Due*:  [Exercise AP • Neurophysiology II](../exercises/ex-AP.qmd)
   - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005465)
 - *Assigned*: [Exercise CHEM • Neurochemistry](../exercises/ex-CHEM.qmd)
-  - *Due*: `{r} ex_chem_due`.
+  - *Due*: 2026-04-16
   - [Canvas dropbox](https://psu.instructure.com/courses/2441266/assignments/18005510)
 
 ## Today's topics

@@ -7,6 +7,7 @@
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-contrib/fontawesome-7-free-7.2.0/fontawesome.css" rel="stylesheet">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
@@ -149,6 +150,34 @@
   <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
   <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
   <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+  <style>
+  .reveal div.callout-question.callout {
+    border-left-color: pink;
+  }
+  .reveal div.callout-question.callout-style-default .callout-title {
+    background-color: rgb(from pink r g b / 13%);
+  }
+  .reveal div.callout-question.callout-style-default .callout-icon::before, .reveal div.callout-question.callout-titled .callout-icon::before {
+    font-family: 'Font Awesome 7 Free';
+    font-weight: 900;
+    font-style: normal;
+    content: '\3f' !important;
+    background-image: none;
+  }
+  .reveal div.callout-answer.callout {
+    border-left-color: blue;
+  }
+  .reveal div.callout-answer.callout-style-default .callout-title {
+    background-color: rgb(from blue r g b / 13%);
+  }
+  .reveal div.callout-answer.callout-style-default .callout-icon::before, .reveal div.callout-answer.callout-titled .callout-icon::before {
+    font-family: 'Font Awesome 7 Free';
+    font-weight: 900;
+    font-style: normal;
+    content: '\f5dc' !important;
+    background-image: none;
+  }
+  </style>
 </head>
 <body class="quarto-light">
   <div class="reveal">

@@ -48,6 +48,8 @@ website:
             href: exercises/ex-PHYS.qmd
           - text: "Ex AP • Neurophysiology II"
             href: exercises/ex-AP.qmd
+          - text: "Ex CHEM • Neurochemistry"
+            href: exercises/ex-CHEM.qmd
       - section: "Slides"
         contents:
           - text: "Wk 01 • Thu Jan 14"
@@ -72,10 +74,14 @@ website:
             href: slides/wk-10-2026-03-26-cells.qmd
           - text: "Wk 11 • Thu Apr 02"
             href: slides/wk-11-2026-04-02-neural-comm.qmd
+          - text: "Wk 12 • Thu Apr 09"
+            href: slides/wk-12-2026-04-09-neurochemistry.qmd
       - section: "Resources"
         contents:
           - text: "Student interests (Ex LVL)"
             href: resources/terms-concepts.qmd
+          - text: "Essay tips"
+            href: exercises/essay-tips.qmd
   repo-url: https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring
   repo-actions: [edit, issue]
   repo-subdir: src

@@ -23,14 +23,16 @@ canvas_db <- psy_511_vars |>
 
 ## Activity
 
-Answer the following questions in a few short sentences:
+::: {.callout-important}
+## Revised
+This exercise was revised on 2026-04-09.
+:::
+
+Write a short (3-5 pp) essay about how and why taking an evolutionary perspective on psychological phenomena can inform understanding. In doing so, you may wish to address some of the following points:
 
 1. What feature(s) of the human brain are similar to closely related animals (e.g., mammals and especially primates)?
 2. What feature(s) of the human brain distinguish it from these closely related animals?
 3. Why is it especially hard to tie changes in human brain structure to particular human psychological characteristics?
-
-Answer the following question in a paragraph or two:
-
 4. Consider a psychological domain that interests you, is an evolutionary perspective useful? Why or why not?
 
 ## Submission details
