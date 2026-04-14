@@ -473,9 +473,9 @@ ex_chem_due <- psy_511_vars |>
   - @Howes2023-vk
   - @Volk2015-ki
 
-<!-- #### Materials -->
+#### Materials
 
-<!-- - [Notes](resources/schizophrenia.qmd) -->
+- [slides](slides/wk-13-2026-04-16-schizophrenia.qmd)
 
 #### Assignment(s)
 
