@@ -3,9 +3,7 @@ title: "Bipolar Disorder & Schizophrenia"
 format: revealjs
 ---
 
-# Prelude
-
-## For fun
+# Preliminaries
 
 ## Announcements
 
@@ -14,10 +12,71 @@ format: revealjs
 
 ## Today's topics
 
+- Warm-up
 - Bipolar disorder
 - Schizophrenia
 
-## Warm-up
+# Warm-up
+
+---
+
+::: question
+## Which neurotransmitter undergirds most *excitatory* neurotransmission in the CNS?
+
+- A. GABA
+- B. ACh
+- C. DA
+- D. Glu
+:::
+
+::: fragment
+::: answer
+- ~~A. GABA~~
+- ~~B. ACh~~
+- ~~C. DA~~
+- **D. Glu**
+:::
+:::
+
+---
+
+::: question
+## Which neurotransmitter plays a *modulatory* role in the CNS, and an *excitatory* role in the PNS?
+
+- A. GABA
+- B. ACh
+- C. DA
+- D. Glu 
+:::
+
+::: fragment
+::: answer
+- ~~A. GABA~~
+- **B. ACh**
+- ~~C. DA~~
+- ~~D. Glu~~
+:::
+:::
+
+---
+
+::: question
+## NTs that play modulatory roles most often act via this type of receptor.
+
+- A. Ionotropic
+- B. Voltage-gated
+- C. Transporter
+- D. Metabotropic
+:::
+
+::: fragment
+::: answer
+- ~~A. Ionotropic~~
+- ~~B. Voltage-gated~~
+- ~~C. Transporter~~
+- **D. Metabotropic**
+:::
+:::
 
 # Bipolar (BP) disorder
 
@@ -53,7 +112,6 @@ format: revealjs
 - Psychosis (hallucinations or delusions)
 - Anxiety, attention-deficit hyperactivity disorder (ADHD)
 - Substance abuse
-
 
 ## (Neuro)biology of BP
 
@@ -102,14 +160,20 @@ format: revealjs
 :::
 ::::
 
-## Brain structure
+---
 
 ![@Ching2022-of Figure 5](../include/img/ching-2022-fig-05.png){#fig-ching-2022-fig-05}
 
+:::: {.columns}
+::: {.column width=50%}
 - Cerebral cortex thinner
   - BP vs. healthy controls (a)
   - BP on anti-convulsant (c)
+:::
+::: {.column width=50%}
 - But, *thicker* for BP on Li (b)
+:::
+::::
 
 ## Brain structure
 

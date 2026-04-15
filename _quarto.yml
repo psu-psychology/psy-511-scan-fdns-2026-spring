@@ -13,11 +13,11 @@ execute:
 
 website:
   title: "PSY 511.001"
-  # announcement:
-  #   content: "Remember that your final project [proposal](exercises/final-project.qmd) is due before Spring Break."
-  #   position: below-navbar
-  #   icon: info-circle
-  #   dismissable: true
+  announcement:
+    content: "[Course evaluations](https://seeq-student.k8s.psu.edu/SEEQ) are live. Please take a moment and rate the course."
+    position: below-navbar
+    icon: info-circle
+    dismissable: true
   sidebar:
     style: "docked"
     search: true
