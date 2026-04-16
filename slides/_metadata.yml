@@ -17,7 +17,7 @@ format:
     author: "Rick Gilmore"
     institute: "Department of Psychology"
     reference-location: document
-lightbox: true
+    lightbox: true
 custom-callout:
   question:
     icon-symbol: "fa-question"

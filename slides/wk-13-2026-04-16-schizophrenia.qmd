@@ -5,6 +5,15 @@ format: revealjs
 
 # Preliminaries
 
+---
+
+::: {#fig-mariah-carey}
+
+<iframe width="972" height="567" src="https://www.youtube.com/embed/UIt3dx4an9c?si=3N5WUyxJaXxdeAPr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+@MariahCareyVEVO2010-sl
+:::
+
 ## Announcements
 
 - *Due*: [Exercise CHEM • Neurochemistry](../exercises/ex-CHEM.qmd)
@@ -282,7 +291,7 @@ format: revealjs
 ---
 
 ::: {#fig-gerald-video}
-<iframe width="1280" height="450" src="https://www.youtube.com/embed/gGnl8dqEoPQ?si=z3vM1hHYmc8MV63B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="972" height="567" src="https://www.youtube.com/embed/gGnl8dqEoPQ?si=z3vM1hHYmc8MV63B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 @Neuroslicer2007-ev
 :::
@@ -290,7 +299,7 @@ format: revealjs
 ---
 
 ::: {#fig-vr-video}
-<iframe width="1280" height="450" src="https://www.youtube.com/embed/YXimT5CHCDE?si=zLaovjTYosKnUbE1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="972" height="567" src="https://www.youtube.com/embed/YXimT5CHCDE?si=zLaovjTYosKnUbE1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 @TheMentallight2010-ea
 :::
