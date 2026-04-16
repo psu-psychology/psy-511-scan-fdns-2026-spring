@@ -385,7 +385,7 @@ format: revealjs
 
 ## Ventricles larger, esp in males
 
-![@Suddath1990-nn](../include/img/schizophrenia-ventricles.jpg)
+![@Suddath1990-nn Figure 2^["MRI Coronal Views from Two Sets of Monozygotic Twins Discordant for Schizophrenia Showing Subtle Enlargement of the Lateral Ventricles in the Affected Twins (Panels B and D) as Compared with the Unaffected Twins (Panels A and C), Even When the Affected Twin Had Small Ventricles."]](../include/img/schizophrenia-ventricles.jpg)
 
 ## Enlargement increases across time
 
