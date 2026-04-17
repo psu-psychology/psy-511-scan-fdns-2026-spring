@@ -496,9 +496,9 @@ ex_chem_due <- psy_511_vars |>
   - @Moncrieff2022-os
   - @Namkung2017-gc
 
-<!-- #### Materials -->
+#### Materials
 
-<!-- - [Notes](resources/affective-disorders.qmd) -->
+- [Slides](slides/wk-14-2026-04-24-aff-disorders.qmd)
 
 ## Week 15: Apr 27 - May 1 
 
@@ -506,6 +506,7 @@ ex_chem_due <- psy_511_vars |>
 
 #### Topics
 
+- Student presentation
 - Frontiers in the biology of behavior
 - Beethoven and the Cerebral Symphony
 

@@ -1,8 +1,9 @@
 ---
 title: "slide-template"
+format: revealjs
 ---
 
-# Prelude
+# Preliminaries
 
 ## For fun
 
@@ -10,10 +11,26 @@ title: "slide-template"
 
 ## Today's topics
 
+- Warm-up
 - Topic 1
 - Topic 2
 
-## Warm-up
+# Warm-up
+
+---
+
+::: question
+## What is your name?
+
+- A. Tom
+- B. Dick
+:::
+
+::: fragment
+::: answer
+- A. Tom
+- B. Dick
+:::
 
 # Topic 1
 
