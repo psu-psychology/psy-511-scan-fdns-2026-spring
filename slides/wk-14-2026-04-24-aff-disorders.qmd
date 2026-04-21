@@ -29,38 +29,65 @@ format: revealjs
 ---
 
 ::: question
-## What is your name?
+## Which of the following statements about bipolar disorder is *false*?
 
-- A. Tom
-- B. Dick
+- A. It is linked to disruption in a specific neurotransmitter system.
+- B. Li can be an effective treatment for both major subtypes.
+- C. It has genetic similarities to SCZ.
+- D. Drug therapies for major depressive disorder can make it worse.
 :::
 
 ::: fragment
 ::: answer
-- A. Tom
-- B. Dick
+- **A. It is linked to disruption in a specific neurotransmitter system.**
+- B. Li can be an effective treatment for both major subtypes.
+- C. It has genetic similarities to SCZ.
+- D. Drug therapies for major depressive disorder can make it worse.
 :::
 :::
 
-# Topic 1
+---
 
-# Topic 2
+::: question
+## The dopamine (DA) hypothesis of schizophrenia holds that
+
+- A. Reduced DA levels are associated with SCZ.
+- B. Elevated DA levels are associated with SCZ.
+- C. Temporally oscillating levels of DA are associated with SCZ.
+- D. DA is released from midbrain loci onto targets in the PNS.
+:::
+
+::: fragment
+::: answer
+- ~~A. Reduced DA levels are associated with SCZ.~~
+- **B. Elevated DA levels are associated with SCZ.**
+- ~~C. Temporally oscillating levels of DA are associated with SCZ.~~
+- ~~D. DA is released from midbrain loci onto targets in the PNS.~~
+:::
+:::
 
 # On mental illness
 
 ## Prevalence: Any
 
-![@UnknownUnknown-na](../include/img/mental-illness-past-year-prevalence-of-2022.png)
+![@UnknownUnknown-na](../include/img/mental-illness-past-year-prevalence-of-2022.png){#fig-mental-illness-prev}
 
 ## Prevalence: Serious
 
-![@UnknownUnknown-na](../include/img/serious-mental-illness-past-year-prevalence-of-2022.png)
+![@UnknownUnknown-na](../include/img/serious-mental-illness-past-year-prevalence-of-2022.png){#fig-mental-illness-prev-2}
+
+## Neuroscience of
+
+- Presume diseases of the mind are disorders of the brain, see @Kendler2024-fz
+
+>The first step toward a knowledge of the symptoms [of insanity] is their locality—to which organ do the indications of the disease belong? … Physiological and pathological factors show us that this organ can only be the brain.
+
+-- @Griesinger1867-wk cited in @Kendler2024-fz
 
 ## Neuroscience of
 
 :::: {.columns}
 ::: {.column width=60%}
-- Presume diseases of the mind are disorders of the brain, see @Kendler2024-fz
 - Diagnose via measurements/observations of behavior & mood
   - e.g., Hamilton Rating Scale for Depression [@Wikipedia-contributors2025-ix; @UnknownUnknown-ef]
 :::
@@ -68,6 +95,7 @@ format: revealjs
 ![<https://medworksmedia.com/rating-scales/the-hamilton-rating-scale-for-depression/>](https://medworksmedia.com/wp-content/uploads/2025/09/Cover-7-13-2.png)
 :::
 ::::
+
 
 ## Neuroscience of...
 
@@ -90,11 +118,11 @@ format: revealjs
 
 ## Heritability of...
 
-![@Pettersson2019-io Figure 1.](../include/img/pettersson-fig-01.png)
+![@Pettersson2019-io Figure 1.](../include/img/pettersson-fig-01.png){#petterson-2019-fig-01}
 
-## Gene & brain measures relate *across* disorders
+## Gene & brain measures relate *across* disorders {.scrollable}
 
-![@Bourque2024-rw](../include/img/bourque-fig-02.png)
+![@Bourque2024-rw](../include/img/bourque-fig-02.png){#fig-bourque-fig-02}
 
 ---
 
@@ -112,7 +140,7 @@ format: revealjs
 - Most of the day, every day, lasting for two weeks or more
 :::
 ::: {.column width=50%}
-![@Khaliq2022-sz](../include/img/mdd-symptoms.png)
+![@Khaliq2022-sz](../include/img/mdd-symptoms.png){#fig-khaliq-2022}
 :::
 ::::
 
@@ -127,12 +155,16 @@ format: revealjs
 
 :::: {.columns}
 ::: {.column width=50%}
-![@UnknownUnknown-qm](../include/img/nsduh-mde-12-17yo.png)
+![@UnknownUnknown-qm](../include/img/nsduh-mde-12-17yo.png){#fig-nsduh-mde}
 :::
 ::: {.column width=50%}
-![@UnknownUnknown-qm](../include/img/nsduh-mde-18+.png)
+![@UnknownUnknown-qm](../include/img/nsduh-mde-18+.png){#fig-nsduh-mde-18}
 :::
 ::::
+
+## Cultural/geographic factors
+
+![@Otte2016-rp Figure 1](../include/img/otte-2016-fig-01.png){width="60%" #fig-otte-2016-fig-01}
 
 ---
 
@@ -140,15 +172,13 @@ format: revealjs
 
 -- @Marx2023-ks
 
-## Causes & effects
+## Pathogenesis {#fig-cui-2024-fig-01 .scrollable}
 
-## Pathogenesis {.scrollable}
-
-![Figure 1 from @Cui2024-tn](../include/img/mdd-pathogenesis.png)
+![@Cui2024-tn Figure 1^["An outline map of the hypotheses to explain MDD pathogenesis. (I) HPA axis dysfunction hypothesis: high levels of glucocorticoids (GCs) play a core role in the pathogenesis of MDD, and thyroid hormone (TH) and estrogen are also involved in functions of the HPA axis; (II) the monoamine hypothesis: the functional deficiency of serotonin (5-HT), dopamine (DA) and norepinephrine (NE) are the main pathogenesis of MDD; (III) the inflammatory hypothesis: the neuro-inflammation induced by reactive oxygen species (ROS), inflammatory cytokines and inflammasomes activation is suggested to promote the occurrence of MDD; (IV) the genetic and epigenetic anomaly hypothesis: some genes are susceptible in the patients with MDD, including presynaptic vesicle trafficking (PCLO), D2 subtype of the dopamine receptor (DRD2), glutamate ionotropic receptor kainate type subunit 5 (GRIK5), metabotropic glutamate receptor 5 (GRM5), calcium voltage-gated channel subunit alpha1 E (CACNA1E), calcium voltage-gated channel auxiliary subunit alpha2 delta1(CACNA2D1), DNA methyltransferases (DNMTs), transcription levels of somatostatin (SST), fatty acid desaturase (FADS); (V) the structural and functional brain remodeling hypothesis: the postmortem results of patients with MDD are mostly associated with the reduced densities of glial cells in the prefrontal cortex (PFC), hippocampus, and amygdala; (VI) the social psychological hypothesis: the traumatic or stressful life events are the high risks of the occurrence of MDD. Adobe Illustrator was used to generate this figure"]](../include/img/mdd-pathogenesis.png){width="60%" #fig-cui-2024-fig-01}
 
 ---
 
-![@Otte2016-rp Figure 3.](../include/img/otte-2015-fig-03.png)
+![@Otte2016-rp Figure 3^["Figure 3 | Biological systems involved in the pathophysiology of MDD. Clinical studies in major depressive disorder (MDD) and relevant animal models have identified pathophysiological features in the central nervous system, as well as the major stress response systems, such as the hypothalamic–pituitary–adrenal (HPA) axis, the autonomic nervous system and the immune system. In the central nervous system, altered neurotransmission and reduced plasticity are evident. These could underlie functional changes in relevant brain circuits (for example, cognitive control and affective–salience networks), smaller regional brain volumes (for example, in the hippocampus) and neuroinflammation, as confirmed in neuroimaging studies. Beyond the central nervous system, chronic hyperactivity impairs feedback regulation of the HPA axis, which is one of the most consistently reported biological features of MDD. Within the immune system, substantial evidence supports increased levels of circulating cytokines and low-grade chronic activation of innate immune cells, including monocytes. However, other aspects of immunity seem to be impaired as exemplified by reduced natural killer (NK) cell cytotoxicity and T cell proliferative capacity. Once it becomes chronic, both HPA axis hyperactivity and inflammation might converge with alterations in the autonomic nervous system to contribute to central nervous system pathobiology as well as cardiovascular and metabolic disease, which often co‑occur with MDD. The sequence of events leading to changes in these interconnected systems and their exact relationship is not known. However, mechanistic studies in animals have shown that alterations in stress response systems can directly and indirectly affect the central nervous system (BOX 3). Conversely, chronic stress and associated changes in behaviour can reproduce many of the stress system alterations, including HPA feedback impairment and inflammation, which suggests a bidirectional link between central and peripheral biological features of MDD. ACTH, adrenocorticotropin; CRH, corticotropin-releasing hormone; TNF, tumour necrosis factor."]](../include/img/otte-2015-fig-03.png){.scrollable width="60%" #fig-otte-2016-fig-03}
 
 ## Heritability
 
@@ -157,17 +187,21 @@ format: revealjs
   - Males 0.41 (twins); 0.36 (non-twin relatives)
 - ~35% [@Geschwind2015-xm; @Otte2016-rp]
 
-## Sex-specific genetic effects {.scrollable}
+## Sex-specific genetic effects
 
-![@Cai2025-cb Figure 1 comment on @Thomas2025-ee](https://media.nature.com/lw767/magazine-assets/d41586-025-03374-0/d41586-025-03374-0_51604912.jpg?as=webp)
+![@Cai2025-cb](../include/img/cai-2025-title.png){#fig-cai-2025-title}
+
+## {.scrollable}
+
+![@Cai2025-cb Figure 1^["Figure 1 | Genetics of sex differences in depression. a, Thomas et al. 1 examine the effects of genetic variants (known as genetic effects) that might underlie sex differences in major depressive disorder (MDD). They propose three groups of genetic effects: group 1 contains shared genetic effects, which have the same direction (increase or decrease in MDD risk) and magnitude (size) in both sexes; group 2 contains sex-dependent genetic effects that differ in magnitude or direction (light grey points), or both, between sexes; group 3 contains sex-specific genetic effects that are present in one sex but not the other. b, One hypothesis is that shared genetic effects act through molecular intermediates (such as genes or proteins) and pathways in the same way in men and women; sex-dependent effects act through the same molecular intermediates but with different effect sizes for men and women (coloured arrows indicate the larger effect); and sex-specific effects act through molecular intermediates specific to one sex. These schematics are illustrative and do not comprehensively show the genetic effects, molecular intermediates or biological pathways that lead to MDD."] comment on @Thomas2025-ee](https://media.nature.com/lw767/magazine-assets/d41586-025-03374-0/d41586-025-03374-0_51604912.jpg?as=webp){#fig-cai-2025-fig-01}
 
 ## Genes and environment interact
 
-![@Otte2016-rp Figure 4.](../include/img/otte-2016-fig-04.png)
+![@Otte2016-rp Figure 4](../include/img/otte-2016-fig-04.png){#fig-otte-2016-fig-04}
 
 ## Smaller brain areas 
 
-![@Otte2016-rp Figure 5.](../include/img/otte-2016-fig-05.png)
+![@Otte2016-rp Figure 5^[" Structural brain alterations in MDD. Regional brain volumes as determined by structural MRI have been investigated in patients with major depressive disorder (MDD) compared with healthy controls in numerous cross-sectional studies. Brain areas with smaller volumes in MDD include the basal ganglia, thalamus, hippocampus and frontal regions, typically with volume differences between 3.5% and 15.5% (left graph) and moderate effect sizes (right graph; error bars indicate 95% confidence intervals). Smaller volumes in the basal ganglia and the hippocampus have also been confirmed when comparing patients with MDD to those with bipolar disorder, suggesting some specificity of these areas for the depressive symptoms that are characteristic of unipolar MDD. Finally, in an independent meta-analysis of structural MRI data using voxel-based morphometry, only smaller volumes in the hippocampus were specific to patients with MDD when compared with other psychiatric disorders. Volume group differences, effect sizes and confidence intervals of MDD compared with healthy controls are based on data from Kempton et al.88, as are the comparisons of MDD and patients with bipolar disorder. Comparisons of MDD with bipolar disorder, schizophrenia, anxiety disorders, obsessive–compulsive disorder or substance use disorder are based on data from Goodkind et al.91."]](../include/img/otte-2016-fig-05.png){#fig-otte-2016-fig-05}
 
 ## Monoamine hypothesis
 
@@ -179,7 +213,7 @@ format: revealjs
 
 - Reserpine [@Wikipedia-contributors2025-ov]
   - reduces blood pressure
-  - NE R antagonist
+  - NE receptor antagonist
   - Early (1950s-60s) use as anti-psychotic drug to treat schizophrenia
   - Once thought to induce depressive symptoms, but see [@Baumeister2003-cw]
 
@@ -219,9 +253,13 @@ format: revealjs
 - Selective Serotonin Norepinephrine Reuptake Inhibitors (SNRIs)
   - Inhibit both 5-HT and NE transporters
 
-## Cymbalta an SNRI
+## Cymbalta (SNRI)
 
-{{< video https://www.youtube.com/embed/OTZvnAF7UsA width="100%" height="70%" >}}
+::: {#fig-cymbalta-commercial}
+{{< video https://www.youtube.com/embed/OTZvnAF7UsA width="972px" height="467px" >}}
+
+@Pries2009-ka
+:::
 
 ## How well do the drugs work?
 
@@ -259,10 +297,9 @@ format: revealjs
 - Drugs fast acting (min), but improvement slow (weeks)
 :::
 ::: {.column width=50%}
-![@Otte2016-rp Figure 7.](../include/img/otte-2016-fig-07.png)
+![@Otte2016-rp Figure 7^["Figure 7 | The mechanisms of action of antidepressant drugs. The selective serotonin reuptake inhibitors (SSRIs; denoted with \*) have been shown to have significant binding (antagonistic) to the serotonin transporter (5‑HTT), thereby blocking serotonin reuptake. The relatively selective noradrenaline reuptake inhibitors (NRIs; denoted with ‡) have also shown at therapeutically relevant doses to have significant binding to the noradrenaline transporter. The tricyclic antidepressants (TCAs; denoted with §) and other cyclic antidepressants, as well as the serotonin–noradrenaline reuptake inhibitors (SNRIs; denoted with ||), block the reuptake of serotonin and noradrenaline by binding to their transporter in varying ratios. TCAs, to varying degrees, are potent blockers of histamine H1 receptors, serotonin 5‑HT2 receptors, muscarinic acetylcholine receptors, and α1‑adrenergic receptors. These effects account for the higher adverse-effect burden of the TCAs than the other classes of antidepressants. The noradrenaline–dopamine reuptake inhibitors (NDRIs; denoted with ¶ ) primarily block the reuptake of noradrenaline and dopamine. The α2‑adrenergic receptor antagonists (denoted with # ) seem to enhance the release of both serotonin and noradrenaline by blocking α2-autoreceptors. More-selective dual-action serotonin receptor antagonists/agonists primarily bind to serotonin 5‑HT2 receptors. Agomelatine is a melatonin receptor (MT1 and MT2) agonist (not shown) and a 5‑HT2C antagonist without anticholinergic or antihistaminergic properties. Most currently used monoamine oxidase (MAO) inhibitors are irreversible inhibitors of both MAOA and MAOB, with dopamine, tyramine and tryptamine being substrates for both isoforms of MAO. Moclobemide is a selective and reversible MAOA inhibitor. In addition, other neurobiological systems (such as γ‑aminobutyric acid, glutamate and opioids) are probably involved in the neurobiology of MDD and are to some extent targeted by more experimental antidepressive substances (such as ketamine). \*\*Serotonin antagonist and reuptake inhibitor."]](../include/img/otte-2016-fig-07.png){#fig-otte-2016-fig-07}
 :::
 ::::
-
 
 ---
 
@@ -278,7 +315,7 @@ format: revealjs
 
 ---
 
->"*The serotonin hypothesis of depression is still influential. We aimed to synthesise and evaluate evidence on whether depression is associated with lowered serotonin concentration or activity in a systematic umbrella review of the principal relevant areas of research. 
+>The serotonin hypothesis of depression is still influential. We aimed to synthesise and evaluate evidence on whether depression is associated with lowered serotonin concentration or activity in a systematic umbrella review of the principal relevant areas of research. 
 
 -- @Moncrieff2022-os
 
@@ -287,6 +324,10 @@ format: revealjs
 >The main areas of serotonin research provide no consistent evidence of there being an association between serotonin and depression, and no support for the hypothesis that depression is caused by lowered serotonin activity or concentrations.
 
 -- @Moncrieff2022-os
+
+---
+
+![giphy.com](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXllMmN6dWQ5MnFqYjNvNnoxM3NrbTRyNng2ZG42Njk0c2ZqY2o0byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lcn0yF1RcLANG/giphy.gif)
 
 ## When drugs *do* work, how?
 
@@ -315,7 +356,7 @@ format: revealjs
 - Anti-depressants upregulate neurogenesis via 5-HT modulation
 - Hippocampus one site where neurogenesis occurs in adults
 
-## Other approaches
+## Beyond SSRIs
 
 - Psychotherapy
 - Other drugs
@@ -325,7 +366,7 @@ format: revealjs
 
 - Effective in treating MDD
 - No clear differences among therapy types
-- Similar outcomes as antidepressant medication
+- Similar outcomes to antidepressant medication
 - @Otte2016-rp
 
 ## Ketamine
@@ -363,15 +404,17 @@ format: revealjs
 - ECT more effective than ketamine?
 :::
 ::: {.column width=50%}
-![Figure 3 from @Ekstrand2021-cq](../include/img/eckstrand-2021-fig3.jpeg)
+![@Ekstrand2021-cq Figure 3^["Figure 3. Mean Montgomery Åsberg Depression Rating Scale (MADRS) score and remission rate over successive treatment sessions in hospitalized patient with major depressive disorder (MDD) randomized to electroconvulsive therapy (ECT) or multiple infusions with racemic ketamine. (A) Mean MADRS scores over the 4-week treatment (thrice weekly) period. Boxes and lines indicate mean scores and 1-sided SD for ECT (black) and ketamine (red). Numbers on the x-axis denote the treatment session that preceded the rating. Baseline and acute indicate ratings done prior to receiving any treatment and 4–5 hours after receiving the first treatment, respectively. (B) Numbers indicate the accumulated percentage of remitters in the treatment groups over time. AE, adverse event; Ket, racemic ketamine."]](../include/img/eckstrand-2021-fig3.jpeg){#fig-ekstrand-2021-fig-03}
 :::
 ::::
 
 ## Deep brain stimulation
 
-{{< video https://www.youtube.com/embed/XCY8uQr2LKo width="100%" height="70%" >}}
+::: {#fig-video-deep-brain-stimulation}
+{{< video https://www.youtube.com/embed/XCY8uQr2LKo width="972px" height="467px" >}}
 
--- @ucsf2021-db
+@ucsf2021-db
+:::
 
 ## Other neurostimulation
 
@@ -382,7 +425,7 @@ format: revealjs
 - Mixed (afferent/efferent)
 :::
 ::: {.column width=50%}
-![@MayoVagus-oj](https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2017/10/24/16/02/mcdc7_vagus_nerve_stimulator-8col.jpg)
+![@MayoVagus-oj](https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2017/10/24/16/02/mcdc7_vagus_nerve_stimulator-8col.jpg){#fig-mayoclinic-vagal-stim}
 :::
 ::::
 
@@ -397,7 +440,7 @@ format: revealjs
 - @Kim2024-ay
 :::
 ::: {.column width=50%}
-![@JaeklUnknown-hd](https://www.brainfacts.org/-/media/Brainfacts2/Diseases-and-Disorders/Therapies/Article-Images/tms-graphic.jpg)
+![@JaeklUnknown-hd](https://www.brainfacts.org/-/media/Brainfacts2/Diseases-and-Disorders/Therapies/Article-Images/tms-graphic.jpg){#fig-brainfacts-tms}
 :::
 ::::
 
@@ -414,10 +457,11 @@ format: revealjs
 - Weak evidence for "chemical imbalance"
 - Monoamine drugs widely prescribed, work sometimes in some people
 - Weak evidence for monoamine hypothesis
-- How reuptake inhibitors alleviate MDD not clear
+- How reuptake inhibitors (e.g.) alleviate MDD not clear
 
 ## Main points  
 
+- MDD ≠ males & females
 - Some evidence for altered HPA system, especially cortisol
 - MDD may mimic chronic stress & affect neural development
 - Ketamine faster acting than monoamine-affecting drugs
