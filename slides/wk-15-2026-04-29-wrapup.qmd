@@ -1,0 +1,181 @@
+---
+title: "That's a wrap"
+format: revealjs
+---
+
+# Preliminaries
+
+## For fun
+
+::: {#fig-immortal-beloved}
+{{< video https://www.youtube.com/watch?v=7qWbcosJdtU height="467px" width="972px" >}}
+
+@Rlzee2010-ll
+:::
+
+## Announcements
+
+- [Final Project](../exercises/final-project.qmd) write-up due *next Thursday, May 7*
+  - [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17170786)
+
+## Today's topics
+
+- Warm-up
+- Student presentation: Faith 
+- Frontiers in the biology of behavior
+- Beethoven and the Cerebral Symphony
+
+# Warm-up
+
+---
+
+::: question
+## What is your name?
+
+- A. Tom
+- B. Dick
+:::
+
+::: fragment
+::: answer
+- A. Tom
+- B. Dick
+:::
+:::
+
+# Student presentation
+
+# Frontiers in the biology of behavior
+
+---
+
+>Everything should be made as simple as possible, but not simpler.
+
+-- @UnknownUnknown-hk
+
+## Psychology is a hub science
+
+>...seven hub sciences can be identified: mathematics, physics, chemistry, earth sciences, medicine, psychology, and the social sciences...public health, neuroscience, neurology, radiology, cardiology, and genetics are among the sciences that fall between psychology and medicine, whereas education and gerontology fall between psychology and the social sciences.
+
+-- @Cacioppo2007-xt commenting on @Boyack2005-bu
+
+## {.scrollable}
+
+![@Boyack2005-bu Figure 3^["Figure 3. Map of science generated using the CC-K50 similarity measure. The map is comprised of 7,121 journals from year 2000. Large font size labels identify major areas of science. Small labels denote the disciplinary topics of nearby large clusters of journals"]](../include/img/boyack-2005-fig-03.png){#fig-boyack-2015-fig-03}
+
+## Psychology is a *systems* science
+
+- @Bronfenbrenner1977-cm
+- Microsystem
+  - Place, time, physical features, activity, participant(s), role(s)
+- Mesosystem
+  - System of microsystems
+- Exosystem
+- Macrosystem
+
+---
+
+![@Guy-Evans2020-tm](https://www.simplypsychology.org/wp-content/uploads/Bronfenbrenner-Ecological-Systems-Theory.jpeg){#fig-bronfenbrenner width="60%"}
+
+## Disprate spatial scales
+
+![@Sejnowski2014-aa Figure 1](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg){#fig-sejnowski-2014}
+
+## Changing across ontogenetic...
+
+![@Oyama2001-cf Table 1.1](../include/img/oyama-2001-table-1.1.png)
+
+## And evolutionary timescales
+
+:::: {.columns}
+::: {.column width=50%}
+- @Jablonka2014-nv
+- Genetic, epigenetic, behavioral, and symbolic inheritance systems
+:::
+::: {.column width=50%}
+![](https://m.media-amazon.com/images/I/71osFreqZxL._SY466_.jpg){fig-align="right"}
+:::
+::::
+
+## If psychology is the study of
+
+- Behavior
+- Mental experience
+
+---
+
+:::: {.columns}
+::: {.column width=50%}
+- What are the prerequisites for a biology of behavior & mental experience?
+:::
+::: {.column width=50%}
+![@Cisek2019-vq Figure 8](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png)
+:::
+::::
+
+## Where is our behaviorome?
+
+![@Cisek2019-vq Figure 1](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig1_HTML.png){#fig-cisek-2019-fig-01}
+
+## What are our *laws*?
+
+- Fechner/Weber/Stevens
+- Fitts
+- Thorndike's Law of Effect
+- Rescorla-Wagner
+
+---
+
+![@Boyack2005-bu Figure 3^["Figure 3. Map of science generated using the CC-K50 similarity measure. The map is comprised of 7,121 journals from year 2000. Large font size labels identify major areas of science. Small labels denote the disciplinary topics of nearby large clusters of journals"]](../include/img/boyack-2005-fig-03.png){#fig-boyack-2015-fig-03 width="60%"}
+
+## Things worth knowing more about
+
+::: {.incremental}
+- Math/Physics: 
+  - Feedback, control theory, cybernetics
+  - Network science
+  - Computation, representation (and its limitations)
+- Medicine:
+  - Microbiome
+  - Immunology, endocrinology, pharmacology, toxicology
+
+:::
+
+## Things worth knowing more about
+
+::: {.incremental}
+- Chemistry
+  - Biochemistry, pharmacology, food science
+- Social sciences
+  - Sociology, political science, economics, anthropology
+  
+:::
+
+---
+
+![https://www.planetary.org/articles/the-best-images-from-artemis-ii](https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1600_crop_center-center_82_line/earthset-artemis-ii.jpg.webp){#fig-artemis-earthrise width="60%"}
+
+# The Cerebral Symphony
+
+---
+
+::: {#fig-beethoven-9th}
+
+{{< video https://www.youtube.com/watch?v=ljGMhDSSGFU height="467px" width="972px" >}}
+
+@Smalin2011-vr
+:::
+
+# Resources
+
+## About
+
+This talk was produced using [Quarto](https://quarto.org) v1.8.27f, using the [RStudio](https://posit.co/products/open-source/rstudio/)
+Integrated Development Environment (IDE), version 2026.4.0.526.
+
+The source files are in R and R Markdown, then rendered to HTML using the
+[revealJS](https://revealjs.com) framework.
+The HTML slides are hosted in a [GitHub repo](https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring) and served by GitHub pages:
+<https://psu-psychology.github.io/psy-511-scan-fdns-2026-spring/>
+
+## References
