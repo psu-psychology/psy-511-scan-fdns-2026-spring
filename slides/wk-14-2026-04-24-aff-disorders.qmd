@@ -208,6 +208,8 @@ format: revealjs
 
 ![@Otte2016-rp Figure 5^[" Structural brain alterations in MDD. Regional brain volumes as determined by structural MRI have been investigated in patients with major depressive disorder (MDD) compared with healthy controls in numerous cross-sectional studies. Brain areas with smaller volumes in MDD include the basal ganglia, thalamus, hippocampus and frontal regions, typically with volume differences between 3.5% and 15.5% (left graph) and moderate effect sizes (right graph; error bars indicate 95% confidence intervals). Smaller volumes in the basal ganglia and the hippocampus have also been confirmed when comparing patients with MDD to those with bipolar disorder, suggesting some specificity of these areas for the depressive symptoms that are characteristic of unipolar MDD. Finally, in an independent meta-analysis of structural MRI data using voxel-based morphometry, only smaller volumes in the hippocampus were specific to patients with MDD when compared with other psychiatric disorders. Volume group differences, effect sizes and confidence intervals of MDD compared with healthy controls are based on data from Kempton et al.88, as are the comparisons of MDD and patients with bipolar disorder. Comparisons of MDD with bipolar disorder, schizophrenia, anxiety disorders, obsessive–compulsive disorder or substance use disorder are based on data from Goodkind et al.91."]](../include/img/otte-2016-fig-05.png){#fig-otte-2016-fig-05}
 
+[Gyrus Rectus](https://radiopaedia.org/articles/gyrus-rectus)
+
 ## Monoamine hypothesis
 
 - Or "chemical imbalance theory"
@@ -462,7 +464,7 @@ format: revealjs
 - Weak evidence for "chemical imbalance"
 - Monoamine drugs widely prescribed, work sometimes in some people
 - Weak evidence for monoamine hypothesis
-- How reuptake inhibitors (e.g.) alleviate MDD not clear
+- How reuptake inhibitors (e.g. Prozac) alleviate MDD not clear
 
 ## Main points  
 
