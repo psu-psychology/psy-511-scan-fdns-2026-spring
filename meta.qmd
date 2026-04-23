@@ -1,0 +1,20 @@
+---
+title: "Meta"
+format: html
+---
+
+## About
+
+This page describes some of the resources used in making and maintaining this site.
+
+## Packages
+
+```{r}
+#| echo: false
+cite_packages(output = "paragraph", out.dir = ".")
+```
+
+
+## References
+
+

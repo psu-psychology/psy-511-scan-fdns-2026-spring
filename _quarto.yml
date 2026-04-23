@@ -118,7 +118,7 @@ format:
     date-modified: last-modified
     date: today
     
-    bibliography: [include/bib/packages.bib, include/bib/psu-repro.bib, include/bib/psy-511.bib]
+    bibliography: [include/bib/packages.bib, include/bib/psu-repro.bib, include/bib/psy-511.bib, include/bib/grateful-refs.bib]
     csl: include/bib/apa.csl
     
     html-math-method: mathjax
