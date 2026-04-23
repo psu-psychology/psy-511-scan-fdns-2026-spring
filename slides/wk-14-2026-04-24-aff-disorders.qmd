@@ -8,7 +8,7 @@ format: revealjs
 ## Prelude
 
 ::: {#fig-seasons-in-the-sun-video}
-{{< video https://www.youtube.com/watch?v=D_P-v1BVQn8&list=RDD_P-v1BVQn8 width="972px" height="467px" >}}
+<iframe width="972" height="467" src="https://www.youtube.com/embed/D_P-v1BVQn8?si=VL1it9LBBDH9NeXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 @valliseasons2006-zx
 :::
@@ -84,11 +84,11 @@ format: revealjs
 
 -- @Griesinger1867-wk cited in @Kendler2024-fz
 
-## Neuroscience of
+## Diagnoses via...
 
 :::: {.columns}
 ::: {.column width=60%}
-- Diagnose via measurements/observations of behavior & mood
+- Measurements/observations and self-reports of behavior & mood
   - e.g., Hamilton Rating Scale for Depression [@Wikipedia-contributors2025-ix; @UnknownUnknown-ef]
 :::
 ::: {.column width=40%}
@@ -97,18 +97,17 @@ format: revealjs
 ::::
 
 
-## Neuroscience of...
+<!-- ## Neuroscience of... -->
 
-:::: {.columns}
-::: {.column width=60%}
-- No biological test or biomarker
-- System-wide effects; no single or simple cause
-:::
-::: {.column width=40%}
-![](../include/img/biomarker-definition.png){fig-align="right"}
-:::
-::::
-    
+<!-- :::: {.columns} -->
+<!-- ::: {.column width=60%} -->
+<!-- - No biological test or biomarker -->
+<!-- ::: -->
+<!-- ::: {.column width=40%} -->
+<!-- ![](../include/img/biomarker-definition.png){fig-align="right"} -->
+<!-- ::: -->
+<!-- :::: -->
+
 ## Heritability of...
 
 + *proportion of variance in trait accounted for by genetic factors*
@@ -123,6 +122,12 @@ format: revealjs
 ## Gene & brain measures relate *across* disorders {.scrollable}
 
 ![@Bourque2024-rw](../include/img/bourque-fig-02.png){#fig-bourque-fig-02}
+
+---
+
+>The majority of correlations (88.6%) across disorders between studies, within and between levels of observation, were positive.
+
+-- @Bourque2024-rw
 
 ---
 
