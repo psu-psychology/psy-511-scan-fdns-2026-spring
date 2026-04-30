@@ -22,7 +22,7 @@ format: revealjs
 
 - Student presentations
   - Faith Lockhart, "BMAL1 and its relation to sleep"
-  - Alex Petryczenko, "Harmonizing Hearts: Respiratory Sinus Arrhythmia (RSA) and Biobehavioral Synchrony as a Marker of Regulatory Capacity"
+  - Alex Petryczenko, "Harmonizing hearts: Respiratory sinus arrhythmia (RSA) and biobehavioral synchrony as a marker of regulatory capacity"
 - Frontiers in the biology of behavior
 - Beethoven and the Cerebral Symphony
 
