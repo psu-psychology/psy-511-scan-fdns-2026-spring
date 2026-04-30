@@ -147,20 +147,10 @@
       margin-right: 0; 
     }
   </style>
+  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
   <style>
-  .reveal div.callout-question.callout {
-    border-left-color: pink;
-  }
-  .reveal div.callout-question.callout-style-default .callout-title {
-    background-color: rgb(from pink r g b / 13%);
-  }
-  .reveal div.callout-question.callout-style-default .callout-icon::before, .reveal div.callout-question.callout-titled .callout-icon::before {
-    font-family: 'Font Awesome 7 Free';
-    font-weight: 900;
-    font-style: normal;
-    content: '\3f' !important;
-    background-image: none;
-  }
   .reveal div.callout-answer.callout {
     border-left-color: blue;
   }
@@ -172,6 +162,19 @@
     font-weight: 900;
     font-style: normal;
     content: '\f5dc' !important;
+    background-image: none;
+  }
+  .reveal div.callout-question.callout {
+    border-left-color: pink;
+  }
+  .reveal div.callout-question.callout-style-default .callout-title {
+    background-color: rgb(from pink r g b / 13%);
+  }
+  .reveal div.callout-question.callout-style-default .callout-icon::before, .reveal div.callout-question.callout-titled .callout-icon::before {
+    font-family: 'Font Awesome 7 Free';
+    font-weight: 900;
+    font-style: normal;
+    content: '\3f' !important;
     background-image: none;
   }
   </style>
@@ -226,57 +229,14 @@ Figure&nbsp;1: <span class="citation" data-cites="Rlzee2010-ll">Rlzee (<a href="
 <section id="todays-topics" class="slide level2">
 <h2>Today’s topics</h2>
 <ul>
-<li>Warm-up</li>
 <li>Student presentations
 <ul>
-<li>“BMAL1 and its relation to sleep”, Faith</li>
-<li>Alex Petr</li>
+<li>Faith Lockhart</li>
+<li>Alex Petryczenko</li>
 </ul></li>
 <li>Frontiers in the biology of behavior</li>
 <li>Beethoven and the Cerebral Symphony</li>
 </ul>
-</section></section>
-<section>
-<section id="warm-up" class="title-slide slide level1 center">
-<h1>Warm-up</h1>
-
-</section>
-<section class="slide level2">
-
-<div class="callout callout-question callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>What is your name?</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li>A. Tom</li>
-<li>B. Dick</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="fragment">
-<div class="callout callout-answer callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Answer</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li>A. Tom</li>
-<li>B. Dick</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
 </section></section>
 <section id="student-presentations" class="title-slide slide level1 center">
 <h1>Student presentations</h1>
@@ -361,8 +321,8 @@ Figure&nbsp;4: <span class="citation" data-cites="Sejnowski2014-aa">Sejnowski, C
 <h2>Changing across ontogenetic…</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="../include/img/oyama-2001-table-1.1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="@Oyama2001-cf Table 1.1"><img data-src="../include/img/oyama-2001-table-1.1.png" alt="(Oyama2001-cf?) Table 1.1"></a></p>
-<figcaption><span class="citation" data-cites="Oyama2001-cf">(<a href="#/references" role="doc-biblioref" onclick=""><strong>Oyama2001-cf?</strong></a>)</span> Table 1.1</figcaption>
+<p><a href="../include/img/oyama-2001-table-1.1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="@Oyama2001-cf Table 1.1"><img data-src="../include/img/oyama-2001-table-1.1.png" alt="Oyama, Griffiths, &amp; Gray (2001) Table 1.1"></a></p>
+<figcaption><span class="citation" data-cites="Oyama2001-cf">Oyama et al. (<a href="#/references" role="doc-biblioref" onclick="">2001</a>)</span> Table 1.1</figcaption>
 </figure>
 </div>
 </section>
@@ -384,22 +344,22 @@ Figure&nbsp;4: <span class="citation" data-cites="Sejnowski2014-aa">Sejnowski, C
 </section>
 <section id="if-psychology-is-the-study-of" class="slide level2">
 <h2>If psychology is the study of</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
 <li>Behavior</li>
 <li>Mental experience</li>
 </ul>
-</section>
-<section class="slide level2">
-
-<div class="columns">
-<div class="column" style="width:50%;">
+<div class="fragment">
 <ul>
 <li>What are the prerequisites for a <em>science</em> of behavior &amp; mental experience?</li>
+<li>Inspired by, grounded in, but not reduced to, biology?</li>
 </ul>
+</div>
 </div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="@Cisek2019-vq Figure 8"><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png" alt="Cisek (2019) Figure 8"></a></p>
+<p><a href="https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="@Cisek2019-vq Figure 8"><img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png" style="width:60.0%" alt="Cisek (2019) Figure 8"></a></p>
 <figcaption><span class="citation" data-cites="Cisek2019-vq">Cisek (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span> Figure 8</figcaption>
 </figure>
 </div>
@@ -408,7 +368,7 @@ Figure&nbsp;4: <span class="citation" data-cites="Sejnowski2014-aa">Sejnowski, C
 <section id="what-is-science" class="slide level2">
 <h2>What is science?</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
+<div class="column" style="width:60%;">
 <ul>
 <li class="fragment">A system for generating new knowledge
 <ul>
@@ -420,7 +380,7 @@ Figure&nbsp;4: <span class="citation" data-cites="Sejnowski2014-aa">Sejnowski, C
 <li class="fragment">Experimental manipulation &amp; testing</li>
 </ul></li>
 </ul>
-</div><div class="column" style="width:50%;">
+</div><div class="column" style="width:40%;">
 <div class="{fragment}">
 <p><a href="../include/img/what-is-science.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="../include/img/what-is-science.png"></a></p>
 </div>
@@ -429,12 +389,12 @@ Figure&nbsp;4: <span class="citation" data-cites="Sejnowski2014-aa">Sejnowski, C
 <section id="what-is-science-1" class="slide level2">
 <h2>What is science?</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
+<div class="column" style="width:60%;">
 <ul>
 <li>Product &amp; process</li>
 <li>Qualitative &amp; quantitative</li>
 </ul>
-</div><div class="column" style="width:50%;">
+</div><div class="column" style="width:40%;">
 <p><a href="../include/img/what-is-science.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="../include/img/what-is-science.png"></a></p>
 </div></div>
 </section>
@@ -454,18 +414,31 @@ Figure&nbsp;5: <span class="citation" data-cites="Cisek2019-vq">Cisek (<a href="
 <section id="what-are-our-laws" class="slide level2">
 <h2>What are our <em>laws</em>?</h2>
 <ul>
-<li>Fechner/Weber/Stevens</li>
-<li>Fitts</li>
-<li>Thorndike’s Law of Effect</li>
-<li>Rescorla-Wagner</li>
+<li><a href="https://en.wikipedia.org/wiki/Weber–Fechner_law">Weber-Fechner Law</a> or Stevens <a href="https://en.wikipedia.org/wiki/Stevens%27s_power_law">Power Law</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Fitts%27s_law">Fitts Law</a></li>
+<li>Thorndike’s <a href="https://en.wikipedia.org/wiki/Law_of_effect">Law of Effect</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Rescorla–Wagner_model">Rescorla-Wagner model</a></li>
+</ul>
+<div class="fragment">
+<ul>
+<li>How do we strengthen, build upon them?</li>
+</ul>
+</div>
+</section>
+<section id="embrace" class="slide level2">
+<h2>Embrace</h2>
+<ul>
+<li>Experimentation</li>
+<li>Systematic description</li>
+<li>Of mental experience &amp; behavior</li>
 </ul>
 </section>
-<section class="slide level2">
-
+<section id="borrow-from-other-nodes" class="slide level2">
+<h2>Borrow from other nodes</h2>
 <div id="fig-boyack-2015-fig-03" class="quarto-float quarto-figure quarto-figure-center">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-boyack-2015-fig-03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="../include/img/boyack-2005-fig-03.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Figure&nbsp;6: @Boyack2005-bu Figure 3"><img data-src="../include/img/boyack-2005-fig-03.png" style="width:60.0%"></a>
+<a href="../include/img/boyack-2005-fig-03.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Figure&nbsp;6: @Boyack2005-bu Figure 3"><img data-src="../include/img/boyack-2005-fig-03.png" style="width:50.0%"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-boyack-2015-fig-03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;6: <span class="citation" data-cites="Boyack2005-bu">Boyack et al. (<a href="#/references" role="doc-biblioref" onclick="">2005</a>)</span> Figure 3<a href="#/footnotes" class="footnote-ref" id="fnref2" role="doc-noteref" data-footnote-href="#/fn2" onclick=""><sup>2</sup></a>
@@ -494,13 +467,34 @@ Figure&nbsp;6: <span class="citation" data-cites="Boyack2005-bu">Boyack et al. (
 <ul>
 <li class="fragment">Chemistry
 <ul>
-<li class="fragment">Biochemistry, pharmacology, food science</li>
+<li class="fragment">Biochemistry, food science</li>
 </ul></li>
 <li class="fragment">Social sciences
 <ul>
-<li class="fragment">Sociology, political science, economics, anthropology</li>
+<li class="fragment">Anthropology, sociology, political science, economics</li>
 </ul></li>
 </ul>
+</section>
+<section class="slide level2">
+
+<h3 id="as-simple-as-possible-but-no-simpler">As simple as possible, but no simpler</h3>
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  N[**N**ervous System] --&gt; B[**B**ody]
+  B --&gt; W[**W**orld]
+  W --&gt; B
+  B --&gt; N
+  M["**M**ind"] -.- N
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section>
 <section class="slide level2">
 
@@ -565,6 +559,9 @@ Guy-Evans, O. (2020). Bronfenbrenner’s ecological systems theory. <em>Simply P
 </div>
 <div id="ref-Jablonka2014-nv" class="csl-entry" role="listitem">
 Jablonka, E., &amp; Lamb, M. J. (2014). <em>Evolution in four dimensions: Genetic, epigenetic, behavioral, and symbolic variation in the history of life</em>. Cambridge, MA: Bradford Books. Retrieved from <a href="https://www.amazon.com/Evolution-Four-Dimensions-Epigenetic-Philosophical/dp/0262525844">https://www.amazon.com/Evolution-Four-Dimensions-Epigenetic-Philosophical/dp/0262525844</a>
+</div>
+<div id="ref-Oyama2001-cf" class="csl-entry" role="listitem">
+Oyama, S., Griffiths, P. E., &amp; Gray, R. D. (2001). Cycles of contingency: Developmental systems and evolution. <em>Xii</em>, <em>377</em>. Retrieved from <a href="https://psycnet.apa.org/record/2001-06709-000">https://psycnet.apa.org/record/2001-06709-000</a>
 </div>
 <div id="ref-UnknownUnknown-hk" class="csl-entry" role="listitem">
 Quote origin: Everything should be made as simple as possible, but not simpler. (n.d.). Retrieved April 22, 2026, from <a href="https://quoteinvestigator.com/2011/05/13/einstein-simple/">https://quoteinvestigator.com/2011/05/13/einstein-simple/</a>

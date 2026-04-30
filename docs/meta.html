@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2026-04-30">
 
-<title>Evaluation – PSY 511.001</title>
+<title>Meta – PSY 511.001</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -31,8 +51,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./policies.html" rel="next">
-<link href="./schedule.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -85,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">Evaluation</h1>
+          <h1 class="quarto-secondary-nav-title">Meta</h1>
         </a>     
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
@@ -126,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./evaluation.html" class="sidebar-item-text sidebar-link active">
+  <a href="./evaluation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Evaluation</span></a>
   </div>
 </li>
@@ -347,18 +365,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#grading-scheme" id="toc-grading-scheme" class="nav-link active" data-scroll-target="#grading-scheme">Grading Scheme</a></li>
-  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a></li>
-  <li><a href="#paperproject" id="toc-paperproject" class="nav-link" data-scroll-target="#paperproject">Paper/Project</a></li>
+  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
+  <li><a href="#packages" id="toc-packages" class="nav-link" data-scroll-target="#packages">Packages</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/edit/main/src/evaluation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/edit/main/src/meta.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Evaluation</h1>
+<h1 class="title d-none d-lg-block">Meta</h1>
 </div>
 
 
@@ -376,7 +394,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">March 3, 2026</p>
+      <p class="date-modified">April 29, 2026</p>
     </div>
   </div>
     
@@ -387,149 +405,67 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>PSY 511 course performance will be evaluated based on the following scheme:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 36%">
-<col style="width: 51%">
-<col style="width: 12%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Component</th>
-<th>Points</th>
-<th>% of Grade</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Exercises</td>
-<td>10 pts/exercise * 6 = 60 pts</td>
-<td>50</td>
-</tr>
-<tr class="even">
-<td>Final Project Proposal</td>
-<td>10</td>
-<td>8.3</td>
-</tr>
-<tr class="odd">
-<td>Final Paper/Project</td>
-<td>35</td>
-<td>29</td>
-</tr>
-<tr class="even">
-<td>Bonus</td>
-<td>15</td>
-<td>12.5</td>
-</tr>
-<tr class="odd">
-<td><strong>TOTAL</strong></td>
-<td><strong>120</strong></td>
-<td><strong>100</strong></td>
-</tr>
-<tr class="even">
-<td>Extra Credit</td>
-<td>One additional exercise may be submitted for up to 10 points</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>There are 11 exercises assigned throughout the semester. You are encouraged to do all of them. However, six (6) of these count toward the final grade.</p>
-<p>The final project proposal is worth 10 points, and the final project submission is worth 35 points.</p>
-<p>One bonus point will be assigned for each class you attend and participate in actively. Note that if you submit more than 6 exercises, any points earned for these will count as bonus points, up to the 15 maximum.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>For clinical students
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Exercises LVL, ANAT, AP, ZZ, EVO, DEV, PHYS, and AP cover material related to biology-related discipline specific knowledge (DSK).</li>
-<li>Exercises LVL, PA, and DEV cover material related to cognitive-related discipline specific knowledge (DSK).</li>
-<li>Exercises LVL, EMO, and DEV cover material related to affect-related discipline specific knowledge (DSK).</li>
-<li>Classroom participation and the final paper/project assess advanced integrative knowledge (AIK).</li>
-<li>For students to receive a passing grade (B or better for the course, they must receive a passing grade (B or better or Satisfactory) for each assignment or activity they select to do that is designed to assess DSK and IAK.</li>
-<li>Students have one opportunity to re-do an assignment if they do not initially receive a passing grade.</li>
-</ul>
-</div>
-</div>
-<section id="grading-scheme" class="level3">
-<h3 class="anchored" data-anchor-id="grading-scheme">Grading Scheme</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Points</th>
-<th>Percent</th>
-<th>Grade</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>113-120</td>
-<td>94-99</td>
-<td>A</td>
-</tr>
-<tr class="even">
-<td>108-112</td>
-<td>90-93</td>
-<td>A-</td>
-</tr>
-<tr class="odd">
-<td>104-107</td>
-<td>87-89</td>
-<td>B+</td>
-</tr>
-<tr class="even">
-<td>101-103</td>
-<td>84-86</td>
-<td>B</td>
-</tr>
-<tr class="odd">
-<td>96-100</td>
-<td>80-83</td>
-<td>B-</td>
-</tr>
-<tr class="even">
-<td>92-95</td>
-<td>77-79</td>
-<td>C+</td>
-</tr>
-<tr class="odd">
-<td>84-91</td>
-<td>70-76</td>
-<td>C</td>
-</tr>
-<tr class="even">
-<td>72-83</td>
-<td>60-69</td>
-<td>D</td>
-</tr>
-<tr class="odd">
-<td>&lt;72</td>
-<td>&lt;60</td>
-<td>F</td>
-</tr>
-</tbody>
-</table>
+<section id="about" class="level2">
+<h2 class="anchored" data-anchor-id="about">About</h2>
+<p>This page describes some of the resources used in making and maintaining this site.</p>
 </section>
-<section id="exercises" class="level2">
-<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
-<p>There will be eight (8) exercises throughout the term. Six (6) of the 8 will count toward the final course grade. Significant work on these can and will be done in-class. More details will be provided for each exercise.</p>
+<section id="packages" class="level2">
+<h2 class="anchored" data-anchor-id="packages">Packages</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>A large number of files (1324 in total) have been discovered.
+It may take renv a long time to scan these files for dependencies.
+Consider using .renvignore to ignore irrelevant files.
+See `]8;;x-r-help:renv::dependencies?renv::dependencies]8;;` for more information.
+Set `options(renv.config.dependencies.limit = Inf)` to disable this warning.</code></pre>
+</div>
+<div class="cell-output-display">
+<p>We used R v. 4.6.0 <span class="citation" data-cites="base">(<a href="#ref-base" role="doc-biblioref">R Core Team, 2026</a>)</span> and the following R packages: igraph v. 2.3.0 <span class="citation" data-cites="igraph2006 igraph2023 igraph2026">(<a href="#ref-igraph2023" role="doc-biblioref">Antonov et al., 2023</a>; <a href="#ref-igraph2026" role="doc-biblioref">Csárdi et al., 2026</a>; <a href="#ref-igraph2006" role="doc-biblioref">Csárdi &amp; Nepusz, 2006</a>)</span>, knitr v. 1.51 <span class="citation" data-cites="knitr2014 knitr2015 knitr2025">(<a href="#ref-knitr2014" role="doc-biblioref">Xie, 2014</a>, <a href="#ref-knitr2015" role="doc-biblioref">2015</a>, <a href="#ref-knitr2025" role="doc-biblioref">2025</a>)</span>, renv v. 1.1.4 <span class="citation" data-cites="renv">(<a href="#ref-renv" role="doc-biblioref">Ushey &amp; Wickham, 2025</a>)</span>, rmarkdown v. 2.31 <span class="citation" data-cites="rmarkdown2018 rmarkdown2020 rmarkdown2026">(<a href="#ref-rmarkdown2018" role="doc-biblioref">Xie, Allaire, &amp; Grolemund, 2018</a>; <a href="#ref-rmarkdown2020" role="doc-biblioref">Xie, Dervieux, &amp; Riederer, 2020</a>; <a href="#ref-rmarkdown2026" role="doc-biblioref"><strong>rmarkdown2026?</strong></a>)</span>, tidyverse v. 2.0.0 <span class="citation" data-cites="tidyverse">(<a href="#ref-tidyverse" role="doc-biblioref">Wickham et al., 2019</a>)</span>.</p>
+</div>
+</div>
 </section>
-<section id="paperproject" class="level2">
-<h2 class="anchored" data-anchor-id="paperproject">Paper/Project</h2>
-<p>A significant part of the grade in PSY 511 is a <a href="./exercises/final-project.html">final paper or project</a>.</p>
-<p>The paper or project can take on a number of forms, depending on a student’s scholarly interests.</p>
-<p>A 1-2 page project proposal, worth ten (10) points, will be due before Spring Break. The final project submission will be due during finals week.</p>
+<section id="references" class="level2">
+
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-igraph2023" class="csl-entry" role="listitem">
+Antonov, M., Csárdi, G., Horvát, S., Müller, K., Nepusz, T., Noom, D., … Zanini, F. (2023). Igraph enables fast and robust network analysis across programming languages. <em>arXiv Preprint arXiv:2311.10260</em>. <a href="https://doi.org/10.48550/arXiv.2311.10260">https://doi.org/10.48550/arXiv.2311.10260</a>
+</div>
+<div id="ref-igraph2006" class="csl-entry" role="listitem">
+Csárdi, G., &amp; Nepusz, T. (2006). The igraph software package for complex network research. <em>InterJournal</em>, <em>Complex Systems</em>, 1695. Retrieved from <a href="https://igraph.org">https://igraph.org</a>
+</div>
+<div id="ref-igraph2026" class="csl-entry" role="listitem">
+Csárdi, G., Nepusz, T., Traag, V., Horvát, S., Zanini, F., Noom, D., … Salmon, M. (2026). <em><span class="nocase">igraph</span>: Network analysis and visualization in r</em>. <a href="https://doi.org/10.5281/zenodo.7682609">https://doi.org/10.5281/zenodo.7682609</a>
+</div>
+<div id="ref-base" class="csl-entry" role="listitem">
+R Core Team. (2026). <em><span>R</span>: A language and environment for statistical computing</em>. Vienna, Austria: R Foundation for Statistical Computing. Retrieved from <a href="https://www.R-project.org/">https://www.R-project.org/</a>
+</div>
+<div id="ref-renv" class="csl-entry" role="listitem">
+Ushey, K., &amp; Wickham, H. (2025). <em><span class="nocase">renv</span>: Project environments</em>. <a href="https://doi.org/10.32614/CRAN.package.renv">https://doi.org/10.32614/CRAN.package.renv</a>
+</div>
+<div id="ref-tidyverse" class="csl-entry" role="listitem">
+Wickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L. D., François, R., … Yutani, H. (2019). Welcome to the <span class="nocase">tidyverse</span>. <em>Journal of Open Source Software</em>, <em>4</em>(43), 1686. <a href="https://doi.org/10.21105/joss.01686">https://doi.org/10.21105/joss.01686</a>
+</div>
+<div id="ref-knitr2014" class="csl-entry" role="listitem">
+Xie, Y. (2014). <span class="nocase">knitr</span>: A comprehensive tool for reproducible research in <span>R</span>. In V. Stodden, F. Leisch, &amp; R. D. Peng (Eds.), <em>Implementing reproducible computational research</em>. Chapman; Hall/CRC.
+</div>
+<div id="ref-knitr2015" class="csl-entry" role="listitem">
+Xie, Y. (2015). <em>Dynamic documents with <span>R</span> and knitr</em> (2nd ed.). Boca Raton, Florida: Chapman; Hall/CRC. Retrieved from <a href="https://yihui.org/knitr/">https://yihui.org/knitr/</a>
+</div>
+<div id="ref-knitr2025" class="csl-entry" role="listitem">
+Xie, Y. (2025). <em><span class="nocase">knitr</span>: A general-purpose package for dynamic report generation in <span>R</span></em>. Retrieved from <a href="https://yihui.org/knitr/">https://yihui.org/knitr/</a>
+</div>
+<div id="ref-rmarkdown2018" class="csl-entry" role="listitem">
+Xie, Y., Allaire, J. J., &amp; Grolemund, G. (2018). <em>R markdown: The definitive guide</em>. Boca Raton, Florida: Chapman; Hall/CRC. Retrieved from <a href="https://bookdown.org/yihui/rmarkdown">https://bookdown.org/yihui/rmarkdown</a>
+</div>
+<div id="ref-rmarkdown2020" class="csl-entry" role="listitem">
+Xie, Y., Dervieux, C., &amp; Riederer, E. (2020). <em>R markdown cookbook</em>. Boca Raton, Florida: Chapman; Hall/CRC. Retrieved from <a href="https://bookdown.org/yihui/rmarkdown-cookbook">https://bookdown.org/yihui/rmarkdown-cookbook</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -930,18 +866,6 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./schedule.html" class="pagination-link" aria-label="Schedule">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Schedule</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./policies.html" class="pagination-link" aria-label="Policies">
-        <span class="nav-page-text">Policies</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -950,7 +874,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
 <p>Built with <a href="https://quarto.org/">Quarto</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/edit/main/src/evaluation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/edit/main/src/meta.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2026-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

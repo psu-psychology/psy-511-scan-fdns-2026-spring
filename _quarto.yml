@@ -78,8 +78,10 @@ website:
             href: slides/wk-12-2026-04-09-neurochemistry.qmd
           - text: "Wk 13 • Thu Apr 16"
             href: slides/wk-13-2026-04-16-schizophrenia.qmd
-          - text: "Wk 14 • Thu Apr 24"
-            href: slides/wk-14-2026-04-24-aff-disorders.qmd
+          - text: "Wk 14 • Thu Apr 23"
+            href: slides/wk-14-2026-04-23-aff-disorders.qmd
+          - text: "Wk 15 • Thu Apr 30"
+            href: slides/wk-15-2026-04-30-wrapup.qmd
       - section: "Resources"
         contents:
           - text: "Student interests (Ex LVL)"

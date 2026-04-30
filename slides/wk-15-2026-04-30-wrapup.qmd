@@ -20,30 +20,13 @@ format: revealjs
 
 ## Today's topics
 
-- Warm-up
-- Student presentation: Faith 
+- Student presentations
+  - Faith Lockhart
+  - Alex Petryczenko
 - Frontiers in the biology of behavior
 - Beethoven and the Cerebral Symphony
 
-# Warm-up
-
----
-
-::: question
-## What is your name?
-
-- A. Tom
-- B. Dick
-:::
-
-::: fragment
-::: answer
-- A. Tom
-- B. Dick
-:::
-:::
-
-# Student presentation
+# Student presentations
 
 # Frontiers in the biology of behavior
 
@@ -99,34 +82,81 @@ format: revealjs
 
 ## If psychology is the study of
 
+:::: {.columns}
+::: {.column width=50%}
 - Behavior
 - Mental experience
 
----
+::: {.fragment}
+- What are the prerequisites for a *science* of behavior & mental experience?
+- Inspired by, grounded in, but not reduced to, biology?
 
-:::: {.columns}
-::: {.column width=50%}
-- What are the prerequisites for a biology of behavior & mental experience?
+:::
 :::
 ::: {.column width=50%}
-![@Cisek2019-vq Figure 8](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png)
+
+![@Cisek2019-vq Figure 8](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png){width="60%"}
 :::
 ::::
 
-## Where is our behaviorome?
+## What is science?
+
+:::: {.columns}
+::: {.column width=60%}
+::: {.incremental}
+- A system for generating new knowledge
+  - Discovering & describing lawful relations relating phenomena
+- Drawn from
+  - Systematic observation & description
+  - Experimental manipulation & testing
+
+:::
+
+:::
+::: {.column width=40%}
+::: {fragment}
+![](../include/img/what-is-science.png)
+:::
+:::
+::::
+
+## What is science?
+
+:::: {.columns}
+::: {.column width=60%}
+- Product & process
+- Qualitative & quantitative
+:::
+::: {.column width=40%}
+![](../include/img/what-is-science.png)
+:::
+::::
+
+## Where is the behaviorome?
 
 ![@Cisek2019-vq Figure 1](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig1_HTML.png){#fig-cisek-2019-fig-01}
 
 ## What are our *laws*?
 
-- Fechner/Weber/Stevens
-- Fitts
-- Thorndike's Law of Effect
-- Rescorla-Wagner
+- [Weber-Fechner Law](https://en.wikipedia.org/wiki/Weber–Fechner_law) or Stevens [Power Law](https://en.wikipedia.org/wiki/Stevens%27s_power_law)
+- [Fitts Law](https://en.wikipedia.org/wiki/Fitts%27s_law)
+- Thorndike's [Law of Effect](https://en.wikipedia.org/wiki/Law_of_effect)
+- [Rescorla-Wagner model](https://en.wikipedia.org/wiki/Rescorla–Wagner_model)
 
----
+::: {.fragment}
+- How do we strengthen, build upon them?
 
-![@Boyack2005-bu Figure 3^["Figure 3. Map of science generated using the CC-K50 similarity measure. The map is comprised of 7,121 journals from year 2000. Large font size labels identify major areas of science. Small labels denote the disciplinary topics of nearby large clusters of journals"]](../include/img/boyack-2005-fig-03.png){#fig-boyack-2015-fig-03 width="60%"}
+:::
+
+## Embrace
+
+- Experimentation
+- Systematic description
+- Of mental experience & behavior
+
+## Borrow from other nodes
+
+![@Boyack2005-bu Figure 3^["Figure 3. Map of science generated using the CC-K50 similarity measure. The map is comprised of 7,121 journals from year 2000. Large font size labels identify major areas of science. Small labels denote the disciplinary topics of nearby large clusters of journals"]](../include/img/boyack-2005-fig-03.png){#fig-boyack-2015-fig-03 width="50%"}
 
 ## Things worth knowing more about
 
@@ -145,11 +175,24 @@ format: revealjs
 
 ::: {.incremental}
 - Chemistry
-  - Biochemistry, pharmacology, food science
+  - Biochemistry, food science
 - Social sciences
-  - Sociology, political science, economics, anthropology
+  - Anthropology, sociology, political science, economics
   
 :::
+
+---
+
+### As simple as possible, but no simpler
+
+```{mermaid}
+flowchart TD
+  N[**N**ervous System] --> B[**B**ody]
+  B --> W[**W**orld]
+  W --> B
+  B --> N
+  M["**M**ind"] -.- N
+```
 
 ---
 

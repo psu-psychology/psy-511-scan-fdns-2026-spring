@@ -1,0 +1,17 @@
+{
+  "hash": "9a3774048c63d54209f9fbb80747e1dd",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Meta\"\nformat: html\n---\n\n## About\n\nThis page describes some of the resources used in making and maintaining this site.\n\n## Packages\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\nA large number of files (1324 in total) have been discovered.\nIt may take renv a long time to scan these files for dependencies.\nConsider using .renvignore to ignore irrelevant files.\nSee `\u001b]8;;x-r-help:renv::dependencies\u0007?renv::dependencies\u001b]8;;\u0007` for more information.\nSet `options(renv.config.dependencies.limit = Inf)` to disable this warning.\n```\n\n\n:::\n\n::: {.cell-output-display}\nWe used R v. 4.6.0 [@base] and the following R packages: igraph v. 2.3.0 [@igraph2006; @igraph2023; @igraph2026], knitr v. 1.51 [@knitr2014; @knitr2015; @knitr2025], renv v. 1.1.4 [@renv], rmarkdown v. 2.31 [@rmarkdown2018; @rmarkdown2020; @rmarkdown2026], tidyverse v. 2.0.0 [@tidyverse].\n:::\n:::\n\n\n## References\n\n\n",
+    "supporting": [
+      "meta_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

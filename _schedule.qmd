@@ -498,7 +498,7 @@ ex_chem_due <- psy_511_vars |>
 
 #### Materials
 
-- [Slides](slides/wk-14-2026-04-24-aff-disorders.qmd)
+- [Slides](slides/wk-14-2026-04-23-aff-disorders.qmd)
 
 ## Week 15: Apr 27 - May 1 
 
@@ -506,13 +506,15 @@ ex_chem_due <- psy_511_vars |>
 
 #### Topics
 
-- Student presentation
+- Student presentations
+  - Faith Lockhart
+  - Alex Petryczenko
 - Frontiers in the biology of behavior
 - Beethoven and the Cerebral Symphony
 
-<!-- #### Materials -->
+#### Materials
 
-<!-- - [Slides]() -->
+- [Slides](slides/wk-15-2026-04-30-wrapup.qmd)
 
 ## Finals: May 4-8
 

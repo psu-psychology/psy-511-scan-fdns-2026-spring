@@ -11,9 +11,9 @@ This page describes some of the resources used in making and maintaining this si
 
 ```{r}
 #| echo: false
-cite_packages(output = "paragraph", out.dir = ".")
+#| warning: false
+grateful::cite_packages(output = "paragraph", out.dir = ".")
 ```
-
 
 ## References
 
