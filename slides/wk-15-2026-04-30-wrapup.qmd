@@ -21,8 +21,8 @@ format: revealjs
 ## Today's topics
 
 - Student presentations
-  - Faith Lockhart
-  - Alex Petryczenko
+  - Faith Lockhart, "BMAL1 and its relation to sleep"
+  - Alex Petryczenko, "Harmonizing Hearts: Respiratory Sinus Arrhythmia (RSA) and Biobehavioral Synchrony as a Marker of Regulatory Capacity"
 - Frontiers in the biology of behavior
 - Beethoven and the Cerebral Symphony
 
