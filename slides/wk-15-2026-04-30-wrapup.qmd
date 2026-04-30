@@ -150,9 +150,9 @@ format: revealjs
 
 ## Embrace
 
-- Experimentation
-- Systematic description
-- Of mental experience & behavior
+- Experimentation AND Systematic description
+- Descriptions of mental experience AND behavior
+- Moving from correlation to causation
 
 ## Borrow from other nodes
 
