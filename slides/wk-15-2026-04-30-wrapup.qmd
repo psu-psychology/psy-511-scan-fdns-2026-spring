@@ -150,9 +150,16 @@ format: revealjs
 
 ## Embrace
 
-- Experimentation AND Systematic description
-- Descriptions of mental experience AND behavior
-- Moving from correlation to causation
+::: {.incremental}
+
+- Embrace
+  - Experimentation AND systematic description
+- Strive for
+  - Descriptions of mental experience AND behavior AND biological states
+- Move from 
+  - Correlation to causation
+  
+:::
 
 ## Borrow from other nodes
 
