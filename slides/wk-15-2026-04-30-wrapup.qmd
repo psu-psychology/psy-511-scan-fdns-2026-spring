@@ -60,7 +60,7 @@ format: revealjs
 
 ![@Guy-Evans2020-tm](https://www.simplypsychology.org/wp-content/uploads/Bronfenbrenner-Ecological-Systems-Theory.jpeg){#fig-bronfenbrenner width="60%"}
 
-## Disprate spatial scales
+## Disparate spatial scales
 
 ![@Sejnowski2014-aa Figure 1](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg){#fig-sejnowski-2014}
 
